@@ -1,0 +1,22 @@
+Which should you use, abstract classes or interfaces?
+
+Consider using abstract classes if any of these statements apply to your situation:
+    1. You want to share code among several closely related classes.
+    2. You expect that classes that extend your abstract class have many common methods or fields,
+        or require access modifiers other than public (such as protected and private).
+    3. You want to declare non-static or non-final fields. This enables you to define methods that can access
+        and modify the state of the object to which they belong.
+
+
+Consider using interfaces if any of these statements apply to your situation:
+    1. You expect that unrelated classes would implement your interface.
+        For example, the interfaces Comparable and Cloneable are implemented by many unrelated classes.
+    2. You want to specify the behavior of a particular data type, but not concerned about who implements its behavior.
+    3. You want to take advantage of multiple inheritance of type.
+    
+An abstract class may have static fields and static methods. You can use these static members with a class reference
+(for example, AbstractClass.staticMethod()) as you would with any other class.
+
+
+Abstract class can extend only one class or one abstract class at a time
+Interface can extend any number of interfaces at a time 
