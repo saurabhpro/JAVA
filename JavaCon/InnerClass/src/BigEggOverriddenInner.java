@@ -52,3 +52,11 @@ public class BigEggOverriddenInner extends Egg {
     }
 
 }
+
+/*
+Egg.Yolk()
+new Egg()
+Egg.Yolk()
+BigEggOverriddenInner.Yolk()
+BigEggOverriddenInner.Yolk.f()
+ */
