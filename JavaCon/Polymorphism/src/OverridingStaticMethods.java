@@ -21,7 +21,7 @@ class ChildStaticOverride extends StaticOverriding {
 public class OverridingStaticMethods {
     public static void main(String[] args) {
         StaticOverriding sOb = new ChildStaticOverride();
-        sOb.show();
+        StaticOverriding.show(); //static show of father
     }
 
 }

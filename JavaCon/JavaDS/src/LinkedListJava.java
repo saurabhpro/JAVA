@@ -1,84 +1,64 @@
+import mylist.Delete;
+import mylist.Display;
+import mylist.Insert;
+import mylist.Node;
+
 /**
  * Created by Saurabh on 8/26/2015.
  */
-
-//package javaDS.list;
-
-class Node {
-    private int info;
-    protected Node next;
-
-    Node() {
-        info = 0;
-        next = null;
-    }
-
-    Node(int a, Node b) {
-        info = a;
-        next = b;
-    }
-
-    public int getData() {
-        return info;
-    }
-}
-
 public class LinkedListJava {
-    Node head;
+    static Node head;
     Node tail;
 
     LinkedListJava() {
         head = tail = null;
     }
 
-    boolean isEmpty() {
-        if (head == null) return true;
-        else return false;
+    static Node insert(Node head) {
+        Insert list = new Insert();
+
+        head = list.insertAtBeg(8, head);
+        head = list.insertAtBeg(7, head);
+        head = list.insertAtBeg(9, head);
+        head = list.insertAtBeg(2, head);
+        head = list.insertAtEnd(-77, head);
+
+        Display.display(head);
+        System.out.println();
+        head = list.insert(5, head, 2);
+        Display.display(head);
+        System.out.println();
+        head = list.insert(6, head, 0);
+        Display.display(head);
+        System.out.println();
+        head = list.insert(11, head, 7);
+
+        return head;
     }
 
-    void insertAtBeg(int num) {
-        Node temp = new Node(num, null);
+    static Node delete(Node head) {
+        Delete list = new Delete();
 
-        if (head == null)
-            head = temp;
-        else {
-            temp.next = head;
-            head = temp;
-        }
-
-    }
-
-    void insertAtEnd(int num) {
-        Node temp = new Node(num, null);
-        Node p = head;
-
-        if (head == null)
-            head = temp;
-
-        while (p.next != null) {
-            p = p.next;
-        }
-        p.next = temp;
-    }
-
-
-    void display() {
-        Node p = head;
-        while (p != null) {
-            System.out.print(p.getData() + " ");
-            p = p.next;
-        }
+        System.out.println();
+        head = list.delete(head, 2);
+        Display.display(head);
+        System.out.println();
+        head = list.delete(head, 0);
+        Display.display(head);
+        System.out.println();
+        head = list.delete(head, 6);
+        return head;
     }
 
     public static void main(String[] args) {
-        LinkedListJava list = new LinkedListJava();
-        list.insertAtBeg(8);
-        list.insertAtBeg(7);
-        list.insertAtBeg(9);
-        list.insertAtBeg(2);
-        list.insertAtEnd(-77);
+        head = insert(head);
 
-        list.display();
+        Display.display(head);
+
+        head = delete(head);
+
+        Display.display(head);
+
     }
 }
 

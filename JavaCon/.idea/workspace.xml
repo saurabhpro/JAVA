@@ -5,20 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="Java Commit&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/AbstractClassInstantiation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Polymorphism/src/CompileTimeOverloading.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Polymorphism/src/CovariantOverriding.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/InnerClass/src/InterfaceInner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/src/MultiCatch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/src/OverloadingException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/src/OverridingInException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Polymorphism/src/OverridingStaticMethods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/src/TryWithResources.java" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Polymorphism\src\CompileOverloading.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\out\production\Polymorphism\CompileOverloading.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polymorphism/OverloadingPitfall.class" afterPath="$PROJECT_DIR$/out/production/Polymorphism/OverloadingPitfall.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exception/ReturnFinally.class" afterPath="$PROJECT_DIR$/out/production/Exception/ReturnFinally.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InnerClass/src/BigEggOverriddenInner.java" afterPath="$PROJECT_DIR$/InnerClass/src/BigEggOverriddenInner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/ArrayList/Collections/ArrayList.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListEmpCloneShallow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSerialization.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSimpleDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSimpleOwnClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListStringCloneShallow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ITCode/src/ArrayQuestions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/Collections.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/JavaInterfaces/src/DeepClone.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaDS/src/mylist/Delete.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaDS/src/mylist/Display.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/ArrayList/src/Emp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ITCode/src/GetAllSubsetByStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaDS/src/mylist/Insert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/JavaInterfaces/JavaInterfaces.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ITCode/src/ListReversePrinting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaDS/src/mylist/Node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ITCode/src/Search.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/JavaInterfaces/src/ShallowClone.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Inheritance/src/SuperClassUpcasted.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaKathy/src/TailRecursiveMain.java" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\out\production\JavaDS\Node.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Inheritance/Base.class" afterPath="$PROJECT_DIR$/out/production/Inheritance/Base.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Inheritance/Child.class" afterPath="$PROJECT_DIR$/out/production/Inheritance/Child.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaKathy/InnerClassQ12$Sorter.class" afterPath="$PROJECT_DIR$/out/production/JavaKathy/InnerClassQ12$Sorter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaDS/LinkedListJava.class" afterPath="$PROJECT_DIR$/out/production/JavaDS/LinkedListJava.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITCode/out/production/ITCode/RecursiveArray.class" afterPath="$PROJECT_DIR$/../ITCode/out/production/ITCode/RecursiveArray.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITCode/out/production/ITCode/Sum.class" afterPath="$PROJECT_DIR$/../ITCode/out/production/ITCode/Sum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITCode/out/production/ITCode/SumTillNum.class" afterPath="$PROJECT_DIR$/../ITCode/out/production/ITCode/SumTillNum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaDS/src/LinkedListJava.java" afterPath="$PROJECT_DIR$/JavaDS/src/LinkedListJava.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Polymorphism/src/OverridingStaticMethods.java" afterPath="$PROJECT_DIR$/Polymorphism/src/OverridingStaticMethods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITCode/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../ITCode/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ITCode/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Java.iws" />
@@ -50,114 +70,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OverridingStaticMethods.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Polymorphism/src/OverridingStaticMethods.java">
+      <file leaf-file-name="ArrayListSimpleDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSimpleDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiamondProblem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interfaces/src/DiamondProblem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InterfaceContract.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interfaces/src/InterfaceContract.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InterfaceInner.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/InnerClass/src/InterfaceInner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34343433">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
               <folding>
-                <element signature="e#80#81#0" expanded="true" />
-                <element signature="e#122#123#0" expanded="true" />
+                <element signature="method#basicOperationShow#0;class#ArrayListSimpleDemo#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BigEggOverriddenInner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InnerClass/src/BigEggOverriddenInner.java">
+      <file leaf-file-name="ArrayListSerialization.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSerialization.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+              <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
               <folding>
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Callbacks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InnerClass/src/Callbacks.java">
+      <file leaf-file-name="DeepClone.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Collections/JavaInterfaces/src/DeepClone.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-              <folding />
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding>
+                <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InheritInner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InnerClass/src/InheritInner.java">
+      <file leaf-file-name="ShallowClone.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Collections/JavaInterfaces/src/ShallowClone.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="New Informations.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interfaces/src/New Informations.txt">
+      <file leaf-file-name="ArrayListStringCloneShallow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListStringCloneShallow.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="static and default in interfaces since 1.8.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interfaces/src/static and default in interfaces since 1.8.txt">
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="ArrayListEmpCloneShallow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListEmpCloneShallow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.78535354">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="When to Use Abstraction and Interfaces.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interfaces/src/When to Use Abstraction and Interfaces.txt">
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="ArrayListSimpleOwnClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSimpleOwnClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.4827585">
-              <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Emp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/Emp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="34" />
+              <folding>
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,27 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Exception/src/ExceptionErrorChild.java" />
-        <option value="$PROJECT_DIR$/SpecialKeywords/src/Final.java" />
-        <option value="$PROJECT_DIR$/out/production/SpecialKeywords/FinalFamily.class" />
-        <option value="$PROJECT_DIR$/Inheritance/src/IninilizationsPosition.java" />
-        <option value="$PROJECT_DIR$/Inheritance/src/InitializationsPosition.java" />
-        <option value="$PROJECT_DIR$/SpecialKeywords/src/FinalFamily.java" />
-        <option value="$PROJECT_DIR$/Exception/src/ReturnFinally.java" />
-        <option value="$PROJECT_DIR$/JavaDS/src/LinkedList.java" />
-        <option value="$PROJECT_DIR$/JavaDS/src/LinkedListJava.java" />
-        <option value="$PROJECT_DIR$/out/production/JavaKathy/LegalIdentifiers.class" />
-        <option value="$PROJECT_DIR$/Inheritance/src/OrderOfExecution.java" />
-        <option value="$PROJECT_DIR$/Inheritance/src/CovariantReturnType.java" />
-        <option value="$PROJECT_DIR$/Polymorphism/src/OverloadingPitfall.java" />
-        <option value="$PROJECT_DIR$/JavaKathy/src/Fundamentals.java" />
-        <option value="$PROJECT_DIR$/Interfaces/src/When to Use Abstraction and Interfaces" />
-        <option value="$PROJECT_DIR$/Interfaces/src/IntefaceContract.java" />
-        <option value="$PROJECT_DIR$/SpecialKeywords/src/PrivateConstructorSingelton.java" />
-        <option value="$PROJECT_DIR$/SpecialKeywords/src/PrivateConstructorSingleton.java" />
-        <option value="$PROJECT_DIR$/out/production/SpecialKeywords/Singleton.class" />
-        <option value="$PROJECT_DIR$/SpecialKeywords/src/Constructors.java" />
-        <option value="$PROJECT_DIR$/SpecialKeywords/src/StaticConstructors.java" />
         <option value="$PROJECT_DIR$/Interfaces/src/When to Use Abstraction and Interfaces.txt" />
         <option value="$PROJECT_DIR$/Interfaces/src/InterfaceContract.java" />
         <option value="$PROJECT_DIR$/Interfaces/src/static and default in interfaces since 1.8" />
@@ -241,6 +225,27 @@
         <option value="$PROJECT_DIR$/Interfaces/src/AbstractClassInstantiation.java" />
         <option value="$PROJECT_DIR$/InnerClass/src/BigEggOverriddenInner.java" />
         <option value="$PROJECT_DIR$/InnerClass/src/InterfaceInner.java" />
+        <option value="$PROJECT_DIR$/JavaKathy/src/TailRecursiveMain.java" />
+        <option value="$PROJECT_DIR$/Inheritance/src/Main.java" />
+        <option value="$PROJECT_DIR$/Inheritance/src/SuperClassUpcasted.java" />
+        <option value="$PROJECT_DIR$/JavaDS/src/mylist/Node.java" />
+        <option value="$PROJECT_DIR$/JavaDS/src/mylist/Display.java" />
+        <option value="$PROJECT_DIR$/JavaDS/src/mylist/Insert.java" />
+        <option value="$PROJECT_DIR$/Polymorphism/src/OverridingStaticMethods.java" />
+        <option value="$PROJECT_DIR$/JavaDS/src/LinkedListJava.java" />
+        <option value="$PROJECT_DIR$/JavaDS/src/mylist/Delete.java" />
+        <option value="$PROJECT_DIR$/Collections/ArrayList/src/ArrayList.java" />
+        <option value="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListDemo.java" />
+        <option value="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSimpleDemo.java" />
+        <option value="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSimpleOwnClass.java" />
+        <option value="$PROJECT_DIR$/Collections/ArrayList/src/Emp.java" />
+        <option value="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSerialization.java" />
+        <option value="$PROJECT_DIR$/Collections/JavaInterfaces/src/CloningShallowDeep.java" />
+        <option value="$PROJECT_DIR$/Collections/JavaInterfaces/src/Cloning.java" />
+        <option value="$PROJECT_DIR$/Collections/JavaInterfaces/src/DeepClone.java" />
+        <option value="$PROJECT_DIR$/Collections/JavaInterfaces/src/ShallowClone.java" />
+        <option value="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListStringCloneShallow.java" />
+        <option value="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListEmpCloneShallow.java" />
       </list>
     </option>
   </component>
@@ -287,6 +292,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,11 +322,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="production" />
+              <option name="myItemId" value="Collections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,15 +336,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
+              <option name="myItemId" value="Collections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="production" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InnerClass" />
+              <option name="myItemId" value="JavaInterfaces" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,21 +354,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Interfaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCon" />
+              <option name="myItemId" value="Collections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Interfaces" />
+              <option name="myItemId" value="JavaInterfaces" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -387,7 +376,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Interfaces" />
+              <option name="myItemId" value="Collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArrayList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaCon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArrayList" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -395,7 +410,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="InterfaceContract.java" />
+              <option name="myItemId" value="ArrayListEmpCloneShallow.java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,55 +424,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="InnerClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCon" />
+              <option name="myItemId" value="Collections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="InnerClass" />
+              <option name="myItemId" value="ArrayList" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InnerClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterfaceInner.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -493,16 +470,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Inheritance\src" />
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Interfaces\src" />
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Polymorphism\src" />
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Generics" />
-      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Inheritance\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BigEggOverriddenInner">
-    <configuration default="false" name="Overriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ArrayListEmpCloneShallow">
+    <configuration default="false" name="ArrayListSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Overriding" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListSerialization" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -511,13 +488,13 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Polymorphism" />
+      <module name="ArrayList" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="CompileTimeOverloadingUsingAnimals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DeepClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="CompileTimeOverloadingUsingAnimals" />
+      <option name="MAIN_CLASS_NAME" value="DeepClone" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -526,13 +503,13 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Polymorphism" />
+      <module name="JavaInterfaces" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="CompileTimeOverloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ShallowClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="CompileTimeOverloading" />
+      <option name="MAIN_CLASS_NAME" value="ShallowClone" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -541,13 +518,13 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Polymorphism" />
+      <module name="JavaInterfaces" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="CovariantOverriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ArrayListStringCloneShallow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="CovariantOverriding" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListStringCloneShallow" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -556,13 +533,13 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Polymorphism" />
+      <module name="ArrayList" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="BigEggOverriddenInner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ArrayListEmpCloneShallow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="BigEggOverriddenInner" />
+      <option name="MAIN_CLASS_NAME" value="ArrayListEmpCloneShallow" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -571,7 +548,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="InnerClass" />
+      <module name="ArrayList" />
       <envs />
       <method />
     </configuration>
@@ -828,19 +805,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Overriding" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CompileTimeOverloadingUsingAnimals" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CompileTimeOverloading" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CovariantOverriding" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BigEggOverriddenInner" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ArrayListSerialization" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DeepClone" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ShallowClone" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ArrayListStringCloneShallow" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ArrayListEmpCloneShallow" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BigEggOverriddenInner" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CovariantOverriding" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CompileTimeOverloading" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CompileTimeOverloadingUsingAnimals" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Overriding" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ArrayListEmpCloneShallow" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ArrayListStringCloneShallow" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ShallowClone" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DeepClone" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ArrayListSerialization" />
       </list>
     </recent_temporary>
   </component>
@@ -870,7 +847,8 @@
       <workItem from="1441049657177" duration="600000" />
       <workItem from="1441053888559" duration="5891000" />
       <workItem from="1441078823416" duration="2686000" />
-      <workItem from="1441127632730" duration="6257000" />
+      <workItem from="1441127632730" duration="9222000" />
+      <workItem from="1441431010063" duration="17229000" />
     </task>
     <task id="LOCAL-00001" summary="Java Commit&#10;">
       <created>1440921977733</created>
@@ -890,11 +868,17 @@
       <option name="project" value="LOCAL" />
       <updated>1441058040393</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Java Commit&#10;">
+      <created>1441175516944</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1441175516944</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84592000" />
+    <option name="totallyTimeSpent" value="104786000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -906,8 +890,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -920,8 +904,9 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33228347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -933,7 +918,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -984,7 +968,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -993,139 +977,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Inheritance/src/InitializationsPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28643215">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inheritance/src/CircularInheritance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interfaces/src/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/JavaKathy/TypeDemotion.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45013478">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/PrivateConstructorSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5728643">
-          <caret line="66" column="115" selection-start-line="66" selection-start-column="115" selection-end-line="66" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/SpecialKeywords/StaticConstructors.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/SpecialKeywords/Singleton.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5444744">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/StaticConstructors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6758794">
-          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/SpecialKeywords/PrivateConstructorSingleton.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13746631">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inheritance/src/CovariantReturnType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InnerClass/MyOuter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.819407">
-          <caret line="26" column="5" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/src/OuterSimpleInner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7651515">
-          <caret line="103" column="72" selection-start-line="103" selection-start-column="72" selection-end-line="103" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaKathy/src/InnerClassQ12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/src/AnonymousClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InnerClass/Callee1.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InnerClass/Incrementable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InnerClass/MyIncrement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27642277">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="3" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InnerClass/Callee2.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.814815">
-          <caret line="18" column="38" selection-start-line="17" selection-start-column="39" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InnerClass/Caller.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.037037">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/InnerClass/Callbacks.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1186,9 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="87" column="71" selection-start-line="87" selection-start-column="71" selection-end-line="87" selection-end-column="71" />
-          <folding>
-            <element signature="docComment;method#close#0;class#B#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1196,7 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1204,9 +1051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1214,9 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#140#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1224,9 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#313#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1234,7 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,11 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8207071">
           <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding>
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1254,9 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1264,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1272,7 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1280,10 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1291,7 +1114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2272727">
           <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1307,11 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="94" selection-start-line="29" selection-start-column="94" selection-end-line="29" selection-end-column="94" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="class#288:435" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1319,7 +1135,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interfaces/src/When to Use Abstraction and Interfaces.txt">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InnerClass/src/Callbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InnerClass/src/InheritInner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InnerClass/src/BigEggOverriddenInner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9141414">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1330,25 +1177,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Interfaces/src/When to Use Abstraction and Interfaces.txt">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.4827585">
-          <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Polymorphism/src/OverridingStaticMethods.java">
+    <entry file="file://$PROJECT_DIR$/JavaDS/src/mylist/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#291#292#0" expanded="false" />
+            <element signature="e#318#319#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaDS/src/mylist/Display.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25757575">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaDS/src/mylist/Insert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.41666666">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InnerClass/src/InterfaceInner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42929292">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inheritance/src/SuperClassUpcasted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaKathy/src/TailRecursiveMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42929292">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#169#170#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interfaces/src/InterfaceContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1361,48 +1250,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Interfaces/src/InterfaceContract.java">
+    <entry file="file://$PROJECT_DIR$/Polymorphism/src/OverridingStaticMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.81565654">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/src/BigEggOverriddenInner.java">
+    <entry file="file://$PROJECT_DIR$/JavaDS/src/LinkedListJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding>
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#221#222#0" expanded="false" />
+            <element signature="e#255#256#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/src/Callbacks.java">
+    <entry file="file://$PROJECT_DIR$/out/production/ArrayList/Emp.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/src/InheritInner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/src/InterfaceInner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34343433">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#80#81#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#0#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/ArrayList/ArrayListSimpleOwnClass.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-35.88889">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#1807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/ArrayList/ArrayListSimpleDemo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6124661">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaDS/src/mylist/Delete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44191918">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSimpleDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="method#basicOperationShow#0;class#ArrayListSimpleDemo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/Emp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSerialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSimpleOwnClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/JavaInterfaces/src/DeepClone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/JavaInterfaces/src/ShallowClone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/jre/lib/rt.jar!/java/util/ArrayList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListStringCloneShallow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListEmpCloneShallow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78535354">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1459,7 +1447,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Exception</last-edited>
+          <last-edited>ArrayList</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
