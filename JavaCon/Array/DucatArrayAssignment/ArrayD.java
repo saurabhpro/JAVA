@@ -32,11 +32,33 @@ public class ArrayD {
         TriangleSum tsum = new TriangleSum();
         System.out.println(tsum.lowerTriangleSum(new int[][]{{1, 2, 3}, {4,5, 6}, {7,8,9}}));
         System.out.println(tsum.upperTriangleSum(new int[][]{{1, 2, 3}, {4,5, 6}, {7,8,9}}));
-
+*/
         SnakePrinting sprin = new SnakePrinting();
         sprin.printDiagonally(new int[][]{{1, 2, 3}, {4,5, 6}, {7,8,9}});
-        sprin.printSnakes(new int[][]{{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}, {13, 14,15,16}});
-
+         /*OutPut
+       1    2    3
+       4    5    6
+       7    8    9
+        1
+        4 2
+        7 5 3
+        8 6
+        9
         */
+        sprin.printSnakes(new int[][]{{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}, {13, 14,15,16}});
+        /*
+       1    2    3    4
+       5    6    7    8
+       9   10   11   12
+      13   14   15   16
+        1
+        2 5
+        9 6 3
+        4 7 10 13
+        14 11 8
+        12 15
+        16
+
+       */
     }
 }

@@ -1,6 +1,5 @@
-public class Main {
-    public static void main(String[] args)
-    {
+public class ByteExpression {
+    public static void main(String[] args) {
         byte a = 9;
         byte b = 10;
         //byte c = a+ b; error
@@ -32,12 +31,13 @@ public class Main {
         is representable in the type of the variable that is byte.
 
         Consider your expression
+    */
+        final byte x = 1;
+        final byte y = 2;
+        byte z = x + y;//This is constant expression and value is known at compile time
+        //So as summation fits into byte it does not raise an compilation error.
 
-         final byte x = 1;
-         final byte y = 2;
-         byte z = x + y;//This is constant expression and value is known at compile time
-        So as summation fits into byte it does not raise an compilation error.
-
+    /*
         Now if you do
 
         final byte x = 100;
