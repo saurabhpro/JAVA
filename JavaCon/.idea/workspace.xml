@@ -5,52 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="Java Commit&#10;">
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\description.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\DharmeshTuts.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\out\production\DharmeshTuts\Main.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\src\Main.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\DucatArrayAssignment.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\out\production\DucatArrayAssignment\ArrayD.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\out\production\DucatArrayAssignment\MaxMin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\out\production\DucatArrayAssignment\SnakePrinting.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\out\production\DucatArrayAssignment\TriangleSum.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\src\ArrayD.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\src\MaxMin.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\src\SnakePrinting.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\src\TriangleSum.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\Collections\ArrayList.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\src\ArrayListEmpCloneShallow.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\src\ArrayListSerialization.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\src\ArrayListSimpleDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\src\ArrayListSimpleOwnClass.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\src\ArrayListStringCloneShallow.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\src\Emp.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\JavaInterfaces\JavaInterfaces.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\JavaInterfaces\src\DeepClone.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\JavaInterfaces\src\ShallowClone.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\src\Main.java" afterPath="$PROJECT_DIR$/SpecialKeywords/src/ByteExpression.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Array/A.class" afterPath="$PROJECT_DIR$/out/production/Array/A.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Array/ArrayOfReferences.class" afterPath="$PROJECT_DIR$/out/production/Array/ArrayOfReferences.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Array/B.class" afterPath="$PROJECT_DIR$/out/production/Array/B.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Array/C.class" afterPath="$PROJECT_DIR$/out/production/Array/C.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Array/IntroToArrays.class" afterPath="$PROJECT_DIR$/out/production/Array/IntroToArrays.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Array/Array.iml" afterPath="$PROJECT_DIR$/Array/Array.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/JavaInterfaces/ComparableString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/ArrayList/ListSortComparable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/ArrayList/ListSortComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/Collections.iml" afterPath="$PROJECT_DIR$/Collections/Collections.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Java.iws" />
@@ -82,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SnakePrinting.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SnakePrinting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Array/DucatArrayAssignment/SnakePrinting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30050504">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -102,12 +60,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ByteExpression.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/ByteExpression.java">
+      <file leaf-file-name="ComparableString.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Collections/JavaInterfaces/ComparableString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding />
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListSortComparable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Collections/ArrayList/ListSortComparable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListSortComparator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Collections/ArrayList/ListSortComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.5025252">
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="docComment;method#compare#0;class#MySalaryComp#0" expanded="false" />
+                <element signature="e#2931#2932#0" expanded="true" />
+                <element signature="e#2980#2981#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,9 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/InnerClass/src/Outer.java" />
-        <option value="$PROJECT_DIR$/Interfaces/src/New Informations.txt" />
-        <option value="$PROJECT_DIR$/InnerClass/src/OuterSimpleInner.java" />
         <option value="$PROJECT_DIR$/InnerClass/src/AnonymousClass.java" />
         <option value="$PROJECT_DIR$/JavaKathy/src/InnerClassQ12.java" />
         <option value="$PROJECT_DIR$/InnerClass/src/InheritInner.java" />
@@ -191,6 +179,9 @@
         <option value="$PROJECT_DIR$/SpecialKeywords/src/ByteExpression.java" />
         <option value="$PROJECT_DIR$/Array/DucatArrayAssignment/SnakePrinting.java" />
         <option value="$PROJECT_DIR$/Array/DucatArrayAssignment/ArrayD.java" />
+        <option value="$PROJECT_DIR$/Collections/JavaInterfaces/ComparableString.java" />
+        <option value="$PROJECT_DIR$/Collections/ArrayList/ListSortComparable.java" />
+        <option value="$PROJECT_DIR$/Collections/ArrayList/ListSortComparator.java" />
       </list>
     </option>
   </component>
@@ -237,6 +228,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -297,6 +290,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArrayList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ListSortComparator.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaCon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArrayList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ListSortComparable.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaCon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArrayList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaCon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Array" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -304,8 +359,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,55 +404,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayListStringCloneShallow">
-    <configuration default="false" name="DeepClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="DeepClone" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaInterfaces" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ShallowClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ShallowClone" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaInterfaces" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ListSortComparator">
     <configuration default="false" name="ArrayListStringCloneShallow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ArrayListStringCloneShallow" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ArrayList" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ArrayListEmpCloneShallow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ArrayListEmpCloneShallow" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -424,6 +432,51 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Array" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ComparableString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ComparableString" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Collections" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ListSortComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ListSortComparable" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Collections" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ListSortComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ListSortComparator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Collections" />
       <envs />
       <method />
     </configuration>
@@ -680,19 +733,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DeepClone" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ShallowClone" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ArrayListStringCloneShallow" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ArrayListEmpCloneShallow" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ArrayD" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ArrayListStringCloneShallow" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ArrayD" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ComparableString" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ListSortComparable" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ListSortComparator" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ArrayListStringCloneShallow" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ArrayD" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ArrayListEmpCloneShallow" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ShallowClone" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DeepClone" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ListSortComparator" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ListSortComparable" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ComparableString" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ArrayListStringCloneShallow" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ArrayD" />
       </list>
     </recent_temporary>
   </component>
@@ -724,7 +777,8 @@
       <workItem from="1441078823416" duration="2686000" />
       <workItem from="1441127632730" duration="9222000" />
       <workItem from="1441431010063" duration="17492000" />
-      <workItem from="1441514491157" duration="875000" />
+      <workItem from="1441514491157" duration="1110000" />
+      <workItem from="1441515838632" duration="2922000" />
     </task>
     <task id="LOCAL-00001" summary="Java Commit&#10;">
       <created>1440921977733</created>
@@ -754,7 +808,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105924000" />
+    <option name="totallyTimeSpent" value="109081000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -767,7 +821,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -780,7 +834,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33228347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -853,6 +907,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Array/DucatArrayAssignment/SnakePrinting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/DucatArrayAssignment/ArrayD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/ByteExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaKathy/src/Fundamentals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1154,6 +1232,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Array/DucatArrayAssignment/SnakePrinting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Array/DucatArrayAssignment/ArrayD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1162,11 +1248,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Array/DucatArrayAssignment/SnakePrinting.java">
+    <entry file="file://$PROJECT_DIR$/Collections/JavaInterfaces/ComparableString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30050504">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding>
+            <element signature="e#5675#5676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/ArrayList/ListSortComparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/ArrayList/ListSortComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5025252">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="docComment;method#compare#0;class#MySalaryComp#0" expanded="false" />
+            <element signature="e#2931#2932#0" expanded="true" />
+            <element signature="e#2980#2981#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
