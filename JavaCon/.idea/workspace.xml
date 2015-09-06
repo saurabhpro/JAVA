@@ -5,40 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="Java Commit&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/ArrayList/Collections/ArrayList.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListEmpCloneShallow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSerialization.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSimpleDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSimpleOwnClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListStringCloneShallow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ITCode/src/ArrayQuestions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/Collections.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/JavaInterfaces/src/DeepClone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaDS/src/mylist/Delete.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaDS/src/mylist/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/ArrayList/src/Emp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ITCode/src/GetAllSubsetByStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaDS/src/mylist/Insert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/JavaInterfaces/JavaInterfaces.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ITCode/src/ListReversePrinting.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaDS/src/mylist/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ITCode/src/Search.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/JavaInterfaces/src/ShallowClone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Inheritance/src/SuperClassUpcasted.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaKathy/src/TailRecursiveMain.java" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\out\production\JavaDS\Node.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Inheritance/Base.class" afterPath="$PROJECT_DIR$/out/production/Inheritance/Base.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Inheritance/Child.class" afterPath="$PROJECT_DIR$/out/production/Inheritance/Child.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaKathy/InnerClassQ12$Sorter.class" afterPath="$PROJECT_DIR$/out/production/JavaKathy/InnerClassQ12$Sorter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaDS/LinkedListJava.class" afterPath="$PROJECT_DIR$/out/production/JavaDS/LinkedListJava.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITCode/out/production/ITCode/RecursiveArray.class" afterPath="$PROJECT_DIR$/../ITCode/out/production/ITCode/RecursiveArray.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITCode/out/production/ITCode/Sum.class" afterPath="$PROJECT_DIR$/../ITCode/out/production/ITCode/Sum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITCode/out/production/ITCode/SumTillNum.class" afterPath="$PROJECT_DIR$/../ITCode/out/production/ITCode/SumTillNum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaDS/src/LinkedListJava.java" afterPath="$PROJECT_DIR$/JavaDS/src/LinkedListJava.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Polymorphism/src/OverridingStaticMethods.java" afterPath="$PROJECT_DIR$/Polymorphism/src/OverridingStaticMethods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITCode/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../ITCode/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ITCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ITCode/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\description.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\DharmeshTuts.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\out\production\DharmeshTuts\Main.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\src\Main.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\DucatArrayAssignment.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\out\production\DucatArrayAssignment\ArrayD.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\out\production\DucatArrayAssignment\MaxMin.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\out\production\DucatArrayAssignment\SnakePrinting.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\out\production\DucatArrayAssignment\TriangleSum.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\src\ArrayD.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\src\MaxMin.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\src\SnakePrinting.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array\DucatArrayAssignment\src\TriangleSum.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\Collections\ArrayList.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\src\ArrayListEmpCloneShallow.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\src\ArrayListSerialization.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\src\ArrayListSimpleDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\src\ArrayListSimpleOwnClass.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\src\ArrayListStringCloneShallow.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\src\Emp.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\JavaInterfaces\JavaInterfaces.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\JavaInterfaces\src\DeepClone.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\JavaInterfaces\src\ShallowClone.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\DharmeshTuts\src\Main.java" afterPath="$PROJECT_DIR$/SpecialKeywords/src/ByteExpression.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Array/A.class" afterPath="$PROJECT_DIR$/out/production/Array/A.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Array/ArrayOfReferences.class" afterPath="$PROJECT_DIR$/out/production/Array/ArrayOfReferences.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Array/B.class" afterPath="$PROJECT_DIR$/out/production/Array/B.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Array/C.class" afterPath="$PROJECT_DIR$/out/production/Array/C.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Array/IntroToArrays.class" afterPath="$PROJECT_DIR$/out/production/Array/IntroToArrays.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Array/Array.iml" afterPath="$PROJECT_DIR$/Array/Array.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Java.iws" />
@@ -70,99 +82,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ArrayListSimpleDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSimpleDemo.java">
+      <file leaf-file-name="SnakePrinting.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Array/DucatArrayAssignment/SnakePrinting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-              <folding>
-                <element signature="method#basicOperationShow#0;class#ArrayListSimpleDemo#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayListSerialization.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSerialization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeepClone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/JavaInterfaces/src/DeepClone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-              <folding>
-                <element signature="e#109#110#0" expanded="true" />
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShallowClone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/JavaInterfaces/src/ShallowClone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.30050504">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayListStringCloneShallow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListStringCloneShallow.java">
+      <file leaf-file-name="ArrayD.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Array/DucatArrayAssignment/ArrayD.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+              <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayListEmpCloneShallow.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListEmpCloneShallow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78535354">
-              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-              <folding>
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayListSimpleOwnClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSimpleOwnClass.java">
+      <file leaf-file-name="ByteExpression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/ByteExpression.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Emp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/Emp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="34" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="34" />
-              <folding>
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-              </folding>
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -195,10 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Interfaces/src/When to Use Abstraction and Interfaces.txt" />
-        <option value="$PROJECT_DIR$/Interfaces/src/InterfaceContract.java" />
-        <option value="$PROJECT_DIR$/Interfaces/src/static and default in interfaces since 1.8" />
-        <option value="$PROJECT_DIR$/InnerClass/src/InnerClass.java" />
         <option value="$PROJECT_DIR$/InnerClass/src/Outer.java" />
         <option value="$PROJECT_DIR$/Interfaces/src/New Informations.txt" />
         <option value="$PROJECT_DIR$/InnerClass/src/OuterSimpleInner.java" />
@@ -246,6 +187,10 @@
         <option value="$PROJECT_DIR$/Collections/JavaInterfaces/src/ShallowClone.java" />
         <option value="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListStringCloneShallow.java" />
         <option value="$PROJECT_DIR$/Collections/ArrayList/src/ArrayListEmpCloneShallow.java" />
+        <option value="$PROJECT_DIR$/SpecialKeywords/src/Main.java" />
+        <option value="$PROJECT_DIR$/SpecialKeywords/src/ByteExpression.java" />
+        <option value="$PROJECT_DIR$/Array/DucatArrayAssignment/SnakePrinting.java" />
+        <option value="$PROJECT_DIR$/Array/DucatArrayAssignment/ArrayD.java" />
       </list>
     </option>
   </component>
@@ -292,8 +237,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -354,87 +297,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaInterfaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArrayList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArrayList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArrayListEmpCloneShallow.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArrayList" />
+              <option name="myItemId" value="Array" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -470,28 +341,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array" />
+      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\SpecialKeywords\src" />
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Inheritance\src" />
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Interfaces\src" />
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Polymorphism\src" />
-      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Generics" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayListEmpCloneShallow">
-    <configuration default="false" name="ArrayListSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ArrayListSerialization" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ArrayList" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ArrayListStringCloneShallow">
     <configuration default="false" name="DeepClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="DeepClone" />
@@ -549,6 +409,21 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="ArrayList" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ArrayD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ArrayD" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Array" />
       <envs />
       <method />
     </configuration>
@@ -805,19 +680,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ArrayListSerialization" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DeepClone" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ShallowClone" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ArrayListStringCloneShallow" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ArrayListEmpCloneShallow" />
+      <item index="0" class="java.lang.String" itemvalue="Application.DeepClone" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ShallowClone" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ArrayListStringCloneShallow" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ArrayListEmpCloneShallow" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ArrayD" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ArrayListEmpCloneShallow" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ArrayListStringCloneShallow" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ShallowClone" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DeepClone" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ArrayListSerialization" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ArrayListStringCloneShallow" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ArrayD" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ArrayListEmpCloneShallow" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ShallowClone" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DeepClone" />
       </list>
     </recent_temporary>
   </component>
@@ -848,7 +723,8 @@
       <workItem from="1441053888559" duration="5891000" />
       <workItem from="1441078823416" duration="2686000" />
       <workItem from="1441127632730" duration="9222000" />
-      <workItem from="1441431010063" duration="17229000" />
+      <workItem from="1441431010063" duration="17492000" />
+      <workItem from="1441514491157" duration="875000" />
     </task>
     <task id="LOCAL-00001" summary="Java Commit&#10;">
       <created>1440921977733</created>
@@ -878,7 +754,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104786000" />
+    <option name="totallyTimeSpent" value="105924000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -890,8 +766,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -904,9 +780,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33228347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -918,6 +793,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -977,20 +853,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out/production/InnerClass/Callbacks.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Polymorphism/src/OverloadingPitfall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2878788">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaKathy/src/Fundamentals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1145,7 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,10 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#291#292#0" expanded="false" />
-            <element signature="e#318#319#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1195,7 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25757575">
           <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,7 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.41666666">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,7 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42929292">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1219,7 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1227,10 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42929292">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#169#170#0" expanded="false" />
-            <element signature="e#191#192#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1238,7 +1087,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1246,7 +1094,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1254,7 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.81565654">
           <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1262,11 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#221#222#0" expanded="false" />
-            <element signature="e#255#256#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1274,9 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#390#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1284,9 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-35.88889">
           <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#1807#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1294,7 +1129,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6124661">
           <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,69 +1136,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44191918">
           <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSimpleDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="method#basicOperationShow#0;class#ArrayListSimpleDemo#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/Emp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="34" />
-          <folding>
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSerialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListSimpleOwnClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/JavaInterfaces/src/DeepClone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/JavaInterfaces/src/ShallowClone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1372,26 +1143,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListStringCloneShallow.java">
+    <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/ByteExpression.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/ArrayList/src/ArrayListEmpCloneShallow.java">
+    <entry file="file://$PROJECT_DIR$/Array/DucatArrayAssignment/ArrayD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78535354">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/DucatArrayAssignment/SnakePrinting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30050504">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
