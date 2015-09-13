@@ -13,6 +13,7 @@ public class LocalExtendsBounds {
 
     static <T extends Number> double add(T x, T y) {
         return x.doubleValue() + y.doubleValue();
+        //+ cannot be applied on T types so x+y is an error
     }
 
     public static void main(String[] args) {

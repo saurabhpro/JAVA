@@ -5,6 +5,10 @@ import java.util.List;
 /**
  * Created by Saurabh on 9/6/2015.
  */
+
+/**
+ * sort() of collections class can sort the objects of those classes which are implementing Comparable interfaces by default
+ */
 class Empl implements Comparable<Empl> {
     int salary;
     String name;
