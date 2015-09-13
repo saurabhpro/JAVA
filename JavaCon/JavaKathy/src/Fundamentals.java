@@ -21,7 +21,7 @@ class LegalIdentifiers {
     public void IdentifiersAndKeywords() {
     }
 
-    ;     //same name as constructor but its a method
+    //same name as constructor but its a method
 
     void show() {
         System.out.println(b);
@@ -34,8 +34,6 @@ class LegalIdentifiers {
     void set$sum(int i) {
         $sum = i;
     }
-
-    ;
 
 
 }

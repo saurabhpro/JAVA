@@ -24,7 +24,7 @@
 
 interface Runnable {
 
-    public static final int NUM = 9;                // implicitly  public static final to make constants
+    int NUM = 9;                // implicitly  public static final to make constants
 
     //bytecode static default void distance() {...}     "default" implicitly pasted
     static void distance() {
@@ -39,7 +39,7 @@ interface Runnable {
      * (use -source 8 or higher to enable default methods)
      */
 
-    public abstract void main();    //since these methods are by default "abstract" they cannot be made strictfp , final, or static
+    void main();    //since these methods are by default "abstract" they cannot be made strictfp , final, or static
 
     default void show() {
         System.out.println("inside interfaces default method:\n\t" +

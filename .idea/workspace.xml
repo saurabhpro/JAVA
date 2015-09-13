@@ -2,7 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a072aac-6b3c-4060-bdfb-e25bcfd3f214" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ITCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/ITCode/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaCon/Exception/src/Assertion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyEditor/src/MyEditor.java" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\.idea\deployment.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\.idea\dictionaries\Saurabh.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\JavaCon.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\myfile" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Array/DucatArrayAssignment/ArrayD.java" afterPath="$PROJECT_DIR$/JavaCon/Array/DucatArrayAssignment/ArrayD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Collections/List/ArrayList/ArrayListCloneShallowEmp.java" afterPath="$PROJECT_DIR$/JavaCon/Collections/List/ArrayList/ArrayListCloneShallowEmp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Inheritance/src/CircularInheritance.java" afterPath="$PROJECT_DIR$/JavaCon/Inheritance/src/CircularInheritance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Inheritance/src/CovariantReturnType.java" afterPath="$PROJECT_DIR$/JavaCon/Inheritance/src/CovariantReturnType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Collections/List/ArrayList/Emp.java" afterPath="$PROJECT_DIR$/JavaCon/Collections/List/ArrayList/Emp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Exception/src/ExceptionErrorChild.java" afterPath="$PROJECT_DIR$/JavaCon/Exception/src/ExceptionErrorChild.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/JavaKathy/src/Fundamentals.java" afterPath="$PROJECT_DIR$/JavaCon/JavaKathy/src/Fundamentals.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Inheritance/src/InitializationsPosition.java" afterPath="$PROJECT_DIR$/JavaCon/Inheritance/src/InitializationsPosition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Interfaces/src/InterfaceContract.java" afterPath="$PROJECT_DIR$/JavaCon/Interfaces/src/InterfaceContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Collections/List/ArrayList/IteratorsForArrayList.java" afterPath="$PROJECT_DIR$/JavaCon/Collections/List/ArrayList/IteratorsForArrayList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Collections/List/Vector/IteratorsForVectors.java" afterPath="$PROJECT_DIR$/JavaCon/Collections/List/Vector/IteratorsForVectors.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Array/DucatArrayAssignment/MaxMin.java" afterPath="$PROJECT_DIR$/JavaCon/Array/DucatArrayAssignment/MaxMin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Inheritance/src/OrderOfExecution.java" afterPath="$PROJECT_DIR$/JavaCon/Inheritance/src/OrderOfExecution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/InnerClass/src/OuterSimpleInner.java" afterPath="$PROJECT_DIR$/JavaCon/InnerClass/src/OuterSimpleInner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Polymorphism/src/OverloadingPitfall.java" afterPath="$PROJECT_DIR$/JavaCon/Polymorphism/src/OverloadingPitfall.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/SpecialKeywords/src/PrivateConstructorSingleton.java" afterPath="$PROJECT_DIR$/JavaCon/SpecialKeywords/src/PrivateConstructorSingleton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Inheritance/src/StaticClass.java" afterPath="$PROJECT_DIR$/JavaCon/Inheritance/src/StaticClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Interfaces/src/Test2.java" afterPath="$PROJECT_DIR$/JavaCon/Interfaces/src/Test2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Array/DucatArrayAssignment/TriangleSum.java" afterPath="$PROJECT_DIR$/JavaCon/Array/DucatArrayAssignment/TriangleSum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon/Generics/src/Wildcards.java" afterPath="$PROJECT_DIR$/JavaCon/Generics/src/Wildcards.java" />
     </list>
     <ignored path="JAVA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,7 +75,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -65,6 +98,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -101,13 +135,12 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaCon" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
@@ -207,11 +240,12 @@
       <updated>1439748932445</updated>
       <workItem from="1439748933943" duration="11000" />
       <workItem from="1440285692625" duration="22000" />
+      <workItem from="1442181231939" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33000" />
+    <option name="totallyTimeSpent" value="50000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />

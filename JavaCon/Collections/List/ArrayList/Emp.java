@@ -53,9 +53,6 @@ class Emp4 {
     public boolean equals(Object ob) {
         System.out.println("Inside Equals of Emp4");
         Emp4 e = (Emp4) ob;
-        if (this.id == e.id)
-            return true;
-        else
-            return false;
+        return this.id == e.id;
     }
 }

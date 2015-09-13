@@ -6,33 +6,96 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="Java Commit&#10;ArrayList Completed&#10;Iterators&#10;Vector">
-<<<<<<< HEAD
-      <change type="MOVED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\List\ArrayList\ArrayListEmpCloneShallow.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListCloneShallowEmp.java" />
-      <change type="MOVED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\List\ArrayList\ArrayListSimpleOwnClass.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSimpleDemoEmp.java" />
-      <change type="MOVED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\List\ArrayList\ArrayListStringCloneShallow.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListCloneShallowString.java" />
-=======
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/List/SyncronizedList/ArrayListProblem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListToArrayAndAsList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ContainsCompareArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/List/SyncronizedList/CopyOnWriteArrayListMy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/IteratorsForArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/List/Vector/IteratorsForVectors.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ReverseShuffleSublistSwapSetTrim.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/List/SyncronizedList/SynchronizedList.java" />
-      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Generics\src\SuperBounds.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\ArrayListEmpCloneShallow.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListEmpCloneShallow.java" />
-      <change type="MOVED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\ArrayListSerialization.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSerialization.java" />
-      <change type="MOVED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\ArrayListSimpleDemo.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSimpleDemo.java" />
-      <change type="MOVED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\ArrayListSimpleOwnClass.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSimpleOwnClass.java" />
-      <change type="MOVED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\ArrayListStringCloneShallow.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListStringCloneShallow.java" />
-      <change type="MOVED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\Emp.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/Emp.java" />
-      <change type="MOVED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\ListSortComparable.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ListSortComparable.java" />
-      <change type="MOVED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\ArrayList\ListSortComparator.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ListSortComparator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/Collections.iml" afterPath="$PROJECT_DIR$/Collections/Collections.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/src/Assertion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interfaces/src/AbstractClassInstantiation.java" afterPath="$PROJECT_DIR$/Interfaces/src/AbstractClassInstantiation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InnerClass/src/AnonymousClass.java" afterPath="$PROJECT_DIR$/InnerClass/src/AnonymousClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Array/DucatArrayAssignment/ArrayD.java" afterPath="$PROJECT_DIR$/Array/DucatArrayAssignment/ArrayD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListCloneShallowEmp.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListCloneShallowEmp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListCloneShallowString.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListCloneShallowString.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/SyncronizedList/ArrayListProblem.java" afterPath="$PROJECT_DIR$/Collections/List/SyncronizedList/ArrayListProblem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSerialization.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSerialization.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSimpleDemo.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSimpleDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSimpleDemoEmp.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSimpleDemoEmp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListToArrayAndAsList.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListToArrayAndAsList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generics/src/ArrayOfGenerics.java" afterPath="$PROJECT_DIR$/Generics/src/ArrayOfGenerics.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Array/src/ArrayOfReferences.java" afterPath="$PROJECT_DIR$/Array/src/ArrayOfReferences.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InnerClass/src/BigEggOverriddenInner.java" afterPath="$PROJECT_DIR$/InnerClass/src/BigEggOverriddenInner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpecialKeywords/src/ByteExpression.java" afterPath="$PROJECT_DIR$/SpecialKeywords/src/ByteExpression.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InnerClass/src/Callbacks.java" afterPath="$PROJECT_DIR$/InnerClass/src/Callbacks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inheritance/src/CircularInheritance.java" afterPath="$PROJECT_DIR$/Inheritance/src/CircularInheritance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/JavaInterfaces/ComparableString.java" afterPath="$PROJECT_DIR$/Collections/JavaInterfaces/ComparableString.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Polymorphism/src/CompileTimeOverloading.java" afterPath="$PROJECT_DIR$/Polymorphism/src/CompileTimeOverloading.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/ArrayList/ContainsCompareArrayList.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ContainsCompareArrayList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/SyncronizedList/CopyOnWriteArrayListMy.java" afterPath="$PROJECT_DIR$/Collections/List/SyncronizedList/CopyOnWriteArrayListMy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Polymorphism/src/CovariantOverriding.java" afterPath="$PROJECT_DIR$/Polymorphism/src/CovariantOverriding.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inheritance/src/CovariantReturnType.java" afterPath="$PROJECT_DIR$/Inheritance/src/CovariantReturnType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/JavaInterfaces/DeepClone.java" afterPath="$PROJECT_DIR$/Collections/JavaInterfaces/DeepClone.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaDS/src/mylist/Delete.java" afterPath="$PROJECT_DIR$/JavaDS/src/mylist/Delete.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interfaces/src/DiamondProblem.java" afterPath="$PROJECT_DIR$/Interfaces/src/DiamondProblem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaDS/src/mylist/Display.java" afterPath="$PROJECT_DIR$/JavaDS/src/mylist/Display.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/ArrayList/Emp.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/Emp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exception/Exception.iml" afterPath="$PROJECT_DIR$/Exception/Exception.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exception/src/ExceptionErrorChild.java" afterPath="$PROJECT_DIR$/Exception/src/ExceptionErrorChild.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaKathy/src/Fundamentals.java" afterPath="$PROJECT_DIR$/JavaKathy/src/Fundamentals.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generics/src/GenOne.java" afterPath="$PROJECT_DIR$/Generics/src/GenOne.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generics/src/GenTwo.java" afterPath="$PROJECT_DIR$/Generics/src/GenTwo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generics/src/GenericBoundInheritance.java" afterPath="$PROJECT_DIR$/Generics/src/GenericBoundInheritance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generics/src/GenericInheritance.java" afterPath="$PROJECT_DIR$/Generics/src/GenericInheritance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generics/Generics.iml" afterPath="$PROJECT_DIR$/Generics/Generics.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InnerClass/src/InheritInner.java" afterPath="$PROJECT_DIR$/InnerClass/src/InheritInner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inheritance/Inheritance.iml" afterPath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inheritance/src/InitializationsPosition.java" afterPath="$PROJECT_DIR$/Inheritance/src/InitializationsPosition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaKathy/src/InnerClassQ12.java" afterPath="$PROJECT_DIR$/JavaKathy/src/InnerClassQ12.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaDS/src/mylist/Insert.java" afterPath="$PROJECT_DIR$/JavaDS/src/mylist/Insert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interfaces/src/InterfaceContract.java" afterPath="$PROJECT_DIR$/Interfaces/src/InterfaceContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InnerClass/src/InterfaceInner.java" afterPath="$PROJECT_DIR$/InnerClass/src/InterfaceInner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interfaces/Interfaces.iml" afterPath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Array/src/IntroToArrays.java" afterPath="$PROJECT_DIR$/Array/src/IntroToArrays.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/ArrayList/IteratorsForArrayList.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/IteratorsForArrayList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/Vector/IteratorsForVectors.java" afterPath="$PROJECT_DIR$/Collections/List/Vector/IteratorsForVectors.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon.iml" afterPath="$PROJECT_DIR$/JavaCon.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaDS/src/LinkedListJava.java" afterPath="$PROJECT_DIR$/JavaDS/src/LinkedListJava.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/ArrayList/ListSortComparable.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ListSortComparable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/ArrayList/ListSortComparator.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ListSortComparator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generics/src/LocalExtendsBounds.java" afterPath="$PROJECT_DIR$/Generics/src/LocalExtendsBounds.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Array/DucatArrayAssignment/MaxMin.java" afterPath="$PROJECT_DIR$/Array/DucatArrayAssignment/MaxMin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InnerClass/src/MethodLocalInnerClass.java" afterPath="$PROJECT_DIR$/InnerClass/src/MethodLocalInnerClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exception/src/MultiCatch.java" afterPath="$PROJECT_DIR$/Exception/src/MultiCatch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaDS/src/mylist/Node.java" afterPath="$PROJECT_DIR$/JavaDS/src/mylist/Node.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generics/src/OnlyGenericMethods.java" afterPath="$PROJECT_DIR$/Generics/src/OnlyGenericMethods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InnerClass/src/OuterSimpleInner.java" afterPath="$PROJECT_DIR$/InnerClass/src/OuterSimpleInner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exception/src/OverloadingException.java" afterPath="$PROJECT_DIR$/Exception/src/OverloadingException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Polymorphism/src/OverloadingPitfall.java" afterPath="$PROJECT_DIR$/Polymorphism/src/OverloadingPitfall.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exception/src/OverridingInException.java" afterPath="$PROJECT_DIR$/Exception/src/OverridingInException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Polymorphism/src/OverridingStaticMethods.java" afterPath="$PROJECT_DIR$/Polymorphism/src/OverridingStaticMethods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" afterPath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpecialKeywords/src/PrivateConstructorSingleton.java" afterPath="$PROJECT_DIR$/SpecialKeywords/src/PrivateConstructorSingleton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exception/src/ReturnFinally.java" afterPath="$PROJECT_DIR$/Exception/src/ReturnFinally.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/ArrayList/ReverseShuffleSublistSwapSetTrim.java" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/ReverseShuffleSublistSwapSetTrim.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Saurabh.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Saurabh.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/JavaInterfaces/ShallowClone.java" afterPath="$PROJECT_DIR$/Collections/JavaInterfaces/ShallowClone.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Array/DucatArrayAssignment/SnakePrinting.java" afterPath="$PROJECT_DIR$/Array/DucatArrayAssignment/SnakePrinting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpecialKeywords/SpecialKeywords.iml" afterPath="$PROJECT_DIR$/SpecialKeywords/SpecialKeywords.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inheritance/src/StaticClass.java" afterPath="$PROJECT_DIR$/Inheritance/src/StaticClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpecialKeywords/src/StaticConstructors.java" afterPath="$PROJECT_DIR$/SpecialKeywords/src/StaticConstructors.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpecialKeywords/src/StaticFamily.java" afterPath="$PROJECT_DIR$/SpecialKeywords/src/StaticFamily.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inheritance/src/SuperClassUpcasted.java" afterPath="$PROJECT_DIR$/Inheritance/src/SuperClassUpcasted.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/SyncronizedList/SynchronizedList.java" afterPath="$PROJECT_DIR$/Collections/List/SyncronizedList/SynchronizedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaKathy/src/TailRecursiveMain.java" afterPath="$PROJECT_DIR$/JavaKathy/src/TailRecursiveMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interfaces/src/Test2.java" afterPath="$PROJECT_DIR$/Interfaces/src/Test2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Array/DucatArrayAssignment/TriangleSum.java" afterPath="$PROJECT_DIR$/Array/DucatArrayAssignment/TriangleSum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exception/src/TryWithResources.java" afterPath="$PROJECT_DIR$/Exception/src/TryWithResources.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interfaces/src/When to Use Abstraction and Interfaces.txt" afterPath="$PROJECT_DIR$/Interfaces/src/When to Use Abstraction and Interfaces.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Interfaces/When to Use Abstraction and Interfaces.txt" afterPath="$PROJECT_DIR$/out/production/Interfaces/When to Use Abstraction and Interfaces.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generics/src/Wildcards.java" afterPath="$PROJECT_DIR$/Generics/src/Wildcards.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
->>>>>>> origin/master
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interfaces/src/static and default in interfaces since 1.8.txt" afterPath="$PROJECT_DIR$/Interfaces/src/static and default in interfaces since 1.8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/vcs.xml" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Java.iws" />
@@ -49,11 +112,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Java$ArrayOfReferences.coverage" NAME="ArrayOfReferences Coverage Results" MODIFIED="1441057727789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-<<<<<<< HEAD
-    <SUITE FILE_PATH="coverage/Java$ArrayListProblem.coverage" NAME="ArrayListProblem Coverage Results" MODIFIED="1442178919540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-=======
     <SUITE FILE_PATH="coverage/Java$ArrayListProblem.coverage" NAME="ArrayListProblem Coverage Results" MODIFIED="1442178439568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
->>>>>>> origin/master
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon" />
@@ -69,71 +128,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-<<<<<<< HEAD
       <file leaf-file-name="ArrayListProblem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collections/List/SyncronizedList/ArrayListProblem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-=======
-      <file leaf-file-name="ArrayListProblem.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Collections/List/SyncronizedList/ArrayListProblem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9747475">
->>>>>>> origin/master
-              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-<<<<<<< HEAD
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayListCloneShallowEmp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/ArrayListCloneShallowEmp.java">
+      <file leaf-file-name="Assertion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exception/src/Assertion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.42171717">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayListSimpleDemoEmp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSimpleDemoEmp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21356784">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding />
-=======
->>>>>>> origin/master
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Emp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/Emp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayListCloneShallowString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/ArrayListCloneShallowString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-=======
->>>>>>> origin/master
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -162,13 +178,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
-=======
-        <option value="$PROJECT_DIR$/Interfaces/src/AbstractClassInstantiation.java" />
         <option value="$PROJECT_DIR$/InnerClass/src/BigEggOverriddenInner.java" />
         <option value="$PROJECT_DIR$/InnerClass/src/InterfaceInner.java" />
         <option value="$PROJECT_DIR$/JavaKathy/src/TailRecursiveMain.java" />
->>>>>>> origin/master
         <option value="$PROJECT_DIR$/Inheritance/src/Main.java" />
         <option value="$PROJECT_DIR$/Inheritance/src/SuperClassUpcasted.java" />
         <option value="$PROJECT_DIR$/JavaDS/src/mylist/Node.java" />
@@ -216,13 +228,7 @@
         <option value="$PROJECT_DIR$/Collections/List/SyncronizedList/ArrayListProblem.java" />
         <option value="$PROJECT_DIR$/Collections/List/SyncronizedList/CopyOnWriteArrayList.java" />
         <option value="$PROJECT_DIR$/Collections/List/SyncronizedList/CopyOnWriteArrayListMy.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListEmpCloneShallow.java" />
-        <option value="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListStringCloneShallow.java" />
-        <option value="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSimpleOwnClass.java" />
-        <option value="$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSimpleOwnEmp.java" />
-=======
->>>>>>> origin/master
+        <option value="$PROJECT_DIR$/Exception/src/Assertion.java" />
       </list>
     </option>
   </component>
@@ -313,6 +319,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Exception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaCon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaCon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Collections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -332,10 +370,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="List" />
-<<<<<<< HEAD
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-=======
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,68 +391,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SyncronizedList" />
+              <option name="myItemId" value="ArrayList" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
->>>>>>> origin/master
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List" />
-<<<<<<< HEAD
-=======
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SyncronizedList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CopyOnWriteArrayListMy.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Collections" />
->>>>>>> origin/master
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="List" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-<<<<<<< HEAD
-=======
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SyncronizedList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ArrayListProblem.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
->>>>>>> origin/master
           </PATH>
         </subPane>
       </pane>
@@ -460,11 +435,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Exception\src" />
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections" />
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Collections\List" />
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Array" />
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\SpecialKeywords\src" />
-      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Inheritance\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -473,38 +448,10 @@
       <recent name="" />
     </key>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Application.ArrayListSimpleDemoEmp">
-    <configuration default="false" name="NonSyncArrayListProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="NonSyncArrayListProblem" />
-=======
-  <component name="RunManager" selected="Application.ArrayListProblem">
-    <configuration default="false" name="Iterators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Iterators" />
->>>>>>> origin/master
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Collections" />
-      <envs />
-      <method />
-    </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="CopyOnWriteArrayListMy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="CopyOnWriteArrayListMy" />
-=======
+  <component name="RunManager" selected="Application.Assertion">
     <configuration default="false" name="SynchronizedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="SynchronizedList" />
->>>>>>> origin/master
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -517,15 +464,9 @@
       <envs />
       <method />
     </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="ArrayListProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ArrayListProblem" />
-=======
     <configuration default="false" name="NonSyncArrayListProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="NonSyncArrayListProblem" />
->>>>>>> origin/master
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -538,15 +479,9 @@
       <envs />
       <method />
     </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="ArrayListSimpleOwnEmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ArrayListSimpleOwnEmp" />
-=======
     <configuration default="false" name="CopyOnWriteArrayListMy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="CopyOnWriteArrayListMy" />
->>>>>>> origin/master
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -559,15 +494,9 @@
       <envs />
       <method />
     </configuration>
-<<<<<<< HEAD
-    <configuration default="false" name="ArrayListSimpleDemoEmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ArrayListSimpleDemoEmp" />
-=======
     <configuration default="false" name="ArrayListProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ArrayListProblem" />
->>>>>>> origin/master
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -577,6 +506,21 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Collections" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Assertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Assertion" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Exception" />
       <envs />
       <method />
     </configuration>
@@ -833,35 +777,19 @@
       <method />
     </configuration>
     <list size="5">
-<<<<<<< HEAD
-      <item index="0" class="java.lang.String" itemvalue="Application.NonSyncArrayListProblem" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CopyOnWriteArrayListMy" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ArrayListProblem" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ArrayListSimpleOwnEmp" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ArrayListSimpleDemoEmp" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SynchronizedList" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NonSyncArrayListProblem" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CopyOnWriteArrayListMy" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ArrayListProblem" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Assertion" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ArrayListSimpleDemoEmp" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ArrayListSimpleOwnEmp" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ArrayListProblem" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CopyOnWriteArrayListMy" />
-        <item index="4" class="java.lang.String" itemvalue="Application.NonSyncArrayListProblem" />
-=======
-      <item index="0" class="java.lang.String" itemvalue="Application.Iterators" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SynchronizedList" />
-      <item index="2" class="java.lang.String" itemvalue="Application.NonSyncArrayListProblem" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CopyOnWriteArrayListMy" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ArrayListProblem" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ArrayListProblem" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Assertion" />
         <item index="1" class="java.lang.String" itemvalue="Application.CopyOnWriteArrayListMy" />
-        <item index="2" class="java.lang.String" itemvalue="Application.NonSyncArrayListProblem" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SynchronizedList" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Iterators" />
->>>>>>> origin/master
+        <item index="2" class="java.lang.String" itemvalue="Application.ArrayListProblem" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NonSyncArrayListProblem" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SynchronizedList" />
       </list>
     </recent_temporary>
   </component>
@@ -896,11 +824,8 @@
       <workItem from="1441514491157" duration="1110000" />
       <workItem from="1441515838632" duration="9113000" />
       <workItem from="1442088315363" duration="6204000" />
-<<<<<<< HEAD
-      <workItem from="1442129583638" duration="6295000" />
-=======
       <workItem from="1442129583638" duration="5577000" />
->>>>>>> origin/master
+      <workItem from="1442182626728" duration="156000" />
     </task>
     <task id="LOCAL-00001" summary="Java Commit&#10;">
       <created>1440921977733</created>
@@ -932,25 +857,11 @@
       <option name="project" value="LOCAL" />
       <updated>1441518868776</updated>
     </task>
-<<<<<<< HEAD
-    <task id="LOCAL-00006" summary="Java Commit&#10;ArrayList Completed&#10;Iterators&#10;Vector">
-      <created>1442178534822</created>
-      <option name="number" value="00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1442178534822</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
-    <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127771000" />
-=======
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127053000" />
->>>>>>> origin/master
+    <option name="totallyTimeSpent" value="127209000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -967,22 +878,17 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33228347" sideWeight="0.50292826" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33228347" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33228347" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
->>>>>>> origin/master
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33228347" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -991,9 +897,10 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1045,14 +952,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Collections/List/SyncronizedList/ArrayListProblem.java</url>
-          <line>75</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
@@ -1062,6 +961,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Collections/List/SyncronizedList/ArrayListProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Exception/src/ExceptionErrorChild.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1105,13 +1014,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Interfaces/src/When to Use Abstraction and Interfaces.txt">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/InnerClass/src/Callbacks.java">
@@ -1136,13 +1045,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Interfaces/src/static and default in interfaces since 1.8.txt">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaDS/src/mylist/Node.java">
@@ -1275,7 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,14 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42009884">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="docComment;method#compare#0;class#MySalaryComp#0" expanded="false" />
-            <element signature="e#2931#2932#0" expanded="true" />
-            <element signature="e#2980#2981#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1298,9 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38385502">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1308,9 +1205,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1318,9 +1212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1342,52 +1233,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="102" column="1" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSerialization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-=======
     <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/Emp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
->>>>>>> origin/master
-          <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSimpleDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-=======
-    <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/ArrayListEmpCloneShallow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
->>>>>>> origin/master
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/ArrayListToArrayAndAsList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-=======
     <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSerialization.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1395,36 +1254,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSimpleOwnClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/ArrayListStringCloneShallow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/ArrayListToArrayAndAsList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
->>>>>>> origin/master
           <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ArrayListToArray#0;class#ArrayListToArrayAndAsList#0" expanded="false" />
-            <element signature="method#ArrayListArrayToList#0;class#ArrayListToArrayAndAsList#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1432,15 +1268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
-<<<<<<< HEAD
-          <folding>
-            <element signature="method#compareStringArrayListUsingContains#0;class#ContainsCompareArrayList#0" expanded="false" />
-            <element signature="method#containsAllMyList#0;class#ContainsCompareArrayList#0" expanded="false" />
-=======
-          <folding>
-            <element signature="method#compareStringArrayListUsingContains#0;class#ContainsCompareArrayList#0" expanded="false" />
-            <element signature="method#containsAllMyList#0;class#ContainsCompareArrayList#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1448,7 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1456,32 +1282,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.50252527">
           <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
->>>>>>> origin/master
-          </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/Collections/JavaInterfaces/DeepClone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/List/SyncronizedList/SynchronizedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50252527">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-=======
     <entry file="file://$PROJECT_DIR$/Collections/List/Vector/IteratorsForVectors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65656567">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1489,35 +1296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54545456">
           <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/List/SyncronizedList/CopyOnWriteArrayListMy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
->>>>>>> origin/master
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/Collections/List/Vector/IteratorsForVectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65656567">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/IteratorsForArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54545456">
-          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1534,46 +1312,17 @@
     <entry file="file://$PROJECT_DIR$/Collections/List/SyncronizedList/ArrayListProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-=======
-    <entry file="file://$PROJECT_DIR$/Collections/List/SyncronizedList/ArrayListProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9747475">
->>>>>>> origin/master
-          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/Emp.java">
+    <entry file="file://$PROJECT_DIR$/Exception/src/Assertion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/ArrayListCloneShallowString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/ArrayListCloneShallowEmp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/ArrayListSimpleDemoEmp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21356784">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.42171717">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding />
         </state>
       </provider>
