@@ -4,12 +4,12 @@ import java.util.Iterator;
 /**
  * Created by Saurabh on 9/6/2015.
  */
-public class ArrayListSimpleOwnClass {
+public class ArrayListSimpleDemoEmp {
 
     ArrayList<Emp> al;
 
     //Initializer Constructor
-    ArrayListSimpleOwnClass() {
+    ArrayListSimpleDemoEmp() {
         al = new ArrayList<>();
         al.add(new Emp(1001, "Ram"));
         al.add(new Emp(1002, "Shyam"));
@@ -18,7 +18,7 @@ public class ArrayListSimpleOwnClass {
     }
 
     public static void main(String[] args) {
-        ArrayListSimpleOwnClass aOb = new ArrayListSimpleOwnClass();
+        ArrayListSimpleDemoEmp aOb = new ArrayListSimpleDemoEmp();
         aOb.ownClassArrayListIterator();
         aOb.ownClassRemoveWithEquals();
     }

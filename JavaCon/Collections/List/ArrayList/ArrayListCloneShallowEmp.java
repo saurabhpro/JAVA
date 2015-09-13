@@ -12,7 +12,7 @@ class EmpClone implements Cloneable {
     }
 }
 
-public class ArrayListEmpCloneShallow {
+public class ArrayListCloneShallowEmp {
     public static void main(String[] args) {
         ArrayList<EmpClone> al = new ArrayList<>();
         al.add(new EmpClone(1001));

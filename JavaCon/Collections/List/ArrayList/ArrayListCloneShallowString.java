@@ -4,7 +4,7 @@ import java.util.ArrayList;
  * Created by Saurabh on 9/6/2015.
  */
 
-public class ArrayListStringCloneShallow {
+public class ArrayListCloneShallowString {
     public static void main(String[] args) {
         ArrayList<String> al = new ArrayList<>();
         //adding elements to end

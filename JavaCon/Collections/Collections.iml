@@ -5,7 +5,9 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/JavaInterfaces" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ArrayList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/List/ArrayList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/List/Vector" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/List/SyncronizedList" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

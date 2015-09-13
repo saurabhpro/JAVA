@@ -33,3 +33,29 @@ class Emp2 implements Serializable {
         this.x = x;
     }
 }
+
+class Emp3 {
+    int x;
+
+    Emp3(int x) {
+        this.x = x;
+    }
+}
+
+class Emp4 {
+    int id;
+
+    Emp4(int id) {
+        this.id = id;
+    }
+
+    @Override
+    public boolean equals(Object ob) {
+        System.out.println("Inside Equals of Emp4");
+        Emp4 e = (Emp4) ob;
+        if (this.id == e.id)
+            return true;
+        else
+            return false;
+    }
+}
