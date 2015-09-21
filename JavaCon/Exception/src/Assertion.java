@@ -23,7 +23,7 @@ public class Assertion {
             //assert t > 1 : foo(8); /* the : part must resolve to a value of any type but void doesnt resolve to any value */
             System.out.println("done ");
         } catch (AssertionError e) {
-            System.out.println(e);
+            e.printStackTrace();
         }
 
     }

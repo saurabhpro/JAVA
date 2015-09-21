@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/List/ArrayList" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/List/Vector" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/List/SyncronizedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/List/LinkedList" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
