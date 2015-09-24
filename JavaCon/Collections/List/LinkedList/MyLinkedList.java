@@ -5,23 +5,9 @@ import java.util.Scanner;
  */
 
 class LinkList {
-    static class Node {
-
-        protected Node next;
-        private int info;
-
-        Node(int info) {
-            this.info = info;
-            next = null;    //not necessary as next is instance variable
-        }
-
-        int getInfo() {
-            return info;
-        }
-    }
-
     Node head;
     Node tail;
+
     LinkList() {
         head = tail = null;
     }
@@ -79,6 +65,30 @@ class LinkList {
         return temp;
     }
 
+    boolean find(int num) {
+        Node current = head;
+        while (current.getInfo() != num && current != null)
+            current = current.next;
+
+        return current!=null;
+    }
+
+    Node findAndDelete(int key) {
+        Node current = head;
+        Node previous = null;
+
+        while (current.getInfo() != key && current != null) {
+            previous = current;
+            current = current.next;
+        }
+
+        if (current.getInfo() == key && previous != null)
+            previous.next = current.next;
+
+        return current;
+
+    }
+
     void display() {
         Node current = head;
         while (current != null) {
@@ -87,9 +97,21 @@ class LinkList {
         }
     }
 
+    static class Node {
 
+        protected Node next;
+        private int info;
+
+        Node(int info) {
+            this.info = info;
+            next = null;    //not necessary as next is instance variable
+        }
+
+        int getInfo() {
+            return info;
+        }
+    }
 }
-
 
 public class MyLinkedList {
 

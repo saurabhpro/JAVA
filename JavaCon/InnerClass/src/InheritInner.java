@@ -24,6 +24,16 @@ public class InheritInner extends WithinInner.Inner {
         wi.super();
     }
 
+    /**
+     * having class with same name as base class don't do anything
+     */
+    class Inner extends WithinInner.Inner {
+        Inner(WithinInner wi) {
+            //enclosingClassReference.super();
+            wi.super();
+        }
+    }
+    //class Inner{} or this
 
     public static void main(String[] args) {
         WithinInner wi = new WithinInner();
@@ -31,4 +41,6 @@ public class InheritInner extends WithinInner.Inner {
         //sending the instance of type WithinInner via InheritInner Constructor
         InheritInner ii = new InheritInner(wi);
     }
+
+
 }

@@ -6,12 +6,22 @@ interface Inn {
         System.out.println("show");
     }
 
+    void disp();
+
     class InterfaceInner {
         public static void main(String[] args) {
             System.out.println("Hello");
-            InterfaceInner in = new InterfaceInner();
+            Inn in = (Inn) new InterfaceInner();
+            Inn inn = new InterfaceInner2();
             show();
         }
     }
-}
 
+    class InterfaceInner2 implements Inn {
+
+        @Override
+        public void disp() {
+            System.out.println("Inside Inner class in interface");
+        }
+    }
+}

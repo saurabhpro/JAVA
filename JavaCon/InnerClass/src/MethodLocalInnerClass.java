@@ -42,9 +42,9 @@ class MyOuter2 {
      * @param st
      */
     static void doOtherStuff(String st) {
-
-        //Local classes are non-static because they have access to instance members of the enclosing block.
-        // Consequently, they cannot contain most kinds of static declarations.
+        /**Local classes are non-static because they have access to instance members of the enclosing block.
+         *         Consequently, they cannot contain most kinds of static declarations.
+         */
         class LocalInnerTwo {
             public void show() {
                 System.out.println("Inside static method Local inner " + getClass());
@@ -62,7 +62,7 @@ class MyOuter2 {
                 System.out.println("Inside static method Local inner " + getClass());
             }
 
-            void show2(String str)      //no inner class can have static declation unless for constants
+            void show2(String str)      //no inner class can have static declaration unless for constants
             {
                 //Starting in Java SE 8, if you declare the local class in a method, it can access the method's parameters.
                 //till java 7 this was an error
