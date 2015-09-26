@@ -6,6 +6,9 @@ class A1 extends Exception {
 
 }
 
+/**
+ * An overloaded method can throw whatever it wants
+ */
 
 public class OverloadingException {
 

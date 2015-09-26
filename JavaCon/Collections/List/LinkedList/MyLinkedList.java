@@ -3,8 +3,13 @@ import java.util.Scanner;
 /**
  * Created by Saurabh on 9/21/2015.
  */
+interface MyIterator {
+    boolean hasNext();
 
-class LinkList {
+    Object next();
+}
+
+class LinkList implements MyIterator {
     Node head;
     Node tail;
 
@@ -77,12 +82,16 @@ class LinkList {
         Node current = head;
         Node previous = null;
 
-        while (current.getInfo() != key && current != null) {
-            previous = current;
-            current = current.next;
+        while (current.getInfo() != key) {
+            if (current.next != null) {
+                previous = current;
+                current = current.next;
+            }
         }
 
-        if (current.getInfo() == key && previous != null)
+        if (current == head)
+            head = head.next;
+        else
             previous.next = current.next;
 
         return current;
@@ -95,6 +104,37 @@ class LinkList {
             System.out.print(current.getInfo() + " ");
             current = current.next;
         }
+    }
+
+    public MyIterator myIterator() {
+        nxt = hasNxt = this.nxt;
+        return this;
+    }
+
+    Node hasNxt, nxt;
+
+    @Override
+    public boolean hasNext() {
+        boolean flag = false;
+        if (this.hasNxt != null) {
+            flag = true;
+            this.hasNxt = this.hasNxt.next;
+        }
+        return flag;
+    }
+
+    @Override
+    public Object next() {
+        Object o = nxt.getInfo();
+        nxt = nxt.next;
+
+        return o;
+    }
+
+    public boolean isEmpty() {
+        boolean flag = false;
+        if (head == null) flag = true;
+        return flag;
     }
 
     static class Node {

@@ -3,6 +3,17 @@ import java.util.ConcurrentModificationException;
 /**
  * Created by Saurabh on 9/2/2015.
  */
+class Marry extends Exception {
+}
+
+class Harry extends Marry {
+}
+
+interface Albus {
+    void snapeKill() throws Harry;
+
+    void wandMagic() throws Harry;
+}
 
 class Animal extends ArithmeticException {
     public void eat() throws Exception {
@@ -10,9 +21,13 @@ class Animal extends ArithmeticException {
 
     public void sleep() throws Animal {
     }
+
+    public void wandMagic() throws Animal {
+        System.out.println("Inside wand magic!!!");
+    }
 }
 
-class Dog extends Animal {
+class Dog extends Animal implements Albus {
     /**
      * Overriding functions mustn't throw checked exceptions that are new or broader
      * than those declared by the overridden method of base class
@@ -34,6 +49,10 @@ class Dog extends Animal {
     @Override
     public void sleep() throws NumberFormatException {
     }//or no exception also valid
+
+    @Override
+    public void snapeKill() throws Harry {
+    }
 }
 
 class OverridingInException extends Animal {
@@ -57,4 +76,9 @@ class OverridingInException extends Animal {
     }
     //This is perfectly valid!
     //as overloaded methods are new and not overriding anything
+
+    public static void main(String[] args) throws Harry {
+        Albus albus = new Dog();
+        albus.wandMagic();
+    }
 }
