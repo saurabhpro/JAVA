@@ -5,44 +5,8 @@
     <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="Innerclass Thinking in java code updates&#10;LinkList Node to inner Node [np difference in  execution]">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/exceptions/Cleanup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/exceptions/CleanupIdiom.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/src/DynamicFields.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/src/ExceptionClassMethods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/exceptions/InputFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/exceptions/LoggingExceptions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/exceptions/LoggingExceptions2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/src/LostMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/exceptions/MainException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/src/OwnException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/src/Rethrowing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/src/RuntimeNeverCaught.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/exceptions/StormyInning.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Exception/src/Termination Vs Resumption" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exception/Animal.class" afterPath="$PROJECT_DIR$/out/production/Exception/Animal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exception/Child.class" afterPath="$PROJECT_DIR$/out/production/Exception/Child.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exception/Dog.class" afterPath="$PROJECT_DIR$/out/production/Exception/Dog.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exception/ExceptionErrorChild.class" afterPath="$PROJECT_DIR$/out/production/Exception/ExceptionErrorChild.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InnerClass/InheritInner.class" afterPath="$PROJECT_DIR$/out/production/InnerClass/InheritInner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InnerClass/Inn$InterfaceInner.class" afterPath="$PROJECT_DIR$/out/production/InnerClass/Inn$InterfaceInner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InnerClass/MethodLocalInnerClass.class" afterPath="$PROJECT_DIR$/out/production/InnerClass/MethodLocalInnerClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InnerClass/MyOuter2$1LocalInner.class" afterPath="$PROJECT_DIR$/out/production/InnerClass/MyOuter2$1LocalInner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InnerClass/MyOuter2$1LocalInnerFive.class" afterPath="$PROJECT_DIR$/out/production/InnerClass/MyOuter2$1LocalInnerFive.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InnerClass/MyOuter2$1LocalInnerFour.class" afterPath="$PROJECT_DIR$/out/production/InnerClass/MyOuter2$1LocalInnerFour.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InnerClass/MyOuter2$1LocalInnerThree.class" afterPath="$PROJECT_DIR$/out/production/InnerClass/MyOuter2$1LocalInnerThree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InnerClass/MyOuter2$1LocalInnerTwo.class" afterPath="$PROJECT_DIR$/out/production/InnerClass/MyOuter2$1LocalInnerTwo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InnerClass/MyOuter2.class" afterPath="$PROJECT_DIR$/out/production/InnerClass/MyOuter2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exception/OverridingInException.class" afterPath="$PROJECT_DIR$/out/production/Exception/OverridingInException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exception/Parent.class" afterPath="$PROJECT_DIR$/out/production/Exception/Parent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exception/ReturnFinally.class" afterPath="$PROJECT_DIR$/out/production/Exception/ReturnFinally.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exception/Exception.iml" afterPath="$PROJECT_DIR$/Exception/Exception.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exception/src/ExceptionErrorChild.java" afterPath="$PROJECT_DIR$/Exception/src/ExceptionErrorChild.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon.iml" afterPath="$PROJECT_DIR$/JavaCon.iml" />
+    <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="Link list modification">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/List/LinkedList/MyLinkedList.java" afterPath="$PROJECT_DIR$/Collections/List/LinkedList/MyLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exception/src/OverloadingException.java" afterPath="$PROJECT_DIR$/Exception/src/OverloadingException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exception/src/OverridingInException.java" afterPath="$PROJECT_DIR$/Exception/src/OverridingInException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exception/src/ReturnFinally.java" afterPath="$PROJECT_DIR$/Exception/src/ReturnFinally.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Java.iws" />
@@ -88,8 +52,8 @@
       <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Collections/List/LinkedList/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20757826">
-              <caret line="139" column="19" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.22075783">
+              <caret line="122" column="20" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -789,7 +753,7 @@
       <workItem from="1443038499810" duration="18675000" />
       <workItem from="1443219130814" duration="29000" />
       <workItem from="1443219213562" duration="767000" />
-      <workItem from="1443257859931" duration="1608000" />
+      <workItem from="1443257859931" duration="3379000" />
     </task>
     <task id="LOCAL-00001" summary="Java Commit&#10;">
       <created>1440921977733</created>
@@ -833,11 +797,17 @@
       <option name="project" value="LOCAL" />
       <updated>1443076142854</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Link list modification">
+      <created>1443260882998</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1443260882998</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172374000" />
+    <option name="totallyTimeSpent" value="174145000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -850,10 +820,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33228347" sideWeight="0.5058565" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -872,7 +843,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3448819" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -925,7 +895,8 @@
     <MESSAGE value="Java Commit&#10;" />
     <MESSAGE value="Java Commit&#10;ArrayList Completed&#10;Iterators&#10;Vector" />
     <MESSAGE value="Innerclass Thinking in java code updates&#10;LinkList Node to inner Node [np difference in  execution]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Innerclass Thinking in java code updates&#10;LinkList Node to inner Node [np difference in  execution]" />
+    <MESSAGE value="Link list modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Link list modification" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -944,6 +915,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -951,6 +923,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+          <folding>
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1241,6 +1221,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,6 +1229,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+          <folding>
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1262,6 +1251,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,6 +1259,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1276,6 +1267,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6155779">
           <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,6 +1275,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1296,8 +1289,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections/List/LinkedList/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20757826">
-          <caret line="139" column="19" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.22075783">
+          <caret line="122" column="20" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="20" />
           <folding />
         </state>
       </provider>

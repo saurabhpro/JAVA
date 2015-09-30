@@ -6,7 +6,7 @@ import java.util.Scanner;
 interface MyIterator {
     boolean hasNext();
 
-    Object next();
+    int next();
 }
 
 class LinkList implements MyIterator {
@@ -124,8 +124,8 @@ class LinkList implements MyIterator {
     }
 
     @Override
-    public Object next() {
-        Object o = nxt.getInfo();
+    public int next() {
+        int o = nxt.getInfo();
         nxt = nxt.next;
 
         return o;
