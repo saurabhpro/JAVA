@@ -9,6 +9,10 @@
       <sourceFolder url="file://$MODULE_DIR$/List/Vector" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/List/SyncronizedList" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/List/LinkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Map/HashMap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Map/SynchronizedMap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Map/LinkedHashMap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Map/Hashtable" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
