@@ -8,7 +8,7 @@ class Thread1 implements Runnable {
     }
 }
 
-public class AnonymousThreadExceution {
+public class AnonymousThreadExecution {
 
     public static void main(String[] args) {
         Thread1 t = new Thread1() {

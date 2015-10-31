@@ -127,17 +127,20 @@ public class InterfaceContract implements Walkable, Runnable {
  * }
  * Now users of your code can choose to continue to use the old interface or to upgrade to the new interface.
  * <p>
- * 2. Alternatively, you can define your new methods as default methods. The following example defines a default method named didItWork:
+ *
+ *  2. Alternatively, you can define your new methods as default methods.
+ * The following example defines a default method named didItWork:
  * <p>
  * public interface DoIt
  * {
  * void doSomething(int i, double x);
  * int doSomethingElse(String s);
  * default boolean didItWork(int i, double x, String s) {
- * // Method body
+ *  // Method body
  * }
  * }
  * Note that you must provide an implementation for default methods.
+ *
  * You could also define new static methods to existing interfaces.
  * Users who have classes that implement interfaces enhanced with new default or static methods
  * do not have to modify or recompile them to accommodate the additional methods.

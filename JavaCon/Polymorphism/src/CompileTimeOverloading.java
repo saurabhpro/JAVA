@@ -13,6 +13,7 @@ class Horse extends Animal {
 }
 
 public class CompileTimeOverloading {
+
     public static void main(String[] args) {
         CompileTimeOverloading cOb = new CompileTimeOverloading();
         Animal animal = new Animal();
@@ -33,7 +34,6 @@ public class CompileTimeOverloading {
          * because compile time tk compiler know only about Animal type animal1
          */
         cOb.doStuff(animal1);
-
     }
 
     public void doStuff(Animal m) {
@@ -43,4 +43,6 @@ public class CompileTimeOverloading {
     public void doStuff(Horse h) {
         System.out.println("Inside the horse version");
     }
+
+
 }

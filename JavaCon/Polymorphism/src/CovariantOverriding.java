@@ -28,8 +28,15 @@ class NewChild extends NewBase {
 
     @Override
     Integer disp() {
-        return null;
+        return 5;
     }
+
+    /**
+     * but we cant have covariant returns for simple types like int with Integer etc
+     *
+     * java: disp() in NewChild cannot override disp() in NewBase
+     return type int is not compatible with java.lang.Number
+     */
 }
 
 public class CovariantOverriding {

@@ -1,8 +1,9 @@
 In Java 8, interfaces can contain implemented methods, static methods, and the so-called "default" methods
 (which the implementing classes do not need to override).
 
-In my (probably naive) view, there was no need to violate interfaces like this. Interfaces have always
-been a contract you must fulfill, and this is a very simple and pure concept. Now it is a mix of several things.
+In my (probably naive) view, there was no need to violate interfaces like this.
+Interfaces have always been a contract you must fulfill, and this is a very simple and pure concept.
+Now it is a mix of several things.
 
 In my opinion:
 
@@ -14,6 +15,7 @@ Before Java 8:
    1. You could use abstract and regular classes to provide static and default methods. The role of interfaces is clear.
    2. All the methods in an interface should be overriden by implementing classes.
    3. You can't add a new method in an interface without modifying all the implementations, but this is actually a good thing.
+
 
 After Java 8:
   1. There's virtually no difference between an interface and an abstract class (other than multiple inheritance).

@@ -5,24 +5,60 @@
     <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="Link list modification">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/20 Java Collections Interview Questions.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/Map/Difference between HashMap and Hashtable.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Threads/Java Multithreading Interview Questions.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/Map/HashMap/ConcurrentHashMapClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/Map/HashMap/HashMapBasicEmp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/Map/HashMap/HashMapBasicString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/Map/HashMap/HashMapHashCodeEquals.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/Map/HashMap/HashMapPutAll.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/Map/Hashtable/HashtableClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/Map/HashMap/LinkedHashMapClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/Map/HashMap/SynchronizedHashMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/Map/HashMap/WeakHashMapClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaNotesIndex.docx" afterPath="$PROJECT_DIR$/../JavaNotesIndex.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Collections/LinkList$Node.class" afterPath="$PROJECT_DIR$/out/production/Collections/LinkList$Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Collections/LinkList.class" afterPath="$PROJECT_DIR$/out/production/Collections/LinkList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Collections/MyLinkedList.class" afterPath="$PROJECT_DIR$/out/production/Collections/MyLinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/Collections.iml" afterPath="$PROJECT_DIR$/Collections/Collections.iml" />
+    <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="Map&#10;HashMap&#10;Hashtable&#10;ConcurrentHashMap&#10;WeakHashMap">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/ThreadFactory/DaemonDontRunFinally.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/ThreadFactory/DaemonThreadFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/saurabh/Interface/Java8/FunctionalInterfaceAnotations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/InnerThreadVariations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/saurabh/Interface/Java8/InterfaceDefaultMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/saurabh/Interface/Java8/InterfaceStaticMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ObjectsByJobs.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaKathy/src/PrivateConstructorChaning.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/SelfManagedRunnable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/SeparateRunnable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/ThreadFactory/SimpleDaemons.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/ThreadExtended.java" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\MyFile.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\out\production\JavaKathy\Fundamentals.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\out\production\JavaKathy\LegalIdentifiers.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\out\production\JavaKathy\PassByCopy.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\out\production\JavaKathy\TypeDemotion.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\out\production\Polymorphism\ChildStaticOverride.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\out\production\Polymorphism\StaticOverriding.class" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Threads\Java Multithreading Interview Questions.docx" afterPath="$PROJECT_DIR$/Concurrency/Java Multithreading Interview Questions.docx" />
+      <change type="MOVED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Threads\Threads.iml" afterPath="$PROJECT_DIR$/Concurrency/Concurrency.iml" />
+      <change type="MOVED" beforePath="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Threads\src\AnonymousThreadExceution.java" afterPath="$PROJECT_DIR$/Concurrency/src/AnonymousThreadExecution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polymorphism/B.class" afterPath="$PROJECT_DIR$/out/production/Polymorphism/B.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polymorphism/C.class" afterPath="$PROJECT_DIR$/out/production/Polymorphism/C.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polymorphism/ClassCast.class" afterPath="$PROJECT_DIR$/out/production/Polymorphism/ClassCast.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polymorphism/CompileTimeOverloading.class" afterPath="$PROJECT_DIR$/out/production/Polymorphism/CompileTimeOverloading.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polymorphism/CovariantOverriding.class" afterPath="$PROJECT_DIR$/out/production/Polymorphism/CovariantOverriding.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polymorphism/D.class" afterPath="$PROJECT_DIR$/out/production/Polymorphism/D.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpecialKeywords/FinalArguments.class" afterPath="$PROJECT_DIR$/out/production/SpecialKeywords/FinalArguments.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpecialKeywords/FinalClass.class" afterPath="$PROJECT_DIR$/out/production/SpecialKeywords/FinalClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpecialKeywords/FinalData.class" afterPath="$PROJECT_DIR$/out/production/SpecialKeywords/FinalData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpecialKeywords/FinalFamily.class" afterPath="$PROJECT_DIR$/out/production/SpecialKeywords/FinalFamily.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpecialKeywords/FinalMethods.class" afterPath="$PROJECT_DIR$/out/production/SpecialKeywords/FinalMethods.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Interfaces/InterfaceContract.class" afterPath="$PROJECT_DIR$/out/production/Interfaces/InterfaceContract.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polymorphism/NewChild.class" afterPath="$PROJECT_DIR$/out/production/Polymorphism/NewChild.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polymorphism/OverloadingPitfall.class" afterPath="$PROJECT_DIR$/out/production/Polymorphism/OverloadingPitfall.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polymorphism/OverridingStaticMethods.class" afterPath="$PROJECT_DIR$/out/production/Polymorphism/OverridingStaticMethods.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpecialKeywords/PrivateConstructorSingleton.class" afterPath="$PROJECT_DIR$/out/production/SpecialKeywords/PrivateConstructorSingleton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpecialKeywords/Singleton.class" afterPath="$PROJECT_DIR$/out/production/SpecialKeywords/Singleton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpecialKeywords/StaticConstructors.class" afterPath="$PROJECT_DIR$/out/production/SpecialKeywords/StaticConstructors.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaKathy/TailRecursiveMain.class" afterPath="$PROJECT_DIR$/out/production/JavaKathy/TailRecursiveMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpecialKeywords/Temp.class" afterPath="$PROJECT_DIR$/out/production/SpecialKeywords/Temp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SpecialKeywords/Temp2.class" afterPath="$PROJECT_DIR$/out/production/SpecialKeywords/Temp2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Interfaces/Test2.class" afterPath="$PROJECT_DIR$/out/production/Interfaces/Test2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Interfaces/Walkable.class" afterPath="$PROJECT_DIR$/out/production/Interfaces/Walkable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interfaces/src/AbstractClassInstantiation.java" afterPath="$PROJECT_DIR$/Interfaces/src/AbstractClassInstantiation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Polymorphism/src/CompileTimeOverloading.java" afterPath="$PROJECT_DIR$/Polymorphism/src/CompileTimeOverloading.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Polymorphism/src/CovariantOverriding.java" afterPath="$PROJECT_DIR$/Polymorphism/src/CovariantOverriding.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interfaces/src/InterfaceContract.java" afterPath="$PROJECT_DIR$/Interfaces/src/InterfaceContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Polymorphism/src/OverloadingPitfall.java" afterPath="$PROJECT_DIR$/Polymorphism/src/OverloadingPitfall.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Polymorphism/src/OverridingStaticMethods.java" afterPath="$PROJECT_DIR$/Polymorphism/src/OverridingStaticMethods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interfaces/src/static and default in interfaces since 1.8.txt" afterPath="$PROJECT_DIR$/Interfaces/src/static and default in interfaces since 1.8.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Java.iws" />
@@ -51,129 +87,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="Java" />
+    <favorites_list name="Java">
+      <favorite_root url="saurabh.Threads.Creation.ThreadExtended" module="Concurrency" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/List/LinkedList/MyLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="137" column="5" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashMapBasicString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/HashMapBasicString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashMapBasicEmp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/HashMapBasicEmp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashMapHashCodeEquals.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/HashMapHashCodeEquals.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2473#2474#0" expanded="true" />
-                <element signature="e#2548#2549#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashMapPutAll.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/HashMapPutAll.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SynchronizedHashMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/SynchronizedHashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashtableClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/Map/Hashtable/HashtableClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConcurrentHashMapClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/ConcurrentHashMapClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeakHashMapClass.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/WeakHashMapClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66392094">
-              <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedHashMapClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/LinkedHashMapClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -201,36 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/InnerClass/src/AnonymousClass.java" />
-        <option value="$PROJECT_DIR$/InnerClass/ParcelTIJ/TestParcel.java" />
-        <option value="$PROJECT_DIR$/InnerClass/ParcelTIJ/Parcel8.java" />
-        <option value="$PROJECT_DIR$/InnerClass/ParcelTIJ/Parcel6.java" />
-        <option value="$PROJECT_DIR$/InnerClass/ParcelTIJ/Parcel9.java" />
-        <option value="$PROJECT_DIR$/InnerClass/ParcelTIJ/Parcel10.java" />
-        <option value="$PROJECT_DIR$/InnerClass/ParcelTIJ/Parcel7.java" />
-        <option value="$PROJECT_DIR$/InnerClass/ParcelTIJ/Parcel11.java" />
-        <option value="$PROJECT_DIR$/Exception/exceptions/AlwaysFinally.java" />
-        <option value="$PROJECT_DIR$/Exception/exceptions/ExceptionMethods.java" />
-        <option value="$PROJECT_DIR$/Exception/exceptions/MultipleReturns.java" />
-        <option value="$PROJECT_DIR$/Exception/exceptions/Switch.java" />
-        <option value="$PROJECT_DIR$/Exception/exceptions/TurnOffChecking.java" />
-        <option value="$PROJECT_DIR$/Exception/src/OverloadingException.java" />
-        <option value="$PROJECT_DIR$/Exception/exceptions/FullConstructors.java" />
-        <option value="$PROJECT_DIR$/Exception/exceptions/ExtraFeatures.java" />
-        <option value="$PROJECT_DIR$/Exception/src/ExceptionErrorChild.java" />
-        <option value="$PROJECT_DIR$/Exception/src/Termination Vs Resumption" />
-        <option value="$PROJECT_DIR$/Exception/src/OwnException.java" />
-        <option value="$PROJECT_DIR$/Exception/src/ExceptionClassMethods.java" />
-        <option value="$PROJECT_DIR$/Exception/exceptions/Rethrowing.java" />
-        <option value="$PROJECT_DIR$/Exception/exceptions/DynamicFields.java" />
-        <option value="$PROJECT_DIR$/Exception/exceptions/NeverCaught.java" />
-        <option value="$PROJECT_DIR$/Exception/exceptions/FinallyWorks.java" />
-        <option value="$PROJECT_DIR$/Exception/src/ReturnFinally.java" />
-        <option value="$PROJECT_DIR$/Exception/exceptions/ExceptionSilencer.java" />
-        <option value="$PROJECT_DIR$/Exception/src/LostMessage.java" />
-        <option value="$PROJECT_DIR$/Exception/exceptions/StormyInning.java" />
-        <option value="$PROJECT_DIR$/Exception/src/OverridingInException.java" />
-        <option value="$PROJECT_DIR$/Package/Folder1/File11.java" />
         <option value="$PROJECT_DIR$/Package/Folder1/p1/File11.java" />
         <option value="$PROJECT_DIR$/Package/Folder1/PFile1.java" />
         <option value="$PROJECT_DIR$/Collections/List/LinkedList/MyLinkedList.java" />
@@ -252,6 +141,36 @@
         <option value="$PROJECT_DIR$/Collections/Map/HashMap/HashMapHashCodeEquals.java" />
         <option value="$PROJECT_DIR$/Collections/Map/HashMap/LinkedHashMapClass.java" />
         <option value="$PROJECT_DIR$/Collections/Map/HashMap/WeakHashMapClass.java" />
+        <option value="$PROJECT_DIR$/MyFile.txt" />
+        <option value="$PROJECT_DIR$/JavaKathy/src/PrivateConstructorChaning.java" />
+        <option value="$PROJECT_DIR$/JavaKathy/src/cc.java" />
+        <option value="$PROJECT_DIR$/Polymorphism/src/CompileTimeOverloading.java" />
+        <option value="$PROJECT_DIR$/Polymorphism/src/CovariantOverriding.java" />
+        <option value="$PROJECT_DIR$/Polymorphism/src/OverloadingPitfall.java" />
+        <option value="$PROJECT_DIR$/Polymorphism/src/OverridingStaticMethods.java" />
+        <option value="$PROJECT_DIR$/Concurrency/src/AnonymousThreadExceution.java" />
+        <option value="$PROJECT_DIR$/Concurrency/src/ThreadCreationInnerClass.java" />
+        <option value="$PROJECT_DIR$/Concurrency/src/ThreadCreation.java" />
+        <option value="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/ThreadCreation.java" />
+        <option value="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/ThreadExtended.java" />
+        <option value="$PROJECT_DIR$/Concurrency/src/ThreadFactoryDaemon.java" />
+        <option value="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/ThreadFactory/ThreadFactoryDaemon.java" />
+        <option value="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/ThreadFactory/SimpleDaemons.java" />
+        <option value="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/ThreadFactory/DaemonWithoutFinally.java" />
+        <option value="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/ThreadFactory/DaemonThreadFactory.java" />
+        <option value="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/ThreadRunnable.java" />
+        <option value="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/SeparateRunnable.java" />
+        <option value="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/ThreadInnerClasses.java" />
+        <option value="$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/InnerThreadVariations.java" />
+        <option value="$PROJECT_DIR$/Interfaces/src/static and default in interfaces since 1.8.txt" />
+        <option value="$PROJECT_DIR$/Interfaces/src/InterfaceJava8.java" />
+        <option value="$PROJECT_DIR$/Interfaces/src/saurabh/Interface/Java8/InterfaceJava8.java" />
+        <option value="$PROJECT_DIR$/Interfaces/src/AbstractClassInstantiation.java" />
+        <option value="$PROJECT_DIR$/Interfaces/src/InterfaceContract.java" />
+        <option value="$PROJECT_DIR$/Interfaces/src/saurabh/Interface/Java8/InterfaceStaticMethod.java" />
+        <option value="$PROJECT_DIR$/Interfaces/src/saurabh/Interface/Java8/InterfaceDefault.java" />
+        <option value="$PROJECT_DIR$/Interfaces/src/saurabh/Interface/Java8/InterfaceDefaultMethod.java" />
+        <option value="$PROJECT_DIR$/Interfaces/src/saurabh/Interface/Java8/FunctionalInterfaceAnotations.java" />
       </list>
     </option>
   </component>
@@ -334,45 +253,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Map" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
     <property name="settings.editor.splitter.proportion" value="0.23581213" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="aspect.path.notification.shown" value="true" />
@@ -402,10 +289,11 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/Package/Folder1" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/Interfaces/src" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Interfaces\src\saurabh\Interface\Java8" />
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Exception" />
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\InnerClass\ParcelTIJ" />
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\InnerClass\src" />
@@ -425,10 +313,15 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeakHashMapClass">
-    <configuration default="false" name="SynchronizedHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="SynchronizedHashMap" />
+  <component name="RunManager" selected="Application.InterfaceDefaultMethod">
+    <configuration default="false" name="ThreadRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="saurabh.Threads.Creation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="saurabh.Threads.Creation.ThreadRunnable" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -437,13 +330,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Collections" />
+      <module name="Concurrency" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ConcurrentHashMapClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ConcurrentHashMapClass" />
+    <configuration default="false" name="SelfManagedRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="saurabh.Threads.Creation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="saurabh.Threads.Creation.SelfManagedRunnable" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -452,13 +350,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Collections" />
+      <module name="Concurrency" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="WeakHashMapClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="WeakHashMapClass" />
+    <configuration default="false" name="SeparateRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="saurabh.Threads.Creation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="saurabh.Threads.Creation.SeparateRunnable" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -467,13 +370,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Collections" />
+      <module name="Concurrency" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="LinkedHashMapClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="LinkedHashMapClass" />
+    <configuration default="false" name="InnerThreadVariations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="saurabh.Threads.Creation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="saurabh.Threads.Creation.InnerThreadVariations" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -482,22 +390,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Collections" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="HashtableClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="HashtableClass" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Collections" />
+      <module name="Concurrency" />
       <envs />
       <method />
     </configuration>
@@ -505,47 +398,6 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -753,20 +605,60 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SynchronizedHashMap" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ConcurrentHashMapClass" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WeakHashMapClass" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LinkedHashMapClass" />
-      <item index="4" class="java.lang.String" itemvalue="Application.HashtableClass" />
+    <configuration default="false" name="InterfaceDefaultMethod" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="saurabh.Interface.Java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="saurabh.Interface.Java8.InterfaceDefaultMethod" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Interfaces" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="InterfaceStaticMethod" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="saurabh.Interface.Java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="saurabh.Interface.Java8.InterfaceStaticMethod" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Interfaces" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.InterfaceDefaultMethod" />
+      <item index="1" class="java.lang.String" itemvalue="Application.InterfaceStaticMethod" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ThreadRunnable" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SelfManagedRunnable" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SeparateRunnable" />
+      <item index="5" class="java.lang.String" itemvalue="Application.InnerThreadVariations" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.WeakHashMapClass" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HashtableClass" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LinkedHashMapClass" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ConcurrentHashMapClass" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SynchronizedHashMap" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.InnerThreadVariations" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SeparateRunnable" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SelfManagedRunnable" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ThreadRunnable" />
       </list>
     </recent_temporary>
   </component>
@@ -812,7 +704,15 @@
       <workItem from="1443257859931" duration="3379000" />
       <workItem from="1443985035967" duration="3037000" />
       <workItem from="1444028537791" duration="7819000" />
-      <workItem from="1444369854721" duration="38000" />
+      <workItem from="1444369854721" duration="1217000" />
+      <workItem from="1444477791608" duration="1520000" />
+      <workItem from="1444579299279" duration="258000" />
+      <workItem from="1444580549283" duration="2647000" />
+      <workItem from="1444678536625" duration="174000" />
+      <workItem from="1445364579386" duration="19402000" />
+      <workItem from="1445505725912" duration="5441000" />
+      <workItem from="1446271005970" duration="226000" />
+      <workItem from="1446272160553" duration="851000" />
     </task>
     <task id="LOCAL-00001" summary="Java Commit&#10;">
       <created>1440921977733</created>
@@ -862,11 +762,17 @@
       <option name="project" value="LOCAL" />
       <updated>1443260882998</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Map&#10;HashMap&#10;Hashtable&#10;ConcurrentHashMap&#10;WeakHashMap">
+      <created>1444369992423</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1444369992423</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185039000" />
+    <option name="totallyTimeSpent" value="216737000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -890,7 +796,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23645681" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23426062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -900,12 +806,12 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39901477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31653544" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31527093" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -923,15 +829,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33228347" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31653544" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24524158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23645681" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -955,7 +861,8 @@
     <MESSAGE value="Java Commit&#10;ArrayList Completed&#10;Iterators&#10;Vector" />
     <MESSAGE value="Innerclass Thinking in java code updates&#10;LinkList Node to inner Node [np difference in  execution]" />
     <MESSAGE value="Link list modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="Link list modification" />
+    <MESSAGE value="Map&#10;HashMap&#10;Hashtable&#10;ConcurrentHashMap&#10;WeakHashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Map&#10;HashMap&#10;Hashtable&#10;ConcurrentHashMap&#10;WeakHashMap" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -970,195 +877,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/InnerClass/GreenHouseTIJ/GreenhouseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34343433">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/GreenHouseTIJ/controller/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5580808">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/GreenHouseTIJ/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4722222">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/src/MethodLocalInnerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/src/InheritInner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/src/BigEggOverriddenInner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/src/Factories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/src/AnonymousClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="93" selection-start-line="65" selection-start-column="93" selection-end-line="65" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/ParcelTIJ/Destination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/ParcelTIJ/Parcel1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/ParcelTIJ/TestParcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72979796">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/ParcelTIJ/Parcel8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/ParcelTIJ/Parcel5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/ParcelTIJ/Parcel6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/ParcelTIJ/Contents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/ParcelTIJ/Parcel7b.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/ParcelTIJ/Parcel9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/ParcelTIJ/Parcel10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/ParcelTIJ/Parcel7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/ParcelTIJ/Parcel11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InnerClass/ParcelTIJ/Parcel3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exception/exceptions/Cleanup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exception/exceptions/CleanupIdiom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exception/src/OverloadingException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exception/src/Assertion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exception/exceptions/LoggingExceptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exception/src/ExceptionClassMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80927837">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exception/src/Rethrowing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.087628864">
@@ -1246,93 +964,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Package/Folder1/PFile1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/List/LinkedList/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="137" column="5" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/HashMapPutAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Collections/Map/Difference between HashMap and Hashtable.PNG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/Map/Hashtable/HashtableClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/SynchronizedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/HashMapBasicEmp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/HashMapHashCodeEquals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2473#2474#0" expanded="true" />
-            <element signature="e#2548#2549#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/HashMapBasicString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/LinkedHashMapClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.3360791">
           <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1340,19 +980,275 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/Map/Hashtable/HashtableClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/SynchronizedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/HashMapPutAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/HashMapHashCodeEquals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/HashMapBasicEmp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/HashMapBasicString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/List/LinkedList/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="137" column="5" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/WeakHashMapClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66392094">
-          <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.36408567">
+          <caret line="13" column="94" selection-start-line="13" selection-start-column="94" selection-end-line="13" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Package/Folder1/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Package/Folder1/PFile1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.056013178">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/ListSortComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.1565075">
+          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/List/ArrayList/ListSortComparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33278418">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/JavaInterfaces/ComparableString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2520593">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectsByJobs.txt">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Polymorphism/src/CovariantOverriding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Polymorphism/src/CompileTimeOverloading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Polymorphism/src/OverridingStaticMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7664042">
+          <caret line="35" column="90" selection-start-line="35" selection-start-column="90" selection-end-line="35" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Polymorphism/src/OverloadingPitfall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79790026">
+          <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concurrency/src/AnonymousThreadExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/ThreadExtended.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/ThreadFactory/SimpleDaemons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29396325">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/ThreadFactory/DaemonDontRunFinally.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/ThreadFactory/DaemonThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaKathy/src/PrivateConstructorChaning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44619423">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/SelfManagedRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interfaces/src/AbstractClassInstantiation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13385826">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/InnerThreadVariations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.100257">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interfaces/src/static and default in interfaces since 1.8.txt">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29166666">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interfaces/src/New Informations.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interfaces/src/saurabh/Interface/Java8/InterfaceStaticMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13881747">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concurrency/src/saurabh/Threads/Creation/SeparateRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2570694">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interfaces/src/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71979433">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interfaces/src/InterfaceContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80205655">
+          <caret line="143" column="3" selection-start-line="143" selection-start-column="3" selection-end-line="143" selection-end-column="3" />
+          <folding>
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generics/src/GenericBoundInheritance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.060367454">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interfaces/src/saurabh/Interface/Java8/FunctionalInterfaceAnotations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29259896">
+          <caret line="10" column="93" selection-start-line="10" selection-start-column="93" selection-end-line="10" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interfaces/src/saurabh/Interface/Java8/InterfaceDefaultMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14457831">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
