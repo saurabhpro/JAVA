@@ -8,12 +8,13 @@ class A {
     }
 }
 
+/*
 class B extends A {
     private B() {
         super();
         System.out.println("B");
     }
 }
-
+*/
 public class PrivateConstructorChaning {
 }
