@@ -12,7 +12,7 @@ import java.sql.*;
 public class ResultSetRetrieve {
     public static void main(String[] args) {
         Statement s1 = null;
-        ResultSet resultSet = null;
+        ResultSet rs = null;
 
         try {
             // Class.forName("oracle.jdbc.driver.OracleDriver");
@@ -31,16 +31,16 @@ public class ResultSetRetrieve {
             s1.execute("DELETE FROM person WHERE person_id=65");
             s1.execute("COMMIT");
 
-            resultSet = s1.executeQuery("SELECT * FROM person");
-            while (resultSet.next()) {
+            rs = s1.executeQuery("SELECT * FROM person");
+            while (rs.next()) {
                 System.out.println("Inside ResultSet");
-                System.out.println(resultSet.getString(2) + " " + resultSet.getString(3));
+                System.out.println(rs.getString(2) + " " + rs.getString(3));
             }
 
-            resultSet = s1.executeQuery("SELECT * FROM bank");
-            while (resultSet.next()) {
+            rs = s1.executeQuery("SELECT * FROM bank");
+            while (rs.next()) {
                 System.out.println("Inside ResultSet");
-                System.out.println(resultSet.getString(2) + " " + resultSet.getString(3));
+                System.out.println(rs.getString(2) + " " + rs.getString(3));
             }
 
         } catch (SQLException e) {
