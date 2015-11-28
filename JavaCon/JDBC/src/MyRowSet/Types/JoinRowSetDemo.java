@@ -1,4 +1,4 @@
-package MyRowSetTypes;
+package MyRowSet.Types;
 
 /**
  * Created by Saurabh on 11/28/2015. Is used to hold data coming from two or more tables. It can be achieved by using

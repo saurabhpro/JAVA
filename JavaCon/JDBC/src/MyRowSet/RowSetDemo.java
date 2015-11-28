@@ -28,7 +28,7 @@
  * CachedRowSet, WebRowSet, FilteredRowSet, JoinRowSet
  */
 
-package MyRowSetTypes;
+package MyRowSet;
 
 import javax.sql.rowset.JdbcRowSet;
 import javax.sql.rowset.RowSetFactory;

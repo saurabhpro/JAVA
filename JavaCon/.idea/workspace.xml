@@ -6,11 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="RowSet Jdbc1.1">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/CachedRowSetDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/JdbcRowSetDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/JoinRowSetDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/RowSetDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/WebRowSetDemo.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSetTypes/CachedRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/CachedRowSetDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSetTypes/JdbcRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/JdbcRowSetDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSetTypes/JoinRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/JoinRowSetDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSetTypes/RowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/MyRowSet/RowSetDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSetTypes/WebRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/WebRowSetDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Java.iws" />
@@ -59,7 +59,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="WebRowSetDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSetTypes/WebRowSetDemo.java">
+        <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSet/Types/WebRowSetDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
@@ -69,7 +69,7 @@
         </entry>
       </file>
       <file leaf-file-name="JoinRowSetDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSetTypes/JoinRowSetDemo.java">
+        <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSet/Types/JoinRowSetDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
@@ -78,14 +78,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JdbcRowSetDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSetTypes/JdbcRowSetDemo.java">
+      <file leaf-file-name="JdbcRowSetDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSet/Types/JdbcRowSetDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3815789">
+            <state vertical-scroll-proportion="0.0">
               <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CachedRowSetDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSet/Types/CachedRowSetDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -165,11 +175,11 @@
         <option value="$PROJECT_DIR$/JDBC/src/FetchSize.java" />
         <option value="$PROJECT_DIR$/JDBC/src/RowSetDemo.java" />
         <option value="$PROJECT_DIR$/JDBC/src/MyRowSet/RowSetDemo.java" />
-        <option value="$PROJECT_DIR$/JDBC/src/MyRowSet/JdbcRowSetDemo.java" />
-        <option value="$PROJECT_DIR$/JDBC/src/MyRowSet/CachedRowSetDemo.java" />
         <option value="$PROJECT_DIR$/JDBC/src/MyRowSet/WebRowSetDemo.java" />
         <option value="$PROJECT_DIR$/JDBC/src/MyRowSet/JoinRowSetDemo.java" />
         <option value="$PROJECT_DIR$/JDBC/src/MyRowSetTypes/JoinRowSetDemo.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/MyRowSet/JdbcRowSetDemo.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/MyRowSet/CachedRowSetDemo.java" />
       </list>
     </option>
   </component>
@@ -303,7 +313,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyRowSetTypes" />
+              <option name="myItemId" value="MyRowSet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -325,12 +335,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyRowSetTypes" />
+              <option name="myItemId" value="MyRowSet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JdbcRowSetDemo.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <option name="myItemId" value="Types" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -368,7 +378,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="840" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/JDBC/src" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/JDBC/src/MyRowSet" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -441,11 +451,11 @@
     <configuration default="false" name="RowSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="MyRowSetTypes.*" />
+          <option name="PATTERN" value="MyRowSet.Types.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="MyRowSetTypes.RowSetDemo" />
+      <option name="MAIN_CLASS_NAME" value="MyRowSet.RowSetDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -461,11 +471,11 @@
     <configuration default="false" name="JdbcRowSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="MyRowSetTypes.*" />
+          <option name="PATTERN" value="MyRowSet.Types.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="MyRowSetTypes.JdbcRowSetDemo" />
+      <option name="MAIN_CLASS_NAME" value="MyRowSet.Types.JdbcRowSetDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -963,7 +973,7 @@
       <workItem from="1447549711645" duration="8406000" />
       <workItem from="1447594257378" duration="1039000" />
       <workItem from="1447883805827" duration="2143000" />
-      <workItem from="1448692603318" duration="7777000" />
+      <workItem from="1448692603318" duration="7972000" />
     </task>
     <task id="LOCAL-00001" summary="Java Commit&#10;">
       <created>1440921977733</created>
@@ -1043,11 +1053,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448703877450</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="RowSet Jdbc1.1">
+      <created>1448703952929</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1448703952929</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247380000" />
+    <option name="totallyTimeSpent" value="247575000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1060,7 +1076,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1072,7 +1088,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31085527" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23426062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23426062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1480,15 +1496,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSetTypes/CachedRowSetDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13043478">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSetTypes/RowSetDemo.java">
+    <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSet/RowSetDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.73913044">
           <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
@@ -1508,7 +1516,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSetTypes/WebRowSetDemo.java">
+    <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSet/Types/WebRowSetDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
@@ -1516,7 +1524,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSetTypes/JoinRowSetDemo.java">
+    <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSet/Types/JoinRowSetDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
@@ -1524,13 +1532,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSetTypes/JdbcRowSetDemo.java">
+    <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSet/Types/JdbcRowSetDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3815789">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSet/Types/CachedRowSetDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

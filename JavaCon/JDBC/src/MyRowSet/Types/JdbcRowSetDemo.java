@@ -1,4 +1,4 @@
-package MyRowSetTypes;
+package MyRowSet.Types;
 
 import com.sun.rowset.JdbcRowSetImpl;
 

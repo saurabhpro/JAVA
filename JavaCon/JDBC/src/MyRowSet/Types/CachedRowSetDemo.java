@@ -1,4 +1,4 @@
-package MyRowSetTypes;
+package MyRowSet.Types;
 
 /**
  * Created by Saurabh on 11/28/2015. CachedRowSet also extends rowset interface and is a disconnected rowset. It acts as

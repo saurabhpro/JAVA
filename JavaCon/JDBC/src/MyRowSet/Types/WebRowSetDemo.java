@@ -1,4 +1,4 @@
-package MyRowSetTypes;
+package MyRowSet.Types;
 
 /**
  * Created by Saurabh on 11/28/2015. This class extends CachedRowSet class which lets you use the same properties and
