@@ -5,12 +5,12 @@
     <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="RowSet Jdbc">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/CachedRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/MyRowSetTypes/CachedRowSetDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/JdbcRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/MyRowSetTypes/JdbcRowSetDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/JoinRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/MyRowSetTypes/JoinRowSetDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/RowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/MyRowSetTypes/RowSetDemo.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/WebRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/MyRowSetTypes/WebRowSetDemo.java" />
+    <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="RowSet Jdbc1.1">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/CachedRowSetDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/JdbcRowSetDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/JoinRowSetDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/RowSetDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/WebRowSetDemo.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Java.iws" />
@@ -81,7 +81,7 @@
       <file leaf-file-name="JdbcRowSetDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSetTypes/JdbcRowSetDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.826087">
+            <state vertical-scroll-proportion="-1.3815789">
               <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -963,7 +963,7 @@
       <workItem from="1447549711645" duration="8406000" />
       <workItem from="1447594257378" duration="1039000" />
       <workItem from="1447883805827" duration="2143000" />
-      <workItem from="1448692603318" duration="7693000" />
+      <workItem from="1448692603318" duration="7777000" />
     </task>
     <task id="LOCAL-00001" summary="Java Commit&#10;">
       <created>1440921977733</created>
@@ -1037,11 +1037,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448703717730</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="RowSet Jdbc1.1">
+      <created>1448703877450</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1448703877450</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247296000" />
+    <option name="totallyTimeSpent" value="247380000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1062,8 +1068,8 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33228347" sideWeight="0.5058565" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31085527" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31085527" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23426062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1135,7 +1141,8 @@
     <MESSAGE value="JDBC Primary&#10;float % NaN Infinity" />
     <MESSAGE value="JDBC Primary&#10;float % NaN Infinity&#10;lambda Apress&#10;Mars ROver Unfinished" />
     <MESSAGE value="RowSet Jdbc" />
-    <option name="LAST_COMMIT_MESSAGE" value="RowSet Jdbc" />
+    <MESSAGE value="RowSet Jdbc1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="RowSet Jdbc1.1" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1519,7 +1526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSetTypes/JdbcRowSetDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.826087">
+        <state vertical-scroll-proportion="-1.3815789">
           <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
