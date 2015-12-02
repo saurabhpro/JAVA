@@ -1,3 +1,5 @@
+package MyResultSet;
+
 import java.sql.*;
 
 /**
@@ -24,11 +26,9 @@ public class ResultSetRetrieve {
                     "accno NUMBER(10,0) NOT NULL PRIMARY KEY , " +
                     "holder_name VARCHAR2(20) NOT NULL," +
                     "income INTEGER NOT NULL )");*/
-            //  s1.executeUpdate("INSERT INTO person VALUES (65,'ram','mohan','m',to_date('24/11/1987','dd/mm/yyyy'),45555)");
-            // s1.executeUpdate("INSERT INTO bank VALUES (65,'ram',50000)");
 
-            s1.executeUpdate("UPDATE person SET first_name='gurmeet', last_name='singh' WHERE person_id=6");
-            s1.execute("DELETE FROM person WHERE person_id=65");
+            s1.executeUpdate("UPDATE person SET p_fname='gurmeet', p_lname='singh' WHERE p_id=6");
+            s1.execute("DELETE FROM person WHERE p_id=65");
             s1.execute("COMMIT");
 
             rs = s1.executeQuery("SELECT * FROM person");

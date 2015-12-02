@@ -1,3 +1,5 @@
+package MyResultSet;
+
 import java.sql.*;
 
 /**

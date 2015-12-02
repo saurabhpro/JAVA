@@ -5,7 +5,10 @@ import com.sun.rowset.JdbcRowSetImpl;
 import javax.sql.RowSetEvent;
 import javax.sql.RowSetListener;
 import javax.sql.rowset.JdbcRowSet;
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 /**
  * Created by Saurabh on 11/28/2015. JdbcRowSet Interface is an extension of RowSet interface and is the only connected
@@ -16,6 +19,12 @@ import java.sql.*;
  * <p>
  * another advantage is that it as adds Scrollable and Updatable capabilities to the ResultSet object. This means we can
  * now move back and forth the list of records fetched from the database through ResultSet object.
+ * You can create a JdbcRowSet object in various ways:
+
+ By using the reference implementation constructor that takes a ResultSet object
+ By using the reference implementation constructor that takes a Connection object
+ By using the reference implementation default constructor
+ By using an instance of RowSetFactory, which is created from the class RowSetProvider
  */
 
 class ExampleListener implements RowSetListener {
@@ -41,37 +50,44 @@ class ExampleListener implements RowSetListener {
 public class JdbcRowSetDemo {
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         Connection conn = getOracleConnection();
-        Statement st = conn.createStatement();
+        // Statement st = conn.createStatement();
 
         JdbcRowSet jdbcRowSet;
         jdbcRowSet = new JdbcRowSetImpl(conn);
-
+        /*
+        jdbcRowSet = new JdbcRowSetImpl();
+        jdbcRowSet.setUsername("system");
+        jdbcRowSet.setPassword("98989");
+        jdbcRowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+        jdbcRowSet.setCommand("select * from bank");
+        jdbcRowSet.execute();
+        */
         jdbcRowSet.setType(ResultSet.TYPE_SCROLL_SENSITIVE);
         jdbcRowSet.setConcurrency(ResultSet.CONCUR_UPDATABLE);
 
-        jdbcRowSet.addRowSetListener(new ExampleListener());
-        jdbcRowSet.execute();
+        //  jdbcRowSet.setCommand("insert into emp values (25,'sam','smith',to_date('24/11/1987','dd/mm/yyyy'),6400)");
+        // jdbcRowSet.execute();
 
-        jdbcRowSet.setCommand("insert into emp values ('sam',9,56505");
-        jdbcRowSet.execute();
-
-        jdbcRowSet.setCommand("update emp set name='raj where name='amit'");
+        jdbcRowSet.setCommand("update emp set emp_fname='kevin' where emp_fname='sam'");
         jdbcRowSet.execute();
 
         String sql = "Select * from emp";
         jdbcRowSet.setCommand(sql);
         jdbcRowSet.execute();
 
+        //this line needs to be after execute of jdbc rowset else error
+        jdbcRowSet.addRowSetListener(new ExampleListener());
+
         while (jdbcRowSet.next()) {
             //each call to next, gerenrates a Cursor Movement event
-            System.out.println("name" + jdbcRowSet.getString("name"));
-            System.out.println("Salary" + jdbcRowSet.getInt("salary"));
+            System.out.print("name: " + jdbcRowSet.getString("emp_fname"));
+            System.out.println("\tSalary: " + jdbcRowSet.getInt("emp_salary"));
         }
         conn.close();
     }
 
     public static Connection getOracleConnection() throws ClassNotFoundException, SQLException {
-        String driver = "oracle.jdbc.driver.OracleConnection";
+        String driver = "oracle.jdbc.driver.OracleDriver";
         String url = "jdbc:oracle:thin:@localhost:1521:orcl";
         String password = "98989";
         String username = "system";

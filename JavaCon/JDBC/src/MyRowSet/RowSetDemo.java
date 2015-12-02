@@ -60,9 +60,9 @@ public class RowSetDemo {
             rowSet.execute();
 
             //iterate over rowset
-            System.out.println("Name\tPassword");
+            System.out.println("Accno\tName");
             while (rowSet.next())
-                System.out.println(rowSet.getString(1) + " " + rowSet.getString(2));
+                System.out.println(rowSet.getString(1) + "\t\t" + rowSet.getString(2));
 
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
