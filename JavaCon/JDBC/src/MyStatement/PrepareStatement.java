@@ -3,7 +3,8 @@ package MyStatement;
 import java.sql.*;
 
 /**
- * Created by Saurabh on 12/1/2015. If you want to use statement object many times, it usually reduces execution time to
+ * Created by Saurabh on 12/1/2015.
+ * If you want to use statement object many times, it usually reduces execution time to
  * use preparedstatement object instead.
  * <p>
  * The main feature of preparedstatement is that unlike the statement object it is given SQL statement when it is

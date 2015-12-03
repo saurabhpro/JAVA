@@ -6,25 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="RowSet Jdbc1.2&#10;PreparedStatement&#10;Table Person, Emp, Bank&#10;All programs till here are working in jdbc">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/JDBC.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/MyResultSet/createStatementArguments.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/DataPreparation/CreateTableBank.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/DataPreparation/CreateTableEmp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/DataPreparation/CreateTablePerson.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/MyResultSet/SensitiveResultSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/FilteredRowSetDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/MyStatement/PrepareStatement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JDBC/src/FetchSize.java" afterPath="$PROJECT_DIR$/JDBC/src/MyResultSet/FetchSize.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JDBC/src/ResultSetRetrieve.java" afterPath="$PROJECT_DIR$/JDBC/src/MyResultSet/ResultSetRetrieve.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaDS/mylist/Delete.class" afterPath="$PROJECT_DIR$/out/production/JavaDS/mylist/Delete.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaDS/mylist/Insert.class" afterPath="$PROJECT_DIR$/out/production/JavaDS/mylist/Insert.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Polymorphism/OverridingStaticMethods.class" afterPath="$PROJECT_DIR$/out/production/Polymorphism/OverridingStaticMethods.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/List/ArrayList/arraylist16.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/20 Java Collections Interview Questions.docx" afterPath="$PROJECT_DIR$/Collections/20 Java Collections Interview Questions.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/RowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/MyRowSet/RowSetDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/CachedRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/CachedRowSetDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/JdbcRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/JdbcRowSetDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/JoinRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/JoinRowSetDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/WebRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/WebRowSetDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/MyStatement/PrepareStatement.java" afterPath="$PROJECT_DIR$/JDBC/src/MyStatement/PrepareStatement.java" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,16 +56,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PrepareStatement.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JDBC/src/MyStatement/PrepareStatement.java">
+      <file leaf-file-name="SensitiveResultSet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JDBC/src/MyResultSet/SensitiveResultSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7177616">
-              <caret line="52" column="87" selection-start-line="52" selection-start-column="87" selection-end-line="52" selection-end-column="87" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1449086221681" expanded="true" signature="1685:1734" placeholder="CREATE TABLE..emp66..." />
-                <marker date="1449086221681" expanded="true" signature="1835:1865" placeholder="INSERT INTO emp66..." />
-                <marker date="1449086221681" expanded="true" signature="2294:2323" placeholder="SELECT * FRO..emp66..." />
-                <marker date="1449086221681" expanded="true" signature="2294:2324" placeholder="SELECT * FRO..emp66..." />
+                <marker date="1449077486934" expanded="true" signature="1989:2007" placeholder="SELECT * FRO..bank..." />
+                <marker date="1449077486934" expanded="true" signature="2882:2915" placeholder="UPDATE bank ..." />
               </folding>
             </state>
           </provider>
@@ -231,9 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -262,7 +242,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JDBC" />
+              <option name="myItemId" value="Collections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -276,16 +256,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JDBC" />
+              <option name="myItemId" value="Collections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="Map" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -933,7 +916,9 @@
       <workItem from="1448748071947" duration="2120000" />
       <workItem from="1448979974492" duration="1941000" />
       <workItem from="1449047988961" duration="4347000" />
-      <workItem from="1449071685549" duration="11845000" />
+      <workItem from="1449071685549" duration="11964000" />
+      <workItem from="1449089924518" duration="1064000" />
+      <workItem from="1449131885734" duration="1360000" />
     </task>
     <task id="LOCAL-00001" summary="Java Commit&#10;">
       <created>1440921977733</created>
@@ -1025,11 +1010,17 @@
       <option name="project" value="LOCAL" />
       <updated>1448704151624</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="RowSet Jdbc1.2&#10;PreparedStatement&#10;Table Person, Emp, Bank&#10;All programs till here are working in jdbc">
+      <created>1449086238307</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1449086238307</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269735000" />
+    <option name="totallyTimeSpent" value="272278000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1041,35 +1032,62 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649842" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33228347" sideWeight="0.5058565" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30757096" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23426062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39901477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39901477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649842" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30757096" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33228347" sideWeight="0.5058565" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39901477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649842" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30757096" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23426062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1113,20 +1131,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Polymorphism/src/OverridingStaticMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7664042">
-          <caret line="35" column="90" selection-start-line="35" selection-start-column="90" selection-end-line="35" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Polymorphism/src/OverloadingPitfall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79790026">
-          <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Concurrency/src/AnonymousThreadExecution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1365,20 +1369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41564792">
           <caret line="14" column="117" selection-start-line="14" selection-start-column="117" selection-end-line="14" selection-end-column="117" />
-          <folding>
-            <marker date="1449075924704" expanded="true" signature="2465:2483" placeholder="SELECT * FRO..bank..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDBC/src/MyResultSet/SensitiveResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="106" column="34" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
-          <folding>
-            <marker date="1449077486934" expanded="true" signature="1989:2007" placeholder="SELECT * FRO..bank..." />
-            <marker date="1449077486934" expanded="true" signature="2882:2915" placeholder="UPDATE bank ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1386,16 +1376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5183374">
           <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
-          <folding>
-            <marker date="1449078910938" expanded="true" signature="1115:1310" placeholder="CREATE TABLE..bank..." />
-            <marker date="1449078910938" expanded="true" signature="1347:1360" placeholder="UPDATE perso..." />
-            <marker date="1449078910938" expanded="true" signature="1347:1373" placeholder="UPDATE perso..." />
-            <marker date="1449078910938" expanded="true" signature="1347:1412" placeholder="UPDATE perso..." />
-            <marker date="1449078910938" expanded="true" signature="1440:1472" placeholder="DELETE FROM ..." />
-            <marker date="1449078910938" expanded="true" signature="1545:1565" placeholder="SELECT * FRO..person..." />
-            <marker date="1449078910938" expanded="true" signature="1783:1797" placeholder="SELECT * FRO..person..." />
-            <marker date="1449078910938" expanded="true" signature="1783:1801" placeholder="SELECT * FRO..bank..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1403,15 +1383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.914787">
           <caret line="26" column="110" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="116" />
-          <folding>
-            <marker date="1449086221718" expanded="true" signature="421:699" placeholder="CREATE TABLE..person..." />
-            <marker date="1449086221718" expanded="true" signature="734:816" placeholder="INSERT INTO person..." />
-            <marker date="1449086221718" expanded="true" signature="850:932" placeholder="INSERT INTO person..." />
-            <marker date="1449086221718" expanded="true" signature="966:1050" placeholder="INSERT INTO person..." />
-            <marker date="1449086221718" expanded="true" signature="1084:1169" placeholder="INSERT INTO person..." />
-            <marker date="1449086221718" expanded="true" signature="1243:1257" placeholder="SELECT * FRO..person..." />
-            <marker date="1449086221718" expanded="true" signature="1243:1260" placeholder="SELECT * FRO..emp..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1419,7 +1390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33658537">
           <caret line="64" column="62" selection-start-line="64" selection-start-column="62" selection-end-line="64" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1427,7 +1397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.041463416">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1435,19 +1404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding>
-            <marker date="1449086221749" expanded="true" signature="380:752" placeholder="CREATE TABLE..person..." />
-            <marker date="1449086221749" expanded="true" signature="380:753" placeholder="CREATE TABLE..person..." />
-            <marker date="1449086221749" expanded="true" signature="788:873" placeholder="INSERT INTO person..." />
-            <marker date="1449086221749" expanded="true" signature="907:992" placeholder="INSERT INTO person..." />
-            <marker date="1449086221749" expanded="true" signature="1026:1113" placeholder="INSERT INTO person..." />
-            <marker date="1449086221749" expanded="true" signature="1147:1235" placeholder="INSERT INTO person..." />
-            <marker date="1449086221749" expanded="true" signature="1269:1355" placeholder="INSERT INTO person..." />
-            <marker date="1449086221749" expanded="true" signature="1389:1478" placeholder="INSERT INTO person..." />
-            <marker date="1449086221749" expanded="true" signature="1512:1603" placeholder="INSERT INTO person..." />
-            <marker date="1449086221749" expanded="true" signature="1677:1691" placeholder="SELECT * FRO..bank..." />
-            <marker date="1449086221749" expanded="true" signature="1677:1697" placeholder="SELECT * FRO..person..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1455,17 +1411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34146342">
           <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-          <folding>
-            <marker date="1449078744366" expanded="true" signature="422:615" placeholder="CREATE TABLE..bank..." />
-            <marker date="1449078744366" expanded="true" signature="422:616" placeholder="CREATE TABLE..bank..." />
-            <marker date="1449078744366" expanded="true" signature="651:691" placeholder="INSERT INTO bank..." />
-            <marker date="1449078744366" expanded="true" signature="725:767" placeholder="INSERT INTO bank..." />
-            <marker date="1449078744366" expanded="true" signature="801:843" placeholder="INSERT INTO bank..." />
-            <marker date="1449078744366" expanded="true" signature="877:922" placeholder="INSERT INTO bank..." />
-            <marker date="1449078744366" expanded="true" signature="956:997" placeholder="INSERT INTO bank..." />
-            <marker date="1449078744366" expanded="true" signature="1031:1072" placeholder="INSERT INTO bank..." />
-            <marker date="1449078744366" expanded="true" signature="1146:1164" placeholder="SELECT * FRO..bank..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1473,7 +1418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="59" column="80" selection-start-line="59" selection-start-column="80" selection-end-line="59" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1481,9 +1425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="102" selection-start-line="26" selection-start-column="102" selection-end-line="26" selection-end-column="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1491,9 +1432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.7785888">
           <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1501,9 +1439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.91484183">
           <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1511,9 +1446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19221412">
           <caret line="46" column="25" selection-start-line="44" selection-start-column="7" selection-end-line="48" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1521,19 +1453,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDBC/src/MyRowSet/Types/emp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.32987">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JDBC/src/MyStatement/PrepareStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7177616">
-          <caret line="52" column="87" selection-start-line="52" selection-start-column="87" selection-end-line="52" selection-end-column="87" />
+        <state vertical-scroll-proportion="0.24817519">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDBC/src/MyResultSet/SensitiveResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1449086221681" expanded="true" signature="1685:1734" placeholder="CREATE TABLE..emp66..." />
-            <marker date="1449086221681" expanded="true" signature="1835:1865" placeholder="INSERT INTO emp66..." />
-            <marker date="1449086221681" expanded="true" signature="2294:2323" placeholder="SELECT * FRO..emp66..." />
-            <marker date="1449086221681" expanded="true" signature="2294:2324" placeholder="SELECT * FRO..emp66..." />
+            <marker date="1449077486934" expanded="true" signature="1989:2007" placeholder="SELECT * FRO..bank..." />
+            <marker date="1449077486934" expanded="true" signature="2882:2915" placeholder="UPDATE bank ..." />
           </folding>
         </state>
       </provider>
