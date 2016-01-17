@@ -5,21 +5,26 @@ import java.sql.*;
 /**
  * Created by Saurabh on 12/1/2015.
  * If you want to use statement object many times, it usually reduces execution time to
- * use preparedstatement object instead.
+ * use PreparedStatement object instead.
  * <p>
- * The main feature of preparedstatement is that unlike the statement object it is given SQL statement when it is
+ * The main feature of PreparedStatement is that unlike the statement object it is given SQL statement when it is
  * created. The advantage of this is that in most cases this SQL statement is sent to the DBMS right away, where it is
- * compiled. As a result prepairedstatement object contains not just a SQL statement, but a SQL statemet that has been
- * pre-compiled. This means that when the preparedstatement is executed, the DBMS can just run the preparedstatement SQL
+ * compiled. As a result PreparedStatement object contains not just a SQL statement, but a SQL statement that has been
+ * pre-compiled. This means that when the PreparedStatement is executed, the DBMS can just run the PreparedStatement SQL
  * statement without having to compile first.
  * <p>
- * A preparedstatement is a special kind of statement object with some special features. Remember you need a statement
+ * A PreparedStatement is a special kind of statement object with some special features. Remember you need a statement
  * in order to execute query or update. You can use the prepared statement instead of statement and benefits from the
- * features of preparedstatement.
+ * features of PreparedStatement.
  * <p>
- * The prepared statement primary features are:- Easy to insert parameters into SQL statement statement Easy to reuse
- * the prepared statement with new parameters. Enable easier batch update
+ * The prepared statement primary features are:-
+ * <p>Easy to insert parameters into SQL statement statement
+ * <p>Easy to reuse the PreparedStatement with new parameters
+ * <p>May increase performance of executed statements.
+ * <p>Enable easier batch update
  */
+
+
 public class PrepareStatement {
     public static void main(String[] args) {
         try {
@@ -41,8 +46,19 @@ public class PrepareStatement {
             //PreparedStatement ps = conn.prepareStatement("insert into emp66 values(?,?)");
             prepareStatement.setInt(1, t1);
             prepareStatement.setString(2, t2);
-
+            /**
+             * Once a PreparedStatement is created (prepared) for the above SQL statement,
+             * you can insert parameters at the location of the question mark.
+             * This is done using the many setXXX() methods.
+             *
+             * The first number (1) is the index of the parameter to insert the value for.
+             * The second number (t1) is the value to insert into the SQL statement.
+             */
             prepareStatement.executeUpdate();
+            /**
+             * The executeUpdate() method is used when updating the database.
+             * It returns an int which tells how many records in the database were affected by the update.
+             */
             prepareStatement.close();
 
             prepareStatement = conn.prepareStatement("SELECT * FROM emp66 WHERE id=?");

@@ -23,6 +23,10 @@ public class UsingStatements {
             s.addBatch(s3);
 
             s.executeBatch();
+            /**
+             *  The int[] array returned by the executeBatch() method is an array of int telling
+             *  how many records were affected by each executed SQL statement in the batch.
+             */
 
             ResultSet resultSet = s.executeQuery("SELECT * FROM empbatch");
             while (resultSet.next()) {
