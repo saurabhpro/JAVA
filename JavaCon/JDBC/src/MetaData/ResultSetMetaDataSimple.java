@@ -13,7 +13,7 @@ public class ResultSetMetaDataSimple {
         Statement st = conn.createStatement();
 
         // st.executeUpdate("CREATE TABLE empmeta (id NUMBER, name VARCHAR2(20), salary NUMBER)");
-        ResultSet rs = st.executeQuery("SELECT * from empmeta");
+        ResultSet rs = st.executeQuery("SELECT * FROM empmeta");
 
         ResultSetMetaData rsmd = rs.getMetaData();
 

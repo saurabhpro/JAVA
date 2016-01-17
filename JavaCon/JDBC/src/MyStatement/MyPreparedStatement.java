@@ -25,7 +25,7 @@ import java.sql.*;
  */
 
 
-public class PrepareStatement {
+public class MyPreparedStatement {
     public static void main(String[] args) {
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");

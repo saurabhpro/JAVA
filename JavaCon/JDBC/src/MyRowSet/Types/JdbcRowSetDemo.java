@@ -20,11 +20,11 @@ import java.sql.SQLException;
  * another advantage is that it as adds Scrollable and Updatable capabilities to the ResultSet object. This means we can
  * now move back and forth the list of records fetched from the database through ResultSet object.
  * You can create a JdbcRowSet object in various ways:
-
- By using the reference implementation constructor that takes a ResultSet object
- By using the reference implementation constructor that takes a Connection object
- By using the reference implementation default constructor
- By using an instance of RowSetFactory, which is created from the class RowSetProvider
+ * <p>
+ * By using the reference implementation constructor that takes a ResultSet object
+ * By using the reference implementation constructor that takes a Connection object
+ * By using the reference implementation default constructor
+ * By using an instance of RowSetFactory, which is created from the class RowSetProvider
  */
 
 class ExampleListener implements RowSetListener {
