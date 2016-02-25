@@ -15,10 +15,10 @@ public class HashMapBasicEmp {
 
         System.out.println("initial size: " + hashMap.size());
 
+        hashMap.put(new BasicEmp(10), "xxx");
         hashMap.put(new BasicEmp(10), "aaaa");
         hashMap.put(new BasicEmp(10), "aaaa");
-        hashMap.put(new BasicEmp(10), "aaaa");
-        hashMap.put(new BasicEmp(10), "aaaa");
+        hashMap.put(new BasicEmp(10), "xyxx");
 
         System.out.println("Size after inserting 4 values with same key: " + hashMap.size());
 

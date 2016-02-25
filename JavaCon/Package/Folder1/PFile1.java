@@ -1,5 +1,5 @@
 //package p1;
-import p1.*;
+
 public class PFile1{
     void show()
     {

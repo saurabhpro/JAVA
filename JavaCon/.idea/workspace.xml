@@ -5,9 +5,16 @@
     <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="jdbc 16jan2016&#10;transactions&#10;and minor notes from jenkov&#10;DateTime&#10;BlobClob">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+    <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="private value accessed via reflection">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Reflections/Reflections.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Reflections/src/CallPrivateOfOtherClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Reflections/src/GetSuper.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xyz.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/Map/HashMap/HashMapBasicEmp.java" afterPath="$PROJECT_DIR$/Collections/Map/HashMap/HashMapBasicEmp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaCon.iml" afterPath="$PROJECT_DIR$/JavaCon.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Package/Folder1/PFile1.java" afterPath="$PROJECT_DIR$/Package/Folder1/PFile1.java" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,6 +31,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Java$ArrayListProblem.coverage" NAME="ArrayListProblem Coverage Results" MODIFIED="1442178439568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Java$ArrayOfReferences.coverage" NAME="ArrayOfReferences Coverage Results" MODIFIED="1441057727789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Java$CallPrivateOfOtherClass.coverage" NAME="CallPrivateOfOtherClass Coverage Results" MODIFIED="1456052009282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon" />
@@ -54,51 +62,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyCallableStatements.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JDBC/src/MyStatement/MyCallableStatements.java">
+      <file leaf-file-name="GetSuper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Reflections/src/GetSuper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-              <folding>
-                <marker date="1453058209353" expanded="true" signature="1279:1298" placeholder="SELECT * FRO... emp66" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedListGetRemove.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Collections/List/LinkedList/LinkedListGetRemove.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26243567">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.31658292">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsingStatements.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JDBC/src/BatchUpdateStatements/UsingStatements.java">
+      <file leaf-file-name="CallPrivateOfOtherClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Reflections/src/CallPrivateOfOtherClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding>
-                <marker date="1453022338675" expanded="true" signature="490:557" placeholder="CREATE TABLE... empbatch" />
-                <marker date="1453022338675" expanded="true" signature="585:629" placeholder="INSERT INTO empbatch... " />
-                <marker date="1453022338675" expanded="true" signature="657:694" placeholder="UPDATE empba... " />
-                <marker date="1453022338675" expanded="true" signature="1115:1137" placeholder="SELECT * FRO... empbatch" />
+                <element signature="e#79#80#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JdbcExcel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JDBC/src/BlobClob/excel/JdbcExcel.java">
+      <file leaf-file-name="HashMapBasicEmp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/HashMapBasicEmp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-              <folding>
-                <marker date="1453040363362" expanded="true" signature="1505:1528" placeholder="SELECT * FRO... " />
-              </folding>
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,6 +111,7 @@
         <option value="Saurab" />
       </list>
     </option>
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
@@ -132,12 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JDBC/src/MyRowSet/CachedRowSetDemo.java" />
-        <option value="$PROJECT_DIR$/JDBC/src/MyResultSet/MyThread2.java" />
-        <option value="$PROJECT_DIR$/JDBC/src/MyResultSet/MyThread.java" />
-        <option value="$PROJECT_DIR$/JDBC/src/MyResultSet/SenstitiveResultSet.java" />
-        <option value="$PROJECT_DIR$/JDBC/src/MyResultSet/SensitiveResultSet.java" />
-        <option value="$PROJECT_DIR$/JDBC/src/DataPreparation/CreateTableBank.java" />
         <option value="$PROJECT_DIR$/JDBC/src/DataPreparation/CreateTableEmp.java" />
         <option value="$PROJECT_DIR$/JDBC/src/MyRowSet/RowSetDemo.java" />
         <option value="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/CachedRowSetDemo.java" />
@@ -183,6 +170,12 @@
         <option value="$PROJECT_DIR$/JDBC/src/MyStatement/CallableStatements.java" />
         <option value="$PROJECT_DIR$/JDBC/src/MyStatement/PrepareStatement.java" />
         <option value="$PROJECT_DIR$/JDBC/src/MyStatement/MyCallableStatements.java" />
+        <option value="$PROJECT_DIR$/Reflection/src/CallPrivateOfOtherClass.java" />
+        <option value="$PROJECT_DIR$/Reflection/src/GetSuper.java" />
+        <option value="$PROJECT_DIR$/Package/Folder1/PFile1.java" />
+        <option value="$PROJECT_DIR$/Reflections/src/CallPrivateOfOtherClass.java" />
+        <option value="$PROJECT_DIR$/Collections/Map/HashMap/HashMapBasicEmp.java" />
+        <option value="$PROJECT_DIR$/Reflections/src/GetSuper.java" />
       </list>
     </option>
   </component>
@@ -251,8 +244,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -281,7 +275,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JDBC" />
+              <option name="myItemId" value="Reflections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,7 +289,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JDBC" />
+              <option name="myItemId" value="Reflections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GetSuper.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaCon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Reflections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -303,9 +319,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaCon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaCon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaCon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HashMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,16 +414,6 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\JDBC\src\MyResultSet" />
-      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\JDBC" />
-      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\JDBC\src\BlobClob\text" />
-      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\JDBC\src\MetaData" />
-      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\JDBC\src\MyStatement" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\JDBC\src\BlobClob\image" />
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\JavaKathy\src" />
@@ -362,16 +421,21 @@
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Java8Lambda" />
       <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Interfaces\src\saurabh\Interface\Java8" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\Reflections\src" />
+      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\JDBC\src\MyResultSet" />
+      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\JDBC" />
+      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\JDBC\src\BlobClob\text" />
+      <recent name="C:\Users\Saurabh\Documents\GitHub\JAVA\JavaCon\JDBC\src\MetaData" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MyExecuteMethod">
-    <configuration default="false" name="MyExecuteMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MyStatement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="MyStatement.MyExecuteMethod" />
+  <component name="RunManager" selected="Application.HashMapBasicEmp">
+    <configuration default="false" name="GetSuper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="GetSuper" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -380,18 +444,13 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JDBC" />
+      <module name="JavaCon" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="GetTableViewDatabaseMetaData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MetaData.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="MetaData.GetTableViewDatabaseMetaData" />
+    <configuration default="false" name="ClassCast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="ClassCast" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -400,18 +459,13 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JDBC" />
+      <module name="Polymorphism" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="GetJdbcTypeName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MetaData.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="MetaData.GetJdbcTypeName" />
+    <configuration default="false" name="CompileTimeOverloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="CompileTimeOverloading" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -420,18 +474,13 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JDBC" />
+      <module name="Polymorphism" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="CallableStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MyStatement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="MyStatement.CallableStatement" />
+    <configuration default="false" name="CallPrivateOfOtherClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="CallPrivateOfOtherClass" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -440,18 +489,13 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JDBC" />
+      <module name="JavaCon" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MyCallableStatements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="MyStatement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="MyStatement.MyCallableStatements" />
+    <configuration default="false" name="HashMapBasicEmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="HashMapBasicEmp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -460,7 +504,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JDBC" />
+      <module name="Collections" />
       <envs />
       <method />
     </configuration>
@@ -929,19 +973,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.InterfaceDefaultMethod" />
       <item index="1" class="java.lang.String" itemvalue="Application.InterfaceStaticMethod" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MyExecuteMethod" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GetTableViewDatabaseMetaData" />
-      <item index="4" class="java.lang.String" itemvalue="Application.GetJdbcTypeName" />
-      <item index="5" class="java.lang.String" itemvalue="Application.CallableStatement" />
-      <item index="6" class="java.lang.String" itemvalue="Application.MyCallableStatements" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GetSuper" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ClassCast" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CompileTimeOverloading" />
+      <item index="5" class="java.lang.String" itemvalue="Application.CallPrivateOfOtherClass" />
+      <item index="6" class="java.lang.String" itemvalue="Application.HashMapBasicEmp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MyExecuteMethod" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MyCallableStatements" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CallableStatement" />
-        <item index="3" class="java.lang.String" itemvalue="Application.GetJdbcTypeName" />
-        <item index="4" class="java.lang.String" itemvalue="Application.GetTableViewDatabaseMetaData" />
+        <item index="0" class="java.lang.String" itemvalue="Application.HashMapBasicEmp" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CallPrivateOfOtherClass" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GetSuper" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CompileTimeOverloading" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ClassCast" />
       </list>
     </recent_temporary>
   </component>
@@ -1025,6 +1069,9 @@
       <workItem from="1454090313113" duration="692000" />
       <workItem from="1454961177377" duration="605000" />
       <workItem from="1455042477562" duration="244000" />
+      <workItem from="1456048695516" duration="2781000" />
+      <workItem from="1456051779608" duration="959000" />
+      <workItem from="1456338348434" duration="774000" />
     </task>
     <task id="LOCAL-00001" summary="Java Commit&#10;">
       <created>1440921977733</created>
@@ -1150,7 +1197,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="311685000" />
+    <option name="totallyTimeSpent" value="316199000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1167,26 +1214,26 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32492113" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33224222" sideWeight="0.5058565" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31096563" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30278233" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2397882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23903178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39901477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39747635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1249,7 +1296,8 @@
     <MESSAGE value="jdbc 9jan2016&#10;batchupdate&#10;sequence autoincrement" />
     <MESSAGE value="jdbc 16jan2016&#10;transactions&#10;and minor notes from jenkov" />
     <MESSAGE value="jdbc 16jan2016&#10;transactions&#10;and minor notes from jenkov&#10;DateTime&#10;BlobClob" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbc 16jan2016&#10;transactions&#10;and minor notes from jenkov&#10;DateTime&#10;BlobClob" />
+    <MESSAGE value="private value accessed via reflection" />
+    <option name="LAST_COMMIT_MESSAGE" value="private value accessed via reflection" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1264,39 +1312,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/FunctionUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029310346">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaKathy/src/PrivateConstructorChaning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaKathy/PreIncrement.PNG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaKathy/src/Fundamentals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40874037">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaKathy/src/ApressArithOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3033419">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaKathy/src/FloatNaN.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6169666">
@@ -1322,13 +1337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33658537">
           <caret line="64" column="62" selection-start-line="64" selection-start-column="62" selection-end-line="64" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Package/Folder1/PFile1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.041463416">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1593,17 +1601,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-          <folding>
-            <marker date="1453058209353" expanded="true" signature="1279:1298" placeholder="SELECT * FRO... emp66" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections/List/LinkedList/LinkedListGetRemove.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26243567">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1611,12 +1615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1453022338675" expanded="true" signature="490:557" placeholder="CREATE TABLE... empbatch" />
-            <marker date="1453022338675" expanded="true" signature="585:629" placeholder="INSERT INTO empbatch... " />
-            <marker date="1453022338675" expanded="true" signature="657:694" placeholder="UPDATE empba... " />
-            <marker date="1453022338675" expanded="true" signature="1115:1137" placeholder="SELECT * FRO... empbatch" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1624,9 +1622,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reflections/Reflections.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Package/Folder1/PFile1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/Map/HashMap/HashMapBasicEmp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reflections/src/CallPrivateOfOtherClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding>
-            <marker date="1453040363362" expanded="true" signature="1505:1528" placeholder="SELECT * FRO... " />
+            <element signature="e#79#80#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reflections/src/GetSuper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31658292">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1682,7 +1727,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JDBC</last-edited>
+          <last-edited>JavaCon</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
