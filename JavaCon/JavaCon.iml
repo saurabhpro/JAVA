@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Package/Folder1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Package/Folder2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Reflections/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Streams/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lambda/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

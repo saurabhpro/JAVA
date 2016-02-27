@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Map/SynchronizedMap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Map/LinkedHashMap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Map/Hashtable" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Bonus" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

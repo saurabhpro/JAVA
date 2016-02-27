@@ -20,7 +20,7 @@ public class HashMapBasicString {
         hashMap.put("1003", "cccc");
         hashMap.put("1004", "dddd");
         hashMap.put(new String("1005"), "eeee");        //no difference with using new
-        hashMap.put("1001", "only changed the value of 1001");
+        hashMap.put("1001", "only changed the value of 1001");      // it'll replace the value at key
 
         /**
          * Set set = hashMap.entrySet();
