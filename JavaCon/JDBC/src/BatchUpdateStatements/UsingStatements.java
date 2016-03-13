@@ -12,12 +12,12 @@ public class UsingStatements {
             Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");
 
             Statement s = conn.createStatement();
-            //  String s0 = "DROP table emp2";
+            String s0 = "DROP table empbatch";
             String s1 = "CREATE TABLE empbatch (id NUMBER,name VARCHAR2(25), salary NUMBER )";
-            String s2 = "INSERT INTO empbatch VALUES (44,'ram',40000)";
-            String s3 = "UPDATE empbatch SET id=45 WHERE id=44";
+            String s2 = "INSERT INTO empbatch VALUES (49,'ram',40000)";
+            String s3 = "UPDATE empbatch SET id=47 WHERE id=49";
 
-            //s.addBatch(s0);
+            s.addBatch(s0);
             s.addBatch(s1);
             s.addBatch(s2);
             s.addBatch(s3);
