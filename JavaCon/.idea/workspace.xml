@@ -5,12 +5,10 @@
     <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="static block RIWO state and init block">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Collections/Bonus/DiamondOp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+    <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="diamondoperator and singleton class">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Collections/SingletonCollection.class" afterPath="$PROJECT_DIR$/out/production/Collections/SingletonCollection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/Bonus/DiamondOp.java" afterPath="$PROJECT_DIR$/Collections/Bonus/DiamondOp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/Bonus/SingletonCollection.java" afterPath="$PROJECT_DIR$/Collections/Bonus/SingletonCollection.java" />
     </list>
     <ignored path="Java.iws" />
@@ -62,8 +60,8 @@
       <file leaf-file-name="SingletonCollection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collections/Bonus/SingletonCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+            <state relative-caret-position="799">
+              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -75,21 +73,6 @@
             <state relative-caret-position="204">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultSetRetrieve.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JDBC/src/MyResultSet/ResultSetRetrieve.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-              <folding>
-                <marker date="1453042057164" expanded="true" signature="1368:1433" ph="UPDATE perso... " />
-                <marker date="1453042057164" expanded="true" signature="1461:1493" ph="DELETE FROM " />
-                <marker date="1453042057164" expanded="true" signature="1566:1586" ph="SELECT * FRO... person" />
-                <marker date="1453042057164" expanded="true" signature="2961:2979" ph="SELECT * FRO... bank" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -112,11 +95,11 @@
       <file leaf-file-name="InstanceFamily.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/InstanceFamily.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="357">
               <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
-                <element signature="e#288#289#0" expanded="false" />
-                <element signature="e#324#325#0" expanded="false" />
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,11 +108,10 @@
       <file leaf-file-name="DiamondOp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Collections/Bonus/DiamondOp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="213">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="class#RightSideDiamondSkipWorks#0;class#DiamondOp#0" expanded="false" />
                 <element signature="class#ErasureProblemsWithGenerics#0;class#DiamondOp#0" expanded="false" />
               </folding>
             </state>
@@ -139,40 +121,8 @@
       <file leaf-file-name="DiamondOp.class" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/out/production/Collections/DiamondOp.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-221">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#1922#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StaticFamily.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/SpecialKeywords/StaticFamily.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InstanceFamily.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/out/production/SpecialKeywords/InstanceFamily.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecursiveMethodReference.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lambda/src/RecursiveMethodReference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -257,8 +207,8 @@
         <option value="$PROJECT_DIR$/SpecialKeywords/src/StaticFamily.java" />
         <option value="$PROJECT_DIR$/SpecialKeywords/src/InstanceFamily.java" />
         <option value="$PROJECT_DIR$/out/production/Collections/DiamondOp.class" />
-        <option value="$PROJECT_DIR$/Collections/Bonus/DiamondOp.java" />
         <option value="$PROJECT_DIR$/Collections/Bonus/SingletonCollection.java" />
+        <option value="$PROJECT_DIR$/Collections/Bonus/DiamondOp.java" />
       </list>
     </option>
   </component>
@@ -1127,7 +1077,7 @@
       <workItem from="1456701250198" duration="823000" />
       <workItem from="1481949105285" duration="4293000" />
       <workItem from="1484614761546" duration="140000" />
-      <workItem from="1485010072901" duration="5164000" />
+      <workItem from="1485010072901" duration="7225000" />
     </task>
     <task id="LOCAL-00001" summary="Java Commit&#10;">
       <created>1440921977733</created>
@@ -1290,11 +1240,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481952208109</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="diamondoperator and singleton class">
+      <created>1485017606495</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1485017606495</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332100000" />
+    <option name="totallyTimeSpent" value="334161000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1307,7 +1264,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1321,7 +1278,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23827533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23827533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1398,7 +1355,8 @@
     <MESSAGE value="private value accessed via reflection" />
     <MESSAGE value="Stream API, and lambda basics" />
     <MESSAGE value="static block RIWO state and init block" />
-    <option name="LAST_COMMIT_MESSAGE" value="static block RIWO state and init block" />
+    <MESSAGE value="diamondoperator and singleton class" />
+    <option name="LAST_COMMIT_MESSAGE" value="diamondoperator and singleton class" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1688,39 +1646,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Streams/src/StreamIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDBC/src/MyResultSet/ResultSetRetrieve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding>
-            <marker date="1453042057164" expanded="true" signature="1368:1433" ph="UPDATE perso... " />
-            <marker date="1453042057164" expanded="true" signature="1461:1493" ph="DELETE FROM " />
-            <marker date="1453042057164" expanded="true" signature="1566:1586" ph="SELECT * FRO... person" />
-            <marker date="1453042057164" expanded="true" signature="2961:2979" ph="SELECT * FRO... bank" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JDBC/src/BatchUpdateStatements/UsingStatements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lambda/src/RecursiveMethodReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1760,42 +1689,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/InstanceFamily.java">
+    <entry file="file://$PROJECT_DIR$/JDBC/src/MyResultSet/ResultSetRetrieve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="367">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding>
-            <element signature="e#288#289#0" expanded="false" />
-            <element signature="e#324#325#0" expanded="false" />
+            <marker date="1453042057164" expanded="true" signature="1368:1433" ph="UPDATE perso... " />
+            <marker date="1453042057164" expanded="true" signature="1461:1493" ph="DELETE FROM " />
+            <marker date="1453042057164" expanded="true" signature="1566:1586" ph="SELECT * FRO... person" />
+            <marker date="1453042057164" expanded="true" signature="2961:2979" ph="SELECT * FRO... bank" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Collections/DiamondOp.class">
+    <entry file="file://$PROJECT_DIR$/Lambda/src/RecursiveMethodReference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/InstanceFamily.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
-            <element signature="e#0#1922#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Streams/src/StreamIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections/Bonus/SingletonCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        <state relative-caret-position="799">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Collections/DiamondOp.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Collections/Bonus/DiamondOp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="213">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#RightSideDiamondSkipWorks#0;class#DiamondOp#0" expanded="false" />
             <element signature="class#ErasureProblemsWithGenerics#0;class#DiamondOp#0" expanded="false" />
           </folding>
         </state>

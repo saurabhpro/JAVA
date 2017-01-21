@@ -22,12 +22,22 @@ public class DiamondOp {
 	static class RightSideDiamondSkipWorks {
 		static void test() {
 			//String s = new Integer(4); doesnt work - the how come this worked ?
-			ArrayList test = new ArrayList<>();
+			ArrayList test = new ArrayList<String>();
 			test.add(new Integer(1));   //even though the method expects ArrayList of strings
 
 			test.add("Hi");
 			RightSideDiamondSkipWorks obj = new RightSideDiamondSkipWorks();
 			obj.testMethod1(test);
+
+			ArrayList<String> test2 = new ArrayList();      // only unchecked cast - no real reason unidentified
+			test2.add("5");
+
+			ArrayList<Integer> t = (ArrayList) test2;
+			t.add(5);
+
+			/*for(Integer i : t){
+				System.out.println(i);
+			}*/
 		}
 
 		//proper type required in args always , cannot use <> here

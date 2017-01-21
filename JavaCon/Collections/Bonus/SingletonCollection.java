@@ -45,7 +45,7 @@ public class SingletonCollection {
 			unlike Arrays.asList(something) whose capacity will be the size of elements in the backed array.
 		*/
 
-		public static void test1() {
+		static void test1() {
 			// create an array of string objs
 			String init[] = {"One", "Two", "Three"};
 
