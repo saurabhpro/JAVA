@@ -19,57 +19,57 @@ package saurabh.Interface.Java8;
 
 
 interface A1 {
-    double PI = 3.14;
+	double PI = 3.14;
 
-    default int make() {
-        System.out.println("Inside A1");
-        System.out.println(A1.class.getName() + " " + PI + " " + 47);
-        return 47;
-    }
+	default int make() {
+		System.out.println("Inside A1");
+		System.out.println(A1.class.getName() + " " + PI + " " + 47);
+		return 47;
+	}
 
-    int show();
+	int show();
 }
 
 interface B1 {
-    default int make() {
-        System.out.println("\nInside B1");
-        System.out.println(B1.class.getName() + " " + " " + 48);    //using function of interface A with same name
-        return 48;
-    }
+	default int make() {
+		System.out.println("\nInside B1");
+		System.out.println(B1.class.getName() + " " + " " + 48);    //using function of interface A with same name
+		return 48;
+	}
 
-    // void show();      error!!!
-    int show();
+	// void show();      error!!!
+	int show();
 }
 
 /**
  * if the return types of A, B show() are not same , program wont compile
  */
 public class InterfaceDefaultMethod implements A1, B1 {
-    public static void main(String[] args) {
-        A1 a1 = new InterfaceDefaultMethod();
-        a1.make();
-        a1.show();
-    }
+	public static void main(String[] args) {
+		A1 a1 = new InterfaceDefaultMethod();
+		a1.make();
+		a1.show();
+	}
 
-    @Override
-    public int show() {
-        return 0;
-    }
+	@Override
+	public int show() {
+		return 0;
+	}
 
 
-    //classes own make function
-    @Override
-    public int make() {
-        // new A1().make(); //no problem as make is class level function, wont clash with any other classes make,
-        // just that in case of default we cant lower the visibility, as its seperate for objects
+	//classes own make function
+	@Override
+	public int make() {
+		// new A1().make(); //no problem as make is class level function, wont clash with any other classes make,
+		// just that in case of default we cant lower the visibility, as its seperate for objects
 
-        // B1.make();
-        System.out.println("dd");
-        return 49;
-    }
+		// B1.make();
+		System.out.println("dd");
+		return 49;
+	}
 
-    //overloaded methods are allowed
-    private int make(int a) {
-        return 9;
-    }
+	//overloaded methods are allowed
+	private int make(int a) {
+		return 9;
+	}
 }

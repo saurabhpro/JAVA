@@ -3,12 +3,12 @@
  */
 public class TailRecursiveMain {
 
-    static void main() {
-        main();
+	static void main() {
+		main();
 
-    }
+	}
 
-    public static void main(String[] args) {
-        main();
-    }
+	public static void main(String[] args) {
+		main();
+	}
 }

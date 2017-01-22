@@ -16,22 +16,22 @@ import java.sql.SQLException;
  * firewalls using http
  */
 public class WebRowSetDemo {
-    public static void main(String[] args) throws SQLException, ClassNotFoundException, IOException {
-        Class.forName("oracle.jdbc.driver.OracleDriver");
-        WebRowSet webRowSet = new WebRowSetImpl();
+	public static void main(String[] args) throws SQLException, ClassNotFoundException, IOException {
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		WebRowSet webRowSet = new WebRowSetImpl();
 
-        webRowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
-        webRowSet.setUsername("system");
-        webRowSet.setPassword("98989");
-        webRowSet.setCommand("select * from emp");
-        webRowSet.execute();
+		webRowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+		webRowSet.setUsername("system");
+		webRowSet.setPassword("98989");
+		webRowSet.setCommand("select * from emp");
+		webRowSet.execute();
 
-        while (webRowSet.next()) {
-            System.out.println(webRowSet.getInt(1) + "\t" + webRowSet.getString(2));
-        }
+		while (webRowSet.next()) {
+			System.out.println(webRowSet.getInt(1) + "\t" + webRowSet.getString(2));
+		}
 
-        FileWriter fileWriter = new FileWriter("C:\\Users\\Saurabh\\Documents\\GitHub\\JAVA\\" +
-                "JavaCon\\JDBC\\src\\MyRowSet\\Types\\emp.xml");
-        webRowSet.writeXml(fileWriter);
-    }
+		FileWriter fileWriter = new FileWriter("C:\\Users\\Saurabh\\Documents\\GitHub\\JAVA\\" +
+				"JavaCon\\JDBC\\src\\MyRowSet\\Types\\emp.xml");
+		webRowSet.writeXml(fileWriter);
+	}
 }

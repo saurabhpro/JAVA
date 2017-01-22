@@ -13,34 +13,34 @@ import java.util.Set;
  */
 
 public class HashMapBasicString {
-    public static void main(String[] args) {
-        HashMap<String, String> hashMap = new HashMap<>();
-        hashMap.put("1001", "aaaa");
-        hashMap.put("1002", "bbbb");
-        hashMap.put("1003", "cccc");
-        hashMap.put("1004", "dddd");
-        hashMap.put(new String("1005"), "eeee");        //no difference with using new
-        hashMap.put("1001", "only changed the value of 1001");      // it'll replace the value at key
+	public static void main(String[] args) {
+		HashMap<String, String> hashMap = new HashMap<>();
+		hashMap.put("1001", "aaaa");
+		hashMap.put("1002", "bbbb");
+		hashMap.put("1003", "cccc");
+		hashMap.put("1004", "dddd");
+		hashMap.put(new String("1005"), "eeee");        //no difference with using new
+		hashMap.put("1001", "only changed the value of 1001");      // it'll replace the value at key
 
-        /**
-         * Set set = hashMap.entrySet();
-         * valid but produces raw type variable set
-         * so if we want its iterator to be stores in type specific
-         *         Iterator<Map.Entry> iterator = set.iterator();
-         *         its valid but waring : unchecked type generated
-         *         Note: Recompile with -Xlint:unchecked for details.
-         */
+		/**
+		 * Set set = hashMap.entrySet();
+		 * valid but produces raw type variable set
+		 * so if we want its iterator to be stores in type specific
+		 *         Iterator<Map.Entry> iterator = set.iterator();
+		 *         its valid but waring : unchecked type generated
+		 *         Note: Recompile with -Xlint:unchecked for details.
+		 */
 
-        Set<Map.Entry<String, String>> set = hashMap.entrySet();
-        Iterator<Map.Entry<String, String>> iterator = set.iterator();
+		Set<Map.Entry<String, String>> set = hashMap.entrySet();
+		Iterator<Map.Entry<String, String>> iterator = set.iterator();
 
-        while (iterator.hasNext()) {
-            Map.Entry e = iterator.next();
+		while (iterator.hasNext()) {
+			Map.Entry e = iterator.next();
 
-            System.out.println(e.getKey() + " " + e.getValue());
-        }
+			System.out.println(e.getKey() + " " + e.getValue());
+		}
 
-    }
+	}
 }
 /**
  * OUTPUT

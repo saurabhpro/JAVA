@@ -9,33 +9,33 @@ import java.util.concurrent.TimeUnit;
 
 public class DaemonDontRunFinally implements Runnable {
 
-    public static void main(String[] args) {
-        new DaemonDontRunFinally().runThread();
-    }
+	public static void main(String[] args) {
+		new DaemonDontRunFinally().runThread();
+	}
 
-    @Override
-    public void run() {
-        try {
-            System.out.println("starting a daemon");
-            TimeUnit.MILLISECONDS.sleep(100);
+	@Override
+	public void run() {
+		try {
+			System.out.println("starting a daemon");
+			TimeUnit.MILLISECONDS.sleep(100);
 
-        } catch (InterruptedException e) {
-            System.out.println("sleep() interrupted");
-        } finally {
-            System.out.println("finally should run always??");
-        }
-    }
+		} catch (InterruptedException e) {
+			System.out.println("sleep() interrupted");
+		} finally {
+			System.out.println("finally should run always??");
+		}
+	}
 
-    void runThread() {
-        Thread t = new Thread(new DaemonDontRunFinally());
-        t.setDaemon(true);
-        /**
-         * if we comment the above line we will see that finally always runs
-         * but for daemon thread they don't (WHY?)
-         *
-         * because Daemon thread are not reliable, they are terminated even alive once main() exits,
-         * so the compiler privileges of graceful exit is not given to them.
-         */
-        t.start();
-    }
+	void runThread() {
+		Thread t = new Thread(new DaemonDontRunFinally());
+		t.setDaemon(true);
+		/**
+		 * if we comment the above line we will see that finally always runs
+		 * but for daemon thread they don't (WHY?)
+		 *
+		 * because Daemon thread are not reliable, they are terminated even alive once main() exits,
+		 * so the compiler privileges of graceful exit is not given to them.
+		 */
+		t.start();
+	}
 }

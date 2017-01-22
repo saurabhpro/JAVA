@@ -9,17 +9,17 @@ import java.util.Map;
  * It is synchronized.
  */
 public class HashtableClass {
-    public static void main(String args[]) {
+	public static void main(String args[]) {
 
-        Hashtable<Integer, String> hm = new Hashtable<>();
+		Hashtable<Integer, String> hm = new Hashtable<>();
 
-        hm.put(100, "Amit");
-        hm.put(102, "Ravi");
-        hm.put(101, "Vijay");
-        hm.put(103, "Rahul");
+		hm.put(100, "Amit");
+		hm.put(102, "Ravi");
+		hm.put(101, "Vijay");
+		hm.put(103, "Rahul");
 
-        for (Map.Entry m : hm.entrySet()) {
-            System.out.println(m.getKey() + " " + m.getValue());
-        }
-    }
+		for (Map.Entry m : hm.entrySet()) {
+			System.out.println(m.getKey() + " " + m.getValue());
+		}
+	}
 }

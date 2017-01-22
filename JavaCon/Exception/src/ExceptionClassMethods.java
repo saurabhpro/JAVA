@@ -12,53 +12,52 @@
 
 public class ExceptionClassMethods {
 
-    static class StackTrace {
-        static void f() {
-            // Generate an exception to fill in the stack trace
-            try {
-                throw new Exception();
-            } catch (Exception e) {
-                for (StackTraceElement ste : e.getStackTrace())
-                    System.out.println(ste.getMethodName());
-            }
-        }
-
-        static void g() {
-            f();
-        }
-
-        static void h() {
-            g();
-        }
-
-        void stackTrace() {
-            f();
-            System.out.println("--------------------------------");
-            g();
-            System.out.println("--------------------------------");
-            h();
-            System.out.println("--------------------------------");
-        }
-    }
+	public static void main(String[] args) {
+		ExceptionClassMethods.StackTrace trace = new ExceptionClassMethods.StackTrace();
+		trace.stackTrace();
 
 
-    public static void main(String[] args) {
-        ExceptionClassMethods.StackTrace trace = new ExceptionClassMethods.StackTrace();
-        trace.stackTrace();
+		//More Methods
+		try {
+			throw new Exception("My Exception");
+		} catch (Exception e) {
+			System.out.println("Caught Exception");
+			System.out.println("getMessage():" + e.getMessage());
+			System.out.println("getLocalizedMessage():" + e.getLocalizedMessage());
+			System.out.println("toString():" + e);
+			System.out.println("printStackTrace():");
+			e.printStackTrace(System.out);
+		}
 
+		System.out.println("Can you reach here - YESS");
+	}
 
-        //More Methods
-        try {
-            throw new Exception("My Exception");
-        } catch (Exception e) {
-            System.out.println("Caught Exception");
-            System.out.println("getMessage():" + e.getMessage());
-            System.out.println("getLocalizedMessage():" + e.getLocalizedMessage());
-            System.out.println("toString():" + e);
-            System.out.println("printStackTrace():");
-            e.printStackTrace(System.out);
-        }
+	static class StackTrace {
+		static void f() {
+			// Generate an exception to fill in the stack trace
+			try {
+				throw new Exception();
+			} catch (Exception e) {
+				for (StackTraceElement ste : e.getStackTrace())
+					System.out.println(ste.getMethodName());
+			}
+		}
 
-        System.out.println("Can you reach here - YESS");
-    }
+		static void g() {
+			f();
+		}
+
+		static void h() {
+			g();
+		}
+
+		void stackTrace() {
+			f();
+			System.out.println("--------------------------------");
+			g();
+			System.out.println("--------------------------------");
+			h();
+			System.out.println("--------------------------------");
+		}
+	}
 }

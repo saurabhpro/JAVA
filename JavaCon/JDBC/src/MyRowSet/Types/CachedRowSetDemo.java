@@ -22,58 +22,58 @@ import java.sql.SQLException;
  * data
  */
 public class CachedRowSetDemo {
-    private final static String fileName = "C:\\Users\\Saurabh\\Documents\\GitHub\\JAVA\\JavaCon\\JDBC\\src\\MyRowSet\\Types\\xyz.txt";
+	private final static String fileName = "C:\\Users\\Saurabh\\Documents\\GitHub\\JAVA\\JavaCon\\JDBC\\src\\MyRowSet\\Types\\xyz.txt";
 
-    public static void writeCatchedRowSet() throws SQLException, ClassNotFoundException, IOException {
-        OracleCachedRowSet rowSet = new OracleCachedRowSet();
+	public static void writeCatchedRowSet() throws SQLException, ClassNotFoundException, IOException {
+		OracleCachedRowSet rowSet = new OracleCachedRowSet();
 
-        Class.forName("oracle.jdbc.driver.OracleDriver");
-        rowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
-        rowSet.setUsername("system");
-        rowSet.setPassword("98989");
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		rowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+		rowSet.setUsername("system");
+		rowSet.setPassword("98989");
 
-        String sql = "select * from emp";
-        rowSet.setCommand(sql);
-        rowSet.execute();
+		String sql = "select * from emp";
+		rowSet.setCommand(sql);
+		rowSet.execute();
 
-        FileOutputStream fos = new FileOutputStream(fileName);
-        ObjectOutputStream out = new ObjectOutputStream(fos);
+		FileOutputStream fos = new FileOutputStream(fileName);
+		ObjectOutputStream out = new ObjectOutputStream(fos);
 
-        out.writeObject(rowSet);
-        out.close();
-        rowSet.close();
-    }
+		out.writeObject(rowSet);
+		out.close();
+		rowSet.close();
+	}
 
-    public static OracleCachedRowSet readOracleCatchedRowSet() throws IOException, ClassNotFoundException {
-        FileInputStream fin = new FileInputStream(fileName);
-        ObjectInputStream in = new ObjectInputStream(fin);
+	public static OracleCachedRowSet readOracleCatchedRowSet() throws IOException, ClassNotFoundException {
+		FileInputStream fin = new FileInputStream(fileName);
+		ObjectInputStream in = new ObjectInputStream(fin);
 
-        OracleCachedRowSet oracleCachedRowSet = (OracleCachedRowSet) in.readObject();
-        fin.close();
-        in.close();
+		OracleCachedRowSet oracleCachedRowSet = (OracleCachedRowSet) in.readObject();
+		fin.close();
+		in.close();
 
-        return oracleCachedRowSet;
+		return oracleCachedRowSet;
 
-    }
+	}
 
-    public static void main(String[] args) {
-        try {
-            writeCatchedRowSet();
+	public static void main(String[] args) {
+		try {
+			writeCatchedRowSet();
 
-            OracleCachedRowSet oracleCachedRowSet = readOracleCatchedRowSet();
-            while (oracleCachedRowSet.next()) {
-                System.out.print("ID " + oracleCachedRowSet.getString(1));
-                System.out.print("\tName " + oracleCachedRowSet.getString(2));
-                System.out.println("\tSalary " + oracleCachedRowSet.getString(5));
-            }
+			OracleCachedRowSet oracleCachedRowSet = readOracleCatchedRowSet();
+			while (oracleCachedRowSet.next()) {
+				System.out.print("ID " + oracleCachedRowSet.getString(1));
+				System.out.print("\tName " + oracleCachedRowSet.getString(2));
+				System.out.println("\tSalary " + oracleCachedRowSet.getString(5));
+			}
 
-            oracleCachedRowSet.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
+			oracleCachedRowSet.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
 }

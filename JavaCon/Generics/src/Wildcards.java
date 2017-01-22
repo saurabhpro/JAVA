@@ -15,60 +15,60 @@ import java.util.List;
      */
 
 public class Wildcards {
-    class A {
-    }
+	static void unknownType() {
+		System.out.println("List<?> means a list typed to an unknown type. This could be a List<A>, " +
+				"a List<B>, a List<String> etc.");
 
-    class B extends A {
-    }
+		List<?> elements;
+		elements = new ArrayList<A>();
+		elements = new ArrayList<Object>();      //new expressions with typed arguments can be replaced with <>
+		elements = new ArrayList<String>();
+		elements = new ArrayList<D>();
+		elements = new ArrayList<Serializable>();
+	}
 
-    class C extends A {
-    }
+	static void extendsBoundaryType() {
+		System.out.println("List<? extends A> means a List of objects that are instances of the class A, " +
+				"or subclasses of A (e.g. B and C).");
 
-    class D extends B {
-    }
+		List<? extends A> elements;
+		//elements = new ArrayList<String>();       Not allowed as String is not subclass of A
+		//elements = new ArrayList<Object>();       Not Allowed
+		elements = new ArrayList<B>();
+		elements = new ArrayList<D>();
+		//elements.add(@Flow Capture of ? extends A e)  ; ??
 
-    static void unknownType() {
-        System.out.println("List<?> means a list typed to an unknown type. This could be a List<A>, " +
-                "a List<B>, a List<String> etc.");
+		elements = new ArrayList<>();            //didnt't we just see <> means <Object> and <Object> was not acceptable!!!
 
-        List<?> elements;
-        elements = new ArrayList<A>();
-        elements = new ArrayList<Object>();      //new expressions with typed arguments can be replaced with <>
-        elements = new ArrayList<String>();
-        elements = new ArrayList<D>();
-        elements = new ArrayList<Serializable>();
-    }
+	}
 
-    static void extendsBoundaryType() {
-        System.out.println("List<? extends A> means a List of objects that are instances of the class A, " +
-                "or subclasses of A (e.g. B and C).");
+	static void superBoundaryType() {
+		System.out.println("List<? super D> means that the list is typed to either the D class, or a superclass of D.");
 
-        List<? extends A> elements;
-        //elements = new ArrayList<String>();       Not allowed as String is not subclass of A
-        //elements = new ArrayList<Object>();       Not Allowed
-        elements = new ArrayList<B>();
-        elements = new ArrayList<D>();
-        //elements.add(@Flow Capture of ? extends A e)  ; ??
+		List<? super D> elements;
+		elements = new ArrayList<A>();
+		elements = new ArrayList<Object>();
+		// elements = new ArrayList<C>();        //C is not in super class Herirachy of class D
 
-        elements = new ArrayList<>();            //didnt't we just see <> means <Object> and <Object> was not acceptable!!!
+	}
 
-    }
+	public static void main(String[] args) {
+		unknownType();
+		extendsBoundaryType();
+		superBoundaryType();
 
-    static void superBoundaryType() {
-        System.out.println("List<? super D> means that the list is typed to either the D class, or a superclass of D.");
+	}
 
-        List<? super D> elements;
-        elements = new ArrayList<A>();
-        elements = new ArrayList<Object>();
-        // elements = new ArrayList<C>();        //C is not in super class Herirachy of class D
+	class A {
+	}
 
-    }
+	class B extends A {
+	}
 
-    public static void main(String[] args) {
-        unknownType();
-        extendsBoundaryType();
-        superBoundaryType();
+	class C extends A {
+	}
 
-    }
+	class D extends B {
+	}
 }
 

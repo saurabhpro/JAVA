@@ -26,55 +26,55 @@ import java.sql.*;
 
 
 public class MyPreparedStatement {
-    public static void main(String[] args) {
-        try {
-            Class.forName("oracle.jdbc.driver.OracleDriver");
+	public static void main(String[] args) {
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
 
-            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");
+			Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");
 
-            int t1 = 123;
-            String t2 = "ram";
+			int t1 = 123;
+			String t2 = "ram";
 
-            Statement s = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
-            s.executeUpdate("CREATE TABLE emp66 (id NUMBER, name VARCHAR2(20))");
-            s.close();
-
-
-            PreparedStatement prepareStatement = conn.prepareStatement("INSERT INTO emp66 VALUES (?,?)",
-                    ResultSet.TYPE_SCROLL_SENSITIVE,
-                    ResultSet.CONCUR_UPDATABLE);
-            //PreparedStatement ps = conn.prepareStatement("insert into emp66 values(?,?)");
-            prepareStatement.setInt(1, t1);
-            prepareStatement.setString(2, t2);
-            /**
-             * Once a PreparedStatement is created (prepared) for the above SQL statement,
-             * you can insert parameters at the location of the question mark.
-             * This is done using the many setXXX() methods.
-             *
-             * The first number (1) is the index of the parameter to insert the value for.
-             * The second number (t1) is the value to insert into the SQL statement.
-             */
-            prepareStatement.executeUpdate();
-            /**
-             * The executeUpdate() method is used when updating the database.
-             * It returns an int which tells how many records in the database were affected by the update.
-             */
-            prepareStatement.close();
-
-            prepareStatement = conn.prepareStatement("SELECT * FROM emp66 WHERE id=?");
-            prepareStatement.setInt(1, t1);
-
-            ResultSet resultSet = prepareStatement.executeQuery();
-
-            while (resultSet.next()) {
-                System.out.println(resultSet.getString(1) + " " + resultSet.getString(2));
-            }
+			Statement s = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
+			s.executeUpdate("CREATE TABLE emp66 (id NUMBER, name VARCHAR2(20))");
+			s.close();
 
 
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
+			PreparedStatement prepareStatement = conn.prepareStatement("INSERT INTO emp66 VALUES (?,?)",
+					ResultSet.TYPE_SCROLL_SENSITIVE,
+					ResultSet.CONCUR_UPDATABLE);
+			//PreparedStatement ps = conn.prepareStatement("insert into emp66 values(?,?)");
+			prepareStatement.setInt(1, t1);
+			prepareStatement.setString(2, t2);
+			/**
+			 * Once a PreparedStatement is created (prepared) for the above SQL statement,
+			 * you can insert parameters at the location of the question mark.
+			 * This is done using the many setXXX() methods.
+			 *
+			 * The first number (1) is the index of the parameter to insert the value for.
+			 * The second number (t1) is the value to insert into the SQL statement.
+			 */
+			prepareStatement.executeUpdate();
+			/**
+			 * The executeUpdate() method is used when updating the database.
+			 * It returns an int which tells how many records in the database were affected by the update.
+			 */
+			prepareStatement.close();
+
+			prepareStatement = conn.prepareStatement("SELECT * FROM emp66 WHERE id=?");
+			prepareStatement.setInt(1, t1);
+
+			ResultSet resultSet = prepareStatement.executeQuery();
+
+			while (resultSet.next()) {
+				System.out.println(resultSet.getString(1) + " " + resultSet.getString(2));
+			}
+
+
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
 }

@@ -5,30 +5,30 @@
  */
 
 abstract class Animal {
-    abstract void eat();
+	abstract void eat();
 
-    abstract void speak();
+	abstract void speak();
 
-    void sleep() {
-        System.out.println("sleep");
-    }
+	void sleep() {
+		System.out.println("sleep");
+	}
 
 }
 
 public class AbstractClassInstantiation {
 
-    public static void main(String[] args) {
-        new Animal() {
-            @Override
-            void eat() {
+	public static void main(String[] args) {
+		new Animal() {
+			@Override
+			void eat() {
 
-            }
+			}
 
-            @Override
-            void speak() {
+			@Override
+			void speak() {
 
-            }
-        };  //Anonymous class is created which is basically a subclass of abstract animal, which is legal
-        //we are not creating instance of abstract class, any Anonymous class must be concrete
-    }
+			}
+		};  //Anonymous class is created which is basically a subclass of abstract animal, which is legal
+		//we are not creating instance of abstract class, any Anonymous class must be concrete
+	}
 }

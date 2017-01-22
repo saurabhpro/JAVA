@@ -6,32 +6,32 @@ import java.sql.*;
  * Created by Saurabh on 1/18/2016.
  */
 public class GetJdbcTypeName {
-    public static void main(String[] args) throws ClassNotFoundException, SQLException {
-        Class.forName("oracle.jdbc.driver.OracleDriver");
-        Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");
-        Statement st = conn.createStatement();
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");
+		Statement st = conn.createStatement();
 
-        DatabaseMetaData dbmd = conn.getMetaData();
+		DatabaseMetaData dbmd = conn.getMetaData();
 
-        System.out.println("URL in use: " + dbmd.getURL());
-        System.out.println("UserName: " + dbmd.getUserName());
-        System.out.println("DBMS name: " + dbmd.getDatabaseProductName());
-        System.out.println("DBMS version: " + dbmd.getDatabaseProductVersion());
-        System.out.println("Driver Name: " + dbmd.getDriverName());
-        System.out.println("Supported SQL Keywords: " + dbmd.getSQLKeywords());
-
-
-        ResultSet rs = dbmd.getTypeInfo();
-
-        while (rs.next()) {
-            String typeName = rs.getString("TYPE_NAME");
-
-            short dataType = rs.getShort("DATA_TYPE");
-            System.out.println(typeName + " " + dataType);
-        }
+		System.out.println("URL in use: " + dbmd.getURL());
+		System.out.println("UserName: " + dbmd.getUserName());
+		System.out.println("DBMS name: " + dbmd.getDatabaseProductName());
+		System.out.println("DBMS version: " + dbmd.getDatabaseProductVersion());
+		System.out.println("Driver Name: " + dbmd.getDriverName());
+		System.out.println("Supported SQL Keywords: " + dbmd.getSQLKeywords());
 
 
-    }
+		ResultSet rs = dbmd.getTypeInfo();
+
+		while (rs.next()) {
+			String typeName = rs.getString("TYPE_NAME");
+
+			short dataType = rs.getShort("DATA_TYPE");
+			System.out.println(typeName + " " + dataType);
+		}
+
+
+	}
 }
 /**
  * OUTPUT

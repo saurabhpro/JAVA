@@ -28,100 +28,100 @@
 
 
 class MyOuter2 {
-    static int y = 11;
-    int x = 10;
-    private int num = 9;
+	static int y = 11;
+	int x = 10;
+	private int num = 9;
 
-    static void show() {
-        System.out.println("Inside Outer static method");
-    }
+	static void show() {
+		System.out.println("Inside Outer static method");
+	}
 
-    /**
-     * since the method is static, its local inner class can only access the static members of the enclosing outer class
-     *
-     * @param st
-     */
-    static void doOtherStuff(String st) {
-        /**Local classes are non-static because they have access to instance members of the enclosing block.
-         *         Consequently, they cannot contain most kinds of static declarations.
-         */
-        class LocalInnerTwo {
-            public void show() {
-                System.out.println("Inside static method Local inner " + getClass());
-                //System.out.println(x);          //cannot use x here as x is non-static in MyOuter2
-                System.out.println(y);              //valid
-            }
-        }
-        class LocalInnerThree extends LocalInnerTwo {
+	/**
+	 * since the method is static, its local inner class can only access the static members of the enclosing outer class
+	 *
+	 * @param st
+	 */
+	static void doOtherStuff(String st) {
+		/**Local classes are non-static because they have access to instance members of the enclosing block.
+		 *         Consequently, they cannot contain most kinds of static declarations.
+		 */
+		class LocalInnerTwo {
+			public void show() {
+				System.out.println("Inside static method Local inner " + getClass());
+				//System.out.println(x);          //cannot use x here as x is non-static in MyOuter2
+				System.out.println(y);              //valid
+			}
+		}
+		class LocalInnerThree extends LocalInnerTwo {
 
-            //static (with final) is allowed in Local inner classes as they combined with final make constant value
-            static final int ou = 9;
+			//static (with final) is allowed in Local inner classes as they combined with final make constant value
+			static final int ou = 9;
 
-            @Override
-            public void show() {
-                System.out.println("Inside static method Local inner " + getClass());
-            }
+			@Override
+			public void show() {
+				System.out.println("Inside static method Local inner " + getClass());
+			}
 
-            void show2(String str)      //no inner class can have static declaration unless for constants
-            {
-                //Starting in Java SE 8, if you declare the local class in a method, it can access the method's parameters.
-                //till java 7 this was an error
+			void show2(String str)      //no inner class can have static declaration unless for constants
+			{
+				//Starting in Java SE 8, if you declare the local class in a method, it can access the method's parameters.
+				//till java 7 this was an error
 
-                str = "hello";        //yhan effective final wala scene nhi hai, valid in jdk 7-8 all
-                //accessing argument of doOtherStuff however need final or effective final in jdk 7
-                //from jdk 8 final or or effective final both work
+				str = "hello";        //yhan effective final wala scene nhi hai, valid in jdk 7-8 all
+				//accessing argument of doOtherStuff however need final or effective final in jdk 7
+				//from jdk 8 final or or effective final both work
 
-                System.out.println(str + " " + st + " world");
-            }
-        }
-
-
-        //only these modifiers allowd with local inner classes
-        abstract class LocalInnerFour {
-        }
-        final class LocalInnerFive {
-        }
+				System.out.println(str + " " + st + " world");
+			}
+		}
 
 
-        /**
-         * You cannot declare an interface inside a block; interfaces are inherently static.
-         * For example, the following code excerpt does not compile because the interface xyz is defined inside the body of the method
-         *
-         * interface xyz{}
-         */
+		//only these modifiers allowd with local inner classes
+		abstract class LocalInnerFour {
+		}
+		final class LocalInnerFive {
+		}
 
 
-        LocalInnerTwo in = new LocalInnerTwo();
-        in.show();
-        LocalInnerThree inv = new LocalInnerThree();
-        inv.show();
-        inv.show2("Hi");
-    }
+		/**
+		 * You cannot declare an interface inside a block; interfaces are inherently static.
+		 * For example, the following code excerpt does not compile because the interface xyz is defined inside the body of the method
+		 *
+		 * interface xyz{}
+		 */
 
-    public void display() {
-        System.out.println("Inside Outer non static method");
-    }
 
-    void doStuff() {
-        final int temp = 8;           //local variable can only be final , no other modifier allowed here
-        class LocalInner {
-            MyOuter2 ob = new MyOuter2();
+		LocalInnerTwo in = new LocalInnerTwo();
+		in.show();
+		LocalInnerThree inv = new LocalInnerThree();
+		inv.show();
+		inv.show2("Hi");
+	}
 
-            public void show() {
-                //temp =9;       compiler sees that temp hasn't changed so it is effectively final and hence valid for local class
-                System.out.println(temp + "Inside Local inner " + getClass());
-                System.out.println(x + " " + y);    //accessing both static and non static instance variables of enclosing class
-            }
-        }
-        LocalInner in = new LocalInner();
-        in.show();
-    }
+	public void display() {
+		System.out.println("Inside Outer non static method");
+	}
+
+	void doStuff() {
+		final int temp = 8;           //local variable can only be final , no other modifier allowed here
+		class LocalInner {
+			MyOuter2 ob = new MyOuter2();
+
+			public void show() {
+				//temp =9;       compiler sees that temp hasn't changed so it is effectively final and hence valid for local class
+				System.out.println(temp + "Inside Local inner " + getClass());
+				System.out.println(x + " " + y);    //accessing both static and non static instance variables of enclosing class
+			}
+		}
+		LocalInner in = new LocalInner();
+		in.show();
+	}
 }
 
 public class MethodLocalInnerClass {
-    public static void main(String[] args) {
-        MyOuter2 mOb = new MyOuter2();
-        mOb.doStuff();
-        MyOuter2.doOtherStuff("Cool");
-    }
+	public static void main(String[] args) {
+		MyOuter2 mOb = new MyOuter2();
+		mOb.doStuff();
+		MyOuter2.doOtherStuff("Cool");
+	}
 }

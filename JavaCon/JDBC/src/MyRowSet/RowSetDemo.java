@@ -36,39 +36,39 @@ import javax.sql.rowset.RowSetProvider;
 import java.sql.SQLException;
 
 public class RowSetDemo {
-    public static void main(String[] args) {
-        String url = "jdbc:oracle:thin:@localhost:1521:orcl";
-        String password = "98989";
-        String username = "system";
+	public static void main(String[] args) {
+		String url = "jdbc:oracle:thin:@localhost:1521:orcl";
+		String password = "98989";
+		String username = "system";
 
-        try {
-            Class.forName("oracle.jdbc.driver.OracleDriver");
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
 
-            //first create a factory of object for RowSet
-            RowSetFactory rowSetFactory = RowSetProvider.newFactory();
+			//first create a factory of object for RowSet
+			RowSetFactory rowSetFactory = RowSetProvider.newFactory();
 
-            //create a JDBC rowSet from the factory
-            JdbcRowSet rowSet = rowSetFactory.createJdbcRowSet();
+			//create a JDBC rowSet from the factory
+			JdbcRowSet rowSet = rowSetFactory.createJdbcRowSet();
 
-            //set connection properties
-            rowSet.setUrl(url);
-            rowSet.setUsername(username);
-            rowSet.setPassword(password);
+			//set connection properties
+			rowSet.setUrl(url);
+			rowSet.setUsername(username);
+			rowSet.setPassword(password);
 
-            //set sql query to execute
-            rowSet.setCommand("Select * from bank");
-            rowSet.execute();
+			//set sql query to execute
+			rowSet.setCommand("Select * from bank");
+			rowSet.execute();
 
-            //iterate over rowset
-            System.out.println("Accno\tName");
-            while (rowSet.next())
-                System.out.println(rowSet.getString(1) + "\t\t" + rowSet.getString(2));
+			//iterate over rowset
+			System.out.println("Accno\tName");
+			while (rowSet.next())
+				System.out.println(rowSet.getString(1) + "\t\t" + rowSet.getString(2));
 
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
 
 }

@@ -26,45 +26,45 @@ import java.sql.*;
  */
 
 public class FetchSize {
-    public static void main(String[] args) {
-        try {
-            Class.forName("oracle.jdbc.driver.OracleDriver");
+	public static void main(String[] args) {
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
 
-            Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");
+			Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");
 
-            //get fetch size of the statement
-            Statement statement = conn.createStatement();
-            int fetchSize = statement.getFetchSize();
-            System.out.println("Fetch size of statement(default) = " + fetchSize);
+			//get fetch size of the statement
+			Statement statement = conn.createStatement();
+			int fetchSize = statement.getFetchSize();
+			System.out.println("Fetch size of statement(default) = " + fetchSize);
 
-            //fetch size of the statement after resizing
-            statement.setFetchSize(100);
-            fetchSize = statement.getFetchSize();
-            System.out.println("Fetch size after resizing = " + fetchSize);
+			//fetch size of the statement after resizing
+			statement.setFetchSize(100);
+			fetchSize = statement.getFetchSize();
+			System.out.println("Fetch size after resizing = " + fetchSize);
 
-            //create a result set
-            ResultSet resultSet = statement.executeQuery("SELECT * FROM bank");
-            fetchSize = resultSet.getFetchSize();
-            System.out.println("Fetch Size via ResultSet = " + fetchSize);
+			//create a result set
+			ResultSet resultSet = statement.executeQuery("SELECT * FROM bank");
+			fetchSize = resultSet.getFetchSize();
+			System.out.println("Fetch Size via ResultSet = " + fetchSize);
 
-            //change the fetch size of the result set
-            resultSet.setFetchSize(200);
-            fetchSize = resultSet.getFetchSize();
-            System.out.println("Fetch size via result set resizing = " + fetchSize);
+			//change the fetch size of the result set
+			resultSet.setFetchSize(200);
+			fetchSize = resultSet.getFetchSize();
+			System.out.println("Fetch size via result set resizing = " + fetchSize);
 
-            statement.setFetchSize(500);
-            fetchSize = resultSet.getFetchSize();
-            System.out.println("Fetch size via result set after changing from the statement = " + fetchSize);
+			statement.setFetchSize(500);
+			fetchSize = resultSet.getFetchSize();
+			System.out.println("Fetch size via result set after changing from the statement = " + fetchSize);
 
-        } catch (ClassNotFoundException e) {
-            System.out.println("Exception in Class.forName");
-            e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			System.out.println("Exception in Class.forName");
+			e.printStackTrace();
 
-        } catch (SQLException e) {
-            System.out.println("Exception in conn.getConnection");
-            e.printStackTrace();
+		} catch (SQLException e) {
+			System.out.println("Exception in conn.getConnection");
+			e.printStackTrace();
 
-        }
-    }
+		}
+	}
 
 }

@@ -1,49 +1,47 @@
 /**
  * Created by Saurabh on 8/17/2015.
  */
-class X{}
+class X {
+}
 
 public class InitializationsPosition {
 
-    /* At the place of initialization*/
-    private int x = 9;
-    X xOb1 = new X();
+	X xOb1 = new X();
+	X xOb2;                        //by default null
+	/* At the place of initialization*/
+	private int x = 9;
+	/*instance initialization*/
+	private int y;
+	/*Inside constructor*/
+	private int z;
+	private String first, second;   //by default null as object
 
-    /*instance initialization*/
-    private int y ;
-    {
-        y = 10;
-    }
+	/*Lazy Inialization => in functions where we want to use them*/
+	private int value;              //by default 0  [already]
 
-    /*Inside constructor*/
-    private int z;
-    InitializationsPosition(int tmp)
-    {
-        z=tmp;
-    }
+	{
+		y = 10;
+	}
 
-    /*Lazy Inialization => in functions where we want to use them*/
+	InitializationsPosition(int tmp) {
+		z = tmp;
+	}
 
-    private String first, second;   //by default null as object
-    private int value;              //by default 0  [already]
-    X xOb2 ;                        //by default null
+	//main method
+	public static void main(String[] args) {
+		InitializationsPosition iOb = new InitializationsPosition(88);
+		System.out.println(iOb);    //implicitly calls toString()
+	}
 
-    public String toString()
-    {
-        System.out.println(xOb2);
+	public String toString() {
+		System.out.println(xOb2);
 
-        if(xOb2 == null)            xOb2 = new X();
-        if(first == null)            first = "Hello";
-        if(second == null)            second = "World";
-        if (value==0)   value = 99;
+		if (xOb2 == null) xOb2 = new X();
+		if (first == null) first = "Hello";
+		if (second == null) second = "World";
+		if (value == 0) value = 99;
 
-        return xOb2+" "+first+" "+second+" "+value;
-    }
-
-    //main method
-    public static void main(String[] args) {
-        InitializationsPosition iOb = new InitializationsPosition(88);
-        System.out.println(iOb);    //implicitly calls toString()
-    }
+		return xOb2 + " " + first + " " + second + " " + value;
+	}
 
 }

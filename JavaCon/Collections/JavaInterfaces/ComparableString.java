@@ -9,29 +9,29 @@ import java.util.Collections;
  * More on ArrayListEmpSortComparable
  */
 public class ComparableString {
-    public static void main(String[] args) {
-        ArrayList<String> listofcountries = new ArrayList<>();
-        listofcountries.add("China");
-        listofcountries.add("US");
-        listofcountries.add("India");
-        listofcountries.add("Denmark");
-        listofcountries.add("China");
+	public static void main(String[] args) {
+		ArrayList<String> listofcountries = new ArrayList<>();
+		listofcountries.add("China");
+		listofcountries.add("US");
+		listofcountries.add("India");
+		listofcountries.add("Denmark");
+		listofcountries.add("China");
 
-        System.out.println("Before Sorting: ");
-        for (String str : listofcountries)
-            System.out.print(str + " ");
+		System.out.println("Before Sorting: ");
+		for (String str : listofcountries)
+			System.out.print(str + " ");
 
-        Collections.sort(listofcountries);
+		Collections.sort(listofcountries);
 
         /*
         Collections.sort(List<T>);
         Collections.sort(List<T>, Comparator<? super T);
          */
 
-        System.out.println("\nAfter Sorting");
-        for (String str : listofcountries)
-            System.out.print(str + " ");
-    }
+		System.out.println("\nAfter Sorting");
+		for (String str : listofcountries)
+			System.out.print(str + " ");
+	}
 }
 /*OUTPUT
 Before Sorting:

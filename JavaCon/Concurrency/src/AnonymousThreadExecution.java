@@ -3,22 +3,22 @@
  */
 
 class Thread1 implements Runnable {
-    public void run() {
-        System.out.println("Inside Thread1");
-    }
+	public void run() {
+		System.out.println("Inside Thread1");
+	}
 }
 
 public class AnonymousThreadExecution {
 
-    public static void main(String[] args) {
-        Thread1 t = new Thread1() {
-            @Override
-            public void run() {
-                System.out.println("Inside Runnable");
-            }
-        };
+	public static void main(String[] args) {
+		Thread1 t = new Thread1() {
+			@Override
+			public void run() {
+				System.out.println("Inside Runnable");
+			}
+		};
 
-        t.run();
-    }
+		t.run();
+	}
 
 }

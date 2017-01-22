@@ -24,91 +24,91 @@
 
 interface Runnable {
 
-    int NUM = 9;                // implicitly  public static final to make constants
+	int NUM = 9;                // implicitly  public static final to make constants
 
-    //bytecode static default void distance() {...}     "default" implicitly pasted
-    static void distance() {
-        System.out.println("Inside Runnable static method " + NUM);
-    }
+	//bytecode static default void distance() {...}     "default" implicitly pasted
+	static void distance() {
+		System.out.println("Inside Runnable static method " + NUM);
+	}
 
-    /**
-     * Error:(27, 25) java: static interface methods are not supported in -source 1.7
-     * (use -source 8 or higher to enable static interface methods)
-     * <p>
-     * Error:(33, 5) java: default methods are not supported in -source 1.7
-     * (use -source 8 or higher to enable default methods)
-     */
+	/**
+	 * Error:(27, 25) java: static interface methods are not supported in -source 1.7
+	 * (use -source 8 or higher to enable static interface methods)
+	 * <p>
+	 * Error:(33, 5) java: default methods are not supported in -source 1.7
+	 * (use -source 8 or higher to enable default methods)
+	 */
 
-    void main();    //since these methods are by default "abstract" they cannot be made strictfp , final, or static
+	void main();    //since these methods are by default "abstract" they cannot be made strictfp , final, or static
 
-    default void show() {
-        System.out.println("inside interfaces default method:\n\t" +
-                "which is fully declared and cannot be overridden?" + this.getClass());
-    }
+	default void show() {
+		System.out.println("inside interfaces default method:\n\t" +
+				"which is fully declared and cannot be overridden?" + this.getClass());
+	}
 }
 
 interface Walkable extends Runnable {
-    // We cant provide it a body here
+	// We cant provide it a body here
 
-    /**
-     * When you extend an interface that contains a default method, you can do the following:
-     * 1. Not mention the default method at all, which lets your extended interface inherit the default method.
-     * 2. Redeclare the default method, which makes it abstract.
-     * 3. Redefine the default method, which overrides it.
-     */
+	/**
+	 * When you extend an interface that contains a default method, you can do the following:
+	 * 1. Not mention the default method at all, which lets your extended interface inherit the default method.
+	 * 2. Redeclare the default method, which makes it abstract.
+	 * 3. Redefine the default method, which overrides it.
+	 */
 
-    int NUM = 6;        // locally declaring it
+	int NUM = 6;        // locally declaring it
 
-    //void show();   valid case 2
-    @Override   //case 3
-    default void show() {
-        System.out.println("Inside child interfaces show() - Overridden " + NUM);
-    }
+	//void show();   valid case 2
+	@Override   //case 3
+	default void show() {
+		System.out.println("Inside child interfaces show() - Overridden " + NUM);
+	}
 
 
-    void distance();        //not overriding superclass distance here
+	void distance();        //not overriding superclass distance here
 
 
 }
 
 public class InterfaceContract implements Walkable, Runnable {
-    //void show(){}; // ERROR as we have to make every interface functions public...maintain visibility
+	//void show(){}; // ERROR as we have to make every interface functions public...maintain visibility
 
-    InterfaceContract() {
-        // NUM = 8;      cannot reassign it, but can be hidden
+	InterfaceContract() {
+		// NUM = 8;      cannot reassign it, but can be hidden
 
-    }
+	}
 
-    public static void main(String[] args) {
-        //Valid
+	public static void main(String[] args) {
+		//Valid
 
-        Walkable wOb = new InterfaceContract();
-        Runnable rOb = new InterfaceContract();
-        InterfaceContract iOb = new InterfaceContract();
+		Walkable wOb = new InterfaceContract();
+		Runnable rOb = new InterfaceContract();
+		InterfaceContract iOb = new InterfaceContract();
 
 
-        rOb.show();
-        wOb.show();
-        iOb.show();
+		rOb.show();
+		wOb.show();
+		iOb.show();
 
-        wOb.main();
+		wOb.main();
 
-        //invalid   wOb/rOb/iOb.distance()  only class access possible
+		//invalid   wOb/rOb/iOb.distance()  only class access possible
 
-        Runnable.distance();        //valid
-        //Walkable.distance();      //static method can be invoked on containing interfaces only
+		Runnable.distance();        //valid
+		//Walkable.distance();      //static method can be invoked on containing interfaces only
 
-    }
+	}
 
-    @Override
-    public void main() {
-        System.out.println("Inside " + this.getClass());
-    }
+	@Override
+	public void main() {
+		System.out.println("Inside " + this.getClass());
+	}
 
-    @Override
-    public void distance() {
-        int f = 9;
-    }        //overriding walkable show
+	@Override
+	public void distance() {
+		int f = 9;
+	}        //overriding walkable show
 
 }
 
@@ -127,8 +127,8 @@ public class InterfaceContract implements Walkable, Runnable {
  * }
  * Now users of your code can choose to continue to use the old interface or to upgrade to the new interface.
  * <p>
- *
- *  2. Alternatively, you can define your new methods as default methods.
+ * <p>
+ * 2. Alternatively, you can define your new methods as default methods.
  * The following example defines a default method named didItWork:
  * <p>
  * public interface DoIt
@@ -136,11 +136,11 @@ public class InterfaceContract implements Walkable, Runnable {
  * void doSomething(int i, double x);
  * int doSomethingElse(String s);
  * default boolean didItWork(int i, double x, String s) {
- *  // Method body
+ * // Method body
  * }
  * }
  * Note that you must provide an implementation for default methods.
- *
+ * <p>
  * You could also define new static methods to existing interfaces.
  * Users who have classes that implement interfaces enhanced with new default or static methods
  * do not have to modify or recompile them to accommodate the additional methods.

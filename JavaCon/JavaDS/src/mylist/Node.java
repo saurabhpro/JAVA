@@ -5,20 +5,20 @@ package mylist;
  */
 public class Node {
 
-    protected Node next;
-    private int info;
+	protected Node next;
+	private int info;
 
-    Node(int num) {
-        info = num;
-        next = null;
-    }
+	Node(int num) {
+		info = num;
+		next = null;
+	}
 
-    Node(int a, Node b) {
-        info = a;
-        next = b;
-    }
+	Node(int a, Node b) {
+		info = a;
+		next = b;
+	}
 
-    public int getData() {
-        return info;
-    }
+	public int getData() {
+		return info;
+	}
 }

@@ -3,44 +3,44 @@
  */
 
 class WithinInner {
-    class Inner {
-        Inner() {
-            System.out.println("Inside Inner constructor via super of InheritInner!");
-        }
-    }
+	class Inner {
+		Inner() {
+			System.out.println("Inside Inner constructor via super of InheritInner!");
+		}
+	}
 }
 
 /**
  * only writing WithinInner.Inner says : No enclosing instance of type WithinInner in this class :)
  */
 public class InheritInner extends WithinInner.Inner {
-    //so this  default constructor wont work, Not an error but program wont compile
-    //InheritInner(){ }         //has to be commented out
-    // Error:(14, 21) java: an enclosing instance that contains WithinInner.Inner is required
+	//so this  default constructor wont work, Not an error but program wont compile
+	//InheritInner(){ }         //has to be commented out
+	// Error:(14, 21) java: an enclosing instance that contains WithinInner.Inner is required
 
-    InheritInner(WithinInner wi) {
+	InheritInner(WithinInner wi) {
 
-        //enclosingClassReference.super();
-        wi.super();
-    }
+		//enclosingClassReference.super();
+		wi.super();
+	}
 
-    /**
-     * having class with same name as base class don't do anything
-     */
-    class Inner extends WithinInner.Inner {
-        Inner(WithinInner wi) {
-            //enclosingClassReference.super();
-            wi.super();
-        }
-    }
-    //class Inner{} or this
+	public static void main(String[] args) {
+		WithinInner wi = new WithinInner();
 
-    public static void main(String[] args) {
-        WithinInner wi = new WithinInner();
+		//sending the instance of type WithinInner via InheritInner Constructor
+		InheritInner ii = new InheritInner(wi);
+	}
+	//class Inner{} or this
 
-        //sending the instance of type WithinInner via InheritInner Constructor
-        InheritInner ii = new InheritInner(wi);
-    }
+	/**
+	 * having class with same name as base class don't do anything
+	 */
+	class Inner extends WithinInner.Inner {
+		Inner(WithinInner wi) {
+			//enclosingClassReference.super();
+			wi.super();
+		}
+	}
 
 
 }

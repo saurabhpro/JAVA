@@ -14,40 +14,40 @@ import java.util.concurrent.TimeUnit;
  */
 
 class DaemonThreadFactory implements ThreadFactory {
-    @Override
-    public Thread newThread(Runnable r) {
-        Thread t = new Thread(r);
-        t.setDaemon(true);
-        // t.setName("DaemonThread-");
-        return t;
-    }
+	@Override
+	public Thread newThread(Runnable r) {
+		Thread t = new Thread(r);
+		t.setDaemon(true);
+		// t.setName("DaemonThread-");
+		return t;
+	}
 }
 
 class DaemonFromThreadFactory implements Runnable {
-    public static void main(String[] args) throws InterruptedException {
-        /**
-         argument of newCatchedThreadPool is overloaded to take a ThreadFactory object
-         this is the advantage of creating custom thread using ThreadFactory
-         */
-        ExecutorService service = Executors.newCachedThreadPool(new DaemonThreadFactory());     //overloaded ()
+	public static void main(String[] args) throws InterruptedException {
+		/**
+		 argument of newCatchedThreadPool is overloaded to take a ThreadFactory object
+		 this is the advantage of creating custom thread using ThreadFactory
+		 */
+		ExecutorService service = Executors.newCachedThreadPool(new DaemonThreadFactory());     //overloaded ()
 
-        for (int i = 0; i < 5; i++)
-            service.execute(new DaemonFromThreadFactory());
+		for (int i = 0; i < 5; i++)
+			service.execute(new DaemonFromThreadFactory());
 
-        System.out.println("All Daemons Started");
-        TimeUnit.MILLISECONDS.sleep(150);   //change this to see the difference in output
-    }
+		System.out.println("All Daemons Started");
+		TimeUnit.MILLISECONDS.sleep(150);   //change this to see the difference in output
+	}
 
-    @Override
-    public void run() {
-        while (true) {
-            try {
-                TimeUnit.MILLISECONDS.sleep(100);
-                System.out.println(Thread.currentThread() + " " + this);
-            } catch (InterruptedException e) {
-                System.out.println("sleep() Interrupted");
-            }
-        }
-    }
+	@Override
+	public void run() {
+		while (true) {
+			try {
+				TimeUnit.MILLISECONDS.sleep(100);
+				System.out.println(Thread.currentThread() + " " + this);
+			} catch (InterruptedException e) {
+				System.out.println("sleep() Interrupted");
+			}
+		}
+	}
 }
 

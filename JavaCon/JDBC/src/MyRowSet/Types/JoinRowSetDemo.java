@@ -30,25 +30,25 @@ import java.sql.SQLException;
  * objects witch you want to join.
  */
 public class JoinRowSetDemo {
-    public static void main(String[] args) throws ClassNotFoundException, SQLException {
-        Class.forName("oracle.jdbc.driver.OracleDriver");
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Class.forName("oracle.jdbc.driver.OracleDriver");
 
-        CachedRowSet emp = new CachedRowSetImpl();
-        emp.setUsername("system");
-        emp.setPassword("98989");
-        emp.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
-        emp.setCommand("select * from person");
-        emp.execute();
+		CachedRowSet emp = new CachedRowSetImpl();
+		emp.setUsername("system");
+		emp.setPassword("98989");
+		emp.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+		emp.setCommand("select * from person");
+		emp.execute();
 
 
-        CachedRowSet dept = new CachedRowSetImpl();
-        dept.setUsername("system");
-        dept.setPassword("98989");
-        dept.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
-        dept.setCommand("select * from bank");
-        dept.execute();
+		CachedRowSet dept = new CachedRowSetImpl();
+		dept.setUsername("system");
+		dept.setPassword("98989");
+		dept.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+		dept.setCommand("select * from bank");
+		dept.execute();
 
-        JoinRowSet joinRowSet = new JoinRowSetImpl();
+		JoinRowSet joinRowSet = new JoinRowSetImpl();
 
         /*
         Each RowSet object added to a JoinRowSet object must have a match column,
@@ -56,14 +56,14 @@ public class JoinRowSetDemo {
 
 
          */
-        joinRowSet.addRowSet(dept, "accno"); //BANK RECORD MUST COME FIRST THEN PERSON
-        joinRowSet.addRowSet(emp, "accno");  //IF WE WRITE THIS LINE BEFORE ERROR!!!
+		joinRowSet.addRowSet(dept, "accno"); //BANK RECORD MUST COME FIRST THEN PERSON
+		joinRowSet.addRowSet(emp, "accno");  //IF WE WRITE THIS LINE BEFORE ERROR!!!
 
-        while (joinRowSet.next()) {
-            System.out.println("Name " + joinRowSet.getString("p_fname") + " " + joinRowSet.getString("p_lname"));
-            System.out.println("\tIncome " + joinRowSet.getString("income"));
-        }
-    }
+		while (joinRowSet.next()) {
+			System.out.println("Name " + joinRowSet.getString("p_fname") + " " + joinRowSet.getString("p_lname"));
+			System.out.println("\tIncome " + joinRowSet.getString("income"));
+		}
+	}
 }
 
 /**

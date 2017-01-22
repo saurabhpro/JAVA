@@ -12,5 +12,5 @@ package saurabh.Interface.Java8;
  */
 @FunctionalInterface
 public interface FunctionalInterfaceAnotations {
-    void show();
+	void show();
 }

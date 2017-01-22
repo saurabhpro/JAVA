@@ -17,44 +17,44 @@ import java.util.WeakHashMap;
  * Example: See Output: The entry of WeakHashMap object is deleted after t2=null;
  */
 public class WeakHashMapClass {
-    public static void main(String[] args) {
-        Map hashMap = new HashMap<>();
-        Map weakHashMap = new WeakHashMap();
+	public static void main(String[] args) {
+		Map hashMap = new HashMap<>();
+		Map weakHashMap = new WeakHashMap();
 
-        Temporary t1 = new Temporary();
-        Temporary t2 = new Temporary();
+		Temporary t1 = new Temporary();
+		Temporary t2 = new Temporary();
 
-        hashMap.put(t1, "sai");
-        System.out.println("Before HashMap Gets Garbage Collected: ");
-        System.out.println(hashMap);
+		hashMap.put(t1, "sai");
+		System.out.println("Before HashMap Gets Garbage Collected: ");
+		System.out.println(hashMap);
 
-        t1 = null;
-        System.gc();
-        System.out.println("After HashMap gets Garbage Collected: ");
-        System.out.println(hashMap);
+		t1 = null;
+		System.gc();
+		System.out.println("After HashMap gets Garbage Collected: ");
+		System.out.println(hashMap);
 
-        weakHashMap.put(t2, "sai");
-        System.out.println("Before WeakHashMap Gets Garbage Collected: ");
-        System.out.println(weakHashMap);
+		weakHashMap.put(t2, "sai");
+		System.out.println("Before WeakHashMap Gets Garbage Collected: ");
+		System.out.println(weakHashMap);
 
-        t2 = null;
-        System.gc();
-        System.out.println("After WeakHashMap gets Garbage Collected: ");
-        System.out.println(weakHashMap);
+		t2 = null;
+		System.gc();
+		System.out.println("After WeakHashMap gets Garbage Collected: ");
+		System.out.println(weakHashMap);
 
 
-    }
+	}
 
-    private static class Temporary {
-        @Override
-        public String toString() {
-            return "Temporary";
-        }
+	private static class Temporary {
+		@Override
+		public String toString() {
+			return "Temporary";
+		}
 
-        @Override
-        protected void finalize() throws Throwable {
-            System.out.println("Finalize method called");
-            super.finalize();
-        }
-    }
+		@Override
+		protected void finalize() throws Throwable {
+			System.out.println("Finalize method called");
+			super.finalize();
+		}
+	}
 }

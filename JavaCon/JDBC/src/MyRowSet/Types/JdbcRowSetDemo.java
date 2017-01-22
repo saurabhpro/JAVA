@@ -29,32 +29,32 @@ import java.sql.SQLException;
 
 class ExampleListener implements RowSetListener {
 
-    @Override
-    public void rowSetChanged(RowSetEvent event) {
-        System.out.println("ExampleListener notified of rowSetChanged");
-    }
+	@Override
+	public void rowSetChanged(RowSetEvent event) {
+		System.out.println("ExampleListener notified of rowSetChanged");
+	}
 
-    @Override
-    public void rowChanged(RowSetEvent event) {
-        System.out.println("Example Listener notified to rowChanged event");
-        //row changed in actual database. so output for this wont be visible as program closes when actual db updated
-    }
+	@Override
+	public void rowChanged(RowSetEvent event) {
+		System.out.println("Example Listener notified to rowChanged event");
+		//row changed in actual database. so output for this wont be visible as program closes when actual db updated
+	}
 
-    @Override
-    public void cursorMoved(RowSetEvent event) {
-        System.out.println("ExampleListener notified to cursor movement");
-    }
+	@Override
+	public void cursorMoved(RowSetEvent event) {
+		System.out.println("ExampleListener notified to cursor movement");
+	}
 }
 
 
 public class JdbcRowSetDemo {
-    public static void main(String[] args) throws SQLException, ClassNotFoundException {
-        Connection conn = getOracleConnection();
-        // Statement st = conn.createStatement();
+	public static void main(String[] args) throws SQLException, ClassNotFoundException {
+		Connection conn = getOracleConnection();
+		// Statement st = conn.createStatement();
 
-        JdbcRowSet jdbcRowSet;
-        jdbcRowSet = new JdbcRowSetImpl(conn);
-        /*
+		JdbcRowSet jdbcRowSet;
+		jdbcRowSet = new JdbcRowSetImpl(conn);
+		/*
         jdbcRowSet = new JdbcRowSetImpl();
         jdbcRowSet.setUsername("system");
         jdbcRowSet.setPassword("98989");
@@ -62,38 +62,38 @@ public class JdbcRowSetDemo {
         jdbcRowSet.setCommand("select * from bank");
         jdbcRowSet.execute();
         */
-        jdbcRowSet.setType(ResultSet.TYPE_SCROLL_SENSITIVE);
-        jdbcRowSet.setConcurrency(ResultSet.CONCUR_UPDATABLE);
+		jdbcRowSet.setType(ResultSet.TYPE_SCROLL_SENSITIVE);
+		jdbcRowSet.setConcurrency(ResultSet.CONCUR_UPDATABLE);
 
-        //  jdbcRowSet.setCommand("insert into emp values (25,'sam','smith',to_date('24/11/1987','dd/mm/yyyy'),6400)");
-        // jdbcRowSet.execute();
+		//  jdbcRowSet.setCommand("insert into emp values (25,'sam','smith',to_date('24/11/1987','dd/mm/yyyy'),6400)");
+		// jdbcRowSet.execute();
 
-        jdbcRowSet.setCommand("update emp set emp_fname='kevin' where emp_fname='sam'");
-        jdbcRowSet.execute();
+		jdbcRowSet.setCommand("update emp set emp_fname='kevin' where emp_fname='sam'");
+		jdbcRowSet.execute();
 
-        String sql = "Select * from emp";
-        jdbcRowSet.setCommand(sql);
-        jdbcRowSet.execute();
+		String sql = "Select * from emp";
+		jdbcRowSet.setCommand(sql);
+		jdbcRowSet.execute();
 
-        //this line needs to be after execute of jdbc rowset else error
-        jdbcRowSet.addRowSetListener(new ExampleListener());
+		//this line needs to be after execute of jdbc rowset else error
+		jdbcRowSet.addRowSetListener(new ExampleListener());
 
-        while (jdbcRowSet.next()) {
-            //each call to next, gerenrates a Cursor Movement event
-            System.out.print("name: " + jdbcRowSet.getString("emp_fname"));
-            System.out.println("\tSalary: " + jdbcRowSet.getInt("emp_salary"));
-        }
-        conn.close();
-    }
+		while (jdbcRowSet.next()) {
+			//each call to next, gerenrates a Cursor Movement event
+			System.out.print("name: " + jdbcRowSet.getString("emp_fname"));
+			System.out.println("\tSalary: " + jdbcRowSet.getInt("emp_salary"));
+		}
+		conn.close();
+	}
 
-    public static Connection getOracleConnection() throws ClassNotFoundException, SQLException {
-        String driver = "oracle.jdbc.driver.OracleDriver";
-        String url = "jdbc:oracle:thin:@localhost:1521:orcl";
-        String password = "98989";
-        String username = "system";
+	public static Connection getOracleConnection() throws ClassNotFoundException, SQLException {
+		String driver = "oracle.jdbc.driver.OracleDriver";
+		String url = "jdbc:oracle:thin:@localhost:1521:orcl";
+		String password = "98989";
+		String username = "system";
 
-        Class.forName(driver);
-        Connection conn = DriverManager.getConnection(url, username, password);
-        return conn;
-    }
+		Class.forName(driver);
+		Connection conn = DriverManager.getConnection(url, username, password);
+		return conn;
+	}
 }

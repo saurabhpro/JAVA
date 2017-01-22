@@ -26,57 +26,57 @@
 
 public class LocalClass {
 
-    public static void main(String[] args) {
-        LocalClass aOb = new LocalClass();
-        aOb.doStuff();
-    }
+	public static void main(String[] args) {
+		LocalClass aOb = new LocalClass();
+		aOb.doStuff();
+	}
 
-    void doStuff() {
-        class Popcorn {
-            void pop() {
-                System.out.println("Poped PopCorn");
-            }
-        }
+	void doStuff() {
+		class Popcorn {
+			void pop() {
+				System.out.println("Poped PopCorn");
+			}
+		}
 
-        class Food {
-            Popcorn p = new Popcorn() {
-                @Override
-                void pop() {
-                    System.out.println("Popped anonymous popcorn!!");
-                } //overides base class Popcorn's pop method
-            };
+		class Food {
+			Popcorn p = new Popcorn() {
+				@Override
+				void pop() {
+					System.out.println("Popped anonymous popcorn!!");
+				} //overides base class Popcorn's pop method
+			};
 
-            /** here we are creating a subclass of Cookable which is basically an implementer class*/
+			/** here we are creating a subclass of Cookable which is basically an implementer class*/
 
-            /**
-             * since java 8 we can use Lambda expressions to provide an implementation for interface via anonymous class
-             * Cookable c = () -> System.out.println("Anonymous cookable implementer!!");         //one function only
-             */
+			/**
+			 * since java 8 we can use Lambda expressions to provide an implementation for interface via anonymous class
+			 * Cookable c = () -> System.out.println("Anonymous cookable implementer!!");         //one function only
+			 */
 
-            Cookable c = new Cookable() {
-                @Override
-                public void cook() {
-                    System.out.println("Anonymous cookable implementer!!");
-                }//implements method cook if interface cookable
+			Cookable c = new Cookable() {
+				@Override
+				public void cook() {
+					System.out.println("Anonymous cookable implementer!!");
+				}//implements method cook if interface cookable
 
-                @Override
-                public void wash() {
-                    System.out.println("Anonymous Wash in");
-                }
-            };
-        }
-        Food fOb = new Food();
-        fOb.p.pop();
+				@Override
+				public void wash() {
+					System.out.println("Anonymous Wash in");
+				}
+			};
+		}
+		Food fOb = new Food();
+		fOb.p.pop();
 
-        fOb.c.cook();
-        fOb.c.wash();
+		fOb.c.cook();
+		fOb.c.wash();
 
-    }
+	}
 
 
-    interface Cookable {
-        void cook();
+	interface Cookable {
+		void cook();
 
-        void wash();
-    }   //interfaces method ke scope me nhi likh skte
+		void wash();
+	}   //interfaces method ke scope me nhi likh skte
 }

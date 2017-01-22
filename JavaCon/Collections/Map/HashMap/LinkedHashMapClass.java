@@ -9,17 +9,17 @@ import java.util.Map;
  * It is same as HashMap instead MAINTAINS INSERTION ORDER!!!
  */
 public class LinkedHashMapClass {
-    public static void main(String[] args) {
-        LinkedHashMap<Integer, String> hm = new LinkedHashMap<>();
-        hm.put(100, "Amit");
-        hm.put(101, "Vijay");
-        hm.put(102, "Rahul");
+	public static void main(String[] args) {
+		LinkedHashMap<Integer, String> hm = new LinkedHashMap<>();
+		hm.put(100, "Amit");
+		hm.put(101, "Vijay");
+		hm.put(102, "Rahul");
 
-        for (Map.Entry m : hm.entrySet()) {
-            System.out.println(m.getKey() + " " + m.getValue());
-        }
+		for (Map.Entry m : hm.entrySet()) {
+			System.out.println(m.getKey() + " " + m.getValue());
+		}
 
-    }
+	}
 }
 /**
  * OUTPUT [insertion order maintained]

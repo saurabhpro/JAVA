@@ -3,9 +3,9 @@
  */
 
 class A {
-    private A() {
-        System.out.println("A");
-    }
+	private A() {
+		System.out.println("A");
+	}
 }
 
 /*

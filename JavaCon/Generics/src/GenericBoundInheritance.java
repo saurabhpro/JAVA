@@ -3,27 +3,27 @@
  */
 
 interface HasColor {
-    java.awt.Color getColor();
+	java.awt.Color getColor();
 }
 
 interface Weight {
-    int weight();
+	int weight();
 }
 
 class Dimension {
-    public int x, y, z;
+	public int x, y, z;
 }
 
 class HoldItem<T> {
-    T item;
+	T item;
 
-    HoldItem(T ob) {
-        item = ob;
-    }
+	HoldItem(T ob) {
+		item = ob;
+	}
 
-    T getItem() {
-        return item;
-    }
+	T getItem() {
+		return item;
+	}
 }
 
 //extends should be followed by atmost one class and then as many interfaces as you like
@@ -37,69 +37,69 @@ class HoldItem<T> {
 class Colored<T extends Dimension & HasColor> extends HoldItem<T> {
 //can only be instantiated with classes T which implement the HasColor interface AND extend Dimension class - BOTH
 
-    Colored(T ob) {
-        super(ob);      //item of super HoldItem
-    }
+	Colored(T ob) {
+		super(ob);      //item of super HoldItem
+	}
 
-    java.awt.Color color() {
-        return item.getColor();
-    }
+	java.awt.Color color() {
+		return item.getColor();
+	}
 }
 
 class ColoredDimension<T extends Dimension & HasColor> extends Colored<T> {
 
-    ColoredDimension(T ob) {
-        super(ob);
-    }
+	ColoredDimension(T ob) {
+		super(ob);
+	}
 
-    int getX() {
-        return item.x;
-    }
+	int getX() {
+		return item.x;
+	}
 
-    int getY() {
-        return item.y;
-    }
+	int getY() {
+		return item.y;
+	}
 
-    int getZ() {
-        return item.z;
-    }
+	int getZ() {
+		return item.z;
+	}
 
 }
 
 class Bounded extends Dimension implements HasColor, Weight {
-    @Override
-    public java.awt.Color getColor() {
-        return null;
-    }
+	@Override
+	public java.awt.Color getColor() {
+		return null;
+	}
 
-    @Override
-    public int weight() {
-        System.out.println("Weight = " + 9);
-        return 0;
-    }
+	@Override
+	public int weight() {
+		System.out.println("Weight = " + 9);
+		return 0;
+	}
 }
 
 class Solid<T extends Dimension & HasColor & Weight> extends ColoredDimension<T> {
-    Solid(T ob) {
-        super(ob);
-    }
+	Solid(T ob) {
+		super(ob);
+	}
 
-    int weight() {
-        return item.weight();
-    }
+	int weight() {
+		return item.weight();
+	}
 
 }
 
 public class GenericBoundInheritance {
-    public static void main(String[] args) {
-        Solid<Bounded> solid = new Solid<>(new Bounded());  //Bounded is subclass of Dimension so allowed
+	public static void main(String[] args) {
+		Solid<Bounded> solid = new Solid<>(new Bounded());  //Bounded is subclass of Dimension so allowed
 
         /*Solid<Integer> solid2 = new Solid<>(99);
         Error : type argument java.lang.Integer is not within bounds of type-variable T, Should extend Dimension
          */
-        solid.color();
-        solid.getY();       //ColoredDimensions
-        solid.weight();     //Bounded
-    }
+		solid.color();
+		solid.getY();       //ColoredDimensions
+		solid.weight();     //Bounded
+	}
 }
 

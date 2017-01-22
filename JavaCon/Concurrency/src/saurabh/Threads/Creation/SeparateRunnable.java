@@ -5,15 +5,15 @@ package saurabh.Threads.Creation;
  */
 
 class MyThread implements Runnable {
-    @Override
-    public void run() {
-        System.out.println("Inside Run");
-    }
+	@Override
+	public void run() {
+		System.out.println("Inside Run");
+	}
 }
 
 public class SeparateRunnable {
-    public static void main(String[] args) {
-        Thread t = new Thread(new MyThread());
-        t.start();
-    }
+	public static void main(String[] args) {
+		Thread t = new Thread(new MyThread());
+		t.start();
+	}
 }

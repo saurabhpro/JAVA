@@ -3,54 +3,54 @@
  */
 
 class Temp1 {
-    int g;
+	int g;
 
-    Temp1(int g) {
-        this.g = g;
-    }
+	Temp1(int g) {
+		this.g = g;
+	}
 }
 
 
 class ShallowClone implements Cloneable {
-    int x = 10;
-    Temp1 t;
+	int x = 10;
+	Temp1 t;
 
-    ShallowClone(int a) {
-        t = new Temp1(a);
-    }
+	ShallowClone(int a) {
+		t = new Temp1(a);
+	}
 
-    public static void main(String[] args) {
-        ShallowClone c = null;
-        ShallowClone m = new ShallowClone(100);
+	public static void main(String[] args) {
+		ShallowClone c = null;
+		ShallowClone m = new ShallowClone(100);
 
-        System.out.println(m.t.g);
-        System.out.println(m.x);
+		System.out.println(m.t.g);
+		System.out.println(m.x);
 
-        c = m.clone();
+		c = m.clone();
 
-        System.out.println(c.t.g);
-        System.out.println(c.x);
+		System.out.println(c.t.g);
+		System.out.println(c.x);
 
-        c.t.g = 300;        //since referring to same object, changes actual value
-        c.x = 30;           //changes only its own object state
+		c.t.g = 300;        //since referring to same object, changes actual value
+		c.x = 30;           //changes only its own object state
 
-        System.out.println("M after Changes " + m.t.g);     //prints 300
-        System.out.println("M after Changes " + m.x);
+		System.out.println("M after Changes " + m.t.g);     //prints 300
+		System.out.println("M after Changes " + m.x);
 
-        if (m.t == c.t) {
-            System.out.println("Shallow Copy Reference same!!!");
-        }
-    }
+		if (m.t == c.t) {
+			System.out.println("Shallow Copy Reference same!!!");
+		}
+	}
 
-    //clone has protected access in Object class, so inheritance tree ke bahar se nhi call kar skte
-    //clone returns Object
-    @Override
-    public ShallowClone clone() {
-        try {
-            return (ShallowClone) super.clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
+	//clone has protected access in Object class, so inheritance tree ke bahar se nhi call kar skte
+	//clone returns Object
+	@Override
+	public ShallowClone clone() {
+		try {
+			return (ShallowClone) super.clone();
+		} catch (CloneNotSupportedException e) {
+			e.printStackTrace();
+			return null;
+		}
+	}
 }

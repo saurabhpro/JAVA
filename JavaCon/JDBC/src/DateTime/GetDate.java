@@ -21,32 +21,32 @@ import java.sql.*;
  * use a java.sql.Timestamp instead.
  */
 public class GetDate {
-    public static void main(String[] args) throws ClassNotFoundException, SQLException {
-        Class.forName("oracle.jdbc.driver.OracleDriver");
-        Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");
 
-        Statement st = conn.createStatement();
-        //      st.executeUpdate("CREATE TABLE empdate(id  NUMBER(3), myDate DATE DEFAULT sysdate)");
+		Statement st = conn.createStatement();
+		//      st.executeUpdate("CREATE TABLE empdate(id  NUMBER(3), myDate DATE DEFAULT sysdate)");
 
-        String INSERT_RECORD = "INSERT INTO empdate(id , myDate) VALUES (?, ?)";
+		String INSERT_RECORD = "INSERT INTO empdate(id , myDate) VALUES (?, ?)";
 
-        PreparedStatement pstmt = conn.prepareStatement(INSERT_RECORD);
-        pstmt.setInt(1, 1);
+		PreparedStatement pstmt = conn.prepareStatement(INSERT_RECORD);
+		pstmt.setInt(1, 1);
 
-        java.sql.Date sqlDate = new java.sql.Date(new java.util.Date().getTime());
-        pstmt.setDate(2, sqlDate);
+		java.sql.Date sqlDate = new java.sql.Date(new java.util.Date().getTime());
+		pstmt.setDate(2, sqlDate);
 
-        pstmt.executeUpdate();
+		pstmt.executeUpdate();
 
-        ResultSet rs = st.executeQuery("SELECT * FROM empdate");
+		ResultSet rs = st.executeQuery("SELECT * FROM empdate");
 
-        while (rs.next()) {
-            System.out.println("date: " + rs.getDate(2));
-        }
+		while (rs.next()) {
+			System.out.println("date: " + rs.getDate(2));
+		}
 
-        rs.close();
-        conn.close();
-        st.close();
-        pstmt.close();
-    }
+		rs.close();
+		conn.close();
+		st.close();
+		pstmt.close();
+	}
 }
