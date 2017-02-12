@@ -6,6 +6,14 @@ import static java.util.stream.Collectors.joining;
 /**
  * Created by saurabhkumar on 12/02/17.
  */
+
+interface UtilProcessors{
+    //static method inside interface
+    public static int getProcessorCores(){
+        return Runtime.getRuntime().availableProcessors();
+    }
+}
+
 public class PrintCommaList {
 
     public static void main(String[] args) {
@@ -15,5 +23,7 @@ public class PrintCommaList {
                 nameList.stream()
                         .map(String::toUpperCase)
                         .collect(joining(", ")));
+
+        System.out.println(UtilProcessors.getProcessorCores());
     }
 }
