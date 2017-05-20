@@ -8,7 +8,7 @@ import java.util.Iterator;
  * java.util.ConcurrentModificationException
  * When main.java.list.synchronizedlist.Thread1 comes back, it will throw  this Exception
  */
-
+@SuppressWarnings("unchecked")
 public class ArrayListThread1 implements Runnable {
 	ArrayList<String> al;
 
@@ -20,6 +20,7 @@ public class ArrayListThread1 implements Runnable {
 	public void run() {
 		Iterator i = al.iterator();
 
+		//or simply do = for (String x : al)
 		while (i.hasNext()) {
 			try {
 				String str = (String) i.next();

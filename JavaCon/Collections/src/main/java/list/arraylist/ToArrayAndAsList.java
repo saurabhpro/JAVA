@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class ToArrayAndAsList {
 
-	static void ArrayListToArray() {
+	private static void ArrayListToArray() {
 		ArrayList<String> arrayList = new ArrayList<>();
 		arrayList.add("String 1");
 		arrayList.add("String 2");
@@ -27,7 +27,7 @@ public class ToArrayAndAsList {
 			System.out.print(k + " ");
 	}
 
-	static void ArrayListArrayToList() {
+	private static void ArrayListArrayToList() {
 		String[] citynames = {"Agra", "Mysore", "chandigarh", "Bhopal"};
 		List<String> list = Arrays.asList(citynames);
 
@@ -40,7 +40,7 @@ public class ToArrayAndAsList {
 			System.out.print(str + " ");
 	}
 
-	static void ArrayListToArrayPassedAsArg() {
+	private static void ArrayListToArrayPassedAsArg() {
 		ArrayList<String> arrayList = new ArrayList<>();
 		arrayList.add("String 1");
 		arrayList.add("String 2");
@@ -60,7 +60,7 @@ public class ToArrayAndAsList {
 			System.out.print(str + " ");
 	}
 
-	static void MyArrayListToArrayEmp() {
+	private static void MyArrayListToArrayEmp() {
 		ArrayList<Emp3> arrayList = new ArrayList<>();
 		arrayList.add(new Emp3(1001));
 		arrayList.add(new Emp3(1002));

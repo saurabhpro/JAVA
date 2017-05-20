@@ -3,6 +3,7 @@ package list.arraylist;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Created by Saurabh on 9/6/2015.
@@ -52,6 +53,8 @@ class Empl implements Comparable<Empl> {
 	 */
 	@Override
 	public int compareTo(Empl o) {
+		Objects.nonNull(o);
+
 		System.out.println("Inside compareTo ...sortin");
 		if (this.salary > o.salary) return 1;
 		else if (this.salary < o.salary) return -1;
@@ -60,9 +63,9 @@ class Empl implements Comparable<Empl> {
 }
 
 public class ListSortComparable {
-	List<Empl> list = new ArrayList<>();
+	private List<Empl> list = new ArrayList<>();
 
-	ListSortComparable() {
+	private ListSortComparable() {
 		list.add(new Empl("Raam", 3000));
 		list.add(new Empl("John", 6000));
 		list.add(new Empl("Chris", 3000));

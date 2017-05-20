@@ -13,7 +13,7 @@ public class SimpleDemoEmp {
 	ArrayList<Emp> al;
 
 	//Initializer Constructor
-	SimpleDemoEmp() {
+	private SimpleDemoEmp() {
 		al = new ArrayList<>();
 		al.add(new Emp(1001, "Ram"));
 		al.add(new Emp(1002, "Shyam"));
@@ -27,7 +27,7 @@ public class SimpleDemoEmp {
 		aOb.ownClassRemoveWithEquals();
 	}
 
-	void ownClassArrayListIterator() {
+	private void ownClassArrayListIterator() {
 
 		Iterator<Emp> i = al.iterator();
 
@@ -48,8 +48,8 @@ public class SimpleDemoEmp {
 		}
 	}
 
-	void ownClassRemoveWithEquals() {
-		/**
+	private void ownClassRemoveWithEquals() {
+		/*
 		 * if you want to perform any operation on any class object in ArrayList then that class (Say main.java.list.arraylist.model.Emp)
 		 * must override the equal(Object) method of the object class.
 		 */
@@ -64,7 +64,7 @@ public class SimpleDemoEmp {
 			System.out.println(z.id + " " + z.name);
 		}
 
-		/**
+		/*
 		 * Q. what does remove() need equal(Object) for?
 		 * remove(Object) needs some mechanism to search through the list and find the object that's passed to it in the argument,
 		 * to search through the list it must check for equality hence equals(Object)

@@ -1,5 +1,6 @@
 package list.synchronizedlist.copyonwrite;
 
+
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
@@ -7,7 +8,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
  */
 
 public class Thread1 implements Runnable {
-	CopyOnWriteArrayList<String> al;
+	private CopyOnWriteArrayList<String> al;
 
 	Thread1(CopyOnWriteArrayList<String> al) {
 		this.al = al;
@@ -18,8 +19,7 @@ public class Thread1 implements Runnable {
 
 		for (String anAl : al) {
 			try {
-				String str = anAl;
-				System.out.println("Name: " + str);
+				System.out.println("Name: " + anAl);
 
 				Thread.sleep(2000);
 			} catch (Exception e) {

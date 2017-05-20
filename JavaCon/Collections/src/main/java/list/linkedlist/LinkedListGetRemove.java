@@ -6,9 +6,9 @@ import java.util.LinkedList;
  * Created by Saurabh on 9/20/2015.
  */
 public class LinkedListGetRemove {
-	static LinkedList<String> linkedList;
+	private static LinkedList<String> linkedList;
 
-	LinkedListGetRemove() {
+	private LinkedListGetRemove() {
 		linkedList = new LinkedList<>();
 
 		linkedList.add("One");
@@ -23,7 +23,7 @@ public class LinkedListGetRemove {
 
 	}
 
-	static void removeList() {
+	private static void removeList() {
 
 		System.out.println("\\*Remove*/");
 
@@ -48,7 +48,7 @@ public class LinkedListGetRemove {
          */
 	}
 
-	static void pollList() {
+	private static void pollList() {
 		System.out.println("\\*Poll*/");
 		System.out.println("poll - " + linkedList.poll());
 		System.out.println("pollFirst - " + linkedList.pollFirst());
@@ -64,7 +64,7 @@ public class LinkedListGetRemove {
          */
 	}
 
-	static void peekList() {
+	private static void peekList() {
 		System.out.println("\\*Peek*/");
 		System.out.println("peek - " + linkedList.peek());      //by default shows first element from the list
 		System.out.println("peekFirst - " + linkedList.peekFirst());
@@ -88,7 +88,7 @@ public class LinkedListGetRemove {
 	 * Exception - java.util.NoSuchElementException
 	 */
 
-	static void getList() {
+	private static void getList() {
 		System.out.println("\\*get*/");
 		System.out.println("get(index) - " + linkedList.get(2));
 		System.out.println("getFirst - " + linkedList.getFirst());
@@ -105,15 +105,15 @@ public class LinkedListGetRemove {
 	}
 
 	public static void main(String[] args) {
-		LinkedListGetRemove list = new LinkedListGetRemove();
+		new LinkedListGetRemove();
 		System.out.println("Current List : " + linkedList);
-		removeList();
-		System.out.println("\nCurrent List : " + linkedList);
 		peekList();
 		System.out.println("\nCurrent List : " + linkedList);
 		getList();
 		System.out.println("\nCurrent List : " + linkedList);
 		pollList();
+		System.out.println("\nCurrent List : " + linkedList);
+		removeList();
 
 		System.out.println("\nCurrent List : " + linkedList);
 		System.out.println("List with NO ELement");

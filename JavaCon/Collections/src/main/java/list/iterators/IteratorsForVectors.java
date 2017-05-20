@@ -1,8 +1,6 @@
-package list.vector;
+package list.iterators;
 
 import java.util.Enumeration;
-import java.util.Iterator;
-import java.util.ListIterator;
 import java.util.Vector;
 
 /**
@@ -17,14 +15,12 @@ public class IteratorsForVectors {
 		vectorIterators.enumerationLegacyIter();
 	}
 
-	static class VectorIterators {
+	static class VectorIterators implements ListOp {
 		Vector<Integer> list = new Vector<>();
 		/*
 		cannot use List<Integer> here as elements method isn't there in List base interface,
 		so wont be able to use it
 		*/
-		ListIterator<Integer> listIterator = null;
-		Iterator<Integer> iterator = null;
 		Enumeration<Integer> enumeration = null;
 
 		VectorIterators() {
@@ -37,23 +33,11 @@ public class IteratorsForVectors {
 
 
 		void listIterator() {
-			listIterator = list.listIterator();
-
-			System.out.println("Elements found in FORWARD Direction");
-			while (listIterator.hasNext())
-				System.out.print(listIterator.next() + " ");
-
-			System.out.println("Elements found in BACKWARD Direction");
-			while (listIterator.hasPrevious())
-				System.out.print(listIterator.previous());
-
+			listIterator(list);
 		}
 
 		void Iterator() {
-			iterator = list.iterator();
-			System.out.println("Elements found through Simple Iterator");
-			while (iterator.hasNext())
-				System.out.print(iterator.next() + " ");
+			iterator(list);
 		}
 
 		void enumerationLegacyIter() {

@@ -43,7 +43,7 @@ public class SimpleDemo {
 		als.add("c");
 
 		al.add(als);
-		al.add(al);
+		al.add(als);
 		System.out.println(al.size());      //2 only
 
 		System.out.println(al);

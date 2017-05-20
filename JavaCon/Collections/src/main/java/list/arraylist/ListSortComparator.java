@@ -102,7 +102,8 @@ public class ListSortComparator {
 		for (EmplComp e : lOb.list)
 			System.out.println(e.salary + " " + e.name);
 
-		Collections.sort(lOb.list, new MyNameComp());
+		//instead of Collections.sort use List.sort directly
+		lOb.list.sort(new MyNameComp());
 
 		System.out.println("Sorted List Entries Based on Name");
 		for (EmplComp e : lOb.list)

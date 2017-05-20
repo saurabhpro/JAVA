@@ -11,10 +11,11 @@ interface MyIterator {
 	int next();
 }
 
+@SuppressWarnings("ConstantConditions")
 class LinkList implements MyIterator {
-	Node head;
-	Node tail;
-	Node hasNxt, nxt;
+	private Node head;
+	private Node tail;
+	private Node hasNxt, nxt;
 
 	LinkList() {
 		head = tail = null;
@@ -174,7 +175,7 @@ public class MyLinkedList {
 		list.display();
 	}
 
-	static void userDefinedDriverFunc() {
+	private static void userDefinedDriverFunc() {
 		LinkList list = new LinkList();
 		byte choice = 0, choice1;
 		Scanner sc = new Scanner(System.in);

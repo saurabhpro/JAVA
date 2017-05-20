@@ -85,8 +85,8 @@ public class ReverseShuffleSublistSwapSetTrim {
 			System.out.println("Size after Adding 6 elements: " + arrayList.size());
 			arrayList.trimToSize();
 			System.out.println("Size after Trimming: " + arrayList.size());
-	    /*
-        This only shows 6,6 as mentioned there is now way to look for capacity
+		/*
+		This only shows 6,6 as mentioned there is now way to look for capacity
          */
 		}
 

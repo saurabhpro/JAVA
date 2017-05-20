@@ -34,8 +34,8 @@ public class Serialization {
 
 			fin.close();
 			oin.close();        //not in try-with resources
-	        /*
-            Iterator<String> i = al2.iterator();
+			/*
+	        Iterator<String> i = al2.iterator();
             while (i.hasNext()) {
                 String z = i.next();
                 System.out.println(z);

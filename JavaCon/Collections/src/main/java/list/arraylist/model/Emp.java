@@ -22,7 +22,7 @@ public class Emp {
         else            return false;
         SIMPLIFIED INTO BELOW CODE */
 
-		return this.id == e1.id;
+		return this.id == e1.id && this.name.equals(e1.name);
 	}
 }
 

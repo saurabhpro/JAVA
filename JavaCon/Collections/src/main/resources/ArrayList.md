@@ -64,16 +64,23 @@ i.e if no size is supplied array with size 10 is created.
 
 Code for it is as follows -
 ```java
-    public ArrayList(int initialCapacity) {
-    super();
-        if (initialCapacity < 0)
-            throw new IllegalArgumentException("Illegal Capacity: "+
-                                               initialCapacity);
-    this.elementData = new Object[initialCapacity];
-    }
-    public ArrayList() {
-    this(10);
-    }
+   /**
+        * Constructs an empty list with the specified initial capacity.
+        *
+        * @param  initialCapacity  the initial capacity of the list
+        * @throws IllegalArgumentException if the specified initial capacity
+        *         is negative
+        */
+       public ArrayList(int initialCapacity) {
+           if (initialCapacity > 0) {
+               this.elementData = new Object[initialCapacity];
+           } else if (initialCapacity == 0) {
+               this.elementData = EMPTY_ELEMENTDATA;
+           } else {
+               throw new IllegalArgumentException("Illegal Capacity: "+
+                                                  initialCapacity);
+           }
+       }
 ```
 
 Once you tell this interviewer can be sure you know what data structure is internally used.
