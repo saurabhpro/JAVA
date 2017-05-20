@@ -14,7 +14,8 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>saurabh</user-name>
-      <resolve-scope>sys:*</resolve-scope>
+      <resolve-scope>*:sys</resolve-scope>
+      <unqualified-resolve-schemas>*:sys</unqualified-resolve-schemas>
     </data-source>
   </component>
 </project>

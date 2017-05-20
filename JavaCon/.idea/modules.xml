@@ -17,8 +17,9 @@
       <module fileurl="file://$PROJECT_DIR$/JavaDS/JavaDS.iml" filepath="$PROJECT_DIR$/JavaDS/JavaDS.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaKathy/JavaKathy.iml" filepath="$PROJECT_DIR$/JavaKathy/JavaKathy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Reflections/Reflections.iml" filepath="$PROJECT_DIR$/Reflections/Reflections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reflection/Reflection.iml" filepath="$PROJECT_DIR$/Reflection/Reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpecialKeywords/SpecialKeywords.iml" filepath="$PROJECT_DIR$/SpecialKeywords/SpecialKeywords.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/queues.iml" filepath="$PROJECT_DIR$/Collections/queues.iml" />
     </modules>
   </component>
 </project>

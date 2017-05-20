@@ -18,6 +18,28 @@
     <option name="OPEN_IN_BROWSER" value="true" />
     <option name="OPTION_INCLUDE_LIBS" value="true" />
   </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Collections/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Array/pom.xml" />
+        <option value="$PROJECT_DIR$/Generics/pom.xml" />
+        <option value="$PROJECT_DIR$/Java8Lambda/pom.xml" />
+        <option value="$PROJECT_DIR$/Concurrency/pom.xml" />
+        <option value="$PROJECT_DIR$/Exception/pom.xml" />
+        <option value="$PROJECT_DIR$/Inheritance/pom.xml" />
+        <option value="$PROJECT_DIR$/InnerClass/pom.xml" />
+        <option value="$PROJECT_DIR$/Interfaces/pom.xml" />
+        <option value="$PROJECT_DIR$/Polymorphism/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

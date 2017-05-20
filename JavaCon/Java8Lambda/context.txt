@@ -1,28 +1,28 @@
 Lambda expressions can be used only in the following contexts:
 
-• Assignment Context: A lambda expression may appear to the right-hand side of the assignment
+ï¿½ Assignment Context: array.references.A lambda expression may appear to the right-hand side of the assignment
 operator in an assignment statement. For example,
     ReferenceType variable1 = LambdaExpression;
 
-• Method Invocation Context: A lambda expression may appear as an argument to a method or
+ï¿½ Method Invocation Context: array.references.A lambda expression may appear as an argument to a method or
 constructor call. For example,
     util.testJoiner(LambdaExpression);
 
-• Return Context: A lambda expression may appear in a return statement inside a method, as its
+ï¿½ Return Context: array.references.A lambda expression may appear in a return statement inside a method, as its
 target type is the declared return type of the method. For example,
     return LambdaExpression;
 
-• Cast Context: A lambda expression may be used if it is preceded by a cast. The type specified in
+ï¿½ Cast Context: array.references.A lambda expression may be used if it is preceded by a cast. The type specified in
 the cast is its target type. For example,
     (Joiner) LambdaExpression;
 
 
 Functional Interfaces
-A functional interface is simply an interface that has exactly one abstract method. The following types of methods in
+array.references.A functional interface is simply an interface that has exactly one abstract method. The following types of methods in
 an interface do not count for defining a functional interface:
-• Default methods
-• Static methods
-• Public methods inherited from the Object class
+ï¿½ Default methods
+ï¿½ Static methods
+ï¿½ Public methods inherited from the Object class
 
 
 Intersection Type and Lambda Expressions
@@ -37,7 +37,7 @@ public interface Sensitive {
 // It ia a marker interface. So, no methods exist.
 }
 Suppose you have a lambda expression assigned to a variable of the Sensitive type.
-Sensitive sen = (x, y) -> x + y; // A compile-time error
+Sensitive sen = (x, y) -> x + y; // array.references.A compile-time error
 This statement does not compile. The target type of a lambda expression must be a functional interface;
 Sensitive is not a functional interface.
 You should be able to make such assignment, as a marker interface does not contain any methods.
