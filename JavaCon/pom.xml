@@ -29,6 +29,7 @@
         <module>Generics</module>
         <module>Java8Lambda</module>
         <module>Reflection</module>
+        <module>UnitTesting</module>
 
     </modules>
 </project>

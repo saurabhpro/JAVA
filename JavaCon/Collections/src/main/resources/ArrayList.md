@@ -32,7 +32,7 @@ Thus, in the face of concurrent modification, the iterator fails quickly and cle
 14.	The `size (), isEmpty (), get (), set (), iterator () and listIterator ()` operation run in constant time because the list is based on Array but adding and removing element is costly as compared to LinkList
 
 15.	ArrayList class is enhanced in JDK 1.5 to support Generics which adds extra type safety on ArrayList.
-It is recommended to use generic version of ArrayList to ensure that's your ArrayList contain only specific type of elements and avoid any __class cast exception__
+It is recommended to use generics version of ArrayList to ensure that's your ArrayList contain only specific type of elements and avoid any __class cast exception__
 
 16.	If we set ArrayList reference to null in Java, all the elements inside ArrayList becomes eligible for garbage collection in Java provided that there are no strong references exist for those objects
 

@@ -10,7 +10,7 @@ import java.util.stream.Stream;
  * <p>
  * Generics is implemented via Erasure.
  * Type parameters in generics are for compile time safety.
- * Once compiled at bytecode level, raw and generic types are same.
+ * Once compiled at bytecode level, raw and generics types are same.
  * Compile erases all the type information at bytecode level.
  * It means bytecode of List<String> is same as bytecode of List.
  */

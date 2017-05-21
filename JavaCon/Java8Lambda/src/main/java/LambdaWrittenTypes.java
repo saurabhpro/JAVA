@@ -16,7 +16,7 @@
  * POINTS: 1. A lambda expression does not have a name. 2. A lambda expression does not have a return type. It is
  * inferred by the compiler from the context of its use and from its body. 3. A lambda expression does not have a throws
  * clause. It is inferred from the context of its use and its body. 4. A lambda expression cannot declare type
- * parameters. That is, a lambda expression cannot be generic.
+ * parameters. That is, a lambda expression cannot be generics.
  */
 @FunctionalInterface
 interface F1 {

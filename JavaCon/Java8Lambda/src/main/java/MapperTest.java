@@ -2,7 +2,7 @@
 
 @FunctionalInterface
 interface Mapper<T> {
-	// A generic static method
+	// A generics static method
 	static <U> int[] mapToInt(U[] list, Mapper<? super U> mapper) {
 		int[] mappedValues = new int[list.length];
 

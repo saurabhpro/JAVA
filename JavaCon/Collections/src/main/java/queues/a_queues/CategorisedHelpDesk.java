@@ -47,7 +47,7 @@ public class CategorisedHelpDesk {
 
 			enquiry.getCustomer().reply(message);
 		} else {
-			System.out.println("No work to do, let's have some coffee!");
+			System.out.println("No work to do, let's have some ccd!");
 		}
 	}
 }
