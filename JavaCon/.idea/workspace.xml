@@ -5,36 +5,9 @@
     <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="java utilFunctions added, lambda and method reference">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/common/City.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/constructor/WithArgument.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/constructor/WithoutArgument.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/Shipment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/Sum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/TriFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/staticEx/AnExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/staticEx/NumbersO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/CollectionUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/MainAPICollectionMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/MapUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/resources/MethodReference.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Consumer/Consumer.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Consumer/Consumer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Consumer/CustomConsumerRunner.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Consumer/CustomConsumerRunner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Consumer/UtilConsumerRunner.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Consumer/UtilConsumerRunner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Function/Comparator.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Function/Comparator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Function/CustomFunctionRunner.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Function/CustomFunctionRunner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Function/Function.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Function/Function.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Function/MainComparator.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Function/MainComparator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Function/UtilFunctionRunner.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Function/UtilFunctionRunner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Predicate/CustomPredicateRunner.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Predicate/CustomPredicateRunner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Predicate/Predicate.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Predicate/Predicate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Predicate/UtilPredicateRunner.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Predicate/UtilPredicateRunner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Supplier/CustomSupplierRunner.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Supplier/CustomSupplierRunner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Supplier/Supplier.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Supplier/Supplier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Supplier/UtilSupplierRunner.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Supplier/UtilSupplierRunner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/common/Person.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/common/Person.java" />
+    <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/LambdaWrittenTypes.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/LambdaWrittenTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/resources/MethodReference.md" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/resources/MethodReference.md" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,8 +71,8 @@
         <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/resources/MethodReference.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="527">
-                <caret line="52" column="6" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+              <first_editor relative-caret-position="482">
+                <caret line="49" column="104" lean-forward="false" selection-start-line="49" selection-start-column="104" selection-end-line="49" selection-end-column="104" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -111,13 +84,13 @@
         <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/constructor/WithArgument.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="429">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#419#420#0" expanded="true" />
                 <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,13 +124,8 @@
         <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/Sum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-              <folding>
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-              </folding>
+              <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,12 +134,9 @@
         <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/Shipment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
-              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+              <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#641#651#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1286,7 +1251,7 @@
       <workItem from="1487519188440" duration="52000" />
       <workItem from="1489898062539" duration="849000" />
       <workItem from="1495257767232" duration="32783000" />
-      <workItem from="1495383472045" duration="12089000" />
+      <workItem from="1495383472045" duration="12141000" />
     </task>
     <task id="LOCAL-00001" summary="Java Commit&#10;">
       <created>1440921977733</created>
@@ -1491,7 +1456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495415066386</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="java utilFunctions added, lambda and method reference">
+      <created>1495550194304</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1495550194304</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1527,7 +1499,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389927000" />
+    <option name="totallyTimeSpent" value="389979000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -2030,25 +2002,17 @@
     <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/Sum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-          <folding>
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
+          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/Shipment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#641#651#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2068,13 +2032,13 @@
     <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/constructor/WithArgument.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#419#420#0" expanded="true" />
             <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2082,8 +2046,8 @@
     <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/resources/MethodReference.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="527">
-            <caret line="52" column="6" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+          <first_editor relative-caret-position="482">
+            <caret line="49" column="104" lean-forward="false" selection-start-line="49" selection-start-column="104" selection-end-line="49" selection-end-column="104" />
             <folding />
           </first_editor>
           <second_editor />

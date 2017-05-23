@@ -47,7 +47,7 @@ There are four types of method references:
     - `(args) -> new ClassName(args)` to
     - `ClassName:: new`
     - If the constructor takes no arguments, a Supplier will do the job:
-    - {{embed '../java/pluralsight/util/Function/methodReference/constructor/WithoutArgument.java'}}
+    - {{embed '../java/pluralsight/util/Function/methodReference/constructor/WithoutArgument.java' 'java' }}
     - If the constructor takes an argument, we can use the Function interface. For example:
     - If the constructor takes two arguments, we use the BiFunction interface:
     - 
