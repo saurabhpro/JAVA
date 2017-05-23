@@ -47,7 +47,7 @@ There are four types of method references:
 4. **A method reference to a constructor.**
     - `(args) -> new ClassName(args)` to
     - `ClassName:: new`
-    - If the constructor takes no arguments, a Supplier will do the job: [Click Here](pluralsight/util/Function/methodReference/constructorEx/WithoutArgument.java)
-    - If the constructor takes an argument, we can use the Function interface. If the constructor takes two arguments, we use the BiFunction interface: [Click Here](pluralsight/util/Function/methodReference/constructorEx/WithArgument.java)
+    - If the constructor takes no arguments, a Supplier will do the job: [Click Here](../java/pluralsight/util/Function/methodReference/constructorEx/WithoutArgument.java)
+    - If the constructor takes an argument, we can use the Function interface. If the constructor takes two arguments, we use the BiFunction interface: [Click Here](../java/pluralsight/util/Function/methodReference/constructorEx/WithArgument.java)
 
 
