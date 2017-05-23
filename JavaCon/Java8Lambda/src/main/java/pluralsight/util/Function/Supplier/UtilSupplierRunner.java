@@ -1,6 +1,6 @@
-package pluralsight.Supplier;
+package pluralsight.util.Function.Supplier;
 
-import pluralsight.common.Person;
+import pluralsight.util.Function.common.Person;
 
 /**
  * Created by saurabhkumar on 22/05/17.

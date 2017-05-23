@@ -1,4 +1,4 @@
-package pluralsight.Consumer;
+package pluralsight.util.Function.Consumer;
 
 /**
  * Created by saurabhkumar on 21/05/17.

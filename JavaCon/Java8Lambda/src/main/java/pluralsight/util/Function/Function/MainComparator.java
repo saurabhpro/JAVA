@@ -1,7 +1,7 @@
-package pluralsight.Function;
+package pluralsight.util.Function.Function;
 
 
-import pluralsight.common.Person;
+import pluralsight.util.Function.common.Person;
 
 /**
  * @author José Paumard

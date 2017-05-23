@@ -1,4 +1,4 @@
-package pluralsight.Consumer;
+package pluralsight.util.Function.Consumer;
 
 import java.util.function.BiConsumer;
 

@@ -1,4 +1,4 @@
-package pluralsight.Function;
+package pluralsight.util.Function.Function;
 
 
 import java.util.function.Function;

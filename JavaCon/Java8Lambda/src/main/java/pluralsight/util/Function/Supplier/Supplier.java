@@ -1,4 +1,4 @@
-package pluralsight.Supplier;
+package pluralsight.util.Function.Supplier;
 
 /**
  * Created by saurabhkumar on 22/05/17.

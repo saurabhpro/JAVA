@@ -1,4 +1,4 @@
-package pluralsight.Predicate;
+package pluralsight.util.Function.Predicate;
 
 import java.util.function.IntPredicate;
 

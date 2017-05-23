@@ -1,4 +1,4 @@
-package pluralsight.Function;
+package pluralsight.util.Function.Function;
 
 /**
  * Created by saurabhkumar on 22/05/17.

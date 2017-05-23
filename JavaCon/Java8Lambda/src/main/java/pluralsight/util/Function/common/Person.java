@@ -1,4 +1,4 @@
-package pluralsight.common;
+package pluralsight.util.Function.common;
 
 
 /**
@@ -8,6 +8,7 @@ public class Person {
 
 	private String firstName;
 	private String lastName;
+	private String name;
 	private int age;
 
 	public Person() {
@@ -16,6 +17,11 @@ public class Person {
 	public Person(String firstName, String lastName, int age) {
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.age = age;
+	}
+
+	public Person(String name, int age) {
+		this.name = name;
 		this.age = age;
 	}
 

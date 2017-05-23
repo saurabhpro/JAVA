@@ -4,7 +4,7 @@
  * lambda expression is not a method, although its declaration looks similar to a method. As the name suggests, a lambda
  * expression is an expression that represents an instance of a functional interface.
  * <p>
- * Example: (String str) -> str.length() What is the type of this lambda expression? The answer is that we do not know.
+ * WithoutArgument: (String str) -> str.length() What is the type of this lambda expression? The answer is that we do not know.
  * By looking at the lambda expression, all you can say is that it takes a String parameter and returns an int, which is
  * the length of the String.
  * <p>
