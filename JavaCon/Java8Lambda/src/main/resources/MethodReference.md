@@ -14,8 +14,10 @@ To make the code clearer, you can turn that lambda expression into a method refe
 
 `Consumer<String> c = System.out::println;`
 
-In a method reference, you place the object (or class) that contains the method before the :: operator 
-and the name of the method after it without arguments.
+
+
+_In a method reference, you place the object (or class) that contains the method before the :: operator 
+and the name of the method after it without arguments._
 
 **They can only be used to replace a single-method lambda expression.**
 
@@ -24,31 +26,28 @@ And to use a lambda expression, you first need a **functional interface**, _an i
 
 There are four types of method references:
 
-- A method reference to a static method.
+1. **A method reference to a static method.**
     - `(args) -> Class.staticMethod(args)` can be converted to
     - `Class::staticMethod`
     - Where ever we can pass a lambda expression that just calls a static method, we can use a method reference. 
     - 
-- A method reference to an instance method of an object of a particular type.
+2. **A method reference to an instance method of an object of a particular type.**
     - `(obj, args) -> obj.instanceMethod(args)` can be converted to
     - `ObjectType::instanceMethod`
+    
     - an instance of the object is the parameter of the lambda expression, and we form the reference to the instance method with the type of the instance.
-      
-      Here's another example where we pass two arguments to the method reference.
-      
-      Java has a Function interface that takes one parameter, a BiFunction that takes two parameters, but there's no TriFunction that takes three parameters, so let's make one:
+     
+    - Java has a Function interface that takes one parameter, a BiFunction that takes two parameters, but there's no TriFunction that takes three parameters, so let's make one: [Click Here](../java/pluralsight/util/Function/methodReference/instanceEx)
       
 
-- A method reference to an instance method of an existing object.
+3. **A method reference to an instance method of an existing object.**
     - `(args) -> obj.instanceMethod(args)` to
     - `obj::instanceMethod`
     
-- A method reference to a constructor.
+4. **A method reference to a constructor.**
     - `(args) -> new ClassName(args)` to
     - `ClassName:: new`
-    - If the constructor takes no arguments, a Supplier will do the job: [Click Here](../java/pluralsight/util/Function/methodReference/constructor/WithoutArgument.java)
-    - If the constructor takes an argument, we can use the Function interface. For example:
-    - If the constructor takes two arguments, we use the BiFunction interface:
-    - 
+    - If the constructor takes no arguments, a Supplier will do the job: [Click Here](pluralsight/util/Function/methodReference/constructorEx/WithoutArgument.java)
+    - If the constructor takes an argument, we can use the Function interface. If the constructor takes two arguments, we use the BiFunction interface: [Click Here](pluralsight/util/Function/methodReference/constructorEx/WithArgument.java)
 
 

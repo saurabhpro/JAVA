@@ -20,6 +20,6 @@ public class CustomSupplierRunner {
 
 
 		Supplier<Person> personSupplier = () -> new Person();
-		Supplier<Person> personSupplier2 = Person::new; //but for parameterized constructor, we cant do this
+		Supplier<Person> personSupplier2 = Person::new; //but for parameterized constructorEx, we cant do this
 	}
 }

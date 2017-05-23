@@ -1,4 +1,4 @@
-package pluralsight.util.Function.methodReference.constructor;
+package pluralsight.util.Function.methodReference.constructorEx;
 
 import java.util.ArrayList;
 import java.util.List;
