@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>a_structural.d_decorator.sandwich.MeatDecorator</OriginalElement>
+  <nodes>
+    <node x="305.6904761904762" y="0.0">a_structural.d_decorator.sandwich.Sandwich</node>
+    <node x="535.25" y="125.0">a_structural.d_decorator.sandwich.SimpleSandwich</node>
+    <node x="318.0" y="250.0">a_structural.d_decorator.sandwich.MeatDecorator</node>
+    <node x="0.0" y="250.0">a_structural.d_decorator.sandwich.DressingDecorator</node>
+    <node x="351.26190476190476" y="397.0">a_structural.d_decorator.sandwich.DecoratorSandwichDemo</node>
+    <node x="172.45238095238096" y="102.0">a_structural.d_decorator.sandwich.SandwichDecorator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="a_structural.d_decorator.sandwich.DressingDecorator" target="a_structural.d_decorator.sandwich.SandwichDecorator">
+      <point x="0.0" y="-48.5" />
+      <point x="149.0" y="225.0" />
+      <point x="241.95238095238096" y="225.0" />
+      <point x="-69.5" y="49.0" />
+    </edge>
+    <edge source="a_structural.d_decorator.sandwich.SandwichDecorator" target="a_structural.d_decorator.sandwich.Sandwich">
+      <point x="-69.5" y="-49.0" />
+      <point x="241.95238095238096" y="77.0" />
+      <point x="331.1904761904762" y="77.0" />
+      <point x="-51.0" y="26.0" />
+    </edge>
+    <edge source="a_structural.d_decorator.sandwich.DecoratorSandwichDemo" target="a_structural.d_decorator.sandwich.DressingDecorator">
+      <point x="-68.33333333333331" y="-26.0" />
+      <point x="385.42857142857144" y="372.0" />
+      <point x="149.0" y="372.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="a_structural.d_decorator.sandwich.DecoratorSandwichDemo" target="a_structural.d_decorator.sandwich.SimpleSandwich">
+      <point x="68.33333333333331" y="-26.0" />
+      <point x="522.0952380952381" y="372.0" />
+      <point x="611.75" y="372.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="a_structural.d_decorator.sandwich.DecoratorSandwichDemo" target="a_structural.d_decorator.sandwich.MeatDecorator">
+      <point x="0.0" y="-26.0" />
+      <point x="453.76190476190476" y="372.0" />
+      <point x="455.0" y="372.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="a_structural.d_decorator.sandwich.MeatDecorator" target="a_structural.d_decorator.sandwich.SandwichDecorator">
+      <point x="0.0" y="-48.5" />
+      <point x="455.0" y="225.0" />
+      <point x="380.95238095238096" y="225.0" />
+      <point x="69.5" y="49.0" />
+    </edge>
+    <edge source="a_structural.d_decorator.sandwich.SimpleSandwich" target="a_structural.d_decorator.sandwich.Sandwich">
+      <point x="0.0" y="-26.0" />
+      <point x="611.75" y="77.0" />
+      <point x="433.1904761904762" y="77.0" />
+      <point x="51.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="344.5" y="224.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

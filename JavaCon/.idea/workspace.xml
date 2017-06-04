@@ -5,9 +5,437 @@
     <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="">
+    <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="``">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/1-design-patterns-java-creational-m1-intro-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/7-design-patterns-java-creational-m7-next-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/2-design-patterns-java-creational-m2-singleton-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/singleton/derby.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/singleton/derbyclient.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/3-design-patterns-java-creational-m3-builder-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/4-design-patterns-java-creational-m4-prototype-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory/5-design-patterns-java-creational-m5-factory-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/6-design-patterns-java-creational-m6-abstract-factory-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/1-design-patterns-java-structural-m1-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/9-design-patterns-java-structural-m9-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/a_adapter/2-design-patterns-java-structural-m2-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/a_adapter/emp/EmployeeClient.uml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/a_adapter/emp/diagram.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/3-design-patterns-java-structural-m3-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/MovieBridge/MoviePrinter.uml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/MovieBridge/diagram.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/c_composite/4-design-patterns-java-structural-m4-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/c_composite/menu/CompositeMenuDemo.uml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/c_composite/menu/diagram.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/d_decorator/5-design-patterns-java-structural-m5-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/d_decorator/sandwich/MeatDecorator.uml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/d_decorator/sandwich/diagram.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/e_facade/6-design-patterns-java-structural-m6-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/e_facade/jdbcfacade/JdbcFacade.uml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/e_facade/jdbcfacade/diagram.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/f_flyweight/7-design-patterns-java-structural-m7-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/g_proxy/8-design-patterns-java-structural-m8-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/1-design-patterns-java-behavioral-m1-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/13-design-patterns-java-behavioral-m13-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/a_chain/2-design-patterns-java-behavioral-m2-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/b_command/3-design-patterns-java-behavioral-m3-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/4-design-patterns-java-behavioral-m4-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/d_iterator/5-design-patterns-java-behavioral-m5-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/6-design-patterns-java-behavioral-m6-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/f_memento/7-design-patterns-java-behavioral-m7-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/g_observer/8-design-patterns-java-behavioral-m8-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/h_state/9-design-patterns-java-behavioral-m9-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/10-design-patterns-java-behavioral-m10-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/j_template/11-design-patterns-java-behavioral-m11-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/12-design-patterns-java-behavioral-m12-slides.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/excel/SampleCustomerReports.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/image/baby.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/image/newImage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MetaData/JDBC_ DatabaseMetaData.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyResultSet/JDBC_ ResultSet.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyResultSet/createStatementArguments.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/JDBC_ PreparedStatement.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/JDBC_ Transactions.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/db.lck" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/dbex.lck" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/log/log.ctrl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/log/log1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/log/logmirror.ctrl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c10.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c101.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c111.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c121.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c130.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c141.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c150.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c161.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c171.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c180.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c191.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1c0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1d1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1e0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1f1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c20.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c200.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c211.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c221.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c230.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c241.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c251.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c260.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c271.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c281.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c290.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2c1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2d0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2e1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2f0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c300.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c31.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c311.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c321.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c331.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c340.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c351.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c361.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c371.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c380.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c391.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3c0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3d1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3e1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3f1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c400.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c41.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c411.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c421.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c430.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c441.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c451.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c461.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c470.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c481.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c490.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c51.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c60.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c71.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c81.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c90.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/ca1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/cb1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/cc0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/cd1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/ce1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/cf0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/resources/ojdbc6-11.2.0.2.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_derby_derby_10_10_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc6_11_2_0_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/SingletonEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/singleton/DbSingleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/singleton/DbSingletonDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/BuilderEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/LunchOrderBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/LunchOrderBeanDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/LunchOrderTele.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/LunchOrderTeleDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/lunchBuilder/BuilderLunchOrderDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/lunchBuilder/LunchOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/PrototypeEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/Record.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/Statement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/movie/Book.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/movie/Item.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/movie/Movie.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/movie/PrototypeDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/movie/Registry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory/FactoryEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory/website/FactoryDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory/website/Page.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory/website/Website.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory/website/WebsiteFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory/website/WebsiteType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory/website/blog/AboutPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory/website/blog/Blog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory/website/blog/CommentPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory/website/blog/ContactPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory/website/blog/PostPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory/website/shop/CartPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory/website/shop/ItemPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory/website/shop/SearchPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory/website/shop/Shop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/AbstractFactoryDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/AbstractFactoryEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/AmexFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/AmexGoldCreditCard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/AmexGoldValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/AmexPlatinumCreditCard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/AmexPlatinumValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/CardType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/CreditCard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/CreditCardFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/Validator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/VisaBlackCreditCard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/VisaCreditCard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/VisaFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/VisaGoldCreditCard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/VisaValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/a_adapter/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/a_adapter/basic/AdapterEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/a_adapter/emp/AdapterDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/a_adapter/emp/EmployeeCSV.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/a_adapter/emp/EmployeeClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/a_adapter/emp/EmployeeLdap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/a_adapter/emp/adapters/EmployeeAdapterCSV.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/a_adapter/emp/adapters/EmployeeAdapterLdap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/a_adapter/emp/legacy/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/a_adapter/emp/legacy/EmployeeDB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/BridgeEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/MovieBridge/BridgeDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/MovieBridge/formatter/Formatter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/MovieBridge/formatter/HtmlFormatter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/MovieBridge/formatter/PrintFormatter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/MovieBridge/model/Detail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/MovieBridge/model/Movie.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/MovieBridge/printer/MoviePrinter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/MovieBridge/printer/Printer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape1_bad/BlueCircle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape1_bad/BlueSquare.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape1_bad/Circle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape1_bad/GreenSquare.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape1_bad/RedCircle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape1_bad/RedSquare.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape1_bad/Shape.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape1_bad/Shape1BridgeDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape1_bad/Square.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape2_bridged/Blue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape2_bridged/Circle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape2_bridged/Color.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape2_bridged/Green.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape2_bridged/Red.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape2_bridged/Shape.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape2_bridged/Shape2BridgeDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/b_bridge/shape2_bridged/Square.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/c_composite/CompositeEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/c_composite/menu/CompositeMenuDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/c_composite/menu/Menu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/c_composite/menu/MenuComponent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/c_composite/menu/MenuItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/d_decorator/DecoratorEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/d_decorator/sandwich/DecoratorSandwichDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/d_decorator/sandwich/DressingDecorator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/d_decorator/sandwich/MeatDecorator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/d_decorator/sandwich/Sandwich.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/d_decorator/sandwich/SandwichDecorator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/d_decorator/sandwich/SimpleSandwich.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/e_facade/FacadeEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/e_facade/JdbcDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/e_facade/jdbcfacade/DbSingleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/e_facade/jdbcfacade/FacadeJdbcDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/e_facade/jdbcfacade/JdbcFacade.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/f_flyweight/Catalog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/f_flyweight/FlyweightEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/f_flyweight/FlyweightInventoryDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/f_flyweight/InventorySystem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/f_flyweight/Item.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/f_flyweight/Order.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/g_proxy/SecurityProxy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/g_proxy/TwitterService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/b_structural/g_proxy/TwitterServiceStub.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/a_chain/ChainOfResponsibilityEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/a_chain/ceo/CEO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/a_chain/ceo/ChainOfResponsibilityDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/a_chain/ceo/Director.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/a_chain/ceo/Handler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/a_chain/ceo/Request.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/a_chain/ceo/RequestType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/a_chain/ceo/VP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/b_command/AllLightsCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/b_command/Command.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/b_command/CommandDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/b_command/CommandEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/b_command/Light.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/b_command/OnCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/b_command/Switch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/b_command/ToggleCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/AndExpression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/Expression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/InterpreterDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/InterpreterEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/OrExpression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/TerminalExpression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/d_iterator/BikeRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/d_iterator/IteratorDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/d_iterator/IteratorEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/MediatorEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/light/Command.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/light/Light.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/light/Mediator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/light/MediatorDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/light/TurnOffAllLightsCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/light/TurnOnAllLightsCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/f_memento/history/Caretaker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/f_memento/history/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/f_memento/history/EmployeeMemento.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/f_memento/history/MementoDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/f_memento/serial/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/f_memento/serial/MementoEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/g_observer/ObserverEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/g_observer/obs/MessageStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/g_observer/obs/Observer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/g_observer/obs/ObserverDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/g_observer/obs/PhoneClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/g_observer/obs/Subject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/g_observer/obs/TabletClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/h_state/Fan.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/h_state/FanHighState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/h_state/FanLowState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/h_state/FanMedState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/h_state/FanOffState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/h_state/State.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/h_state/StateDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/StrategyEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/creditcard/AmexStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/creditcard/CreditCard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/creditcard/StrategyDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/creditcard/ValidationStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/creditcard/VisaStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/j_template/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/j_template/TemplateEverydayDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/j_template/order/OrderTemplate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/j_template/order/StoreOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/j_template/order/TemplateDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/j_template/order/WebOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/PartsOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/VisitorDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/parts/AtvPart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/parts/Fender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/parts/Oil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/parts/Wheel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/visitor/AtvPartVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/visitor/AtvPartsDisplayVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/visitor/AtvPartsShippingVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitorbad/PartsOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitorbad/VisitorDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitorbad/parts/AtvPart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitorbad/parts/Fender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitorbad/parts/Oil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitorbad/parts/Wheel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BatchUpdateStatements/Batch Updates.rtf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BatchUpdateStatements/UsingPreparedStatements.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BatchUpdateStatements/UsingStatements.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/excel/JdbcExcel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/image/ImageInsertBlob.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/image/ImageRetrieveBlob.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/text/Blob.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/text/BlobClobEx.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/text/Clob.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/xml/JdbcXml.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/xml/simple.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/DataPreparation/CreateTableBank.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/DataPreparation/CreateTableEmp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/DataPreparation/CreateTablePerson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/DateTime/GetDate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/DateTime/GetTimestamp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MetaData/GetJdbcTypeName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MetaData/GetTableViewDatabaseMetaData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MetaData/ResultSetMetaDataFunctions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MetaData/ResultSetMetaDataSimple.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyResultSet/FetchSize.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyResultSet/ResultSetRetrieve.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyResultSet/SensitiveResultSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/RowSetDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/CachedRowSetDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/FilteredRowSetDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/JdbcRowSetDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/JoinRowSetDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/WebRowSetDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/emp.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/xyz.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyCallableStatements.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyExecuteMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyPreparedStatement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/Sequence/MySequence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/Commit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/Rollback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/SavePoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/Transactions.rtf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/DBFacade.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/DerbyDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/log/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/service.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/streams/BuildStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/MapFilterReduce.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/BatchUpdateStatements/Batch Updates.rtf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/BatchUpdateStatements/UsingPreparedStatements.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/BatchUpdateStatements/UsingStatements.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/BlobClob/excel/JdbcExcel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/BlobClob/excel/SampleCustomerReports.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/BlobClob/image/ImageInsertBlob.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/BlobClob/image/ImageRetrieveBlob.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/BlobClob/image/baby.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/BlobClob/image/newImage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/BlobClob/text/Blob.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/BlobClob/text/BlobClobEx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/BlobClob/text/Clob.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/BlobClob/xml/JdbcXml.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/BlobClob/xml/simple.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/DataPreparation/CreateTableBank.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/DataPreparation/CreateTableEmp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/DataPreparation/CreateTablePerson.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/DateTime/GetDate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/DateTime/GetTimeStamp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MetaData/GetJdbcTypeName.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MetaData/GetTableViewDatabaseMetaData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MetaData/JDBC_ DatabaseMetaData.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MetaData/ResultSetMetaDataFunctions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MetaData/ResultSetMetaDataSimple.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyResultSet/FetchSize.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyResultSet/JDBC_ ResultSet.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyResultSet/ResultSetRetrieve.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyResultSet/SensitiveResultSet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyResultSet/createStatementArguments.docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/RowSetDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/CachedRowSetDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/FilteredRowSetDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/JdbcRowSetDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/JoinRowSetDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/WebRowSetDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/emp.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyRowSet/Types/xyz.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyStatement/JDBC_ PreparedStatement.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyStatement/MyCallableStatements.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyStatement/MyExecuteMethod.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/MyStatement/MyPreparedStatement.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/Sequence/MySequence.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/Transactions/Commit.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/Transactions/JDBC_ Transactions.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/Transactions/Rollback.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/Transactions/SavePoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/Transactions/Transactions.rtf" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JDBC/JDBC.docx" afterPath="$PROJECT_DIR$/JDBC/src/main/resources/JDBC.docx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JDBC/overview.png" afterPath="$PROJECT_DIR$/JDBC/src/main/resources/overview.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/resources/MethodReference.md" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/resources/MethodReference.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/src/main/java/list/arraylist/ListSortComparable.java" afterPath="$PROJECT_DIR$/Collections/src/main/java/list/arraylist/ListSortComparable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/src/main/java/list/arraylist/ListSortComparator.java" afterPath="$PROJECT_DIR$/Collections/src/main/java/list/arraylist/ListSortComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/src/main/java/map/hashmap/LinkedHashMapClass.java" afterPath="$PROJECT_DIR$/Collections/src/main/java/map/hashmap/LinkedHashMapClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/JDBC.iml" afterPath="$PROJECT_DIR$/JDBC/JDBC.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,6 +454,8 @@
     <ignored path="$PROJECT_DIR$/Interfaces/target/" />
     <ignored path="$PROJECT_DIR$/Polymorphism/target/" />
     <ignored path="$PROJECT_DIR$/UnitTesting/target/" />
+    <ignored path="$PROJECT_DIR$/DesignPatterns/target/" />
+    <ignored path="$PROJECT_DIR$/JDBC/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,15 +477,21 @@
     </disable_hints>
   </component>
   <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
     <PATH>
       <PATH_ELEMENT>
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="Derby (Embedded) - lib" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
   </component>
@@ -66,97 +502,7 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MethodReference.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/resources/MethodReference.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="541">
-                <caret line="49" column="94" lean-forward="false" selection-start-line="49" selection-start-column="94" selection-end-line="49" selection-end-column="94" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WithArgument.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/constructorEx/WithArgument.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WithoutArgument.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/constructorEx/WithoutArgument.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TriFunction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/TriFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/Sum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shipment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/Shipment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NumbersO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/staticEx/NumbersO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -210,57 +556,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/UnitTesting/src/main/java/testing/junit/m5/common/SalesReportPrinter.java" />
-        <option value="$PROJECT_DIR$/UnitTesting/src/main/java/testing/junit/m5/common/SalesReportBase.java" />
-        <option value="$PROJECT_DIR$/UnitTesting/src/main/java/testing/junit/m5/guice/SalesReport.java" />
-        <option value="$PROJECT_DIR$/UnitTesting/src/main/java/testing/junit/m5/common/SalesAnalysisServiceBase.java" />
-        <option value="$PROJECT_DIR$/UnitTesting/src/main/java/testing/junit/m5/spring_xml/SalesReport.java" />
-        <option value="$PROJECT_DIR$/UnitTesting/src/main/java/testing/junit/m5/after_refactor/CsvSalesRepository.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Person.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/JMemberedValue.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/sorter.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Comparator.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Function/Person.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Function/Predicate/Test.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Predicate/Test.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Predicate/Predicate.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Consumer/Consumer.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Predicate/CustomPredicateRunner.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Consumer/CustomConsumerRunner.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Consumer/UtilConsumerRunner.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Supplier.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Supplier/CustomSupplierRunner.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/common/Person.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Supplier/UtilSupplierRunner.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Function/Function.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Function/CustomFunctionRunner.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Function/MainComparator.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Function/UtilFuntionRunner.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Predicate/UtilPredicateRunner.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/Function/UtilFunctionRunner.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Function/UtilFunctionRunner.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/Iterable.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/SCollection.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/CollectionUtil.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Predicate/Predicate.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Predicate/CustomPredicateRunner.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/common/City.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/City.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/Person.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/common/Person.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/MainAPICollectionMap.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/MapUtils.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/AnExample.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/NumbersO.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/staticEx/AnExample.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/staticEx/NumbersO.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/staticEx/instance/Shipment.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/TriFunction.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/Sum.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/Shipment.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/constructor/Example.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/constructor/WithArgument.java" />
-        <option value="$PROJECT_DIR$/Java8Lambda/src/main/resources/MethodReference.md" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/b_creational/d_factory/AboutPage.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/b_creational/f_abstractFactory/AbstractFactoryDemo.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/b_creational/e_abstractFactory/AbstractFactoryDemo.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/b_creational/d_factory/FactoryEverydayDemo.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/b_creational/d_factory/website/SearchPage.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/b_creational/d_factory/website/blog/Blog.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/b_creational/d_factory/website/blog/PostPage.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/b_creational/d_factory/website/shop/Shop.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/b_creational/d_factory/website/WebsiteFactory.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/b_creational/d_factory/website/FactoryDemo.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory/AmexFactory.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/b_chain/ceo/VP.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/b_chain/ceo/ChainOfResponsibilityDemo.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_command/AllLightsCommand.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/f_memento/serial/EmployeeMemento.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/f_memento/EmployeeMemento.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/f_memento/serial/MementoEverydayDemo.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/f_memento/history/s.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/f_memento/history/EmployeeMemento.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/f_memento/history/Employee.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/f_memento/history/Caretaker.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/f_memento/history/MementoDemo.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/f_memento/serial/Employee.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/g_observer/obs/ObserverDemo.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_iterator/BikeRepository.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/g_observer/obs/Observer.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/InterpreterEverydayDemo.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/InterpreterDemo.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/Expression.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/TerminalExpression.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/light/Command.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/MediatorEverydayDemo.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/StrategyEverydayDemo.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/creditcard/VisaStrategy.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/Person.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/creditcard/AmexStrategy.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/j_template/order/WebOrder.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitorbad/parts/Wheel.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitorbad/parts/AtvPart.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitorbad/VisitorDemo.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitorbad/PartsOrder.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/order/Oil.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/PartsOrder.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/order/AtvPart.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/order/Fender.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/order/Wheel.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/visitor/AtvPartVisitor.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/parts/AtvPart.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/visitor/AtvPartsShippingVisitor.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/VisitorDemo.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/visitor/AtvPartsDisplayVisitor.java" />
       </list>
     </option>
   </component>
@@ -336,7 +682,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="808" />
+    <option name="height" value="801" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -375,9 +721,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -400,7 +743,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Java8Lambda" />
+              <option name="myItemId" value="JDBC" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -414,7 +757,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Java8Lambda" />
+              <option name="myItemId" value="JDBC" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -432,29 +775,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Java8Lambda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java8Lambda" />
+              <option name="myItemId" value="JDBC" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -465,10 +786,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -480,7 +797,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Java8Lambda" />
+              <option name="myItemId" value="JDBC" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -495,10 +812,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Function" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -510,7 +823,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Java8Lambda" />
+              <option name="myItemId" value="JDBC" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -526,27 +839,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Function" />
+              <option name="myItemId" value="derby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaCon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="methodReference" />
+              <option name="myItemId" value="JDBC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="derby" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sktest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.TFS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.23581213" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="165" />
@@ -566,21 +912,17 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="840" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/DesignPatterns/src/main/java/a_structural/a_adapter" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/JDBC" />
+    <property name="last.edited.regexp" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pluralsight" />
-      <recent name="testing.junit.TDD.wrap" />
-      <recent name="testing.junit.ccd" />
-      <recent name="list" />
-      <recent name="MyResultSet" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="queues.c_dequeStacks" />
     </key>
@@ -594,6 +936,13 @@
       <recent name="main.java.list.arraylist.clone.shallow" />
       <recent name="main.java.list.arraylist.model" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/e_abstractFactory" />
+      <recent name="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/d_factory" />
+      <recent name="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype" />
+      <recent name="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder" />
+      <recent name="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods" />
       <recent name="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/common" />
@@ -604,12 +953,12 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight" />
-      <recent name="$PROJECT_DIR$/UnitTesting/src/test/java/testing/junit/ccd" />
-      <recent name="$PROJECT_DIR$/UnitTesting" />
-      <recent name="$PROJECT_DIR$/UnitTesting/src" />
-      <recent name="$PROJECT_DIR$/Generics/src/main/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pluralsight" />
+      <recent name="testing.junit.TDD.wrap" />
+      <recent name="testing.junit.ccd" />
+      <recent name="list" />
+      <recent name="MyResultSet" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -624,15 +973,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MapUtils">
-    <configuration default="false" name="UtilConsumerRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TemplateDemo">
+    <configuration default="false" name="InterpreterEverydayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="pluralsight.util.Function.Consumer.*" />
+          <option name="PATTERN" value="c_behavioral.c_interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="pluralsight.util.Function.Consumer.UtilConsumerRunner" />
+      <option name="MAIN_CLASS_NAME" value="c_behavioral.c_interpreter.InterpreterEverydayDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -641,18 +990,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java8Lambda" />
+      <module name="DesignPatterns" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="CustomSupplierRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="InterpreterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="pluralsight.util.Function.Supplier.*" />
+          <option name="PATTERN" value="c_behavioral.c_interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="pluralsight.util.Function.Supplier.CustomSupplierRunner" />
+      <option name="MAIN_CLASS_NAME" value="c_behavioral.c_interpreter.InterpreterDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -661,18 +1010,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java8Lambda" />
+      <module name="DesignPatterns" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="CustomFunctionRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MediatorEverydayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="pluralsight.util.Function.Function.*" />
+          <option name="PATTERN" value="c_behavioral.e_mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="pluralsight.util.Function.Function.CustomFunctionRunner" />
+      <option name="MAIN_CLASS_NAME" value="c_behavioral.e_mediator.MediatorEverydayDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -681,18 +1030,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java8Lambda" />
+      <module name="DesignPatterns" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="UtilFunctionRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="StateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="pluralsight.util.Function.Function.*" />
+          <option name="PATTERN" value="c_behavioral.h_state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="pluralsight.util.Function.Function.UtilFunctionRunner" />
+      <option name="MAIN_CLASS_NAME" value="c_behavioral.h_state.StateDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -701,18 +1050,18 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java8Lambda" />
+      <module name="DesignPatterns" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MapUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TemplateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="pluralsight.util.Function.util.Methods.*" />
+          <option name="PATTERN" value="c_behavioral.j_template.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="pluralsight.util.Function.util.Methods.MapUtils" />
+      <option name="MAIN_CLASS_NAME" value="c_behavioral.j_template.order.TemplateDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -721,7 +1070,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java8Lambda" />
+      <module name="DesignPatterns" />
       <envs />
       <method />
     </configuration>
@@ -1184,19 +1533,19 @@
       <item index="2" class="java.lang.String" itemvalue="Application.SimpleReportRunner" />
       <item index="3" class="java.lang.String" itemvalue="Application.ReportRunner" />
       <item index="4" class="java.lang.String" itemvalue="Application.SpringXmlSalesReportRunner" />
-      <item index="5" class="java.lang.String" itemvalue="Application.UtilConsumerRunner" />
-      <item index="6" class="java.lang.String" itemvalue="Application.CustomSupplierRunner" />
-      <item index="7" class="java.lang.String" itemvalue="Application.CustomFunctionRunner" />
-      <item index="8" class="java.lang.String" itemvalue="Application.UtilFunctionRunner" />
-      <item index="9" class="java.lang.String" itemvalue="Application.MapUtils" />
+      <item index="5" class="java.lang.String" itemvalue="Application.InterpreterEverydayDemo" />
+      <item index="6" class="java.lang.String" itemvalue="Application.InterpreterDemo" />
+      <item index="7" class="java.lang.String" itemvalue="Application.MediatorEverydayDemo" />
+      <item index="8" class="java.lang.String" itemvalue="Application.StateDemo" />
+      <item index="9" class="java.lang.String" itemvalue="Application.TemplateDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MapUtils" />
-        <item index="1" class="java.lang.String" itemvalue="Application.UtilFunctionRunner" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CustomFunctionRunner" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CustomSupplierRunner" />
-        <item index="4" class="java.lang.String" itemvalue="Application.UtilConsumerRunner" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TemplateDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StateDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MediatorEverydayDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.InterpreterDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.InterpreterEverydayDemo" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1316,6 +1665,13 @@
       <workItem from="1489898062539" duration="849000" />
       <workItem from="1495257767232" duration="32783000" />
       <workItem from="1495383472045" duration="12449000" />
+      <workItem from="1495859826642" duration="1513000" />
+      <workItem from="1495863911918" duration="93000" />
+      <workItem from="1495864044469" duration="9466000" />
+      <workItem from="1495994375346" duration="3123000" />
+      <workItem from="1495999643627" duration="5888000" />
+      <workItem from="1496411127559" duration="3576000" />
+      <workItem from="1496595905703" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="Java Commit&#10;">
       <created>1440921977733</created>
@@ -1541,7 +1897,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495551211313</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="java utilFunctions added, lambda and method reference">
+      <created>1495551361708</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1495551361708</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1577,7 +1940,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390414000" />
+    <option name="totallyTimeSpent" value="419218000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1589,8 +1952,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="808" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="801" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1600,25 +1962,24 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24821173" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39664805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32122904" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3198324" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29608938" sideWeight="0.4914163" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2919605" sideWeight="0.4914163" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25178826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27682403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32681563" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1630,10 +1991,14 @@
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32440057" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="setup.txt" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1688,354 +2053,381 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UnitTesting/src/main/java/testing/junit/m5/after_refactor/SimpleReportRunner.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/regex/Matcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="-3921">
+          <caret line="104" column="19" lean-forward="false" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ObjectsByJobs.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnitTesting/pom.xml">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/StringTokenizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="174">
+          <caret line="235" column="28" lean-forward="true" selection-start-line="235" selection-start-column="19" selection-end-line="235" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/OrExpression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newImage.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnitTesting/src/main/java/testing/junit/m5/after_refactor/CsvSalesRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnitTesting/src/main/java/testing/junit/m5/spring_xml/SalesAnalysisService.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/setup.txt" />
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/demo notes.txt" />
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/InterpreterDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <caret line="16" column="55" lean-forward="false" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitTesting/src/main/java/testing/junit/m5/spring_xml/SalesReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnitTesting/src/main/java/testing/junit/m5/common/SalesReportBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnitTesting/src/main/java/testing/junit/m5/after_refactor/SalesAnalysisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnitTesting/src/main/java/testing/junit/m5/after_refactor/SalesReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="95" column="17" lean-forward="false" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/JMemberedValue.java" />
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/sorter.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1797">
-          <caret line="108" column="17" lean-forward="false" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/FunctionUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/RecursiveMethodReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/saurabh/java8/lambda/Apress/FunctionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/saurabh/java8/lambda/Apress/Gender.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/Expression.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/saurabh/java8/lambda/Apress/Person.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/AndExpression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/c_interpreter/TerminalExpression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="78" column="25" lean-forward="false" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+        <state relative-caret-position="195">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Consumer/CustomConsumerRunner.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/MediatorEverydayDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/light/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/light/TurnOnAllLightsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/light/TurnOffAllLightsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/light/Mediator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Consumer/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/light/MediatorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Consumer/UtilConsumerRunner.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/e_mediator/light/Light.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Supplier/Supplier.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/h_state/FanLowState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Supplier/CustomSupplierRunner.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/h_state/FanOffState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="108" lean-forward="false" selection-start-line="22" selection-start-column="108" selection-end-line="22" selection-end-column="108" />
-          <folding>
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Supplier/UtilSupplierRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Function/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="78" lean-forward="false" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Function/MainComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Function/CustomFunctionRunner.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/h_state/StateDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Predicate/UtilPredicateRunner.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/h_state/Fan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="83" lean-forward="false" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
+        <state relative-caret-position="39">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Function/UtilFunctionRunner.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/h_state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/h_state/FanHighState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/StrategyEverydayDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-738">
+          <caret line="1432" column="19" lean-forward="false" selection-start-line="1432" selection-start-column="19" selection-end-line="1432" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/creditcard/StrategyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/creditcard/ValidationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/creditcard/CreditCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/creditcard/VisaStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/CollectionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Predicate/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Predicate/CustomPredicateRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/common/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/City.java" />
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/Person.java" />
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/common/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/MainAPICollectionMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/MapUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/staticEx/AnExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/staticEx/NumbersO.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/i_strategy/creditcard/AmexStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/TriFunction.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/j_template/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/j_template/order/WebOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/j_template/order/TemplateDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/j_template/order/StoreOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/j_template/order/OrderTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitorbad/parts/AtvPart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitorbad/parts/Fender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitorbad/parts/Oil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitorbad/VisitorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/Sum.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitorbad/parts/Wheel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/Shipment.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitorbad/PartsOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+        <state relative-caret-position="225">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#347#348#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+            <element signature="e#409#410#0" expanded="false" />
+            <element signature="e#458#459#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/constructor/WithArgument.java" />
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/constructor/WithoutArgument.java" />
-    <entry file="file://$PROJECT_DIR$/Java8Lambda/src/main/resources/MethodReference.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="541">
-            <caret line="49" column="94" lean-forward="false" selection-start-line="49" selection-start-column="94" selection-end-line="49" selection-end-column="94" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/parts/Wheel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding>
+            <element signature="e#205#206#0" expanded="false" />
+            <element signature="e#231#232#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/visitor/AtvPartVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/parts/AtvPart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/parts/Oil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="e#203#204#0" expanded="false" />
+            <element signature="e#229#230#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/VisitorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/PartsOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#427#428#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#512#513#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/parts/Fender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#206#207#0" expanded="false" />
+            <element signature="e#232#233#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/visitor/AtvPartsShippingVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derby.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/visitor/AtvPartsDisplayVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2056,7 +2448,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2091,7 +2483,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Collections</last-edited>
+          <last-edited>JDBC</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2116,7 +2508,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib</last-edited>
+          <last-edited>Maven: com.sun.mail:javax.mail:1.5.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

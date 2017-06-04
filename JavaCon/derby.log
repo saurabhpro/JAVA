@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun May 28 21:51:43 IST 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-015c-4fdd-01a2-000006721748 
+on database directory /Users/saurabhkumar/GitHub/JAVA/JavaCon/JDBC/src/main/java/derby/sktest with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/Users/saurabhkumar/.m2/repository/org/apache/derby/derby/10.10.2.0/derby-10.10.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_121-b13
+user.dir=/Users/saurabhkumar/GitHub/JAVA/JavaCon
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.12.4
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

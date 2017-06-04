@@ -9,12 +9,14 @@
         <module name="Array" />
         <module name="Collections" />
         <module name="Concurrency" />
+        <module name="DesignPatterns" />
         <module name="Exception" />
         <module name="Generics" />
         <module name="Inheritance" />
         <module name="InnerClass" />
         <module name="Interfaces" />
         <module name="Java8Lambda" />
+        <module name="JDBC" />
         <module name="Polymorphism" />
         <module name="queues" />
         <module name="Reflection" />
@@ -26,6 +28,7 @@
       <module name="Array" target="1.8" />
       <module name="Collections" target="1.8" />
       <module name="Concurrency" target="1.8" />
+      <module name="DesignPatterns" target="1.8" />
       <module name="Exception" target="1.8" />
       <module name="Generics" target="1.8" />
       <module name="Inheritance" target="1.8" />
@@ -33,6 +36,7 @@
       <module name="Interfaces" target="1.8" />
       <module name="Java8Lambda" target="1.8" />
       <module name="JavaCon" target="1.8" />
+      <module name="JDBC" target="1.8" />
       <module name="Polymorphism" target="1.8" />
       <module name="queues" target="1.5" />
       <module name="Reflection" target="1.8" />

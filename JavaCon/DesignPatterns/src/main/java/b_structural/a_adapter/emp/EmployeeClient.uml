@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>a_structural.a_adapter.emp.EmployeeClient</OriginalElement>
+  <nodes>
+    <node x="1187.4583333333335" y="0.0">a_structural.a_adapter.emp.EmployeeCSV</node>
+    <node x="1040.0416666666667" y="202.5">a_structural.a_adapter.emp.adapters.EmployeeAdapterCSV</node>
+    <node x="232.04166666666674" y="191.0">a_structural.a_adapter.emp.adapters.EmployeeAdapterLdap</node>
+    <node x="0.0" y="0.0">a_structural.a_adapter.emp.EmployeeLdap</node>
+    <node x="686.0416666666667" y="428.0">a_structural.a_adapter.emp.EmployeeClient</node>
+    <node x="691.0166666666668" y="11.5">a_structural.a_adapter.emp.legacy.Employee</node>
+    <node x="587.0416666666667" y="202.5">a_structural.a_adapter.emp.legacy.EmployeeDB</node>
+    <node x="710.5416666666667" y="530.0">a_structural.a_adapter.emp.AdapterDemo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="a_structural.a_adapter.emp.EmployeeClient" target="a_structural.a_adapter.emp.legacy.EmployeeDB">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="a_structural.a_adapter.emp.AdapterDemo" target="a_structural.a_adapter.emp.EmployeeClient">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="a_structural.a_adapter.emp.EmployeeClient" target="a_structural.a_adapter.emp.adapters.EmployeeAdapterLdap">
+      <point x="-47.0" y="-26.0" />
+      <point x="756.5416666666667" y="398.0" />
+      <point x="399.54166666666674" y="398.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="a_structural.a_adapter.emp.adapters.EmployeeAdapterLdap" target="a_structural.a_adapter.emp.legacy.Employee">
+      <point x="83.75" y="-93.5" />
+      <point x="483.29166666666674" y="166.0" />
+      <point x="726.35" y="166.0" />
+      <point x="-70.66666666666669" y="59.0" />
+    </edge>
+    <edge source="a_structural.a_adapter.emp.adapters.EmployeeAdapterCSV" target="a_structural.a_adapter.emp.legacy.Employee">
+      <point x="-77.75" y="-82.0" />
+      <point x="1117.7916666666667" y="166.0" />
+      <point x="867.6833333333334" y="166.0" />
+      <point x="70.66666666666663" y="59.0" />
+    </edge>
+    <edge source="a_structural.a_adapter.emp.EmployeeClient" target="a_structural.a_adapter.emp.EmployeeCSV">
+      <point x="94.0" y="-26.0" />
+      <point x="897.5416666666667" y="408.0" />
+      <point x="1374.5833333333335" y="408.0" />
+      <point x="1374.5833333333335" y="166.0" />
+      <point x="1401.9583333333335" y="166.0" />
+      <point x="71.5" y="70.5" />
+    </edge>
+    <edge source="a_structural.a_adapter.emp.EmployeeClient" target="a_structural.a_adapter.emp.adapters.EmployeeAdapterCSV">
+      <point x="47.0" y="-26.0" />
+      <point x="850.5416666666667" y="398.0" />
+      <point x="1195.5416666666667" y="398.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="a_structural.a_adapter.emp.EmployeeClient" target="a_structural.a_adapter.emp.EmployeeLdap">
+      <point x="-94.0" y="-26.0" />
+      <point x="709.5416666666667" y="408.0" />
+      <point x="165.375" y="408.0" />
+      <point x="165.375" y="166.0" />
+      <point x="106.25" y="166.0" />
+      <point x="-106.25" y="70.5" />
+    </edge>
+    <edge source="a_structural.a_adapter.emp.adapters.EmployeeAdapterLdap" target="a_structural.a_adapter.emp.EmployeeLdap">
+      <point x="-83.75" y="-93.5" />
+      <point x="315.79166666666674" y="166.0" />
+      <point x="318.75" y="166.0" />
+      <point x="106.25" y="70.5" />
+    </edge>
+    <edge source="a_structural.a_adapter.emp.adapters.EmployeeAdapterCSV" target="a_structural.a_adapter.emp.EmployeeCSV">
+      <point x="77.75" y="-82.0" />
+      <point x="1273.2916666666667" y="166.0" />
+      <point x="1258.9583333333335" y="166.0" />
+      <point x="-71.5" y="70.5" />
+    </edge>
+    <edge source="a_structural.a_adapter.emp.legacy.EmployeeDB" target="a_structural.a_adapter.emp.legacy.Employee">
+      <point x="0.0" y="-82.0" />
+      <point x="803.5416666666667" y="166.0" />
+      <point x="797.0166666666668" y="166.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6900937081659974" x="737.0" y="291.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

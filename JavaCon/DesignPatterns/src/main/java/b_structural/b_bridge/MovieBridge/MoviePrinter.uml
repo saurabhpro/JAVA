@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>a_structural.b_bridge.MovieBridge.printer.MoviePrinter</OriginalElement>
+  <nodes>
+    <node x="150.44907407407402" y="33.0">a_structural.b_bridge.MovieBridge.formatter.Formatter</node>
+    <node x="598.9351851851852" y="338.0">a_structural.b_bridge.MovieBridge.BridgeDemo</node>
+    <node x="992.0601851851852" y="0.0">a_structural.b_bridge.MovieBridge.model.Movie</node>
+    <node x="0.0" y="202.0">a_structural.b_bridge.MovieBridge.formatter.PrintFormatter</node>
+    <node x="299.0" y="202.0">a_structural.b_bridge.MovieBridge.formatter.HtmlFormatter</node>
+    <node x="736.4490740740741" y="168.0">a_structural.b_bridge.MovieBridge.printer.MoviePrinter</node>
+    <node x="462.0601851851852" y="11.0">a_structural.b_bridge.MovieBridge.printer.Printer</node>
+    <node x="732.0601851851852" y="10.5">a_structural.b_bridge.MovieBridge.model.Detail</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="a_structural.b_bridge.MovieBridge.formatter.PrintFormatter" target="a_structural.b_bridge.MovieBridge.formatter.Formatter">
+      <point x="0.0" y="-26.0" />
+      <point x="139.5" y="143.0" />
+      <point x="220.19907407407402" y="143.0" />
+      <point x="-69.75" y="26.0" />
+    </edge>
+    <edge source="a_structural.b_bridge.MovieBridge.formatter.HtmlFormatter" target="a_structural.b_bridge.MovieBridge.formatter.Formatter">
+      <point x="0.0" y="-26.0" />
+      <point x="438.5" y="143.0" />
+      <point x="359.699074074074" y="143.0" />
+      <point x="69.75" y="26.0" />
+    </edge>
+    <edge source="a_structural.b_bridge.MovieBridge.BridgeDemo" target="a_structural.b_bridge.MovieBridge.printer.MoviePrinter">
+      <point x="23.25" y="-26.0" />
+      <point x="715.1851851851852" y="308.0" />
+      <point x="839.4490740740741" y="308.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="a_structural.b_bridge.MovieBridge.BridgeDemo" target="a_structural.b_bridge.MovieBridge.formatter.PrintFormatter">
+      <point x="-69.75" y="-26.0" />
+      <point x="622.1851851851852" y="318.0" />
+      <point x="139.5" y="318.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="a_structural.b_bridge.MovieBridge.printer.MoviePrinter" target="a_structural.b_bridge.MovieBridge.model.Detail">
+      <point x="0.0" y="-60.0" />
+      <point x="839.4490740740741" y="143.0" />
+      <point x="852.0601851851852" y="143.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="a_structural.b_bridge.MovieBridge.printer.MoviePrinter" target="a_structural.b_bridge.MovieBridge.printer.Printer">
+      <point x="-68.66666666666669" y="-60.0" />
+      <point x="770.7824074074074" y="143.0" />
+      <point x="587.0601851851852" y="143.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="a_structural.b_bridge.MovieBridge.BridgeDemo" target="a_structural.b_bridge.MovieBridge.formatter.HtmlFormatter">
+      <point x="-23.25" y="-26.0" />
+      <point x="668.6851851851852" y="308.0" />
+      <point x="438.5" y="308.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="a_structural.b_bridge.MovieBridge.printer.MoviePrinter" target="a_structural.b_bridge.MovieBridge.model.Movie">
+      <point x="68.66666666666663" y="-60.0" />
+      <point x="908.1157407407406" y="143.0" />
+      <point x="1036.5601851851852" y="143.0" />
+      <point x="-44.5" y="59.0" />
+    </edge>
+    <edge source="a_structural.b_bridge.MovieBridge.BridgeDemo" target="a_structural.b_bridge.MovieBridge.model.Movie">
+      <point x="69.75" y="-26.0" />
+      <point x="761.6851851851852" y="318.0" />
+      <point x="1125.5601851851852" y="318.0" />
+      <point x="44.5" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8656591099916037" x="585.5" y="195.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -30,6 +30,8 @@
         <module>Java8Lambda</module>
         <module>Reflection</module>
         <module>UnitTesting</module>
+        <module>DesignPatterns</module>
+        <module>JDBC</module>
 
     </modules>
 </project>

@@ -28,7 +28,7 @@ class EmplComp {
 
 class MySalaryComp implements Comparator<EmplComp> {
 	/**
-	 * Compares its two arguments for order.  Returns a negative integer,
+	 * Compares its two arguments for parts.  Returns a negative integer,
 	 * zero, or a positive integer as the first argument is less than, equal
 	 * to, or greater than the second.<p>
 	 * <p>

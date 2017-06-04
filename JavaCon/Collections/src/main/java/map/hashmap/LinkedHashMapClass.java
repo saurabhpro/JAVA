@@ -24,7 +24,7 @@ public class LinkedHashMapClass {
 	}
 }
 /**
- * OUTPUT [insertion order maintained]
+ * OUTPUT [insertion parts maintained]
  * 100 Amit
  * 101 Vijay
  * 102 Rahul

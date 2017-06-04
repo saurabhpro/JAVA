@@ -32,6 +32,7 @@
         <option value="$PROJECT_DIR$/InnerClass/pom.xml" />
         <option value="$PROJECT_DIR$/Interfaces/pom.xml" />
         <option value="$PROJECT_DIR$/Polymorphism/pom.xml" />
+        <option value="$PROJECT_DIR$/JDBC/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
