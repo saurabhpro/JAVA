@@ -46,7 +46,7 @@ class LongestDistinctSubstring {
 		}
 	}
 
-	static String longestDistictString(String str) {
+	static String longestDistinctString(String str) {
 
 		String distinct = "";
 		String temp = "";
