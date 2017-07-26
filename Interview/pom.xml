@@ -27,6 +27,7 @@
     <modules>
         <module>BitMagic</module>
         <module>stringQ</module>
+        <module>hashingQ</module>
     </modules>
     <dependencies>
         <dependency>
