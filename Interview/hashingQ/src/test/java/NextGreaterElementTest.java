@@ -12,6 +12,7 @@ import static org.testng.Assert.assertEquals;
  */
 public class NextGreaterElementTest {
 
+
 	private NextGreaterElement nextGreaterElement;
 
 	@BeforeClass
@@ -61,6 +62,14 @@ public class NextGreaterElementTest {
 			assertEquals(res[i], expectRes[i]);
 
 		}
+	}
+
+	@Test
+	public void testPrintNGE() throws Exception {
+
+		int arr[] = {11, 13, 21, 3};
+		int n = arr.length;
+		NextGreaterElement.printNGE(arr, n);
 	}
 
 }
