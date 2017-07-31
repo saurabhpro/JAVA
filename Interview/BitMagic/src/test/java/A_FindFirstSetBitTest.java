@@ -14,13 +14,6 @@ public class A_FindFirstSetBitTest {
 	}
 
 	@Test
-	public void testLog2() throws Exception {
-		assertEquals(A_FindFirstSetBit.log2(2), 1);
-		assertEquals(A_FindFirstSetBit.log2(4), 2);
-		assertEquals(A_FindFirstSetBit.log2(32), 5);
-	}
-
-	@Test
 	public void testSimpleFirstSetBitInNumber12() throws Exception {
 		assertEquals(A_FindFirstSetBit.simpleFirstSetBitInNumber(12), 3);
 	}

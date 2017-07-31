@@ -93,15 +93,9 @@ public class A_FindFirstSetBit {
 
 		 */
 
-		return log2(n & -n) + 1;
+		return MathUtils.log2(n & -n) + 1;
 
 	}
 
-	static int log2(int n) {
-		if (n <= 0)
-			throw new IllegalArgumentException();
-
-		return 31 - Integer.numberOfLeadingZeros(n);
-	}
 
 }

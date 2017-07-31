@@ -25,7 +25,7 @@ class DaemonThreadFactory implements ThreadFactory {
 
 class DaemonFromThreadFactory implements Runnable {
 	public static void main(String[] args) throws InterruptedException {
-		/**
+		/*
 		 argument of newCatchedThreadPool is overloaded to take a ThreadFactory object
 		 this is the advantage of creating custom thread using ThreadFactory
 		 */

@@ -1,4 +1,4 @@
-package saurabh.Threads.Creation;
+package saurabh.Threads;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 public class SelfManagedRunnable implements Runnable {
 	private int countDown = 4;
 
-	SelfManagedRunnable() {
+	private SelfManagedRunnable() {
 		// Thread t = new Thread(this);
 		//t.start();
 	}

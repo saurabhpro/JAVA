@@ -7,7 +7,7 @@ public class ThreadExtended extends Thread {
 	private static int threadCount = 0;
 	private int countDown = 3;
 
-	ThreadExtended() {
+	private ThreadExtended() {
 		//     super(Integer.toString(++threadCount));
 		start();
 	}
