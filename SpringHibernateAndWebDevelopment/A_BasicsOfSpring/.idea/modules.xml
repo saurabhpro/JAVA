@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/A_BasicsOfSpring.iml" filepath="$PROJECT_DIR$/A_BasicsOfSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstSpringApp/firstSpringApp.iml" filepath="$PROJECT_DIR$/firstSpringApp/firstSpringApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstSpringAppWithAnnotationXmlConfiguration/firstSpringAppWithAnnotationXmlConfiguration.iml" filepath="$PROJECT_DIR$/firstSpringAppWithAnnotationXmlConfiguration/firstSpringAppWithAnnotationXmlConfiguration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstSpringAppWithJavaConfiguration/firstSpringAppWithJavaConfiguration.iml" filepath="$PROJECT_DIR$/firstSpringAppWithJavaConfiguration/firstSpringAppWithJavaConfiguration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstSpringAppWithXmlConfiguration/firstSpringAppWithXmlConfiguration.iml" filepath="$PROJECT_DIR$/firstSpringAppWithXmlConfiguration/firstSpringAppWithXmlConfiguration.iml" />
+    </modules>
+  </component>
+</project>
