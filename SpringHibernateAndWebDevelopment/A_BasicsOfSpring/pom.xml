@@ -16,11 +16,6 @@
             <artifactId>spring-context</artifactId>
             <version>4.3.10.RELEASE</version>
         </dependency>
-        <dependency>
-            <groupId>com.saurabhk15</groupId>
-            <artifactId>firstSpringApp</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
 
     </dependencies>
 
@@ -42,7 +37,10 @@
     <modules>
         <module>firstSpringApp</module>
         <module>firstSpringAppWithXmlConfiguration</module>
-        <module>firstSpringAppWithAnnotationXmlConfiguration</module>
+        <module>firstSpringAppAnnotationXmlConfiguration</module>
         <module>firstSpringAppWithJavaConfiguration</module>
+        <module>scopeForSpringSingletonApp</module>
+        <module>propertiesInXMLSpringConfigApp</module>
+        <module>popertiesInJavaSpringConfiguration</module>
     </modules>
 </project>

@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:context="http://www.springframework.org/schema/context"
-        xmlns="http://www.springframework.org/schema/beans"
-        xsi:schemaLocation="http://www.springframework.org/schema/beans
-	http://www.springframework.org/schema/beans/spring-beans.xsd
-		http://www.springframework.org/schema/context 
-		http://www.springframework.org/schema/context/spring-context.xsd">
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <context:annotation-config/> <!--  -->
+    <bean name="customerRepository"
+          class="com.saurabhk15.repository.HibernateCustomerRepositoryImpl"/>
 
-    <context:component-scan base-package="com.saurabhk15"/>
+    <bean name="customerService"
+          class="com.saurabhk15.service.CustomerServiceImpl">
+        <property name="customerRepository" ref="customerRepository"/>
+        <!-- <constructor-arg index="0" ref="customerRepository"  index is argument number in constructor /> -->
+
+    </bean>
 
 </beans>
