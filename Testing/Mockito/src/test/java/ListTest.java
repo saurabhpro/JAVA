@@ -1,5 +1,3 @@
-package udemy.mociktoin28minutes.buisness;
-
 import org.junit.Rule;
 import org.junit.Test;
 import org.mockito.BDDMockito;
