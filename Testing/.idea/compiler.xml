@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Hamcrest" />
+        <module name="JunitBasics" />
+        <module name="ManualStubTesting" />
+        <module name="Mockito" />
+        <module name="PluralSight" />
+        <module name="TestDrivenDevelopment" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="Hamcrest" target="1.8" />
+      <module name="JunitBasics" target="1.8" />
+      <module name="ManualStubTesting" target="1.8" />
+      <module name="Mockito" target="1.8" />
+      <module name="PluralSight" target="1.8" />
+      <module name="TestDrivenDevelopment" target="1.8" />
+      <module name="Testing" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
