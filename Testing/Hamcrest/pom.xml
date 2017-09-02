@@ -17,11 +17,6 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.saurabh</groupId>
-            <artifactId>Testing</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 
     <artifactId>Hamcrest</artifactId>

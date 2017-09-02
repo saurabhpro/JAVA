@@ -1,4 +1,4 @@
-package udemy.mociktoin28minutes.data.api;
+package mociktoin28minutes.data.api;
 
 import java.util.List;
 

@@ -2,116 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba31442-62af-4fef-b7a5-9df37d3a3dea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/Streams/Streams.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/Streams/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/Exception/src/main/resources/Termination Vs Resumption.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/IO/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/IO/src/main/java/SimpleReadAndWrite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/JavaDS/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/JavaDS/src/main/java/LinkedListJava.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/JavaDS/src/main/java/mylist/Delete.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/JavaDS/src/main/java/mylist/Display.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/JavaDS/src/main/java/mylist/Insert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/JavaDS/src/main/java/mylist/Node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/JavaKathy/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/JavaKathy/src/main/java/ApressArithOperator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/JavaKathy/src/main/java/FloatNaN.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/JavaKathy/src/main/java/Fundamentals.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/JavaKathy/src/main/java/InnerClassQ12.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/JavaKathy/src/main/java/PrivateConstructorChaning.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/JavaKathy/src/main/java/TailRecursiveMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/SpecialKeywords/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/SpecialKeywords/src/main/java/ByteExpression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/SpecialKeywords/src/main/java/FinalFamily.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/SpecialKeywords/src/main/java/InstanceFamily.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/SpecialKeywords/src/main/java/PrivateConstructorSingleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/SpecialKeywords/src/main/java/StaticConstructors.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/SpecialKeywords/src/main/java/StaticFamily.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/kotlinc.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/demo/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/saurabhkumar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_opencsv_opencsv_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_guava_0_9_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hamcrest/Hamcrest.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hamcrest/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hamcrest/src/test/java/HamcrestMatcherTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/JunitBasics.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ManualStubTesting/ManualStubTesting.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ManualStubTesting/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoServiceStub.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mockito/Mockito.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mockito/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/ListTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PluralSight/PluralSight.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PluralSight/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/common/DEFAULTS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/manualDI/SimpleReportRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDrivenDevelopment/TestDrivenDevelopment.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDrivenDevelopment/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestDrivenDevelopment/src/main/java/pluralsight/testing/TDD/wrap/WordWrap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Testing.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/udemy/mociktoin28minutes/buisness/TodoBusinessImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/udemy/mociktoin28minutes/data/api/TodoService.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/src/main/java/testing/junit/m5/spring_xml/SimpleReportRunnerSpring.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__com_opencsv_opencsv_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_opencsv_opencsv_3_3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_0_0_M4.xml" afterPath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_0_0_RC3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_0_0_M4.xml" afterPath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_0_0_RC3.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__org_mockito_mockito_all_2_0_2_beta.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0_M2.xml" afterPath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0_RC1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/Streams/src/AddSquareForListOfNumber.java" afterPath="$PROJECT_DIR$/../JavaCon/Streams/src/main/java/AddSquareForListOfNumber.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/Streams/src/PrintCommaList.java" afterPath="$PROJECT_DIR$/../JavaCon/Streams/src/main/java/PrintCommaList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/Streams/src/StreamIterator.java" afterPath="$PROJECT_DIR$/../JavaCon/Streams/src/main/java/StreamIterator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/TDD/Leap/LeapYear.java" afterPath="$PROJECT_DIR$/TestDrivenDevelopment/src/main/java/pluralsight/testing/TDD/Leap/LeapYear.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/ccd/Cafe.java" afterPath="$PROJECT_DIR$/Hamcrest/src/main/java/pluralsight/testing/ccd/Cafe.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/ccd/Coffee.java" afterPath="$PROJECT_DIR$/Hamcrest/src/main/java/pluralsight/testing/ccd/Coffee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/ccd/CoffeeType.java" afterPath="$PROJECT_DIR$/Hamcrest/src/main/java/pluralsight/testing/ccd/CoffeeType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/after_refactor/CsvSalesRepository.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/manualDI/CsvSalesRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/after_refactor/SalesAnalysisService.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/after_refactor/SalesReport.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/manualDI/SalesReport.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/after_refactor/SimpleReportRunner.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/spring_xmlDI/SimpleReportRunnerSpring.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/common/Sale.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/common/model/Sale.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/common/SalesAnalysisServiceBase.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/common/SalesAnalysisServiceBase.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/common/SalesReportBase.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/common/SalesReportBase.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/common/SalesReportPrinter.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/common/SalesReportPrinter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/common/SalesRepositoryBase.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/common/SalesRepositoryBase.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/guice/CsvSalesRepository.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/CsvSalesRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/guice/GuiceSalesReportRunner.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/GuiceSalesReportRunner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/guice/SalesAnalysisService.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/SalesAnalysisService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/guice/SalesModule.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/SalesModule.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/guice/SalesReport.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/SalesReport.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/spring_xml/CsvSalesRepository.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/spring_xmlDI/CsvSalesRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/spring_xml/SalesAnalysisService.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/spring_xmlDI/SalesAnalysisService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/spring_xml/SalesReport.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/spring_xmlDI/SalesReport.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/spring_xml/SpringXmlSalesReportRunner.java" afterPath="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/spring_xmlDI/SpringXmlSalesReportRunner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/resources/Annotations.md" afterPath="$PROJECT_DIR$/PluralSight/src/main/resources/Annotations.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/resources/application-context.xml" afterPath="$PROJECT_DIR$/PluralSight/src/main/resources/application-context.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/resources/example-sales.csv" afterPath="$PROJECT_DIR$/PluralSight/src/main/resources/example-sales.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/test/java/testing/junit/TDD/Leap/LeapYearTest.java" afterPath="$PROJECT_DIR$/TestDrivenDevelopment/src/test/java/pluralsight/testing/TDD/Leap/LeapYearTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/test/java/testing/junit/TDD/wrap/WordWrapTest.java" afterPath="$PROJECT_DIR$/TestDrivenDevelopment/src/test/java/pluralsight/testing/TDD/wrap/WordWrapTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/test/java/testing/junit/ccd/CafeTest.java" afterPath="$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/test/java/testing/junit/m5/after_refactor/SalesAnalysisServiceWithHandWrittenStubTest.java" afterPath="$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithHandWrittenStubTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/test/java/testing/junit/m5/after_refactor/SalesAnalysisServiceWithMockitoMockTest.java" afterPath="$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoMockTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/test/java/testing/junit/m5/after_refactor/SalesAnalysisServiceWithMockitoStubTest.java" afterPath="$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoStubTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mockito/src/main/java/mociktoin28minutes/buisness/TodoBusinessImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Mockito/src/main/java/mociktoin28minutes/data/api/TodoService.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/Exception/src/main/java/Termination Vs Resumption" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/IO/src/SimpleReadAndWrite.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/JavaDS/src/LinkedListJava.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/JavaDS/src/mylist/Delete.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/JavaDS/src/mylist/Display.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/JavaDS/src/mylist/Insert.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/JavaDS/src/mylist/Node.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/JavaKathy/src/ApressArithOperator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/JavaKathy/src/FloatNaN.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/JavaKathy/src/Fundamentals.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/JavaKathy/src/InnerClassQ12.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/JavaKathy/src/PrivateConstructorChaning.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/JavaKathy/src/TailRecursiveMain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/SpecialKeywords/src/ByteExpression.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/SpecialKeywords/src/FinalFamily.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/SpecialKeywords/src/InstanceFamily.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/SpecialKeywords/src/PrivateConstructorSingleton.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/SpecialKeywords/src/StaticConstructors.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/SpecialKeywords/src/StaticFamily.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/UnitTesting/src/main/java/testing/junit/m5/spring_xml/SimpleReportRunner.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/JDBC/src/main/java/BatchUpdateStatements/Batch Updates.rtf" afterPath="$PROJECT_DIR$/../JavaCon/JDBC/src/main/resources/Batch Updates.rtf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/JDBC/src/main/java/MyRowSet/Types/CachedRowSetDemo.java" afterPath="$PROJECT_DIR$/../JavaCon/JDBC/src/main/java/MyRowSet/Types/CachedRowSetDemo.java.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../JavaCon/JavaKathy/PreIncrement.PNG" afterPath="$PROJECT_DIR$/../JavaCon/JavaKathy/src/main/resources/PreIncrement.PNG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/udemy/mociktoin28minutes/buisness/TodoBusinessImpl.java" afterPath="$PROJECT_DIR$/ManualStubTesting/src/main/java/mociktoin28minutes/buisness/TodoBusinessImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/udemy/mociktoin28minutes/data/api/TodoService.java" afterPath="$PROJECT_DIR$/ManualStubTesting/src/main/java/mociktoin28minutes/data/api/TodoService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/JDBC/src/main/java/BlobClob/excel/SampleCustomerReports.xls" afterPath="$PROJECT_DIR$/../JavaCon/JDBC/src/main/java/BlobClob/excel/SampleCustomerReports.xls" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../JavaCon/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../JavaCon/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/.idea/misc.xml" afterPath="$PROJECT_DIR$/../JavaCon/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/.idea/modules.xml" afterPath="$PROJECT_DIR$/../JavaCon/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaCon/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/Collections/Collections.iml" afterPath="$PROJECT_DIR$/../JavaCon/Collections/Collections.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/IO/IO.iml" afterPath="$PROJECT_DIR$/../JavaCon/IO/IO.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/JavaDS/JavaDS.iml" afterPath="$PROJECT_DIR$/../JavaCon/JavaDS/JavaDS.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/JavaKathy/JavaKathy.iml" afterPath="$PROJECT_DIR$/../JavaCon/JavaKathy/JavaKathy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/SpecialKeywords/SpecialKeywords.iml" afterPath="$PROJECT_DIR$/../JavaCon/SpecialKeywords/SpecialKeywords.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/pom.xml" afterPath="$PROJECT_DIR$/../JavaCon/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/misc.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hamcrest/Hamcrest.iml" afterPath="$PROJECT_DIR$/Hamcrest/Hamcrest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hamcrest/pom.xml" afterPath="$PROJECT_DIR$/Hamcrest/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManualStubTesting/ManualStubTesting.iml" afterPath="$PROJECT_DIR$/ManualStubTesting/ManualStubTesting.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManualStubTesting/pom.xml" afterPath="$PROJECT_DIR$/ManualStubTesting/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java" afterPath="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoServiceStub.java" afterPath="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoServiceStub.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mockito/pom.xml" afterPath="$PROJECT_DIR$/Mockito/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.java" afterPath="$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PluralSight/PluralSight.iml" afterPath="$PROJECT_DIR$/PluralSight/PluralSight.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PluralSight/pom.xml" afterPath="$PROJECT_DIR$/PluralSight/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -131,107 +98,99 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SimpleReportRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/manualDI/SimpleReportRunner.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JunitBasics/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="71" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="17" selection-end-column="71" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuiceSalesReportRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/GuiceSalesReportRunner.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hamcrest/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="266">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-context.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluralSight/src/main/resources/application-context.xml">
+      <file leaf-file-name="TodoServiceStub.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoServiceStub.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="76" lean-forward="false" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleReportRunnerSpring.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/spring_xmlDI/SimpleReportRunnerSpring.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SalesAnalysisService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/spring_xmlDI/SalesAnalysisService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SalesAnalysisService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisService.java">
+      <file leaf-file-name="TodoBusinessImplStubTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="218">
+              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SalesAnalysisService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/SalesAnalysisService.java">
+      <file leaf-file-name="TodoBusinessImplMockitoTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="13" column="71" lean-forward="true" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+            <state relative-caret-position="-38">
+              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mockito/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringXmlSalesReportRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/spring_xmlDI/SpringXmlSalesReportRunner.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ManualStubTesting/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="180">
+              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SalesReport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/SalesReport.java">
+      <file leaf-file-name="TodoBusinessImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mockito/src/main/java/mociktoin28minutes/buisness/TodoBusinessImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="-22">
+              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DEFAULTS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/common/DEFAULTS.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PluralSight/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="228">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -260,6 +219,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Saurabh Kumar &lt;saurabhk15@outlook.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
@@ -273,8 +237,6 @@
         <option value="$PROJECT_DIR$/src/main/java/udemy/mociktoin28minutes/buisness/data/TodoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/udemy/mociktoin28minutes/buisness/data/api/TodoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/udemy/mociktoin28minutes/buisness/data/TodoBusinessImpl.java" />
-        <option value="$PROJECT_DIR$/Mockito/pom.xml" />
-        <option value="$PROJECT_DIR$/Hamcrest/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/udemy/mociktoin28minutes/data/api/TodoService.java" />
         <option value="$PROJECT_DIR$/Mockito/src/test/java/TodoBusinessImplMockitoTest.java" />
         <option value="$PROJECT_DIR$/src/test/TodoBusinessImplMockitoTest.java" />
@@ -282,12 +244,7 @@
         <option value="$PROJECT_DIR$/src/test/java/TodoBusinessImplMockitoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.java" />
         <option value="$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/ListTest.java" />
-        <option value="$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.java" />
         <option value="$PROJECT_DIR$/ManualStubTesting/src/main/java/TodoServiceStub.java" />
-        <option value="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java" />
-        <option value="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoServiceStub.java" />
-        <option value="$PROJECT_DIR$/ManualStubTesting/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/testing/junit/m5/guice/SalesModule.java" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/testing/junit/ccd/Cafe.java" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/testing/junit/ccd/Coffee.java" />
@@ -303,7 +260,6 @@
         <option value="$PROJECT_DIR$/Hamcrest/src/test/java/HamcrestMatcherTest.java" />
         <option value="$PROJECT_DIR$/TestDrivenDevelopment/pom.xml" />
         <option value="$PROJECT_DIR$/TestDrivenDevelopment/src/main/java/pluralsight/testing/TDD/wrap/WordWrap.java" />
-        <option value="$PROJECT_DIR$/PluralSight/pom.xml" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/testing/junit/m5/spring_xml/SalesReport.java" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/testing/junit/m5/common/SalesReportBase.java" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/testing/junit/m5/spring_xml/SimpleReportRunnerSpring.java" />
@@ -319,6 +275,16 @@
         <option value="$PROJECT_DIR$/PluralSight/src/main/resources/application-context.xml" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/spring_xmlDI/SimpleReportRunnerSpring.java" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/SalesAnalysisService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Hamcrest/pom.xml" />
+        <option value="$PROJECT_DIR$/ManualStubTesting/src/main/java/mociktoin28minutes/buisness/TodoBusinessImpl.java" />
+        <option value="$PROJECT_DIR$/Mockito/src/main/java/mociktoin28minutes/buisness/TodoBusinessImpl.java" />
+        <option value="$PROJECT_DIR$/PluralSight/pom.xml" />
+        <option value="$PROJECT_DIR$/Mockito/pom.xml" />
+        <option value="$PROJECT_DIR$/ManualStubTesting/pom.xml" />
+        <option value="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoServiceStub.java" />
+        <option value="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java" />
+        <option value="$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.java" />
       </list>
     </option>
   </component>
@@ -336,7 +302,32 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Testing" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Testing" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
@@ -385,7 +376,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PluralSight" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -399,19 +390,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PluralSight" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="inspectionProfiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -425,183 +408,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PluralSight" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PluralSight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csvsalesreport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_xmlDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PluralSight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csvsalesreport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manualDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PluralSight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csvsalesreport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guiceDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PluralSight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="csvsalesreport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mockito" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hamcrest" />
+              <option name="myItemId" value="dictionaries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -616,7 +427,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -628,6 +439,8 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ManualStubTesting/src/main/java" />
+      <recent name="$PROJECT_DIR$/Mockito/src/main/java" />
       <recent name="$PROJECT_DIR$/PluralSight" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -1126,8 +939,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1504339697519</updated>
-      <workItem from="1504339704008" duration="10546000" />
+      <workItem from="1504339704008" duration="12378000" />
     </task>
+    <task id="LOCAL-00001" summary="Testing in Java">
+      <created>1504350686526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1504350686526</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1163,16 +984,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10546000" />
+    <option name="totallyTimeSpent" value="12378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="808" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1190,7 +1010,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -1206,6 +1026,13 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testing in Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing in Java" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1226,164 +1053,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="949">
-          <caret line="476" column="0" lean-forward="false" selection-start-line="476" selection-start-column="0" selection-end-line="476" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/udemy/mociktoin28minutes/buisness/TodoBusinessImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/udemy/mociktoin28minutes/data/api/TodoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="31" column="60" lean-forward="false" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoServiceStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/ListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ManualStubTesting/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/src/main/java/pluralsight/testing/ccd/CoffeeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/src/main/java/pluralsight/testing/ccd/Coffee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/src/main/java/pluralsight/testing/ccd/Cafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/HamcrestExampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/HamcrestMatcherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestDrivenDevelopment/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestDrivenDevelopment/src/main/java/pluralsight/testing/TDD/Leap/LeapYear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1412,30 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mockito/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PluralSight/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1647,10 +1292,284 @@
     <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/SalesAnalysisService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="13" column="71" lean-forward="true" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
+          <caret line="13" column="71" lean-forward="false" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-155">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hamcrest/src/main/java/pluralsight/testing/ccd/Cafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hamcrest/src/main/java/pluralsight/testing/ccd/Coffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hamcrest/src/main/java/pluralsight/testing/ccd/CoffeeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/HamcrestMatcherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/JunitBasics.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mockito/src/main/java/mociktoin28minutes/data/api/TodoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManualStubTesting/src/main/java/mociktoin28minutes/data/api/TodoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManualStubTesting/src/main/java/mociktoin28minutes/buisness/TodoBusinessImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mockito/src/main/java/mociktoin28minutes/buisness/TodoBusinessImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PluralSight/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mockito/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManualStubTesting/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hamcrest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoServiceStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/saurabhkumar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ManualStubTesting</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
