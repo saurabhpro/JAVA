@@ -29,9 +29,9 @@
         <module>Generics</module>
         <module>Java8Lambda</module>
         <module>Reflection</module>
-        <module>UnitTesting</module>
         <module>DesignPatterns</module>
         <module>JDBC</module>
+        <module>Streams</module>
 
     </modules>
 </project>

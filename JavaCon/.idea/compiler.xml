@@ -21,7 +21,7 @@
         <module name="queues" />
         <module name="Reflection" />
         <module name="Reflections" />
-        <module name="UnitTesting" />
+        <module name="Streams" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,6 +41,7 @@
       <module name="queues" target="1.5" />
       <module name="Reflection" target="1.8" />
       <module name="Reflections" target="1.8" />
+      <module name="Streams" target="1.8" />
       <module name="UnitTesting" target="1.8" />
     </bytecodeTargetLevel>
   </component>

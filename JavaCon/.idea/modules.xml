@@ -20,7 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/Reflection/Reflection.iml" filepath="$PROJECT_DIR$/Reflection/Reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpecialKeywords/SpecialKeywords.iml" filepath="$PROJECT_DIR$/SpecialKeywords/SpecialKeywords.iml" />
-      <module fileurl="file://$PROJECT_DIR$/UnitTesting/UnitTesting.iml" filepath="$PROJECT_DIR$/UnitTesting/UnitTesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
     </modules>
   </component>
 </project>

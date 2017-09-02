@@ -9,7 +9,7 @@ import static java.util.stream.Collectors.joining;
 
 interface UtilProcessors{
     //static method inside interface
-    public static int getProcessorCores(){
+    static int getProcessorCores() {
         return Runtime.getRuntime().availableProcessors();
     }
 }
