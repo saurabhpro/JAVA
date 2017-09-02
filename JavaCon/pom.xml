@@ -24,14 +24,24 @@
     </build>
 
     <modules>
+        <module>SpecialKeywords</module>
         <module>Array</module>
-        <module>Collections</module>
+        <module>Interfaces</module>
+        <module>Inheritance</module>
+        <module>Polymorphism</module>
+        <module>InnerClass</module>
+        <module>Exception</module>
         <module>Generics</module>
+        <module>Collections</module>
+        <module>Concurrency</module>
         <module>Java8Lambda</module>
+        <module>Streams</module>
         <module>Reflection</module>
         <module>DesignPatterns</module>
         <module>JDBC</module>
-        <module>Streams</module>
+        <module>JavaKathy</module>
+        <module>JavaDS</module>
+        <module>IO</module>
 
     </modules>
 </project>

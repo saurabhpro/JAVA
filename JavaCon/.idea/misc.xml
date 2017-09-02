@@ -33,6 +33,10 @@
         <option value="$PROJECT_DIR$/Interfaces/pom.xml" />
         <option value="$PROJECT_DIR$/Polymorphism/pom.xml" />
         <option value="$PROJECT_DIR$/JDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/SpecialKeywords/pom.xml" />
+        <option value="$PROJECT_DIR$/IO/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaDS/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaKathy/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

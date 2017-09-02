@@ -1,5 +1,6 @@
 package MyRowSet.Types;
 
+/*This import causes maven to fail hence excluding it*/
 import oracle.jdbc.rowset.OracleCachedRowSet;
 
 import java.io.*;
