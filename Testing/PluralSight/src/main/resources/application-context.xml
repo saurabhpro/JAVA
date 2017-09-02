@@ -7,7 +7,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="pluralsight.testing.csvsalesreport"/>
+    <context:component-scan base-package="pluralsight.testing.csvsalesreport.spring_xmlDI"/>
 
     <bean id="output"
           class="pluralsight.testing.csvsalesreport.spring_xmlDI.SpringXmlSalesReportRunner"

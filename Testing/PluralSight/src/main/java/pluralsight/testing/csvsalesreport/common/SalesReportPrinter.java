@@ -3,9 +3,6 @@ package pluralsight.testing.csvsalesreport.common;
 import java.io.PrintStream;
 import java.util.Map;
 
-/**
- * Created by saurabhkumar on 21/05/17.
- */
 public interface SalesReportPrinter {
 
 	default void printRow(String first, String second, PrintStream output) {

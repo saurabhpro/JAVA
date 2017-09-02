@@ -1,11 +1,10 @@
 package udemy.mociktoin28minutes.buisness;
 
-import mociktoin28minutes.buisness.TodoBusinessImpl;
-import mociktoin28minutes.data.api.TodoService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.*;
 import org.mockito.runners.MockitoJUnitRunner;
+import udemy.mociktoin28minutes.data.api.TodoService;
 
 import java.util.Arrays;
 import java.util.List;
@@ -33,7 +32,7 @@ public class TodoBusinessImplMockitoTest {
 	//ArgumentCaptor<String> argumentCaptor = ArgumentCaptor.forClass(String.class);
 
 
-	private List<String> allTodos = Arrays.asList("Learn Spring MVC", "Learn Spring", "Learn to Dance");
+	private List<String> allTodoTasks = Arrays.asList("Learn Spring MVC", "Learn Spring", "Learn to Dance");
 
 	@Test
 	public void usingMockito() {
@@ -42,8 +41,8 @@ public class TodoBusinessImplMockitoTest {
 		//2. todos arglist
 
 		//WHEN
-		when(todoService.retrieveTodos("Saurabh")).thenReturn(allTodos);
-		List<String> todos = todoBusinessImpl.retrieveTodosRelatedToSpring("Saurabh");
+		when(todoService.retrieveTodoTasks("Saurabh")).thenReturn(allTodoTasks);
+		List<String> todos = todoBusinessImpl.retrieveTodoTasksRelatedToSpring("Saurabh");
 
 		//THEN
 		assertEquals(2, todos.size());
@@ -54,10 +53,10 @@ public class TodoBusinessImplMockitoTest {
 		//GIVEN
 		//1. Mock
 		//2. todos arglist
-		BDDMockito.given(todoService.retrieveTodos("Saurabh")).willReturn(allTodos);
+		BDDMockito.given(todoService.retrieveTodoTasks("Saurabh")).willReturn(allTodoTasks);
 
 		//when
-		List<String> todos = todoBusinessImpl.retrieveTodosRelatedToSpring("Saurabh");
+		List<String> todos = todoBusinessImpl.retrieveTodoTasksRelatedToSpring("Saurabh");
 
 		//then
 		assertThat(todos.size(), is(2));
@@ -70,8 +69,8 @@ public class TodoBusinessImplMockitoTest {
 		//2. todos arglist
 
 		//WHEN
-		when(todoService.retrieveTodos("Saurabh")).thenReturn(allTodos);
-		todoBusinessImpl.deleteTodosNotRelatedToSpring("Saurabh");
+		when(todoService.retrieveTodoTasks("Saurabh")).thenReturn(allTodoTasks);
+		todoBusinessImpl.deleteTodoTasksNotRelatedToSpring("Saurabh");
 
 		//THEN
 		verify(todoService).deleteTodo("Learn to Dance");
@@ -86,8 +85,8 @@ public class TodoBusinessImplMockitoTest {
 	@Test
 	public void captureArgument() {
 		//WHEN
-		when(todoService.retrieveTodos("Saurabh")).thenReturn(allTodos);
-		todoBusinessImpl.deleteTodosNotRelatedToSpring("Saurabh");
+		when(todoService.retrieveTodoTasks("Saurabh")).thenReturn(allTodoTasks);
+		todoBusinessImpl.deleteTodoTasksNotRelatedToSpring("Saurabh");
 
 		//THEN
 		verify(todoService).deleteTodo(stringArgumentCaptor.capture());
