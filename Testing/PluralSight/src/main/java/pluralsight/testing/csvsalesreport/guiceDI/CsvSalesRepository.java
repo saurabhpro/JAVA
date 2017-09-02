@@ -1,6 +1,5 @@
 package pluralsight.testing.csvsalesreport.guiceDI;
 
-
 import pluralsight.testing.csvsalesreport.common.SalesRepositoryBase;
 import pluralsight.testing.csvsalesreport.common.model.Sale;
 

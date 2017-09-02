@@ -23,8 +23,8 @@ public class SalesAnalysisService implements SalesAnalysisServiceBase {
 	public Map<String, Integer> tallySalesBy(Function<Sale, String> classifier) {
 		return repo.loadSales()
 				.stream()
-				.collect(groupingBy(classifier,
-						summingInt(Sale::getValue)));
+				.collect(
+						groupingBy(classifier, summingInt(Sale::getValue)));
 	}
 
 }

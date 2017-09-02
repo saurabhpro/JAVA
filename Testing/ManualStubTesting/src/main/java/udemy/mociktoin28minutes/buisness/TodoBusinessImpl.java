@@ -5,7 +5,6 @@ import udemy.mociktoin28minutes.data.api.TodoService;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class TodoBusinessImpl {
 	private TodoService todoService;
 

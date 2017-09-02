@@ -19,12 +19,12 @@ public class SpringXmlSalesReportRunner {
 		} else
 			fileLocation = args[0];
 
-
-		ClassPathXmlApplicationContext xmlContext = new ClassPathXmlApplicationContext(
-				"application-context.xml");
+		ClassPathXmlApplicationContext xmlContext = new ClassPathXmlApplicationContext("application-context.xml");
 
 		SalesReport report = xmlContext.getBean(SalesReport.class);
 		report.report();
+
+		xmlContext.close();
 	}
 
 	public static PrintStream getOutput() {

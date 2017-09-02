@@ -1,6 +1,5 @@
 package pluralsight.testing.TDD.Leap;
 
-
 /**
  * Created by saurabhkumar on 21/05/17.
  * Example of TDD where this class was made on addition of test cases

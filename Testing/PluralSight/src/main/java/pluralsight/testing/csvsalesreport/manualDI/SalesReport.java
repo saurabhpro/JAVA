@@ -5,11 +5,11 @@ import pluralsight.testing.csvsalesreport.common.SalesReportBase;
 
 import java.io.PrintStream;
 
-public class SalesReport extends SalesReportBase {
+public class SalesReport extends SalesReportBase<SalesAnalysisService> {
 
 	<T extends SalesAnalysisServiceBase> SalesReport(PrintStream output, T analyser) {
 		super.output = output;
-		super.analyser = analyser;
+		super.analyser = (SalesAnalysisService) analyser;
 	}
 
 	public void report() {

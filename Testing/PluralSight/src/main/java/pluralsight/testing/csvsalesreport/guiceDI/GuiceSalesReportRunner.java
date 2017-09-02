@@ -17,7 +17,6 @@ public class GuiceSalesReportRunner {
 		} else
 			fileLocation = args[0];
 
-
 		Injector injector = Guice.createInjector(new SalesModule(fileLocation));
 
 		SalesReport report = injector.getInstance(SalesReport.class);

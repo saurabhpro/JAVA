@@ -28,7 +28,7 @@ public class BasicHamcrestMatcherTest {
 		Integer[] marks = {1, 2, 3};
 
 		assertThat(marks, arrayWithSize(3));
-		assertThat(marks, arrayContaining(1, 2));    //order must be same
+		assertThat(marks, arrayContaining(1, 2, 3));    //order must be same
 		assertThat(marks, arrayContainingInAnyOrder(2, 3, 1));
 	}
 

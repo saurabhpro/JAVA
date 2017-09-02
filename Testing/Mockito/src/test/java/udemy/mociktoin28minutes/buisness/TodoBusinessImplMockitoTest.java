@@ -15,8 +15,7 @@ import static org.junit.Assert.assertThat;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-
-@RunWith(MockitoJUnitRunner.class)      //Instead of this we can use @Rule
+@RunWith(MockitoJUnitRunner.class) //Instead of this we can use @Rule
 public class TodoBusinessImplMockitoTest {
 
 	@Mock
@@ -30,7 +29,6 @@ public class TodoBusinessImplMockitoTest {
 	@Captor
 	private ArgumentCaptor<String> stringArgumentCaptor;
 	//ArgumentCaptor<String> argumentCaptor = ArgumentCaptor.forClass(String.class);
-
 
 	private List<String> allTodoTasks = Arrays.asList("Learn Spring MVC", "Learn Spring", "Learn to Dance");
 
@@ -56,10 +54,10 @@ public class TodoBusinessImplMockitoTest {
 		BDDMockito.given(todoService.retrieveTodoTasks("Saurabh")).willReturn(allTodoTasks);
 
 		//when
-		List<String> todos = todoBusinessImpl.retrieveTodoTasksRelatedToSpring("Saurabh");
+		List<String> todoTask = todoBusinessImpl.retrieveTodoTasksRelatedToSpring("Saurabh");
 
 		//then
-		assertThat(todos.size(), is(2));
+		assertThat(todoTask.size(), is(2));
 	}
 
 	@Test

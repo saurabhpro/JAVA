@@ -19,8 +19,7 @@ public class SalesAnalysisServiceWithMockitoStubTest {
 			new Sale("Apples", "Cardiff", 10, 2),
 			new Sale("Oranges", "Cardiff", 3, 5),
 			new Sale("Bananas", "Cardiff", 6, 20),
-			new Sale("Oranges", "London", 5, 7)
-	);
+			new Sale("Oranges", "London", 5, 7));
 
 	private static final Map<String, Integer> expectedStoreSales = new HashMap<>();
 

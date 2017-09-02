@@ -22,7 +22,6 @@ public class SimpleReportRunner {
 		//manual service injection
 		SalesAnalysisService analysisService = new SalesAnalysisService(repo);
 
-
 		SalesReport report = new SalesReport(System.out, analysisService);
 
 		report.report();

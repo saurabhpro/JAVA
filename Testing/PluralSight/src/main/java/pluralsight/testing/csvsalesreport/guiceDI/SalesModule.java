@@ -16,9 +16,7 @@ public class SalesModule extends AbstractModule {
 
 	@Override
 	protected void configure() {
-		bind(String.class)
-				.annotatedWith(Names.named("fileLocation"))
-				.toInstance(fileLocation);
+		bind(String.class).annotatedWith(Names.named("fileLocation")).toInstance(fileLocation);
 
 		bind(PrintStream.class).toInstance(System.out);
 		bind(SalesRepositoryBase.class).to(CsvSalesRepository.class);

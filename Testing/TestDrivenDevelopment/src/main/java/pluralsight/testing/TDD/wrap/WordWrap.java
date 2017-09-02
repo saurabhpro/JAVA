@@ -2,7 +2,6 @@ package pluralsight.testing.TDD.wrap;
 
 import static java.lang.Integer.min;
 
-
 class WordWrap {
 	static String wrap(final String inputLine, final int lineLength) {
 		final StringBuilder builder = new StringBuilder();

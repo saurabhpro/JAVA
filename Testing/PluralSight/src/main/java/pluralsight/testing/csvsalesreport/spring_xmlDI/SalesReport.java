@@ -8,7 +8,7 @@ import java.io.PrintStream;
 import java.time.LocalDate;
 
 @Component
-public class SalesReport extends SalesReportBase {
+public class SalesReport extends SalesReportBase<SalesAnalysisService> {
 
 	private final PrintStream output;
 	private final SalesAnalysisService analyser;

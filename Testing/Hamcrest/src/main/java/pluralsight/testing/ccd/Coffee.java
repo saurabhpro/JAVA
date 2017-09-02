@@ -31,10 +31,6 @@ public final class Coffee {
 
 	@Override
 	public String toString() {
-		return "Coffee{" +
-				"type=" + type +
-				", beans=" + beans +
-				", milk=" + milk +
-				'}';
+		return "Coffee{" + "type=" + type + ", beans=" + beans + ", milk=" + milk + '}';
 	}
 }

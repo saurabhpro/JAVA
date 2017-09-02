@@ -1,6 +1,5 @@
 package pluralsight.testing.csvsalesreport.manualDI;
 
-
 import pluralsight.testing.csvsalesreport.common.SalesRepositoryBase;
 import pluralsight.testing.csvsalesreport.common.model.Sale;
 
@@ -13,7 +12,7 @@ public class CsvSalesRepository implements SalesRepositoryBase {
 	private PrintStream error;
 	private List<Sale> sales;
 
-	public CsvSalesRepository(String fileLocation) {
+	CsvSalesRepository(String fileLocation) {
 		this.fileLocation = fileLocation;
 		error = System.out;
 	}
