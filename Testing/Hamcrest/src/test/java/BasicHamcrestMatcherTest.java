@@ -10,9 +10,10 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertThat;
 
 
-public class HamcrestMatcherTest {
+public class BasicHamcrestMatcherTest {
 	@Test
 	public void basicHamcrestMatcherExamplesTest() {
+		//List
 		List<Integer> scores = Arrays.asList(99, 100, 101, 105);
 		assertThat(scores, hasSize(4));
 		assertThat(scores, hasItems(100, 101));
@@ -27,6 +28,7 @@ public class HamcrestMatcherTest {
 		Integer[] marks = {1, 2, 3};
 
 		assertThat(marks, arrayWithSize(3));
+		assertThat(marks, arrayContaining(1, 2));    //order must be same
 		assertThat(marks, arrayContainingInAnyOrder(2, 3, 1));
 	}
 
@@ -42,16 +44,15 @@ public class HamcrestMatcherTest {
 		return map;
 	}
 
-	private List<Integer> getNumbers() {
-		return Arrays.asList(1, 2, 3, 5, 4);
-	}
-
-
 	@Test
 	public void mapShouldContainValue() {
 		Map<String, Integer> values = getValues();
 
 		assertThat(values, Matchers.hasKey("B"));
+	}
+
+	private List<Integer> getNumbers() {
+		return Arrays.asList(1, 2, 3, 5, 4);
 	}
 
 	@Test

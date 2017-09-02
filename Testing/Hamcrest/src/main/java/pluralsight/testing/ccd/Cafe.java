@@ -23,6 +23,7 @@ final class Cafe {
 
 		beansInStock -= requiredBeans;
 		milkInStock -= requiredMilk;
+
 		return new Coffee(coffeeType, requiredBeans, requiredMilk);
 	}
 

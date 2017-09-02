@@ -4,12 +4,13 @@ import org.hamcrest.Matchers;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 import static pluralsight.testing.ccd.CoffeeType.Espresso;
 import static pluralsight.testing.ccd.CoffeeType.Latte;
 
-public class CafeTest {
+public class CafeBeanHamcrestTest {
 
 	private static final int ESPRESSO_BEANS = Espresso.getRequiredBeans();
 	private static final int NO_MILK = 0;
@@ -22,6 +23,49 @@ public class CafeTest {
 		cafe = new Cafe();
 	}
 
+	private void withBeans() {
+		cafe.restockBeans(ESPRESSO_BEANS);
+	}
+
+	@Test
+	public void coffeeHasBeansProperty() {
+		// given
+		withBeans();
+
+		// when
+		Coffee coffee = cafe.brew(Espresso);
+
+		//then
+		assertThat(coffee, hasProperty("beans"));
+	}
+
+	@Test
+	public void coffeeHasCorrectBeansValue() {
+		// given
+		withBeans();
+
+		// when
+		Coffee coffee = cafe.brew(Espresso);
+
+		//then
+		assertThat(coffee, hasProperty("beans", equalTo(ESPRESSO_BEANS)));
+	}
+
+	@Test
+	public void bothCoffeesHaveSameProperty() {
+		// given
+		withBeans();
+
+		// when
+		Coffee coffee1 = cafe.brew(Espresso);
+
+		cafe.restockBeans(7);
+		Coffee coffee2 = cafe.brew(Espresso);
+
+		//then
+		assertThat(coffee1, samePropertyValuesAs(coffee2));
+	}
+
 	@Test
 	public void canBrewEspresso() {
 		// given
@@ -31,8 +75,8 @@ public class CafeTest {
 		Coffee coffee = cafe.brew(Espresso);
 
 		// then
-		assertThat(coffee, Matchers.hasProperty("beans"));
-		assertThat(coffee, Matchers.hasProperty("beans", Matchers.equalTo(ESPRESSO_BEANS)));
+		assertThat(coffee, hasProperty("beans"));
+		assertThat(coffee, hasProperty("beans", Matchers.equalTo(ESPRESSO_BEANS)));
 
 		assertEquals("Wrong amount of milk", NO_MILK, coffee.getMilk());
 		assertEquals("Wrong coffee type", Espresso, coffee.getType());
@@ -83,9 +127,4 @@ public class CafeTest {
 		// when
 		cafe.brew(Latte);
 	}
-
-	private void withBeans() {
-		cafe.restockBeans(ESPRESSO_BEANS);
-	}
-
 }
