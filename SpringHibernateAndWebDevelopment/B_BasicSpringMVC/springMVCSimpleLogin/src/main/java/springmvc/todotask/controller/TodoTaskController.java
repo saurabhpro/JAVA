@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
+import springmvc.todotask.model.TodoTask;
 import springmvc.todotask.service.TodoTaskService;
 
 import java.util.Date;
@@ -37,14 +38,22 @@ public class TodoTaskController {
 		return "todoTasks";
 	}
 
+	/**
+	 * loads the add todo task page
+	 *
+	 * @return
+	 */
 	@GetMapping("/addTodoTask")
-	public String showTodoPage() {
+	public String showTodoPage(ModelMap modelMap) {
+		modelMap.addAttribute("todoTask", new TodoTask(0, "Saurabh", "Default", new Date(), false));
 		return "todo";
 	}
 
 	@PostMapping(value = "/addTodoTask")
-	public String addTodo(ModelMap model, @RequestParam String desc) {
-		todoTaskService.addTodo((String) model.get("name"), desc, new Date(), false);
+	public String addTodo(ModelMap model,
+	                      //@RequestParam String desc //if you want more variables, baar baar likhna padta ...instead used pura object
+	                      TodoTask todoTask) {
+		todoTaskService.addTodo((String) model.get("name"), todoTask.getDesc(), new Date(), false);
 		model.clear();// to prevent request parameter "name" to be passed
 		return "redirect:todoTasks";
 	}

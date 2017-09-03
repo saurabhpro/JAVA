@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <html>
 <head>
     <title>Add Todo Task</title>
@@ -16,15 +17,16 @@
 
 <div class="container">
     <h1>Add a Todo</h1>
-    <form action="${pageContext.request.contextPath}/addTodoTask" method="post">
+    <form:form action="${pageContext.request.contextPath}/addTodoTask" method="post"
+               commandName="todoTask"> <!--command object to be used-->
 
         <fieldset class="form-group">
-            <label>Description</label>
-            <input name="desc" type="text" class="form-control" required="required"/>
+            <form:label path="desc">Description</form:label>
+            <form:input name="desc" type="text" class="form-control" required="required" path="desc"/>
         </fieldset>
 
         <button type="submit" class="btn btn-success">Add</button>
-    </form>
+    </form:form>
 </div>
 
 

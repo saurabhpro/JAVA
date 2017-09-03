@@ -12,6 +12,9 @@ public class TodoTask {
 	private Date targetDate;
 	private boolean isDone;
 
+	public TodoTask() {
+	}
+
 	public TodoTask(int id, String user, String desc, Date targetDate, boolean isDone) {
 		this.id = id;
 		this.user = user;
