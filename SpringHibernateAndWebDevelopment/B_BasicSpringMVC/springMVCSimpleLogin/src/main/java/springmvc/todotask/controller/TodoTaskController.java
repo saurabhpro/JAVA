@@ -3,6 +3,7 @@ package springmvc.todotask.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 import springmvc.todotask.model.TodoTask;
 import springmvc.todotask.service.TodoTaskService;
 
+import javax.validation.Valid;
 import java.util.Date;
 
 @Controller
@@ -52,7 +54,13 @@ public class TodoTaskController {
 	@PostMapping(value = "/addTodoTask")
 	public String addTodo(ModelMap model,
 	                      //@RequestParam String desc //if you want more variables, baar baar likhna padta ...instead used pura object
-	                      TodoTask todoTask) {
+	                      @Valid TodoTask todoTask, /*iski wajah se default constructor chiye*/
+	                      BindingResult result /*this object will hold all validation checks*/) {
+
+		if (result.hasErrors()) {
+			return "todo";
+		}
+
 		todoTaskService.addTodo((String) model.get("name"), todoTask.getDesc(), new Date(), false);
 		model.clear();// to prevent request parameter "name" to be passed
 		return "redirect:todoTasks";

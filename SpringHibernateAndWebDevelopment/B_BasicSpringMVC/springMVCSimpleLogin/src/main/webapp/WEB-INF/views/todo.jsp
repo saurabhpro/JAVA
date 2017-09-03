@@ -23,6 +23,7 @@
         <fieldset class="form-group">
             <form:label path="desc">Description</form:label>
             <form:input name="desc" type="text" class="form-control" required="required" path="desc"/>
+            <form:errors path="desc" cssClass="text-warning"></form:errors>
         </fieldset>
 
         <button type="submit" class="btn btn-success">Add</button>
