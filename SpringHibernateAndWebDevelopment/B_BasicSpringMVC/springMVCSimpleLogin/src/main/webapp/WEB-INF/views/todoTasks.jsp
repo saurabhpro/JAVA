@@ -6,12 +6,51 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
-    <title>Todo Tasks</title>
+    <title>Todo Tasks for ${name}</title>
+    <link href="webjars/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<H1>Your Todo Tasks</H1>
-${todoTasks}
+<div class="container">
+    <h1>Your TodoTasks</h1>
+
+    <table class="table table-striped">
+        <caption>Your TodoTasks are</caption>
+
+        <thead class="thead-inverse">
+        <tr>
+            <th>Description</th>
+            <th>Date</th>
+            <th>Completed</th>
+            <th></th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <c:forEach items="${todoTasks}" var="todo">
+            <tr>
+                <td>${todo.desc}</td>
+                <td>${todo.targetDate}</td>
+                <td>${todo.done}</td>
+                <td>
+                    <a class="btn btn-danger" href="${pageContext.request.contextPath}/deleteTodoTask?id=${todo.id}">Delete</a>
+                </td>
+            </tr>
+        </c:forEach>
+        </tbody>
+    </table>
+
+    <div>
+        <a class="btn btn-success" href="${pageContext.request.contextPath}/addTodoTask">Add</a>
+    </div>
+
+</div>
+
+
+<script src="webjars/jquery/3.2.1/jquery.min.js"></script>
+<script src="webjars/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
 </body>
 </html>

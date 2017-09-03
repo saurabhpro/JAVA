@@ -26,7 +26,7 @@ public class TodoTaskService {
 	public List<TodoTask> retrieveTodoTasks(String user) {
 		List<TodoTask> filteredTodoTasks = new ArrayList<TodoTask>();
 		for (TodoTask todo : todoTasks) {
-			if (todo.getUser().equals(user))
+			if (todo.getUser().equalsIgnoreCase(user))
 				filteredTodoTasks.add(todo);
 		}
 		return filteredTodoTasks;
@@ -35,13 +35,13 @@ public class TodoTaskService {
 	public void deleteTodo(int id) {
 		/*
 		See below for compact implementation
+		Iterator<TodoTask> iterator = todoTasks.iterator();
 		while (iterator.hasNext()) {
 			TodoTask todo = iterator.next();
 			if (todo.getId() == id) {
 				iterator.remove();
 			}
 		}*/
-
 		todoTasks.removeIf(todo -> todo.getId() == id);
 	}
 }
