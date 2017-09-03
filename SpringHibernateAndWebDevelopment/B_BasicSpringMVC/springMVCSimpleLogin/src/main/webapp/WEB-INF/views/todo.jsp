@@ -5,15 +5,8 @@
   Time: 1:42 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
-<html>
-<head>
-    <title>Add Todo Task</title>
-    <link href="webjars/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
-</head>
-
-<body>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>
 
 <div class="container">
     <h1>Add a Todo</h1>
@@ -53,7 +46,5 @@
     });
 </script>
 
-</body>
 
-
-</html>
+<%@ include file="common/footer.jspf" %>

@@ -1,9 +1,5 @@
-<html>
-<head>
-    <title>Yay!!</title>
-    <link href="webjars/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>
 
 <div class="container h-100">
     <div class="row h-100 justify-content-center align-items-center">
@@ -29,5 +25,4 @@
     </div>
 </div>
 
-</body>
-</html>
+<%@ include file="common/footer.jspf" %>

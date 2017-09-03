@@ -1,12 +1,8 @@
 <%--@elvariable id="password" type="com.in28minutes.springmvc.login.password"--%>
 <%--@elvariable id="name" type="com.in28minutes.springmvc.login.name"--%>
-<html>
-<head>
-    <title>Hey There!!</title>
-    <link href="webjars/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>
 
-</head>
-<body>
 <div class="container">
     Welcome ${name}. You are now authenticated. <br/>
 
@@ -17,5 +13,4 @@
 
 </div>
 
-</body>
-</html>
+<%@ include file="common/footer.jspf" %>

@@ -5,15 +5,9 @@
   Time: 1:42 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
-<html>
-<head>
-    <title>Todo Tasks for ${name}</title>
-    <link href="webjars/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>
+
 <div class="container">
     <h1>Your TodoTasks</h1>
 
@@ -38,8 +32,7 @@
                 </td>
                 <td>${todo.done}</td>
                 <td>
-                    <a class="btn btn-outline-secondary"
-                       href="${pageContext.request.contextPath}/updateTodoTask?id=${todo.id}">Update</a>
+                    <a class="btn btn-warning" href="${pageContext.request.contextPath}/updateTodoTask?id=${todo.id}">Update</a>
                     <a class="btn btn-danger" href="${pageContext.request.contextPath}/deleteTodoTask?id=${todo.id}">Delete</a>
                 </td>
             </tr>
@@ -57,5 +50,5 @@
 <script src="webjars/jquery/3.2.1/jquery.min.js"></script>
 <script src="webjars/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 
-</body>
-</html>
+
+<%@ include file="common/footer.jspf" %>
