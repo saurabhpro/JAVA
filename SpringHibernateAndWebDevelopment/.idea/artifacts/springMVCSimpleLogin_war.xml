@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springMVCSimpleLogin:war">
+    <output-path>$PROJECT_DIR$/B_BasicSpringMVC/springMVCSimpleLogin/target</output-path>
+    <root id="archive" name="springMVCSimpleLogin-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springMVCSimpleLogin:war exploded" />
+    </root>
+  </artifact>
+</component>

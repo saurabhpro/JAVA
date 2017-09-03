@@ -42,5 +42,6 @@
         <module>scopeForSpringSingletonApp</module>
         <module>propertiesInXMLSpringConfigApp</module>
         <module>popertiesInJavaSpringConfiguration</module>
+        <module>../B_BasicSpringMVC</module>
     </modules>
 </project>
