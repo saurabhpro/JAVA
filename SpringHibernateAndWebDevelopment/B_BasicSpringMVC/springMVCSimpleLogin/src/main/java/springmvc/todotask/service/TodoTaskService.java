@@ -44,4 +44,17 @@ public class TodoTaskService {
 		}*/
 		todoTasks.removeIf(todo -> todo.getId() == id);
 	}
+
+	public TodoTask retrieveTodoTask(int id) {
+		for (TodoTask todo : todoTasks) {
+			if (todo.getId() == id)
+				return todo;
+		}
+		return null;
+	}
+
+	public void updateTodo(TodoTask todo) {
+		todoTasks.remove(todo);
+		todoTasks.add(todo);
+	}
 }

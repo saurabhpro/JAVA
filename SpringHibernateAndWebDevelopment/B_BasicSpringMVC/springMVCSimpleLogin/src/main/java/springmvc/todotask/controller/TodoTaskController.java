@@ -1,17 +1,17 @@
 package springmvc.todotask.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.*;
 import springmvc.todotask.model.TodoTask;
 import springmvc.todotask.service.TodoTaskService;
 
 import javax.validation.Valid;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @Controller
@@ -30,6 +30,14 @@ public class TodoTaskController {
 	public TodoTaskController(TodoTaskService todoTaskService) {
 		this.todoTaskService = todoTaskService;
 	}
+
+	@InitBinder
+	protected void initBinder(WebDataBinder binder) {
+		SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+		binder.registerCustomEditor(Date.class, new CustomDateEditor(
+				dateFormat, false));
+	}
+
 
 	@GetMapping(value = "/todoTasks")
 	public String showTodoTasksList(ModelMap model
@@ -70,6 +78,32 @@ public class TodoTaskController {
 	@GetMapping(value = "/deleteTodoTask")
 	public String deleteTodo(@RequestParam int id) {
 		todoTaskService.deleteTodo(id);
+
+		return "redirect:todoTasks";
+	}
+
+	@GetMapping(value = "/updateTodoTask")
+	public String updateTodo(ModelMap modelMap,
+	                         @RequestParam int id) {
+
+		TodoTask todoTask = todoTaskService.retrieveTodoTask(id);
+		modelMap.addAttribute("todoTask", todoTask);
+
+		return "todo";
+	}
+
+	@PostMapping(value = "/updateTodoTask")
+	public String updateTodoData(ModelMap modelMap,
+	                             @RequestParam int id,
+	                             @Valid TodoTask todoTask, /*iski wajah se default constructor chiye*/
+	                             BindingResult result /*this object will hold all validation checks*/) {
+
+		if (result.hasErrors()) {
+			return "todo";
+		}
+
+		todoTask.setUser("Saurabh"); //TODO:Remove Hardcoding Later
+		todoTaskService.updateTodo(todoTask);
 
 		return "redirect:todoTasks";
 	}

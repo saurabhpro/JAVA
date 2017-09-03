@@ -45,6 +45,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-web:4.3.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:jstl:1.2" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:bootstrap:4.0.0-beta" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars:bootstrap-datepicker:1.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:jquery:3.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator:5.4.1.Final" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />

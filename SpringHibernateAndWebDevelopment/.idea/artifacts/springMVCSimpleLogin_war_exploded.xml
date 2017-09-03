@@ -17,6 +17,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.7.RELEASE" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: org.webjars:bootstrap:4.0.0-beta" />
+          <element id="library" level="project" name="Maven: org.webjars:bootstrap-datepicker:1.0.1" />
           <element id="library" level="project" name="Maven: org.webjars:jquery:3.2.1" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:5.4.1.Final" />
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
