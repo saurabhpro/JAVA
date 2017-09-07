@@ -4,21 +4,19 @@ import com.saurabh.viewResolver.CsvViewResolver;
 import com.saurabh.viewResolver.ExcelViewResolver;
 import com.saurabh.viewResolver.PdfViewResolver;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
 import org.springframework.web.accept.ContentNegotiationManager;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.ContentNegotiationConfigurer;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.ContentNegotiatingViewResolver;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@EnableWebMvc
-@ComponentScan(basePackages = {"com.saurabh"})
+//@EnableWebMvc
+//@ComponentScan(basePackages = {"com.saurabh"})
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter {
 

@@ -12,3 +12,9 @@ I'm using:
 
 Details
 https://aboullaite.me/spring-boot-excel-csv-and-pdf-view-example/
+
+How WebConfig works ?
+https://www.luckyryan.com/2013/02/07/migrate-spring-mvc-servlet-xml-to-java-config/
+
+OptionalInt ?
+https://www.leveluplunch.com/java/examples/java-util-optionalint-example/
