@@ -3,6 +3,7 @@ package com.saurabh.utils;
 import org.springframework.stereotype.Component;
 
 import java.util.Random;
+import java.util.function.IntSupplier;
 
 @Component
 public class Utils {
@@ -24,8 +25,17 @@ public class Utils {
 
 	public Integer generateRandonInteger(Integer integer) {
 
+		// Learn what is intsupplier
+		IntSupplier intSupplier = new IntSupplier() {
+			@Override
+			public int getAsInt() {
+				return 10;
+			}
+		};
+
 		return random.ints(integer, 80)
 				.findAny()
-				.getAsInt();
+				//.getAsInt();  fails if no int could be found for some reason
+				.orElseGet(intSupplier);
 	}
 }

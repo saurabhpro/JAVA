@@ -25,11 +25,20 @@ public class UserService {
 
 	public List<User> findAllUsers() {
 
-
+		@SuppressWarnings("uncheched")
 		List<User> users = IntStream.rangeClosed(1, 20)
-				.mapToObj(i -> new User(appUtil.generateRandomChars(candidateChars, 10), appUtil.generateRandomChars(candidateChars, 10), appUtil.generateRandonInteger(i),
-						appUtil.generateRandomChars(candidateChars, 15), appUtil.generateRandomChars(candidateChars, 15), appUtil.generateRandomChars(candidateChars, 20),
-						appUtil.generateRandomChars(candidateChars, 10), appUtil.generateRandomChars(candidateChars, 10), appUtil.generateRandomChars(candidateNum, 10)))
+				.mapToObj(i ->
+						new User(appUtil.generateRandomChars(candidateChars, 10),
+								appUtil.generateRandomChars(candidateChars, 10),
+								appUtil.generateRandonInteger(i),
+								appUtil.generateRandomChars(candidateChars, 15),
+								appUtil.generateRandomChars(candidateChars, 15),
+								appUtil.generateRandomChars(candidateChars, 20),
+								appUtil.generateRandomChars(candidateChars, 10),
+								appUtil.generateRandomChars(candidateChars, 10),
+								appUtil.generateRandomChars(candidateNum, 10)
+						)
+				)
 				.collect(Collectors.toList());
 
 		return users;

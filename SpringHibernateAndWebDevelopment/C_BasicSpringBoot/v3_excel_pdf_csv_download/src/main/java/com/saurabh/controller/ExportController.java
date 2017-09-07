@@ -17,7 +17,9 @@ public class ExportController {
 	}
 
 	/**
-	 * Handle request to download an Excel document
+	 * Handle request to download an view resolved document (first in the list)
+	 *
+	 * @see com.saurabh.config.WebConfig contentNegotiatingViewResolver() arrayList
 	 */
 	@GetMapping(value = "/download")
 	public String download(Model model) {

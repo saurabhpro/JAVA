@@ -2,10 +2,6 @@ package com.saurabh.model;
 
 import org.springframework.stereotype.Component;
 
-/**
- * Created by aboullaite on 2017-02-23.
- */
-
 // In a real world app, this should be an Entity!
 @Component
 public class User {
