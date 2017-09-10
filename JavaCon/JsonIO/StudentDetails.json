@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "name": "JavaInterviewPoint",
+  "department": "Science",
+  "favoriteSports": [
+    "Cricket",
+    "Tennis",
+    "Football"
+  ]
+}

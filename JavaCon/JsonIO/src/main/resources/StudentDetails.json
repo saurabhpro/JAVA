@@ -1,0 +1,10 @@
+{
+  "id": 62,
+  "name": "Saurabh",
+  "department": "ComputerScience",
+  "favoriteSports": [
+    "Cricket",
+    "Tennis",
+    "Football"
+  ]
+}

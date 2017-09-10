@@ -15,8 +15,12 @@
         <module name="Inheritance" />
         <module name="InnerClass" />
         <module name="Interfaces" />
+        <module name="IO" />
         <module name="Java8Lambda" />
+        <module name="JavaDS" />
+        <module name="JavaKathy" />
         <module name="JDBC" />
+        <module name="JsonIO" />
         <module name="Polymorphism" />
         <module name="queues" />
         <module name="Reflection" />
@@ -35,9 +39,14 @@
       <module name="Inheritance" target="1.8" />
       <module name="InnerClass" target="1.8" />
       <module name="Interfaces" target="1.8" />
+      <module name="IO" target="1.8" />
       <module name="Java8Lambda" target="1.8" />
       <module name="JavaCon" target="1.8" />
+      <module name="JavaDS" target="1.8" />
+      <module name="JavaKathy" target="1.8" />
       <module name="JDBC" target="1.8" />
+      <module name="JsonIO" target="1.8" />
+      <module name="JSONIO" target="1.8" />
       <module name="Polymorphism" target="1.8" />
       <module name="queues" target="1.5" />
       <module name="Reflection" target="1.8" />
