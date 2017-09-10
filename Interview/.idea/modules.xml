@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BitMagic/BitMagic.iml" filepath="$PROJECT_DIR$/BitMagic/BitMagic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interview.iml" filepath="$PROJECT_DIR$/Interview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/designPatternsInJava/designPatternsInJava.iml" filepath="$PROJECT_DIR$/designPatternsInJava/designPatternsInJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/greedyQ/greedyQ.iml" filepath="$PROJECT_DIR$/greedyQ/greedyQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/hashingQ/hashingQ.iml" filepath="$PROJECT_DIR$/hashingQ/hashingQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sorting/sorting.iml" filepath="$PROJECT_DIR$/sorting/sorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/stringQ/stringQ.iml" filepath="$PROJECT_DIR$/stringQ/stringQ.iml" />
     </modules>
   </component>

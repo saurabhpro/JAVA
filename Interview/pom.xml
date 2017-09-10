@@ -29,6 +29,8 @@
         <module>stringQ</module>
         <module>hashingQ</module>
         <module>greedyQ</module>
+        <module>sorting</module>
+        <module>designPatternsInJava</module>
     </modules>
     <dependencies>
         <dependency>

@@ -7,16 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="BitMagic" />
+        <module name="designPatternsInJava" />
         <module name="greedyQ" />
         <module name="hashingQ" />
+        <module name="sorting" />
         <module name="stringQ" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BitMagic" target="1.8" />
+      <module name="designPatternsInJava" target="1.8" />
       <module name="greedyQ" target="1.8" />
       <module name="hashingQ" target="1.8" />
       <module name="Interview" target="1.8" />
+      <module name="sorting" target="1.8" />
       <module name="stringQ" target="1.8" />
     </bytecodeTargetLevel>
   </component>
