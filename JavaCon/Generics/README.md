@@ -1,4 +1,4 @@
-The most commonly used Type Parameter names are:
+# The most commonly used Type Parameter names are:
 
 ```
 E - Element (used extensively by the Java Collections Framework)
@@ -31,4 +31,27 @@ _Some examples:_
 - `T without Bounds` -> Object
 - `T extends Foo` -> Foo
 
-(Reifiable Types)[Reifiable.md]
+
+# What is reifiable and non-reifiable java ?
+
+- a reifiable type is one whose runtime representation contains same information than its compile-time representation
+
+- a non-reifiable type is one whose runtime representation contains less information than its compile-time representation
+
+Arrays are reifiable as arrays remains as it is at runtime While generics information attached with List is erased at runtime by erasures
+
+So `List<String> list=new ArrayList<String>`
+
+at runtime will be 
+
+`List list=new ArrayList();`
+
+all generics information is erased. This is done to support the legacy code that is written without using generics.
+
+
+But in case of arrays 
+
+`Object[] ojb=new Object[0]`
+
+will remain the same at runtime as well. Generics are not mixed with arrays.
+
