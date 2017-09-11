@@ -2,10 +2,295 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba31442-62af-4fef-b7a5-9df37d3a3dea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/saurabhkumar.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/saurabhkumar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/resources/sample_files/Emails.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/resources/sample_files/FF Report.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/resources/sample_files/may.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/resources/sample_files/Emails.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/resources/sample_files/FF Report.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/resources/sample_files/may.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/designSOLIDPrinciples.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/a_SingleResponsibility/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/a_SingleResponsibility/a_SingleResponsibility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/b_OpenClosedPrinciple/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/c_LiskovSubstitution/LSPDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/c_LiskovSubstitution/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/c_LiskovSubstitution/Rectangle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/c_LiskovSubstitution/Square.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/d_InterfaceSegregation/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/e_DependencyInversion/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/C_BasicSpringBoot_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/C_BasicSpringBoot_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/artifacts/jeeSimpleLogin_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/artifacts/jeeSimpleLogin_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/artifacts/springMVCSimpleLogin_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/artifacts/springMVCSimpleLogin_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__javax_javaee_api_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_test_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_webjars_bootstrap_4_0_0_beta.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_webjars_bootstrap_datepicker_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_webjars_jquery_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/basicsOfSpringBean.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/main/java/Knight.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/main/java/KnightBeanPostProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/main/java/KnightConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/main/java/MajesticKnight.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/test/java/MajesticKnightTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/FileToByteArrayOutputStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/ObjectEmptyException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/exceltypematcher/ExcelFileType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/export/ExcelExportFileCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/ExcelReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/FileOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/XLSReaderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/XLSXReaderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/factory/fileimportfactory/CreateSheet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/factory/fileimportfactory/JXLSSheetAndCell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/factory/fileimportfactory/XLSSheetAndCell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/factory/fileimportfactory/XLSXSheetAndCell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/factory/objectfillerfactory/FileObjectFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/json/JsonIO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/json/JsonReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/json/JsonWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/pdf/export/PdfExportFileCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/controller/HomeController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/entity/EmployeeBiometricDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/entity/EmployeeDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/entity/EmployeeSalesforceDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/entity/attendence/Attendance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/entity/attendence/AttendanceOfADate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/entity/attendence/AttendanceOfLeave.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/DescrepencyWalaService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/EmployeeBasicsService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/EverythingBhejoService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/WeekendPeKaamKarneWalaService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/combine_logic/CombineFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/combine_logic/CombineFileHelperUtility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/combine_logic/FinalObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/combine_logic/MarkDiscrepancy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/combine_logic/MarkDiscrepancyHelperUtility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/SheetFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/biometricdetails/AllEmployeeBiometricDetailList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/biometricdetails/BiometricFileToObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/biometricdetails/MapJasonToBiometricDetail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/empdetails/AllEmployeeDetailList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/empdetails/EmployeeDetailExcelToObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/empdetails/MapJsonToAllEmployeeDetail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/salesforce/AllEmployeeSalesforceDetailList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/salesforce/MapJasonToSalesforceDetail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/salesforce/SalesforceFileToObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/EmployeeIDMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/RevalIdComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/FileFolderWorker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/Serialize.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/StringIdToListOfIdMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/TimeManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/Version.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/constants/ProjectConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/constants/enums/AttendanceStatusType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/constants/enums/HolidaysList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/constants/enums/LeaveType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/view/json_generators/AllEmployeeDetailsJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/view/json_generators/OnlyDiscrepancyDetailsJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/view/json_generators/PublicHolidayWorkerJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/view/json_generators/WeekendWorkerJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/viewmodel/FinalObjectModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/viewmodel/HolidayWorkerModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/viewmodel/ListGeneratorModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/viewmodel/WebJSONModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/resources/mock_data/Email.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/resources/mock_data/Salesforce.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/resources/mock_data/may.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/loginwithspringboot_embedded/src/main/java/com/saurabh/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/loginwithspringboot_embedded/src/main/java/com/saurabh/UserRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/config/PersistenceConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/repository/ShipwreckRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/db/migration/V2__create_shipwreck.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/Java_Method_main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/student/Student.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestJunit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/stringconcat/TestAssertions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/stringconcat/TestRunner2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/AttendanceManagerApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/ServletInitializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/FileToByteArrayOutputStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/ObjectEmptyException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/exceltypematcher/ExcelFileType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/export/ExcelExportFileCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/ExcelReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/FileOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/XLSReaderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/XLSXReaderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/factory/fileimportfactory/CreateSheet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/factory/fileimportfactory/JXLSSheetAndCell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/factory/fileimportfactory/XLSSheetAndCell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/factory/fileimportfactory/XLSXSheetAndCell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/factory/objectfillerfactory/FileObjectFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/json/JsonIO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/json/JsonReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/json/JsonWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/pdf/export/PdfExportFileCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/controller/HomeController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/controller/old/CoreControllerServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/controller/old/FileExportController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/controller/old/LogoutServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/controller/old/SendEmailServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/controller/old/SignInServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/controller/old/UpdateRecordServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/entity/EmployeeBiometricDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/entity/EmployeeDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/entity/EmployeeSalesforceDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/entity/attendence/Attendance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/entity/attendence/AttendanceOfADate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/entity/attendence/AttendanceOfLeave.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/EmployeeIDMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/FinalObjectModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/RevalIdComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/filebuilder/old/FileCreatorModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/filebuilder/old/MultipleRecordCreatorModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/filebuilder/old/MultipleRecordServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/filebuilder/old/SingleRecordCreatorModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/filebuilder/old/SingleRecordServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/logic/combine_logic/CombineFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/logic/combine_logic/CombineFileHelperUtility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/logic/combine_logic/FinalObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/logic/combine_logic/MarkDiscrepancy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/logic/combine_logic/MarkDiscrepancyHelperUtility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/mail/EmailHelperUtility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/main/BackEndLogicHelperUtility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/updateui/UpdateObjectWithUIEntries.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/upload/BiometricServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/upload/EmailListServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/upload/HolidayListUploadServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/upload/SalesforceServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/SheetFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/biometricdetails/AllEmployeeBiometricDetailList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/biometricdetails/BiometricFileToObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/biometricdetails/MapJasonToBiometricDetail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/empdetails/AllEmployeeDetailList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/empdetails/EmployeeDetailExcelToObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/empdetails/MapJsonToAllEmployeeDetail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/salesforce/AllEmployeeSalesforceDetailList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/salesforce/MapJasonToSalesforceDetail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/salesforce/SalesforceFileToObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/FileFolderWorker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/Serialize.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/StringIdToListOfIdMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/TimeManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/Version.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/constants/ProjectConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/constants/enums/AttendanceStatusType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/constants/enums/HolidaysList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/constants/enums/LeaveType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/file_generator/excel/CreateMultiRecordExcel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/file_generator/excel/CreateSingleRecordExcel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/file_generator/excel/DataParserForExcel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/file_generator/pdf/CreateMultipleRecordPDF.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/file_generator/pdf/CreateSingleRecordPDF.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/file_generator/pdf/DataParserForPDF.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/file_generator/utils/FileCreatorModelObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/json_generators/AllEmployeeDetailsJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/json_generators/OnlyDiscrepancyDetailsJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/json_generators/PublicHolidayWorkerJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/json_generators/WeekendWorkerJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/viewmodel/HolidayWorkerModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/viewmodel/ListGeneratorModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/viewmodel/WebJSONModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/AttendanceManagerApplicationTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/api/excel/exceltypematcher/ExcelFileTypeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/controller/main/CoreControllerServletTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/service/filereader/biometricdetails/BiometricFileToObjectTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/service/filereader/biometricdetails/MapJasonToBiometricDetailTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/service/filereader/empdetails/EmployeeDetailExcelToObjectTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/service/filereader/empdetails/MapJsonToAllEmployeeDetailTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/service/filereader/salesforce/SalesforceFileToObjectTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/dictionaries/Saurabh.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/Junit.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/out/production/JunitST/Java_Method_main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/out/production/JunitST/TestJunit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/out/production/JunitST/TestRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/out/production/JunitST/stringconcat/TestAssertions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/out/production/JunitST/stringconcat/TestRunner2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/out/production/JunitST/student/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/src/Java_Method_main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/src/TestJunit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/src/TestJunit.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/src/TestRunner.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/src/stringconcat/TestAssertions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/src/stringconcat/TestRunner2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/src/student/Student.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/springMVCSimpleLogin.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/demo/.idea/vcs.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/ATM.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/ATM.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/ATMHelper.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/ATMHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/accounts/User.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/accounts/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/numpad/NumberPad.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/numpad/NumberPad.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/DateUtil.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/DateUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/FirebaseUtil.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/FirebaseUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/PINGenerator.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/PINGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/RandomNumberGenerator.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/RandomNumberGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/test-classes/ATMDemo.class" afterPath="$PROJECT_DIR$/../ATM/target/test-classes/ATMDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/test-classes/com/saurabh/atm/util/generator/FirebaseUtilTest.class" afterPath="$PROJECT_DIR$/../ATM/target/test-classes/com/saurabh/atm/util/generator/FirebaseUtilTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/test-classes/com/saurabh/atm/util/generator/PINGeneratorTest.class" afterPath="$PROJECT_DIR$/../ATM/target/test-classes/com/saurabh/atm/util/generator/PINGeneratorTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../Interview/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Interview/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/pom.xml" afterPath="$PROJECT_DIR$/../Interview/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaCon/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/Generics/README.md" afterPath="$PROJECT_DIR$/../JavaCon/Generics/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/misc.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/misc.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/modules.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/firstSpringAppAnnotationXmlConfiguration.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/firstSpringAppAnnotationXmlConfiguration.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/repository/HibernateCustomerRepositoryImpl.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/repository/HibernateCustomerRepositoryImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/service/CustomerServiceImpl.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/service/CustomerServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/popertiesInJavaSpringConfiguration.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/popertiesInJavaSpringConfiguration.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/propertiesInXMLSpringConfigApp.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/propertiesInXMLSpringConfigApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/scopeForSpringSingletonApp.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/scopeForSpringSingletonApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/B_BasicSpringMVC.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/B_BasicSpringMVC.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.classpath" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/jeeSimpleLogin.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/jeeSimpleLogin.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/pom.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/todo.jsp" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/todo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/pom.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/controller/ShipwreckController.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/controller/ShipwreckController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/model/Shipwreck.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/model/Shipwreck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java" afterPath="$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mockito/src/test/java/ListTest.java" afterPath="$PROJECT_DIR$/Mockito/src/test/java/ListTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/JunitBasics.iml" afterPath="$PROJECT_DIR$/JunitBasics/JunitBasics.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/pom.xml" afterPath="$PROJECT_DIR$/JunitBasics/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,95 +310,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mockito/src/test/java/ListTest.java">
+      <file leaf-file-name="Java_Method_main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/Java_Method_main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-              <folding>
-                <marker date="1504379334000" expanded="true" signature="2016:2051" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SalesAnalysisServiceBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/common/SalesAnalysisServiceBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SalesAnalysisService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/SalesAnalysisService.java">
+      <file leaf-file-name="TestJunit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestJunit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SalesReport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/SalesReport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SalesReport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/manualDI/SalesReport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SalesReport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/spring_xmlDI/SalesReport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicHamcrestMatcherTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Assert.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="593" column="38" lean-forward="false" selection-start-line="593" selection-start-column="23" selection-end-line="593" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TodoBusinessImplMockitoTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="69" column="48" lean-forward="true" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,11 +332,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mockito/pom.xml">
+      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/student/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding>
+                <element signature="docComment;class#Student#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestRunner2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/stringconcat/TestRunner2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestAssertions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/stringconcat/TestAssertions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -171,16 +416,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TestDrivenDevelopment/pom.xml" />
-        <option value="$PROJECT_DIR$/PluralSight/src/main/java/testing/junit/m5/spring_xml/SalesReport.java" />
-        <option value="$PROJECT_DIR$/PluralSight/src/main/java/testing/junit/m5/common/SalesReportBase.java" />
-        <option value="$PROJECT_DIR$/PluralSight/src/main/java/testing/junit/m5/spring_xml/SimpleReportRunnerSpring.java" />
-        <option value="$PROJECT_DIR$/PluralSight/src/main/java/testing/junit/m5/common/SalesRepositoryBase.java" />
-        <option value="$PROJECT_DIR$/PluralSight/src/main/resources/Annotations.md" />
-        <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/common/model/Sale.java" />
-        <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/after_refactor/SimpleReportRunner.java" />
-        <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/common/DEFAULTFILELOCATION.java" />
-        <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/spring_xmlDI/SpringXmlSalesReportRunner.java" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/manualDI/SimpleReportRunner.java" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/GuiceSalesReportRunner.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -222,6 +457,16 @@
         <option value="$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.java" />
         <option value="$PROJECT_DIR$/Mockito/src/test/java/ListTest.java" />
         <option value="$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/main/java/TestJunit.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/Java_Method_main.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/TestJunit.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/student/Student.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/stringconcat/TestRunner2.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/stringconcat/TestAssertions.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/stringconcat/TestAssertions.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/TestJunit.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/TestRunner.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestRunner.java" />
       </list>
     </option>
   </component>
@@ -289,8 +534,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -304,70 +547,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hamcrest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hamcrest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hamcrest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,22 +566,26 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java" />
-      <recent name="$PROJECT_DIR$/src/test" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.saurabh" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ManualStubTesting/src/main/java" />
       <recent name="$PROJECT_DIR$/Mockito/src/main/java" />
       <recent name="$PROJECT_DIR$/PluralSight" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JunitBasics/src/test/java" />
+      <recent name="$PROJECT_DIR$/JunitBasics/src/test" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -612,6 +799,16 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -914,6 +1111,7 @@
       <workItem from="1504358627975" duration="555000" />
       <workItem from="1504359944103" duration="217000" />
       <workItem from="1504360392525" duration="9839000" />
+      <workItem from="1505173771883" duration="495000" />
     </task>
     <task id="LOCAL-00001" summary="Testing in Java">
       <created>1504350686526</created>
@@ -993,41 +1191,40 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24035000" />
+    <option name="totallyTimeSpent" value="24530000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="806" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="806" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33053222" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33053222" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33053222" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39944133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39944133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1058,63 +1255,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
-          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/JunitBasics.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PluralSight/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/saurabhkumar.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/GuiceSalesReportRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/common/DEFAULTS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestDrivenDevelopment/src/main/java/pluralsight/testing/TDD/wrap/WordWrap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1150,7 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-59">
           <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1158,7 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1166,10 +1304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-          <folding>
-            <element signature="e#243#244#0" expanded="false" />
-            <element signature="e#276#277#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1185,7 +1319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1193,7 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,7 +1333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
           <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1209,7 +1340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1217,11 +1347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1504374689000" expanded="true" signature="374:630" ph="{...}" />
-            <marker date="1504374689000" expanded="true" signature="681:971" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1229,11 +1354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1504374697000" expanded="true" signature="160:203" ph="//..." />
-            <marker date="1504374697000" expanded="true" signature="268:350" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1241,13 +1361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <marker date="1504374710000" expanded="true" signature="151:198" ph="//..." />
-            <marker date="1504374710000" expanded="false" signature="315:320" ph=" { " />
-            <marker date="1504374710000" expanded="false" signature="351:354" ph=" }" />
-            <marker date="1504374710000" expanded="true" signature="416:684" ph="{...}" />
-            <marker date="1504374710000" expanded="true" signature="739:926" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1255,7 +1368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1264,7 +1376,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="90">
             <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1274,7 +1385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1282,7 +1392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1290,7 +1399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1298,7 +1406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,7 +1413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1314,10 +1420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1325,7 +1427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1333,7 +1434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1349,7 +1449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1357,7 +1456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1365,7 +1463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1373,7 +1470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1381,7 +1477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,9 +1484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1399,7 +1491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="94" lean-forward="false" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="94" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,9 +1514,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1456,7 +1545,7 @@
     <entry file="file://$PROJECT_DIR$/Mockito/src/test/java/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
           <folding>
             <marker date="1504379334000" expanded="true" signature="2016:2051" ph="{...}" />
           </folding>
@@ -1465,17 +1554,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="69" column="48" lean-forward="true" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+        <state relative-caret-position="840">
+          <caret line="69" column="48" lean-forward="false" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="8595">
           <caret line="593" column="38" lean-forward="false" selection-start-line="593" selection-start-column="23" selection-end-line="593" selection-end-column="38" />
           <folding />
         </state>
@@ -1483,9 +1572,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/main/java/TestJunit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/student/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="docComment;class#Student#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/Java_Method_main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/stringconcat/TestRunner2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/stringconcat/TestAssertions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestJunit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
