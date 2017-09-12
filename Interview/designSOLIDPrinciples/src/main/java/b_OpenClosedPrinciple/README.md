@@ -1,0 +1,3 @@
+# O is for Open/Closed Principle
+
+The Open/Closed Principle states that code entities should be open for extension, but closed for modification. To put this more concretely, you should write a class that does what it needs to flawlessly and not assuming that people should come in and change it later. It's closed for modification, but it can be extended by, for instance, inheriting from it and overriding or extending certain behaviors. 

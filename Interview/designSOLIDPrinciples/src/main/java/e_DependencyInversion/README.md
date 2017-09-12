@@ -1,0 +1,5 @@
+# D is for Dependency Inversion
+
+- The Dependency Inversion Principle (DIP) encourages you to write code that depends upon abstractions rather than upon concrete details. You can recognize this in the code you read by looking for a class or method that takes something generic like "Stream" and performs operations on it, as opposed to instantiating a specific Filestream or Stringstream or whatever. This gives the code in question a lot more flexibility -- you can swap in anything that conforms to the Stream abstraction and it will still work.
+
+- To visualize this in your day to day, go down to your local store and pay for something with a credit card. The clerk doesn't examine your card and get out the "Visa Machine" after seeing that your card is a Visa. He just takes your card, whatever it is, and swipes it. Both you and the clerk depend on the credit card abstraction without worrying about specifics.
