@@ -124,12 +124,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/config/PersistenceConfiguration.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/repository/ShipwreckRepository.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/db/migration/V2__create_shipwreck.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/Java_Method_main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/student/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestJunit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/stringconcat/TestAssertions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/stringconcat/TestRunner2.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/pom.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/AttendanceManagerApplication.java" />
@@ -226,29 +220,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/service/filereader/empdetails/EmployeeDetailExcelToObjectTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/service/filereader/empdetails/MapJsonToAllEmployeeDetailTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/service/filereader/salesforce/SalesforceFileToObjectTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/dictionaries/Saurabh.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/Junit.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/out/production/JunitST/Java_Method_main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/out/production/JunitST/TestJunit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/out/production/JunitST/TestRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/out/production/JunitST/stringconcat/TestAssertions.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/out/production/JunitST/stringconcat/TestRunner2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/out/production/JunitST/student/Student.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/src/Java_Method_main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/src/TestJunit.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/src/TestJunit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/src/TestRunner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/src/stringconcat/TestAssertions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/src/stringconcat/TestRunner2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JunitST/src/student/Student.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/springMVCSimpleLogin.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/demo/.idea/vcs.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/ATM.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/ATM.class" />
@@ -288,9 +259,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/controller/ShipwreckController.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/controller/ShipwreckController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/model/Shipwreck.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/model/Shipwreck.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/JunitBasics.iml" afterPath="$PROJECT_DIR$/JunitBasics/JunitBasics.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/pom.xml" afterPath="$PROJECT_DIR$/JunitBasics/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -336,7 +304,7 @@
         <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -348,7 +316,7 @@
         <entry file="file://$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/student/Student.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding>
                 <element signature="docComment;class#Student#0" expanded="false" />
               </folding>
@@ -403,6 +371,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Saurabh Kumar &lt;saurabhk1511@gmail.com&gt;" />
         <option value="Saurabh Kumar &lt;saurabhk15@outlook.com&gt;" />
       </list>
     </option>
@@ -1111,7 +1080,7 @@
       <workItem from="1504358627975" duration="555000" />
       <workItem from="1504359944103" duration="217000" />
       <workItem from="1504360392525" duration="9839000" />
-      <workItem from="1505173771883" duration="495000" />
+      <workItem from="1505173771883" duration="855000" />
     </task>
     <task id="LOCAL-00001" summary="Testing in Java">
       <created>1504350686526</created>
@@ -1155,7 +1124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504379173614</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="junit moved to testing project">
+      <created>1505174342863</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1505174342863</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1191,7 +1167,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24530000" />
+    <option name="totallyTimeSpent" value="24890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="806" extended-state="0" />
@@ -1239,7 +1215,8 @@
     <MESSAGE value="Testing in Java" />
     <MESSAGE value="Testing in Java - optimized to be standalone" />
     <MESSAGE value="updated documentation for mockito" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated documentation for mockito" />
+    <MESSAGE value="junit moved to testing project" />
+    <option name="LAST_COMMIT_MESSAGE" value="junit moved to testing project" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1597,7 +1574,7 @@
     <entry file="file://$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/student/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
             <element signature="docComment;class#Student#0" expanded="false" />
           </folding>
@@ -1641,7 +1618,7 @@
     <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
