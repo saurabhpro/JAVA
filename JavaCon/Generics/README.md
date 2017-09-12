@@ -76,8 +76,6 @@ Examples include `List<String> and List<Integer>`.
 Because a non-reifiable type isn't completely available at runtime, the Java virtual machine (JVM) can't tell 
 the difference between `List<String> and List<Integer>`; at runtime, only the raw type List is available.
 
-{quote}
-
 ### A type is reifiable if and only if one of the following holds:
 - It refers to a non-generic class or interface type declaration.
 - It is a parameterized type in which all type arguments are unbounded wildcards
@@ -86,7 +84,7 @@ the difference between `List<String> and List<Integer>`; at runtime, only the ra
 - It is an array type whose element type is reifiable.
 - It is a nested type where, for each type T separated by a ".", T itself is reifiable.
 
-## SafeVargs
+# SafeVargs
 @SafeVarargs
 
 Applying @SafeVarargs to a `static/final/private` method header or constructor header suppresses unchecked warnings about a non-reifiable varargs type at call sites (locations where the method/constructor is called), and also suppresses unchecked warnings about parameterized array creation at call sites.
@@ -96,18 +94,65 @@ A variable arity parameter(Varargs) with a non-reifiable element type can cause 
 1. It is a compile-time error if a fixed arity method or constructor declaration is annotated with the annotation @SafeVarargs.
 2. @SafeVarargs is only applicable to static methods, final instance methods, and constructors, [**from Jdk 9 - even private methods**] the annotation is not usable where method overriding occurs.
 
- ### @SafeVarargs introduced in JDK 7,
- 
- * the main purpose is to deal with variable long parameters in the generic,
- * this annotation tells the compiler: variable in the variable parameters of the type is safe.
- 
- * Variable-length parameters are stored using arrays, and arrays and generics can not be mixed well
- 
- * Simply put, the data type of the array element is determined at compile time and runtime,
- * and the generic data type can only be determined at runtime, so when a generic is stored in an array,
- * the compiler is in the compile phase Can not check whether the data type matches, so a warning message is given: `there is a possible "heap pollution", that is, if the generic data type of the generic can not match the type of the argument array, it will cause a ClassCastException.`
 
-* So the compiler gives a warning when using generics in variable-length arguments.
-## what does <?> mean
+### I've recently come across the java @SafeVarargs annotation. Googling for what makes a variadic function in Java unsafe left me rather confused (heap poisoning? erased types?), so I'd like to know a few things:
 
-## explain < ? extends ABC>
+1. What makes a variadic Java function unsafe in the @SafeVarargs sense (preferably explained in the form of an in-depth example)?
+2. Why is this annotation left to the discretion of the programmer? Isn't this something the compiler should be able to check?
+3. Is there some standard one must adhere to in order to ensure his function is indeed varags safe? If not, what are the best practices to ensure it?
+
+Ans - 1 ) There are many examples on the Internet and on StackOverflow about the particular issue with generics and varargs. Basically, it's when you have a variable number of arguments of a type-parameter type:
+
+`void foo(T... args);`
+
+In Java, varargs are a syntactic sugar that undergoes a simple "re-writing" at compile-time: `a varargs parameter of type X... is converted into a parameter of type X[]; and every time a call is made to this varargs method, the compiler collects all of the "variable arguments" that goes in the varargs parameter, and creates an array just like new X[] { ...(arguments go here)... }.`
+
+This works well when the varargs type is concrete like String.... When it's a type variable like T..., it also works when T is known to be a concrete type for that call. 
+
+e.g. if the method above were part of a class Foo<T>, and you have a Foo<String> reference, then calling foo on it would be okay because we know T is String at that point in the code.
+
+However, it does not work when the "value" of T is another type parameter. In Java, it is impossible to create an array of a type-parameter component type (new T[] { ... }). 
+
+So Java instead uses new Object[] { ... } (here Object is the upper bound of T; if there upper bound were something different, it would be that instead of Object), and then gives you a compiler warning.
+
+So what is wrong with creating new Object[] instead of new T[] or whatever? Well, arrays in Java know their component type at runtime. Thus, the passed array object will have the wrong component type at runtime.
+
+For probably the most common use of varargs, simply to iterate over the elements, this is no problem (you don't care about the runtime type of the array), so this is safe:
+```java
+@SafeVarargs
+final void foo(T... args) {
+    for (T x : args) {
+        // do stuff with x
+    }
+}
+```
+However, for anything that depends on the runtime component type of the passed array, it will not be safe. Here is a simple example of something that is unsafe and crashes:
+```java
+class UnSafeVarargs
+{
+  static <T> T[] asArray(T... args) {
+    return args;
+  }
+
+  static <T> T[] arrayOfTwo(T a, T b) {
+    return asArray(a, b);
+  }
+
+  public static void main(String[] args) {
+    String[] bar = arrayOfTwo("hi", "mom");
+  }
+}
+```
+The problem here is that we depend on the type of args to be T[] in order to return it as T[]. But actually the type of the argument at runtime is not an instance of T[].
+
+**Ans  2, 3   )** If your method has an argument of type T... (where T is any type parameter), then:
+
+- **Safe**: If your method only depends on the fact that the elements of the array are instances of T
+
+- **Unsafe**: If it depends on the fact that the array is an instance of T[]
+
+Things that depend on the runtime type of the array include: returning it as type T[], passing it as an argument to a parameter of type T[], getting the array type using .getClass(), passing it to methods that depend on the runtime type of the array, like List.toArray() and Arrays.copyOf(), etc.
+
+# what does <?> mean
+
+# explain < ? extends ABC>
