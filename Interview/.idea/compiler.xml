@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="BitMagic" />
         <module name="designPatternsInJava" />
+        <module name="designSOLIDPrinciples" />
         <module name="greedyQ" />
         <module name="hashingQ" />
         <module name="sorting" />
@@ -17,6 +18,7 @@
     <bytecodeTargetLevel>
       <module name="BitMagic" target="1.8" />
       <module name="designPatternsInJava" target="1.8" />
+      <module name="designSOLIDPrinciples" target="1.8" />
       <module name="greedyQ" target="1.8" />
       <module name="hashingQ" target="1.8" />
       <module name="Interview" target="1.8" />

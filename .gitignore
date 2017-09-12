@@ -43,5 +43,9 @@ Temporary Items
 .apdisk
 
 
+*.classpath
+*.project
+*.settings
 */target
-*.class
+*/.idea
+*/.vscode
