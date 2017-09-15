@@ -1,0 +1,52 @@
+package com.saurabh;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.mail.internet.MimeMessage;
+
+import org.apache.velocity.app.VelocityEngine;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.velocity.VelocityEngineUtils;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class SimpleEmailController4 {
+
+    @Autowired
+    private JavaMailSender sender;
+
+    @Autowired
+    private VelocityEngine velocityEngine;
+
+    @RequestMapping("/simpleemail4")
+    @ResponseBody
+    String home() {
+        try {
+            sendEmail();
+            return "Email Sent!";
+        } catch (Exception ex) {
+            return "Error in sending email: " + ex;
+        }
+    }
+
+    private void sendEmail() throws Exception {
+        MimeMessage message = sender.createMimeMessage();
+
+        MimeMessageHelper helper = new MimeMessageHelper(message);
+
+        Map<String, Object> model = new HashMap();
+        model.put("user", "qpt");
+        String text = VelocityEngineUtils.mergeTemplateIntoString(velocityEngine, "welcome.vm", model);
+
+        helper.setTo("set-your-recipient-email-here@gmail.com");
+        helper.setText(text, true); // set to html
+        helper.setSubject("Hi");
+
+        sender.send(message);
+    }
+}
