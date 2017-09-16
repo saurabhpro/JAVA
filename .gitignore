@@ -47,5 +47,7 @@ Temporary Items
 *.project
 *.settings
 */target
-*/.idea
 */.vscode
+
+*-sktest/
+JavaCon/JDBC/sktest/*

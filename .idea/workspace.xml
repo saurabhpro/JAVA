@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a072aac-6b3c-4060-bdfb-e25bcfd3f214" name="Default" comment="">
+    <list default="true" id="3a072aac-6b3c-4060-bdfb-e25bcfd3f214" name="Default" comment="cleanup">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interview/designPatternsInJava/target/classes/behavioral/chainofresponsibility/AbstractDragonSlayerRepresentative.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interview/designPatternsInJava/target/classes/behavioral/chainofresponsibility/DragonSlayer.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interview/designPatternsInJava/target/classes/behavioral/chainofresponsibility/DragonSlayerRepresentitive.class" />
@@ -197,45 +197,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Testing/TestDrivenDevelopment/target/surefire-reports/TEST-pluralsight.testing.TDD.wrap.WordWrapTest.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Testing/TestDrivenDevelopment/target/surefire-reports/pluralsight.testing.TDD.Leap.LeapYearTest.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Testing/TestDrivenDevelopment/target/surefire-reports/pluralsight.testing.TDD.wrap.WordWrapTest.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/JAVA.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/ATM.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/kotlinc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__com_google_api_client_google_api_client_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__com_google_api_client_google_api_client_gson_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__com_google_code_gson_gson_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__com_google_firebase_firebase_admin_4_1_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__com_google_http_client_google_http_client_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__com_google_http_client_google_http_client_gson_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__com_google_http_client_google_http_client_jackson2_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__org_jetbrains_annotations_15_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__org_json_json_20160810.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__org_testng_testng_6_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/.idea/workspace.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/target/classes/atmjava-firebase-admin.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/target/classes/com/saurabh/atm/ATM.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/target/classes/com/saurabh/atm/ATMHelper.class" afterPath="" />
@@ -248,24 +209,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/target/test-classes/ATMDemo.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/target/test-classes/com/saurabh/atm/util/generator/FirebaseUtilTest.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/ATM/target/test-classes/com/saurabh/atm/util/generator/PINGeneratorTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITCode/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ITCode/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/.idea/kotlinc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/.idea/libraries/Maven__org_testng_testng_6_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/.vscode/settings.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/BitMagic/.classpath" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/BitMagic/.project" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Interview/BitMagic/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
@@ -309,26 +252,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/JavaCon/.idea/uiDesigner.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/JavaCon/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/JavaCon/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MarsRoverProblem/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MarsRoverProblem/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MarsRoverProblem/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MarsRoverProblem/.idea/dictionaries/Saurabh.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MarsRoverProblem/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MarsRoverProblem/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MarsRoverProblem/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MarsRoverProblem/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MarsRoverProblem/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MarsRoverProblem/MarsRoverProblem.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MarsRoverProblem/src/MarsRover.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MarsRoverProblem/src/MarsSol1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyEditor/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyEditor/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyEditor/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyEditor/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyEditor/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyEditor/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyEditor/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyEditor/.idea/workspace.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/SpringHibernateAndWebDevelopment/.idea/artifacts/B_BasicSpringMVC_war.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/SpringHibernateAndWebDevelopment/.idea/artifacts/B_BasicSpringMVC_war_exploded.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/SpringHibernateAndWebDevelopment/.idea/artifacts/BasicLoginUsingJEEServlet_war.xml" afterPath="" />
@@ -683,14 +606,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Testing/TestDrivenDevelopment/.settings/org.eclipse.core.resources.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Testing/TestDrivenDevelopment/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Testing/TestDrivenDevelopment/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ThinkingInJava/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ThinkingInJava/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ThinkingInJava/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ThinkingInJava/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ThinkingInJava/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ThinkingInJava/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ThinkingInJava/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ThinkingInJava/.idea/workspace.xml" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/ITCode/src/ArrayQuestions.java" afterPath="$PROJECT_DIR$/Interview/src/main/java/ArrayQuestions.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/ITCode/src/GetAllSubsetByStack.java" afterPath="$PROJECT_DIR$/Interview/src/main/java/GetAllSubsetByStack.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/ITCode/src/ListReversePrinting.java" afterPath="$PROJECT_DIR$/Interview/src/main/java/ListReversePrinting.java" />
@@ -724,8 +639,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringHibernateAndWebDevelopment/Spring-Udemy-Course/hibernate-demo/target/classes/com/saurabh/hibernate/demo/entity/Student.class" afterPath="$PROJECT_DIR$/SpringHibernateAndWebDevelopment/Spring-Udemy-Course/hibernate-demo/target/classes/com/saurabh/hibernate/demo/entity/Student.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringHibernateAndWebDevelopment/Spring-Udemy-Course/hibernate-demo/target/classes/com/saurabh/jdbc/TestJdbc.class" afterPath="$PROJECT_DIR$/SpringHibernateAndWebDevelopment/Spring-Udemy-Course/hibernate-demo/target/classes/com/saurabh/jdbc/TestJdbc.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringHibernateAndWebDevelopment/Spring-Udemy-Course/hibernate-demo/target/classes/com/saurabh/log4j/LogClass.class" afterPath="$PROJECT_DIR$/SpringHibernateAndWebDevelopment/Spring-Udemy-Course/hibernate-demo/target/classes/com/saurabh/log4j/LogClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interview/pom.xml" afterPath="$PROJECT_DIR$/Interview/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JAVA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -758,8 +672,8 @@
       <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitattributes">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="210">
+              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -1236,7 +1150,7 @@
       <workItem from="1442181231939" duration="17000" />
       <workItem from="1486874970694" duration="7000" />
       <workItem from="1505175015727" duration="988000" />
-      <workItem from="1505177709524" duration="256000" />
+      <workItem from="1505177709524" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="cleanup">
       <created>1505176007557</created>
@@ -1245,14 +1159,22 @@
       <option name="project" value="LOCAL" />
       <updated>1505176007557</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cleanup">
+      <created>1505178259700</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505178259700</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1301000" />
+    <option name="totallyTimeSpent" value="1644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="814" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1268,7 +1190,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1365,8 +1287,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="210">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>

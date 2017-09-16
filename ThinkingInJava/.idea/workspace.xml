@@ -1,11 +1,371 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b611de81-39bd-4cbf-bf2b-f0bfa67d390e" name="Default" comment="" />
+    <list default="true" id="b611de81-39bd-4cbf-bf2b-f0bfa67d390e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/Spring for dummies – pscode.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CodeVita2016/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CodeVita2016/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_test_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/basicsOfSpringBean.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/main/java/Knight.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/main/java/KnightBeanPostProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/main/java/KnightConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/main/java/MajesticKnight.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/test/java/MajesticKnightTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/READMe.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/java/com/saurabh/ServletInitializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/config/PersistenceConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/repository/ShipwreckRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/db/migration/V2__create_shipwreck.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_itextpdf_itextpdf_5_5_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__net_sf_supercsv_super_csv_2_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_apache_poi_poi_3_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_spring_test_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_spring_web_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/v3_excel_pdf_csv_download.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/ATM.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_api_client_google_api_client_1_22_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_api_client_google_api_client_gson_1_22_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_code_gson_gson_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_firebase_firebase_admin_4_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_http_client_google_http_client_1_22_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_http_client_google_http_client_gson_1_22_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_http_client_google_http_client_jackson2_1_22_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_22_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_jetbrains_annotations_15_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_json_json_20160810.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/ATM.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/ATMHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/accounts/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/numpad/NumberPad.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/util/generator/DateUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/util/generator/FirebaseUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/util/generator/PINGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/util/generator/RandomNumberGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/resources/atmjava-firebase-admin.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/test/java/ATMDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/test/java/com/saurabh/atm/util/generator/FirebaseUtilTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/test/java/com/saurabh/atm/util/generator/PINGeneratorTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/atmjava-firebase-admin.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/ATM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/ATMHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/accounts/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/numpad/NumberPad.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/DateUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/FirebaseUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/PINGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/RandomNumberGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/test-classes/ATMDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/test-classes/com/saurabh/atm/util/generator/FirebaseUtilTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/test-classes/com/saurabh/atm/util/generator/PINGeneratorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.vscode/settings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/dataSources.local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/dictionaries/Saurabh.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/MarsRoverProblem.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/src/MarsRover.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/src/MarsSol1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/MyIDE.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/out/production/MyIDE/MyEditor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/out/production/MyIDE/MyFocusListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/src/MyEditor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/src/MyEditor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/src/MyFocusListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/B_BasicSpringMVC_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/B_BasicSpringMVC_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/BasicLoginUsingJEEServlet_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/BasicLoginUsingJEEServlet_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/kotlinc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/.jsdtscope" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.common.component" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.validation.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/springMVCSimpleLogin.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/SimpleEmailController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/SimpleEmailController2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/SimpleEmailController3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/SimpleEmailController4.java.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/SimpleEmailController5.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/resources/static/img/cat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/resources/templates/welcome.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/resources/templates/welcomev.vm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/mvnw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/mvnw.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/test/java/com/saurabh/ExcelPdfCsvFileGeneratorApplicationTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/mvnw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/mvnw.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/V4AngularDataDisplayApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/api/json/JsonIO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/api/json/JsonReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/api/json/JsonWriter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/controllers/HomeController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/entity/AllEmpDetails.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/entity/EmployeeDetails.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/repository/JsonForCompany.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/repository/MockRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/service/EmployeeReadService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/service/EmployeeReadServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/resources/data_mock/Emails.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/test/java/com/saurabh/V4AngularDataDisplayApplicationTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/test/java/com/saurabh/repository/MockRepositoryTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/demo/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Break the Java Generics Naming Convention_ • Java.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Java 8 Method Reference_ How to Use it _ Codementor.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Late Night Java by Koray Tugay_ Hello world web application with Maven + Java + Servlets + Tomcat + IntelliJ.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Should I explicitly declare serialVersionUID_ • Java.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Singleton Pattern Pitfalls • Design Patterns.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Telescoping Constructor Pattern alternatives • Java.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Understanding C# Delegates The Easy Way _ Part 1 (Basics) _ Codementor.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Understanding C# Delegates The Easy Way _ Part 2 (Anonymous Methods) _ Codementor.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Hamcrest/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Hamcrest/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Hamcrest/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Hamcrest/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Hamcrest/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/JunitBasics/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/JunitBasics/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/JunitBasics/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/JunitBasics/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/JunitBasics/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/ManualStubTesting/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/ManualStubTesting/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/ManualStubTesting/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/ManualStubTesting/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/ManualStubTesting/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Mockito/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Mockito/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Mockito/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Mockito/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Mockito/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/PluralSight/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/PluralSight/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/PluralSight/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/PluralSight/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/PluralSight/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/TestDrivenDevelopment/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/TestDrivenDevelopment/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/TestDrivenDevelopment/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/TestDrivenDevelopment/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/TestDrivenDevelopment/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/Concatenation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/ControlExecution.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/Operators.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../.idea/JAVA.iml" afterPath="$PROJECT_DIR$/../CodeVita2016/.idea/CodeVita2016.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/compiler.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/encodings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/../CodeVita2016/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/kotlinc.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/kotlinc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_1_3.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_testng_testng_6_11.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_testng_testng_6_11.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/uiDesigner.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/misc.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/modules.xml" afterPath="$PROJECT_DIR$/../CodeVita2016/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/jeeSimpleLogin_war.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/artifacts/jeeSimpleLogin_war.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/jeeSimpleLogin_war_exploded.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/artifacts/jeeSimpleLogin_war_exploded.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/springMVCSimpleLogin_war.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/artifacts/springMVCSimpleLogin_war.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/springMVCSimpleLogin_war_exploded.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/artifacts/springMVCSimpleLogin_war_exploded.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__javax_javaee_api_7_0.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__javax_javaee_api_7_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_webjars_bootstrap_4_0_0_beta.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_webjars_bootstrap_4_0_0_beta.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_webjars_bootstrap_datepicker_1_0_1.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_webjars_bootstrap_datepicker_1_0_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_webjars_jquery_3_2_1.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_webjars_jquery_3_2_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/.gitignore" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/mvnw" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/mvnw" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/mvnw.cmd" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/mvnw.cmd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/GmailSendMailApplication.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/java/com/saurabh/AttendanceMangerApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/test/java/com/saurabh/GmailSendMailApplicationTests.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/test/java/com/saurabh/AttendanceMangerApplicationTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Concatenation.class" afterPath="$PROJECT_DIR$/src/main/java/Concatenation.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Concatenation.java" afterPath="$PROJECT_DIR$/src/main/java/Concatenation.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ControlExecution.class" afterPath="$PROJECT_DIR$/src/main/java/ControlExecution.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ControlExecution.java" afterPath="$PROJECT_DIR$/src/main/java/ControlExecution.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Operators.class" afterPath="$PROJECT_DIR$/src/main/java/Operators.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Operators.java" afterPath="$PROJECT_DIR$/src/main/java/Operators.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/misc.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/modules.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/repository/HibernateCustomerRepositoryImpl.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/repository/HibernateCustomerRepositoryImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/service/CustomerServiceImpl.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/service/CustomerServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/popertiesInJavaSpringConfiguration.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/popertiesInJavaSpringConfiguration.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/scopeForSpringSingletonApp.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/scopeForSpringSingletonApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/B_BasicSpringMVC.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/B_BasicSpringMVC.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/jeeSimpleLogin.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/jeeSimpleLogin.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/todo.jsp" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/todo.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/pom.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/controller/ShipwreckController.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/controller/ShipwreckController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/model/Shipwreck.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/model/Shipwreck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Testing/README.md" afterPath="$PROJECT_DIR$/../Testing/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkingInJava.iml" afterPath="$PROJECT_DIR$/ThinkingInJava.iml" />
+    </list>
     <ignored path="ThinkingInJava.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +373,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -22,32 +381,62 @@
     <favorites_list name="ThinkingInJava" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Operators.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Operators.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Operators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+            <state relative-caret-position="1245">
+              <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ControlExecution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ControlExecution.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ControlExecution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            <state relative-caret-position="75">
+              <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Concatenation.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Concatenation.java">
+      <file leaf-file-name="Concatenation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Concatenation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="15">
+              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControlExecution.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ControlExecution.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Concatenation.class" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Concatenation.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-205">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,6 +451,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -74,32 +466,57 @@
         <option value="$PROJECT_DIR$/src/ControlExcection.java" />
         <option value="$PROJECT_DIR$/src/ControlExecution.java" />
         <option value="$PROJECT_DIR$/src/Concatenation.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NamedScopeManager">
-    <order />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ThinkingInJava" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ThinkingInJava" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="32" />
-    <option name="width" value="1370" />
-    <option name="height" value="744" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="806" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -111,19 +528,12 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkingInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="ThinkingInJava" />
@@ -147,19 +557,78 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkingInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Intellij" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Application.Concatenation">
     <configuration default="false" name="Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -211,26 +680,35 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -240,18 +718,24 @@
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -274,6 +758,16 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -360,16 +854,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -396,7 +880,86 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkingInJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -442,12 +1005,33 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
@@ -468,8 +1052,30 @@
         <item index="2" class="java.lang.String" itemvalue="Application.Operators" />
       </list>
     </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -478,46 +1084,57 @@
       <changelist id="b611de81-39bd-4cbf-bf2b-f0bfa67d390e" name="Default" comment="" />
       <created>1436733068474</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1436733068474</updated>
       <workItem from="1436733075428" duration="10395000" />
       <workItem from="1436903383249" duration="598000" />
       <workItem from="1436957375686" duration="734000" />
+      <workItem from="1505546423543" duration="119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11727000" />
+    <option name="totallyTimeSpent" value="11846000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1370" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1440" height="806" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15878877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Byte Code Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329429" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="92" y="132" width="1182" height="544" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19887955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22460657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Byte Code Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="92" y="132" width="1182" height="544" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -539,74 +1156,122 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Operators.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Operators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+        <state relative-caret-position="1245">
+          <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ControlExecution.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ControlExecution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="75">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Concatenation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Concatenation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Operators.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Operators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ControlExecution.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ControlExecution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="0">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Concatenation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Concatenation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Operators.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Operators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ControlExecution.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ControlExecution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="0">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Concatenation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Concatenation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Operators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Concatenation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ControlExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ControlExecution.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Concatenation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -11,7 +11,9 @@
 <div class="container">
     <h1>Add a Todo</h1>
     <form:form method="post" commandName="todoTask"> <!--command object to be used - is set via controller
-        action removed as submit will just work as href added on task buttons-->
+        action removed as submit will just work as href added on task buttons
+    an object we want to bind to.
+-->
         <form:hidden path="id"/>
         <!--
         <form:hidden path="user"/>

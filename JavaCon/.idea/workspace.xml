@@ -6,344 +6,502 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="JSON IO using jackson classes added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/resources/sample_files/Emails.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/resources/sample_files/FF Report.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/resources/sample_files/may.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/designPatternsInJava.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/chainofresponsibility/AbstractDragonSlayerRepresentative.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/chainofresponsibility/DragonSlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/chainofresponsibility/DragonSlayerRepresentitive.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/chainofresponsibility/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/command/Command.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/command/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/command/TeleportKnightCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/mediator/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/mediator/MedevilPostOffice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/mediator/MediatorHolyKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/mediator/MediatorKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/memento/Caretaker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/memento/HolyKnightMemento.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/memento/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/memento/Memento.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/memento/MementoKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/nullobject/NullObjectKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/observer/ArmorObserver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/observer/KnightObserver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/observer/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/observer/Observer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/observer/ObserverHolyKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/ArmorResponseStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/GodlyArmorResponseStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/Strategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/StrategyHolyKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/StrategyKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/visitor/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/visitor/Visitor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/visitor/VisitorHolyKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/visitor/VisitorKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/abstractfactory/Factory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/abstractfactory/FactoryProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/abstractfactory/HolyFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/abstractfactory/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/abstractfactory/MajesticFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/builder/KnightBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/builder/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/factorymethod/Factory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/factorymethod/HolyFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/factorymethod/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/factorymethod/MajesticFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/prototype/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/prototype/PrototypeFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/singleton/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/singleton/SingletonKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/AbstractKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/HolyKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/Knight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/KnightFamily.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/KnightWeapon.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/MajesticKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/adapter/KnightAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/adapter/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/adapter/OldKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/composit/KnightArmy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/composit/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/decorator/KnightWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/decorator/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/privateclassdata/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/privateclassdata/PrivateHolyKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/proxy/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/proxy/MajesticKnightProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/sorting/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/sorting/sorting.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/sorting/src/main/java/BubbleSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/sorting/src/main/java/HeapSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/sorting/src/main/java/InsertionSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/sorting/src/main/java/MergeSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/sorting/src/main/java/QuickSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/sorting/src/main/java/SelectionSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/sorting/src/main/java/ShellSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/sorting/src/main/java/Sort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/sorting/src/test/java/BubbleSortTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Generics/src/main/java/SafeVarargsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/main/java/InterfaceWithPrivateMethods.java9" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpecialKeywords/src/main/java/ByteExpression.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpecialKeywords/src/main/java/FinalFamily.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpecialKeywords/src/main/java/InstanceFamily.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpecialKeywords/src/main/java/PrivateConstructorSingleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpecialKeywords/src/main/java/StaticConstructors.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpecialKeywords/src/main/java/StaticFamily.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/C_BasicSpringBoot_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/C_BasicSpringBoot_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/artifacts/jeeSimpleLogin_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/artifacts/jeeSimpleLogin_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/artifacts/springMVCSimpleLogin_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/artifacts/springMVCSimpleLogin_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__javax_javaee_api_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_test_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_webjars_bootstrap_4_0_0_beta.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_webjars_bootstrap_datepicker_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_webjars_jquery_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/basicsOfSpringBean.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/main/java/Knight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/main/java/KnightBeanPostProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/main/java/KnightConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/main/java/MajesticKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/test/java/MajesticKnightTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/config/PersistenceConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/repository/ShipwreckRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/db/migration/V2__create_shipwreck.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/AttendanceManagerApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/ServletInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/FileToByteArrayOutputStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/ObjectEmptyException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/exceltypematcher/ExcelFileType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/export/ExcelExportFileCreator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/ExcelReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/FileOperations.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/XLSReaderImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/XLSXReaderImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/factory/fileimportfactory/CreateSheet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/factory/fileimportfactory/JXLSSheetAndCell.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/factory/fileimportfactory/XLSSheetAndCell.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/factory/fileimportfactory/XLSXSheetAndCell.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/excel/read/factory/objectfillerfactory/FileObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/json/JsonIO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/json/JsonReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/json/JsonWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/api/pdf/export/PdfExportFileCreator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/controller/CoreControllerServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/controller/FileExportController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/controller/HomeController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/controller/LogoutServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/controller/SendEmailServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/controller/SignInServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/controller/UpdateRecordServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/entity/EmployeeBiometricDetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/entity/EmployeeDetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/entity/EmployeeSalesforceDetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/entity/attendence/Attendance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/entity/attendence/AttendanceOfADate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/entity/attendence/AttendanceOfLeave.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/EmployeeIDMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/FinalObjectModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/RevalIdComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/filebuilder/FileCreatorModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/filebuilder/MultipleRecordCreatorModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/filebuilder/MultipleRecordServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/filebuilder/SingleRecordCreatorModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/filebuilder/SingleRecordServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/logic/combine_logic/CombineFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/logic/combine_logic/CombineFileHelperUtility.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/logic/combine_logic/FinalObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/logic/combine_logic/MarkDiscrepancy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/logic/combine_logic/MarkDiscrepancyHelperUtility.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/mail/EmailHelperUtility.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/main/BackEndLogicHelperUtility.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/updateui/UpdateObjectWithUIEntries.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/upload/BiometricServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/upload/EmailListServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/upload/HolidayListUploadServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/model/upload/SalesforceServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/SheetFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/biometricdetails/AllEmployeeBiometricDetailList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/biometricdetails/BiometricFileToObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/biometricdetails/MapJasonToBiometricDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/empdetails/AllEmployeeDetailList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/empdetails/EmployeeDetailExcelToObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/empdetails/MapJsonToAllEmployeeDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/salesforce/AllEmployeeSalesforceDetailList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/salesforce/MapJasonToSalesforceDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/service/filereader/salesforce/SalesforceFileToObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/FileFolderWorker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/Serialize.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/StringIdToListOfIdMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/TimeManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/Version.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/constants/ProjectConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/constants/enums/AttendanceStatusType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/constants/enums/HolidaysList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/utility/constants/enums/LeaveType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/file_generator/excel/CreateMultiRecordExcel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/file_generator/excel/CreateSingleRecordExcel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/file_generator/excel/DataParserForExcel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/file_generator/pdf/CreateMultipleRecordPDF.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/file_generator/pdf/CreateSingleRecordPDF.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/file_generator/pdf/DataParserForPDF.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/file_generator/utils/FileCreatorModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/json_generators/AllEmployeeDetailsJson.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/json_generators/OnlyDiscrepancyDetailsJson.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/json_generators/PublicHolidayWorkerJson.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/view/json_generators/WeekendWorkerJson.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/viewmodel/HolidayWorkerModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/viewmodel/ListGeneratorModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/java/com/saurabh/viewmodel/WebJSONModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/AttendanceManagerApplicationTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/api/excel/exceltypematcher/ExcelFileTypeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/controller/main/CoreControllerServletTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/service/filereader/biometricdetails/BiometricFileToObjectTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/service/filereader/biometricdetails/MapJasonToBiometricDetailTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/service/filereader/empdetails/EmployeeDetailExcelToObjectTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/service/filereader/empdetails/MapJsonToAllEmployeeDetailTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../attendance_manager/src/test/java/com/saurabh/service/filereader/salesforce/SalesforceFileToObjectTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__com_h2database_h2_1_4_196.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_flywaydb_flyway_core_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_12_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_12_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_spring_orm_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_spring_test_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_spring_tx_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_spring_web_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../v1_dasboot/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/JAVA.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/ATM.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/kotlinc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_api_client_google_api_client_1_22_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_api_client_google_api_client_gson_1_22_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_code_gson_gson_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_firebase_firebase_admin_4_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_http_client_google_http_client_1_22_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_http_client_google_http_client_gson_1_22_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_http_client_google_http_client_jackson2_1_22_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_22_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_jetbrains_annotations_15_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_json_json_20160810.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_testng_testng_6_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/ATM.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/ATMHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/accounts/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/numpad/NumberPad.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/util/generator/DateUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/util/generator/FirebaseUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/util/generator/PINGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/util/generator/RandomNumberGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/resources/atmjava-firebase-admin.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/test/java/ATMDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/test/java/com/saurabh/atm/util/generator/FirebaseUtilTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/test/java/com/saurabh/atm/util/generator/PINGeneratorTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/atmjava-firebase-admin.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/ATM.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/ATMHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/accounts/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/numpad/NumberPad.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/DateUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/FirebaseUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/PINGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/RandomNumberGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/test-classes/ATMDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/test-classes/com/saurabh/atm/util/generator/FirebaseUtilTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/test-classes/com/saurabh/atm/util/generator/PINGeneratorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/A.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/B.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/C.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/CodeVita.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/D.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/E.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/F.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/G.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/H.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/Program.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/QuesD.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/bottles.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/futureSavings.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/penny.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/robot.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/robot2.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../CodeVita2016/waterFlow.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.vscode/settings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/dictionaries/Saurabh.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/MarsRoverProblem.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/src/MarsRover.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/src/MarsSol1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/MyIDE.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/out/production/MyIDE/MyEditor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/out/production/MyIDE/MyFocusListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/src/MyEditor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/src/MyEditor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/src/MyFocusListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/B_BasicSpringMVC_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/B_BasicSpringMVC_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/BasicLoginUsingJEEServlet_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/BasicLoginUsingJEEServlet_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/jeeSimpleLogin_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/jeeSimpleLogin_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/springMVCSimpleLogin_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/springMVCSimpleLogin_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/kotlinc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__javax_javaee_api_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_webjars_bootstrap_4_0_0_beta.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_webjars_bootstrap_datepicker_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_webjars_jquery_3_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/kotlinc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/A_BasicsOfSpring.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/firstSpringApp.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/src/main/java/SampleApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/src/main/java/com/saurabhk15/model/Customer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/src/main/java/com/saurabhk15/repository/CustomerRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/src/main/java/com/saurabhk15/repository/HibernateCustomerRepositoryImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/src/main/java/com/saurabhk15/service/CustomerService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/src/main/java/com/saurabhk15/service/CustomerServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/firstSpringAppAnnotationXmlConfiguration.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/SampleApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/model/Customer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/repository/CustomerRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/repository/HibernateCustomerRepositoryImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/service/CustomerService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/service/CustomerServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/resources/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithJavaConfiguration/firstSpringAppWithJavaConfiguration.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithJavaConfiguration/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithJavaConfiguration/src/main/java/AppConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithJavaConfiguration/src/main/java/SampleApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithJavaConfiguration/src/main/java/com/saurabhk15/model/Customer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithJavaConfiguration/src/main/java/com/saurabhk15/repository/CustomerRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithJavaConfiguration/src/main/java/com/saurabhk15/repository/HibernateCustomerRepositoryImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithJavaConfiguration/src/main/java/com/saurabhk15/service/CustomerService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithJavaConfiguration/src/main/java/com/saurabhk15/service/CustomerServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithXmlConfiguration/firstSpringAppWithXmlConfiguration.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithXmlConfiguration/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithXmlConfiguration/src/main/java/SampleApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithXmlConfiguration/src/main/java/com/saurabhk15/model/Customer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithXmlConfiguration/src/main/java/com/saurabhk15/repository/CustomerRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithXmlConfiguration/src/main/java/com/saurabhk15/repository/HibernateCustomerRepositoryImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithXmlConfiguration/src/main/java/com/saurabhk15/service/CustomerService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithXmlConfiguration/src/main/java/com/saurabhk15/service/CustomerServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithXmlConfiguration/src/main/resources/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/popertiesInJavaSpringConfiguration.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/src/main/java/AppConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/src/main/java/SampleApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/src/main/java/com/saurabhk15/model/Customer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/src/main/java/com/saurabhk15/repository/CustomerRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/src/main/java/com/saurabhk15/repository/HibernateCustomerRepositoryImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/src/main/java/com/saurabhk15/service/CustomerService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/src/main/java/com/saurabhk15/service/CustomerServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/src/main/resources/app.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/propertiesInXMLSpringConfigApp.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/src/main/java/SampleApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/src/main/java/com/saurabhk15/model/Customer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/src/main/java/com/saurabhk15/repository/CustomerRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/src/main/java/com/saurabhk15/repository/HibernateCustomerRepositoryImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/src/main/java/com/saurabhk15/service/CustomerService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/src/main/java/com/saurabhk15/service/CustomerServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/src/main/resources/app.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/src/main/resources/applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/scopeForSpringSingletonApp.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/src/main/java/AppConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/src/main/java/SampleApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/src/main/java/com/saurabhk15/model/Customer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/src/main/java/com/saurabhk15/repository/CustomerRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/src/main/java/com/saurabhk15/repository/HibernateCustomerRepositoryImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/src/main/java/com/saurabhk15/service/CustomerService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/src/main/java/com/saurabhk15/service/CustomerServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/B_BasicSpringMVC.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/.jsdtscope" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.common.component" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.validation.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/jeeSimpleLogin.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/src/main/java/webapp/LoginService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/src/main/java/webapp/LoginServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/src/main/webapp/WEB-INF/views/login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/src/main/webapp/WEB-INF/views/welcome.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/pom.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/springMVCSimpleLogin.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/java/springmvc/login/controller/LoginController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/java/springmvc/login/service/LoginService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/java/springmvc/todotask/controller/TodoTaskController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/java/springmvc/todotask/model/TodoTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/java/springmvc/todotask/service/TodoTaskService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/resources/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/todo-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/common/footer.jspf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/common/header.jspf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/common/navigation.jspf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/todo.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/todoTasks.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/welcome.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/mvnw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/mvnw.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/GmailSendMailApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/SimpleEmailController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/SimpleEmailController2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/SimpleEmailController3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/SimpleEmailController4.java.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/SimpleEmailController5.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/resources/static/img/cat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/resources/templates/welcome.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/resources/templates/welcomev.vm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/test/java/com/saurabh/GmailSendMailApplicationTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/mvnw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/mvnw.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/V1DasbootApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/controller/HomeController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/controller/ShipwreckController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/controller/ShipwreckStub.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/model/Shipwreck.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/application-prod.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/application-test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/css/style.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/images/shipwreck.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/js/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/js/nav-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/js/services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/angular/css/angular-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/angular/js/angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/angular/js/angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/angular/js/angular-animate.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/angular/js/angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/angular/js/angular-resource.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/angular/js/angular-resource.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/angular/js/angular-ui-bootstrap-tpls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/angular/js/angular-ui-bootstrap-tpls.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/angular/js/angular-ui-bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/angular/js/angular-ui-bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/angular/js/angular-ui-bootstrap.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/angular/js/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/angular/js/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/angular/js/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/angular/js/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/assets/js/ie10-viewport-bug-workaround.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/html5shiv/html5shiv-printshiv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/html5shiv/html5shiv-printshiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/html5shiv/html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/html5shiv/html5shiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/jquery/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/jquery/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/require/require.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/respond/respond.matchmedia.addListener.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/respond/respond.matchmedia.addListener.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/respond/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/lib/respond/respond.src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/views/_form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/views/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/views/shipwreck-add.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/views/shipwreck-edit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/views/shipwreck-view.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/public/views/shipwrecks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/test/java/com/saurabh/V1DasbootApplicationTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/mvnw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/mvnw.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/java/com/saurabh/ExcelPdfCsvFileGeneratorApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/java/com/saurabh/config/WebConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/java/com/saurabh/controller/ExportController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/java/com/saurabh/controller/Rest/HomeController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/java/com/saurabh/model/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/java/com/saurabh/service/UserService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/java/com/saurabh/utils/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/java/com/saurabh/view/AbstractCsvView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/java/com/saurabh/view/AbstractPdfView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/java/com/saurabh/view/AbstractXlsxView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/java/com/saurabh/view/CsvView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/java/com/saurabh/view/ExcelView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/java/com/saurabh/view/PdfView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/java/com/saurabh/viewResolver/CsvViewResolver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/java/com/saurabh/viewResolver/ExcelViewResolver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/java/com/saurabh/viewResolver/PdfViewResolver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/test/java/com/saurabh/ExcelPdfCsvFileGeneratorApplicationTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/test/java/com/saurabh/utils/UtilsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/mvnw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/mvnw.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/V4AngularDataDisplayApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/api/json/JsonIO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/api/json/JsonReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/api/json/JsonWriter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/controllers/HomeController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/entity/AllEmpDetails.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/entity/EmployeeDetails.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/repository/JsonForCompany.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/repository/MockRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/service/EmployeeReadService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/service/EmployeeReadServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/resources/data_mock/Emails.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/test/java/com/saurabh/V4AngularDataDisplayApplicationTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/test/java/com/saurabh/repository/MockRepositoryTest.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/demo/.idea/vcs.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/ATM.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/ATM.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/ATMHelper.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/ATMHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/accounts/User.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/accounts/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/numpad/NumberPad.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/numpad/NumberPad.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/DateUtil.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/DateUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/FirebaseUtil.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/FirebaseUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/PINGenerator.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/PINGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/RandomNumberGenerator.class" afterPath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/RandomNumberGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/test-classes/ATMDemo.class" afterPath="$PROJECT_DIR$/../ATM/target/test-classes/ATMDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/test-classes/com/saurabh/atm/util/generator/FirebaseUtilTest.class" afterPath="$PROJECT_DIR$/../ATM/target/test-classes/com/saurabh/atm/util/generator/FirebaseUtilTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ATM/target/test-classes/com/saurabh/atm/util/generator/PINGeneratorTest.class" afterPath="$PROJECT_DIR$/../ATM/target/test-classes/com/saurabh/atm/util/generator/PINGeneratorTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../Interview/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Interview/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/pom.xml" afterPath="$PROJECT_DIR$/../Interview/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generics/README.md" afterPath="$PROJECT_DIR$/Generics/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/misc.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/misc.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/modules.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/firstSpringAppAnnotationXmlConfiguration.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/firstSpringAppAnnotationXmlConfiguration.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/repository/HibernateCustomerRepositoryImpl.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/repository/HibernateCustomerRepositoryImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/service/CustomerServiceImpl.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/service/CustomerServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/popertiesInJavaSpringConfiguration.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/popertiesInJavaSpringConfiguration.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/propertiesInXMLSpringConfigApp.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/propertiesInXMLSpringConfigApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/src/main/resources/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/scopeForSpringSingletonApp.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/scopeForSpringSingletonApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/B_BasicSpringMVC.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/B_BasicSpringMVC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.classpath" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/jeeSimpleLogin.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/jeeSimpleLogin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/pom.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/todo.jsp" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/todo.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/pom.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/controller/ShipwreckController.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/controller/ShipwreckController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/model/Shipwreck.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/model/Shipwreck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/application.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Break the Java Generics Naming Convention_ • Java.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Java 8 Method Reference_ How to Use it _ Codementor.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Late Night Java by Koray Tugay_ Hello world web application with Maven + Java + Servlets + Tomcat + IntelliJ.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Should I explicitly declare serialVersionUID_ • Java.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Singleton Pattern Pitfalls • Design Patterns.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Telescoping Constructor Pattern alternatives • Java.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Understanding C# Delegates The Easy Way _ Part 1 (Basics) _ Codementor.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Understanding C# Delegates The Easy Way _ Part 2 (Anonymous Methods) _ Codementor.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Hamcrest/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Hamcrest/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Hamcrest/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Hamcrest/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Hamcrest/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/JunitBasics/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/JunitBasics/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/JunitBasics/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/JunitBasics/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/JunitBasics/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/ManualStubTesting/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/ManualStubTesting/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/ManualStubTesting/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/ManualStubTesting/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/ManualStubTesting/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Mockito/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Mockito/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Mockito/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Mockito/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/Mockito/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/PluralSight/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/PluralSight/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/PluralSight/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/PluralSight/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/PluralSight/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/TestDrivenDevelopment/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/TestDrivenDevelopment/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/TestDrivenDevelopment/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/TestDrivenDevelopment/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Testing/TestDrivenDevelopment/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/ThinkingInJava.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/out/production/ThinkingInJava/Concatenation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/out/production/ThinkingInJava/ControlExecution.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/out/production/ThinkingInJava/Operators.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/src/Concatenation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/src/Concatenation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/src/ControlExecution.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/src/ControlExecution.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/src/Operators.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/src/Operators.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Testing/README.md" afterPath="$PROJECT_DIR$/../Testing/README.md" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -417,32 +575,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collections/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ByteExpression.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/main/java/ByteExpression.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StaticFamily.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/main/java/StaticFamily.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#874#875#0" expanded="false" />
+                <element signature="e#904#905#0" expanded="false" />
+                <element signature="e#3189#3190#0" expanded="false" />
+                <element signature="e#3223#3224#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -450,9 +593,19 @@
       <file leaf-file-name="FinalFamily.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/main/java/FinalFamily.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
+            <state relative-caret-position="2295">
               <caret line="163" column="1" lean-forward="false" selection-start-line="163" selection-start-column="1" selection-end-line="163" selection-end-column="1" />
-              <folding />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="e#2295#2296#0" expanded="false" />
+                <element signature="e#2357#2358#0" expanded="false" />
+                <element signature="e#2712#2713#0" expanded="false" />
+                <element signature="e#2763#2764#0" expanded="false" />
+                <element signature="e#2793#2794#0" expanded="false" />
+                <element signature="e#2850#2851#0" expanded="false" />
+                <element signature="e#3284#3285#0" expanded="false" />
+                <element signature="e#3337#3338#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -462,7 +615,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-              <folding />
+              <folding>
+                <element signature="e#140#141#0" expanded="false" />
+                <element signature="e#159#160#0" expanded="false" />
+                <element signature="e#288#289#0" expanded="false" />
+                <element signature="e#324#325#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -472,7 +630,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#0#3871#0" expanded="false" />
+                <element signature="e#2933#2934#0" expanded="false" />
+                <element signature="e#2985#2986#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -482,19 +644,31 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-              <folding />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SafeVarargsTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SafeVarargsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generics/src/main/java/SafeVarargsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -503,8 +677,8 @@
         <entry file="file://$PROJECT_DIR$/Generics/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="336">
-                <caret line="96" column="134" lean-forward="false" selection-start-line="96" selection-start-column="134" selection-end-line="96" selection-end-column="134" />
+              <first_editor relative-caret-position="1440">
+                <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -571,8 +745,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Saurabh Kumar &lt;saurabhk15@outlook.com&gt;" />
         <option value="Saurabh Kumar &lt;saurabhk1511@gmail.com&gt;" />
+        <option value="Saurabh Kumar &lt;saurabhk15@outlook.com&gt;" />
         <option value="Saurabh" />
         <option value="Saurab" />
       </list>
@@ -591,7 +765,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/visitor/AtvPartVisitor.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/parts/AtvPart.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/visitor/AtvPartsShippingVisitor.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/c_behavioral/k_visitor/visitor/VisitorDemo.java" />
@@ -642,6 +815,7 @@
         <option value="$PROJECT_DIR$/SpecialKeywords/src/main/java/SafeVarargsTest.java" />
         <option value="$PROJECT_DIR$/Generics/README.md" />
         <option value="$PROJECT_DIR$/Generics/src/main/java/SafeVarargsTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -689,7 +863,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="813" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -728,7 +902,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -752,86 +925,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SpecialKeywords" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpecialKeywords" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpecialKeywords" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpecialKeywords" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Generics" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -839,6 +932,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -879,6 +973,7 @@
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/JDBC" />
     <property name="last.edited.regexp" value="" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -1655,7 +1750,10 @@
       <workItem from="1504326257057" duration="7671000" />
       <workItem from="1504355172012" duration="121000" />
       <workItem from="1504975228874" duration="5591000" />
-      <workItem from="1505050325481" duration="2716000" />
+      <workItem from="1505050325481" duration="2896000" />
+      <workItem from="1505176277657" duration="1228000" />
+      <workItem from="1505179982016" duration="26000" />
+      <workItem from="1505545837639" duration="52000" />
     </task>
     <task id="LOCAL-00001" summary="Java Commit&#10;">
       <created>1440921977733</created>
@@ -1923,7 +2021,21 @@
       <option name="project" value="LOCAL" />
       <updated>1505007524691</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="generics safeargs">
+      <created>1505053407645</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1505053407645</updated>
+    </task>
+    <task id="LOCAL-00040" summary="cleanup with gitignore &amp; git rm -r -f --cached .">
+      <created>1505177458477</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1505177458477</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1959,7 +2071,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="437424000" />
+    <option name="totallyTimeSpent" value="438910000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1971,32 +2083,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="813" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="806" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3198324" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29126215" sideWeight="0.5114449" order="14" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28991598" sideWeight="0.5143061" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29126215" sideWeight="0.48569384" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29126215" sideWeight="0.48855507" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30472103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31759655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3231623" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24821173" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39664805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2006,11 +2116,13 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.49427754" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31900138" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3231623" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2032,8 +2144,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Java Commit&#10;" />
-    <MESSAGE value="Java Commit&#10;ArrayList Completed&#10;Iterators&#10;Vector" />
     <MESSAGE value="Innerclass Thinking in java code updates&#10;LinkList Node to inner Node [np difference in  execution]" />
     <MESSAGE value="Link list modification" />
     <MESSAGE value="Map&#10;HashMap&#10;Hashtable&#10;ConcurrentHashMap&#10;WeakHashMap" />
@@ -2057,7 +2167,9 @@
     <MESSAGE value="Moved Unit Testing module to Testing Project" />
     <MESSAGE value="updated to maven" />
     <MESSAGE value="JSON IO using jackson classes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSON IO using jackson classes added" />
+    <MESSAGE value="generics safeargs" />
+    <MESSAGE value="cleanup with gitignore &amp; git rm -r -f --cached ." />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup with gitignore &amp; git rm -r -f --cached ." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2073,20 +2185,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/nio/charset/Charset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-671">
-          <caret line="270" column="22" lean-forward="false" selection-start-line="270" selection-start-column="22" selection-end-line="270" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5-sources.jar!/org/apache/commons/io/FileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="1761" column="69" lean-forward="false" selection-start-line="1761" selection-start-column="69" selection-end-line="1761" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JsonIO/src/main/java/com/saurabh/utils/JsonIO.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -2123,7 +2221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2138,7 +2235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2146,10 +2242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-          <folding>
-            <element signature="e#497#541#0" expanded="true" />
-            <element signature="e#1098#1125#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2230,6 +2322,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2344,7 +2437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2353,29 +2445,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="150">
             <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-            <folding>
-              <marker date="1505050211000" expanded="true" signature="283:446" ph="{...}" />
-              <marker date="1505050211000" expanded="true" signature="317:327" ph=" { " />
-              <marker date="1505050211000" expanded="true" signature="357:363" ph=" }" />
-              <marker date="1505050211000" expanded="false" signature="395:405" ph=" { " />
-              <marker date="1505050211000" expanded="false" signature="434:440" ph=" }" />
-              <marker date="1505050211000" expanded="true" signature="492:702" ph="{...}" />
-              <marker date="1505050211000" expanded="true" signature="538:700" ph="{...}" />
-              <marker date="1505050211000" expanded="true" signature="903:1033" ph="{...}" />
-              <marker date="1505050211000" expanded="false" signature="1065:1075" ph=" { " />
-              <marker date="1505050211000" expanded="false" signature="1114:1120" ph=" }" />
-              <marker date="1505050211000" expanded="true" signature="3241:3358" ph="/**...*/" />
-              <marker date="1505050211000" expanded="true" signature="3422:3487" ph="/**...*/" />
-              <marker date="1505050211000" expanded="true" signature="3529:3720" ph="{...}" />
-              <marker date="1505050211000" expanded="true" signature="3725:3798" ph="/**...*/" />
-              <marker date="1505050211000" expanded="true" signature="3842:4045" ph="{...}" />
-              <marker date="1505050211000" expanded="true" signature="4050:4118" ph="/**...*/" />
-              <marker date="1505050211000" expanded="true" signature="4163:4363" ph="{...}" />
-              <marker date="1505050211000" expanded="true" signature="4368:4529" ph="/**...*/" />
-              <marker date="1505050211000" expanded="true" signature="4579:4775" ph="{...}" />
-              <marker date="1505050211000" expanded="true" signature="4780:4884" ph="/**...*/" />
-              <marker date="1505050211000" expanded="true" signature="4956:5468" ph="{...}" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -2385,7 +2454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2393,7 +2461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="44" column="1" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2401,15 +2468,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#874#875#0" expanded="false" />
+            <element signature="e#904#905#0" expanded="false" />
+            <element signature="e#3189#3190#0" expanded="false" />
+            <element signature="e#3223#3224#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/main/java/FinalFamily.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
+        <state relative-caret-position="2295">
           <caret line="163" column="1" lean-forward="false" selection-start-line="163" selection-start-column="1" selection-end-line="163" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#2295#2296#0" expanded="false" />
+            <element signature="e#2357#2358#0" expanded="false" />
+            <element signature="e#2712#2713#0" expanded="false" />
+            <element signature="e#2763#2764#0" expanded="false" />
+            <element signature="e#2793#2794#0" expanded="false" />
+            <element signature="e#2850#2851#0" expanded="false" />
+            <element signature="e#3284#3285#0" expanded="false" />
+            <element signature="e#3337#3338#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2417,7 +2499,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
+          <folding>
+            <element signature="e#140#141#0" expanded="false" />
+            <element signature="e#159#160#0" expanded="false" />
+            <element signature="e#288#289#0" expanded="false" />
+            <element signature="e#324#325#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2425,7 +2512,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#3871#0" expanded="false" />
+            <element signature="e#2933#2934#0" expanded="false" />
+            <element signature="e#2985#2986#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2433,7 +2524,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2448,8 +2541,8 @@
     <entry file="file://$PROJECT_DIR$/Generics/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="336">
-            <caret line="96" column="134" lean-forward="false" selection-start-line="96" selection-start-column="134" selection-end-line="96" selection-end-column="134" />
+          <first_editor relative-caret-position="1440">
+            <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -2458,11 +2551,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Generics/src/main/java/SafeVarargsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/JavaDS/LinkedListJava.class" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

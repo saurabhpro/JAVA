@@ -1,17 +1,24 @@
 package com.saurabh.model;
 
-public class Shipwreck {
-	private Long id;
-	private String name;
-	private String description;
-	private String condition;
-	private Integer depth;
-	private Double latitude;
-	private Double longitude;
-	private Integer yearDiscovered;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
-	public Shipwreck() {
-	}
+@Entity
+public class Shipwreck {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	Long id;
+	String name;
+	String description;
+	String condition;
+	Integer depth;
+	Double latitude;
+	Double longitude;
+	Integer yearDiscovered;
+
+	public Shipwreck() { }
 
 	public Shipwreck(Long id, String name, String description, String condition, Integer depth, Double latitude, Double longitude, Integer yearDiscovered) {
 		this.id = id;

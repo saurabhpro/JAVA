@@ -37,7 +37,7 @@ public class CustomerServiceImpl implements CustomerService {
 	 * <p>
 	 * autoWire="byName" needs variable name of bean to match the setter name "set"customerRepository
 	 * <p>
-	 * autoWire="byType" needs variable name of bean to match the setter name "set"customerRepository
+	 * autoWire="byType" needs variable type of bean to match the setter name "set"customerRepository
 	 *
 	 * @param customerRepository
 	 */

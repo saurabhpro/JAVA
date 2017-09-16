@@ -10,3 +10,6 @@ Since we are using gmail to send email, we need to enable "less secure access" o
 
 
 Less secure sign in option is required for Yahoo mail as well. This article contains configuration details for other email providers such as Yahoo mail, sendgrid and mailgun.
+
+
+http://javasampleapproach.com/spring-framework/spring-boot/configure-javamailsender-springboot
