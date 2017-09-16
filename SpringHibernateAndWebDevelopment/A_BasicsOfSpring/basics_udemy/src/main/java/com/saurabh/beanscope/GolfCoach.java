@@ -3,6 +3,7 @@ package com.saurabh.beanscope;
 import com.saurabh.constructorbean.Coach;
 import com.saurabh.udemycoach.FortuneService;
 
+
 public class GolfCoach implements Coach {
 
 	private FortuneService fortuneService;

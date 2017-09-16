@@ -1,7 +1,7 @@
-package com.saurabhk15.service;
+package com.saurabh.service;
 
-import com.saurabhk15.model.Customer;
-import com.saurabhk15.repository.CustomerRepository;
+import com.saurabh.model.Customer;
+import com.saurabh.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

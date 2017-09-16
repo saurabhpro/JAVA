@@ -1,4 +1,4 @@
-package saurabh.basicannotate;
+package com.saurabh.basicannotate;
 
 import org.springframework.stereotype.Component;
 

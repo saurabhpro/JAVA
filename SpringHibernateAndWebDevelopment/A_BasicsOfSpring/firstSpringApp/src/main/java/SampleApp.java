@@ -1,5 +1,5 @@
-import com.saurabhk15.service.CustomerService;
-import com.saurabhk15.service.CustomerServiceImpl;
+import com.saurabh.service.CustomerService;
+import com.saurabh.service.CustomerServiceImpl;
 
 public class SampleApp {
 

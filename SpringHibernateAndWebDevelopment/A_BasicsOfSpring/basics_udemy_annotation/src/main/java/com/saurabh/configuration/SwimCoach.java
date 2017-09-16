@@ -1,7 +1,7 @@
-package saurabh.configuration;
+package com.saurabh.configuration;
 
-import saurabh.basicannotate.Coach;
-import saurabh.basicannotate.FortuneService;
+import com.saurabh.basicannotate.Coach;
+import com.saurabh.basicannotate.FortuneService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;

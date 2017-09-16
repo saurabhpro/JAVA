@@ -1,6 +1,6 @@
-package com.saurabhk15.service;
+package com.saurabh.service;
 
-import com.saurabhk15.model.Customer;
+import com.saurabh.model.Customer;
 
 import java.util.List;
 

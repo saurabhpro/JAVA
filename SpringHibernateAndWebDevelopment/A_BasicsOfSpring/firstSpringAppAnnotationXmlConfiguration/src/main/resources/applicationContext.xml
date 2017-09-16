@@ -10,6 +10,6 @@
 
     <context:annotation-config/> <!--  -->
 
-    <context:component-scan base-package="com.saurabhk15"/>
+    <context:component-scan base-package="com.saurabh"/>
 
 </beans>

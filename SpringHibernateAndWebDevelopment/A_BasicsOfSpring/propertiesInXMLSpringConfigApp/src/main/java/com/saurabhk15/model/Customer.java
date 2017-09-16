@@ -1,4 +1,4 @@
-package com.saurabhk15.model;
+package com.saurabh.model;
 
 public class Customer {
 	private String firstName;

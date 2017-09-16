@@ -1,6 +1,6 @@
-package saurabh.configuration;
+package com.saurabh.configuration;
 
-import saurabh.basicannotate.FortuneService;
+import com.saurabh.basicannotate.FortuneService;
 import org.springframework.stereotype.Component;
 
 /**

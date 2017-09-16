@@ -1,4 +1,4 @@
-package saurabh.basicannotate;
+package com.saurabh.basicannotate;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
@@ -6,10 +6,9 @@ import org.springframework.stereotype.Component;
 /**
  * Created by saurabhkumar on 02/04/17.
  */
-@Component
 public class MyApp1 {
 	public static void main(String[] args) {
-		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("src/main/resources/appConfig.xml");
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("appConfig.xml");
 
 		//using our specified id @Component ("basicId")
 		TennisCoach coach = context.getBean("basicId", TennisCoach.class);

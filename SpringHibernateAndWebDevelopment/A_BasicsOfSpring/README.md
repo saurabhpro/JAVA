@@ -8,12 +8,12 @@
 in application context. xml
 ```xml
 <bean name="customerService"
-          class="com.saurabhk15.service.CustomerServiceImpl"
+          class="com.saurabh.service.CustomerServiceImpl"
           autowire="byType"
           scope="prototype"
     >
 <bean name="customerRepository"
-    class="com.saurabhk15.repository.HibernateCustomerRepositoryImpl">
+    class="com.saurabh.repository.HibernateCustomerRepositoryImpl">
 
     <property name="dbUserName" value="${dBUserName}"/>
 </bean>
@@ -56,7 +56,7 @@ Here the appContext need only these two essentials
 ```xml
 <context:annotation-config/> <!--  -->
 
-<context:component-scan base-package="com.saurabhk15"/>
+<context:component-scan base-package="com.saurabh"/>
 ```
 and then use annotation in java impl classes
 ```java
@@ -88,7 +88,7 @@ a sample appConfig.java
 @Configuration
 
 // For Autowire :
-@ComponentScan({ /* array of packages to look in */ "com.saurabhk15"})
+@ComponentScan({ /* array of packages to look in */ "com.saurabh"})
 public class AppConfig {
 
 	// ``````````````this whole block can be removed since we Annotated both

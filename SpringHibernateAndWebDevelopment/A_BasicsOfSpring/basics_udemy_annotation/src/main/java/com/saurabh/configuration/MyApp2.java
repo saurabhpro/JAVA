@@ -1,6 +1,6 @@
-package saurabh.configuration;
+package com.saurabh.configuration;
 
-import saurabh.basicannotate.Coach;
+import com.saurabh.basicannotate.Coach;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**

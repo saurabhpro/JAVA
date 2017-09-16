@@ -1,4 +1,4 @@
-package saurabh.basicannotate;
+package com.saurabh.basicannotate;
 
 import org.springframework.stereotype.Component;
 
@@ -14,8 +14,7 @@ import java.util.Random;
 @Component
 public class FileFortuneService implements FortuneService {
 
-	// private String fileName = "C:/foobar/fortune-data.txt";
-	private String fileName = "src/main/resources/fortune-data.txt";
+	private String fileName = "basics_udemy_annotation/src/main/resources/fortune-data.txt";
 	private List<String> theFortunes;
 
 	// create a random number generator

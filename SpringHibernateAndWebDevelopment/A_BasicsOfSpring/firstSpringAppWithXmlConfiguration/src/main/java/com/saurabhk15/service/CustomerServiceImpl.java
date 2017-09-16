@@ -1,10 +1,10 @@
-package com.saurabhk15.service;
+package com.saurabh.service;
 
 import java.util.List;
 
-import com.saurabhk15.model.Customer;
-import com.saurabhk15.repository.CustomerRepository;
-import com.saurabhk15.repository.HibernateCustomerRepositoryImpl;
+import com.saurabh.model.Customer;
+import com.saurabh.repository.CustomerRepository;
+import com.saurabh.repository.HibernateCustomerRepositoryImpl;
 
 public class CustomerServiceImpl implements CustomerService {
 

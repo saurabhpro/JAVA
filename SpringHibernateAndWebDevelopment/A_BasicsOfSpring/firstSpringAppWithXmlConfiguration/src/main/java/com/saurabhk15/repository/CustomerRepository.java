@@ -1,8 +1,8 @@
-package com.saurabhk15.repository;
+package com.saurabh.repository;
 
 import java.util.List;
 
-import com.saurabhk15.model.Customer;
+import com.saurabh.model.Customer;
 
 public interface CustomerRepository {
 

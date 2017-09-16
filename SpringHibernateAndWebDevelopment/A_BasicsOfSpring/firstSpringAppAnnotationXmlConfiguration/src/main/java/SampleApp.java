@@ -1,4 +1,4 @@
-import com.saurabhk15.service.CustomerService;
+import com.saurabh.service.CustomerService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

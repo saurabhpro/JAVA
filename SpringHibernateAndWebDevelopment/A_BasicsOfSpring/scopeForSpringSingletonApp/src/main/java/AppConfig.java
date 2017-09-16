@@ -1,14 +1,14 @@
-import com.saurabhk15.repository.CustomerRepository;
-import com.saurabhk15.repository.HibernateCustomerRepositoryImpl;
-import com.saurabhk15.service.CustomerService;
-import com.saurabhk15.service.CustomerServiceImpl;
+import com.saurabh.repository.CustomerRepository;
+import com.saurabh.repository.HibernateCustomerRepositoryImpl;
+import com.saurabh.service.CustomerService;
+import com.saurabh.service.CustomerServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
 // For Autowire :
-@ComponentScan({ /* array of packages to look in */ "com.saurabhk15"})
+@ComponentScan({ /* array of packages to look in */ "com.saurabh"})
 public class AppConfig {
 
 	// ``````````````this whole block can be removed since we Annotataed both

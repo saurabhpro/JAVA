@@ -1,4 +1,4 @@
-package saurabh.configuration;
+package com.saurabh.configuration;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

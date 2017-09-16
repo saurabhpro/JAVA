@@ -1,4 +1,4 @@
-package saurabh.basicannotate;
+package com.saurabh.basicannotate;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -20,7 +20,7 @@ public class TennisCoach implements Coach {
 	//not recommended by spring team
 	@Autowired
 	@Qualifier("fileFortuneService")
-	FortuneService fortuneService;
+	private FortuneService fortuneService;
 
 	@Value("${foo.name}")
 	String name;

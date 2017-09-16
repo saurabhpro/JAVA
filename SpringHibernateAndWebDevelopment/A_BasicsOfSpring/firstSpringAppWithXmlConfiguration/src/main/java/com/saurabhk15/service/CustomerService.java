@@ -1,8 +1,8 @@
-package com.saurabhk15.service;
+package com.saurabh.service;
 
 import java.util.List;
 
-import com.saurabhk15.model.Customer;
+import com.saurabh.model.Customer;
 
 public interface CustomerService {
 

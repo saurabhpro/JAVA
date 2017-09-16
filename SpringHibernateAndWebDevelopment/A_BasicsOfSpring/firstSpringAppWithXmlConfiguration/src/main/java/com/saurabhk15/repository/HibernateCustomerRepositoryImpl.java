@@ -1,14 +1,14 @@
-package com.saurabhk15.repository;
+package com.saurabh.repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.saurabhk15.model.Customer;
+import com.saurabh.model.Customer;
 
 public class HibernateCustomerRepositoryImpl implements CustomerRepository {
 
 	/* (non-Javadoc)
-	 * @see com.saurabhk15.repository.CustomerRepository#findAll()
+	 * @see com.saurabh.repository.CustomerRepository#findAll()
 	 */
 	@Override
 	public List<Customer> findAll(){
