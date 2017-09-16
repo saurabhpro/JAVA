@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="jeeSimpleLogin:war">
-    <output-path>$PROJECT_DIR$/../B_BasicSpringMVC/jeeSimpleLogin/target</output-path>
-    <root id="archive" name="jeeSimpleLogin.war">
-      <element id="artifact" artifact-name="jeeSimpleLogin:war exploded" />
-    </root>
-  </artifact>
-</component>

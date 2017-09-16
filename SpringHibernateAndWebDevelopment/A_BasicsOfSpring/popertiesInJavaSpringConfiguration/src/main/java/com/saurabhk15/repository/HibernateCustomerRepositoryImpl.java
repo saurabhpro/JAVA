@@ -1,6 +1,6 @@
-package com.saurabhk15.repository;
+package com.saurabh.repository;
 
-import com.saurabhk15.model.Customer;
+import com.saurabh.model.Customer;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 
@@ -16,7 +16,7 @@ public class HibernateCustomerRepositoryImpl implements CustomerRepository {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.saurabhk15.repository.CustomerRepository#findAll()
+	 * @see com.saurabh.repository.CustomerRepository#findAll()
 	 */
 	@Override
 	public List<Customer> findAll() {

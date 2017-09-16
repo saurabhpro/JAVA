@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.saurabhk15</groupId>
+    <groupId>com.saurabh</groupId>
     <version>1.0-SNAPSHOT</version>
     <artifactId>B_BasicSpringMVC</artifactId>
     <packaging>pom</packaging>
@@ -11,6 +11,7 @@
     <modules>
         <module>jeeSimpleLogin</module>
         <module>springMVCSimpleLogin</module>
+        <module>simple_customer_forms</module>
     </modules>
 
     <dependencies>

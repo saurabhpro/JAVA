@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="BasicLoginUsingJEEServlet:war">
-    <output-path>$PROJECT_DIR$/B_BasicSpringMVC/BasicLoginUsingJEEServlet/target</output-path>
-    <root id="archive" name="BasicLoginUsingJEEServlet-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="BasicLoginUsingJEEServlet:war exploded" />
-    </root>
-  </artifact>
-</component>
