@@ -60,6 +60,7 @@
         <module>JavaDS</module>
         <module>IO</module>
         <module>JsonIO</module>
+        <module>Java8Optional</module>
 
     </modules>
 </project>

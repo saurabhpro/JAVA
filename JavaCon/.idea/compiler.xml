@@ -17,6 +17,7 @@
         <module name="Interfaces" />
         <module name="IO" />
         <module name="Java8Lambda" />
+        <module name="Java8Optional" />
         <module name="JavaDS" />
         <module name="JavaKathy" />
         <module name="JDBC" />
@@ -41,6 +42,7 @@
       <module name="Interfaces" target="1.8" />
       <module name="IO" target="1.8" />
       <module name="Java8Lambda" target="1.8" />
+      <module name="Java8Optional" target="1.8" />
       <module name="JavaCon" target="1.8" />
       <module name="JavaDS" target="1.8" />
       <module name="JavaKathy" target="1.8" />
