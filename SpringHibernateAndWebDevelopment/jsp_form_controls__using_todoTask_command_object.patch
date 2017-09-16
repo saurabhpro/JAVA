@@ -1,0 +1,94 @@
+Index: SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/java/springmvc/todotask/model/TodoTask.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/java/springmvc/todotask/model/TodoTask.java	(revision 51669fafc28da7adc72f28de59664b349c91219f)
++++ SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/java/springmvc/todotask/model/TodoTask.java	(revision )
+@@ -12,6 +12,9 @@
+ 	private Date targetDate;
+ 	private boolean isDone;
+ 
++	public TodoTask() {
++	}
++
+ 	public TodoTask(int id, String user, String desc, Date targetDate, boolean isDone) {
+ 		this.id = id;
+ 		this.user = user;
+Index: SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/java/springmvc/todotask/controller/TodoTaskController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/java/springmvc/todotask/controller/TodoTaskController.java	(revision 51669fafc28da7adc72f28de59664b349c91219f)
++++ SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/java/springmvc/todotask/controller/TodoTaskController.java	(revision )
+@@ -7,6 +7,7 @@
+ import org.springframework.web.bind.annotation.PostMapping;
+ import org.springframework.web.bind.annotation.RequestParam;
+ import org.springframework.web.bind.annotation.SessionAttributes;
++import springmvc.todotask.model.TodoTask;
+ import springmvc.todotask.service.TodoTaskService;
+ 
+ import java.util.Date;
+@@ -37,14 +38,22 @@
+ 		return "todoTasks";
+ 	}
+ 
++	/**
++	 * loads the add todo task page
++	 *
++	 * @return
++	 */
+ 	@GetMapping("/addTodoTask")
+-	public String showTodoPage() {
++	public String showTodoPage(ModelMap modelMap) {
++		modelMap.addAttribute("todoTask", new TodoTask(0, "Saurabh", "Default", new Date(), false));
+ 		return "todo";
+ 	}
+ 
+ 	@PostMapping(value = "/addTodoTask")
+-	public String addTodo(ModelMap model, @RequestParam String desc) {
+-		todoTaskService.addTodo((String) model.get("name"), desc, new Date(), false);
++	public String addTodo(ModelMap model,
++	                      //@RequestParam String desc //if you want more variables, baar baar likhna padta ...instead used pura object
++	                      TodoTask todoTask) {
++		todoTaskService.addTodo((String) model.get("name"), todoTask.getDesc(), new Date(), false);
+ 		model.clear();// to prevent request parameter "name" to be passed
+ 		return "redirect:todoTasks";
+ 	}
+Index: SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/todo.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/todo.jsp	(revision 51669fafc28da7adc72f28de59664b349c91219f)
++++ SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/todo.jsp	(revision )
+@@ -6,6 +6,7 @@
+   To change this template use File | Settings | File Templates.
+ --%>
+ <%@ page contentType="text/html;charset=UTF-8" language="java" %>
++<%@taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
+ <html>
+ <head>
+     <title>Add Todo Task</title>
+@@ -16,15 +17,16 @@
+ 
+ <div class="container">
+     <h1>Add a Todo</h1>
+-    <form action="${pageContext.request.contextPath}/addTodoTask" method="post">
++    <form:form action="${pageContext.request.contextPath}/addTodoTask" method="post"
++               commandName="todoTask"> <!--command object to be used-->
+ 
+         <fieldset class="form-group">
+-            <label>Description</label>
+-            <input name="desc" type="text" class="form-control" required="required"/>
++            <form:label path="desc">Description</form:label>
++            <form:input name="desc" type="text" class="form-control" required="required" path="desc"/>
+         </fieldset>
+ 
+         <button type="submit" class="btn btn-success">Add</button>
+-    </form>
++    </form:form>
+ </div>
+ 
+ 
