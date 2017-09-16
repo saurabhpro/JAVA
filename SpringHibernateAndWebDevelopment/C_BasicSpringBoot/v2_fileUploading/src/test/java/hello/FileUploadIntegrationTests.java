@@ -47,8 +47,8 @@ public class FileUploadIntegrationTests {
 				String.class);
 
 		assertThat(response.getStatusCode()).isEqualByComparingTo(HttpStatus.FOUND);
-		assertThat(response.getHeaders().getLocation().toString())
-				.startsWith("http://localhost:" + this.port + "/");
+		assertThat(response.getHeaders().getLocation().toString()).startsWith("http://localhost:" + this.port + "/");
+
 		then(storageService).should().store(any(MultipartFile.class));
 	}
 

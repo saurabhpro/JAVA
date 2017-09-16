@@ -6,7 +6,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.mail.MailException;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.mail.javamail.MimeMessagePreparator;
@@ -15,6 +14,17 @@ import org.springframework.stereotype.Service;
 import javax.mail.internet.MimeMessage;
 import java.util.HashMap;
 import java.util.Map;
+
+/**
+ * The send() method is overloaded and accepts several types of parameters:
+ * <p>
+ * SimpleMailMessage – As the name suggests this is a basic model of a mail message so only the most common properties can be assigned. It doesn’t allow modifying message headers and transports only plain text content.
+ * MimeMessage – Complex mail message model provided by javax.mail library.
+ * MimeMessagePreparator – An interface which provides a builder template method for MimeMessage and alleviates exception handling while creating an instance of the type. The official documentation (but also common sense :)) suggests MimeMessagePreparator as the preferred type for mail message building.
+ * The MimeMessageHelper class is a decorator for MimeMessage that provides more developer friendly interface and adds input validation for many properties of the class. You don’t have to use it, but you definitely won’t regret trying.
+ * <p>
+ * Note, that the send() method throws MailException which is a subclass of RuntimeException. In case of failure in message delivery, most likely you would like to repeat the send action or at least handle the unpleasant situation with some more sophisticated solution like … logging the error message with the corresponding stack trace.
+ */
 
 @Service
 public class MailServiceImpl implements MailService<ProductOrder> {
