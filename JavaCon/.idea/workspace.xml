@@ -6,33 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="JSON IO using jackson classes added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/Java 8 Optional use cases _ Daniel Olszewski about coding.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/Java8Optional.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/src/main/java/basicfeatures/OptionalBasicExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/src/main/java/basicfeatures/OptionalFilterExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/src/main/java/basicfeatures/OptionalIfPresentExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/src/main/java/basicfeatures/OptionalMapFlapMapExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/src/main/java/basicfeatures/OptionalOrElseExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/limited/ScreenResolution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/DisplayFeatures.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/Mobile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/MobileService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/MobileTesterWithOptional.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/without_optional/DisplayFeatures.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/without_optional/Mobile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/without_optional/MobileService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/without_optional/MobileTesterWithoutOptional.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/email_thymleaf/src/test/java/com/saurabh/service/MailServiceImplTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/Collections.iml" afterPath="$PROJECT_DIR$/Collections/Collections.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/email_thymleaf/pom.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/email_thymleaf/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/email_thymleaf/src/main/java/com/saurabh/service/MailServiceImpl.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/email_thymleaf/src/main/java/com/saurabh/service/MailServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v2_fileUploading/src/main/java/hello/FileUploadController.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v2_fileUploading/src/main/java/hello/FileUploadController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v2_fileUploading/src/test/java/hello/FileUploadIntegrationTests.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v2_fileUploading/src/test/java/hello/FileUploadIntegrationTests.java" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,131 +76,7 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ScreenResolution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/limited/ScreenResolution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="e#231#232#0" expanded="false" />
-                <element signature="e#250#251#0" expanded="false" />
-                <element signature="e#277#278#0" expanded="false" />
-                <element signature="e#297#298#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DisplayFeatures.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/without_optional/DisplayFeatures.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="56" />
-              <folding>
-                <element signature="e#346#347#0" expanded="false" />
-                <element signature="e#364#365#0" expanded="false" />
-                <element signature="e#409#410#0" expanded="false" />
-                <element signature="e#433#434#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mobile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/without_optional/Mobile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-              <folding>
-                <element signature="e#444#445#0" expanded="false" />
-                <element signature="e#460#461#0" expanded="false" />
-                <element signature="e#489#490#0" expanded="false" />
-                <element signature="e#508#509#0" expanded="false" />
-                <element signature="e#536#537#0" expanded="false" />
-                <element signature="e#554#555#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MobileService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/without_optional/MobileService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MobileTesterWithoutOptional.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/without_optional/MobileTesterWithoutOptional.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DisplayFeatures.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/DisplayFeatures.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding>
-                <element signature="e#391#392#0" expanded="false" />
-                <element signature="e#409#410#0" expanded="false" />
-                <element signature="e#463#464#0" expanded="false" />
-                <element signature="e#487#488#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mobile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/Mobile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="20" />
-              <folding>
-                <element signature="e#532#533#0" expanded="false" />
-                <element signature="e#548#549#0" expanded="false" />
-                <element signature="e#577#578#0" expanded="false" />
-                <element signature="e#596#597#0" expanded="false" />
-                <element signature="e#624#625#0" expanded="false" />
-                <element signature="e#642#643#0" expanded="false" />
-                <element signature="e#700#701#0" expanded="false" />
-                <element signature="e#729#730#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MobileService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/MobileService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MobileTesterWithOptional.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/MobileTesterWithOptional.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -295,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JsonIO/src/main/resources/student.json" />
         <option value="$PROJECT_DIR$/JsonIO/src/main/java/com/saurabh/model/StudentDetails.java" />
         <option value="$PROJECT_DIR$/JsonIO/src/main/java/com/saurabh/json/JsonReader.java" />
         <option value="$PROJECT_DIR$/JsonIO/src/main/java/com/saurabh/model/JsonToStudentDetailsMapper.java" />
@@ -346,6 +195,7 @@
         <option value="$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/without_optional/MobileTesterWithoutOptional.java" />
         <option value="$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/without_optional/MobileService.java" />
         <option value="$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/MobileService.java" />
+        <option value="$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/MobileTesterWithOptional.java" />
       </list>
     </option>
   </component>
@@ -528,10 +378,6 @@
               <option name="myItemId" value="onlineshopping" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="without_optional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -564,40 +410,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="with_optional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaCon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java8Optional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onlineshopping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="limited" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1443,7 +1255,7 @@
       <workItem from="1505551908837" duration="512000" />
       <workItem from="1505561733847" duration="321000" />
       <workItem from="1505579849909" duration="2771000" />
-      <workItem from="1505587873957" duration="89000" />
+      <workItem from="1505587873957" duration="788000" />
     </task>
     <task id="LOCAL-00001" summary="Java Commit&#10;">
       <created>1440921977733</created>
@@ -1775,7 +1587,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="442603000" />
+    <option name="totallyTimeSpent" value="443302000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1788,23 +1600,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="813" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31900138" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29126215" sideWeight="0.5200286" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29126215" sideWeight="0.47997138" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29126215" sideWeight="0.47997138" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23462088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23462088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24821173" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1821,7 +1633,6 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.49427754" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31900138" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
@@ -1881,15 +1692,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/MobileService.java</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2247,51 +2050,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/DisplayFeatures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="e#391#392#0" expanded="false" />
-            <element signature="e#409#410#0" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-            <element signature="e#487#488#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/Mobile.java">
+    <entry file="file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/MobileTesterWithOptional.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#532#533#0" expanded="false" />
-            <element signature="e#548#549#0" expanded="false" />
-            <element signature="e#577#578#0" expanded="false" />
-            <element signature="e#596#597#0" expanded="false" />
-            <element signature="e#624#625#0" expanded="false" />
-            <element signature="e#642#643#0" expanded="false" />
-            <element signature="e#700#701#0" expanded="false" />
-            <element signature="e#729#730#0" expanded="false" />
-          </folding>
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/MobileService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/MobileTesterWithOptional.java">
+    <entry file="file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/Mobile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        <state relative-caret-position="144">
+          <caret line="13" column="63" lean-forward="true" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java8Optional/src/main/java/onlineshopping/with_optional/DisplayFeatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,20 +1,17 @@
-package com.saurabh.stringconcat;
-/**
- * Created by Saurabh on 11/29/2015.
- */
+package com.saurabh.junit4legacy.basic;
 
-import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
+import static org.junit.runner.JUnitCore.runClasses;
 
-public class TestRunner2 {
+public class TestRunner {
 	public static void main(String[] args) {
-		Result result = JUnitCore.runClasses(TestAssertions.class);
+		Result result = runClasses(TestJunit.class);
+
 		for (Failure failure : result.getFailures()) {
 			System.out.println(failure.toString());
 		}
 		System.out.println(result.wasSuccessful());
 	}
 }
-

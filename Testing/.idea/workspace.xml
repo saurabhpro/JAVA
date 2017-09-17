@@ -2,248 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba31442-62af-4fef-b7a5-9df37d3a3dea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/Spring for dummies – pscode.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CodeVita2016/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../CodeVita2016/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_test_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/basicsOfSpringBean.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/main/java/Knight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/main/java/KnightBeanPostProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/main/java/KnightConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/main/java/MajesticKnight.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basicsOfSpringBean/src/test/java/MajesticKnightTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/READMe.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/java/com/saurabh/ServletInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/config/PersistenceConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/repository/ShipwreckRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/db/migration/V2__create_shipwreck.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_itextpdf_itextpdf_5_5_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__net_sf_supercsv_super_csv_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_apache_poi_poi_3_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_spring_test_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_spring_web_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/v3_excel_pdf_csv_download.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ThinkingInJava/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/ATM.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_api_client_google_api_client_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_api_client_google_api_client_gson_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_code_gson_gson_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_firebase_firebase_admin_4_1_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_http_client_google_http_client_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_http_client_google_http_client_gson_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_http_client_google_http_client_jackson2_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_22_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_jetbrains_annotations_15_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_json_json_20160810.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/ATM.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/ATMHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/accounts/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/numpad/NumberPad.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/util/generator/DateUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/util/generator/FirebaseUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/util/generator/PINGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/java/com/saurabh/atm/util/generator/RandomNumberGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/main/resources/atmjava-firebase-admin.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/test/java/ATMDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/test/java/com/saurabh/atm/util/generator/FirebaseUtilTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/src/test/java/com/saurabh/atm/util/generator/PINGeneratorTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/atmjava-firebase-admin.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/ATM.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/ATMHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/accounts/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/numpad/NumberPad.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/DateUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/FirebaseUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/PINGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/classes/com/saurabh/atm/util/generator/RandomNumberGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/test-classes/ATMDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/test-classes/com/saurabh/atm/util/generator/FirebaseUtilTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ATM/target/test-classes/com/saurabh/atm/util/generator/PINGeneratorTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.vscode/settings.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/dictionaries/Saurabh.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/MarsRoverProblem.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/src/MarsRover.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/src/MarsSol1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/MyIDE.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/out/production/MyIDE/MyEditor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/out/production/MyIDE/MyFocusListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/src/MyEditor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/src/MyEditor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../MyEditor/src/MyFocusListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/B_BasicSpringMVC_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/B_BasicSpringMVC_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/BasicLoginUsingJEEServlet_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/BasicLoginUsingJEEServlet_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/kotlinc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/.jsdtscope" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.common.component" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/.settings/org.eclipse.wst.validation.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/springMVCSimpleLogin.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/SimpleEmailController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/SimpleEmailController2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/SimpleEmailController3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/SimpleEmailController4.java.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/SimpleEmailController5.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/resources/static/img/cat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/resources/templates/welcome.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/resources/templates/welcomev.vm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/mvnw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/mvnw.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/src/test/java/com/saurabh/ExcelPdfCsvFileGeneratorApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/mvnw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/mvnw.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/V4AngularDataDisplayApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/api/json/JsonIO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/api/json/JsonReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/api/json/JsonWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/controllers/HomeController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/entity/AllEmpDetails.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/entity/EmployeeDetails.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/repository/JsonForCompany.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/repository/MockRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/service/EmployeeReadService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/java/com/saurabh/service/EmployeeReadServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/main/resources/data_mock/Emails.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/test/java/com/saurabh/V4AngularDataDisplayApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v4_angular_data_display/src/test/java/com/saurabh/repository/MockRepositoryTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/demo/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Break the Java Generics Naming Convention_ • Java.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Java 8 Method Reference_ How to Use it _ Codementor.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Late Night Java by Koray Tugay_ Hello world web application with Maven + Java + Servlets + Tomcat + IntelliJ.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Should I explicitly declare serialVersionUID_ • Java.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Singleton Pattern Pitfalls • Design Patterns.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Telescoping Constructor Pattern alternatives • Java.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Understanding C# Delegates The Easy Way _ Part 1 (Basics) _ Codementor.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Study Resources/Understanding C# Delegates The Easy Way _ Part 2 (Anonymous Methods) _ Codementor.pdf" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JUnit5 official doc.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestJunit5Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/junit5basics/StandardTests.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/saurabhkumar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_opencsv_opencsv_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_guava_0_9_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_3_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterPath="" />
@@ -253,113 +40,108 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Hamcrest/.settings/org.eclipse.core.resources.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Hamcrest/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Hamcrest/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hamcrest/target/classes/Using Hamcrest for testing - Tutorial.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hamcrest/target/classes/pluralsight/testing/ccd/Cafe.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hamcrest/target/classes/pluralsight/testing/ccd/Coffee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hamcrest/target/classes/pluralsight/testing/ccd/CoffeeType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hamcrest/target/test-classes/BasicHamcrestMatcherTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Hamcrest/target/test-classes/pluralsight/testing/ccd/CafeBeanHamcrestTest.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/JunitBasics/.classpath" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/JunitBasics/.project" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/JunitBasics/.settings/org.eclipse.core.resources.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/JunitBasics/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/JunitBasics/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JunitBasics/target/classes/com/saurabh/Java_Method_main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JunitBasics/target/classes/com/saurabh/student/Student.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JunitBasics/target/test-classes/com/saurabh/basic/TestJunit.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JunitBasics/target/test-classes/com/saurabh/basic/TestRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JunitBasics/target/test-classes/com/saurabh/stringconcat/TestAssertions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JunitBasics/target/test-classes/com/saurabh/stringconcat/TestRunner2.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/ManualStubTesting/.classpath" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/ManualStubTesting/.project" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/ManualStubTesting/.settings/org.eclipse.core.resources.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/ManualStubTesting/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/ManualStubTesting/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ManualStubTesting/target/classes/udemy/mociktoin28minutes/buisness/TodoBusinessImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ManualStubTesting/target/classes/udemy/mociktoin28minutes/data/api/TodoService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ManualStubTesting/target/test-classes/TodoBusinessImplStubTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ManualStubTesting/target/test-classes/TodoServiceStub.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mockito/.classpath" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mockito/.project" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mockito/.settings/org.eclipse.core.resources.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mockito/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Mockito/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mockito/target/classes/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mockito/target/classes/udemy/mociktoin28minutes/buisness/TodoBusinessImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mockito/target/classes/udemy/mociktoin28minutes/data/api/TodoService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mockito/target/test-classes/ListTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mockito/target/test-classes/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/.classpath" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/.project" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/.settings/org.eclipse.core.resources.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/Annotations.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/application-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/example-sales.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/common/DEFAULTS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/common/SalesAnalysisServiceBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/common/SalesReportBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/common/SalesReportPrinter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/common/SalesRepositoryBase.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/common/model/Sale.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/guiceDI/CsvSalesRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/guiceDI/GuiceSalesReportRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/guiceDI/SalesAnalysisService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/guiceDI/SalesModule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/guiceDI/SalesReport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/manualDI/CsvSalesRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/manualDI/SalesReport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/manualDI/SimpleReportRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/spring_xmlDI/CsvSalesRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/spring_xmlDI/SalesAnalysisService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/spring_xmlDI/SalesReport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/spring_xmlDI/SimpleReportRunnerSpring.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/spring_xmlDI/SpringXmlSalesReportRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/test-classes/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithHandWrittenStubTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/test-classes/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithHandWrittenStubTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/test-classes/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoMockTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/test-classes/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoStubTest.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/.classpath" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/.project" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/.settings/org.eclipse.core.resources.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/out/production/ThinkingInJava/Concatenation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/out/production/ThinkingInJava/ControlExecution.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ThinkingInJava/out/production/ThinkingInJava/Operators.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../.idea/JAVA.iml" afterPath="$PROJECT_DIR$/../CodeVita2016/.idea/CodeVita2016.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/compiler.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/encodings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/../CodeVita2016/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/kotlinc.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/kotlinc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_1_3.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_testng_testng_6_11.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_testng_testng_6_11.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ATM/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/misc.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../MarsRoverProblem/.idea/modules.xml" afterPath="$PROJECT_DIR$/../CodeVita2016/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/jeeSimpleLogin_war.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/artifacts/jeeSimpleLogin_war.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/jeeSimpleLogin_war_exploded.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/artifacts/jeeSimpleLogin_war_exploded.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/springMVCSimpleLogin_war.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/artifacts/springMVCSimpleLogin_war.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/artifacts/springMVCSimpleLogin_war_exploded.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/artifacts/springMVCSimpleLogin_war_exploded.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__javax_javaee_api_7_0.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__javax_javaee_api_7_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_webjars_bootstrap_4_0_0_beta.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_webjars_bootstrap_4_0_0_beta.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_webjars_bootstrap_datepicker_1_0_1.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_webjars_bootstrap_datepicker_1_0_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/.idea/libraries/Maven__org_webjars_jquery_3_2_1.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/libraries/Maven__org_webjars_jquery_3_2_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/.gitignore" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/.mvn/wrapper/maven-wrapper.jar" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/mvnw" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/mvnw" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/mvnw.cmd" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/mvnw.cmd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/main/java/com/saurabh/GmailSendMailApplication.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/java/com/saurabh/AttendanceMangerApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/gmail_send_mail/src/test/java/com/saurabh/GmailSendMailApplicationTests.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/test/java/com/saurabh/AttendanceMangerApplicationTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ThinkingInJava/src/Concatenation.class" afterPath="$PROJECT_DIR$/../ThinkingInJava/src/main/java/Concatenation.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ThinkingInJava/src/Concatenation.java" afterPath="$PROJECT_DIR$/../ThinkingInJava/src/main/java/Concatenation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ThinkingInJava/src/ControlExecution.class" afterPath="$PROJECT_DIR$/../ThinkingInJava/src/main/java/ControlExecution.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ThinkingInJava/src/ControlExecution.java" afterPath="$PROJECT_DIR$/../ThinkingInJava/src/main/java/ControlExecution.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ThinkingInJava/src/Operators.class" afterPath="$PROJECT_DIR$/../ThinkingInJava/src/main/java/Operators.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../ThinkingInJava/src/Operators.java" afterPath="$PROJECT_DIR$/../ThinkingInJava/src/main/java/Operators.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/misc.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/modules.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/repository/HibernateCustomerRepositoryImpl.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/repository/HibernateCustomerRepositoryImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/service/CustomerServiceImpl.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/src/main/java/com/saurabhk15/service/CustomerServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/popertiesInJavaSpringConfiguration.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/popertiesInJavaSpringConfiguration.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/src/main/resources/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/scopeForSpringSingletonApp.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/scopeForSpringSingletonApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/B_BasicSpringMVC.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/B_BasicSpringMVC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/jeeSimpleLogin.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/jeeSimpleLogin/jeeSimpleLogin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/todo.jsp" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/springMVCSimpleLogin/src/main/webapp/WEB-INF/views/todo.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/pom.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/controller/ShipwreckController.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/controller/ShipwreckController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/model/Shipwreck.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/java/com/saurabh/model/Shipwreck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v1_dasboot/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkingInJava/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../ThinkingInJava/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkingInJava/.idea/misc.xml" afterPath="$PROJECT_DIR$/../ThinkingInJava/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkingInJava/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../ThinkingInJava/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ThinkingInJava/ThinkingInJava.iml" afterPath="$PROJECT_DIR$/../ThinkingInJava/ThinkingInJava.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/target/classes/pluralsight/testing/TDD/Leap/LeapYear.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/target/classes/pluralsight/testing/TDD/wrap/WordWrap.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/target/test-classes/pluralsight/testing/TDD/Leap/LeapYearTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/target/test-classes/pluralsight/testing/TDD/wrap/WordWrapTest.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestTest.java" afterPath="$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestJunit4Test.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestJunit.java" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit4legacy/basic/TestJunit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestRunner.java" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit4legacy/basic/TestRunner.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/stringconcat/TestAssertions.java" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit4legacy/stringconcat/TestAssertions.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/stringconcat/TestRunner2.java" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit4legacy/stringconcat/TestRunner2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaCon/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hamcrest/Hamcrest.iml" afterPath="$PROJECT_DIR$/Hamcrest/Hamcrest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hamcrest/pom.xml" afterPath="$PROJECT_DIR$/Hamcrest/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java" afterPath="$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/JunitBasics.iml" afterPath="$PROJECT_DIR$/JunitBasics/JunitBasics.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/pom.xml" afterPath="$PROJECT_DIR$/JunitBasics/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManualStubTesting/ManualStubTesting.iml" afterPath="$PROJECT_DIR$/ManualStubTesting/ManualStubTesting.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManualStubTesting/pom.xml" afterPath="$PROJECT_DIR$/ManualStubTesting/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java" afterPath="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mockito/Mockito.iml" afterPath="$PROJECT_DIR$/Mockito/Mockito.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mockito/pom.xml" afterPath="$PROJECT_DIR$/Mockito/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PluralSight/PluralSight.iml" afterPath="$PROJECT_DIR$/PluralSight/PluralSight.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithHandWrittenStubTest.java" afterPath="$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithHandWrittenStubTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoMockTest.java" afterPath="$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoMockTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoStubTest.java" afterPath="$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoStubTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/TestDrivenDevelopment.iml" afterPath="$PROJECT_DIR$/TestDrivenDevelopment/TestDrivenDevelopment.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/src/test/java/pluralsight/testing/TDD/Leap/LeapYearTest.java" afterPath="$PROJECT_DIR$/TestDrivenDevelopment/src/test/java/pluralsight/testing/TDD/Leap/LeapYearTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/src/test/java/pluralsight/testing/TDD/wrap/WordWrapTest.java" afterPath="$PROJECT_DIR$/TestDrivenDevelopment/src/test/java/pluralsight/testing/TDD/wrap/WordWrapTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing.iml" afterPath="$PROJECT_DIR$/Testing.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -376,34 +158,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Java_Method_main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/Java_Method_main.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mockito/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="330">
+              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestJunit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestJunit.java">
+      <file leaf-file-name="SalesAnalysisServiceWithMockitoStubTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoStubTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="465">
+              <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -411,37 +191,95 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/student/Student.java">
+      <file leaf-file-name="WordWrapTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestDrivenDevelopment/src/test/java/pluralsight/testing/TDD/wrap/WordWrapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="165">
+              <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding>
-                <element signature="docComment;class#Student#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestRunner2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/stringconcat/TestRunner2.java">
+      <file leaf-file-name="LeapYearTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestDrivenDevelopment/src/test/java/pluralsight/testing/TDD/Leap/LeapYearTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="44" />
+            <state relative-caret-position="195">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestAssertions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/stringconcat/TestAssertions.java">
+      <file leaf-file-name="StandardTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/junit5basics/StandardTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="-3">
+              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalesAnalysisServiceWithHandWrittenStubTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithHandWrittenStubTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalesAnalysisServiceWithMockitoMockTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoMockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ManualStubTesting/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JunitBasics/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <marker date="1505609328000" expanded="true" signature="636:667" ph="..." />
               </folding>
             </state>
           </provider>
@@ -488,16 +326,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/manualDI/SimpleReportRunner.java" />
-        <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/GuiceSalesReportRunner.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Hamcrest/pom.xml" />
-        <option value="$PROJECT_DIR$/PluralSight/pom.xml" />
-        <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/spring_xmlDI/SimpleReportRunnerSpring.java" />
-        <option value="$PROJECT_DIR$/PluralSight/src/main/resources/application-context.xml" />
-        <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/common/DEFAULTS.java" />
-        <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/common/SalesAnalysisServiceBase.java" />
-        <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/common/SalesReportBase.java" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/common/SalesReportPrinter.java" />
         <option value="$PROJECT_DIR$/TestDrivenDevelopment/src/main/java/pluralsight/testing/TDD/wrap/WordWrap.java" />
         <option value="$PROJECT_DIR$/Mockito/src/main/java/mociktoin28minutes/data/api/TodoService.java" />
@@ -507,28 +335,20 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeTest.java" />
         <option value="$PROJECT_DIR$/Hamcrest/src/test/java/HamcrestMatcherTest.java" />
-        <option value="$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestTest.java" />
         <option value="$PROJECT_DIR$/Hamcrest/src/main/java/pluralsight/testing/ccd/Cafe.java" />
         <option value="$PROJECT_DIR$/ManualStubTesting/src/main/java/udemy/mociktoin28minutes/buisness/TodoBusinessImpl.java" />
-        <option value="$PROJECT_DIR$/ManualStubTesting/pom.xml" />
-        <option value="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java" />
         <option value="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoServiceStub.java" />
         <option value="$PROJECT_DIR$/Mockito/src/main/java/udemy/mociktoin28minutes/buisness/TodoBusinessImpl.java" />
         <option value="$PROJECT_DIR$/Mockito/src/main/java/udemy/mociktoin28minutes/data/api/TodoService.java" />
         <option value="$PROJECT_DIR$/Mockito/src/main/resources/README.md" />
-        <option value="$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithHandWrittenStubTest.java" />
-        <option value="$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoMockTest.java" />
-        <option value="$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoStubTest.java" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/SalesAnalysisService.java" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisService.java" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/manualDI/CsvSalesRepository.java" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/guiceDI/SalesReport.java" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/manualDI/SalesReport.java" />
         <option value="$PROJECT_DIR$/PluralSight/src/main/java/pluralsight/testing/csvsalesreport/spring_xmlDI/SalesReport.java" />
-        <option value="$PROJECT_DIR$/Mockito/pom.xml" />
         <option value="$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.java" />
         <option value="$PROJECT_DIR$/Mockito/src/test/java/ListTest.java" />
-        <option value="$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/main/java/TestJunit.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/Java_Method_main.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/TestJunit.java" />
@@ -539,6 +359,24 @@
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/TestJunit.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/TestRunner.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestRunner.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/junit5basics/StandardTests.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit4legacy/stringconcat/TestAssertions.java" />
+        <option value="$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java" />
+        <option value="$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestTest.java" />
+        <option value="$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestJunit4Test.java" />
+        <option value="$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestJunit5Test.java" />
+        <option value="$PROJECT_DIR$/Hamcrest/pom.xml" />
+        <option value="$PROJECT_DIR$/ManualStubTesting/pom.xml" />
+        <option value="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java" />
+        <option value="$PROJECT_DIR$/Mockito/pom.xml" />
+        <option value="$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithHandWrittenStubTest.java" />
+        <option value="$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoMockTest.java" />
+        <option value="$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoStubTest.java" />
+        <option value="$PROJECT_DIR$/TestDrivenDevelopment/src/test/java/pluralsight/testing/TDD/wrap/WordWrapTest.java" />
+        <option value="$PROJECT_DIR$/TestDrivenDevelopment/src/test/java/pluralsight/testing/TDD/Leap/LeapYearTest.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -557,36 +395,24 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Testing" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Testing" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="JunitBasics" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="JunitBasics" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="806" />
+    <option name="height" value="814" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -606,23 +432,63 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="junit5basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -631,7 +497,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -641,23 +507,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.saurabh" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ManualStubTesting/src/main/java" />
-      <recent name="$PROJECT_DIR$/Mockito/src/main/java" />
-      <recent name="$PROJECT_DIR$/PluralSight" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pluralsight.testing.ccd" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/JunitBasics/src/test/java" />
       <recent name="$PROJECT_DIR$/JunitBasics/src/test" />
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.saurabh" />
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ManualStubTesting/src/main/java" />
+      <recent name="$PROJECT_DIR$/Mockito/src/main/java" />
+      <recent name="$PROJECT_DIR$/PluralSight" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -672,15 +541,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BasicHamcrestMatcherTest.basicHamcrestMatcherExamplesTest">
-    <configuration default="false" name="ListTest.letsMockListGetWithMixedStubValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StandardTests">
+    <configuration name="BasicHamcrestMatcherTest.basicHamcrestMatcherExamplesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Mockito" />
+      <module name="Hamcrest" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListTest" />
-      <option name="METHOD_NAME" value="letsMockListGetWithMixedStubValues" />
+      <option name="MAIN_CLASS_NAME" value="BasicHamcrestMatcherTest" />
+      <option name="METHOD_NAME" value="basicHamcrestMatcherExamplesTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -692,17 +561,21 @@
       </option>
       <envs />
       <patterns />
-      <method />
     </configuration>
-    <configuration default="false" name="ListTest.letsMockListGetWithMixedStubValuesButHamcrested" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Mockito" />
+    <configuration name="CafeBeanHamcrestJunit5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pluralsight.testing.ccd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Hamcrest" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ListTest" />
-      <option name="METHOD_NAME" value="letsMockListGetWithMixedStubValuesButHamcrested" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="pluralsight.testing.ccd" />
+      <option name="MAIN_CLASS_NAME" value="pluralsight.testing.ccd.CafeBeanHamcrestJunit5Test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -713,9 +586,58 @@
       </option>
       <envs />
       <patterns />
-      <method />
     </configuration>
-    <configuration default="false" name="TodoBusinessImplMockitoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LeapYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pluralsight.testing.TDD.Leap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TestDrivenDevelopment" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="pluralsight.testing.TDD.Leap" />
+      <option name="MAIN_CLASS_NAME" value="pluralsight.testing.TDD.Leap.LeapYearTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="StandardTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="junit5basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JunitBasics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="junit5basics" />
+      <option name="MAIN_CLASS_NAME" value="junit5basics.StandardTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TodoBusinessImplMockitoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="udemy.mociktoin28minutes.buisness.*" />
@@ -739,43 +661,45 @@
       </option>
       <envs />
       <patterns />
-      <method />
     </configuration>
-    <configuration default="false" name="TodoBusinessImplMockitoTest.usingMockito_UsingBDD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="udemy.mociktoin28minutes.buisness.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Mockito" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="udemy.mociktoin28minutes.buisness" />
-      <option name="MAIN_CLASS_NAME" value="udemy.mociktoin28minutes.buisness.TodoBusinessImplMockitoTest" />
-      <option name="METHOD_NAME" value="usingMockito_UsingBDD" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
     </configuration>
-    <configuration default="false" name="BasicHamcrestMatcherTest.basicHamcrestMatcherExamplesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Hamcrest" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicHamcrestMatcherTest" />
-      <option name="METHOD_NAME" value="basicHamcrestMatcherExamplesTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -786,14 +710,58 @@
       </option>
       <envs />
       <patterns />
-      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Testing" />
+      <envs />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -848,29 +816,6 @@
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
@@ -967,27 +912,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
@@ -1023,19 +947,6 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Testing" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
@@ -1075,54 +986,9 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
       <envs />
       <method />
     </configuration>
@@ -1153,19 +1019,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ListTest.letsMockListGetWithMixedStubValues" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ListTest.letsMockListGetWithMixedStubValuesButHamcrested" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TodoBusinessImplMockitoTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TodoBusinessImplMockitoTest.usingMockito_UsingBDD" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BasicHamcrestMatcherTest.basicHamcrestMatcherExamplesTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TodoBusinessImplMockitoTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BasicHamcrestMatcherTest.basicHamcrestMatcherExamplesTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CafeBeanHamcrestJunit5Test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StandardTests" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LeapYearTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BasicHamcrestMatcherTest.basicHamcrestMatcherExamplesTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TodoBusinessImplMockitoTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TodoBusinessImplMockitoTest.usingMockito_UsingBDD" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ListTest.letsMockListGetWithMixedStubValuesButHamcrested" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ListTest.letsMockListGetWithMixedStubValues" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StandardTests" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LeapYearTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CafeBeanHamcrestJunit5Test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BasicHamcrestMatcherTest.basicHamcrestMatcherExamplesTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TodoBusinessImplMockitoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1186,6 +1052,8 @@
       <workItem from="1505173771883" duration="855000" />
       <workItem from="1505545754799" duration="28000" />
       <workItem from="1505546546025" duration="558000" />
+      <workItem from="1505609873472" duration="115000" />
+      <workItem from="1505610294373" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="Testing in Java">
       <created>1504350686526</created>
@@ -1240,23 +1108,23 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicHamcrestMatcherTest_basicHamcrestMatcherExamplesTest - 2017.09.03 at 00h 40m 09s.xml">
-      <configuration name="BasicHamcrestMatcherTest.basicHamcrestMatcherExamplesTest" configurationId="JUnit" />
+    <history-entry file="StandardTests - 2017.09.17 at 06h 39m 20s.xml">
+      <configuration name="StandardTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicHamcrestMatcherTest_basicHamcrestMatcherExamplesTest - 2017.09.03 at 00h 40m 45s.xml">
-      <configuration name="BasicHamcrestMatcherTest.basicHamcrestMatcherExamplesTest" configurationId="JUnit" />
+    <history-entry file="StandardTests - 2017.09.17 at 06h 42m 21s.xml">
+      <configuration name="StandardTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicHamcrestMatcherTest_basicHamcrestMatcherExamplesTest - 2017.09.03 at 00h 41m 56s.xml">
-      <configuration name="BasicHamcrestMatcherTest.basicHamcrestMatcherExamplesTest" configurationId="JUnit" />
+    <history-entry file="StandardTests - 2017.09.17 at 06h 42m 46s.xml">
+      <configuration name="StandardTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicHamcrestMatcherTest_basicHamcrestMatcherExamplesTest - 2017.09.03 at 00h 42m 17s.xml">
-      <configuration name="BasicHamcrestMatcherTest.basicHamcrestMatcherExamplesTest" configurationId="JUnit" />
+    <history-entry file="StandardTests - 2017.09.17 at 06h 42m 58s.xml">
+      <configuration name="StandardTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicHamcrestMatcherTest_basicHamcrestMatcherExamplesTest - 2017.09.03 at 00h 44m 43s.xml">
-      <configuration name="BasicHamcrestMatcherTest.basicHamcrestMatcherExamplesTest" configurationId="JUnit" />
+    <history-entry file="StandardTests - 2017.09.17 at 06h 44m 44s.xml">
+      <configuration name="StandardTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListTest_letsMockListGetWithMixedStubValuesButHamcrested - 2017.09.02 at 20h 25m 04s.xml">
-      <configuration name="ListTest.letsMockListGetWithMixedStubValuesButHamcrested" configurationId="JUnit" />
+    <history-entry file="StandardTests - 2017.09.17 at 06h 45m 03s.xml">
+      <configuration name="StandardTests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TodoBusinessImplMockitoTest - 2017.09.03 at 00h 32m 52s.xml">
       <configuration name="TodoBusinessImplMockitoTest" configurationId="JUnit" />
@@ -1272,47 +1140,47 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25476000" />
+    <option name="totallyTimeSpent" value="28378000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="806" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33053222" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962447" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33053222" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27110156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27825466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39944133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1338,65 +1206,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TestDrivenDevelopment/src/main/java/pluralsight/testing/TDD/wrap/WordWrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mockito/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/src/main/java/pluralsight/testing/ccd/Coffee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/src/main/java/pluralsight/testing/ccd/CoffeeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/src/main/java/pluralsight/testing/ccd/Cafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ManualStubTesting/src/main/java/udemy/mociktoin28minutes/data/api/TodoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1404,38 +1213,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ManualStubTesting/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ManualStubTesting/src/main/java/udemy/mociktoin28minutes/buisness/TodoBusinessImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
           <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoServiceStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1460,27 +1241,6 @@
             <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithHandWrittenStubTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoMockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoStubTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1610,13 +1370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mockito/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mockito/src/test/java/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1624,24 +1377,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="69" column="48" lean-forward="false" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8595">
           <caret line="593" column="38" lean-forward="false" selection-start-line="593" selection-start-column="23" selection-end-line="593" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1653,59 +1392,198 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/student/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="docComment;class#Student#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/Java_Method_main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/stringconcat/TestRunner2.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit4legacy/basic/TestJunit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit4legacy/basic/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/student/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit4legacy/stringconcat/TestAssertions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/stringconcat/TestAssertions.java">
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit4legacy/stringconcat/TestRunner2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestJunit.java">
+    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestJunit4Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestJunit5Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="128" column="76" lean-forward="false" selection-start-line="128" selection-start-column="76" selection-end-line="128" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoServiceStub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hamcrest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestRunner.java">
+    <entry file="file://$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="291">
+          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mockito/src/test/java/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManualStubTesting/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mockito/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithHandWrittenStubTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoMockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoStubTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDrivenDevelopment/src/test/java/pluralsight/testing/TDD/wrap/WordWrapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDrivenDevelopment/src/test/java/pluralsight/testing/TDD/Leap/LeapYearTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1505609328000" expanded="true" signature="636:667" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/junit5basics/StandardTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1761,7 +1639,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|PluralSight</last-edited>
+          <last-edited>JunitBasics</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

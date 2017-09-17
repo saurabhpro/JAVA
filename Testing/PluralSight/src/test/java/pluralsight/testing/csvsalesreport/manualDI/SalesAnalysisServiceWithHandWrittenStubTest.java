@@ -1,6 +1,6 @@
 package pluralsight.testing.csvsalesreport.manualDI;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import pluralsight.testing.csvsalesreport.common.SalesRepositoryBase;
 import pluralsight.testing.csvsalesreport.common.model.Sale;
 
@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SalesAnalysisServiceWithHandWrittenStubTest {
 
@@ -47,7 +47,7 @@ public class SalesAnalysisServiceWithHandWrittenStubTest {
 		Map<String, Integer> storeSales = analysisService.tallyStoreSales();
 
 		// then
-		assertEquals("Calculated wrong store sales", expectedStoreSales, storeSales);
+		assertEquals(expectedStoreSales, storeSales, "Calculated wrong store sales");
 	}
 
 }

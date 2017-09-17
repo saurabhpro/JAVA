@@ -1,4 +1,4 @@
-package com.saurabh.stringconcat;
+package com.saurabh.junit4legacy.stringconcat;
 
 import org.junit.Test;
 

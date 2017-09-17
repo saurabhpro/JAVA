@@ -10,7 +10,7 @@ import static org.junit.Assert.assertThat;
 import static pluralsight.testing.ccd.CoffeeType.Espresso;
 import static pluralsight.testing.ccd.CoffeeType.Latte;
 
-public class CafeBeanHamcrestTest {
+public class CafeBeanHamcrestJunit4Test {
 
 	private static final int ESPRESSO_BEANS = Espresso.getRequiredBeans();
 	private static final int NO_MILK = 0;

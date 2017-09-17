@@ -1,4 +1,4 @@
-package com.saurabh.basic;
+package com.saurabh.junit4legacy.basic;
 
 import org.junit.Test;
 

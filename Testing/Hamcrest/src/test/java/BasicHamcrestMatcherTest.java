@@ -1,14 +1,14 @@
 import org.hamcrest.Matchers;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.assertNotEquals;
-import static org.junit.Assert.assertThat;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 
 public class BasicHamcrestMatcherTest {
@@ -29,7 +29,7 @@ public class BasicHamcrestMatcherTest {
 		Integer[] marks = {1, 2, 3};
 
 		assertThat(marks, arrayWithSize(3));
-		assertNotEquals("All items of array not compared", marks, arrayContaining(1, 2));    //order must be same
+		assertNotEquals(marks, arrayContaining(1, 2), "All items of array not compared");    //order must be same
 		assertThat(marks, arrayContainingInAnyOrder(2, 3, 1));
 	}
 
