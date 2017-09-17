@@ -2,82 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba31442-62af-4fef-b7a5-9df37d3a3dea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/junit5basics/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/AssertionsDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/DisabledTestsDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/DisplayNameDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/DynamicTestsDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/ParameterizedTestWithJUnit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/RepeatedTestsDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestInterfaceDynamicTestsDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestLifecycleLogger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestReporterDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestingAStackDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/student/StudentTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/out/production/JavaCon/PFile1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaCon/out/production/JavaCon/Readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Hamcrest/target/classes/Using Hamcrest for testing - Tutorial.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Hamcrest/target/classes/pluralsight/testing/ccd/Cafe.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Hamcrest/target/classes/pluralsight/testing/ccd/Coffee.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Hamcrest/target/classes/pluralsight/testing/ccd/CoffeeType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Hamcrest/target/test-classes/BasicHamcrestMatcherTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ManualStubTesting/target/classes/udemy/mociktoin28minutes/buisness/TodoBusinessImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ManualStubTesting/target/classes/udemy/mociktoin28minutes/data/api/TodoService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ManualStubTesting/target/test-classes/TodoBusinessImplStubTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ManualStubTesting/target/test-classes/TodoServiceStub.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Mockito/target/classes/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Mockito/target/classes/udemy/mociktoin28minutes/buisness/TodoBusinessImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Mockito/target/classes/udemy/mociktoin28minutes/data/api/TodoService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Mockito/target/test-classes/ListTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Mockito/target/test-classes/udemy/mociktoin28minutes/buisness/TodoBusinessImplMockitoTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/Annotations.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/application-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/example-sales.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/common/DEFAULTS.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/common/SalesAnalysisServiceBase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/common/SalesReportBase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/common/SalesReportPrinter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/common/SalesRepositoryBase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/common/model/Sale.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/guiceDI/CsvSalesRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/guiceDI/GuiceSalesReportRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/guiceDI/SalesAnalysisService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/guiceDI/SalesModule.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/guiceDI/SalesReport.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/manualDI/CsvSalesRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/manualDI/SalesReport.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/manualDI/SimpleReportRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/spring_xmlDI/CsvSalesRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/spring_xmlDI/SalesAnalysisService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/spring_xmlDI/SalesReport.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/spring_xmlDI/SimpleReportRunnerSpring.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/classes/pluralsight/testing/csvsalesreport/spring_xmlDI/SpringXmlSalesReportRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/test-classes/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithHandWrittenStubTest$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/test-classes/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithHandWrittenStubTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/test-classes/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoMockTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PluralSight/target/test-classes/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoStubTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/target/classes/pluralsight/testing/TDD/Leap/LeapYear.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/target/classes/pluralsight/testing/TDD/wrap/WordWrap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/target/test-classes/pluralsight/testing/TDD/Leap/LeapYearTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/target/test-classes/pluralsight/testing/TDD/wrap/WordWrapTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/Java_Method_main.java" afterPath="$PROJECT_DIR$/../JavaCon/SpecialKeywords/src/main/java/com/saurabh/Java_Method_main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JunitBasics/src/test/java/junit5basics/StandardTests.java" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/StandardTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaCon/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hamcrest/Hamcrest.iml" afterPath="$PROJECT_DIR$/Hamcrest/Hamcrest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java" afterPath="$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestJunit5Test.java" afterPath="$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestJunit5Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/JunitBasics.iml" afterPath="$PROJECT_DIR$/JunitBasics/JunitBasics.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/pom.xml" afterPath="$PROJECT_DIR$/JunitBasics/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/student/Student.java" afterPath="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/student/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManualStubTesting/ManualStubTesting.iml" afterPath="$PROJECT_DIR$/ManualStubTesting/ManualStubTesting.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mockito/Mockito.iml" afterPath="$PROJECT_DIR$/Mockito/Mockito.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PluralSight/PluralSight.iml" afterPath="$PROJECT_DIR$/PluralSight/PluralSight.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/TestDrivenDevelopment.iml" afterPath="$PROJECT_DIR$/TestDrivenDevelopment/TestDrivenDevelopment.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/pom.xml" afterPath="$PROJECT_DIR$/TestDrivenDevelopment/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing.iml" afterPath="$PROJECT_DIR$/Testing.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/student/StudentTest.java" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/student/StudentTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -160,8 +86,8 @@
       <file leaf-file-name="StudentTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/student/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -281,24 +207,6 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Mockito" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Mockito" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="TestDrivenDevelopment" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="TestDrivenDevelopment" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Testing" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -346,100 +254,6 @@
               <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
               <item name="Testing" type="462c0819:PsiDirectoryNode" />
               <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="saurabh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="saurabh" type="462c0819:PsiDirectoryNode" />
-              <item name="junit5basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="saurabh" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="saurabh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="saurabh" type="462c0819:PsiDirectoryNode" />
-              <item name="junit5basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="saurabh" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1022,7 +836,7 @@
       <workItem from="1505609873472" duration="115000" />
       <workItem from="1505610294373" duration="873000" />
       <workItem from="1505611249404" duration="10000" />
-      <workItem from="1505611301812" duration="4522000" />
+      <workItem from="1505611301812" duration="5117000" />
     </task>
     <task id="LOCAL-00001" summary="Testing in Java">
       <created>1504350686526</created>
@@ -1080,7 +894,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505611103979</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="upgraded tp junit 5 jupiter&#10;updated surefir-plugin to include both junit4/junit5">
+      <created>1505620662195</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1505620662195</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1116,7 +937,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33096000" />
+    <option name="totallyTimeSpent" value="33691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="813" extended-state="6" />
@@ -1130,7 +951,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33053222" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33008358" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33008358" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1167,7 +988,8 @@
     <MESSAGE value="updated documentation for mockito" />
     <MESSAGE value="junit moved to testing project" />
     <MESSAGE value="upgraded tp junit 5 jupiter - doesnt work with intellij 2017.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgraded tp junit 5 jupiter - doesnt work with intellij 2017.2" />
+    <MESSAGE value="upgraded tp junit 5 jupiter&#10;updated surefir-plugin to include both junit4/junit5" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgraded tp junit 5 jupiter&#10;updated surefir-plugin to include both junit4/junit5" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1308,13 +1130,13 @@
         <state relative-caret-position="105">
           <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1474,15 +1296,15 @@
         <state relative-caret-position="341">
           <caret line="90" column="12" lean-forward="false" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-            <element signature="e#2736#2737#0" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#2655#2656#0" expanded="true" />
+            <element signature="e#2692#2693#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1607,8 +1429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/student/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>

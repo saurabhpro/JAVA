@@ -15,7 +15,7 @@ public class RecursiveMethodReference {
 
 	}
 
-	public static long factorial(long num) {
+	private static long factorial(long num) {
 		if (num == 0 || num == 1)
 			return 1;
 		else

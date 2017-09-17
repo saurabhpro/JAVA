@@ -12,5 +12,4 @@ class StudentTest {
 		Student student = new Student();
 		assertEquals(4, student.result(50, 50, 50, 50, 50));
 	}
-
 }
