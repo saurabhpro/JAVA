@@ -5,59 +5,8 @@
     <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="JSON IO using jackson classes added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/FlatMapStreams.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/maps/ReuseStreamSupplierSolution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/maps/StreamMapFiltering.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/maps/StreamMapFilteringComparision.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/maps/StringToCharUsingStream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/maps/flatmap/StreamFlatMapToInt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/maps/flatmap/StreamFlatMapToString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/maps/flatmap/pojo/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/maps/flatmap/pojo/TestExample2.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Consumer/Consumer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Consumer/CustomConsumerRunner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Consumer/UtilConsumerRunner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Function/Comparator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Function/CustomFunctionRunner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Function/Function.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Function/MainComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Function/UtilFunctionRunner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Predicate/CustomPredicateRunner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Predicate/Predicate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Predicate/UtilPredicateRunner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Supplier/CustomSupplierRunner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Supplier/Supplier.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/Supplier/UtilSupplierRunner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/common/City.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/common/Person.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/constructorEx/WithArgument.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/constructorEx/WithoutArgument.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/Shipment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/Sum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/instanceEx/TriFunction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/staticEx/AnExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/methodReference/staticEx/NumbersO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/streams/BuildStream.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/CollectionUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/MainAPICollectionMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/MapFilterReduce.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/pluralsight/util/Function/util/Methods/MapUtils.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/context.txt" afterPath="$PROJECT_DIR$/Java8Lambda/context.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/ComparingObjects.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/apress/util/ComparingObjects.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/FunctionUtilTest.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/apress/util/FunctionUtilTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/LambdaAsArgument.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/functionalInterface/LambdaAsArgument.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/LambdaWrittenTypes.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/functionalInterface/LambdaWrittenTypes.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/MapperTest.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/functionalInterface/MapperTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/saurabh/java8/lambda/Apress/FunctionUtil.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/apress/util/function/FunctionUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/saurabh/java8/lambda/Apress/Gender.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/apress/util/function/Gender.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/saurabh/java8/lambda/Apress/Person.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/apress/util/function/Person.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+    <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java8Lambda/MethodReference.md" afterPath="$PROJECT_DIR$/Java8Lambda/MethodReference.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java8Lambda/src/main/java/RecursiveMethodReference.java" afterPath="$PROJECT_DIR$/Java8Lambda/src/main/java/RecursiveMethodReference.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Testing/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Testing/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Testing/JunitBasics/src/test/java/com/saurabh/student/StudentTest.java" afterPath="$PROJECT_DIR$/../Testing/JunitBasics/src/test/java/com/saurabh/student/StudentTest.java" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1189,7 +1138,7 @@
       <workItem from="1505579849909" duration="2771000" />
       <workItem from="1505587873957" duration="788000" />
       <workItem from="1505620297068" duration="75000" />
-      <workItem from="1505621315080" duration="2719000" />
+      <workItem from="1505621315080" duration="2911000" />
     </task>
     <task id="LOCAL-00001" summary="Java Commit&#10;">
       <created>1440921977733</created>
@@ -1485,7 +1434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505587959476</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="- functional java 8 &#10;- lambda and streams">
+      <created>1505624149204</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1505624149204</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1521,7 +1477,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="446096000" />
+    <option name="totallyTimeSpent" value="446288000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1543,7 +1499,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3231198" sideWeight="0.5028612" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29108635" sideWeight="0.47711015" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29108635" sideWeight="0.47711015" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.49713877" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1594,7 +1550,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Map&#10;HashMap&#10;Hashtable&#10;ConcurrentHashMap&#10;WeakHashMap" />
     <MESSAGE value="Threads (till creation)&#10;Interfaces of java 8" />
     <MESSAGE value="JDBC Primary&#10;float % NaN Infinity" />
     <MESSAGE value="JDBC Primary&#10;float % NaN Infinity&#10;lambda Apress&#10;Mars ROver Unfinished" />
@@ -1619,7 +1574,8 @@
     <MESSAGE value="cleanup with gitignore &amp; git rm -r -f --cached ." />
     <MESSAGE value="cleanup" />
     <MESSAGE value="Optional usage in java 8, do read the pdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optional usage in java 8, do read the pdf" />
+    <MESSAGE value="- functional java 8 &#10;- lambda and streams" />
+    <option name="LAST_COMMIT_MESSAGE" value="- functional java 8 &#10;- lambda and streams" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
