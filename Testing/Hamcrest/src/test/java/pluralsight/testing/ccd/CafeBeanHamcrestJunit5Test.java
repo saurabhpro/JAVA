@@ -1,7 +1,7 @@
 package pluralsight.testing.ccd;
 
 import org.hamcrest.Matchers;
-import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -19,8 +19,8 @@ public class CafeBeanHamcrestJunit5Test {
 
 	private Cafe cafe;
 
-	@BeforeAll
-	public void before() {
+	@BeforeEach
+	void before() {
 		cafe = new Cafe();
 	}
 
@@ -29,7 +29,7 @@ public class CafeBeanHamcrestJunit5Test {
 	}
 
 	@Test
-	public void coffeeHasBeansProperty() {
+	void coffeeHasBeansProperty() {
 		// given
 		withBeans();
 
@@ -41,7 +41,7 @@ public class CafeBeanHamcrestJunit5Test {
 	}
 
 	@Test
-	public void coffeeHasCorrectBeansValue() {
+	void coffeeHasCorrectBeansValue() {
 		// given
 		withBeans();
 
@@ -53,7 +53,7 @@ public class CafeBeanHamcrestJunit5Test {
 	}
 
 	@Test
-	public void bothCoffeesHaveSameProperty() {
+	void bothCoffeesHaveSameProperty() {
 		// given
 		withBeans();
 
@@ -68,7 +68,7 @@ public class CafeBeanHamcrestJunit5Test {
 	}
 
 	@Test
-	public void canBrewEspresso() {
+	void canBrewEspresso() {
 		// given
 		withBeans();
 
@@ -84,7 +84,7 @@ public class CafeBeanHamcrestJunit5Test {
 	}
 
 	@Test
-	public void brewingEspressoConsumesBeans() {
+	void brewingEspressoConsumesBeans() {
 		// given
 		withBeans();
 
@@ -96,7 +96,7 @@ public class CafeBeanHamcrestJunit5Test {
 	}
 
 	@Test
-	public void canBrewLatte() {
+	void canBrewLatte() {
 		// given
 		withBeans();
 		cafe.restockMilk(Latte.getRequiredMilk());
@@ -109,23 +109,23 @@ public class CafeBeanHamcrestJunit5Test {
 	}
 
 	@Test
-	public void mustRestockMilk() {
+	void mustRestockMilk() {
 		// when
 		assertThrows(IllegalArgumentException.class, () -> cafe.restockMilk(NO_MILK));
 	}
 
 	@Test
-	public void mustRestockBeans() {
+	void mustRestockBeans() {
 		// when
 		assertThrows(IllegalArgumentException.class, () -> cafe.restockBeans(NO_BEANS));
 	}
 
 	@Test
-	public void lattesRequireMilk() {
+	void lattesRequireMilk() {
 		// given
 		withBeans();
 
 		// when
-		assertThrows(IllegalArgumentException.class, () -> cafe.brew(Latte));
+		assertThrows(IllegalStateException.class, () -> cafe.brew(Latte));
 	}
 }

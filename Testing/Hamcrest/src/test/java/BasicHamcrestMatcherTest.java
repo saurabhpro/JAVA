@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class BasicHamcrestMatcherTest {
 	@Test
-	public void basicHamcrestMatcherExamplesTest() {
+	void basicHamcrestMatcherExamplesTest() {
 		//List
 		List<Integer> scores = Arrays.asList(99, 100, 101, 105);
 		assertThat(scores, hasSize(4));
@@ -46,7 +46,7 @@ public class BasicHamcrestMatcherTest {
 	}
 
 	@Test
-	public void mapShouldContainValue() {
+	void mapShouldContainValue() {
 		Map<String, Integer> values = getValues();
 
 		assertThat(values, Matchers.hasKey("B"));
@@ -57,7 +57,7 @@ public class BasicHamcrestMatcherTest {
 	}
 
 	@Test
-	public void listOrderingIsIrrelevant() {
+	void listOrderingIsIrrelevant() {
 		List<Integer> numbers = getNumbers();
 
 		assertThat(numbers, Matchers.hasItem(5));

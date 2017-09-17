@@ -17,6 +17,14 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>${junit.version.intellij.supports}</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
 

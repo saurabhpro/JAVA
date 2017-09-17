@@ -8,7 +8,7 @@ package com.saurabh.student;
 public class Student {
 
 
-	public static int result(int a, int b, int c, int d, int e) {
+	public int result(int a, int b, int c, int d, int e) {
 		int avg;
 		int result;
 
