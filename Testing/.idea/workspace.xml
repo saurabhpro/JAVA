@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ba31442-62af-4fef-b7a5-9df37d3a3dea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/primeQ/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/primeQ/primeQ.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/Java8Lambda/src/main/java/maps/StreamCollectCounting.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/junit5dynamictests/TranslatorEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/RepeatedIncrementTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/TranslatorEngineJunit4StaticTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/TranslatorEngineJunit5DynamicTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/libraries/Maven__org_testng_testng_6_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/DynamicTestsDemo.java" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/DynamicTestsDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../Interview/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Interview/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/BitMagic.iml" afterPath="$PROJECT_DIR$/../Interview/BitMagic/BitMagic.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/pom.xml" afterPath="$PROJECT_DIR$/../Interview/BitMagic/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/Interview.iml" afterPath="$PROJECT_DIR$/../Interview/Interview.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/designPatternsInJava.iml" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/designPatternsInJava.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/pom.xml" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/designSOLIDPrinciples.iml" afterPath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/designSOLIDPrinciples.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/greedyQ/greedyQ.iml" afterPath="$PROJECT_DIR$/../Interview/greedyQ/greedyQ.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/hashingQ/hashingQ.iml" afterPath="$PROJECT_DIR$/../Interview/hashingQ/hashingQ.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/pom.xml" afterPath="$PROJECT_DIR$/../Interview/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/sorting/pom.xml" afterPath="$PROJECT_DIR$/../Interview/sorting/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/sorting/sorting.iml" afterPath="$PROJECT_DIR$/../Interview/sorting/sorting.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/stringQ/stringQ.iml" afterPath="$PROJECT_DIR$/../Interview/stringQ/stringQ.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/.gitignore" afterPath="$PROJECT_DIR$/../JavaCon/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaCon/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../READMe.md" afterPath="$PROJECT_DIR$/../READMe.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hamcrest/Hamcrest.iml" afterPath="$PROJECT_DIR$/Hamcrest/Hamcrest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/JunitBasics.iml" afterPath="$PROJECT_DIR$/JunitBasics/JunitBasics.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/pom.xml" afterPath="$PROJECT_DIR$/JunitBasics/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManualStubTesting/ManualStubTesting.iml" afterPath="$PROJECT_DIR$/ManualStubTesting/ManualStubTesting.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mockito/Mockito.iml" afterPath="$PROJECT_DIR$/Mockito/Mockito.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PluralSight/PluralSight.iml" afterPath="$PROJECT_DIR$/PluralSight/PluralSight.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestDrivenDevelopment/TestDrivenDevelopment.iml" afterPath="$PROJECT_DIR$/TestDrivenDevelopment/TestDrivenDevelopment.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Testing.iml" afterPath="$PROJECT_DIR$/Testing.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-    </list>
+    <list default="true" id="6ba31442-62af-4fef-b7a5-9df37d3a3dea" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Hamcrest/target/" />
@@ -114,8 +74,8 @@
       <file leaf-file-name="TranslatorEngineJunit5DynamicTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/TranslatorEngineJunit5DynamicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="269">
+              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -989,7 +949,7 @@
       <workItem from="1505610294373" duration="873000" />
       <workItem from="1505611249404" duration="10000" />
       <workItem from="1505611301812" duration="5117000" />
-      <workItem from="1505743381328" duration="4344000" />
+      <workItem from="1505743381328" duration="4839000" />
     </task>
     <task id="LOCAL-00001" summary="Testing in Java">
       <created>1504350686526</created>
@@ -1090,7 +1050,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38035000" />
+    <option name="totallyTimeSpent" value="38530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="814" extended-state="6" />
@@ -1105,7 +1065,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33053222" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962447" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1252,7 +1212,7 @@
         <state relative-caret-position="151">
           <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1289,7 +1249,7 @@
         <state relative-caret-position="240">
           <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1579,8 +1539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/TranslatorEngineJunit5DynamicTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="269">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

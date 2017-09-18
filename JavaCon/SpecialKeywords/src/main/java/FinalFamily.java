@@ -6,7 +6,7 @@
  * Final data and reference
  */
 class FinalData {
-	static final int z; //STATIC BLANK FINAL VARIABLE
+	private static final int z; //STATIC BLANK FINAL VARIABLE
 	//x = 8; not possible, not here nor anywhere including constructor or via some other function
 	static final int w = 6;
 
@@ -25,13 +25,13 @@ class FinalData {
 	}
 
 	//a final variable initialized at creation is constant and un-changeable
-	final int x = 7;
+	private final int x = 7;
 	//A static final variable that is not initialized at the time of declaration.
 	// It can be initialized only in static block.
 
 
-	final int y;    //BLANK FINAL VARIABLE  - is not initialized at the time of declaration
-	final int BLNKFNL;
+	private final int y;    //BLANK FINAL VARIABLE  - is not initialized at the time of declaration
+	private final int BLNKFNL;
 	// must be initialized in the constructor only (instance block too), WHY ?
 	// or else it is an compile time error
 
@@ -81,7 +81,7 @@ class Temp {
  */
 class FinalArguments {
 
-	int x;
+	private int x;
 
 	FinalArguments(final int i) {
 		System.out.println("Value of i at insertion = " + x);
