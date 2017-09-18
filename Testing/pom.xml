@@ -62,6 +62,12 @@
             <version>${junit.version.intellij.supports}</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.slf4j13</groupId>
+            <artifactId>slf4j-log4j13</artifactId>
+            <version>1.0-beta9</version>
+        </dependency>
     </dependencies>
 
 

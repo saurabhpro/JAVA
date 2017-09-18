@@ -1,4 +1,4 @@
-package com.saurabh.junit5basics;
+package com.saurabh.junit5dynamictests;
 
 import org.junit.jupiter.api.DynamicNode;
 import org.junit.jupiter.api.DynamicTest;

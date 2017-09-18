@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/designSOLIDPrinciples/designSOLIDPrinciples.iml" filepath="$PROJECT_DIR$/designSOLIDPrinciples/designSOLIDPrinciples.iml" />
       <module fileurl="file://$PROJECT_DIR$/greedyQ/greedyQ.iml" filepath="$PROJECT_DIR$/greedyQ/greedyQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/hashingQ/hashingQ.iml" filepath="$PROJECT_DIR$/hashingQ/hashingQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/primeQ/primeQ.iml" filepath="$PROJECT_DIR$/primeQ/primeQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/sorting/sorting.iml" filepath="$PROJECT_DIR$/sorting/sorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/stringQ/stringQ.iml" filepath="$PROJECT_DIR$/stringQ/stringQ.iml" />
     </modules>

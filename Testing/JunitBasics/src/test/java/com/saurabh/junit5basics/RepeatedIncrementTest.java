@@ -8,9 +8,9 @@ import org.junit.platform.commons.logging.LoggerFactory;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class IncrementTest {
+class RepeatedIncrementTest {
 
-	private static Logger logger = LoggerFactory.getLogger(IncrementTest.class);
+	private static Logger logger = LoggerFactory.getLogger(RepeatedIncrementTest.class);
 
 	@BeforeEach
 	void increment() {
