@@ -37,7 +37,7 @@ There are four types of method references:
     
     - an instance of the object is the parameter of the lambda expression, and we form the reference to the instance method with the type of the instance.
      
-    - Java has a Function interface that takes one parameter, a BiFunction that takes two parameters, but there's no TriFunction that takes three parameters, so let's make one: [Click Here](src/main/java/pluralsight/util/methodReference/instanceEx)
+    - Java has a Function interface that takes one parameter, a BiFunction that takes two parameters, but there's no TriFunction that takes three parameters, so let's make one: [Click Here](src/main/java/methodReference/instanceEx)
       
 
 3. **A method reference to an instance method of an existing object.**
@@ -47,7 +47,7 @@ There are four types of method references:
 4. **A method reference to a constructor.**
     - `(args) -> new ClassName(args)` to
     - `ClassName:: new`
-    - If the constructor takes no arguments, a Supplier will do the job: [Click Here](src/main/java/pluralsight/util/methodReference/constructorEx/WithoutArgument.java)
-    - If the constructor takes an argument, we can use the Function interface. If the constructor takes two arguments, we use the BiFunction interface: [Click Here](src/main/java/pluralsight/util/methodReference/constructorEx/WithArgument.java)
+    - If the constructor takes no arguments, a Supplier will do the job: [Click Here](src/main/java/methodReference/constructorEx/WithoutArgument.java)
+    - If the constructor takes an argument, we can use the Function interface. If the constructor takes two arguments, we use the BiFunction interface: [Click Here](src/main/java/methodReference/constructorEx/WithArgument.java)
 
 

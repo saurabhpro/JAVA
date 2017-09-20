@@ -1,10 +1,12 @@
+package saurabh.Threads;
+
 /**
  * Created by Saurabh on 9/16/2015.
  */
 
 class Thread1 implements Runnable {
 	public void run() {
-		System.out.println("Inside Thread1");
+		System.out.println("Inside saurabh.Threads.Thread1");
 	}
 }
 

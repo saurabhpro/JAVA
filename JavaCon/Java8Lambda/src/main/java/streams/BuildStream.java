@@ -1,4 +1,4 @@
-package pluralsight.util.streams;
+package streams;
 
 import pluralsight.util.common.Person;
 

@@ -1,9 +1,9 @@
-package saurabh.Threads.apress;
+package saurabh.Threads;
 
 /**
  * Created by saurabhkumar on 29/07/17.
  */
-public class ThreadDemo {
+public class RunnableThreadDemo {
 	public static void main(String[] args) {
 		boolean isDaemon = args.length != 0;
 

@@ -44,7 +44,7 @@ public class ContainsCompareArrayList {
 		ArrayList<Emp4> list = new ArrayList<>();
 		Emp4 e2 = new Emp4(1001);
 
-		//  list.add(new main.java.list.arraylist.model.Emp4(1001));
+		//  list.add(new main.java.list.arraylist.deadlock.Emp4(1001));
 		list.add(new Emp4(1002));
 		list.add(new Emp4(1003));
 		list.add(new Emp4(1004));
@@ -61,10 +61,10 @@ public class ContainsCompareArrayList {
 		System.out.println("ArrayList contains the id 1001 : " + list.contains(e2));
 		/*
 		By default contains calls equals method, now since it is own own class compiler
-        doesn't know what to search for and we have not overridden equals in main.java.list.arraylist.model.Emp3
+        doesn't know what to search for and we have not overridden equals in main.java.list.arraylist.deadlock.Emp3
         So, contains will run the equals of Object class that compares Reference Id's = False
 
-        in main.java.list.arraylist.model.Emp4 we have overridden equals so now contains compares int id's not references
+        in main.java.list.arraylist.deadlock.Emp4 we have overridden equals so now contains compares int id's not references
          */
 	}
 

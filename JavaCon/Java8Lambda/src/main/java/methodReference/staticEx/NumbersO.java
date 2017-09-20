@@ -1,4 +1,4 @@
-package pluralsight.util.methodReference.staticEx;
+package methodReference.staticEx;
 
 import java.util.ArrayList;
 import java.util.List;

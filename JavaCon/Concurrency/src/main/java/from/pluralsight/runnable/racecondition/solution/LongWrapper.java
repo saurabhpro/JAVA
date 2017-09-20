@@ -1,4 +1,4 @@
-package from.pluralsight.runnable.model;
+package from.pluralsight.runnable.racecondition.solution;
 
 public class LongWrapper {
 

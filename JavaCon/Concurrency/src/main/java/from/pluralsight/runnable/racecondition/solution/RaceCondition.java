@@ -1,7 +1,5 @@
-package from.pluralsight.runnable;
+package from.pluralsight.runnable.racecondition.solution;
 
-
-import from.pluralsight.runnable.model.LongWrapper;
 
 class RaceCondition {
 

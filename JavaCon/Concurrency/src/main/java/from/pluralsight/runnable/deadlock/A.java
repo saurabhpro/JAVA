@@ -1,25 +1,25 @@
-package from.pluralsight.runnable.model;
+package from.pluralsight.runnable.deadlock;
 
 public class A {
 
-	private Object key1 = new Object();
-	private Object key2 = new Object();
+	private final Object key1 = new Object();
+	private final Object key2 = new Object();
 
-	public void a() {
+	void a() {
 		synchronized (key1) {
 			System.out.println("[" + Thread.currentThread().getName() + "] I am in a()");
 			b();
 		}
 	}
 
-	public void b() {
+	void b() {
 		synchronized (key2) {
 			System.out.println("[" + Thread.currentThread().getName() + "] I am in b()");
 			c();
 		}
 	}
 
-	public void c() {
+	private void c() {
 		synchronized (key1) {
 			System.out.println("[" + Thread.currentThread().getName() + "] I am in c()");
 		}

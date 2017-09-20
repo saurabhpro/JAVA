@@ -12,7 +12,7 @@ import java.util.function.BinaryOperator;
  * Created by saurabhkumar on 23/05/17.
  */
 public class MapFilterReduce {
-	public static int reduce(
+	private static int reduce(
 			List<Integer> values,
 			int valueIfEmpty,
 			BinaryOperator<Integer> reduction) {

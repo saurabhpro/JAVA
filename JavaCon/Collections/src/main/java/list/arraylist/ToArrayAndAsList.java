@@ -82,7 +82,7 @@ public class ToArrayAndAsList {
 		ArrayListArrayToList();
 		System.out.println("\n\nArrayList toArray(arg destination array)");
 		ArrayListToArrayPassedAsArg();
-		System.out.println("\n\nArrayList toArray using our own class main.java.list.arraylist.model.Emp3");
+		System.out.println("\n\nArrayList toArray using our own class main.java.list.arraylist.deadlock.Emp3");
 		MyArrayListToArrayEmp();
 	}
 }

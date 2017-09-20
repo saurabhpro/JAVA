@@ -1,13 +1,15 @@
 package from.pluralsight.waitnotify;
 
+import java.util.stream.IntStream;
+
 public class ProducerConsumer {
 
 	private static final Object lock = new Object();
 
-	private static int[] buffer;
+	private static int[] stockBuffer;
 	private static int count;
 
-	static boolean isEmpty(int[] buffer) {
+	static boolean isEmpty(int[] stockBuffer) {
 		return count == 0;
 	}
 
@@ -17,22 +19,18 @@ public class ProducerConsumer {
 
 	public static void main(String... strings) throws InterruptedException {
 
-		buffer = new int[10];
+		stockBuffer = new int[10];
 		count = 0;
 
 		Producer producer = new Producer();
 		Consumer consumer = new Consumer();
 
 		Runnable produceTask = () -> {
-			for (int i = 0; i < 50; i++) {
-				producer.produce();
-			}
+			IntStream.range(0, 50).forEach(i -> producer.produce());
 			System.out.println("Done producing");
 		};
 		Runnable consumeTask = () -> {
-			for (int i = 0; i < 45; i++) {
-				consumer.consume();
-			}
+			IntStream.range(0, 45).forEach(i -> consumer.consume());
 			System.out.println("Done consuming");
 		};
 
@@ -45,21 +43,21 @@ public class ProducerConsumer {
 		consumerThread.join();
 		producerThread.join();
 
-		System.out.println("Data in the buffer: " + count);
+		System.out.println("Data in the stockBuffer: " + count);
 	}
 
 	static class Producer {
 
 		void produce() {
 			synchronized (lock) {
-				if (isFull(buffer)) {
+				if (isFull(stockBuffer)) {
 					try {
 						lock.wait();
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}
 				}
-				buffer[count++] = 1;
+				stockBuffer[count++] = 1;
 				lock.notify();
 			}
 		}
@@ -69,14 +67,14 @@ public class ProducerConsumer {
 
 		void consume() {
 			synchronized (lock) {
-				if (isEmpty(buffer)) {
+				if (isEmpty(stockBuffer)) {
 					try {
 						lock.wait();
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}
 				}
-				buffer[--count] = 0;
+				stockBuffer[--count] = 0;
 				lock.notify();
 			}
 		}

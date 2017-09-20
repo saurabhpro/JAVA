@@ -9,7 +9,7 @@ public class Emp4 {
 
 	@Override
 	public boolean equals(Object ob) {
-		System.out.println("Inside Equals of main.java.list.arraylist.model.Emp4");
+		System.out.println("Inside Equals of main.java.list.arraylist.deadlock.Emp4");
 		Emp4 e = (Emp4) ob;
 		return this.id == e.id;
 	}

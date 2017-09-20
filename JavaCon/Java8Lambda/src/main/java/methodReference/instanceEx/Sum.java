@@ -1,4 +1,4 @@
-package pluralsight.util.methodReference.instanceEx;
+package methodReference.instanceEx;
 
 /**
  * Created by saurabhkumar on 23/05/17.

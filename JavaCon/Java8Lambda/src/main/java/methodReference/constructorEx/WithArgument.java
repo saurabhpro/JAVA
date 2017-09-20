@@ -1,4 +1,4 @@
-package pluralsight.util.methodReference.constructorEx;
+package methodReference.constructorEx;
 
 import java.util.Locale;
 import java.util.function.BiFunction;

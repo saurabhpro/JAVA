@@ -1,4 +1,4 @@
-package pluralsight.util.methodReference.instanceEx;
+package methodReference.instanceEx;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,4 @@
-package from.pluralsight.runnable;
-
-import from.pluralsight.runnable.model.A;
+package from.pluralsight.runnable.deadlock;
 
 public class RunningA {
 

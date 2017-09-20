@@ -1,6 +1,6 @@
 /**
  * Created by Saurabh on 11/28/2015. RowSet is basically an extension of JDBC ResultSet and is part of javax.sql.package
- * built on the standard contextual structure of the JavaBeans component model, the core design structure is inherently
+ * built on the standard contextual structure of the JavaBeans component deadlock, the core design structure is inherently
  * reflected in the subjectivity of the RowSet interface
  * <p>
  * It makes sense that RowSet has set up JavaBeans properties, which can be set and received with the available getter

@@ -1,21 +1,20 @@
 package from.pluralsight.falsesharing;
 
+import java.util.stream.IntStream;
+
 public class FalseSharing {
 
-	public final static long ITERATIONS = 50_000_000L;
-	public static int NUM_THREADS_MAX = 4;
+	private final static long ITERATIONS = 50_000_000L;
+	private static int NUM_THREADS_MAX = 4;
 	private static VolatileLongPadded[] paddedLongs;
 	private static VolatileLongUnPadded[] unPaddedLongs;
 
 	static {
 		paddedLongs = new VolatileLongPadded[NUM_THREADS_MAX];
-		for (int i = 0; i < paddedLongs.length; i++) {
-			paddedLongs[i] = new VolatileLongPadded();
-		}
+		IntStream.range(0, paddedLongs.length).forEach(i -> paddedLongs[i] = new VolatileLongPadded());
+
 		unPaddedLongs = new VolatileLongUnPadded[NUM_THREADS_MAX];
-		for (int i = 0; i < unPaddedLongs.length; i++) {
-			unPaddedLongs[i] = new VolatileLongUnPadded();
-		}
+		IntStream.range(0, unPaddedLongs.length).forEach(i -> unPaddedLongs[i] = new VolatileLongUnPadded());
 	}
 
 	public static void main(final String[] args) throws Exception {
