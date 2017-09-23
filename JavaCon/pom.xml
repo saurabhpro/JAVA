@@ -70,7 +70,7 @@
         <module>JsonIO</module>
         <module>Java8Lambda</module>
         <module>Java9Optional</module>
-        <module>Java9OtherUpdates</module>
+        <module>Java9Updates</module>
 
     </modules>
 </project>
