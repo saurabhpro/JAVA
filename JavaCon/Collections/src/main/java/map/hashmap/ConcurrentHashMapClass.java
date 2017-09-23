@@ -24,6 +24,7 @@ public class ConcurrentHashMapClass {
 
 		Iterator<String> iterator = map.keySet().iterator();
 
+		//noinspection WhileLoopReplaceableByForEach
 		while (iterator.hasNext()) {
 			String key = iterator.next();
 			if (key.equals("3"))

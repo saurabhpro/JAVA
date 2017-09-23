@@ -3,7 +3,7 @@ package c_behavioral.f_memento.serial;
 import java.io.Serializable;
 
 //originator
-public class Employee implements Serializable {
+class Employee implements Serializable {
 
 	private String name;
 	private String address;

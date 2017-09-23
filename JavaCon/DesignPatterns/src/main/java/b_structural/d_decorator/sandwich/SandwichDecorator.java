@@ -2,9 +2,9 @@ package b_structural.d_decorator.sandwich;
 
 public abstract class SandwichDecorator implements Sandwich {
 
-	protected Sandwich customSandwich;
+	final Sandwich customSandwich;
 
-	public SandwichDecorator(Sandwich customSandwich) {
+	SandwichDecorator(Sandwich customSandwich) {
 		this.customSandwich = customSandwich;
 	}
 

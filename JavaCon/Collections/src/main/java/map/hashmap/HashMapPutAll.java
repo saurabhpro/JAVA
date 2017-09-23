@@ -26,7 +26,8 @@ public class HashMapPutAll {
 		hashMap.putAll(subMap);
 		System.out.println("\nCurrent Map:");
 
-		/**Set<Map.Entry<String, String>> entries = hashMap.entrySet();
+		/*
+		* Set<Map.Entry<String, String>> entries = hashMap.entrySet();
 		 * directly mapping entrySet to type specific set
 		 * and using foreach loop instead of explicit Iterator
 		 */

@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 
 class EmpClone implements Cloneable {
-	int x;
+	final int x;
 
 	EmpClone(int x) {
 		this.x = x;

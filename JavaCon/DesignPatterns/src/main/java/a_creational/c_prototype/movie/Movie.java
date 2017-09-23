@@ -1,6 +1,6 @@
 package a_creational.c_prototype.movie;
 
-public class Movie extends Item {
+class Movie extends Item {
 
 	private String runtime;
 

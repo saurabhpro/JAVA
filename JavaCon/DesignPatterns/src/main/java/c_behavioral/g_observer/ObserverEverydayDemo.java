@@ -30,7 +30,7 @@ class TwitterStream extends Observable {
 
 //concrete observer
 class Client implements Observer {
-	private String name;
+	private final String name;
 
 	Client(String name) {
 		this.name = name;

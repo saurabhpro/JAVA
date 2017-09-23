@@ -8,9 +8,9 @@ import java.util.List;
  * Created by Saurabh on 9/13/2015.
  */
 public class ReverseShuffleSublistSwapSetTrim {
-	static ArrayList<String> arrayList = new ArrayList<>();
+	private static final ArrayList<String> arrayList = new ArrayList<>();
 
-	ReverseShuffleSublistSwapSetTrim() {
+	private ReverseShuffleSublistSwapSetTrim() {
 		arrayList.add("One");
 		arrayList.add("Two");
 		arrayList.add("Three");
@@ -30,7 +30,7 @@ public class ReverseShuffleSublistSwapSetTrim {
 		ob.swapList();
 	}
 
-	void shuffle() {
+	private void shuffle() {
 		System.out.println("List Before Shuffle: ");
 		for (String str : arrayList)
 			System.out.print(str + " ");
@@ -42,13 +42,14 @@ public class ReverseShuffleSublistSwapSetTrim {
 		System.out.println("\nList After First Shuffle:\n" + arrayList);
 	}
 
-	void reverse() {
+	private void reverse() {
 		System.out.println("Actual List: " + arrayList);
 		Collections.reverse(arrayList);
 		System.out.println("List after Reversing: " + arrayList);
 	}
 
-	void ensureCapacity(int n) {
+	@SuppressWarnings("SameParameterValue")
+	private void ensureCapacity(int n) {
 		arrayList.ensureCapacity(n);
 		System.out.println(arrayList.size());
 		/*
@@ -60,7 +61,7 @@ public class ReverseShuffleSublistSwapSetTrim {
 	}
 
 	class SetSublistAndTrimIntegerList {
-		ArrayList<Integer> arrayList = new ArrayList<>(50);
+		final ArrayList<Integer> arrayList = new ArrayList<>(50);
 
 		SetSublistAndTrimIntegerList() {
 			System.out.println("Initial Size: " + arrayList.size());

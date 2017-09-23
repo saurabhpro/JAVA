@@ -11,7 +11,7 @@ public class AdapterEverydayDemo {
 
 		List<Integer> listOfInts = Arrays.asList(arrayOfInts);
 
-		System.out.println(arrayOfInts);
+		System.out.println(Arrays.toString(arrayOfInts));
 
 		System.out.println(listOfInts);
 

@@ -1,11 +1,11 @@
 package c_behavioral.i_strategy.creditcard;
 
-public class CreditCard {
+class CreditCard {
 
 	private String number;
 	private String date;
 	private String cvv;
-	private ValidationStrategy strategy;
+	private final ValidationStrategy strategy;
 
 	public CreditCard(ValidationStrategy strategy) {
 		this.strategy = strategy;

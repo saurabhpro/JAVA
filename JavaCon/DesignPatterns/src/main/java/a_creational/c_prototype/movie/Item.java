@@ -5,6 +5,7 @@ public abstract class Item implements Cloneable {
 	private double price;
 	private String url;
 
+	@SuppressWarnings("EmptyMethod")
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
 		return super.clone();

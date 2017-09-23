@@ -16,7 +16,7 @@ public class IteratorsForArrayList {
 	}
 
 	static class ListIterators implements ListOp {
-		List<Integer> list = new ArrayList<>();
+		final List<Integer> list = new ArrayList<>();
 
 		ListIterators() {
 			list.add(23);

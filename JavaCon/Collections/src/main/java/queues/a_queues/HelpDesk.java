@@ -19,11 +19,11 @@ public class HelpDesk {
 		helpDesk.processAllEnquiries();
 	}
 
-	public void enquire(final Customer customer, final Category category) {
+	private void enquire(final Customer customer, final Category category) {
 		enquiries.offer(new Enquiry(customer, category));
 	}
 
-	public void processAllEnquiries() {
+	private void processAllEnquiries() {
 		Enquiry enquiry;
 
 		while ((enquiry = enquiries.poll()) != null) {

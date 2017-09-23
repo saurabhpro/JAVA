@@ -1,4 +1,4 @@
-package main.java.map.hashmap;
+package map.hashmap;
 
 import java.util.HashMap;
 import java.util.Set;
@@ -41,13 +41,13 @@ public class HashMapHashCodeEquals {
 		for (Price p : keySet)
 			System.out.println(p + " " + hashMap.get(p));
 
-		/** while running get(p) hashcode is checked again so output contains hashcode lines */
+		/* while running get(p) hashcode is checked again so output contains hashcode lines */
 
 	}
 
 	static class Price {
-		private String itemName;
-		private int itemPrice;
+		private final String itemName;
+		private final int itemPrice;
 
 		Price(String item, int price) {
 			itemName = item;
@@ -58,7 +58,7 @@ public class HashMapHashCodeEquals {
 		public int hashCode() {
 			System.out.println("HashCode for " + itemName + itemPrice);
 
-			int hashCode = 0;
+			int hashCode;
 
 			hashCode = itemPrice * 10;
 			hashCode += itemName.hashCode();

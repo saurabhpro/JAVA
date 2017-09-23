@@ -20,8 +20,8 @@ import java.util.WeakHashMap;
  */
 public class WeakHashMapClass {
 	public static void main(String[] args) {
-		Map hashMap = new HashMap<>();
-		Map weakHashMap = new WeakHashMap();
+		Map<Object, Object> hashMap = new HashMap<>();
+		Map<Temporary, String> weakHashMap = new WeakHashMap<>();
 
 		Temporary t1 = new Temporary();
 		Temporary t2 = new Temporary();
@@ -30,6 +30,7 @@ public class WeakHashMapClass {
 		System.out.println("Before HashMap Gets Garbage Collected: ");
 		System.out.println(hashMap);
 
+		//noinspection UnusedAssignment
 		t1 = null;
 		System.gc();
 		System.out.println("After HashMap gets Garbage Collected: ");
@@ -39,6 +40,7 @@ public class WeakHashMapClass {
 		System.out.println("Before WeakHashMap Gets Garbage Collected: ");
 		System.out.println(weakHashMap);
 
+		//noinspection UnusedAssignment
 		t2 = null;
 		System.gc();
 		System.out.println("After WeakHashMap gets Garbage Collected: ");

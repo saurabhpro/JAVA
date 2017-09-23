@@ -1,18 +1,18 @@
 package c_behavioral.j_template.order;
 
-public abstract class OrderTemplate {
+abstract class OrderTemplate {
 
-	public boolean isGift;
+	private boolean isGift;
 
-	public abstract void doCheckout();
+	protected abstract void doCheckout();
 
-	public abstract void doPayment();
+	protected abstract void doPayment();
 
-	public abstract void doReceipt();
+	protected abstract void doReceipt();
 
-	public abstract void doDelivery();
+	protected abstract void doDelivery();
 
-	public final void wrapGift() {
+	private void wrapGift() {
 		System.out.println("Gift wrapped.");
 	}
 

@@ -2,21 +2,21 @@
 
 ## Lambda expressions can be used only in the following contexts:
 
-- __Assignment Context__: A lambda expression may appear to the right-hand side of the assignment operator in an assignment statement. For example,
+- __Assignment Context__: exceptions.try_with_resources.A lambda expression may appear to the right-hand side of the assignment operator in an assignment statement. For example,
     `ReferenceType variable1 = LambdaExpression;`
 
-- __Method Invocation Context__: A lambda expression may appear as an argument to a method or constructor call. For example,
+- __Method Invocation Context__: exceptions.try_with_resources.A lambda expression may appear as an argument to a method or constructor call. For example,
     `util.testJoiner(LambdaExpression);`
 
-- __Return Context__: A lambda expression may appear in a return statement inside a method, as its target type is the declared return type of the method. For example,
+- __Return Context__: exceptions.try_with_resources.A lambda expression may appear in a return statement inside a method, as its target type is the declared return type of the method. For example,
     `return LambdaExpression;`
 
-- __Cast Context__: A lambda expression may be used if it is preceded by a cast. The type specified in the cast is its target type. For example,
+- __Cast Context__: exceptions.try_with_resources.A lambda expression may be used if it is preceded by a cast. The type specified in the cast is its target type. For example,
     `(functionalInterface.Joiner) LambdaExpression;`
 
 
 ## Functional Interface
-A functional interface is simply an interface that has exactly one abstract method. The following types of methods in
+exceptions.try_with_resources.A functional interface is simply an interface that has exactly one abstract method. The following types of methods in
 an interface do not count for defining a functional interface:
 - Default methods
 - Static methods
@@ -39,7 +39,7 @@ public interface Sensitive {
 ```
 Suppose you have a lambda expression assigned to a variable of the `Sensitive` type.
 
-`Sensitive sen = (x, y) -> x + y; // A compile-time error`
+`Sensitive sen = (x, y) -> x + y; // exceptions.try_with_resources.A compile-time error`
 This statement does not compile. __The target type of a lambda expression must be a functional interface;__
 
 - `Sensitive` is not a functional interface.

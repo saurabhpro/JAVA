@@ -21,6 +21,7 @@ public class SynchronizedHashMap {
 
 		synchronized (map) {
 			Iterator iterator = set.iterator();
+			//noinspection WhileLoopReplaceableByForEach
 			while (iterator.hasNext()) {
 				Map.Entry e = (Map.Entry) iterator.next();
 				System.out.println(e.getKey() + " " + e.getValue());

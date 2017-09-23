@@ -1,7 +1,7 @@
 package c_behavioral.f_memento.history;
 
 //originator
-public class Employee {
+class Employee {
 
 	private String name;
 	private String address;

@@ -9,8 +9,8 @@ import java.util.Iterator;
  * When main.java.list.synchronizedlist.Thread1 comes back, it will throw  this Exception
  */
 @SuppressWarnings("unchecked")
-public class ArrayListThread1 implements Runnable {
-	ArrayList<String> al;
+class ArrayListThread1 implements Runnable {
+	private final ArrayList<String> al;
 
 	ArrayListThread1(ArrayList<String> al) {
 		this.al = al;
@@ -21,6 +21,7 @@ public class ArrayListThread1 implements Runnable {
 		Iterator i = al.iterator();
 
 		//or simply do = for (String x : al)
+		//noinspection WhileLoopReplaceableByForEach
 		while (i.hasNext()) {
 			try {
 				String str = (String) i.next();

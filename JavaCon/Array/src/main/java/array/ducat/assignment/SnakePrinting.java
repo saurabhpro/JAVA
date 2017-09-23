@@ -3,8 +3,8 @@ package array.ducat.assignment;
 /**
  * Created by Saurabh on 7/6/2015.
  */
-public class SnakePrinting {
-	ArrayD ar = new ArrayD();
+class SnakePrinting {
+	private final ArrayD ar = new ArrayD();
 
 	void printDiagonally(int a[][]) {
 		ar.print(a);

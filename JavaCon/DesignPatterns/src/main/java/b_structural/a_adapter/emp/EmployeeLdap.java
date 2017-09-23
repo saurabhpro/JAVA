@@ -1,5 +1,6 @@
 package b_structural.a_adapter.emp;
 
+@SuppressWarnings("ALL")
 public class EmployeeLdap {
 
 	private String cn;

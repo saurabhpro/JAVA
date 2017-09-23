@@ -5,9 +5,9 @@ import java.util.stream.IntStream;
 public class FalseSharing {
 
 	private final static long ITERATIONS = 50_000_000L;
-	private static int NUM_THREADS_MAX = 4;
-	private static VolatileLongPadded[] paddedLongs;
-	private static VolatileLongUnPadded[] unPaddedLongs;
+	private static final int NUM_THREADS_MAX = 4;
+	private static final VolatileLongPadded[] paddedLongs;
+	private static final VolatileLongUnPadded[] unPaddedLongs;
 
 	static {
 		paddedLongs = new VolatileLongPadded[NUM_THREADS_MAX];
@@ -69,6 +69,7 @@ public class FalseSharing {
 	}
 
 	private static Runnable createPaddedRunnable(final int k) {
+		//noinspection UnnecessaryLocalVariable
 		Runnable paddedTouch = () -> {
 			long i = ITERATIONS + 1;
 			while (0 != --i) {
@@ -78,14 +79,14 @@ public class FalseSharing {
 		return paddedTouch;
 	}
 
-	public final static class VolatileLongPadded {
+	final static class VolatileLongPadded {
 		public long q1, q2, q3, q4, q5, q6;
-		public volatile long value = 0L;
+		volatile long value = 0L;
 		public long q11, q12, q13, q14, q15, q16;
 
 	}
 
-	public final static class VolatileLongUnPadded {
-		public volatile long value = 0L;
+	final static class VolatileLongUnPadded {
+		volatile long value = 0L;
 	}
 }

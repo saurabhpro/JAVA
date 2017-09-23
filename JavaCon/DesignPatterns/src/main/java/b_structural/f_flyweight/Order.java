@@ -1,6 +1,6 @@
 package b_structural.f_flyweight;
 
-public class Order {
+class Order {
 	private final int orderNumber;
 	private final Item item;
 

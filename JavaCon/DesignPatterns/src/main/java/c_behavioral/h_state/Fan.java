@@ -1,13 +1,13 @@
 package c_behavioral.h_state;
 
-public class Fan {
+class Fan {
 
-	State fanOffState;
-	State fanLowState;
-	State fanMedState;
-	State fanHighState;
+	private final State fanOffState;
+	private final State fanLowState;
+	private final State fanMedState;
+	private final State fanHighState;
 
-	State state;
+	private State state;
 
 	public Fan() {
 		fanOffState = new FanOffState(this);

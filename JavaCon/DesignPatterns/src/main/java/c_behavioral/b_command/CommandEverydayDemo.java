@@ -16,8 +16,8 @@ public class CommandEverydayDemo {
 
 class Task implements Runnable {
 
-	int num1;
-	int num2;
+	private final int num1;
+	private final int num2;
 
 	Task(int num1, int num2) {
 		this.num1 = num1;

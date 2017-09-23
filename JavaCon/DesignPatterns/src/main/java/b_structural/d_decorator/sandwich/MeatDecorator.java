@@ -10,6 +10,7 @@ public class MeatDecorator extends SandwichDecorator {
 		return customSandwich.make() + addMeat();
 	}
 
+	@SuppressWarnings("SameReturnValue")
 	private String addMeat() {
 		return " + turkey";
 	}

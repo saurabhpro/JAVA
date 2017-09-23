@@ -9,8 +9,8 @@ class ThreadInnerClasses {
 	 */
 	static class InnerNamedThread extends Thread {
 
-		Thread inner;
-		private int countDown = 5;
+		final Thread inner;
+		private final int countDown = 5;
 
 		InnerNamedThread() {
 			inner = new InnerNamedThread();
@@ -32,11 +32,11 @@ class ThreadInnerClasses {
 	 * Using Anonymous Thread Class
 	 */
 	static class InnerNamelessThread {
-		Thread t;
+		final Thread t;
 		private int countDown = 5;
 
 		InnerNamelessThread() {
-			/**
+			/*
 			 * inside anonymous thread class
 			 */
 			t = new Thread() {
@@ -55,7 +55,7 @@ class ThreadInnerClasses {
 	 */
 
 	static class InnerNamelessRunnable {
-		Thread t;
+		final Thread t;
 
 		InnerNamelessRunnable() {
 			t = new Thread(new Runnable() {
@@ -74,7 +74,7 @@ class ThreadInnerClasses {
 	 * using named runnable implementation
 	 */
 	static class InnerNamedRunnable implements Runnable {
-		Thread t;
+		final Thread t;
 
 		InnerNamedRunnable() {
 			t = new Thread(this);

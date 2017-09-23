@@ -6,7 +6,7 @@ package methodReference.instanceEx;
 class Sum {
 	public static void main(String[] args) {
 		TriFunction<Sum, String, String, Integer> anon =
-				new TriFunction<Sum, String, String, Integer>() {
+				new TriFunction<>() {
 					@Override
 					public Integer apply(Sum s, String arg1, String arg2) {
 						return s.doSum(arg1, arg1);
@@ -27,7 +27,7 @@ class Sum {
 		System.out.println(mRef.apply(new Sum(), "1", "4"));
 	}
 
-	Integer doSum(String s1, String s2) {
+	private Integer doSum(String s1, String s2) {
 		return Integer.parseInt(s1) + Integer.parseInt(s1);
 	}
 }

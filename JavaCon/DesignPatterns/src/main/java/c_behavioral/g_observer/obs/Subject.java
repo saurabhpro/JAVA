@@ -5,7 +5,7 @@ import java.util.List;
 
 public abstract class Subject {
 
-	private List<Observer> observers = new ArrayList<>();
+	private final List<Observer> observers = new ArrayList<>();
 
 	abstract String getState();
 
@@ -19,7 +19,7 @@ public abstract class Subject {
 		observers.remove(observer);
 	}
 
-	public void notifyObservers() {
+	void notifyObservers() {
 		for (Observer observer : observers) {
 			observer.update();
 		}

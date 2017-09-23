@@ -1,7 +1,9 @@
 package b_structural.g_proxy;
 
-public interface TwitterService {
+interface TwitterService {
+	@SuppressWarnings("SameReturnValue")
 	String getTimeline(String screenName);
 
+	@SuppressWarnings("EmptyMethod")
 	void postToTimeline(String screenName, String message);
 }

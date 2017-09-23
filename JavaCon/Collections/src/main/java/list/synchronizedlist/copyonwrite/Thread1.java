@@ -7,8 +7,8 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * Created by Saurabh on 9/13/2015.
  */
 
-public class Thread1 implements Runnable {
-	private CopyOnWriteArrayList<String> al;
+class Thread1 implements Runnable {
+	private final CopyOnWriteArrayList<String> al;
 
 	Thread1(CopyOnWriteArrayList<String> al) {
 		this.al = al;

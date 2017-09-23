@@ -7,6 +7,7 @@ public class RunnableThreadDemo {
 	public static void main(String[] args) {
 		boolean isDaemon = args.length != 0;
 
+		//noinspection Convert2Lambda
 		Runnable r = new Runnable() {
 			@Override
 			public void run() {

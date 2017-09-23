@@ -24,8 +24,9 @@ class Temp2 implements Cloneable {
 
 public class DeepClone implements Cloneable {
 	private int x = 10;
-	private Temp2 t;
+	private final Temp2 t;
 
+	@SuppressWarnings("SameParameterValue")
 	private DeepClone(int a) {
 		t = new Temp2(a);
 	}

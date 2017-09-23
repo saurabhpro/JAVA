@@ -4,9 +4,9 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-public class SecurityProxy implements InvocationHandler {
+class SecurityProxy implements InvocationHandler {
 
-	private Object obj;
+	private final Object obj;
 
 	private SecurityProxy(Object obj) {
 		this.obj = obj;

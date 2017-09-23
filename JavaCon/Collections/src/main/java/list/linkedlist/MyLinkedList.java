@@ -11,10 +11,10 @@ interface MyIterator {
 	int next();
 }
 
-@SuppressWarnings("ConstantConditions")
+@SuppressWarnings({"ConstantConditions", "FieldCanBeLocal"})
 class LinkList implements MyIterator {
 	private Node head;
-	private Node tail;
+	private final Node tail;
 	private Node hasNxt, nxt;
 
 	LinkList() {
@@ -141,8 +141,8 @@ class LinkList implements MyIterator {
 
 	static class Node {
 
-		protected Node next;
-		private int info;
+		private final int info;
+		Node next;
 
 		Node(int info) {
 			this.info = info;

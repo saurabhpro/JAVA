@@ -5,7 +5,8 @@ package pluralsight.util.Consumer;
  */
 public class CustomConsumerRunner {
 	public static void main(String[] args) {
-		Consumer<Integer> consumer = new Consumer<Integer>() {
+
+		Consumer<Integer> consumer = new Consumer<>() {
 			@Override
 			public void accept(Integer integer) {
 				System.out.println(integer);

@@ -7,7 +7,7 @@ public abstract class MenuComponent {
 
 	String name;
 	String url;
-	List<MenuComponent> menuComponents = new ArrayList<>();
+	final List<MenuComponent> menuComponents = new ArrayList<>();
 
 	public MenuComponent add(MenuComponent menuComponent) {
 		throw new UnsupportedOperationException("Feature not implemented at this level");
@@ -28,10 +28,8 @@ public abstract class MenuComponent {
 	public abstract String toString();
 
 	String print(MenuComponent menuComponent) {
-		StringBuilder builder = new StringBuilder(menuComponent.name);
-		builder.append(": ");
-		builder.append(menuComponent.url);
-		builder.append("\n");
-		return builder.toString();
+		return menuComponent.name + ": " +
+				menuComponent.url +
+				"\n";
 	}
 }

@@ -7,7 +7,7 @@ import pluralsight.util.common.Person;
  */
 public class CustomSupplierRunner {
 	public static void main(String[] args) {
-		Supplier<Integer> supplier = new Supplier<Integer>() {
+		Supplier<Integer> supplier = new Supplier<>() {
 			@Override
 			public Integer get() {
 				return 500;

@@ -16,7 +16,7 @@ public class IteratorsForVectors {
 	}
 
 	static class VectorIterators implements ListOp {
-		Vector<Integer> list = new Vector<>();
+		final Vector<Integer> list = new Vector<>();
 		/*
 		cannot use List<Integer> here as elements method isn't there in List base interface,
 		so wont be able to use it

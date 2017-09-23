@@ -2,7 +2,7 @@ package c_behavioral.h_state;
 
 public class FanLowState extends State {
 
-	private Fan fan;
+	private final Fan fan;
 
 	public FanLowState(Fan fan) {
 		this.fan = fan;

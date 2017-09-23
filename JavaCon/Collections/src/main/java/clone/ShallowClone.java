@@ -15,14 +15,15 @@ class Temp1 {
 
 class ShallowClone implements Cloneable {
 	private int x = 10;
-	private Temp1 t;
+	private final Temp1 t;
 
+	@SuppressWarnings("SameParameterValue")
 	private ShallowClone(int a) {
 		t = new Temp1(a);
 	}
 
 	public static void main(String[] args) {
-		ShallowClone c = null;
+		ShallowClone c;
 		ShallowClone m = new ShallowClone(100);
 
 		System.out.println(m.t.g);

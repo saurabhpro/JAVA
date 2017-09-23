@@ -2,7 +2,7 @@ package map.pluralsight.product.lookup;
 
 import map.pluralsight.product.model.Product;
 
-public interface ProductLookupTable {
+interface ProductLookupTable {
 	Product lookupById(int id);
 
 	void addProduct(Product productToAdd);

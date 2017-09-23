@@ -10,7 +10,7 @@ import java.util.Iterator;
  */
 public class SimpleDemoEmp {
 
-	ArrayList<Emp> al;
+	private final ArrayList<Emp> al;
 
 	//Initializer Constructor
 	private SimpleDemoEmp() {

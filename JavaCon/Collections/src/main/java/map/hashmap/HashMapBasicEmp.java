@@ -65,7 +65,7 @@ public class HashMapBasicEmp {
 	}
 
 	static class BasicEmp {
-		private int id;
+		private final int id;
 
 		BasicEmp(int id) {
 			this.id = id;

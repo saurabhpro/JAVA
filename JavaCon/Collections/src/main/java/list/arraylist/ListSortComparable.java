@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
-/**
+/*
  * Created by Saurabh on 9/6/2015.
  */
 
@@ -13,8 +13,8 @@ import java.util.Objects;
  * sort() of collections class can sort the objects of those classes which are implementing Comparable interfaces by default
  */
 class Empl implements Comparable<Empl> {
-	int salary;
-	String name;
+	final int salary;
+	final String name;
 
 	Empl(String str, int sal) {
 		name = str;
@@ -56,14 +56,13 @@ class Empl implements Comparable<Empl> {
 		Objects.nonNull(o);
 
 		System.out.println("Inside compareTo ...sortin");
-		if (this.salary > o.salary) return 1;
-		else if (this.salary < o.salary) return -1;
-		else return 0;
+
+		return Integer.compare(this.salary, o.salary);
 	}
 }
 
 public class ListSortComparable {
-	private List<Empl> list = new ArrayList<>();
+	private final List<Empl> list = new ArrayList<>();
 
 	private ListSortComparable() {
 		list.add(new Empl("Raam", 3000));

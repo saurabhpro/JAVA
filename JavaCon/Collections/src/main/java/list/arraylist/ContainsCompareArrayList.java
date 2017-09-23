@@ -11,7 +11,7 @@ import java.util.List;
 
 public class ContainsCompareArrayList {
 
-	static void compareStringArrayListUsingContains() {
+	private static void compareStringArrayListUsingContains() {
 		ArrayList<String> ar = new ArrayList<>();
 		ar.add("How are you");
 		ar.add("Good Morning");
@@ -40,7 +40,7 @@ public class ContainsCompareArrayList {
 		System.out.println(ar4);
 	}
 
-	static void compareArrayListOwnClassUsingContains() {
+	private static void compareArrayListOwnClassUsingContains() {
 		ArrayList<Emp4> list = new ArrayList<>();
 		Emp4 e2 = new Emp4(1001);
 
@@ -68,7 +68,7 @@ public class ContainsCompareArrayList {
          */
 	}
 
-	static void containsAllMyList() {
+	private static void containsAllMyList() {
 		ArrayList<String> ar = new ArrayList<>();
 		ar.add("First");
 		ar.add("Second");

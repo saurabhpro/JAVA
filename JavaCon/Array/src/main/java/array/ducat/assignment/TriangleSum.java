@@ -3,8 +3,8 @@ package array.ducat.assignment;
 /**
  * Created by Saurabh on 7/6/2015.
  */
-public class TriangleSum {
-	ArrayD ar = new ArrayD();
+class TriangleSum {
+	private final ArrayD ar = new ArrayD();
 
 	int lowerTriangleSum(int a[][]) {
 	    /*

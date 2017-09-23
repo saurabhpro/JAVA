@@ -6,14 +6,15 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class JdbcFacade {
+class JdbcFacade {
 
-	DbSingleton instance = null;
+	private DbSingleton instance = null;
 
 	public JdbcFacade() {
 		instance = DbSingleton.getInstance();
 	}
 
+	@SuppressWarnings("UnusedReturnValue")
 	public int createTable() {
 		int count = 0;
 		try {
@@ -28,6 +29,7 @@ public class JdbcFacade {
 		return count;
 	}
 
+	@SuppressWarnings("UnusedReturnValue")
 	public int insertIntoTable() {
 		int count = 0;
 		try {

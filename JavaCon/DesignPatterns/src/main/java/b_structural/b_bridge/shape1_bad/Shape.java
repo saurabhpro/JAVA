@@ -1,8 +1,8 @@
 package b_structural.b_bridge.shape1_bad;
 
-public abstract class Shape {
+abstract class Shape {
 
-	public Shape() {
+	Shape() {
 
 	}
 

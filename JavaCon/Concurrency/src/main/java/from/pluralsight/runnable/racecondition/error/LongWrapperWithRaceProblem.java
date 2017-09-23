@@ -1,6 +1,6 @@
 package from.pluralsight.runnable.racecondition.error;
 
-public class LongWrapperWithRaceProblem {
+class LongWrapperWithRaceProblem {
 
 	private long l;
 

@@ -6,7 +6,7 @@ import java.util.Deque;
 
 import static java.lang.Integer.parseInt;
 
-public class Calculator {
+class Calculator {
 
     /*
     1
@@ -18,7 +18,7 @@ public class Calculator {
     4
     */
 
-	public int evaluate(final String input) {
+	int evaluate(final String input) {
 		final Deque<String> stack = new ArrayDeque<>();
 		final String[] tokens = input.split(" ");
 

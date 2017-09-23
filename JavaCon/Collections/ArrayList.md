@@ -12,7 +12,7 @@
 
 7. If you want to use ArrayList data structure in multithreaded environment, then you need to use the `CopyOnWriteArrayList` 
 or use `Collection.Synchronized()` to create a synchronized list. 
-Former is a part of concurrent collections package and is much more stable than the second one, but only useful when  there are many readers and writers. A new copy of ArrayList is created every time a write happens, it can be overkill if used in write heavy environment 
+Former is a part of concurrent collections package and is much more stable than the second one, but only useful when  there are many readers and writers. exceptions.try_with_resources.A new copy of ArrayList is created every time a write happens, it can be overkill if used in write heavy environment 
 Second option is strictly synchronized collection, much like `Vector` and `Hashtable`, but is not scalable because once a number of threads increases drastically, contention become a huge issue.
 
 8.	`CopyOnWriteArrayList` is recommended for concurrent multithreading environment as it is optimized for multiple concurrent reads and creates copy for write operation.

@@ -12,7 +12,8 @@ public class AnExample {
 		List<Integer> list = Arrays.asList(12, 5, 45, 18, 33, 24, 40);
 
 		// Using an anonymous class
-		NumbersO.findNumbers(list, new BiPredicate<Integer, Integer>() {
+		//noinspection Convert2Lambda
+		NumbersO.findNumbers(list, new BiPredicate<>() {
 			public boolean test(Integer i1, Integer i2) {
 				return NumbersO.isMoreThanFifty(i1, i2);
 			}

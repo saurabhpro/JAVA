@@ -23,7 +23,7 @@ public class LinkedHashMapClass {
 
 	}
 }
-/**
+/*
  * OUTPUT [insertion parts maintained]
  * 100 Amit
  * 101 Vijay

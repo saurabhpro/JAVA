@@ -1,5 +1,6 @@
 package from.pluralsight.runnable.deadlock;
 
+@SuppressWarnings("Convert2MethodRef")
 public class RunningA {
 
 	public static void main(String[] args) throws InterruptedException {

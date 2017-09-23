@@ -8,7 +8,7 @@ import b_structural.a_adapter.emp.legacy.EmployeeDB;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmployeeClient {
+class EmployeeClient {
 
 	public List<Employee> getEmployeeList() {
 

@@ -1,6 +1,6 @@
 package a_creational.b_builder;
 
-public class LunchOrderBean {
+class LunchOrderBean {
 
 	private String bread;
 	private String condiments;

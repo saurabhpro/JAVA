@@ -10,10 +10,11 @@ import java.util.function.Function;
 class Shipment {
 	public static void main(String[] args) {
 		Shipment ship = new Shipment();
-		List<Shipment> l = new ArrayList<Shipment>();
+		List<Shipment> l = new ArrayList<>();
 
 		// Using an anonymous class
-		ship.calculateOnShipments(l, new Function<Shipment, Double>() {
+		//noinspection Convert2Lambda
+		ship.calculateOnShipments(l, new Function<>() {
 			public Double apply(Shipment s) { // The object
 				return s.calculateWeight(); // The method
 			}

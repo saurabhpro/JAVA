@@ -1,7 +1,7 @@
 package list.arraylist.model;
 
 public class Emp4 {
-	public int id;
+	public final int id;
 
 	public Emp4(int id) {
 		this.id = id;

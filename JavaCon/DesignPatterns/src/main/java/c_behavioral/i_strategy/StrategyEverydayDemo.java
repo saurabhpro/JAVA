@@ -1,7 +1,6 @@
 package c_behavioral.i_strategy;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -18,7 +17,7 @@ public class StrategyEverydayDemo {
 		Person mark = new Person("Mark", "801-444-1234", 41);
 		Person chris = new Person("Chris", "801-222-5151", 38);
 
-		List<Person> people = new ArrayList<Person>();
+		List<Person> people = new ArrayList<>();
 		people.add(bryan);
 		people.add(mark);
 		people.add(chris);
@@ -26,7 +25,8 @@ public class StrategyEverydayDemo {
 		System.out.println("Not sorted");
 		printContents(people);
 
-		Collections.sort(people, new Comparator<Person>() {
+		/*
+		Collections.sort(people, new Comparator<>() {
 			@Override
 			public int compare(Person o1, Person o2) {
 				if (o1.getAge() > o2.getAge()) {
@@ -41,10 +41,35 @@ public class StrategyEverydayDemo {
 			}
 		});
 
+		//to
+		Collections.sort(people, (o1, o2) -> {
+			if (o1.getAge() > o2.getAge()) {
+				return 1;
+			}
+
+			if (o1.getAge() < o2.getAge()) {
+				return -1;
+			}
+
+			return 0;
+		});
+
+		//to
+		Collections.sort(people, (o1, o2) -> {
+			return Integer.compare(o1.getAge(), o2.getAge());
+
+		});
+
+		people.sort((o1, o2) -> { return Integer.compare(o1.getAge(), o2.getAge()); });
+		*/
+
+		people.sort(Comparator.comparingInt(Person::getAge));
+
 		System.out.println("\nSorted by age");
 		printContents(people);
 
-		Collections.sort(people, new Comparator<Person>() {
+		//noinspection Convert2Lambda
+		people.sort(new Comparator<>() {
 			@Override
 			public int compare(Person o1, Person o2) {
 				return o1.getName().compareTo(o2.getName());

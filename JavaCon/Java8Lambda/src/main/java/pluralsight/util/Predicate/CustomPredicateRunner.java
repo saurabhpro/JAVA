@@ -7,7 +7,7 @@ public class CustomPredicateRunner {
 	public static void main(String[] args) {
 
 		//old ways of writing anonymous class
-		Predicate<Integer> predicate = new Predicate<Integer>() {
+		Predicate<Integer> predicate = new Predicate<>() {
 			@Override
 			public boolean test(Integer integer) {
 				return integer > 20;

@@ -3,9 +3,9 @@ package c_behavioral.e_mediator.light;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Mediator {
+class Mediator {
 
-	private List<Light> lights = new ArrayList<>();
+	private final List<Light> lights = new ArrayList<>();
 
 	public void registerLight(Light light) {
 		lights.add(light);

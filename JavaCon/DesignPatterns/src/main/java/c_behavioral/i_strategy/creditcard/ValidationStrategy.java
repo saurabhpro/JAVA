@@ -1,10 +1,10 @@
 package c_behavioral.i_strategy.creditcard;
 
-public abstract class ValidationStrategy {
+abstract class ValidationStrategy {
 
 	public abstract boolean isValid(CreditCard creditCard);
 
-	protected boolean passesLuhn(String ccNumber) {
+	boolean passesLuhn(String ccNumber) {
 		int sum = 0;
 		boolean alternate = false;
 		for (int i = ccNumber.length() - 1; i >= 0; i--) {

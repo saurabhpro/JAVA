@@ -26,10 +26,10 @@ public class DaemonDontRunFinally implements Runnable {
 		}
 	}
 
-	void runThread() {
+	private void runThread() {
 		Thread t = new Thread(new DaemonDontRunFinally());
 		t.setDaemon(true);
-		/**
+		/*
 		 * if we comment the above line we will see that finally always runs
 		 * but for daemon thread they don't (WHY?)
 		 *

@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Created by Saurabh on 9/6/2015.
  */
 public class SimpleDemo {
-	static void basicOperationShow() {
+	private static void basicOperationShow() {
 		ArrayList<Integer> al = new ArrayList<>();
 
 		//takes repeated values unlike Sets
@@ -22,17 +22,17 @@ public class SimpleDemo {
 		//  for(int i = 0; i<ob.length;i++)
 		for (Object anOb : ob) {
 			Integer z = (Integer) anOb;
-			System.out.print(z.intValue() + " ");
+			System.out.print(z + " ");
 		}
 
 		System.out.println();
 		for (Integer i : al) {
-			System.out.print(i.intValue() + " ");     //intValues() unboxing is unnecessary, so can safely be removed
+			System.out.print(i + " ");     //intValues() unboxing is unnecessary, so can safely be removed
 			//Explicit unwrapping of wrapper primitive type, Unboxing is not needed from java 1.5
 		}
 	}
 
-	static void selfPassedArrayList() {
+	private static void selfPassedArrayList() {
 		ArrayList<ArrayList> al = new ArrayList<>();
 
 		ArrayList<String> als = new ArrayList<>();

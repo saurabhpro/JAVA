@@ -3,9 +3,9 @@ package a_creational.e_abstractFactory;
 //AbstractProduct
 public abstract class CreditCard {
 
-	protected int cardNumberLength;
+	private int cardNumberLength;
 
-	protected int cscNumber;
+	private int cscNumber;
 
 	public int getCardNumberLength() {
 		return cardNumberLength;

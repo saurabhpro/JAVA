@@ -10,7 +10,7 @@ public class JsonToStudentDetailsMapper implements JsonMapper {
 
 	@Override
 	public void map(String fileName) {
-		/**
+		/*
 		 * only thing that matters is what class we are passing, if we are passing Student details, 
 		 * we are assuming only one json object having these properties
 		 * 

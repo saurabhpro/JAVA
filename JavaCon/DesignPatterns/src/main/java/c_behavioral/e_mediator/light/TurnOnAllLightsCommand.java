@@ -3,7 +3,7 @@ package c_behavioral.e_mediator.light;
 //concrete command
 public class TurnOnAllLightsCommand implements Command {
 
-	private Mediator med;
+	private final Mediator med;
 
 	public TurnOnAllLightsCommand(Mediator med) {
 		this.med = med;

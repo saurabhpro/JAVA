@@ -19,11 +19,11 @@ public class RemoveHelpDesk {
 		helpDesk.processAllEnquires();
 	}
 
-	public void enquire(final Customer customer, final Category category) {
+	private void enquire(final Customer customer, final Category category) {
 		enquiries.add(new Enquiry(customer, category));
 	}
 
-	public void processAllEnquires() {
+	private void processAllEnquires() {
 		while (!enquiries.isEmpty()) {
 			final Enquiry enquiry = enquiries.remove();
 			enquiry.getCustomer().reply("Have you tried turning it off and on again?");

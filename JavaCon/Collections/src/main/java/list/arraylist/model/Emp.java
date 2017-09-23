@@ -4,8 +4,8 @@ package list.arraylist.model;
  * Created by Saurabh on 9/6/2015.
  */
 public class Emp {
-	public int id;
-	public String name;
+	public final int id;
+	public final String name;
 
 	public Emp(int x, String st) {
 		id = x;

@@ -5,7 +5,7 @@ import b_structural.a_adapter.emp.legacy.Employee;
 
 public class EmployeeAdapterCSV implements Employee {
 
-	private EmployeeCSV instance;
+	private final EmployeeCSV instance;
 
 	public EmployeeAdapterCSV(EmployeeCSV instance) {
 		this.instance = instance;

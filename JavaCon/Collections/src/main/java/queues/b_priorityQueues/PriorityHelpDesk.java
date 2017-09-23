@@ -11,13 +11,10 @@ import java.util.Queue;
 
 public class PriorityHelpDesk {
 
-	private static final Comparator<Enquiry> BY_CATEGORY = new Comparator<Enquiry>() {
-		public int compare(final Enquiry o1, final Enquiry o2) {
-			return o1.getCategory().compareTo(o2.getCategory());
-		}
-	};
+	@SuppressWarnings("ComparatorCombinators")
+	private static final Comparator<Enquiry> BY_CATEGORY = (o1, o2) -> o1.getCategory().compareTo(o2.getCategory());
 
-	private Queue<Enquiry> enquiries = new PriorityQueue<>(BY_CATEGORY);
+	private final Queue<Enquiry> enquiries = new PriorityQueue<>(BY_CATEGORY);
 
 	public static void main(String[] args) {
 		PriorityHelpDesk helpDesk = new PriorityHelpDesk();

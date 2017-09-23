@@ -9,11 +9,11 @@ public class ProducerConsumer {
 	private static int[] stockBuffer;
 	private static int count;
 
-	static boolean isEmpty(int[] stockBuffer) {
+	private static boolean isEmpty(int[] stockBuffer) {
 		return count == 0;
 	}
 
-	static boolean isFull(int[] buffer) {
+	private static boolean isFull(int[] buffer) {
 		return count == buffer.length;
 	}
 

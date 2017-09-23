@@ -3,7 +3,7 @@ package c_behavioral.d_iterator;
 import java.util.Iterator;
 
 
-public class BikeRepository implements Iterable<String> {
+class BikeRepository implements Iterable<String> {
 
 	private String[] bikes;
 	private int index;
@@ -28,7 +28,7 @@ public class BikeRepository implements Iterable<String> {
 	@Override
 	public Iterator<String> iterator() {
 
-		return new Iterator<String>() {
+		return new Iterator<>() {
 
 			private int currentIndex = 0;
 

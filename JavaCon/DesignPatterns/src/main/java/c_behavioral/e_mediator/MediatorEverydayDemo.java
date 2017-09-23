@@ -4,10 +4,11 @@ import java.awt.*;
 import java.util.Timer;
 import java.util.TimerTask;
 
+@SuppressWarnings("ALL")
 public class MediatorEverydayDemo {
 
-	private Toolkit toolkit;
-	private Timer timer;
+	private final Toolkit toolkit;
+	private final Timer timer;
 
 	private MediatorEverydayDemo(int seconds) {
 		toolkit = Toolkit.getDefaultToolkit();

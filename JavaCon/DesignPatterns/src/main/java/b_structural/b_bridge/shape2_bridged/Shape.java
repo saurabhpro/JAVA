@@ -1,10 +1,10 @@
 package b_structural.b_bridge.shape2_bridged;
 
-public abstract class Shape {
+abstract class Shape {
 
-	protected Color color;
+	final Color color;
 
-	public Shape(Color color) {
+	Shape(Color color) {
 		this.color = color;
 	}
 

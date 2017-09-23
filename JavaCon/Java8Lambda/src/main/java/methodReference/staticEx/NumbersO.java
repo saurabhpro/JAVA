@@ -7,7 +7,7 @@ import java.util.function.BiPredicate;
 /**
  * Created by saurabhkumar on 23/05/17.
  */
-public interface NumbersO {
+interface NumbersO {
 	static boolean isMoreThanFifty(int n1, int n2) {
 		return (n1 + n2) > 50;
 	}

@@ -17,7 +17,7 @@ public class ComparableString {
 		listofcountries.add("US");
 		listofcountries.add("India");
 		listofcountries.add("Denmark");
-		listofcountries.add("China");
+		listofcountries.add("Russia");
 
 		System.out.println("Before Sorting: ");
 		for (String str : listofcountries)
@@ -30,9 +30,8 @@ public class ComparableString {
         Collections.sort(List<T>, Comparator<? super T);
          */
 
-		System.out.println("\nAfter Sorting");
-		for (String str : listofcountries)
-			System.out.print(str + " ");
+		System.out.println("\n\nAfter Sorting");
+		listofcountries.stream().map(str -> str + " ").forEach(System.out::print);
 	}
 }
 /*OUTPUT

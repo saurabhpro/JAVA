@@ -21,10 +21,11 @@ public class HashMapBasicString {
 		hashMap.put("1002", "bbbb");
 		hashMap.put("1003", "cccc");
 		hashMap.put("1004", "dddd");
+		//noinspection RedundantStringConstructorCall
 		hashMap.put(new String("1005"), "eeee");        //no difference with using new
 		hashMap.put("1001", "only changed the value of 1001");      // it'll replace the value at key
 
-		/**
+		/*
 		 * Set set = hashMap.entrySet();
 		 * valid but produces raw type variable set
 		 * so if we want its iterator to be stores in type specific
@@ -36,6 +37,7 @@ public class HashMapBasicString {
 		Set<Map.Entry<String, String>> set = hashMap.entrySet();
 		Iterator<Map.Entry<String, String>> iterator = set.iterator();
 
+		//noinspection WhileLoopReplaceableByForEach
 		while (iterator.hasNext()) {
 			Map.Entry e = iterator.next();
 
@@ -44,7 +46,7 @@ public class HashMapBasicString {
 
 	}
 }
-/**
+/*
  * OUTPUT
  * if you see the entry is shown as a addToBeginningOfLinkedList(), 5->4->3->2->1
  * 1005 eeee

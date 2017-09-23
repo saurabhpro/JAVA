@@ -5,7 +5,7 @@ package array.references;
  */
 
 class A {
-	static int x;
+	private static int x;
 
 	int increment() {
 		return x++;
@@ -20,7 +20,7 @@ class B extends A {
 }
 
 class C extends B {
-	static int x = 5;
+	private static int x = 5;
 
 	@Override
 	int increment() {

@@ -3,9 +3,9 @@ package c_behavioral.f_memento.history;
 import java.util.Stack;
 
 //caretaker
-public class Caretaker {
+class Caretaker {
 
-	private Stack<EmployeeMemento> employeeHistory = new Stack<>();
+	private final Stack<EmployeeMemento> employeeHistory = new Stack<>();
 
 	public void save(Employee emp) {
 		employeeHistory.push(emp.save());

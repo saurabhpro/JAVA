@@ -1,6 +1,6 @@
 package c_behavioral.j_template;
 
-public class Person implements Comparable<Person> {
+class Person implements Comparable<Person> {
 
 	private int age;
 	private String name;
@@ -10,7 +10,7 @@ public class Person implements Comparable<Person> {
 
 	}
 
-	public Person(String name, String phoneNumber, int age) {
+	Person(String name, String phoneNumber, int age) {
 		this.name = name;
 		this.phoneNumber = phoneNumber;
 		this.age = age;
@@ -43,15 +43,7 @@ public class Person implements Comparable<Person> {
 	@Override
 	public int compareTo(Person o) {
 
-		if (this.age > o.age) {
-			return 1;
-		}
-
-		if (this.age < o.age) {
-			return -1;
-		}
-
-		return 0;
+		return Integer.compare(this.age, o.age);
 	}
 
 }

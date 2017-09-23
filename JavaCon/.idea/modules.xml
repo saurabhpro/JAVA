@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/JDBC/JDBC.iml" filepath="$PROJECT_DIR$/JDBC/JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java8Lambda/Java8Lambda.iml" filepath="$PROJECT_DIR$/Java8Lambda/Java8Lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java8Optional/Java8Optional.iml" filepath="$PROJECT_DIR$/Java8Optional/Java8Optional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java9OtherUpdates/Java9OtherUpdates.iml" filepath="$PROJECT_DIR$/Java9OtherUpdates/Java9OtherUpdates.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaCon.iml" filepath="$PROJECT_DIR$/JavaCon.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaDS/JavaDS.iml" filepath="$PROJECT_DIR$/JavaDS/JavaDS.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaKathy/JavaKathy.iml" filepath="$PROJECT_DIR$/JavaKathy/JavaKathy.iml" />
@@ -22,7 +23,6 @@
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/Reflection/Reflection.iml" filepath="$PROJECT_DIR$/Reflection/Reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpecialKeywords/SpecialKeywords.iml" filepath="$PROJECT_DIR$/SpecialKeywords/SpecialKeywords.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
     </modules>
   </component>
 </project>

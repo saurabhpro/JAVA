@@ -11,7 +11,7 @@ import java.util.function.Predicate;
 import static queues.model.Category.PRINTER;
 
 public class CategorisedHelpDesk {
-	private Queue<Enquiry> enquiries = new ArrayDeque<>();
+	private final Queue<Enquiry> enquiries = new ArrayDeque<>();
 
 	public static void main(String[] args) {
 		CategorisedHelpDesk helpDesk = new CategorisedHelpDesk();
@@ -24,17 +24,17 @@ public class CategorisedHelpDesk {
 		helpDesk.processPrinterEnquiry();
 	}
 
-	public boolean enquire(final Customer customer, final Category type) {
+	private boolean enquire(final Customer customer, final Category type) {
 		return enquiries.offer(new Enquiry(customer, type));
 	}
 
-	public void processPrinterEnquiry() {
+	private void processPrinterEnquiry() {
 		processEnquiry(
 				enq -> enq.getCategory() == PRINTER,
 				"Is it out of paper?");
 	}
 
-	public void processGeneralEnquiry() {
+	private void processGeneralEnquiry() {
 		processEnquiry(
 				enq -> enq.getCategory() != PRINTER,
 				"Have you tried turning it off and on again?");

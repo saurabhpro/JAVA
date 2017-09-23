@@ -1,5 +1,6 @@
 package a_creational.b_builder.lunchBuilder;
 
+@SuppressWarnings("ALL")
 class LunchOrder {
 
 	private final String bread;
@@ -56,6 +57,7 @@ class LunchOrder {
 			return this;
 		}
 
+		@SuppressWarnings("UnusedReturnValue")
 		Builder meat(String meat) {
 			this.meat = meat;
 			return this;

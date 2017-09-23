@@ -8,6 +8,7 @@ public class Person {
 
 	private String firstName;
 	private String lastName;
+	@SuppressWarnings("FieldCanBeLocal")
 	private String name;
 	private int age;
 

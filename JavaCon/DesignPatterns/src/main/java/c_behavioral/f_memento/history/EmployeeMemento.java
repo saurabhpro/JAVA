@@ -3,8 +3,8 @@ package c_behavioral.f_memento.history;
 //memento
 public class EmployeeMemento {
 
-	private String name;
-	private String phone;
+	private final String name;
+	private final String phone;
 
 	public EmployeeMemento(String name, String phone) {
 		this.name = name;

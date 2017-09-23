@@ -3,9 +3,9 @@ package array.ducat.assignment;
 /**
  * Created by Saurabh on 7/6/2015.
  */
-public class MaxMin {
+class MaxMin {
 
-	ArrayD ar = new ArrayD();
+	private final ArrayD ar = new ArrayD();
 
 	int max(int a[]) {
 		int max = a[0];

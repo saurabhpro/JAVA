@@ -12,26 +12,26 @@ public class WithArgument {
 
 		// Using an anonymous class
 		Function<String, Integer> f =
-				new Function<String, Integer>() {
+				new Function<>() {
 					public Integer apply(String s) {
-						return new Integer(s);
+						return Integer.valueOf(s);
 					}
 				};
 		Integer i1 = f.apply("100");
 
 
 		// Using a lambda expression
-		Function<String, Integer> f2 = s -> new Integer(s);
+		Function<String, Integer> f2 = s -> Integer.valueOf(s);
 		Integer i2 = f2.apply("100");
 
 
 		// Using a method reference
-		Function<String, Integer> f3 = Integer::new;
+		Function<String, Integer> f3 = Integer::valueOf;
 		Integer i3 = f3.apply("100");
 
 
 		// Using a anonymous class
-		BiFunction<String, String, Locale> f4 = new BiFunction<String, String, Locale>() {
+		BiFunction<String, String, Locale> f4 = new BiFunction<>() {
 			public Locale apply(String lang, String country) {
 				return new Locale(lang, country);
 			}

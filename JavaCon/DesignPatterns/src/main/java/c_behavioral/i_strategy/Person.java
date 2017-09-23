@@ -1,6 +1,6 @@
 package c_behavioral.i_strategy;
 
-public class Person {
+class Person {
 
 	private int age;
 	private String name;

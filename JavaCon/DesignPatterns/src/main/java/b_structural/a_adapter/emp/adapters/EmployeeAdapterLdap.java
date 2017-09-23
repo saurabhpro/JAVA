@@ -5,7 +5,7 @@ import b_structural.a_adapter.emp.legacy.Employee;
 
 public class EmployeeAdapterLdap implements Employee {
 
-	private EmployeeLdap instance;
+	private final EmployeeLdap instance;
 
 	public EmployeeAdapterLdap(EmployeeLdap instance) {
 		this.instance = instance;

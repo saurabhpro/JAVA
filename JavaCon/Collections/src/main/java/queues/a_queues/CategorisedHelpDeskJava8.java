@@ -9,7 +9,7 @@ import java.util.Queue;
 import java.util.function.Predicate;
 
 public class CategorisedHelpDeskJava8 {
-	private Queue<Enquiry> enquiries = new ArrayDeque<>();
+	private final Queue<Enquiry> enquiries = new ArrayDeque<>();
 
 	public static void main(String[] args) {
 		CategorisedHelpDeskJava8 helpDesk = new CategorisedHelpDeskJava8();
@@ -22,16 +22,16 @@ public class CategorisedHelpDeskJava8 {
 		helpDesk.processPrinterEnquiry();
 	}
 
-	public boolean enquire(final Customer customer, final Category type) {
+	private boolean enquire(final Customer customer, final Category type) {
 		return enquiries.offer(new Enquiry(customer, type));
 	}
 
-	public void processPrinterEnquiry() {
+	private void processPrinterEnquiry() {
 		processEnquiry(
 				enquiry -> enquiry.getCategory() == Category.PRINTER, "Is it out of paper?");
 	}
 
-	public void processGeneralEnquiry() {
+	private void processGeneralEnquiry() {
 		processEnquiry(
 				enquiry -> enquiry.getCategory() != Category.PRINTER, "Have you tried turning it off and on again?");
 	}

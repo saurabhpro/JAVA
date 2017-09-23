@@ -47,6 +47,7 @@ public class DiamondOp {
 			System.out.println("I am String list");
 
 			// #1
+			//noinspection ArraysAsListWithZeroOrOneArgument
 			Arrays.asList(argStringArrayList).forEach(System.out::println);
 			//or
 			Collections.singletonList(argStringArrayList).forEach(System.out::println);
@@ -67,7 +68,7 @@ public class DiamondOp {
 		}
 	}
 
-	class ErasureProblemsWithGenerics {
+	private class ErasureProblemsWithGenerics {
 	/*	void testMethod1(ArrayList<String> argStringArrayList){
 			System.out.println("I am String list");
 		}

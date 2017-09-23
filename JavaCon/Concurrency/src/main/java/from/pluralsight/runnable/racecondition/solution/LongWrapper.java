@@ -1,8 +1,8 @@
 package from.pluralsight.runnable.racecondition.solution;
 
-public class LongWrapper {
+class LongWrapper {
 
-	private Object key = new Object();
+	private final Object key = new Object();
 	private long l;
 
 	public LongWrapper(long l) {

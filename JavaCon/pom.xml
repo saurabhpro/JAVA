@@ -51,8 +51,6 @@
         <module>Generics</module>
         <module>Collections</module>
         <module>Concurrency</module>
-        <module>Java8Lambda</module>
-        <module>Streams</module>
         <module>Reflection</module>
         <module>DesignPatterns</module>
         <module>JDBC</module>
@@ -60,7 +58,9 @@
         <module>JavaDS</module>
         <module>IO</module>
         <module>JsonIO</module>
+        <module>Java8Lambda</module>
         <module>Java8Optional</module>
+        <module>Java9OtherUpdates</module>
 
     </modules>
 </project>

@@ -3,7 +3,7 @@ package c_behavioral.b_command;
 //concrete command
 public class ToggleCommand implements Command {
 
-	private Light light;
+	private final Light light;
 
 	public ToggleCommand(Light light) {
 		this.light = light;

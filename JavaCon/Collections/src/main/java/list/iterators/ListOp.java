@@ -7,7 +7,7 @@ import java.util.ListIterator;
 /**
  * Created by saurabhkumar on 20/05/17.
  */
-public interface ListOp {
+interface ListOp {
 	default void listIterator(List<Integer> list) {
 		ListIterator<Integer> listIterator = list.listIterator();
 

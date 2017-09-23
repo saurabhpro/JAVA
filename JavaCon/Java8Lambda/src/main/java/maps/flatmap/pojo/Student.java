@@ -3,7 +3,7 @@ package maps.flatmap.pojo;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Student {
+class Student {
 
 	private String name;
 	private Set<String> book;

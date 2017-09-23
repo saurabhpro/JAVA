@@ -67,7 +67,7 @@ public class IntroToArrays {
 		_1DArrays();
 		_2DArrays();
 
-		/**
+		/*
 		 * ANONYMOUS ARRAY CREATION
 		 */
 		System.out.println("ANONYMOUS ARRAY in Enhanced for loop");

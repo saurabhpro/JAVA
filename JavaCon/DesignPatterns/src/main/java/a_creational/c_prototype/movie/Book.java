@@ -1,6 +1,6 @@
 package a_creational.c_prototype.movie;
 
-public class Book extends Item {
+class Book extends Item {
 
 	private int numberOfPages;
 

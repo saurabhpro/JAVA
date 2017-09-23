@@ -12,14 +12,14 @@ public class WithoutArgument {
 		// Using an anonymous class
 		Supplier<List<String>> s = new Supplier() {
 			public List<String> get() {
-				return new ArrayList<String>();
+				return new ArrayList<>();
 			}
 		};
 		List<String> l = s.get();
 
 
 		// Using a lambda expression
-		Supplier<List<String>> s2 = () -> new ArrayList<String>();
+		Supplier<List<String>> s2 = () -> new ArrayList<>();
 		List<String> l2 = s.get();
 
 

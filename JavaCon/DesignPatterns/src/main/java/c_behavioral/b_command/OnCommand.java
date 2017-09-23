@@ -3,7 +3,7 @@ package c_behavioral.b_command;
 //concrete command
 public class OnCommand implements Command {
 
-	private Light light;
+	private final Light light;
 
 	public OnCommand(Light light) {
 		this.light = light;

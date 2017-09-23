@@ -5,9 +5,9 @@ import java.util.List;
 
 public abstract class Website {
 
-	protected List<Page> pages = new ArrayList<>();
+	protected final List<Page> pages = new ArrayList<>();
 
-	public Website() {
+	protected Website() {
 		this.createWebsite();
 	}
 
@@ -15,6 +15,6 @@ public abstract class Website {
 		return pages;
 	}
 
-	public abstract void createWebsite();
+	protected abstract void createWebsite();
 
 }

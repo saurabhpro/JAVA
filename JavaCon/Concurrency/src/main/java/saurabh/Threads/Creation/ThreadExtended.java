@@ -1,4 +1,4 @@
-/**
+/*
  * Created by Saurabh on 10/21/2015.
  */
 package saurabh.Threads.Creation;

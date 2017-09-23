@@ -2,8 +2,8 @@ package list.synchronizedlist.copyonwrite;
 
 import java.util.concurrent.CopyOnWriteArrayList;
 
-public class Thread2 implements Runnable {
-	CopyOnWriteArrayList<String> al;
+class Thread2 implements Runnable {
+	private final CopyOnWriteArrayList<String> al;
 
 	Thread2(CopyOnWriteArrayList<String> al) {
 		this.al = al;

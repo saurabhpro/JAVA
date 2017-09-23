@@ -2,8 +2,8 @@ package list.synchronizedlist.problem;
 
 import java.util.ArrayList;
 
-public class ArrayListThread2 implements Runnable {
-	ArrayList<String> al;
+class ArrayListThread2 implements Runnable {
+	private final ArrayList<String> al;
 
 	ArrayListThread2(ArrayList<String> al) {
 		this.al = al;

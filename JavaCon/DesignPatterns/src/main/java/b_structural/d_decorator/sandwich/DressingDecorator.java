@@ -10,6 +10,7 @@ public class DressingDecorator extends SandwichDecorator {
 		return customSandwich.make() + addDressing();
 	}
 
+	@SuppressWarnings("SameReturnValue")
 	private String addDressing() {
 		return " + mustard";
 	}

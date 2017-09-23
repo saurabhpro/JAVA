@@ -54,11 +54,11 @@ public class MainAPICollectionMap {
 		map2.forEach(
 				(city, people) ->
 						map1.merge(
-							city, people,
-							(peopleFromMap1, peopleFromMap2) -> {
-								peopleFromMap1.addAll(peopleFromMap2);
-								return peopleFromMap1;
-							}
+								city, people,
+								(peopleFromMap1, peopleFromMap2) -> {
+									peopleFromMap1.addAll(peopleFromMap2);
+									return peopleFromMap1;
+								}
 						)
 		);
 

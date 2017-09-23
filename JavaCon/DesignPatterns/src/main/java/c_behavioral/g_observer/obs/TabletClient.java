@@ -1,6 +1,6 @@
 package c_behavioral.g_observer.obs;
 
-public class TabletClient extends Observer {
+class TabletClient extends Observer {
 
 	public TabletClient(Subject subject) {
 		this.subject = subject;

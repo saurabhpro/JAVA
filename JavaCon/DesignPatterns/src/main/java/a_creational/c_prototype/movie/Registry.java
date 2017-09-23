@@ -3,9 +3,9 @@ package a_creational.c_prototype.movie;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Registry {
+class Registry {
 
-	private Map<String, Item> itemMap = new HashMap<>();
+	private final Map<String, Item> itemMap = new HashMap<>();
 
 	public Registry() {
 		loadItems();

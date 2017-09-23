@@ -1,6 +1,6 @@
 package from.pluralsight.runnable.deadlock;
 
-public class A {
+class A {
 
 	private final Object key1 = new Object();
 	private final Object key2 = new Object();

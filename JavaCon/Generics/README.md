@@ -16,13 +16,13 @@ S, U, V etc. - 2nd, 3rd, 4th types
 
 _Some examples:_
 
-* **`Map<K, V>`**: A map usually assigns Values to Keys. These are special kinds of types, so they are used here.
+* **`Map<K, V>`**: exceptions.try_with_resources.A map usually assigns Values to Keys. These are special kinds of types, so they are used here.
 
-* **`List<E>`**: A list contains Elements. It's a convention that they are called elements. On the other hand, T would also be acceptable here.
+* **`List<E>`**: exceptions.try_with_resources.A list contains Elements. It's a convention that they are called elements. On the other hand, T would also be acceptable here.
 
-* **`Formatter<T>`**: A formatter can format any Type. It's not really an element, nor a key, nor a value, so T is the correct letter here.
+* **`Formatter<T>`**: exceptions.try_with_resources.A formatter can format any Type. It's not really an element, nor a key, nor a value, so T is the correct letter here.
 
-* **`Triplet<T, U, V>`**: A triplet for arbitrary types. Since the type definition does not know anything about the types that will be filled in later, it uses just the T for the first type, followed by the next letters in alphabetical order.
+* **`Triplet<T, U, V>`**: exceptions.try_with_resources.A triplet for arbitrary types. Since the type definition does not know anything about the types that will be filled in later, it uses just the T for the first type, followed by the next letters in alphabetical order.
 
 
 ## Erasure
@@ -64,7 +64,7 @@ Some types are available at compile time and some types are at run time. Types t
 ### More 
 
 Reification refers to the act of converting into or regarding as a concrete thing. 
-A reifiable type exposes its complete type information at runtime. 
+exceptions.try_with_resources.A reifiable type exposes its complete type information at runtime. 
 
 Examples include primitive types, non-generic types, and raw types. 
 
@@ -76,7 +76,7 @@ Examples include `List<String> and List<Integer>`.
 Because a non-reifiable type isn't completely available at runtime, the Java virtual machine (JVM) can't tell 
 the difference between `List<String> and List<Integer>`; at runtime, only the raw type List is available.
 
-### A type is reifiable if and only if one of the following holds:
+### exceptions.try_with_resources.A type is reifiable if and only if one of the following holds:
 - It refers to a non-generic class or interface type declaration.
 - It is a parameterized type in which all type arguments are unbounded wildcards
 - It is a raw type
@@ -89,7 +89,7 @@ the difference between `List<String> and List<Integer>`; at runtime, only the ra
 
 Applying @SafeVarargs to a `static/final/private` method header or constructor header suppresses unchecked warnings about a non-reifiable varargs type at call sites (locations where the method/constructor is called), and also suppresses unchecked warnings about parameterized array creation at call sites.
 
-A variable arity parameter(Varargs) with a non-reifiable element type can cause heap pollution and give rise to compile-time unchecked warnings. Such warnings are uninformative if the body of the variable arity method is well behaved with respect to the variable arity parameter.
+exceptions.try_with_resources.A variable arity parameter(Varargs) with a non-reifiable element type can cause heap pollution and give rise to compile-time unchecked warnings. Such warnings are uninformative if the body of the variable arity method is well behaved with respect to the variable arity parameter.
 
 1. It is a compile-time error if a fixed arity method or constructor declaration is annotated with the annotation @SafeVarargs.
 2. @SafeVarargs is only applicable to static methods, final instance methods, and constructors, [**from Jdk 9 - even private methods**] the annotation is not usable where method overriding occurs.

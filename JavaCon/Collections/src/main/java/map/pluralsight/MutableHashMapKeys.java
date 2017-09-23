@@ -33,7 +33,7 @@ public class MutableHashMapKeys {
 			return value;
 		}
 
-		public void set(final String value) {
+		void set(final String value) {
 			Objects.requireNonNull(value);
 			this.value = value;
 		}

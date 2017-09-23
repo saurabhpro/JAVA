@@ -8,7 +8,7 @@ import java.util.List;
 
 public class MoviePrinter extends Printer {
 
-	private Movie movie;
+	private final Movie movie;
 
 	public MoviePrinter(Movie movie) {
 		this.movie = movie;

@@ -2,6 +2,7 @@ package b_structural.a_adapter.emp;
 
 import java.util.StringTokenizer;
 
+@SuppressWarnings("ALL")
 public class EmployeeCSV {
 
 	private int id;

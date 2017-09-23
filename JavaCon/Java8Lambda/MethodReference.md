@@ -1,6 +1,6 @@
 ##Java 8 Method Reference
 
-A method reference is the shorthand syntax for a lambda expression that executes just ONE method. 
+exceptions.try_with_resources.A method reference is the shorthand syntax for a lambda expression that executes just ONE method. 
 Here's the general syntax of a method reference:
 
 `Object :: methodName`
@@ -26,12 +26,12 @@ And to use a lambda expression, you first need a **functional interface**, _an i
 
 There are four types of method references:
 
-1. **A method reference to a static method.**
+1. **exceptions.try_with_resources.A method reference to a static method.**
     - `(args) -> Class.staticMethod(args)` can be converted to
     - `Class::staticMethod`
     - Where ever we can pass a lambda expression that just calls a static method, we can use a method reference. 
     - 
-2. **A method reference to an instance method of an object of a particular type.**
+2. **exceptions.try_with_resources.A method reference to an instance method of an object of a particular type.**
     - `(obj, args) -> obj.instanceMethod(args)` can be converted to
     - `ObjectType::instanceMethod`
     
@@ -39,12 +39,11 @@ There are four types of method references:
      
     - Java has a Function interface that takes one parameter, a BiFunction that takes two parameters, but there's no TriFunction that takes three parameters, so let's make one: [Click Here](src/main/java/methodReference/instanceEx)
       
-
-3. **A method reference to an instance method of an existing object.**
+3. **exceptions.try_with_resources.A method reference to an instance method of an existing object.**
     - `(args) -> obj.instanceMethod(args)` to
     - `obj::instanceMethod`
     
-4. **A method reference to a constructor.**
+4. **exceptions.try_with_resources.A method reference to a constructor.**
     - `(args) -> new ClassName(args)` to
     - `ClassName:: new`
     - If the constructor takes no arguments, a Supplier will do the job: [Click Here](src/main/java/methodReference/constructorEx/WithoutArgument.java)

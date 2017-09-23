@@ -9,8 +9,8 @@ import java.util.List;
  */
 
 class EmplComp {
-	int salary;
-	String name;
+	final int salary;
+	final String name;
 
 	EmplComp(String str, int sal) {
 		name = str;
@@ -68,9 +68,7 @@ class MySalaryComp implements Comparator<EmplComp> {
 	 */
 	@Override
 	public int compare(EmplComp o1, EmplComp o2) {
-		if (o1.getSalary() > o2.getSalary())
-			return 1;
-		return -1;
+		return Integer.compare(o1.getSalary(), o2.getSalary());
 	}
 }
 
@@ -84,9 +82,9 @@ class MyNameComp implements Comparator<EmplComp> {
 
 
 public class ListSortComparator {
-	List<EmplComp> list = new ArrayList<>();
+	private final List<EmplComp> list = new ArrayList<>();
 
-	ListSortComparator() {
+	private ListSortComparator() {
 		list.add(new EmplComp("Raam", 3000));
 		list.add(new EmplComp("John", 6000));
 		list.add(new EmplComp("Chris", 2000));

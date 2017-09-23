@@ -1,7 +1,7 @@
 package c_behavioral.e_mediator.light;
 
 //receiver
-public class Light {
+class Light {
 
 	private boolean isOn = false;
 
@@ -29,11 +29,11 @@ public class Light {
 		}
 	}
 
-	public void on() {
+	private void on() {
 		System.out.println(location + " Light switched on.");
 	}
 
-	public void off() {
+	private void off() {
 		System.out.println(location + " Light switched off.");
 	}
 }

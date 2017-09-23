@@ -1,8 +1,8 @@
 package map.pluralsight;
 
-public class BadHash {
-	private String value;
-	private int hash;
+class BadHash {
+	private final String value;
+	private final int hash;
 
 	public BadHash(final String value, final int hash) {
 		this.value = value;
