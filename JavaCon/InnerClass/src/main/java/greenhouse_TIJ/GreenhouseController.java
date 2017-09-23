@@ -1,8 +1,8 @@
-//: innerclasses/GreenhouseController.java
+package greenhouse_TIJ;//: innerclasses/GreenhouseController.java
 // Configure and execute the greenhouse system.
 // {Args: 5000}
 
-import controller.Event;
+import greenhouse_TIJ.controller.Event;
 
 public class GreenhouseController {
 	public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class GreenhouseController {
 		if (args.length == 1)
 			gc.addEvent(
 					new GreenhouseControls.Terminate(
-							new Integer(args[0])));
+							Integer.valueOf(args[0])));
 		gc.run();
 	}
 } /* Output:

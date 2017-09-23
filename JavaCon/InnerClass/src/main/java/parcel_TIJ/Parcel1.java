@@ -1,4 +1,4 @@
-//: innerclasses/Parcel1.java
+package parcel_TIJ;//: innerclasses/Parcel1.java
 // Creating inner classes.
 
 public class Parcel1 {
@@ -9,14 +9,14 @@ public class Parcel1 {
 
 	// Using inner classes looks just like
 	// using any other class, within Parcel1:
-	public void ship(String dest) {
+	private void ship(String dest) {
 		Contents c = new Contents();
 		Destination d = new Destination(dest);
 		System.out.println(d.readLabel());
 	}
 
 	class Contents {
-		private int i = 11;
+		private final int i = 11;
 
 		public int value() {
 			return i;
@@ -24,7 +24,7 @@ public class Parcel1 {
 	}
 
 	class Destination {
-		private String label;
+		private final String label;
 
 		Destination(String whereTo) {
 			label = whereTo;

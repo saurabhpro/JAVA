@@ -1,4 +1,4 @@
-//: innerclasses/TestParcel.java
+package parcel_TIJ;//: innerclasses/TestParcel.java
 
 class Parcel4 {
 	public Destination destination(String s) {
@@ -10,7 +10,7 @@ class Parcel4 {
 	}
 
 	private class PContents implements Contents {
-		private int i = 11;
+		private final int i = 11;
 
 		public int value() {
 			return i;
@@ -18,7 +18,7 @@ class Parcel4 {
 	}
 
 	protected class PDestination implements Destination {
-		private String label;
+		private final String label;
 
 		private PDestination(String whereTo) {
 			label = whereTo;

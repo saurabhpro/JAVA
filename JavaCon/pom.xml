@@ -59,7 +59,7 @@
         <module>IO</module>
         <module>JsonIO</module>
         <module>Java8Lambda</module>
-        <module>Java8Optional</module>
+        <module>Java9Optional</module>
         <module>Java9OtherUpdates</module>
 
     </modules>

@@ -1,4 +1,4 @@
-//: innerclasses/Parcel5.java
+package parcel_TIJ;//: innerclasses/Parcel5.java
 // Nesting a class within a method.
 
 public class Parcel5 {
@@ -7,7 +7,7 @@ public class Parcel5 {
 		Destination d = p.destination("Tasmania");
 	}
 
-	public Destination destination(String s) {
+	private Destination destination(String s) {
 		class PDestination implements Destination {
 			private String label;
 

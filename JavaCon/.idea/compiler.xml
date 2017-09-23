@@ -18,6 +18,7 @@
         <module name="IO" />
         <module name="Java8Lambda" />
         <module name="Java8Optional" />
+        <module name="Java9Optional" />
         <module name="Java9OtherUpdates" />
         <module name="JavaDS" />
         <module name="JavaKathy" />
@@ -43,6 +44,7 @@
       <module name="IO" target="1.9" />
       <module name="Java8Lambda" target="9" />
       <module name="Java8Optional" target="1.9" />
+      <module name="Java9Optional" target="1.9" />
       <module name="Java9OtherUpdates" target="1.9" />
       <module name="JavaCon" target="1.9" />
       <module name="JavaDS" target="1.9" />

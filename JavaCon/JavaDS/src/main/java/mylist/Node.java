@@ -5,8 +5,8 @@ package mylist;
  */
 public class Node {
 
-	protected Node next;
-	private int info;
+	private final int info;
+	Node next;
 
 	Node(int num) {
 		info = num;
@@ -18,7 +18,7 @@ public class Node {
 		next = b;
 	}
 
-	public int getData() {
+	int getData() {
 		return info;
 	}
 }

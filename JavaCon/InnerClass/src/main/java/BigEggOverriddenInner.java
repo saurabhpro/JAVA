@@ -5,19 +5,19 @@
 class Egg {
 	private Yolk y = new Yolk();
 
-	public Egg() {
+	Egg() {
 		System.out.println("new Egg()");
 	}
 
-	public void insertYolk(Yolk yk) {
+	void insertYolk(Yolk yk) {
 		y = yk;
 	}
 
-	public void g() {
+	void g() {
 		y.f();
 	}
 
-	protected class Yolk {
+	class Yolk {
 		public Yolk() {
 			System.out.println("Egg.Yolk()");
 		}
@@ -31,7 +31,7 @@ class Egg {
 
 public class BigEggOverriddenInner extends Egg {
 
-	public BigEggOverriddenInner() {
+	private BigEggOverriddenInner() {
 		insertYolk(new Yolk());
 	}
 
@@ -42,7 +42,7 @@ public class BigEggOverriddenInner extends Egg {
 
 	public class Yolk extends Egg.Yolk {
 
-		public Yolk() {
+		Yolk() {
 			System.out.println("BigEggOverriddenInner.Yolk()");
 		}
 

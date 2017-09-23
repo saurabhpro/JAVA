@@ -13,9 +13,9 @@ class StaticPrivateOverriding {
 }
 
 class ChildStaticPrivateOverride extends StaticPrivateOverriding {
-	/**  void show()
-	 *      instance method show() in ChildStaticPrivateOverride
-	 *      cannot override static method show() in StaticPrivateOverriding
+	/*  void show()
+	       instance method show() in ChildStaticPrivateOverride
+	       cannot override static method show() in StaticPrivateOverriding
 	 */
 	/* Error:(11, 10) java: show() in ChildStaticPrivateOverride cannot override show() in StaticPrivateOverriding
 	               overridden method is static */

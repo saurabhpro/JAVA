@@ -1,5 +1,5 @@
-/**
- * Created by Saurabh on 8/30/2015.
+/*
+  Created by Saurabh on 8/30/2015.
  */
 
 /**
@@ -26,21 +26,21 @@ public class CompileTimeOverloading {
 
 		Animal animal1 = new Horse();   //upcasting...
 		// now if we pass the animal1 ref to doStuff konsa chelga>?
-		/**
-		 * You might say the horse ref is passed so the horse version will be printed but its not
-		 * because the The actual object is a Horse but at runtime (after new ), the choice of which overloaded method
-		 * to call is not dynamically decided at runtime
-		 * The reference type - determined which overloaded version is invoked,
-		 * because compile time tk compiler know only about Animal type animal1
+		/*
+		  You might say the horse ref is passed so the horse version will be printed but its not
+		  because the The actual object is a Horse but at runtime (after new ), the choice of which overloaded method
+		  to call is not dynamically decided at runtime
+		  The reference type - determined which overloaded version is invoked,
+		  because compile time tk compiler know only about Animal type animal1
 		 */
 		cOb.doStuff(animal1);
 	}
 
-	public void doStuff(Animal m) {
+	private void doStuff(Animal m) {
 		System.out.println("In the animal Version");
 	}
 
-	public void doStuff(Horse h) {
+	private void doStuff(Horse h) {
 		System.out.println("Inside the horse version");
 	}
 

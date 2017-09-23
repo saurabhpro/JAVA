@@ -1,13 +1,13 @@
-//: innerclasses/controller/Controller.java
+//: innerclasses/greenhouse_TIJ.controller/Controller.java
 // The reusable framework for control systems.
-package controller;
+package greenhouse_TIJ.controller;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Controller {
 	// A class from java.util to hold Event objects:
-	private List<Event> eventList = new ArrayList<>();
+	private final List<Event> eventList = new ArrayList<>();
 
 	public void addEvent(Event c) {
 		eventList.add(c);

@@ -1,6 +1,6 @@
 public abstract class AbstractClass {
 
-	int num;
+	private final int num;
 
 	//can have a no-args constructor for inheritance purposes
 	AbstractClass() {

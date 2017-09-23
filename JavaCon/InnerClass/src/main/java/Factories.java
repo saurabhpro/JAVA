@@ -11,8 +11,9 @@ interface ServiceFactory {
 	Service getService();
 }
 
+@SuppressWarnings("ALL")
 class Implementation1 implements Service {
-	public static ServiceFactory factory =
+	public static final ServiceFactory factory =
 			new ServiceFactory() {
 				public Service getService() {
 					return new Implementation1();
@@ -31,8 +32,9 @@ class Implementation1 implements Service {
 	}
 }
 
+@SuppressWarnings("ALL")
 class Implementation2 implements Service {
-	public static ServiceFactory factory =
+	public static final ServiceFactory factory =
 			new ServiceFactory() {
 				public Service getService() {
 					return new Implementation2();
@@ -52,7 +54,7 @@ class Implementation2 implements Service {
 }
 
 public class Factories {
-	public static void serviceConsumer(ServiceFactory fact) {
+	private static void serviceConsumer(ServiceFactory fact) {
 		Service s = fact.getService();
 		s.method1();
 		s.method2();

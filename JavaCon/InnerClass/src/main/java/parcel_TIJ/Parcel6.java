@@ -1,4 +1,4 @@
-//: innerclasses/Parcel6.java
+package parcel_TIJ;//: innerclasses/Parcel6.java
 // Nesting a class within a scope.
 
 public class Parcel6 {
@@ -27,7 +27,7 @@ public class Parcel6 {
 		//! TrackingSlip ts = new TrackingSlip("x");
 	}
 
-	public void track() {
+	private void track() {
 		internalTracking(true);
 	}
 } ///:~

@@ -7,16 +7,16 @@ public class OverloadingPitfall {
 		OverloadingPitfall ob = new OverloadingPitfall();
 		//ob.overload(4, 5); //Error:(38, 11) java: reference to overload is ambiguous [both method match]
 
-		/**
-		 * single variable case wont produce ambiguous error
+		/*
+		  single variable case wont produce ambiguous error
 		 */
 		ob.overload(6.7);
 		ob.overload(6.7f);  //by default 6.7 exact matches to double so no error
 		ob.overload(8);
 		ob.overload(8L);
 
-		/**
-		 * till the time we havent called out class A method we dont seem to have a prob during compilation
+		/*
+		  till the time we havent called out class A method we dont seem to have a prob during compilation
 		 */
 		new OverloadingPitfall().createA();
 		new OverloadingPitfall().createB();
@@ -30,28 +30,28 @@ public class OverloadingPitfall {
 		System.out.println("Inside Long Int");
 	}
 
-	void overload(int a) {
+	private void overload(int a) {
 		System.out.println("Inside Int");
 	}
 
-	void overload(long a) {
+	private void overload(long a) {
 		System.out.println("inside Long");
 	}
 
-	void overload(float a) {
+	private void overload(float a) {
 		System.out.println("Inside Float");
 	}
 
-	void overload(double a) {
+	private void overload(double a) {
 		System.out.println("Inside double");
 	}
 
-	void createA() {
+	private void createA() {
 		A a = new A();
 		a.one(99);
 	}
 
-	void createB() {
+	private void createB() {
 		B a = new B();
 		a.one(99.0, 44);
 	}

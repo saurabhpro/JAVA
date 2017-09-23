@@ -31,7 +31,7 @@ public class LocalClass {
 		aOb.doStuff();
 	}
 
-	void doStuff() {
+	private void doStuff() {
 		class Popcorn {
 			void pop() {
 				System.out.println("Poped PopCorn");
@@ -39,7 +39,7 @@ public class LocalClass {
 		}
 
 		class Food {
-			Popcorn p = new Popcorn() {
+			final Popcorn p = new Popcorn() {
 				@Override
 				void pop() {
 					System.out.println("Popped anonymous popcorn!!");
@@ -53,7 +53,7 @@ public class LocalClass {
 			 * Cookable c = () -> System.out.println("Anonymous cookable implementer!!");         //one function only
 			 */
 
-			Cookable c = new Cookable() {
+			final Cookable c = new Cookable() {
 				@Override
 				public void cook() {
 					System.out.println("Anonymous cookable implementer!!");

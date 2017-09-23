@@ -1,11 +1,11 @@
-//: innerclasses/GreenhouseControls.java
+package greenhouse_TIJ;//: innerclasses/GreenhouseControls.java
 // This produces a specific application of the
 // control system, all in a single class. Inner
 // classes allow you to encapsulate different
 // functionality for each type of event.
 
-import controller.Controller;
-import controller.Event;
+import greenhouse_TIJ.controller.Controller;
+import greenhouse_TIJ.controller.Event;
 
 
 public class GreenhouseControls extends Controller {
@@ -136,7 +136,7 @@ public class GreenhouseControls extends Controller {
 	}
 
 	public class Restart extends Event {
-		private Event[] eventList;
+		private final Event[] eventList;
 
 		public Restart(long delayTime, Event[] eventList) {
 			super(delayTime);

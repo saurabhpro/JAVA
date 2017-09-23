@@ -28,7 +28,7 @@ class MyIncrement {
 		mi.increment();
 	}
 
-	public void increment() {
+	void increment() {
 		System.out.println("Other Operation");
 	}
 }
@@ -40,7 +40,7 @@ class Callee2 extends MyIncrement {
 		System.out.println("Inside Callee2");
 	}
 
-	public void increment() //overriding MyIncrement.increment()
+	void increment() //overriding MyIncrement.increment()
 	{
 		super.increment();
 		i++;
@@ -64,7 +64,7 @@ class Callee2 extends MyIncrement {
 }
 
 class Caller {
-	private Incrementable callBackReference;
+	private final Incrementable callBackReference;
 
 	Caller(Incrementable eh) {
 		System.out.println("Inside Caller\t");

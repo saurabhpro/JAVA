@@ -1,9 +1,9 @@
-//: innerclasses/Parcel8.java
+package parcel_TIJ;//: innerclasses/Parcel8.java
 // Calling the base-class constructor.
 
 //: innerclasses/Wrapping.java
 class Wrapping {
-	private int i;
+	private final int i;
 
 	public Wrapping(int x) {
 		i = x;
@@ -22,7 +22,7 @@ public class Parcel8 {
 		System.out.println(w.value());
 	}
 
-	public Wrapping wrapping(int x) {
+	private Wrapping wrapping(int x) {
 		// Base constructor call:
 		return new Wrapping(x) { // Pass constructor argument.
 			public int value() {

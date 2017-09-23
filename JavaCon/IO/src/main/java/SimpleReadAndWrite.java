@@ -4,7 +4,7 @@ import java.io.*;
  * Created by Saurabh on 9/14/2015.
  */
 public class SimpleReadAndWrite {
-	static void write() throws IOException {
+	private static void write() throws IOException {
 		FileWriter fileWriter = new FileWriter("MyFile.txt");
 		PrintWriter printWriter = new PrintWriter(fileWriter);
 
@@ -13,7 +13,7 @@ public class SimpleReadAndWrite {
 		fileWriter.close();
 	}
 
-	static void read() throws FileNotFoundException {
+	private static void read() {
 		try (FileReader fileReader = new FileReader("MyFile.txt")) {
 			BufferedReader bufferedReader = new BufferedReader(fileReader);
 			String data;

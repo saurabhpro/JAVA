@@ -1,4 +1,4 @@
-//: innerclasses/Parcel10.java
+package parcel_TIJ;//: innerclasses/Parcel10.java
 // Using "instance initialization" to perform
 // construction on an anonymous inner class.
 
@@ -8,11 +8,11 @@ public class Parcel10 {
 		Destination d = p.destination("Tasmania", 101.395F);
 	}
 
-	public Destination
+	private Destination
 	destination(final String dest, final float price) {
 		return new Destination() {
 			private int cost;
-			private String label = dest;
+			private final String label = dest;
 
 			// Instance initialization for each object:
 			{

@@ -6,14 +6,15 @@
  * You can use inner classes to implement helper classes. To handle user interface events,
  * you must know how to use inner classes, because the event-handling mechanism makes extensive use of them.
  */
+@SuppressWarnings("ALL")
 public class OuterSimpleInner {
-	private static int n = 9;
+	private static final int n = 9;
 
 	static {
 		System.out.println("static block of outer");
 	}
 
-	private int m = 10;
+	private final int m = 10;
 
 	{
 		System.out.println("Init of outer");
@@ -39,7 +40,7 @@ public class OuterSimpleInner {
 		inr.seeOuter();
 	}
 
-	public void display() {
+	private void display() {
 		System.out.println("OuterSimpleInner Non-Static method");
 	}
 
@@ -74,8 +75,9 @@ public class OuterSimpleInner {
 
 }
 
+@SuppressWarnings("ALL")
 class MyOuter {
-	private int i = 7;
+	private final int i = 7;
 
 	/**
 	 * if we make this function static , we cannot create the instance of inner here as MyOuter.this wont work
@@ -96,7 +98,7 @@ class MyOuter {
 	}   //valid
 
 	//all these are allowed for normal inner classes
-	public static class inner2 {
+	private static class inner2 {
 	}        //this basically is nested class
 
 	class MyInner {
@@ -114,7 +116,7 @@ class MyOuter {
 	private final class inner4 {
 	}
 
-	protected strictfp class inner5 {
+	private strictfp class inner5 {
 	}
 
 }

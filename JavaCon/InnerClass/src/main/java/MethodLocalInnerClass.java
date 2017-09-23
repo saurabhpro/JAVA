@@ -28,8 +28,8 @@
 
 
 class MyOuter2 {
-	static int y = 11;
-	int x = 10;
+	private static final int y = 11;
+	private final int x = 10;
 	private int num = 9;
 
 	static void show() {
@@ -39,26 +39,27 @@ class MyOuter2 {
 	/**
 	 * since the method is static, its local inner class can only access the static members of the enclosing outer class
 	 *
-	 * @param st
+	 * @param st just
 	 */
 	static void doOtherStuff(String st) {
 		/*Local classes are non-static because they have access to instance members of the enclosing block.
 		 *         Consequently, they cannot contain most kinds of static declarations.
 		 */
 		class LocalInnerTwo {
-			public void show() {
+			void show() {
 				System.out.println("Inside static method Local inner " + getClass());
 				//System.out.println(x);          //cannot use x here as x is non-static in MyOuter2
 				System.out.println(y);              //valid
 			}
 		}
+		//noinspection ParameterCanBeLocal
 		class LocalInnerThree extends LocalInnerTwo {
 
 			//static (with final) is allowed in Local inner classes as they combined with final make constant value
 			static final int ou = 9;
 
 			@Override
-			public void show() {
+			void show() {
 				System.out.println("Inside static method Local inner " + getClass());
 			}
 
@@ -107,7 +108,7 @@ class MyOuter2 {
 		class LocalInner {
 			MyOuter2 ob = new MyOuter2();
 
-			public void show() {
+			void show() {
 				//temp =9;       compiler sees that temp hasn't changed so it is effectively final and hence valid for local class
 				System.out.println(temp + "Inside Local inner " + getClass());
 				System.out.println(x + " " + y);    //accessing both static and non static instance variables of enclosing class

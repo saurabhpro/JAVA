@@ -1,12 +1,12 @@
-//: innerclasses/controller/Event.java
+//: innerclasses/greenhouse_TIJ.controller/Event.java
 // The common methods for any control event.
-package controller;
+package greenhouse_TIJ.controller;
 
 public abstract class Event {
 	protected final long delayTime;
 	private long eventTime;
 
-	public Event(long delayTime) {
+	protected Event(long delayTime) {
 		this.delayTime = delayTime;
 		start();
 	}

@@ -7,14 +7,14 @@ import mylist.Node;
  * Created by Saurabh on 8/26/2015.
  */
 public class LinkedListJava {
-	static Node head;
-	Node tail;
+	private static Node head;
+	private final Node tail;
 
 	LinkedListJava() {
 		head = tail = null;
 	}
 
-	static Node insert(Node head) {
+	private static Node insert(Node head) {
 		Insert list = new Insert();
 
 		head = list.insertAtBeg(8, head);
@@ -36,7 +36,7 @@ public class LinkedListJava {
 		return head;
 	}
 
-	static Node delete(Node head) {
+	private static Node delete(Node head) {
 		Delete list = new Delete();
 
 		System.out.println();

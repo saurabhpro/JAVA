@@ -15,7 +15,7 @@ public class StaticFamily {
 	}
 
 	static class SimpleExample {
-		static int j = 20;
+		static final int j = 20;
 
 		static {
 			m1();
@@ -71,8 +71,8 @@ public class StaticFamily {
 		 * In case 3 first you declared and initialize i=5 and then assigned 3 to it. So after initialization i will hold 3 as its value
 		 */
 
-		static int i = 10;
-		static int j = 20;
+		static final int i = 10;
+		static final int j = 20;
 
 		static {
 			//System.out.println(j);    //illegal forward reference as at this stage j is in RIWO

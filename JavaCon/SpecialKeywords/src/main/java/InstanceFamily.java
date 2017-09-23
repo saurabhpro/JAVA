@@ -3,7 +3,7 @@
  */
 public class InstanceFamily {
 
-	String m = msg("3");
+	private String m = msg("3");
 
 	{
 		m = msg("2");
@@ -22,17 +22,17 @@ public class InstanceFamily {
 		Object o = new StaticFamily();
 	}
 }
-/**
- * {
- * m = msg("2");
- * }
- * String m = msg("3");
- * <p>
- * translates to
- * <p>
- * String m = msg("2");
- * <p>
- * StaticFamily() {
- * this.m = msg("3");
- * }
+/*
+  {
+  m = msg("2");
+  }
+  String m = msg("3");
+  <p>
+  translates to
+  <p>
+  String m = msg("2");
+  <p>
+  StaticFamily() {
+  this.m = msg("3");
+  }
  */

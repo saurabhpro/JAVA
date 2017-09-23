@@ -1,4 +1,4 @@
-//: innerclasses/Parcel3.java
+package parcel_TIJ;//: innerclasses/Parcel3.java
 // Using .new to create instances of inner classes.
 
 public class Parcel3 {
@@ -11,7 +11,7 @@ public class Parcel3 {
 	}
 
 	class Contents {
-		private int i = 11;
+		private final int i = 11;
 
 		public int value() {
 			return i;
@@ -19,7 +19,7 @@ public class Parcel3 {
 	}
 
 	class Destination {
-		private String label;
+		private final String label;
 
 		Destination(String whereTo) {
 			label = whereTo;

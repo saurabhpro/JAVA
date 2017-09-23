@@ -18,7 +18,7 @@ public class InheritInner extends WithinInner.Inner {
 	//InheritInner(){ }         //has to be commented out
 	// Error:(14, 21) java: an enclosing instance that contains WithinInner.Inner is required
 
-	InheritInner(WithinInner wi) {
+	private InheritInner(WithinInner wi) {
 
 		//enclosingClassReference.super();
 		wi.super();
@@ -35,7 +35,7 @@ public class InheritInner extends WithinInner.Inner {
 	/**
 	 * having class with same name as base class don't do anything
 	 */
-	class Inner extends WithinInner.Inner {
+	private class Inner extends WithinInner.Inner {
 		Inner(WithinInner wi) {
 			//enclosingClassReference.super();
 			wi.super();

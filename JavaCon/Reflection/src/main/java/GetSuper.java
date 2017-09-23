@@ -17,7 +17,7 @@ public class GetSuper {
 		new GetSuper().show(new Cx1());
 	}
 
-	public void show(Object object) {
+	private void show(Object object) {
 		Class subclass = object.getClass();
 		System.out.println(subclass);
 		Class superClass = subclass.getSuperclass();

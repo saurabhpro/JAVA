@@ -16,7 +16,7 @@ public class Java_Method_main //change class name to the class you are creating
 		program.main();
 	}
 
-	public void main() //non-static method main that can call non-static methods
+	private void main() //non-static method main that can call non-static methods
 	{
 		//create a Scanner object for console input
 		input = new Scanner(System.in);  //create Scanner input object
