@@ -1,4 +1,4 @@
-/**
+/*
  * Created by Saurabh on 8/30/2015.
  * <p>
  * starting in Java SE 8, a local class can access local variables and parameters of the enclosing block
@@ -42,7 +42,7 @@ class MyOuter2 {
 	 * @param st
 	 */
 	static void doOtherStuff(String st) {
-		/**Local classes are non-static because they have access to instance members of the enclosing block.
+		/*Local classes are non-static because they have access to instance members of the enclosing block.
 		 *         Consequently, they cannot contain most kinds of static declarations.
 		 */
 		class LocalInnerTwo {
@@ -83,7 +83,7 @@ class MyOuter2 {
 		}
 
 
-		/**
+		/*
 		 * You cannot declare an interface inside a block; interfaces are inherently static.
 		 * For example, the following code excerpt does not compile because the interface xyz is defined inside the body of the method
 		 *

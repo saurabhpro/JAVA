@@ -1,6 +1,6 @@
 package saurabh.Interface.Java8;
 
-/**
+/*
  * Created by Saurabh on 10/31/2015.
  */
 
@@ -10,7 +10,8 @@ package saurabh.Interface.Java8;
  * <p>
  * we can have additional constants, default and static methods as well inside this interface
  */
+@SuppressWarnings("unused")
 @FunctionalInterface
-public interface FunctionalInterfaceAnotations {
+public interface FunctionalInterfaceAnnotations {
 	void show();
 }

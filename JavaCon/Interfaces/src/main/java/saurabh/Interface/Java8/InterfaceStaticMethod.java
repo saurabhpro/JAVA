@@ -3,7 +3,8 @@ package saurabh.Interface.Java8;
 /**
  * Created by Saurabh on 10/22/2015.
  */
-
+@SuppressWarnings("All")
+@FunctionalInterface
 interface A {
 	double PI = 3.14;
 
@@ -13,9 +14,15 @@ interface A {
 		return 47;
 	}
 
+	static void onlyAccessibleFromA() {
+		System.out.println("I'm Interface A's static method");
+	}
+
 	int show();
 }
 
+@SuppressWarnings("All")
+@FunctionalInterface
 interface B extends A {
 	static int make() {
 		System.out.println("\nInside B");
@@ -33,11 +40,15 @@ interface B extends A {
  * <p>
  * but if the return types of A, B show() are not same , program wont compile
  */
+@SuppressWarnings("All")
 public class InterfaceStaticMethod implements A, B {
 	public static void main(String[] args) {
 		InterfaceStaticMethod staticMethod = new InterfaceStaticMethod();
 		staticMethod.make();
 		staticMethod.show();
+
+		A.onlyAccessibleFromA();
+		//B.onlyAccessibleFromA(); even though extending class - static method can be invoked on containing interfaces only
 	}
 
 	@Override
@@ -46,7 +57,7 @@ public class InterfaceStaticMethod implements A, B {
 	}
 
 	//classes own make function
-	int make() {
+	private int make() {
 		A.make(); //no problem as make is class level function, wont clash with any other classes make
 		B.make();
 		return 49;

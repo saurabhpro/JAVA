@@ -14,8 +14,8 @@ public class IntroToArrays {
 		//  System.out.println(ar.length);        throws NullPointerException
 	}
 
-	static void _1DArrays() {
-		/**
+	private static void _1DArrays() {
+		/*
 		 * arrays are 0 index based so a[-7] will generate AIOUBE (ArrayIndexOutOfBoundsException) on Runtime
 		 */
 		int[] a = new int[3];
@@ -23,12 +23,12 @@ public class IntroToArrays {
 
 	}
 
-	static void _2DArrays() {
+	private static void _2DArrays() {
 
 		//Array of Arrays [2-D]
 		int[][] a = new int[4][3];     //perfectly legal
 		int[][] b = new int[4][];      //recommended if our needs are not fixed
-		/**
+		/*
 		 * 2D arrays of type int is basically
 		 * array of type int array (int[]), with each element in that array holding reference to another int array,
 		 * the second dimension holds the actual int primitives
@@ -39,7 +39,7 @@ public class IntroToArrays {
 		System.out.println(a.length);       //returns the no of objects [i.e. 4] each of which contain ref to 6 sized array
 		System.out.println(a[0].length);    //should give 3 now
 
-		/**
+		/*
 		 *    array.length is a property of array class , not a method , which contain the number of elements in array!
 		 *    ref. kathy sierra
 		 */

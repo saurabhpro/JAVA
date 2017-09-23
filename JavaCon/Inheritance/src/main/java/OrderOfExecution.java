@@ -2,15 +2,16 @@
  * Created by Saurabh on 8/17/2015.
  */
 
+@SuppressWarnings("All")
 class Base {
-	static int y;   //class data member
+	private static int y;   //class data member
 
 	static {
 		y = 2;
 		System.out.println("Inside Static Block of base" + y);
 	}
 
-	int x = 3;     //instance data member
+	private int x = 3;     //instance data member
 
 	{
 		System.out.println("Inside instance of base " + x);
@@ -33,15 +34,16 @@ class Base {
 	}
 }
 
+@SuppressWarnings({"SameParameterValue", "unused"})
 class Child extends Base {
-	static int y = 4;   //class data member
+	private static int y = 4;   //class data member
 
 	static {
 		y = 9;
 		System.out.println("\nInside Static Block of Child " + y);
 	}
 
-	int x = 5;     //instance data member
+	private int x = 5;     //instance data member
 
 	{
 		System.out.println("Inside instance of child " + x);
@@ -68,6 +70,7 @@ class Child extends Base {
 }
 
 public class OrderOfExecution {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		//  Base b = new Base(5);
 		//   b = new Base(6);     //static block wont be executed for this

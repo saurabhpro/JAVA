@@ -6,6 +6,7 @@ interface Service {
 	void method2();
 }
 
+@FunctionalInterface
 interface ServiceFactory {
 	Service getService();
 }

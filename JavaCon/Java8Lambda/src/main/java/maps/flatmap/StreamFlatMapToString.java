@@ -24,7 +24,7 @@ public class StreamFlatMapToString {
 		//forEach consumes stream - hence "stream has already been operated upon or closed" after the below print
 		//stringStream.forEach(System.out::println);
 
-		Stream<String> stream2 = stringStream.filter(x -> "a".equals(x.toString()));
+		Stream<String> stream2 = stringStream.filter(x -> "a".equals(x));
 
 		/*Stream<String> stream = Arrays.stream(data)
 		        .flatMap(x -> Arrays.stream(x))

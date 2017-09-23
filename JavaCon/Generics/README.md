@@ -5,7 +5,7 @@ E - Element (used extensively by the Java Collections Framework)
 
 K - Key
 
-N - Number
+Dad - Number
 
 T - Type
 
@@ -105,7 +105,7 @@ Ans - 1 ) There are many examples on the Internet and on StackOverflow about the
 
 `void foo(T... args);`
 
-In Java, varargs are a syntactic sugar that undergoes a simple "re-writing" at compile-time: `a varargs parameter of type X... is converted into a parameter of type X[]; and every time a call is made to this varargs method, the compiler collects all of the "variable arguments" that goes in the varargs parameter, and creates an array just like new X[] { ...(arguments go here)... }.`
+In Java, varargs are a syntactic sugar that undergoes a simple "re-writing" at compile-time: `a varargs parameter of type saurabh.Interface.diamondProblem.X... is converted into a parameter of type saurabh.Interface.diamondProblem.X[]; and every time a call is made to this varargs method, the compiler collects all of the "variable arguments" that goes in the varargs parameter, and creates an array just like new saurabh.Interface.diamondProblem.X[] { ...(arguments go here)... }.`
 
 This works well when the varargs type is concrete like String.... When it's a type variable like T..., it also works when T is known to be a concrete type for that call. 
 

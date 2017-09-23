@@ -1,7 +1,7 @@
 # Java 8
 
 
-1) Default methods can be overriden in implementing class, while static cannot.
+1) Default methods can be overridden in implementing class, while static cannot.
 
 2) Static method belongs only to Interface class, so you can only invoke static method on Interface class, not on class implementing this Interface, see:
 ```java
@@ -47,7 +47,7 @@ public class MyClass implements MyInterface {
 
 In Java 8, interfaces can contain implemented methods, static methods, and the so-called "default" methods (which the implementing classes do not need to override).
 
-In my (probably naive) view, there was no need to violate interfaces like this. Interfaces have always been a contract you must fulfill, and this is a very simple and pure concept. Now it is a mix of several things. In my opinion:
+In Interface (probably naive) view, there was no need to violate interfaces like this. Interfaces have always been a contract you must fulfill, and this is a very simple and pure concept. Now it is a mix of several things. In Interface opinion:
 
 	1.	static methods do not belong to interfaces. They belong to utility classes.
 	2.	"default" methods shouldn't have been allowed in interfaces at all. You could always use an abstract class for this purpose.
@@ -71,79 +71,7 @@ What are the main reasons for such major changes, and what new benefits (if any)
 # Java 9
 ## Private methods
 ## Private static methods
-
-```java
-public interface ReportGeneratorJava9 {
-    /**
-     * Need to get implemented as per ReportGenerator class
-     * @param reportData
-     * @param schema
-     */
-    void generateReport(String reportData, String schema);
-    /**
-     * Reading the report data from DB
-     * @return
-     */
-    private String getReportDataFromDB() {
-        System.out.println("Reading the data from DB ....");
-        //logic to get the data from DB
-        String reportData = "data from DB";
-        return formatData(reportData);
-    }
-    /**
-     * Reading the report data from FileSystem
-     * @return
-     */
-    private String getReportDataFromFile() {
-        System.out.println("Reading the data from FileSystem ....");
-        //logic to get the data from File
-        String reportData = "data from File";
-        return formatData(reportData);
-    }
-    /**
-     * Reading the report data from cache
-     * @return
-     */
-    private String getReportDataFromCache() {
-        System.out.println("Reading the data from Cache ....");
-        //logic to get the data from Cache
-        String reportData = "data from Cache";
-        return formatData(reportData);
-    }
-    /**
-     * Formatting the data to create a common standardized data,
-     * as it's coming from different systems
-     * @param reportData
-     * @return
-     */
-    private String formatData(String reportData) {
-        System.out.println("Formatting the data to create a common standard");
-        /** Format the data and then return **/
-        //logic to format the data
-        return reportData;
-    }
-    /**
-     * Get the ready data
-     * @param reportSource
-     * @return
-     * @throws Exception
-     */
-    default String getReportData(String reportSource) throws Exception {
-        String reportData = null;
-        if (null == reportSource) {
-            throw new Exception("reportSource can't be null....");
-        }
-        if (reportSource.equalsIgnoreCase("DB")) {
-            reportData = getReportDataFromDB();
-        } else if (reportSource.equalsIgnoreCase("File")) {
-            reportData = getReportDataFromFile();
-        } else if (reportSource.equalsIgnoreCase("Cache")) {
-            reportData = getReportDataFromCache();
-        }
-        return reportData;
-    }
-}
-```
+[Example](/src/main/java/saurabh/Interface/Java9/ReportGeneratorJava9.java)
 
 
 ## In Java SE 9 and later versions, an interface can have only two kinds of things:
@@ -157,5 +85,15 @@ public interface ReportGeneratorJava9 {
 
  ### Benefits with “Java SE 9: private methods in Interface” New Feature:
 
-- No need to write Duplicate Code i.e. Code Reusability.
+- No need to write Duplicate Code i.e. Code Re-usability.
 - We can expose only our intended methods to clients.
+
+
+## Why can I not have a interface inside of a inner class? Why are they inherently static?
+Think about what static means - `"not related to a particular instance"`. So, as you point out, a static field of class Foo is a field that does not belong to any Foo instance, but rather belongs to the Foo class itself.
+
+Now think about what an interface is - `it's a contract, a list of methods that classes which implement it promise to provide`. So- interface is a set of methods that is "not related to a particular class" - any class can implement it, as long as it provides those methods.
+
+So, if an interface is not related to any particular class, clearly one could not be related to an instance of a class - right?
+
+*Note: there are ways of defining interfaces within classes. But, for the purposes of wrapping your head around what an interface is (which seems to be what you're working on), I would ignore those possibilities for now as they distract from and possibly obscure the purpose of interfaces in general.

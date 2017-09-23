@@ -1,6 +1,7 @@
 /**
  * Created by Saurabh on 8/14/2015.
  */
+@SuppressWarnings("unused")
 public class CircularInheritance {
 	public static void main(String[] args) {
 		B b = new B();

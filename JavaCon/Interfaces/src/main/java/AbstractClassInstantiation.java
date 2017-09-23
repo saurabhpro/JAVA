@@ -4,6 +4,7 @@
  * other than that there is virtually no difference between abstract classes and interfaces from java 8
  */
 
+@SuppressWarnings("All")
 abstract class Animal {
 	abstract void eat();
 

@@ -1,4 +1,5 @@
-/**
+package saurabh.Interface.Java8;
+/*
  * Created by Saurabh on 8/30/2015.
  */
 
@@ -28,7 +29,7 @@ interface Runnable {
 
 	//bytecode static default void distance() {...}     "default" implicitly pasted
 	static void distance() {
-		System.out.println("Inside Runnable static method " + NUM);
+		System.out.println("Inside saurabh.Interface.Java8.Runnable static method " + NUM);
 	}
 
 	/**
@@ -66,6 +67,7 @@ interface Walkable extends Runnable {
 	}
 
 
+	@SuppressWarnings("unused")
 	void distance();        //not overriding superclass distance here
 
 
@@ -74,7 +76,7 @@ interface Walkable extends Runnable {
 public class InterfaceContract implements Walkable, Runnable {
 	//void show(){}; // ERROR as we have to make every interface functions public...maintain visibility
 
-	InterfaceContract() {
+	private InterfaceContract() {
 		// NUM = 8;      cannot reassign it, but can be hidden
 
 	}
@@ -87,7 +89,7 @@ public class InterfaceContract implements Walkable, Runnable {
 		InterfaceContract iOb = new InterfaceContract();
 
 
-		rOb.show();
+		rOb.show();     //if overridden in child interface, that is used when name collision occurs
 		wOb.show();
 		iOb.show();
 
@@ -107,13 +109,14 @@ public class InterfaceContract implements Walkable, Runnable {
 
 	@Override
 	public void distance() {
+		//noinspection unused
 		int f = 9;
 	}        //overriding walkable show
 
 }
 
 
-/**
+/*
  * public interface DoIt {
  * void doSomething(int i, double x);
  * int doSomethingElse(String s);

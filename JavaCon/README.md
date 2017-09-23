@@ -6,8 +6,8 @@ And rather than interacting with them at a very low level, you interact with the
 very high level of abstraction, like we’re doing right here.
 
 Here’s an example: If I’m your laundry object, you can give me your dirty clothes and send
-me a message that says, “Can you get my clothes laundered, please.” I happen to know where
-the best laundry place in San Francisco is. And I speak English, and I have dollars in my pockets.
+me a message that says, “Can you get Interface clothes laundered, please.” I happen to know where
+the best laundry place in San Francisco is. And I speak English, and I have dollars in Interface pockets.
 So I go out and hail a taxicab and tell the driver to take me to this place in San Francisco.
 I go get your clothes laundered, I jump back in the cab, I get back here. I give you your
 clean clothes and say, “Here are your clean clothes.”

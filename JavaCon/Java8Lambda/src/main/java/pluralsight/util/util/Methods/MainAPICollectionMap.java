@@ -3,12 +3,7 @@ package pluralsight.util.util.Methods;
 import pluralsight.util.common.City;
 import pluralsight.util.common.Person;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import static java.util.Collections.EMPTY_LIST;
+import java.util.*;
 
 /**
  * @author José Paumard
@@ -36,8 +31,8 @@ public class MainAPICollectionMap {
 		map.computeIfAbsent(newYork, city -> new ArrayList<>()).add(p2);
 		map.computeIfAbsent(newYork, city -> new ArrayList<>()).add(p3);
 
-		System.out.println("People from Paris : " + map.getOrDefault(paris, EMPTY_LIST));
-		System.out.println("People from New York : " + map.getOrDefault(newYork, EMPTY_LIST));
+		System.out.println("People from Paris : " + map.getOrDefault(paris, Collections.EMPTY_LIST));
+		System.out.println("People from New York : " + map.getOrDefault(newYork, Collections.EMPTY_LIST));
 
 		Map<City, List<Person>> map1 = new HashMap<>();
 		map1.computeIfAbsent(newYork, city -> new ArrayList<>()).add(p1);
@@ -57,14 +52,14 @@ public class MainAPICollectionMap {
 		map2.forEach((city, people) -> System.out.println(city + " : " + people));
 
 		map2.forEach(
-				(city, people) -> {
-					map1.merge(
+				(city, people) ->
+						map1.merge(
 							city, people,
 							(peopleFromMap1, peopleFromMap2) -> {
 								peopleFromMap1.addAll(peopleFromMap2);
 								return peopleFromMap1;
-							});
-				}
+							}
+						)
 		);
 
 		System.out.println("Merged map1 ");

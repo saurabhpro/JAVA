@@ -31,30 +31,30 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Array" target="1.8" />
-      <module name="Collections" target="1.8" />
-      <module name="Concurrency" target="1.8" />
-      <module name="DesignPatterns" target="1.8" />
-      <module name="Exception" target="1.8" />
-      <module name="Generics" target="1.8" />
-      <module name="Inheritance" target="1.8" />
-      <module name="InnerClass" target="1.8" />
-      <module name="Interfaces" target="1.8" />
-      <module name="IO" target="1.8" />
-      <module name="Java8Lambda" target="1.8" />
-      <module name="Java8Optional" target="1.8" />
-      <module name="JavaCon" target="1.8" />
-      <module name="JavaDS" target="1.8" />
-      <module name="JavaKathy" target="1.8" />
-      <module name="JDBC" target="1.8" />
-      <module name="JsonIO" target="1.8" />
+      <module name="Array" target="1.9" />
+      <module name="Collections" target="1.9" />
+      <module name="Concurrency" target="1.9" />
+      <module name="DesignPatterns" target="1.9" />
+      <module name="Exception" target="1.9" />
+      <module name="Generics" target="1.9" />
+      <module name="Inheritance" target="1.9" />
+      <module name="InnerClass" target="1.9" />
+      <module name="Interfaces" target="1.9" />
+      <module name="IO" target="1.9" />
+      <module name="Java8Lambda" target="9" />
+      <module name="Java8Optional" target="1.9" />
+      <module name="JavaCon" target="1.9" />
+      <module name="JavaDS" target="1.9" />
+      <module name="JavaKathy" target="1.9" />
+      <module name="JDBC" target="1.9" />
+      <module name="JsonIO" target="1.9" />
       <module name="JSONIO" target="1.8" />
-      <module name="Polymorphism" target="1.8" />
+      <module name="Polymorphism" target="1.9" />
       <module name="queues" target="1.5" />
-      <module name="Reflection" target="1.8" />
+      <module name="Reflection" target="1.9" />
       <module name="Reflections" target="1.8" />
-      <module name="SpecialKeywords" target="1.8" />
-      <module name="Streams" target="1.8" />
+      <module name="SpecialKeywords" target="1.9" />
+      <module name="Streams" target="1.9" />
     </bytecodeTargetLevel>
   </component>
 </project>

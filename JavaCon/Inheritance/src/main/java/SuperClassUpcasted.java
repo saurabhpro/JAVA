@@ -1,5 +1,6 @@
+@SuppressWarnings("unused")
 class You extends Dadaji {
-	int x = 30;
+	final int x = 30;
 	/* this above line works like this in compiler
 	int x;
     You()
@@ -13,15 +14,17 @@ class You extends Dadaji {
 }
 
 class Dadaji {
-	int x = 80;
+	final int x = 80;
 
 }
 
 
+@SuppressWarnings({"EmptyMethod", "unused"})
 public class SuperClassUpcasted extends You {
-	int x = 10;
+	@SuppressWarnings("FieldCanBeLocal")
+	private final int x = 10;
 
-	//static public void main(String... args){}   // not allowed as just changing order of access types isnt overloading
+	//static public void main(String... args){}   // not allowed as just changing order of access types isn't overloading
 	public static void main(String a) {
 	}          //valid but need to be called explicitly,
 
@@ -31,16 +34,16 @@ public class SuperClassUpcasted extends You {
 	        /*java internally compiles it as String []args only so it can accept some variable length argument
 	        as parameter
 
-            the three dot stays for vargars. you can access it like a String[].
+            the three dot stays for varargs. you can access it like a String[].
 
-            If a method takes as paramter a varargs, you can call it with multiple values for the vargars type:
+            If a method takes as parameter a varargs, you can call it with multiple values for the varargs type:
 
             public void myMethod(String... values) {}
             you can call like myMethod("a", "b");
 
             in myMethod values[0] is equals "a" and values[1] is equals to "b".
 
-            If you have a method with multiple args, the vargars argument has to be the last: for instance:
+            If you have a method with multiple args, the varargs argument has to be the last: for instance:
             public void myMethod(int first, double second, String... values) {}
              */ {
 		SuperClassUpcasted c = new SuperClassUpcasted();
@@ -57,7 +60,7 @@ public class SuperClassUpcasted extends You {
         /*iff there was no 'x' in this class then its base class 'x' could be
         accessed by just using SOP(x) and also by using SOP(super.x)*/
 
-        /* why super.super.x isnt allowed?
+        /* why super.super.x isn't allowed?
 
         It violates encapsulation. You shouldn't be able to bypass the parent class's behaviour.
         It makes sense to sometimes be able to bypass your own class's behaviour
@@ -67,7 +70,7 @@ public class SuperClassUpcasted extends You {
 
 		System.out.println(((Dadaji) this).x);       // prints 80
 	/*
-    However, this doesn't work for method calls because method calls are
+	However, this doesn't work for method calls because method calls are
     determined based on the runtime type of the object.
 
      */

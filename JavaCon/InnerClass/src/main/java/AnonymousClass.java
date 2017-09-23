@@ -1,4 +1,4 @@
-/**
+/*
  * Created by Saurabh on 9/24/2015.
  */
 
@@ -26,7 +26,7 @@ class C extends A {
 
 public class AnonymousClass {
 	public static void main(String[] args) {
-		/** A a = new A() {}; // making A abstract in anonymous is not possible*/
+		/* A a = new A() {}; // making A abstract in anonymous is not possible*/
 		A a = new A() {
 			@Override
 			void show() {
@@ -42,7 +42,7 @@ public class AnonymousClass {
 		a.show();
 		//a.disp(); not possible to call like this
 
-		/** to run methods specific to an anonymous class
+		/* to run methods specific to an anonymous class
 		 * twist is that what fn returns matters and according to it this snippet is used*/
 		new Object() {
 			void fn() {
@@ -54,9 +54,9 @@ public class AnonymousClass {
 
 		int x = 9;
 		// x=0;       effective final violated
-		/** constructor of an no-name class*/
+		/* constructor of an no-name class*/
 		A c = new C() {
-			/**this is a new class  not C's but derived from C's and trasitively it casts to A
+			/*this is a new class  not C's but derived from C's and trasitively it casts to A
 			 *   since there is no name for this derived class, we cannot write conventional constructor
 			 * Anonymous inner class cannot have a named constructor, only an instance initializer:
 			 */

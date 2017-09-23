@@ -4,14 +4,15 @@
 class X {
 }
 
+@SuppressWarnings("ALL")
 public class InitializationsPosition {
 
+	/*instance initialization*/
+	private final int y;
 	X xOb1 = new X();
-	X xOb2;                        //by default null
+	private X xOb2;                        //by default null
 	/* At the place of initialization*/
 	private int x = 9;
-	/*instance initialization*/
-	private int y;
 	/*Inside constructor*/
 	private int z;
 	private String first, second;   //by default null as object
@@ -23,7 +24,7 @@ public class InitializationsPosition {
 		y = 10;
 	}
 
-	InitializationsPosition(int tmp) {
+	private InitializationsPosition(int tmp) {
 		z = tmp;
 	}
 

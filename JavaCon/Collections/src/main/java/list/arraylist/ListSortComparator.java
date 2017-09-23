@@ -1,7 +1,6 @@
 package list.arraylist;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -96,7 +95,7 @@ public class ListSortComparator {
 
 	public static void main(String[] args) {
 		ListSortComparator lOb = new ListSortComparator();
-		Collections.sort(lOb.list, new MySalaryComp());
+		lOb.list.sort(new MySalaryComp());
 
 		System.out.println("Sorted List Entries Based on Salary");
 		for (EmplComp e : lOb.list)

@@ -18,6 +18,7 @@ package saurabh.Interface.Java8;
  */
 
 
+@SuppressWarnings("ALL")
 interface A1 {
 	double PI = 3.14;
 
@@ -30,6 +31,7 @@ interface A1 {
 	int show();
 }
 
+@SuppressWarnings("ALL")
 interface B1 {
 	default int make() {
 		System.out.println("\nInside B1");
@@ -61,7 +63,7 @@ public class InterfaceDefaultMethod implements A1, B1 {
 	@Override
 	public int make() {
 		// new A1().make(); //no problem as make is class level function, wont clash with any other classes make,
-		// just that in case of default we cant lower the visibility, as its seperate for objects
+		// just that in case of default we cant lower the visibility, as its separate for objects
 
 		// B1.make();
 		System.out.println("dd");
@@ -69,6 +71,7 @@ public class InterfaceDefaultMethod implements A1, B1 {
 	}
 
 	//overloaded methods are allowed
+	@SuppressWarnings({"SameReturnValue", "unused"})
 	private int make(int a) {
 		return 9;
 	}

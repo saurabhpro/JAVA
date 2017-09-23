@@ -77,9 +77,7 @@ class LambdaTypes {
 		 * x -> 10;
 		 */
 
-		F2 f2 = (int a) -> {
-			return 10 * 5;
-		};
+		F2 f2 = (int a) -> 10 * 5;
 		System.out.println("f2\t" + f2.area(5));
 
 		//removes (int ) and {return --;}
@@ -90,14 +88,10 @@ class LambdaTypes {
 
 	static void f3Lambda() {
 		// Types of parameters are declared
-		F3 f31 = (int x, int y) -> {
-			return x + y;
-		};
+		F3 f31 = (int x, int y) -> x + y;
 
 		// Types of parameters are omitted
-		F3 f32 = (x, y) -> {
-			return x + y;
-		};
+		F3 f32 = (x, y) -> x + y;
 		/* If you omit the types of parameters, you must omit it for all parameters or for none.
 		 * You cannot omit for some and not for others.
 		 * (x, int y) ->{ ...} //will not compile

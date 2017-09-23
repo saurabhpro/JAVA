@@ -19,4 +19,4 @@ An abstract class may have static fields and static methods. You can use these s
 
 
 Abstract class can extend only one class or one abstract class at a time
-Interface can extend any number of interfaces at a time 
+Interface can extend any number of interfaces at a time

@@ -12,8 +12,8 @@ public class OptionalOrElseExample {
 		System.out.println(gender.orElse("<N/A>")); //MALE
 		System.out.println(emptyGender.orElse("<N/A>")); //<N/A>
 
-		System.out.println(gender.orElseGet(() -> "<N/A>")); //MALE
-		System.out.println(emptyGender.orElseGet(() -> "<N/A>")); //<N/A>
+		System.out.println(gender.orElse("<N/A>")); //MALE
+		System.out.println(emptyGender.orElse("<N/A>")); //<N/A>
 
 	}
 

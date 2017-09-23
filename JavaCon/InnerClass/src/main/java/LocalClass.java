@@ -1,4 +1,4 @@
-/**
+/*
  * Created by Saurabh on 8/30/2015.
  */
 
@@ -46,7 +46,7 @@ public class LocalClass {
 				} //overides base class Popcorn's pop method
 			};
 
-			/** here we are creating a subclass of Cookable which is basically an implementer class*/
+			/* here we are creating a subclass of Cookable which is basically an implementer class*/
 
 			/**
 			 * since java 8 we can use Lambda expressions to provide an implementation for interface via anonymous class

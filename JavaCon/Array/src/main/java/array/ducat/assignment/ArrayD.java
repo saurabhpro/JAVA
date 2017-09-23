@@ -46,16 +46,15 @@ public class ArrayD {
 	}
 
 	void print(int a[]) {
-		for (int i = 0; i < a.length; ++i)
-			System.out.printf("%4d ", a[i]);
+		for (int anA : a) System.out.printf("%4d ", anA);
 
 		System.out.println();
 	}
 
 	void print(int a[][]) {
-		for (int i = 0; i < a.length; ++i) {
-			for (int j = 0; j < a[i].length; ++j) {
-				System.out.printf("%4d ", a[i][j]);
+		for (int[] anA : a) {
+			for (int anAnA : anA) {
+				System.out.printf("%4d ", anAnA);
 			}
 			System.out.println();
 		}
