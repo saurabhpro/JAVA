@@ -4,8 +4,8 @@ package generics.array;
  * Created by Saurabh on 8/13/2015.
  */
 class GenItem<T> {
-	private T item;
-	private T val[];
+	private final T item;
+	private final T[] val;
 
 	GenItem(T ob, T[] nums) {
 		item = ob;

@@ -17,7 +17,7 @@ class Dimension {
 }
 
 class HoldItem<T> {
-	T item;
+	final T item;
 
 	HoldItem(T ob) {
 		item = ob;

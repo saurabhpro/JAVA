@@ -1,7 +1,7 @@
 package generics.reflection.a_class_literals;
 
-public class Logger {
-	private String value;
+class Logger {
+	private final String value;
 
 	public Logger(String value) {
 		this.value = value;

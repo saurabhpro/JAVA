@@ -1,7 +1,7 @@
 package generics;/* Simple generics with RunTimeTypeInformation*/
 
 class Gen<T> {
-	private T var;
+	private final T var;
 
 	Gen(T val) {
 		this.var = val;
@@ -21,7 +21,7 @@ class Gen<T> {
 
 public class GenOne {
 	public static void main(String[] args) {
-		Gen<Integer> iOb = new Gen<Integer>(88);      //or use diamond operator <> with constructor
+		Gen<Integer> iOb = new Gen<>(88);      //or use diamond operator <> with constructor
 		Gen<String> strOb = new Gen<>("Hello");
 
 		System.out.println(iOb.getVar());

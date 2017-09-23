@@ -2,7 +2,7 @@ package generics;
 
 public class GenTwo {
 	public static void main(String[] args) {
-		Gen2<Integer, String> iOb = new Gen2<Integer, String>(88, "Hello");      //or use diamond operator <> with constructor jdk16++
+		Gen2<Integer, String> iOb = new Gen2<>(88, "Hello");      //or use diamond operator <> with constructor jdk16++
 		Gen2<String, Double> strOb = new Gen2<>("Hello", 85.0);
 
 		System.out.println(iOb.getVar() + " " + iOb.getVar2());
@@ -23,8 +23,8 @@ public class GenTwo {
 
 
 class Gen2<T, V> {
-	private T var;
-	private V var2;
+	private final T var;
+	private final V var2;
 
 	Gen2(T val, V val2) {
 		this.var = val;
@@ -47,7 +47,7 @@ class Gen2<T, V> {
 }
 
 class Emp<T> {
-	int x;
+	final int x;
 
 	Emp() {
 		x = 15;

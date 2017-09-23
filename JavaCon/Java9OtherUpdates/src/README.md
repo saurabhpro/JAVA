@@ -1,5 +1,26 @@
-## @Deprecated
-@deprecated
+## Java 9 @Deprecated Enhancements
+   
+   This article introduces new added methods of Java 9 @Deprecated annotation: forRemoval() and since().
+   
+   An example with new @Deprecated annotation:
+   @Deprecated(since ="1.5", forRemoval = true)
+   
+   
+1. __forRemoval()__ :   forRemoval() returns a boolean:
+    - true means that “this API element is earmarked for removal in a future release”. Who uses the API should notice that, if they don’t migrate away from the API, their code could be break when new release is issued.
+    - false indicates that the API element is deprecated, but without any specific intent to remove that API in the future. It is just a recommendation to migrate away from this API.
+    - The default value of this element is false.
+   
+2. __since()__:   since() returns a String.
+    - “This string should contain the release or version number at which this API became deprecated.” Although it has free-form syntax, the string should follow the same scheme as the @since Javadoc tag for the project containing the deprecated API.
+    - The default value of this element is the empty string.
+   
+EX.
+
+```java
+ /**
+ * 
+ * @deprecated
  * This class and the {@link Observer} interface have been deprecated.
  * The event model supported by {@code Observer} and {@code Observable}
  * is quite limited, the order of notifications delivered by
@@ -12,8 +33,9 @@
  * For reactive streams style programming, see the
  * {@link java.util.concurrent.Flow} API.
  */
-####@Deprecated(since="9", forRemoval=true)
-public class Observable {...}
+ @Deprecated(since="9", forRemoval=true)
+public class Observable {/**/}
+```
 
 ## Java SE 7: Try-With-Resources Basics
    

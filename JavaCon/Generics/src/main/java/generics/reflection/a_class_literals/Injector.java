@@ -7,8 +7,9 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Stream;
 
-public class Injector {
-	private Map<Class<?>, Object> objectGraph = new HashMap<>();
+@SuppressWarnings("unchecked")
+class Injector {
+	private final Map<Class<?>, Object> objectGraph = new HashMap<>();
 
 	<T> T newInstance(Class<T> type) {
 		return (T) objectGraph.computeIfAbsent(type, this::instantiate);

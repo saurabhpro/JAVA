@@ -22,7 +22,7 @@ public class ReifiableExamples {
 		System.out.println(typeVariable);
 	}
 
-	public static class StringList extends ArrayList<String> {
+	private static class StringList extends ArrayList<String> {
 
 	}
 }

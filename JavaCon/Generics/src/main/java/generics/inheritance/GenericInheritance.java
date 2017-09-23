@@ -10,8 +10,8 @@ class TwoTuple<T, V extends Number> {
 	 * a user can with the help of class reference access them], here user's cannot
 	 * re-initialize them once they are initialized inside the constructor
 	 */
-	public final T first;
-	public final V second;
+	final T first;
+	final V second;
 
 
 	public TwoTuple(T a, V b) {
@@ -28,7 +28,7 @@ class TwoTuple<T, V extends Number> {
 
 //T, V are type parameter of generics.inheritance.ThreeTuple sp V must extend Number
 class ThreeTuple<T, V extends Number, R> extends TwoTuple<T, V> {
-	public final R third;
+	private final R third;
 
 	public ThreeTuple(T a, V b, R c) {
 		super(a, b);
@@ -50,15 +50,15 @@ public class GenericInheritance {
 	/**
 	 * @return anonymous object reference of type generics.inheritance.TwoTuple
 	 */
-	static TwoTuple<String, Integer> f() {
-		return new TwoTuple<String, Integer>("hi", 47);
+	private static TwoTuple<String, Integer> f() {
+		return new TwoTuple<>("hi", 47);
 	}
 
 	/**
 	 * @return anonymous object reference of type generics.inheritance.ThreeTuple
 	 * Double is subclass of Number So Allowed
 	 */
-	static ThreeTuple<Temp, Double, String> g() {
+	private static ThreeTuple<Temp, Double, String> g() {
 		return new ThreeTuple<>(new Temp(), 48.9, "hi");
 	}
 

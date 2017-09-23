@@ -22,10 +22,15 @@ public class Wildcards {
 				"a List<B>, a List<String> etc.\n");
 
 		List<?> elements;
+		//noinspection UnusedAssignment
 		elements = new ArrayList<A>();
-		elements = new ArrayList<Object>();      //new expressions with typed arguments can be replaced with <>
+		//noinspection UnusedAssignment
+		elements = new ArrayList<>();      //new expressions with typed arguments can be replaced with <>
+		//noinspection UnusedAssignment
 		elements = new ArrayList<String>();
+		//noinspection UnusedAssignment
 		elements = new ArrayList<D>();
+		//noinspection UnusedAssignment
 		elements = new ArrayList<Serializable>();
 
 		//System.out.println(elements);
@@ -38,10 +43,13 @@ public class Wildcards {
 		List<? extends A> elements;
 		//elements = new ArrayList<String>();       Not allowed as String is not subclass of A
 		//elements = new ArrayList<Object>();       Not Allowed
+		//noinspection UnusedAssignment
 		elements = new ArrayList<B>();
+		//noinspection UnusedAssignment
 		elements = new ArrayList<D>();
 		//elements.add(@Flow Capture of ? extends A e)  ; ??
 
+		//noinspection UnusedAssignment
 		elements = new ArrayList<>();            //didnt't we just see <> means <Object> and <Object> was not acceptable!!!
 
 		//System.out.println(elements);
@@ -52,7 +60,9 @@ public class Wildcards {
 		System.out.println("List<? super D> means that the list is typed to either the D class, or a superclass of D.");
 
 		List<? super D> elements;
+		//noinspection UnusedAssignment
 		elements = new ArrayList<A>();
+		//noinspection UnusedAssignment
 		elements = new ArrayList<Object>();
 		// elements = new ArrayList<C>();        //C is not in super class Herirachy of class D
 
@@ -73,10 +83,10 @@ public class Wildcards {
 	class B extends A {
 	}
 
-	class C extends A {
+	private class C extends A {
 	}
 
-	class D extends B {
+	private class D extends B {
 	}
 }
 
