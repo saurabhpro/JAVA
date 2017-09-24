@@ -6,214 +6,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="update to java 9 - exception &amp; code cleanup">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/kotlinc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.project" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.vscode/settings.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.classpath" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.project" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/BitMagic.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/A_FindFirstSetBit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/B_IfPowerOfTwo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/C_RotateBitsLeft.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/D_CountTotalSetBits.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/E_RightmostDifferentBit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/F_IfKthBitSet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/G_SetKthBit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/H_DifferentBitsInTwoNumbers.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/I_MaxConsecutiveOnes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/J_OddOneInPairs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/K_SparseNumber.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/A_FindFirstSetBitTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/B_IfPowerOfTwoTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/C_RotateBitsLeftTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/D_CountTotalSetBitsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/E_RightmostDifferentBitTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/F_If_KthBitSetTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/G_SetKthBitTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/H_DifferentBitsInTwoNumbersTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/I_MaxConsecutiveOnesTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/J_OddOneInPairsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/K_SparseNumberTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/Interview.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/designPatternsInJava.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/chainofresponsibility/AbstractDragonSlayerRepresentative.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/chainofresponsibility/DragonSlayer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/chainofresponsibility/DragonSlayerRepresentitive.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/chainofresponsibility/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/command/Command.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/command/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/command/TeleportKnightCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/mediator/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/mediator/MedevilPostOffice.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/mediator/MediatorHolyKnight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/mediator/MediatorKnight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/memento/Caretaker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/memento/HolyKnightMemento.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/memento/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/memento/Memento.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/memento/MementoKnight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/nullobject/NullObjectKnight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/observer/ArmorObserver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/observer/KnightObserver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/observer/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/observer/Observer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/observer/ObserverHolyKnight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/ArmorResponseStrategy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/GodlyArmorResponseStrategy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/Strategy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/StrategyHolyKnight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/StrategyKnight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/visitor/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/visitor/Visitor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/visitor/VisitorHolyKnight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/visitor/VisitorKnight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/abstractfactory/Factory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/abstractfactory/FactoryProducer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/abstractfactory/HolyFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/abstractfactory/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/abstractfactory/MajesticFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/builder/KnightBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/builder/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/factorymethod/Factory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/factorymethod/HolyFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/factorymethod/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/factorymethod/MajesticFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/prototype/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/prototype/PrototypeFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/singleton/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/singleton/SingletonKnight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/AbstractKnight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/HolyKnight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/Knight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/KnightFamily.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/KnightWeapon.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/MajesticKnight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/adapter/KnightAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/adapter/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/adapter/OldKnight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/composit/KnightArmy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/composit/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/decorator/KnightWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/decorator/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/privateclassdata/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/privateclassdata/PrivateHolyKnight.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/proxy/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/proxy/MajesticKnightProxy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/designSOLIDPrinciples.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/a_SingleResponsibility/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/a_SingleResponsibility/a_SingleResponsibility.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/b_OpenClosedPrinciple/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/c_LiskovSubstitution/LSPDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/c_LiskovSubstitution/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/c_LiskovSubstitution/Rectangle.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/c_LiskovSubstitution/Square.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/d_InterfaceSegregation/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/e_DependencyInversion/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/greedyQ/greedyQ.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/greedyQ/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/greedyQ/src/main/java/MinimumCoin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/greedyQ/src/main/resources/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/greedyQ/src/test/java/MinimumCoinTest.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.classpath" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.project" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/hashingQ.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/main/java/DistinctValuesInWindow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/main/java/FrequencyOne.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/main/java/NextGreaterElement.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/main/java/PairSum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/main/java/SwapToMakeArraySumEqual.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/main/java/ZeroSum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/test/java/FrequencyOneTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/test/java/NextGreaterElementTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/test/java/PairSumTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/test/java/SwapToMakeArraySumEqualTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/test/java/ZeroSumTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/primeQ/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/primeQ/primeQ.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Break the Java Generics Naming Convention_ • Java.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Food Terms.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Food Terms_files/a7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Food Terms_files/artimapf.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Food Terms_files/ik.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Java 8 Method Reference_ How to Use it _ Codementor.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Late Night Java by Koray Tugay_ Hello world web application with Maven + Java + Servlets + Tomcat + IntelliJ.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Should I explicitly declare serialVersionUID_ • Java.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Singleton Pattern Pitfalls • Design Patterns.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Telescoping Constructor Pattern alternatives • Java.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Testing Private Methods in Java « Saturnboy.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/Sort algorithms Java implementation – pscode.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/sorting.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/main/java/BubbleSort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/main/java/HeapSort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/main/java/InsertionSort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/main/java/MergeSort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/main/java/QuickSort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/main/java/SelectionSort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/main/java/ShellSort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/main/java/Sort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/test/java/BubbleSortTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/ArrayQuestions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/GetAllSubsetByStack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/IntegerToString.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/ListReversePrinting.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/MathUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/RecursiveArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/Search.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/StringSwappingUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/Sum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/SumTillNum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/test/java/IntegerToStringTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/test/java/MathUtilsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/test/java/StringSwappingUtilsTest.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.classpath" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.project" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/Anagram.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/LongestCommonSubstring.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/LongestDistinctSubstring.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/ParenthesisChecker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/RemoveDuplicates.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/ReverseWords.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/RomanToDecimal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/WordPermutation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/resources/Longest-Common-Substring-Matrix.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/resources/Permutation of String in Java.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/AnagramTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/LongestCommonSubstringTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/ParenthesisCheckerTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/RemoveDuplicatesTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/ReverseWordsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/RomanToDecimalTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/WordPermutationTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/stringQ.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Array/src/main/java/array/AnyMatch.java" afterPath="$PROJECT_DIR$/Array/src/main/java/array/AnyMatch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java9Optional/pom.xml" afterPath="$PROJECT_DIR$/Java9Optional/pom.xml" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1968,7 +1775,7 @@
         <state relative-caret-position="447">
           <caret line="62" column="30" lean-forward="false" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="docComment;class#CachedRowSetDemo#0" expanded="false" />
           </folding>
         </state>
@@ -2003,7 +1810,7 @@
         <state relative-caret-position="301">
           <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2021,7 +1828,7 @@
         <state relative-caret-position="598">
           <caret line="94" column="43" lean-forward="false" selection-start-line="94" selection-start-column="43" selection-end-line="94" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2031,7 +1838,7 @@
         <state relative-caret-position="474">
           <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2049,7 +1856,7 @@
         <state relative-caret-position="60">
           <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2094,8 +1901,8 @@
         <state relative-caret-position="398">
           <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="19" />
           <folding>
-            <element signature="e#0#1722#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1722#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2105,8 +1912,8 @@
         <state relative-caret-position="270">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#0#1542#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1542#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2116,8 +1923,8 @@
         <state relative-caret-position="435">
           <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding>
-            <element signature="e#0#1602#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1602#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2140,9 +1947,9 @@
         <state relative-caret-position="240">
           <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1262#1263#0" expanded="false" />
+            <element signature="e#1298#1299#0" expanded="false" />
           </folding>
         </state>
       </provider>
