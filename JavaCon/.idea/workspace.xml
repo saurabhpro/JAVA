@@ -6,794 +6,214 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="update to java 9 - exception &amp; code cleanup">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Question5_7.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_13_Bisect_Squares/Square Cut Tester - Q16_13.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/L_SwapOddEvenBits.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/L_SwapOddEvenBitsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/Commons/Commons.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/Commons/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/GetAllSubsetByStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/Search.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/SumTillNum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/codingInterviewQuestion.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Big_O/Example_16/Example.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Big_O/QVI_11_Print_Sorted_Strings/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_01_Is_Unique/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_01_Is_Unique/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_01_Is_Unique/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_02_Check_Permutation/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_02_Check_Permutation/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_03_URLify/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_04_Palindrome_Permutation/Common.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_04_Palindrome_Permutation/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_04_Palindrome_Permutation/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_04_Palindrome_Permutation/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_04_Palindrome_Permutation/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_05_One_Away/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_05_One_Away/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_05_One_Away/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_06_String_Compression/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_06_String_Compression/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_06_String_Compression/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_06_String_Compression/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_07_Rotate_Matrix/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_08_Zero_Matrix/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_08_Zero_Matrix/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_08_Zero_Matrix/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch01_Arrays_and_Strings/Q1_09_String_Rotation/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_01_Remove_Dups/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_01_Remove_Dups/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_01_Remove_Dups/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_01_Remove_Dups/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_02_Return_Kth_To_Last/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_02_Return_Kth_To_Last/QuestionB.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_02_Return_Kth_To_Last/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_02_Return_Kth_To_Last/QuestionD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_02_Return_Kth_To_Last/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_03_Delete_Middle_Node/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_04_Partition/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_04_Partition/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_04_Partition/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_04_Partition/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_05_Sum_Lists/PartialSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_05_Sum_Lists/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_05_Sum_Lists/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_06_Palindrome/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_06_Palindrome/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_06_Palindrome/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_06_Palindrome/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_07_Intersection/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch02_Linked_Lists/Q2_08_Loop_Detection/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Introduction/MyQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Introduction/MyStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Introduction/QueueTester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Introduction/StackTester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_01_Three_in_One/FixedMultiStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_01_Three_in_One/FullStackException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_01_Three_in_One/MultiStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_01_Three_in_One/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_01_Three_in_One/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_02_Stack_Min/NodeWithMin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_02_Stack_Min/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_02_Stack_Min/StackWithMin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_02_Stack_Min/StackWithMin2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_03_Stack_of_Plates/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_03_Stack_of_Plates/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_03_Stack_of_Plates/SetOfStacks.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_03_Stack_of_Plates/Stack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_04_Queue_via_Stacks/MyQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_04_Queue_via_Stacks/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_05_Sort_Stack/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_06_Animal_Shelter/Animal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_06_Animal_Shelter/AnimalQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_06_Animal_Shelter/Cat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_06_Animal_Shelter/Dog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch03_Stacks_and_Queues/Q3_06_Animal_Shelter/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Introduction/Traversals.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_01_Route_Between_Nodes/Graph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_01_Route_Between_Nodes/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_01_Route_Between_Nodes/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_02_Minimal_Tree/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_03_List_of_Depths/QuestionBFS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_03_List_of_Depths/QuestionDFS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_04_Check_Balanced/QuestionBrute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_04_Check_Balanced/QuestionImproved.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_05_Validate_BST/IntWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_05_Validate_BST/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_05_Validate_BST/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_06_Successor/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_07_Build_Order/DFS/Graph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_07_Build_Order/DFS/Project.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_07_Build_Order/DFS/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_07_Build_Order/EdgeRemoval/Graph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_07_Build_Order/EdgeRemoval/Project.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_07_Build_Order/EdgeRemoval/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_08_First_Common_Ancestor/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_08_First_Common_Ancestor/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_08_First_Common_Ancestor/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_08_First_Common_Ancestor/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_08_First_Common_Ancestor/QuestionD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_08_First_Common_Ancestor/QuestionE.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_08_First_Common_Ancestor/QuestionEBad.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_08_First_Common_Ancestor/QuestionF.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_08_First_Common_Ancestor/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_09_BST_Sequences/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_10_Check_Subtree/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_10_Check_Subtree/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_11_Random_Node/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_11_Random_Node/Tree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_11_Random_Node/TreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_12_Paths_with_Sum/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_12_Paths_with_Sum/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch04_Trees_and_Graphs/Q4_12_Paths_with_Sum/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Q5_01_Insertion/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Q5_02_Binary_to_String/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Q5_03_Flip_Bit_to_Win/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Q5_03_Flip_Bit_to_Win/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Q5_03_Flip_Bit_to_Win/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Q5_03_Flip_Bit_to_Win/QuestionD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Q5_03_Flip_Bit_to_Win/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Q5_04_Next_Number/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Q5_04_Next_Number/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Q5_04_Next_Number/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Q5_04_Next_Number/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Q5_06_Conversion/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Q5_06_Conversion/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Q5_06_Conversion/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Q5_07_Pairwise_Swap/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Q5_08_Draw_Line/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Sample_Code/RightShifts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Sample_Code/Sample_Code.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch06_Math_and_Logic_Puzzles/Introduction/PrimeNumbers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch06_Math_and_Logic_Puzzles/Introduction/SieveOfEratosthenes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch06_Math_and_Logic_Puzzles/Q6_05_Egg_Drop/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch06_Math_and_Logic_Puzzles/Q6_07_The_Apocalypse/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch06_Math_and_Logic_Puzzles/Q6_10_Test_Strips/Bottle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch06_Math_and_Logic_Puzzles/Q6_10_Test_Strips/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch06_Math_and_Logic_Puzzles/Q6_10_Test_Strips/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch06_Math_and_Logic_Puzzles/Q6_10_Test_Strips/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch06_Math_and_Logic_Puzzles/Q6_10_Test_Strips/TestStrip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q701_DeckOfCards/BlackJackCard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q701_DeckOfCards/BlackJackGameAutomator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q701_DeckOfCards/BlackJackHand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q701_DeckOfCards/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q701_DeckOfCards/model/Card.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q701_DeckOfCards/model/Deck.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q701_DeckOfCards/model/Hand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q701_DeckOfCards/model/Suit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q704_ParkingLot/Level.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q704_ParkingLot/ParkingLot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q704_ParkingLot/ParkingSpot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q704_ParkingLot/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q704_ParkingLot/model/Bus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q704_ParkingLot/model/Car.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q704_ParkingLot/model/Motorcycle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q704_ParkingLot/model/Vehicle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q704_ParkingLot/model/VehicleSize.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_02_Call_Center/Call.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_02_Call_Center/CallHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_02_Call_Center/Caller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_02_Call_Center/Director.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_02_Call_Center/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_02_Call_Center/Manager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_02_Call_Center/Rank.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_02_Call_Center/Respondent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_02_Call_Center/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_03_Jukebox/CD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_03_Jukebox/CDPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_03_Jukebox/JukeBox.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_03_Jukebox/Playlist.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_03_Jukebox/Song.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_03_Jukebox/SongSelector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_03_Jukebox/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_05_Online_Book_Reader/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_05_Online_Book_Reader/Library.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_05_Online_Book_Reader/OnlineReaderSystem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_05_Online_Book_Reader/UserManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_05_Online_Book_Reader/model/Book.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_05_Online_Book_Reader/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_06_Jigsaw/Edge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_06_Jigsaw/Orientation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_06_Jigsaw/Piece.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_06_Jigsaw/Puzzle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_06_Jigsaw/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_06_Jigsaw/Shape.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_07_Chat_Server/AddRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_07_Chat_Server/Conversation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_07_Chat_Server/GroupChat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_07_Chat_Server/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_07_Chat_Server/PrivateChat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_07_Chat_Server/RequestStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_07_Chat_Server/System.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_07_Chat_Server/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_07_Chat_Server/UserManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_07_Chat_Server/UserStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_07_Chat_Server/UserStatusType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_08_Othello/Automator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_08_Othello/Board.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_08_Othello/Color.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_08_Othello/Direction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_08_Othello/Game.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_08_Othello/Location.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_08_Othello/Piece.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_08_Othello/Player.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_08_Othello/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_09_Circular_Array/CircularArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_09_Circular_Array/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_10_Minesweeper/Board.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_10_Minesweeper/Cell.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_10_Minesweeper/Game.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_10_Minesweeper/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_10_Minesweeper/UserPlay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_10_Minesweeper/UserPlayResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_11_File_System/Directory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_11_File_System/Entry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_11_File_System/File.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_11_File_System/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_12_Hash_Table/Dummy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_12_Hash_Table/Hasher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_12_Hash_Table/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Introduction/FibonacciA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Introduction/FibonacciB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Introduction/FibonacciC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Introduction/FibonacciD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_01_Triple_Step/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_01_Triple_Step/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_01_Triple_Step/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_02_Robot_in_a_Grid/Point.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_02_Robot_in_a_Grid/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_02_Robot_in_a_Grid/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_02_Robot_in_a_Grid/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_03_Magic_Index/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_03_Magic_Index/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_04_Power_Set/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_04_Power_Set/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_05_Recursive_Multiply/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_05_Recursive_Multiply/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_05_Recursive_Multiply/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_05_Recursive_Multiply/QuestionD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_05_Recursive_Multiply/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_06_Towers_of_Hanoi/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_06_Towers_of_Hanoi/Tower.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_07_Permutations_Without_Dups/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_07_Permutations_Without_Dups/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_07_Permutations_Without_Dups/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_08_Permutations_With_Dups/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_09_Parens/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_09_Parens/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_10_Paint_Fill/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_11_Coins/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_11_Coins/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_11_Coins/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_12_Eight_Queens/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_13_Stack_of_Boxes/Box.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_13_Stack_of_Boxes/BoxComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_13_Stack_of_Boxes/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_13_Stack_of_Boxes/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_13_Stack_of_Boxes/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_13_Stack_of_Boxes/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_14_Boolean_Evaluation/Others.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_14_Boolean_Evaluation/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_14_Boolean_Evaluation/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_14_Boolean_Evaluation/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch08_Recursion_and_Dynamic_Programming/Q8_14_Boolean_Evaluation/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch09_Scalability_and_Memory_Limits/Q9_02_Social_Network/BFSData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch09_Scalability_and_Memory_Limits/Q9_02_Social_Network/Machine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch09_Scalability_and_Memory_Limits/Q9_02_Social_Network/PathNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch09_Scalability_and_Memory_Limits/Q9_02_Social_Network/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch09_Scalability_and_Memory_Limits/Q9_02_Social_Network/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch09_Scalability_and_Memory_Limits/Q9_02_Social_Network/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch09_Scalability_and_Memory_Limits/Q9_02_Social_Network/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch09_Scalability_and_Memory_Limits/Q9_02_Social_Network/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch09_Scalability_and_Memory_Limits/Q9_05_Cache/Cache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch09_Scalability_and_Memory_Limits/Q9_05_Cache/Node.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch09_Scalability_and_Memory_Limits/Q9_05_Cache/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Introduction/BinarySearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Introduction/MergeSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Introduction/Quicksort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_01_Sorted_Merge/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_02_Group_Anagrams/AnagramComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_02_Group_Anagrams/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_02_Group_Anagrams/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_03_Search_in_Rotated_Array/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_04_Sorted_Search_No_Size/Arrayish/Listy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_04_Sorted_Search_No_Size/Arrayish/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_05_Sparse_Search/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_05_Sparse_Search/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_07_Missing_Int/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_07_Missing_Int/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_07_Missing_Int/input.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_08_Find_Duplicates/BitSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_08_Find_Duplicates/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_09_Sorted_Matrix_Search/Coordinate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_09_Sorted_Matrix_Search/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_09_Sorted_Matrix_Search/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_10_Rank_from_Stream/IntComparable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_10_Rank_from_Stream/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_10_Rank_from_Stream/RankNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_11_Peaks_and_Valleys/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_11_Peaks_and_Valleys/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_11_Peaks_and_Valleys/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_11_Peaks_and_Valleys/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/Introduction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/IntroductionCollections.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/IntroductionOverriding.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/model/Ambiguous.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/model/Circle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/model/Shape.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/model/Square.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_01_Private_Constructor/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_01_Private_Constructor/WantToInheritButCant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_05_TreeMap_HashMap_LinkedHashMap/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_06_Object_Reflection/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_07_Lambda_Expressions/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_08_Lambda_Random/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_08_Lambda_Random/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_08_Lambda_Random/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionA/ExampleA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionA/RunnableThreadExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionB/ExampleB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionB/ThreadExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionLocks/Intro.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionLocks/LockedATM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionLocks/MyClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionLocks/NoLockATM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionSynchronization/Intro.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionSynchronization/MyClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionSynchronization/MyObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionSynchronizedBlocks/Intro.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionSynchronizedBlocks/MyClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionSynchronizedBlocks/MyObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionWaitNotify/Intro.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionWaitNotify/MyClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionWaitNotify/MyObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_03_Dining_Philosophers/QuestionA/Chopstick.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_03_Dining_Philosophers/QuestionA/Philosopher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_03_Dining_Philosophers/QuestionA/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_03_Dining_Philosophers/QuestionB/Chopstick.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_03_Dining_Philosophers/QuestionB/Philosopher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_03_Dining_Philosophers/QuestionB/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_04_Deadlock_Free_Class/LockFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_04_Deadlock_Free_Class/LockNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_04_Deadlock_Free_Class/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_05_Call_In_Order/Foo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_05_Call_In_Order/FooBad.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_05_Call_In_Order/MyThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_05_Call_In_Order/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_06_Synchronized_Methods/Foo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_06_Synchronized_Methods/MyThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_06_Synchronized_Methods/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_07_FizzBuzz/FBThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_07_FizzBuzz/FizzBuzzThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_07_FizzBuzz/NumberThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_07_FizzBuzz/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_07_FizzBuzz/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/Q15_07_FizzBuzz/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_01_Number_Swapper/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_02_Word_Frequencies/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_02_Word_Frequencies/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_03_Intersection/Line.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_03_Intersection/Point.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_03_Intersection/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_04_Tic_Tac_Win/Piece.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_04_Tic_Tac_Win/Position.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_04_Tic_Tac_Win/PositionIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_04_Tic_Tac_Win/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_04_Tic_Tac_Win/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_04_Tic_Tac_Win/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_04_Tic_Tac_Win/QuestionD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_04_Tic_Tac_Win/QuestionE.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_04_Tic_Tac_Win/QuestionF.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_04_Tic_Tac_Win/QuestionG.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_04_Tic_Tac_Win/QuestionH.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_04_Tic_Tac_Win/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_05_Factorial_Zeros/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_05_Factorial_Zeros/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_06_Smallest_Difference/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_06_Smallest_Difference/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_06_Smallest_Difference/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_07_Number_Max/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_08_English_Int/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_09_Operations/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_10_Living_People/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_10_Living_People/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_10_Living_People/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_10_Living_People/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_10_Living_People/QuestionD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_10_Living_People/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_11_Diving_Board/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_11_Diving_Board/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_11_Diving_Board/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_11_Diving_Board/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_12_XML_Encoding/Attribute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_12_XML_Encoding/Element.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_12_XML_Encoding/QuestionOO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_12_XML_Encoding/QuestionString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_13_Bisect_Squares/Line.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_13_Bisect_Squares/Point.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_13_Bisect_Squares/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_13_Bisect_Squares/Square.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_14_Best_Line/GraphPoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_14_Best_Line/Line.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_14_Best_Line/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_15_Master_Mind/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_16_Sub_Sort/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_17_Contiguous_Sequence/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_18_Pattern_Matcher/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_18_Pattern_Matcher/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_18_Pattern_Matcher/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_18_Pattern_Matcher/QuestionD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_18_Pattern_Matcher/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_19_Pond_Sizes/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_19_Pond_Sizes/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_20_T9/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_20_T9/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_20_T9/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_21_Sum_Swap/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_21_Sum_Swap/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_21_Sum_Swap/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_21_Sum_Swap/QuestionD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_21_Sum_Swap/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_22_Langtons_Ant/Ant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_22_Langtons_Ant/Board.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_22_Langtons_Ant/Grid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_22_Langtons_Ant/Orientation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_22_Langtons_Ant/Position.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_22_Langtons_Ant/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_23_Rand7_From_Rand5/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_23_Rand7_From_Rand5/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_24_Pairs_With_Sum/Pair.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_24_Pairs_With_Sum/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_24_Pairs_With_Sum/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_24_Pairs_With_Sum/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_24_Pairs_With_Sum/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_25_LRU_Cache/Cache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_25_LRU_Cache/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_26_Calculator/Operator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_26_Calculator/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_26_Calculator/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_26_Calculator/Term.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_01_Add_Without_Plus/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_01_Add_Without_Plus/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_01_Add_Without_Plus/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_02_Shuffle/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_03_Random_Set/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_03_Random_Set/QuestionAlternate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_04_Missing_Number/BitInteger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_04_Missing_Number/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_05_Letters_and_Numbers/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_05_Letters_and_Numbers/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_05_Letters_and_Numbers/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_06_Count_of_2s/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_06_Count_of_2s/QuestionBrute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_07_Baby_Names/Graph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_07_Baby_Names/GraphNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_07_Baby_Names/NameSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_07_Baby_Names/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_07_Baby_Names/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_08_Circus_Tower/HtWt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_08_Circus_Tower/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_08_Circus_Tower/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_08_Circus_Tower/QuestionOld.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_08_Circus_Tower/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_09_Kth_Multiple/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_09_Kth_Multiple/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_09_Kth_Multiple/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_10_Majority_Element/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_10_Majority_Element/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_11_Word_Distance/LocationPair.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_11_Word_Distance/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_11_Word_Distance/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_11_Word_Distance/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_12_BiNode/BiNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_12_BiNode/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_12_BiNode/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_12_BiNode/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_13_ReSpace/ParseResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_13_ReSpace/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_13_ReSpace/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_14_Smallest_K/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_14_Smallest_K/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_14_Smallest_K/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_14_Smallest_K/QuestionD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_14_Smallest_K/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_15_Longest_Word/LengthComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_15_Longest_Word/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_16_The_Masseuse/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_16_The_Masseuse/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_16_The_Masseuse/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_16_The_Masseuse/QuestionD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_16_The_Masseuse/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_17_Multi_Search/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_17_Multi_Search/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_17_Multi_Search/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_17_Multi_Search/Trie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_17_Multi_Search/TrieNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_18_Shortest_Supersequence/HeapNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_18_Shortest_Supersequence/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_18_Shortest_Supersequence/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_18_Shortest_Supersequence/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_18_Shortest_Supersequence/QuestionD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_18_Shortest_Supersequence/Range.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_18_Shortest_Supersequence/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_19_Missing_Two/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_19_Missing_Two/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_19_Missing_Two/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_20_Continuous_Median/MaxHeapComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_20_Continuous_Median/MinHeapComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_20_Continuous_Median/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_21_Volume_of_Histogram/HistogramData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_21_Volume_of_Histogram/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_21_Volume_of_Histogram/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_21_Volume_of_Histogram/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_21_Volume_of_Histogram/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_22_Word_Transformer/BFSData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_22_Word_Transformer/PathNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_22_Word_Transformer/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_22_Word_Transformer/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_22_Word_Transformer/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_22_Word_Transformer/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_23_Max_Black_Square/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_23_Max_Black_Square/QuestionEff.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_23_Max_Black_Square/SquareCell.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_23_Max_Black_Square/Subsquare.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_24_Max_Submatrix/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_24_Max_Submatrix/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_24_Max_Submatrix/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_24_Max_Submatrix/Range.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_24_Max_Submatrix/SubMatrix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_24_Max_Submatrix/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_25_Word_Rectangle/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_25_Word_Rectangle/Rectangle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_25_Word_Rectangle/WordGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_26_Sparse_Similarity/DocPair.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_26_Sparse_Similarity/Document.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_26_Sparse_Similarity/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_26_Sparse_Similarity/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_26_Sparse_Similarity/QuestionC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch17_Hard/Q17_26_Sparse_Similarity/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/CtCILibrary/AssortedMethods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/CtCILibrary/BTreePrinter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/CtCILibrary/BitVector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/CtCILibrary/HashMapList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/CtCILibrary/LinkedListNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/CtCILibrary/TreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/CtCILibrary/Trie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/CtCILibrary/TrieNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_02.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_03.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_04.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_05.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_06.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_07.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_08.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_09.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_10.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_11.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_14.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_15.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_16.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_17.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_18.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_19.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Ex_20.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Q_01.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Q_02.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Q_03.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Q_04.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Q_05.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Q_06.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Q_09.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Q_10.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Q_11.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Q_12.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/CompareBinaryToHex/CompareBinaryToHex.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/SwapMinMax/SwapMinMax.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/javaFrameworkQ/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/javaFrameworkQ/javaFrameworkQ.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/javaFrameworkQ/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/javaFrameworkQ/src/main/java/Q14_04_Circular_Array/CircularArrayWithIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/javaFrameworkQ/src/main/java/module-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/javaFrameworkQ/src/test/java/Q14_04_Circular_Array/CircularArrayWithIteratorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/primeQ/src/main/java/basic/PrimeNumbers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/primeQ/src/test/java/basic/PrimeNumbersTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Array/src/main/java/array/AnyMatch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/module-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/RegExMatching.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/main/java/com/saurabh/pattern/LinkGetter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/main/java/com/saurabh/pattern/RegexTestPatternMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/main/java/com/saurabh/pattern/RegexTestStrings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/main/java/com/saurabh/pattern/StringMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/main/java/module-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/CheckNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/CheckPhone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/EitherOrCheck.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/LinkGetterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/StringMatcherTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/kotlinc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.vscode/settings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/BitMagic.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/A_FindFirstSetBit.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/B_IfPowerOfTwo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/C_RotateBitsLeft.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/D_CountTotalSetBits.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/E_RightmostDifferentBit.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/F_IfKthBitSet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/G_SetKthBit.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/H_DifferentBitsInTwoNumbers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/I_MaxConsecutiveOnes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/J_OddOneInPairs.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/K_SparseNumber.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/A_FindFirstSetBitTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/B_IfPowerOfTwoTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/C_RotateBitsLeftTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/D_CountTotalSetBitsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/E_RightmostDifferentBitTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/F_If_KthBitSetTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/G_SetKthBitTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/H_DifferentBitsInTwoNumbersTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/I_MaxConsecutiveOnesTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/J_OddOneInPairsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/K_SparseNumberTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/Interview.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/designPatternsInJava.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/chainofresponsibility/AbstractDragonSlayerRepresentative.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/chainofresponsibility/DragonSlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/chainofresponsibility/DragonSlayerRepresentitive.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/chainofresponsibility/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/command/Command.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/command/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/command/TeleportKnightCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/mediator/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/mediator/MedevilPostOffice.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/mediator/MediatorHolyKnight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/mediator/MediatorKnight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/memento/Caretaker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/memento/HolyKnightMemento.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/memento/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/memento/Memento.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/memento/MementoKnight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/nullobject/NullObjectKnight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/observer/ArmorObserver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/observer/KnightObserver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/observer/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/observer/Observer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/observer/ObserverHolyKnight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/ArmorResponseStrategy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/GodlyArmorResponseStrategy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/Strategy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/StrategyHolyKnight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/strategy/StrategyKnight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/visitor/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/visitor/Visitor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/visitor/VisitorHolyKnight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/behavioral/visitor/VisitorKnight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/abstractfactory/Factory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/abstractfactory/FactoryProducer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/abstractfactory/HolyFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/abstractfactory/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/abstractfactory/MajesticFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/builder/KnightBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/builder/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/factorymethod/Factory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/factorymethod/HolyFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/factorymethod/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/factorymethod/MajesticFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/prototype/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/prototype/PrototypeFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/singleton/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/creational/singleton/SingletonKnight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/AbstractKnight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/HolyKnight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/Knight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/KnightFamily.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/KnightWeapon.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/model/MajesticKnight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/adapter/KnightAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/adapter/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/adapter/OldKnight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/composit/KnightArmy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/composit/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/decorator/KnightWriter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/decorator/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/privateclassdata/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/privateclassdata/PrivateHolyKnight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/proxy/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/src/main/java/structural/proxy/MajesticKnightProxy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/designSOLIDPrinciples.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/a_SingleResponsibility/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/a_SingleResponsibility/a_SingleResponsibility.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/b_OpenClosedPrinciple/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/c_LiskovSubstitution/LSPDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/c_LiskovSubstitution/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/c_LiskovSubstitution/Rectangle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/c_LiskovSubstitution/Square.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/d_InterfaceSegregation/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/src/main/java/e_DependencyInversion/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/greedyQ/greedyQ.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/greedyQ/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/greedyQ/src/main/java/MinimumCoin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/greedyQ/src/main/resources/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/greedyQ/src/test/java/MinimumCoinTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/hashingQ.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/main/java/DistinctValuesInWindow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/main/java/FrequencyOne.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/main/java/NextGreaterElement.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/main/java/PairSum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/main/java/SwapToMakeArraySumEqual.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/main/java/ZeroSum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/test/java/FrequencyOneTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/test/java/NextGreaterElementTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/test/java/PairSumTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/test/java/SwapToMakeArraySumEqualTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/hashingQ/src/test/java/ZeroSumTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/primeQ/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/primeQ/primeQ.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Break the Java Generics Naming Convention_ • Java.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Food Terms.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Food Terms_files/a7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Food Terms_files/artimapf.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Food Terms_files/ik.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Java 8 Method Reference_ How to Use it _ Codementor.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Late Night Java by Koray Tugay_ Hello world web application with Maven + Java + Servlets + Tomcat + IntelliJ.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Should I explicitly declare serialVersionUID_ • Java.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Singleton Pattern Pitfalls • Design Patterns.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Telescoping Constructor Pattern alternatives • Java.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/resources/Testing Private Methods in Java « Saturnboy.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/Sort algorithms Java implementation – pscode.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/sorting.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/main/java/BubbleSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/main/java/HeapSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/main/java/InsertionSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/main/java/MergeSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/main/java/QuickSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/main/java/SelectionSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/main/java/ShellSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/main/java/Sort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/sorting/src/test/java/BubbleSortTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/ArrayQuestions.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/GetAllSubsetByStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/IntegerToString.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/ListReversePrinting.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/MathUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/RecursiveArray.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/Search.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/StringSwappingUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/Sum.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/SumTillNum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/setup.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/db.lck" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/dbex.lck" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/log/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/log/log.ctrl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/log/log1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/log/logmirror.ctrl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c10.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c101.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c111.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c121.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c130.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c141.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c150.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c161.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c171.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c180.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c191.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1e0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c20.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c200.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c211.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c221.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c230.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c241.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c251.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c260.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c271.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c281.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c290.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2d0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c300.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c31.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c311.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c321.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c331.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c340.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c351.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c361.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c371.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c380.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c391.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c400.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c41.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c411.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c421.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c430.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c441.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c451.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c461.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c470.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c481.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c490.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c51.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c60.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c71.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c81.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c90.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/ca1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/cb1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/cc0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/cd1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/ce1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/cf0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/service.properties" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/ArrayQuestions.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/ArrayQuestions.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/IntegerToString.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/IntegerToString.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/ListReversePrinting.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/ListReversePrinting.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/MathUtils.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/MathUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/RecursiveArray.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/RecursiveArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/StringSwappingUtils.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/StringSwappingUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/Sum.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/Sum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/test/java/IntegerToStringTest.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/test/java/IntegerToStringTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/test/java/MathUtilsTest.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/test/java/MathUtilsTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/test/java/StringSwappingUtilsTest.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/test/java/StringSwappingUtilsTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/CachedRowSetDemo.java.txt" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/CachedRowSetDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/.gitignore" afterPath="$PROJECT_DIR$/../Interview/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../Interview/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Interview/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Interview/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/BitMagic.iml" afterPath="$PROJECT_DIR$/../Interview/BitMagic/BitMagic.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/pom.xml" afterPath="$PROJECT_DIR$/../Interview/BitMagic/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/B_IfPowerOfTwo.java" afterPath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/B_IfPowerOfTwo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/D_CountTotalSetBits.java" afterPath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/D_CountTotalSetBits.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/E_RightmostDifferentBit.java" afterPath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/E_RightmostDifferentBit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/F_IfKthBitSet.java" afterPath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/F_IfKthBitSet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/G_SetKthBit.java" afterPath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/G_SetKthBit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/K_SparseNumberTest.java" afterPath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/K_SparseNumberTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/Interview.iml" afterPath="$PROJECT_DIR$/../Interview/Interview.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/designPatternsInJava.iml" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/designPatternsInJava.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/designSOLIDPrinciples.iml" afterPath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/designSOLIDPrinciples.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/greedyQ/greedyQ.iml" afterPath="$PROJECT_DIR$/../Interview/greedyQ/greedyQ.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/hashingQ/hashingQ.iml" afterPath="$PROJECT_DIR$/../Interview/hashingQ/hashingQ.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/pom.xml" afterPath="$PROJECT_DIR$/../Interview/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/primeQ/pom.xml" afterPath="$PROJECT_DIR$/../Interview/primeQ/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/primeQ/primeQ.iml" afterPath="$PROJECT_DIR$/../Interview/primeQ/primeQ.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/sorting/sorting.iml" afterPath="$PROJECT_DIR$/../Interview/sorting/sorting.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/stringQ/pom.xml" afterPath="$PROJECT_DIR$/../Interview/stringQ/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/RomanToDecimal.java" afterPath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/RomanToDecimal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/RomanToDecimalTest.java" afterPath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/RomanToDecimalTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/stringQ/stringQ.iml" afterPath="$PROJECT_DIR$/../Interview/stringQ/stringQ.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/test/java/IntegerToStringTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/test/java/MathUtilsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/test/java/StringSwappingUtilsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/Anagram.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/LongestCommonSubstring.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/LongestDistinctSubstring.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/ParenthesisChecker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/RemoveDuplicates.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/ReverseWords.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/RomanToDecimal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/WordPermutation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/resources/Longest-Common-Substring-Matrix.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/resources/Permutation of String in Java.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/AnagramTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/LongestCommonSubstringTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/ParenthesisCheckerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/RemoveDuplicatesTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/ReverseWordsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/RomanToDecimalTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/WordPermutationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/stringQ/stringQ.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Array/Array.iml" afterPath="$PROJECT_DIR$/Array/Array.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/Collections.iml" afterPath="$PROJECT_DIR$/Collections/Collections.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Concurrency/Concurrency.iml" afterPath="$PROJECT_DIR$/Concurrency/Concurrency.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" afterPath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/singleton/DbSingletonDemo.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/singleton/DbSingletonDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/LunchOrderBean.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/LunchOrderBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exception/Exception.iml" afterPath="$PROJECT_DIR$/Exception/Exception.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generics/Generics.iml" afterPath="$PROJECT_DIR$/Generics/Generics.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IO/IO.iml" afterPath="$PROJECT_DIR$/IO/IO.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inheritance/Inheritance.iml" afterPath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InnerClass/InnerClass.iml" afterPath="$PROJECT_DIR$/InnerClass/InnerClass.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interfaces/Interfaces.iml" afterPath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/JDBC.iml" afterPath="$PROJECT_DIR$/JDBC/JDBC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/BatchUpdateStatements/UsingPreparedStatements.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BatchUpdateStatements/UsingPreparedStatements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/BatchUpdateStatements/UsingStatements.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BatchUpdateStatements/UsingStatements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/excel/JdbcExcel.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/excel/JdbcExcel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/text/BlobClobEx.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/text/BlobClobEx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/xml/JdbcXml.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/xml/JdbcXml.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/DateTime/GetDate.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/DateTime/GetDate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/DateTime/GetTimestamp.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/DateTime/GetTimestamp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MetaData/GetJdbcTypeName.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MetaData/GetJdbcTypeName.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MetaData/GetTableViewDatabaseMetaData.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MetaData/GetTableViewDatabaseMetaData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyResultSet/FetchSize.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyResultSet/FetchSize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/RowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/RowSetDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/FilteredRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/FilteredRowSetDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/JdbcRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/JdbcRowSetDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/JoinRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/JoinRowSetDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/WebRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/WebRowSetDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyCallableStatements.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyCallableStatements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyExecuteMethod.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyExecuteMethod.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyPreparedStatement.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyPreparedStatement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/Sequence/MySequence.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/Sequence/MySequence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/Commit.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/Commit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/Rollback.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/Rollback.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/SavePoint.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/SavePoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/DBFacade.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/DBFacade.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/DerbyDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/DerbyDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java8Lambda/Java8Lambda.iml" afterPath="$PROJECT_DIR$/Java8Lambda/Java8Lambda.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java9Optional/Java9Optional.iml" afterPath="$PROJECT_DIR$/Java9Optional/Java9Optional.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java9Updates/Java9Updates.iml" afterPath="$PROJECT_DIR$/Java9Updates/Java9Updates.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaDS/JavaDS.iml" afterPath="$PROJECT_DIR$/JavaDS/JavaDS.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaKathy/JavaKathy.iml" afterPath="$PROJECT_DIR$/JavaKathy/JavaKathy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsonIO/JsonIO.iml" afterPath="$PROJECT_DIR$/JsonIO/JsonIO.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" afterPath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Reflection/Reflection.iml" afterPath="$PROJECT_DIR$/Reflection/Reflection.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpecialKeywords/SpecialKeywords.iml" afterPath="$PROJECT_DIR$/SpecialKeywords/SpecialKeywords.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpecialKeywords/src/main/java/StaticFamily.java" afterPath="$PROJECT_DIR$/SpecialKeywords/src/main/java/StaticFamily.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Array/src/main/java/array/AnyMatch.java" afterPath="$PROJECT_DIR$/Array/src/main/java/array/AnyMatch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java9Optional/pom.xml" afterPath="$PROJECT_DIR$/Java9Optional/pom.xml" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -867,21 +287,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DerbyDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DerbyDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/derby/DerbyDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="40" column="57" lean-forward="true" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+            <state relative-caret-position="330">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <marker date="1506240952000" expanded="true" signature="1502:1524" ph="SELECT * FRO... Address2" />
               </folding>
@@ -889,27 +299,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBFacade.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/derby/DBFacade.java">
+      <file leaf-file-name="derby.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/derby.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="58" column="49" lean-forward="false" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="49" />
-              <folding>
-                <marker date="1506244657000" expanded="true" signature="2618:2690" ph="CREATE TABLE... Address2" />
-                <marker date="1506244657000" expanded="true" signature="2786:2833" ph="INSERT INTO Address2... " />
-                <marker date="1506244657000" expanded="true" signature="2858:2905" ph="INSERT INTO Address2... " />
-                <marker date="1506244657000" expanded="true" signature="2930:2977" ph="INSERT INTO Address2... " />
-                <marker date="1506244657000" expanded="true" signature="3002:3049" ph="INSERT INTO Address2... " />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrototypeDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/movie/PrototypeDemo.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-71">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="-200">
+              <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java9Optional/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnyMatch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Array/src/main/java/array/AnyMatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -950,31 +384,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbSingletonDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/singleton/DbSingletonDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
-              <caret line="59" column="48" lean-forward="false" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1506243984000" expanded="true" signature="1513:1589" ph="CREATE TABLE... Address" />
-                <marker date="1506243984000" expanded="true" signature="1737:1792" ph="INSERT INTO Address... " />
-                <marker date="1506243984000" expanded="true" signature="1881:1902" ph="SELECT * FRO... Address" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbSingleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/singleton/DbSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -1049,13 +458,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/module-info.java" />
         <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo04/langandlib/datetime/DatesUntil.java" />
         <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo04/langandlib/language/TryWithResources.java" />
         <option value="$PROJECT_DIR$/Java9Updates/pom.xml" />
         <option value="$PROJECT_DIR$/Java9Updates/src/main/java/general/StackWalkerExample.java" />
         <option value="$PROJECT_DIR$/Java9Updates/src/main/java/general/test.java" />
-        <option value="$PROJECT_DIR$/Array/src/main/java/array/AnyMatch.java" />
         <option value="$PROJECT_DIR$/RegExMatching/pom.xml" />
         <option value="$PROJECT_DIR$/RegExMatching/src/main/java/com/saurabh/pattern/StringMatcher.java" />
         <option value="$PROJECT_DIR$/RegExMatching/src/main/java/com/saurabh/pattern/RegexTestStrings.java" />
@@ -1100,6 +507,8 @@
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/LunchOrderBean.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/singleton/DbSingletonDemo.java" />
         <option value="$PROJECT_DIR$/JDBC/src/main/java/derby/DBFacade.java" />
+        <option value="$PROJECT_DIR$/Java9Optional/pom.xml" />
+        <option value="$PROJECT_DIR$/Array/src/main/java/array/AnyMatch.java" />
       </list>
     </option>
   </component>
@@ -1194,65 +603,6 @@
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Collections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Concurrency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="derby" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MetaData" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2085,14 +1435,7 @@
       <workItem from="1506043032771" duration="13654000" />
       <workItem from="1506141610172" duration="5073000" />
       <workItem from="1506148696773" duration="16323000" />
-      <workItem from="1506215683833" duration="6691000" />
-    </task>
-    <task id="LOCAL-00004" summary="Java Commit&#10;">
-      <created>1441175516944</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1441175516944</updated>
+      <workItem from="1506215683833" duration="8199000" />
     </task>
     <task id="LOCAL-00005" summary="Java Commit&#10;">
       <created>1441518868776</created>
@@ -2430,7 +1773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506179317733</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="updated jdbc module and added regex module">
+      <created>1506244901884</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1506244901885</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2466,7 +1816,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="498393000" />
+    <option name="totallyTimeSpent" value="499901000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -2479,7 +1829,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="813" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -2542,7 +1891,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="private value accessed via reflection" />
     <MESSAGE value="Stream API, and lambda basics" />
     <MESSAGE value="static block RIWO state and init block" />
     <MESSAGE value="diamondoperator and singleton class" />
@@ -2567,7 +1915,8 @@
     <MESSAGE value="update to java 9 - added pluralsight code&#10;updated copyright with MIT License" />
     <MESSAGE value="update to java 9 - renamed module" />
     <MESSAGE value="update to java 9 - module-info added" />
-    <option name="LAST_COMMIT_MESSAGE" value="update to java 9 - module-info added" />
+    <MESSAGE value="updated jdbc module and added regex module" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated jdbc module and added regex module" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2583,44 +1932,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/Sequence/MySequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1506241600000" expanded="true" signature="1752:1796" ph="INSERT INTO empsequence... " />
-            <marker date="1506241600000" expanded="true" signature="1843:1868" ph="SELECT * FRO... empsequence" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/Transactions/Commit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1506241600000" expanded="true" signature="1911:1955" ph="INSERT INTO emptrans... " />
-            <marker date="1506241600000" expanded="true" signature="1988:2038" ph="UPDATE emptr... " />
-            <marker date="1506241600000" expanded="true" signature="2078:2100" ph="SELECT * FRO... emptrans" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/Transactions/Rollback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1506241600000" expanded="true" signature="1992:2043" ph="UPDATE emptr... " />
-            <marker date="1506241600000" expanded="true" signature="2083:2105" ph="SELECT * FRO... emptrans" />
-            <marker date="1506241600000" expanded="true" signature="2562:2584" ph="SELECT * FRO... emptrans" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/Transactions/SavePoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -2830,17 +2141,9 @@
           <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2956,14 +2259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.sql/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -3049,11 +2344,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/derby/DerbyDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="40" column="57" lean-forward="true" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+        <state relative-caret-position="330">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <marker date="1506240952000" expanded="true" signature="1502:1524" ph="SELECT * FRO... Address2" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derby.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java9Optional/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/src/main/java/array/AnyMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

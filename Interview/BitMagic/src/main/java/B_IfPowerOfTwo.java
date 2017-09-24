@@ -22,7 +22,7 @@
  * <p>
  * Output :
  * YES
- * ​NO
+ * NO
  * <p>
  * Explanation:  (2^0 == 1)
  * Created by saurabhkumar on 20/07/17.

@@ -31,6 +31,5 @@ public class AnyMatch {
 
 		// Check if first column has a zero
 		colHasZero = IntStream.range(0, matrix.length).allMatch(i -> matrix[i][0] == 0);
-
 	}
 }

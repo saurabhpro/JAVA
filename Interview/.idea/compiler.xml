@@ -7,25 +7,31 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="BitMagic" />
+        <module name="codingInterviewQuestion" />
+        <module name="Commons" />
         <module name="designPatternsInJava" />
         <module name="designSOLIDPrinciples" />
         <module name="greedyQ" />
         <module name="hashingQ" />
+        <module name="javaFrameworkQ" />
         <module name="primeQ" />
         <module name="sorting" />
         <module name="stringQ" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="BitMagic" target="1.8" />
-      <module name="designPatternsInJava" target="1.8" />
-      <module name="designSOLIDPrinciples" target="1.8" />
-      <module name="greedyQ" target="1.8" />
-      <module name="hashingQ" target="1.8" />
-      <module name="Interview" target="1.8" />
-      <module name="primeQ" target="1.8" />
-      <module name="sorting" target="1.8" />
-      <module name="stringQ" target="1.8" />
+      <module name="BitMagic" target="1.9" />
+      <module name="codingInterviewQuestion" target="1.9" />
+      <module name="Commons" target="1.9" />
+      <module name="designPatternsInJava" target="1.9" />
+      <module name="designSOLIDPrinciples" target="1.9" />
+      <module name="greedyQ" target="1.9" />
+      <module name="hashingQ" target="1.9" />
+      <module name="Interview" target="1.9" />
+      <module name="javaFrameworkQ" target="1.9" />
+      <module name="primeQ" target="1.9" />
+      <module name="sorting" target="1.9" />
+      <module name="stringQ" target="1.9" />
     </bytecodeTargetLevel>
   </component>
 </project>

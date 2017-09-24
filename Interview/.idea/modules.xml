@@ -3,11 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BitMagic/BitMagic.iml" filepath="$PROJECT_DIR$/BitMagic/BitMagic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Commons/Commons.iml" filepath="$PROJECT_DIR$/Commons/Commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interview.iml" filepath="$PROJECT_DIR$/Interview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codingInterviewQuestion/codingInterviewQuestion.iml" filepath="$PROJECT_DIR$/codingInterviewQuestion/codingInterviewQuestion.iml" />
       <module fileurl="file://$PROJECT_DIR$/designPatternsInJava/designPatternsInJava.iml" filepath="$PROJECT_DIR$/designPatternsInJava/designPatternsInJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/designSOLIDPrinciples/designSOLIDPrinciples.iml" filepath="$PROJECT_DIR$/designSOLIDPrinciples/designSOLIDPrinciples.iml" />
       <module fileurl="file://$PROJECT_DIR$/greedyQ/greedyQ.iml" filepath="$PROJECT_DIR$/greedyQ/greedyQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/hashingQ/hashingQ.iml" filepath="$PROJECT_DIR$/hashingQ/hashingQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaFrameworkQ/javaFrameworkQ.iml" filepath="$PROJECT_DIR$/javaFrameworkQ/javaFrameworkQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/primeQ/primeQ.iml" filepath="$PROJECT_DIR$/primeQ/primeQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/sorting/sorting.iml" filepath="$PROJECT_DIR$/sorting/sorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/stringQ/stringQ.iml" filepath="$PROJECT_DIR$/stringQ/stringQ.iml" />

@@ -1,6 +1,11 @@
 # Created by .ignore support plugin (hsz.mobi)
-*.classpath
-*.project
-*.settings
+*/.project
+*/.settings
+*/.classpath
+.classpath
+.project
+.settings
 */target
 */.vscode
+.vscode
+

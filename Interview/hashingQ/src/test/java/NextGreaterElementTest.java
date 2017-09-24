@@ -1,10 +1,10 @@
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import static org.testng.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * https://examples.javacodegeeks.com/enterprise-java/testng/testng-beforemethod-example/
@@ -15,7 +15,7 @@ public class NextGreaterElementTest {
 
 	private NextGreaterElement nextGreaterElement;
 
-	@BeforeClass
+	@BeforeEach
 	public void initClass() {
 		nextGreaterElement = new NextGreaterElement();
 

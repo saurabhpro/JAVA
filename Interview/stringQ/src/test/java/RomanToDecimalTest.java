@@ -10,6 +10,7 @@ public class RomanToDecimalTest {
 	@Test
 	public void testValidateRomanNumber() throws Exception {
 		assertTrue(RomanToDecimal.validateRomanNumber("XV"));
+		assertTrue(RomanToDecimal.validateRomanNumber("XL"));
 	}
 
 	@Test

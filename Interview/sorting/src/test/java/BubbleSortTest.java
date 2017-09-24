@@ -1,10 +1,4 @@
-
-import org.junit.Assert;
-import org.junit.Test;
-
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.Matchers.arrayContaining;
-import static org.hamcrest.Matchers.contains;
+import org.junit.jupiter.api.Test;
 
 
 /**

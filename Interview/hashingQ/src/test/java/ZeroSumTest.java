@@ -1,4 +1,4 @@
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * Created by saurabhkumar on 25/07/17.
