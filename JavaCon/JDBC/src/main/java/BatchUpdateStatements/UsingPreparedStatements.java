@@ -10,6 +10,8 @@
 
 package BatchUpdateStatements;
 
+import oracle.jdbc.driver.OracleDriver;
+
 import java.sql.*;
 
 /**
@@ -22,7 +24,7 @@ public class UsingPreparedStatements {
 		PreparedStatement preparedStatement = null;
 
 		try {
-			Class.forName("oracle.jdbc.driver.OracleDriver");
+			Class.forName(OracleDriver.class.getName());
 			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");
 
 			Statement s = conn.createStatement();
@@ -46,9 +48,7 @@ public class UsingPreparedStatements {
 						"\tname = " + resultSet.getString(2) +
 						"\tsalary = " + resultSet.getString(3));
 			}
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		} catch (SQLException e) {
+		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
 		}
 	}

@@ -10,7 +10,9 @@
 
 package MyRowSet.Types;
 
-import com.sun.rowset.WebRowSetImpl;
+//import com.sun.rowset.WebRowSetImpl; - expired
+
+import oracle.jdbc.rowset.OracleWebRowSet;
 
 import javax.sql.rowset.WebRowSet;
 import java.io.FileWriter;
@@ -28,7 +30,7 @@ import java.sql.SQLException;
 public class WebRowSetDemo {
 	public static void main(String[] args) throws SQLException, ClassNotFoundException, IOException {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
-		WebRowSet webRowSet = new WebRowSetImpl();
+		WebRowSet webRowSet = new OracleWebRowSet();
 
 		webRowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
 		webRowSet.setUsername("system");

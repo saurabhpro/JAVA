@@ -10,6 +10,8 @@
 
 package DateTime;
 
+import oracle.jdbc.driver.OracleDriver;
+
 import java.sql.*;
 
 /**
@@ -41,7 +43,7 @@ import java.sql.*;
 
 public class GetTimestamp {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
-		Class.forName("oracle.jdbc.driver.OracleDriver");
+		Class.forName(OracleDriver.class.getName());
 		Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");
 
 		Statement st = conn.createStatement();

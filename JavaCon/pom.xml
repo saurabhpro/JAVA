@@ -19,6 +19,10 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.jetbrains/annotations -->
         <dependency>
@@ -26,14 +30,6 @@
             <artifactId>annotations</artifactId>
             <version>15.0</version>
         </dependency>
-
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-
     </dependencies>
 
     <build>
@@ -45,6 +41,7 @@
                 <configuration>
                     <source>1.9</source>
                     <target>1.9</target>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
         </plugins>
@@ -71,6 +68,7 @@
         <module>Java8Lambda</module>
         <module>Java9Optional</module>
         <module>Java9Updates</module>
+        <module>RegExMatching</module>
 
     </modules>
 </project>

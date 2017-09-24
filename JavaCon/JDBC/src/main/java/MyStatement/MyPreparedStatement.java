@@ -10,6 +10,8 @@
 
 package MyStatement;
 
+import oracle.jdbc.driver.OracleDriver;
+
 import java.sql.*;
 
 /**
@@ -38,7 +40,7 @@ import java.sql.*;
 public class MyPreparedStatement {
 	public static void main(String[] args) {
 		try {
-			Class.forName("oracle.jdbc.driver.OracleDriver");
+			Class.forName(OracleDriver.class.getName());
 
 			Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");
 
@@ -56,7 +58,7 @@ public class MyPreparedStatement {
 			//PreparedStatement ps = conn.prepareStatement("insert into emp66 values(?,?)");
 			prepareStatement.setInt(1, t1);
 			prepareStatement.setString(2, t2);
-			/**
+			/*
 			 * Once a PreparedStatement is created (prepared) for the above SQL statement,
 			 * you can insert parameters at the location of the question mark.
 			 * This is done using the many setXXX() methods.
@@ -65,7 +67,7 @@ public class MyPreparedStatement {
 			 * The second number (t1) is the value to insert into the SQL statement.
 			 */
 			prepareStatement.executeUpdate();
-			/**
+			/*
 			 * The executeUpdate() method is used when updating the database.
 			 * It returns an int which tells how many records in the database were affected by the update.
 			 */
@@ -81,9 +83,7 @@ public class MyPreparedStatement {
 			}
 
 
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		} catch (SQLException e) {
+		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
 		}
 	}

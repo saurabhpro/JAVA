@@ -10,6 +10,8 @@
 
 package BlobClob.xml;
 
+import oracle.jdbc.driver.OracleDriver;
+
 import java.io.*;
 import java.sql.*;
 
@@ -21,7 +23,7 @@ public class JdbcXml {
 
 	public static void main(String[] args) {
 		try {
-			Class.forName("oracle.jdbc.driver.OracleDriver");
+			Class.forName(OracleDriver.class.getName());
 			System.out.println("connecting to the database...");
 
 			Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");

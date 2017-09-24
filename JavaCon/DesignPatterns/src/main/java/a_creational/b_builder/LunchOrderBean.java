@@ -18,7 +18,6 @@ class LunchOrderBean {
 	private String meat;
 
 	public LunchOrderBean() {
-
 	}
 
 	public String getBread() {

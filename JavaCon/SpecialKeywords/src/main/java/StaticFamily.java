@@ -82,7 +82,7 @@ public class StaticFamily {
 		 */
 
 		static final int i = 10;
-		static final int j = 20;
+		static int j = 20;
 
 		static {
 			//System.out.println(j);    //illegal forward reference as at this stage j is in RIWO

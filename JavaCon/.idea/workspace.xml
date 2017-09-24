@@ -7,8 +7,14 @@
   <component name="ChangeListManager">
     <list default="true" id="133952c1-07a3-45e5-91fb-4417e836b1d4" name="Default" comment="update to java 9 - exception &amp; code cleanup">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch05_Bit_Manipulation/Question5_7.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_07_Lambda_Expressions/Question.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch16_Moderate/Q16_13_Bisect_Squares/Square Cut Tester - Q16_13.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/L_SwapOddEvenBits.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/L_SwapOddEvenBitsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/Commons/Commons.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/Commons/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/GetAllSubsetByStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/Search.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/SumTillNum.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/codingInterviewQuestion.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/pom.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Big_O/Example_16/Example.java" />
@@ -181,12 +187,12 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_03_Jukebox/Song.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_03_Jukebox/SongSelector.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_03_Jukebox/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_05_Online_Book_Reader/Book.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_05_Online_Book_Reader/Display.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_05_Online_Book_Reader/Library.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_05_Online_Book_Reader/OnlineReaderSystem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_05_Online_Book_Reader/User.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_05_Online_Book_Reader/UserManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_05_Online_Book_Reader/model/Book.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_05_Online_Book_Reader/model/User.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_06_Jigsaw/Edge.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_06_Jigsaw/Orientation.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch07_Object_Oriented_Design/Q7_06_Jigsaw/Piece.java" />
@@ -310,25 +316,22 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_11_Peaks_and_Valleys/QuestionB.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_11_Peaks_and_Valleys/QuestionC.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch10_Sorting_and_Searching/Q10_11_Peaks_and_Valleys/Tester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/Ambiguous.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/Circle.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/Introduction.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/IntroductionCollections.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/IntroductionOverriding.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/Shape.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/Square.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/model/Ambiguous.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/model/Circle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/model/Shape.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Introduction/model/Square.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_01_Private_Constructor/Question.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_01_Private_Constructor/WantToInheritButCant.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_05_TreeMap_HashMap_LinkedHashMap/Question.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_06_Object_Reflection/Question.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_06_Object_Reflection/Rectangle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_07_Lambda_Expressions/Country.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_07_Lambda_Expressions/QuestionA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_07_Lambda_Expressions/QuestionB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_07_Lambda_Expressions/QuestionC.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_07_Lambda_Expressions/Tester.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_08_Lambda_Random/QuestionA.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_08_Lambda_Random/QuestionB.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/Q13_08_Lambda_Random/QuestionC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch13_Java/README.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionA/ExampleA.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionA/RunnableThreadExample.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Ch15_Threads_and_Locks/IntroductionB/ExampleB.java" />
@@ -589,15 +592,208 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/Big_O/Q_12.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/CompareBinaryToHex/CompareBinaryToHex.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/codingInterviewQuestion/src/main/java/Introduction/SwapMinMax/SwapMinMax.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java9Updates/src/main/java/general/StackWalkerExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/javaFrameworkQ/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/javaFrameworkQ/javaFrameworkQ.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/javaFrameworkQ/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/javaFrameworkQ/src/main/java/Q14_04_Circular_Array/CircularArrayWithIterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/javaFrameworkQ/src/main/java/module-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/javaFrameworkQ/src/test/java/Q14_04_Circular_Array/CircularArrayWithIteratorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/primeQ/src/main/java/basic/PrimeNumbers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/primeQ/src/test/java/basic/PrimeNumbersTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Array/src/main/java/array/AnyMatch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JDBC/src/main/java/module-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/RegExMatching.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/main/java/com/saurabh/pattern/LinkGetter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/main/java/com/saurabh/pattern/RegexTestPatternMatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/main/java/com/saurabh/pattern/RegexTestStrings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/main/java/com/saurabh/pattern/StringMatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/main/java/module-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/CheckNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/CheckPhone.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/EitherOrCheck.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/LinkGetterTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/StringMatcherTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/GetAllSubsetByStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/Search.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/SumTillNum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/setup.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/db.lck" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/dbex.lck" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/log/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/log/log.ctrl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/log/log1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/log/logmirror.ctrl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c10.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c101.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c111.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c121.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c130.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c141.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c150.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c161.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c171.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c180.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c191.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1c0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1e0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c1f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c20.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c200.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c211.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c221.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c230.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c241.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c251.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c260.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c271.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c281.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c290.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2d0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c2f0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c300.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c31.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c311.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c321.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c331.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c340.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c351.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c361.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c371.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c380.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c391.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3c0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c3f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c400.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c41.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c411.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c421.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c430.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c441.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c451.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c461.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c470.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c481.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c490.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c51.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c60.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c71.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c81.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/c90.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/ca1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/cb1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/cc0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/cd1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/ce1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/seg0/cf0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/sktest/service.properties" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/ArrayQuestions.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/ArrayQuestions.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/IntegerToString.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/IntegerToString.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/ListReversePrinting.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/ListReversePrinting.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/MathUtils.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/MathUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/RecursiveArray.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/RecursiveArray.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/StringSwappingUtils.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/StringSwappingUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/main/java/Sum.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/main/java/Sum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/test/java/IntegerToStringTest.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/test/java/IntegerToStringTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/test/java/MathUtilsTest.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/test/java/MathUtilsTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Interview/src/test/java/StringSwappingUtilsTest.java" afterPath="$PROJECT_DIR$/../Interview/Commons/src/test/java/StringSwappingUtilsTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/CachedRowSetDemo.java.txt" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/CachedRowSetDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/.gitignore" afterPath="$PROJECT_DIR$/../Interview/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../Interview/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Interview/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Interview/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/BitMagic.iml" afterPath="$PROJECT_DIR$/../Interview/BitMagic/BitMagic.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/pom.xml" afterPath="$PROJECT_DIR$/../Interview/BitMagic/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/B_IfPowerOfTwo.java" afterPath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/B_IfPowerOfTwo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/D_CountTotalSetBits.java" afterPath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/D_CountTotalSetBits.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/E_RightmostDifferentBit.java" afterPath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/E_RightmostDifferentBit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/F_IfKthBitSet.java" afterPath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/F_IfKthBitSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/G_SetKthBit.java" afterPath="$PROJECT_DIR$/../Interview/BitMagic/src/main/java/G_SetKthBit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/K_SparseNumberTest.java" afterPath="$PROJECT_DIR$/../Interview/BitMagic/src/test/java/K_SparseNumberTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/Interview.iml" afterPath="$PROJECT_DIR$/../Interview/Interview.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/designPatternsInJava/designPatternsInJava.iml" afterPath="$PROJECT_DIR$/../Interview/designPatternsInJava/designPatternsInJava.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/designSOLIDPrinciples.iml" afterPath="$PROJECT_DIR$/../Interview/designSOLIDPrinciples/designSOLIDPrinciples.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/greedyQ/greedyQ.iml" afterPath="$PROJECT_DIR$/../Interview/greedyQ/greedyQ.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/hashingQ/hashingQ.iml" afterPath="$PROJECT_DIR$/../Interview/hashingQ/hashingQ.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/pom.xml" afterPath="$PROJECT_DIR$/../Interview/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/primeQ/pom.xml" afterPath="$PROJECT_DIR$/../Interview/primeQ/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/primeQ/primeQ.iml" afterPath="$PROJECT_DIR$/../Interview/primeQ/primeQ.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/sorting/sorting.iml" afterPath="$PROJECT_DIR$/../Interview/sorting/sorting.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/stringQ/pom.xml" afterPath="$PROJECT_DIR$/../Interview/stringQ/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/RomanToDecimal.java" afterPath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/RomanToDecimal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/RomanToDecimalTest.java" afterPath="$PROJECT_DIR$/../Interview/stringQ/src/test/java/RomanToDecimalTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/stringQ/stringQ.iml" afterPath="$PROJECT_DIR$/../Interview/stringQ/stringQ.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java9Updates/pom.xml" afterPath="$PROJECT_DIR$/Java9Updates/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java9Updates/src/main/java/module-info.java" afterPath="$PROJECT_DIR$/Java9Updates/src/main/java/module-info.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Array/Array.iml" afterPath="$PROJECT_DIR$/Array/Array.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collections/Collections.iml" afterPath="$PROJECT_DIR$/Collections/Collections.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Concurrency/Concurrency.iml" afterPath="$PROJECT_DIR$/Concurrency/Concurrency.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" afterPath="$PROJECT_DIR$/DesignPatterns/DesignPatterns.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/singleton/DbSingletonDemo.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/singleton/DbSingletonDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/LunchOrderBean.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/LunchOrderBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Exception/Exception.iml" afterPath="$PROJECT_DIR$/Exception/Exception.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generics/Generics.iml" afterPath="$PROJECT_DIR$/Generics/Generics.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IO/IO.iml" afterPath="$PROJECT_DIR$/IO/IO.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inheritance/Inheritance.iml" afterPath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InnerClass/InnerClass.iml" afterPath="$PROJECT_DIR$/InnerClass/InnerClass.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interfaces/Interfaces.iml" afterPath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/JDBC.iml" afterPath="$PROJECT_DIR$/JDBC/JDBC.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/BatchUpdateStatements/UsingPreparedStatements.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BatchUpdateStatements/UsingPreparedStatements.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/BatchUpdateStatements/UsingStatements.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BatchUpdateStatements/UsingStatements.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/excel/JdbcExcel.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/excel/JdbcExcel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/text/BlobClobEx.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/text/BlobClobEx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/xml/JdbcXml.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/xml/JdbcXml.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/DateTime/GetDate.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/DateTime/GetDate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/DateTime/GetTimestamp.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/DateTime/GetTimestamp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MetaData/GetJdbcTypeName.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MetaData/GetJdbcTypeName.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MetaData/GetTableViewDatabaseMetaData.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MetaData/GetTableViewDatabaseMetaData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyResultSet/FetchSize.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyResultSet/FetchSize.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/RowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/RowSetDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/FilteredRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/FilteredRowSetDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/JdbcRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/JdbcRowSetDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/JoinRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/JoinRowSetDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/WebRowSetDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/WebRowSetDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyCallableStatements.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyCallableStatements.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyExecuteMethod.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyExecuteMethod.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyPreparedStatement.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyPreparedStatement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/Sequence/MySequence.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/Sequence/MySequence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/Commit.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/Commit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/Rollback.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/Rollback.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/SavePoint.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/Transactions/SavePoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/DBFacade.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/DBFacade.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JDBC/src/main/java/derby/DerbyDemo.java" afterPath="$PROJECT_DIR$/JDBC/src/main/java/derby/DerbyDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java8Lambda/Java8Lambda.iml" afterPath="$PROJECT_DIR$/Java8Lambda/Java8Lambda.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java9Optional/Java9Optional.iml" afterPath="$PROJECT_DIR$/Java9Optional/Java9Optional.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java9Updates/Java9Updates.iml" afterPath="$PROJECT_DIR$/Java9Updates/Java9Updates.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaDS/JavaDS.iml" afterPath="$PROJECT_DIR$/JavaDS/JavaDS.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaKathy/JavaKathy.iml" afterPath="$PROJECT_DIR$/JavaKathy/JavaKathy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsonIO/JsonIO.iml" afterPath="$PROJECT_DIR$/JsonIO/JsonIO.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" afterPath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Reflection/Reflection.iml" afterPath="$PROJECT_DIR$/Reflection/Reflection.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpecialKeywords/SpecialKeywords.iml" afterPath="$PROJECT_DIR$/SpecialKeywords/SpecialKeywords.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpecialKeywords/src/main/java/StaticFamily.java" afterPath="$PROJECT_DIR$/SpecialKeywords/src/main/java/StaticFamily.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -634,6 +830,7 @@
     <ignored path="$PROJECT_DIR$/Java9OtherUpdates/target/" />
     <ignored path="$PROJECT_DIR$/Java9Optional/target/" />
     <ignored path="$PROJECT_DIR$/Java9Updates/target/" />
+    <ignored path="$PROJECT_DIR$/RegExMatching/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -669,31 +866,116 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StackWalkerDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo05/stackwalker/StackWalkerDemo.java">
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackWalkerExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/general/StackWalkerExample.java">
+      <file leaf-file-name="DerbyDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/derby/DerbyDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-482">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="160">
+              <caret line="40" column="57" lean-forward="true" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
               <folding>
-                <element signature="docComment;class#StackWalkerExample#0" expanded="false" />
-                <element signature="e#2024#2025#0" expanded="true" />
-                <element signature="e#2064#2065#0" expanded="true" />
-                <element signature="e#2120#2121#0" expanded="true" />
-                <element signature="e#2160#2161#0" expanded="true" />
-                <element signature="e#2216#2217#0" expanded="true" />
-                <element signature="e#2256#2257#0" expanded="true" />
+                <marker date="1506240952000" expanded="true" signature="1502:1524" ph="SELECT * FRO... Address2" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBFacade.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/derby/DBFacade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="670">
+              <caret line="58" column="49" lean-forward="false" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="49" />
+              <folding>
+                <marker date="1506244657000" expanded="true" signature="2618:2690" ph="CREATE TABLE... Address2" />
+                <marker date="1506244657000" expanded="true" signature="2786:2833" ph="INSERT INTO Address2... " />
+                <marker date="1506244657000" expanded="true" signature="2858:2905" ph="INSERT INTO Address2... " />
+                <marker date="1506244657000" expanded="true" signature="2930:2977" ph="INSERT INTO Address2... " />
+                <marker date="1506244657000" expanded="true" signature="3002:3049" ph="INSERT INTO Address2... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrototypeDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/movie/PrototypeDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-71">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Record.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/Record.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Registry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/movie/Registry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Statement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/Statement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrototypeEverydayDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/PrototypeEverydayDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbSingletonDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/singleton/DbSingletonDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="715">
+              <caret line="59" column="48" lean-forward="false" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1506243984000" expanded="true" signature="1513:1589" ph="CREATE TABLE... Address" />
+                <marker date="1506243984000" expanded="true" signature="1737:1792" ph="INSERT INTO Address... " />
+                <marker date="1506243984000" expanded="true" signature="1881:1902" ph="SELECT * FRO... Address" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbSingleton.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/singleton/DbSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-125">
+              <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -709,6 +991,7 @@
         <option value="JUnit4 Test Class" />
         <option value="Class" />
         <option value="module-info" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -732,6 +1015,8 @@
       <find>int</find>
       <find>valueof</find>
       <find>@SuppressWarnings(&quot;Convert2Lambda&quot;)</find>
+      <find>valid</find>
+      <find>for</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -764,57 +1049,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/InnerClass/src/main/java/greenhouse_TIJ/GreenhouseController.java" />
-        <option value="$PROJECT_DIR$/InnerClass/src/main/java/OuterSimpleInner.java" />
-        <option value="$PROJECT_DIR$/InnerClass/src/main/java/MethodLocalInnerClass.java" />
-        <option value="$PROJECT_DIR$/InnerClass/src/main/java/Factories.java" />
-        <option value="$PROJECT_DIR$/IO/src/main/java/SimpleReadAndWrite.java" />
-        <option value="$PROJECT_DIR$/JavaDS/src/main/java/mylist/Node.java" />
-        <option value="$PROJECT_DIR$/Reflection/src/main/java/GetSuper.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/java-modules-code.md" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/java-modules-code.txt" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/jshell.md" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/jshell_first.jsh" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/java-9-whats-new/04/demos/module3_langandlib/resources/index.html" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/java_9_whats_new/04/demos/module3_langandlib/resources/index.html" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/java_9_whats_new/demo04/langandlib/collectionfactory/ListSetFactory.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo04/langandlib/collectionfactory/ListSetFactory.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/JavaSampleApp.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/Html5DocumentationGenerator.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo04/langandlib/stream/NewCollectors.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo04/langandlib/stream/OfNullable.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo04/langandlib/optional/OptionalOr.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo04/langandlib/optional/OptionalIfPresentOrElse.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo04/langandlib/optional/OptionalStream.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo05/module4_httpclient/src/whatsnew/httpclient/AsyncHttpBuilderExample.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo05/module4_httpclient/src/whatsnew/httpclient/SimpleHttpClientExample.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo05/module4_process-api/src/whatsnew/process/KillOtherProcess.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo05/module4_process-api/src/whatsnew/process/KillChildProcess.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo05/module4_process-api/src/whatsnew/process/ListProcesses.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo05/module4_process-api/src/whatsnew/process/ProcessId.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo05/processAPI/ListProcesses.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo05/processAPI/KillOtherProcess.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo05/httpclient/AsyncHttpBuilderExample.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo05/httpclient/BAsyncHttpBuilderExample.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo05/processAPI/ProcessId.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo05/processAPI/KillChildProcess.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo05/stackwalker/StackWalkerDemo.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo05/httpclient/ASimpleHttpClientExample.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo06/desktop/desktop/Badge.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo06/desktop/desktop/MultiResolutionImages.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo06/desktop/desktop/TIFFSupport.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo06/desktop/desktop/Progress.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo06/desktop/Progress.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo06/desktop/MultiResolutionImages.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/DeprecatedInJava9.java" />
-        <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/general/DeprecatedInJava9.java" />
         <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/module-info.java" />
         <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo04/langandlib/datetime/DatesUntil.java" />
         <option value="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo04/langandlib/language/TryWithResources.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Java9Updates/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Java9Updates/src/main/java/general/StackWalkerExample.java" />
+        <option value="$PROJECT_DIR$/Java9Updates/src/main/java/general/test.java" />
+        <option value="$PROJECT_DIR$/Array/src/main/java/array/AnyMatch.java" />
+        <option value="$PROJECT_DIR$/RegExMatching/pom.xml" />
+        <option value="$PROJECT_DIR$/RegExMatching/src/main/java/com/saurabh/pattern/StringMatcher.java" />
+        <option value="$PROJECT_DIR$/RegExMatching/src/main/java/com/saurabh/pattern/RegexTestStrings.java" />
+        <option value="$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/RegexTestStringsTest.java" />
+        <option value="$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/StringMatcherTest.java" />
+        <option value="$PROJECT_DIR$/RegExMatching/src/main/java/com/saurabh/pattern/RegexTestPatternMatcher.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/SpecialKeywords/src/main/java/StaticFamily.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/derby/DerbyDemo.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/BatchUpdateStatements/UsingPreparedStatements.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/BatchUpdateStatements/UsingStatements.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/excel/JdbcExcel.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/text/BlobClobEx.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/BlobClob/xml/JdbcXml.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/DateTime/GetDate.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/DateTime/GetTimestamp.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/MyResultSet/FetchSize.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/MetaData/GetTableViewDatabaseMetaData.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/MetaData/GetJdbcTypeName.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/RowSetDemo.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyCallableStatements.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyExecuteMethod.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/MyStatement/MyPreparedStatement.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/Sequence/MySequence.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/Transactions/Commit.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/Transactions/Rollback.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/Transactions/SavePoint.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/module-info.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/CachedRowSetDemo.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/FilteredRowSetDemo.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/JdbcRowSetDemo.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/JoinRowSetDemo.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/WebRowSetDemo.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/RegExMatching/README.md" />
+        <option value="$PROJECT_DIR$/RegExMatching/src/main/java/module-info.java" />
+        <option value="$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/CheckNumber.java" />
+        <option value="$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/CheckPhone.java" />
+        <option value="$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/EitherOrCheck.java" />
+        <option value="$PROJECT_DIR$/RegExMatching/src/main/java/com/saurabh/pattern/LinkGetter.java" />
+        <option value="$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/LinkGetterTest.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/LunchOrderBean.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/singleton/DbSingletonDemo.java" />
+        <option value="$PROJECT_DIR$/JDBC/src/main/java/derby/DBFacade.java" />
       </list>
     </option>
   </component>
@@ -900,10 +1185,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -919,65 +1203,35 @@
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Array" type="462c0819:PsiDirectoryNode" />
+              <item name="Collections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
+              <item name="Concurrency" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
+              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
+              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Array" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Array" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Array" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Array" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Java9Updates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Java9Updates" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Java9Updates" type="462c0819:PsiDirectoryNode" />
+              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Java9Updates" type="462c0819:PsiDirectoryNode" />
+              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -985,16 +1239,26 @@
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Java9Updates" type="462c0819:PsiDirectoryNode" />
+              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="general" type="462c0819:PsiDirectoryNode" />
+              <item name="derby" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
+              <item name="JDBC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MetaData" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1030,7 +1294,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/JDBC" />
     <property name="last.edited.regexp" value="" />
@@ -1038,14 +1302,8 @@
     <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pluralsight" />
-      <recent name="testing.junit.TDD.wrap" />
-      <recent name="testing.junit.ccd" />
-      <recent name="list" />
-      <recent name="MyResultSet" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.saurabh.pattern" />
       <recent name="com.saurabh.service" />
       <recent name="queues.c_dequeStacks" />
     </key>
@@ -1059,6 +1317,13 @@
       <recent name="main.java.list.arraylist.clone.shallow" />
       <recent name="main.java.list.arraylist.model" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Java9OtherUpdates/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo06/desktop/desktop" />
+      <recent name="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/pdfs" />
+      <recent name="$PROJECT_DIR$/Java9OtherUpdates/src/main/java" />
+      <recent name="$PROJECT_DIR$/Java9OtherUpdates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Java9OtherUpdates" />
       <recent name="$PROJECT_DIR$/Concurrency/src/main/java/from/pluralsight" />
@@ -1071,12 +1336,12 @@
       <recent name="from.pluralsight.runnable.racecondition.error" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Java9OtherUpdates/src/main/resources" />
-      <recent name="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/demo06/desktop/desktop" />
-      <recent name="$PROJECT_DIR$/Java9OtherUpdates/src/main/java/pluralsight/whatsnew/pdfs" />
-      <recent name="$PROJECT_DIR$/Java9OtherUpdates/src/main/java" />
-      <recent name="$PROJECT_DIR$/Java9OtherUpdates" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pluralsight" />
+      <recent name="testing.junit.TDD.wrap" />
+      <recent name="testing.junit.ccd" />
+      <recent name="list" />
+      <recent name="MyResultSet" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1091,15 +1356,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StackWalkerExample">
-    <configuration name="BAsyncHttpBuilderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.DerbyDemo">
+    <configuration name="DbSingletonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="pluralsight.whatsnew.demo05.httpclient.*" />
+          <option name="PATTERN" value="a_creational.a_singleton.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="pluralsight.whatsnew.demo05.httpclient.BAsyncHttpBuilderExample" />
+      <option name="MAIN_CLASS_NAME" value="a_creational.a_singleton.singleton.DbSingletonDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1108,17 +1373,17 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java9Updates" />
+      <module name="DesignPatterns" />
       <envs />
     </configuration>
-    <configuration name="BetterDiamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DerbyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="pluralsight.whatsnew.demo04.langandlib.language.*" />
+          <option name="PATTERN" value="derby.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="pluralsight.whatsnew.demo04.langandlib.language.BetterDiamond" />
+      <option name="MAIN_CLASS_NAME" value="derby.DerbyDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1127,27 +1392,33 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java9OtherUpdates" />
+      <module name="JDBC" />
       <envs />
     </configuration>
-    <configuration name="DatesUntil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="EitherOrCheck.testSimpleTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="pluralsight.whatsnew.demo04.langandlib.datetime.*" />
+          <option name="PATTERN" value="com.saurabh.pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="pluralsight.whatsnew.demo04.langandlib.datetime.DatesUntil" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="RegExMatching" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="com.saurabh.pattern" />
+      <option name="MAIN_CLASS_NAME" value="com.saurabh.pattern.EitherOrCheck" />
+      <option name="METHOD_NAME" value="testSimpleTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java9OtherUpdates" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
     </configuration>
     <configuration name="InterfaceDefaultMethod" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -1186,6 +1457,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Interfaces" />
       <envs />
+    </configuration>
+    <configuration name="LinkGetterTest.getLinks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.saurabh.pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="RegExMatching" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.saurabh.pattern" />
+      <option name="MAIN_CLASS_NAME" value="com.saurabh.pattern.LinkGetterTest" />
+      <option name="METHOD_NAME" value="getLinks" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="ReportRunner" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -1244,43 +1540,30 @@
       <module name="UnitTesting" />
       <envs />
     </configuration>
-    <configuration name="StackWalkerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StringMatcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="pluralsight.whatsnew.demo05.stackwalker.*" />
+          <option name="PATTERN" value="com.saurabh.pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="pluralsight.whatsnew.demo05.stackwalker.StackWalkerDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="RegExMatching" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="com.saurabh.pattern" />
+      <option name="MAIN_CLASS_NAME" value="com.saurabh.pattern.StringMatcherTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java9Updates" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
-    </configuration>
-    <configuration name="StackWalkerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="general.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="general.StackWalkerExample" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java9Updates" />
-      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
@@ -1376,6 +1659,18 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Array" />
+      <envs />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -1573,18 +1868,6 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Array" />
-      <envs />
-    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="filePath" />
@@ -1660,19 +1943,19 @@
       <item index="2" class="java.lang.String" itemvalue="Application.ReportRunner" />
       <item index="3" class="java.lang.String" itemvalue="Application.SpringXmlSalesReportRunner" />
       <item index="4" class="java.lang.String" itemvalue="Application.SimpleReportRunner" />
-      <item index="5" class="java.lang.String" itemvalue="Application.DatesUntil" />
-      <item index="6" class="java.lang.String" itemvalue="Application.BetterDiamond" />
-      <item index="7" class="java.lang.String" itemvalue="Application.BAsyncHttpBuilderExample" />
-      <item index="8" class="java.lang.String" itemvalue="Application.StackWalkerDemo" />
-      <item index="9" class="java.lang.String" itemvalue="Application.StackWalkerExample" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.EitherOrCheck.testSimpleTrue" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.StringMatcherTest" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.LinkGetterTest.getLinks" />
+      <item index="8" class="java.lang.String" itemvalue="Application.DbSingletonDemo" />
+      <item index="9" class="java.lang.String" itemvalue="Application.DerbyDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StackWalkerExample" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StackWalkerDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BAsyncHttpBuilderExample" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BetterDiamond" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DatesUntil" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DerbyDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DbSingletonDemo" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LinkGetterTest.getLinks" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StringMatcherTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EitherOrCheck.testSimpleTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -1801,14 +2084,8 @@
       <workItem from="1506042896773" duration="96000" />
       <workItem from="1506043032771" duration="13654000" />
       <workItem from="1506141610172" duration="5073000" />
-      <workItem from="1506148696773" duration="16215000" />
-    </task>
-    <task id="LOCAL-00003" summary="Java Commit&#10;">
-      <created>1441058040393</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1441058040393</updated>
+      <workItem from="1506148696773" duration="16323000" />
+      <workItem from="1506215683833" duration="6691000" />
     </task>
     <task id="LOCAL-00004" summary="Java Commit&#10;">
       <created>1441175516944</created>
@@ -2146,30 +2423,31 @@
       <option name="project" value="LOCAL" />
       <updated>1506177103897</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="update to java 9 - module-info added">
+      <created>1506179317733</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1506179317733</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JsonToStudentDetailsMapperTest_map - 2017.09.09 at 22h 56m 31s.xml">
-      <configuration name="JsonToStudentDetailsMapperTest.map" configurationId="JUnit" />
+    <history-entry file="CheckNumber - 2017.09.24 at 14h 14m 05s.xml">
+      <configuration name="CheckNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JsonToStudentDetailsMapperTest_map - 2017.09.09 at 22h 59m 25s.xml">
-      <configuration name="JsonToStudentDetailsMapperTest.map" configurationId="JUnit" />
+    <history-entry file="CheckNumber - 2017.09.24 at 14h 14m 31s.xml">
+      <configuration name="CheckNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JsonToStudentDetailsMapperTest_map - 2017.09.09 at 23h 01m 05s.xml">
-      <configuration name="JsonToStudentDetailsMapperTest.map" configurationId="JUnit" />
+    <history-entry file="CheckPhone - 2017.09.24 at 14h 15m 24s.xml">
+      <configuration name="CheckPhone" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JsonToStudentDetailsMapperTest_map - 2017.09.09 at 23h 01m 37s.xml">
-      <configuration name="JsonToStudentDetailsMapperTest.map" configurationId="JUnit" />
+    <history-entry file="EitherOrCheck_testSimpleTrue - 2017.09.24 at 14h 15m 53s.xml">
+      <configuration name="EitherOrCheck.testSimpleTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JsonToStudentDetailsMapperTest_map - 2017.09.09 at 23h 01m 48s.xml">
-      <configuration name="JsonToStudentDetailsMapperTest.map" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsonToStudentDetailsMapperTest_map - 2017.09.09 at 23h 01m 58s.xml">
-      <configuration name="JsonToStudentDetailsMapperTest.map" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JsonToStudentDetailsMapperTest_writeToJason - 2017.09.09 at 22h 57m 53s.xml">
-      <configuration name="JsonToStudentDetailsMapperTest.writeToJason" configurationId="JUnit" />
+    <history-entry file="EitherOrCheck_testSimpleTrue - 2017.09.24 at 14h 15m 57s.xml">
+      <configuration name="EitherOrCheck.testSimpleTrue" configurationId="JUnit" />
     </history-entry>
     <history-entry file="JsonToStudentDetailsMapperTest_writeToJson - 2017.09.09 at 22h 59m 08s.xml">
       <configuration name="JsonToStudentDetailsMapperTest.writeToJson" configurationId="JUnit" />
@@ -2180,9 +2458,15 @@
     <history-entry file="JsonToStudentDetailsMapperTest_writeToJson - 2017.09.09 at 23h 02m 27s.xml">
       <configuration name="JsonToStudentDetailsMapperTest.writeToJson" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LinkGetterTest_getLinks - 2017.09.24 at 14h 19m 42s.xml">
+      <configuration name="LinkGetterTest.getLinks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringMatcherTest - 2017.09.24 at 14h 16m 07s.xml">
+      <configuration name="StringMatcherTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="491594000" />
+    <option name="totallyTimeSpent" value="498393000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -2195,6 +2479,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="813" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -2202,14 +2487,14 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3231198" sideWeight="0.5028612" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2896936" sideWeight="0.51573676" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2896936" sideWeight="0.47711015" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2896936" sideWeight="0.48426324" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.49713877" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25822604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26180258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.49427754" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32033426" sideWeight="0.4914163" order="4" side_tool="false" content_ui="tabs" />
@@ -2232,7 +2517,7 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34958217" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34958217" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2257,7 +2542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="jdbc 16jan2016&#10;transactions&#10;and minor notes from jenkov&#10;DateTime&#10;BlobClob" />
     <MESSAGE value="private value accessed via reflection" />
     <MESSAGE value="Stream API, and lambda basics" />
     <MESSAGE value="static block RIWO state and init block" />
@@ -2282,14 +2566,15 @@
     <MESSAGE value="update to java 9" />
     <MESSAGE value="update to java 9 - added pluralsight code&#10;updated copyright with MIT License" />
     <MESSAGE value="update to java 9 - renamed module" />
-    <option name="LAST_COMMIT_MESSAGE" value="update to java 9 - renamed module" />
+    <MESSAGE value="update to java 9 - module-info added" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to java 9 - module-info added" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="29" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2298,454 +2583,476 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/InnerClass/src/main/java/Factories.java">
+    <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/Sequence/MySequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="510">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding>
-            <element signature="e#1244#1268#1" expanded="false" />
-            <element signature="e#1416#1417#0" expanded="false" />
-            <element signature="e#1457#1458#0" expanded="false" />
-            <element signature="e#1522#1523#0" expanded="false" />
-            <element signature="e#1574#1575#0" expanded="false" />
-            <element signature="e#1657#1681#1" expanded="false" />
-            <element signature="e#1829#1830#0" expanded="false" />
-            <element signature="e#1870#1871#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1506241600000" expanded="true" signature="1752:1796" ph="INSERT INTO empsequence... " />
+            <marker date="1506241600000" expanded="true" signature="1843:1868" ph="SELECT * FRO... empsequence" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Polymorphism/src/main/java/CompileTimeOverloading.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#2466#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IO/src/main/java/SimpleReadAndWrite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reflection/src/main/java/GetSuper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaDS/src/main/java/mylist/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/java-modules-code.txt">
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="148">
-            <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/Transactions/Commit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/jshell.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="219">
-            <caret line="85" column="31" lean-forward="false" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/resources/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/jshell_first.jsh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo04/langandlib/language/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo04/langandlib/language/PricedObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo04/langandlib/stream/FindGitConflict.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo04/langandlib/stream/TakeDropWhile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo04/langandlib/stream/NewCollectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo04/langandlib/stream/OfNullable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1506241600000" expanded="true" signature="1911:1955" ph="INSERT INTO emptrans... " />
+            <marker date="1506241600000" expanded="true" signature="1988:2038" ph="UPDATE emptr... " />
+            <marker date="1506241600000" expanded="true" signature="2078:2100" ph="SELECT * FRO... emptrans" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo04/langandlib/optional/OptionalOr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo04/langandlib/optional/OptionalIfPresentOrElse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo04/langandlib/optional/OptionalStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/jdk.incubator.httpclient/jdk/incubator/http/ResponseHeaders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/io/InputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="69" column="24" lean-forward="false" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo05/processAPI/KillOtherProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo05/processAPI/ListProcesses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo05/processAPI/KillChildProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9OtherUpdates/target/classes/pluralsight/whatsnew/demo06/desktop/desktop/Progress.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="105" />
-          <folding>
-            <element signature="e#0#996#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo06/desktop/Progress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="133" lean-forward="false" selection-start-line="12" selection-start-column="133" selection-end-line="12" selection-end-column="133" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/general/FinalizeOfObjectDeprecated.java">
+    <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/Transactions/Rollback.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/general/Html5DocumentationGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo04/langandlib/collectionfactory/ListSetFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1506241600000" expanded="true" signature="1992:2043" ph="UPDATE emptr... " />
+            <marker date="1506241600000" expanded="true" signature="2083:2105" ph="SELECT * FRO... emptrans" />
+            <marker date="1506241600000" expanded="true" signature="2562:2584" ph="SELECT * FRO... emptrans" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo04/langandlib/collectionfactory/MapFactory.java">
+    <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/Transactions/SavePoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo04/langandlib/datetime/DatesUntil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo04/langandlib/language/BetterDiamond.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
           <folding>
-            <element signature="e#1280#1288#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1506241600000" expanded="true" signature="1922:1973" ph="UPDATE emptr... " />
+            <marker date="1506241600000" expanded="true" signature="1998:2044" ph="INSERT INTO emptrans... " />
+            <marker date="1506241600000" expanded="true" signature="2212:2245" ph="DELETE FROM " />
+            <marker date="1506241600000" expanded="true" signature="2270:2316" ph="INSERT INTO emptrans... " />
+            <marker date="1506241600000" expanded="true" signature="3093:3115" ph="SELECT * FRO... emptrans" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo04/langandlib/language/TryWithResources.java">
+    <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home!/java.sql.rowset/module-info.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/pom.xml">
+    <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/CachedRowSetDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="62" column="30" lean-forward="false" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#CachedRowSetDemo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.sql.rowset/com/sun/rowset/FilteredRowSetImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.sql.rowset/javax/sql/rowset/FilteredRowSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="119" column="6" lean-forward="false" selection-start-line="119" selection-start-column="6" selection-end-line="119" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/JDBC/src/main/resources/ojdbc6-11.2.0.2.0.jar!/oracle/jdbc/rowset/OracleFilteredRowSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-384">
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/FilteredRowSetDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.sql.rowset/javax/sql/rowset/JdbcRowSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="123" column="17" lean-forward="false" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/JdbcRowSetDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="94" column="43" lean-forward="false" selection-start-line="94" selection-start-column="43" selection-end-line="94" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/JoinRowSetDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/xyz.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/MyRowSet/Types/WebRowSetDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegExMatching/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="68" lean-forward="false" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegExMatching/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/StringMatcherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegExMatching/src/main/java/com/saurabh/pattern/StringMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/CheckNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#1722#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/CheckPhone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1542#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/EitherOrCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#1602#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegExMatching/src/main/java/com/saurabh/pattern/LinkGetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#3175#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2571#2572#0" expanded="true" />
+            <element signature="e#2622#2623#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegExMatching/src/test/java/com/saurabh/pattern/LinkGetterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/copyright/Saurabh_MIT.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="247">
+          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Array/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collections/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concurrency/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/lunchBuilder/BuilderLunchOrderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/lunchBuilder/LunchOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/LunchOrderTele.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/LunchOrderBeanDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/LunchOrderBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/b_builder/setup.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/SingletonEverydayDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.sql/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="567" column="39" lean-forward="false" selection-start-line="567" selection-start-column="39" selection-end-line="567" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/movie/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDBC/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo06/desktop/Badge.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.sql/java/sql/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="124">
+          <caret line="314" column="23" lean-forward="false" selection-start-line="314" selection-start-column="23" selection-end-line="314" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/singleton/DbSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/a_singleton/singleton/DbSingletonDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="59" column="48" lean-forward="false" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
           <folding>
-            <element signature="e#0#1529#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <marker date="1506243984000" expanded="true" signature="1513:1589" ph="CREATE TABLE... Address" />
+            <marker date="1506243984000" expanded="true" signature="1737:1792" ph="INSERT INTO Address... " />
+            <marker date="1506243984000" expanded="true" signature="1881:1902" ph="SELECT * FRO... Address" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo06/desktop/MultiResolutionImages.java">
+    <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/derby/DBFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="670">
+          <caret line="58" column="49" lean-forward="false" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="49" />
+          <folding>
+            <marker date="1506244657000" expanded="true" signature="2618:2690" ph="CREATE TABLE... Address2" />
+            <marker date="1506244657000" expanded="true" signature="2786:2833" ph="INSERT INTO Address2... " />
+            <marker date="1506244657000" expanded="true" signature="2858:2905" ph="INSERT INTO Address2... " />
+            <marker date="1506244657000" expanded="true" signature="2930:2977" ph="INSERT INTO Address2... " />
+            <marker date="1506244657000" expanded="true" signature="3002:3049" ph="INSERT INTO Address2... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/movie/PrototypeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo05/processAPI/ProcessId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo06/desktop/TIFFSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo05/httpclient/ASimpleHttpClientExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo05/httpclient/BAsyncHttpBuilderExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/general/DeprecatedInJava9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Array/src/main/java/IntroToArrays.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/PrototypeEverydayDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Array/src/main/java/array/ducat/assignment/ArrayD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo05/stackwalker/StackWalkerDemo.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        <state relative-caret-position="125">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/a_creational/c_prototype/movie/Registry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JDBC/src/main/java/derby/DerbyDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="244" column="18" lean-forward="false" selection-start-line="244" selection-start-column="18" selection-end-line="244" selection-end-column="18" />
+          <caret line="40" column="57" lean-forward="true" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
           <folding>
-            <element signature="e#10225#10226#0" expanded="false" />
-            <element signature="e#10308#10309#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/StackWalker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-838">
-          <caret line="98" column="28" lean-forward="false" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/general/StackWalkerExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-482">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#StackWalkerExample#0" expanded="false" />
-            <element signature="e#2024#2025#0" expanded="true" />
-            <element signature="e#2064#2065#0" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
-            <element signature="e#2160#2161#0" expanded="true" />
-            <element signature="e#2216#2217#0" expanded="true" />
-            <element signature="e#2256#2257#0" expanded="true" />
+            <marker date="1506240952000" expanded="true" signature="1502:1524" ph="SELECT * FRO... Address2" />
           </folding>
         </state>
       </provider>

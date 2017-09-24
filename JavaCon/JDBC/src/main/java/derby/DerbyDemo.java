@@ -43,8 +43,8 @@ public class DerbyDemo {
 				System.out.println();
 			}
 
-			if (statement != null) statement.close();
-			if (conn != null) conn.close();
+			statement.close();
+			conn.close();
 
 		} catch (SQLException e) {
 			e.printStackTrace();

@@ -10,6 +10,8 @@
 
 package MyStatement;
 
+import oracle.jdbc.driver.OracleDriver;
+
 import java.sql.*;
 
 /**
@@ -21,7 +23,7 @@ public class MyExecuteMethod {
 
 		try {
 
-			Class.forName("oracle.jdbc.driver.OracleDriver");
+			Class.forName(OracleDriver.class.getName());
 			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");
 			Statement st = conn.createStatement();
 
@@ -44,9 +46,7 @@ public class MyExecuteMethod {
 				int count = st.getUpdateCount();
 				System.out.println("total record updated: " + count);
 			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		} catch (ClassNotFoundException e) {
+		} catch (SQLException | ClassNotFoundException e) {
 			e.printStackTrace();
 		}
 	}

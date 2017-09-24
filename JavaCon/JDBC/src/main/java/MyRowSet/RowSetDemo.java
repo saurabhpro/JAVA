@@ -40,6 +40,8 @@
 
 package MyRowSet;
 
+import oracle.jdbc.driver.OracleDriver;
+
 import javax.sql.rowset.JdbcRowSet;
 import javax.sql.rowset.RowSetFactory;
 import javax.sql.rowset.RowSetProvider;
@@ -52,7 +54,7 @@ public class RowSetDemo {
 		String username = "system";
 
 		try {
-			Class.forName("oracle.jdbc.driver.OracleDriver");
+			Class.forName(OracleDriver.class.getName());
 
 			//first create a factory of object for RowSet
 			RowSetFactory rowSetFactory = RowSetProvider.newFactory();
@@ -74,9 +76,7 @@ public class RowSetDemo {
 			while (rowSet.next())
 				System.out.println(rowSet.getString(1) + "\t\t" + rowSet.getString(2));
 
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		} catch (SQLException e) {
+		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
 		}
 	}

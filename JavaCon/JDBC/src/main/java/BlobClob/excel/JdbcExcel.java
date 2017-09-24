@@ -32,7 +32,7 @@ public class JdbcExcel {
 			conn = DriverManager.getConnection("jdbc:odbc:excel");//custom dsn
 
 
-			/**
+			/*
 			 * The ODBC Data Source Administrator menu will open
 			 Select the System DSN tab and click Add
 			 Find Driver do Microsoft Excel(*.xls) from the list and click Finish
@@ -54,10 +54,7 @@ public class JdbcExcel {
 				System.out.println(rs.getString("Customer"));
 			}
 
-
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		} catch (SQLException e) {
+		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
 		}
 	}

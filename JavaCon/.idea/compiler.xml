@@ -29,6 +29,7 @@
         <module name="queues" />
         <module name="Reflection" />
         <module name="Reflections" />
+        <module name="RegExMatching" />
         <module name="SpecialKeywords" />
       </profile>
     </annotationProcessing>
@@ -54,6 +55,7 @@
       <module name="JsonIO" target="1.9" />
       <module name="Polymorphism" target="1.9" />
       <module name="Reflection" target="1.9" />
+      <module name="RegExMatching" target="1.9" />
       <module name="SpecialKeywords" target="1.9" />
     </bytecodeTargetLevel>
   </component>

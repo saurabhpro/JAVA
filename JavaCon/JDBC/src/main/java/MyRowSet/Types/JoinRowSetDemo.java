@@ -10,8 +10,12 @@
 
 package MyRowSet.Types;
 
-import com.sun.rowset.CachedRowSetImpl;
-import com.sun.rowset.JoinRowSetImpl;
+
+//import com.sun.rowset.CachedRowSetImpl;
+//import com.sun.rowset.JoinRowSetImpl;
+
+import oracle.jdbc.rowset.OracleCachedRowSet;
+import oracle.jdbc.rowset.OracleJoinRowSet;
 
 import javax.sql.rowset.CachedRowSet;
 import javax.sql.rowset.JoinRowSet;
@@ -43,7 +47,7 @@ public class JoinRowSetDemo {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 
-		CachedRowSet emp = new CachedRowSetImpl();
+		CachedRowSet emp = new OracleCachedRowSet();
 		emp.setUsername("system");
 		emp.setPassword("98989");
 		emp.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
@@ -51,14 +55,14 @@ public class JoinRowSetDemo {
 		emp.execute();
 
 
-		CachedRowSet dept = new CachedRowSetImpl();
+		CachedRowSet dept = new OracleCachedRowSet();
 		dept.setUsername("system");
 		dept.setPassword("98989");
 		dept.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
 		dept.setCommand("select * from bank");
 		dept.execute();
 
-		JoinRowSet joinRowSet = new JoinRowSetImpl();
+		JoinRowSet joinRowSet = new OracleJoinRowSet();
 
         /*
         Each RowSet object added to a JoinRowSet object must have a match column,

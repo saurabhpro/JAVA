@@ -10,7 +10,9 @@
 
 package MyRowSet.Types;
 
-import com.sun.rowset.JdbcRowSetImpl;
+//import com.sun.rowset.JdbcRowSetImpl;
+
+import oracle.jdbc.rowset.OracleJDBCRowSet;
 
 import javax.sql.RowSetEvent;
 import javax.sql.RowSetListener;
@@ -63,7 +65,7 @@ public class JdbcRowSetDemo {
 		// Statement st = conn.createStatement();
 
 		JdbcRowSet jdbcRowSet;
-		jdbcRowSet = new JdbcRowSetImpl(conn);
+		jdbcRowSet = new OracleJDBCRowSet(conn);
 		/*
 	    jdbcRowSet = new JdbcRowSetImpl();
         jdbcRowSet.setUsername("system");

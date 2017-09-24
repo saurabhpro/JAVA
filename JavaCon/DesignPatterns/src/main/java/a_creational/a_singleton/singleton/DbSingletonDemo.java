@@ -10,49 +10,62 @@
 
 package a_creational.a_singleton.singleton;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
+import java.util.logging.Logger;
 
 public class DbSingletonDemo {
 
+	static Logger logger = Logger.getLogger(DbSingletonDemo.class.getName());
+
 	public static void main(String arg[]) {
 
-		long timeBefore;
-		long timeAfter;
-
-		DbSingleton instance = DbSingleton.getInstance();
-
-		timeBefore = System.currentTimeMillis();
-		Connection conn = instance.getConnection();
-		timeAfter = System.currentTimeMillis();
-
-		System.out.println(timeAfter - timeBefore);
-
+		Connection conn = getConnection();
 
 		Statement sta;
 		try {
 			sta = conn.createStatement();
-			int count = sta
-					.executeUpdate("CREATE TABLE Address (ID INT, StreetName VARCHAR(20),"
-							+ " City VARCHAR(20))");
-			System.out.println("Table created with " + count + " rows.");
-			boolean i = sta.execute("INSERT INTO Address VALUES (34, 'ram', 'shir')");
+
+			logger.info("executing DDL query to create table");
+			int count = sta.executeUpdate("CREATE TABLE Address (ID INT, StreetName VARCHAR(20)," + " City VARCHAR(20))");
+			logger.info("Table created with " + count + " rows.");
+
+			logger.info("Inserting 1 Row to the table Address");
+			boolean th = sta.execute("INSERT INTO Address VALUES (18, 'Ashok Nagar', 'Delhi')");
+
+			logger.info("Query to read data executing");
 			ResultSet in = sta.executeQuery("SELECT * FROM Address");
+
+			ResultSetMetaData rsmd = in.getMetaData();
+			while (in.next()) {
+				int columnsNumber = rsmd.getColumnCount();
+				for (int i = 1; i <= columnsNumber; i++) {
+					if (i > 1) System.out.print(",  ");
+					String columnValue = in.getString(i);
+					System.out.print(columnValue + " -> " + rsmd.getColumnName(i));
+				}
+				System.out.println();
+			}
 
 			sta.close();
 
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+	}
 
+	private static Connection getConnection() {
+		long timeBefore;
+		long timeAfter;
+
+		DbSingleton instance = DbSingleton.getInstance();
+		Connection conn;
+
+		logger.info("initiating connection creation");
 		timeBefore = System.currentTimeMillis();
 		conn = instance.getConnection();
 		timeAfter = System.currentTimeMillis();
-
-		System.out.println(timeAfter - timeBefore);
-
+		logger.info("Connection creation took: " + (timeAfter - timeBefore) + " ms");
+		return conn;
 	}
 
 }

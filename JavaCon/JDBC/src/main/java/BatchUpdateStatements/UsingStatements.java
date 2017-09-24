@@ -11,6 +11,8 @@
 package BatchUpdateStatements;
 
 
+import oracle.jdbc.driver.OracleDriver;
+
 import java.sql.*;
 
 /**
@@ -19,7 +21,7 @@ import java.sql.*;
 public class UsingStatements {
 	public static void main(String[] args) {
 		try {
-			Class.forName("oracle.jdbc.driver.OracleDriver");
+			Class.forName(OracleDriver.class.getName());
 			Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");
 
 			Statement s = conn.createStatement();
@@ -34,7 +36,7 @@ public class UsingStatements {
 			s.addBatch(s3);
 
 			s.executeBatch();
-			/**
+			/*
 			 *  The int[] array returned by the executeBatch() method is an array of int telling
 			 *  how many records were affected by each executed SQL statement in the batch.
 			 */
@@ -45,9 +47,7 @@ public class UsingStatements {
 						"\tname = " + resultSet.getString(2) +
 						"\tsalary = " + resultSet.getString(3));
 			}
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		} catch (SQLException e) {
+		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
 		}
 	}

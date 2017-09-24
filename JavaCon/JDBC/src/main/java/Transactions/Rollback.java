@@ -10,6 +10,8 @@
 
 package Transactions;
 
+import oracle.jdbc.driver.OracleDriver;
+
 import java.sql.*;
 
 /**
@@ -18,12 +20,12 @@ import java.sql.*;
 public class Rollback {
 	public static void main(String[] args) {
 		try {
-			Class.forName("oracle.jdbc.driver.OracleDriver");
+			Class.forName(OracleDriver.class.getName());
 			Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");
 			Statement st = conn.createStatement();
 
 			conn.setAutoCommit(false);
-			/**
+			/*
 			 * by default it is set to true, so any execute also committed the changes to the actual database,
 			 * but for transactions we need all queries to be completed at one go, so we make changes in
 			 * temporary buffer and the when commit() is called to real database
@@ -40,7 +42,7 @@ public class Rollback {
 			}
 
 			conn.rollback();
-			/**
+			/*
 			 * due to rollback all the changes made upto this point in this program is discarded from
 			 * temporary buffer and only the things after this line will be updated to real database once
 			 * commit method is called in the end.
@@ -55,21 +57,19 @@ public class Rollback {
 			}
 
 			conn.commit();
-			/**
+			/*
 			 * if we comment the above line then all the changes done above will not be passed
 			 * to actual database from the temporary buffer.
 			 */
 
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		} catch (SQLException e) {
+		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
 		}
 
 	}
 }
 
-/**
+/*
  * output
  * 14 new2 abc 40000
  * after rollback

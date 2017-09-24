@@ -19,9 +19,9 @@ import java.sql.Statement;
  * Created by saurabhkumar on 28/05/17.
  */
 public class DBFacade {
-	public static final String DRIVER = "org.apache.derby.jdbc.EmbeddedDriver";
+	public static final String DRIVER = org.apache.derby.jdbc.EmbeddedDriver.class.getName();
 
-	private static final String PROTOCOL = "jdbc:derby:";
+	private static final String PROTOCOL = "jdbc:derby:memory:";
 	private static final String LOCAL_PATH = "JDBC/src/main/java/derby/";
 	private static final String JDBC_DB_URL = PROTOCOL + LOCAL_PATH + "sktest;create=true";
 
@@ -57,7 +57,6 @@ public class DBFacade {
 				if (conn == null) {
 					try {
 						//or Class.forName(DRIVER).newInstance();
-
 						conn = DriverManager.getConnection(JDBC_DB_URL);
 					} catch (SQLException e) {
 						e.printStackTrace();

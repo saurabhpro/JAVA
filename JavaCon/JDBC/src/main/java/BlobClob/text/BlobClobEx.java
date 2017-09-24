@@ -10,6 +10,8 @@
 
 package BlobClob.text;
 
+import oracle.jdbc.driver.OracleDriver;
+
 import java.io.*;
 import java.sql.*;
 
@@ -21,7 +23,7 @@ public class BlobClobEx {
 	static String path = "C:\\Users\\Saurabh\\Documents\\GitHub\\JAVA\\JavaCon\\JDBC\\src\\BlobClob\\text";
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
-		Class.forName("oracle.jdbc.driver.OracleDriver");
+		Class.forName(OracleDriver.class.getName());
 		Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "system", "98989");
 		Statement st = conn.createStatement();
 
