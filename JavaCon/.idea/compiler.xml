@@ -9,7 +9,6 @@
         <module name="Array" />
         <module name="Collections" />
         <module name="Concurrency" />
-        <module name="DesignPatterns" />
         <module name="Exception" />
         <module name="Generics" />
         <module name="Inheritance" />

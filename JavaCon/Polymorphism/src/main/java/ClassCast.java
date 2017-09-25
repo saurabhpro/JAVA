@@ -73,13 +73,14 @@ public class ClassCast {
 		ob2.f();        //runs the overriden method in the reference it holds
 		ob2.show2();
 
-		/****************************/
+		/*-------------------------------------------------------*/
 		//CASE 2: Explicit Class Cast Exception
 
 		/*
 		  We know D extends A and B extends A, so if we do this
 		 */
 		A ob4 = new D();
+		//noinspection ConstantConditions
 		B ob5 = (B) ob4;
 		/*
 		  ob4 is reference type of A at compile time, so this should've worked right?
@@ -89,9 +90,10 @@ public class ClassCast {
 		/*
 		  TWIST!!!
 		  this throws java.lang.ClassCastException: D cannot be cast to B
+
 		  where the fuck did D come from ?
 		  think again at runtime the resolve is made and ob4 becomes of A upcasting D, but its still D's reference
-		  and since B doesnt have relation with D... exception is thrown
+		  and since B doesn't have relation with D... exception is thrown
 		 */
 
 		A ob7 = new A();

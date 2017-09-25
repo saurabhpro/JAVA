@@ -47,8 +47,28 @@ public class LambdaExamples {
 				.stream()
 				.collect(partitioningBy(person -> person.getAge() > 80, counting()));
 
+		/*
+		 * counting()
+		 * Returns a {Collector} accepting elements of type T that
+		 * counts the number of input elements.  If no elements are present, the
+		 * result is 0.
+		 */
 		System.out.println(result2);
 
+		/*
+		 * static Collector<..> partitioningBy(Predicate<..> predicate, Collector<..> downstream)
+		 *
+		 * Returns a Collector which partitions the input elements according
+		 * to a Predicate, and organizes them into a {Map<Boolean, List<T>>}.
+		 *
+		 * The returned Map always contains mappings for both {false} and {true} keys.
+		 * There are no guarantees on the type, mutability, serializability, or thread-safety of the {Map} or {List}
+		 * returned.
+		 *
+		 * @apiNote
+		 * If a partition has no elements, its value in the result Map will be
+		 * an empty List.
+		 */
 
 	}
 }

@@ -24,7 +24,7 @@ public class RegexTestPatternMatcher {
 
 		Matcher matcher = pattern.matcher(EXAMPLE_TEST);
 
-		// check all occurance
+		// check all occurrence
 		while (matcher.find()) {
 			System.out.print("Start index: " + matcher.start());
 			System.out.print(" End index: " + matcher.end() + " ");

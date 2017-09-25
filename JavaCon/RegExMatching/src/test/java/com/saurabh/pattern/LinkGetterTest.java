@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test;
 
 class LinkGetterTest {
 
-	LinkGetter linkGetter;
+	private LinkGetter linkGetter;
 
 	@BeforeEach
 	void setUp() {

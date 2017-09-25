@@ -21,8 +21,12 @@ class Simple {
 public class CallPrivateOfOtherClass {
 	public static void main(String args[]) {
 		try {
-			Class c = Class.forName("Simple");
-			Simple s = (Simple) c.newInstance();
+			Class<?> c = Class.forName(Simple.class.getName());
+
+			//Simple s = (Simple) c.newInstance();
+			//updated by jdk9
+			Simple s = (Simple) c.getDeclaredConstructor().newInstance();
+
 			s.message();
 
 		} catch (Exception e) {

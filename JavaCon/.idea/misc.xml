@@ -41,6 +41,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/DesignPatterns/pom.xml" />
         <option value="$PROJECT_DIR$/Streams/pom.xml" />
         <option value="$PROJECT_DIR$/UnitTesting/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />

@@ -49,6 +49,7 @@
 
     <modules>
         <module>SpecialKeywords</module>
+        <module>JavaKathy</module>
         <module>Array</module>
         <module>Interfaces</module>
         <module>Inheritance</module>
@@ -57,17 +58,15 @@
         <module>Exception</module>
         <module>Generics</module>
         <module>Collections</module>
-        <module>Concurrency</module>
-        <module>Reflection</module>
-        <module>DesignPatterns</module>
-        <module>JDBC</module>
-        <module>JavaKathy</module>
-        <module>JavaDS</module>
-        <module>IO</module>
-        <module>JsonIO</module>
         <module>Java8Lambda</module>
         <module>Java9Optional</module>
         <module>Java9Updates</module>
+        <module>Concurrency</module>
+        <module>Reflection</module>
+        <module>JDBC</module>
+        <module>JavaDS</module>
+        <module>IO</module>
+        <module>JsonIO</module>
         <module>RegExMatching</module>
 
     </modules>

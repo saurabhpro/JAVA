@@ -1,0 +1,3 @@
+module stringQ {
+	requires Commons;
+}

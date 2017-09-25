@@ -68,11 +68,11 @@ class LinkGetter {
 		return links;
 	}
 
-	protected boolean valid(String s) {
+	private boolean valid(String s) {
 		return !s.matches("javascript:.*|mailto:.*");
 	}
 
-	protected String makeAbsolute(String url, String link) {
+	private String makeAbsolute(String url, String link) {
 		if (link.matches("http://.*")) {
 			return link;
 		}

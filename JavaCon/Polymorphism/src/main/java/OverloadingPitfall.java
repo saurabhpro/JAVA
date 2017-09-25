@@ -26,7 +26,7 @@ public class OverloadingPitfall {
 		ob.overload(8L);
 
 		/*
-		  till the time we havent called out class A method we dont seem to have a prob during compilation
+		  till the time we haven't called out class A method we dont seem to have a prob during compilation
 		 */
 		new OverloadingPitfall().createA();
 		new OverloadingPitfall().createB();
