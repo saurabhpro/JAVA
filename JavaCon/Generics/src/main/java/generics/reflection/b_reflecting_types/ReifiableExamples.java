@@ -10,7 +10,6 @@
 
 package generics.reflection.b_reflecting_types;
 
-import org.apache.log4j.BasicConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,7 +19,7 @@ import java.util.List;
 public class ReifiableExamples {
 	public static void main(String[] args) {
 		Logger logger = LoggerFactory.getLogger(ReifiableExamples.class);
-		BasicConfigurator.configure();
+
 		logger.info("This is my first log4j's statement");
 
 		System.out.println(int.class);

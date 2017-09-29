@@ -10,6 +10,8 @@
 
 package generics;
 
+import java.util.ArrayList;
+
 /**
  * Created by Saurabh on 8/13/2015.
  */
@@ -18,7 +20,6 @@ public class OnlyGenericMethods {
 	private static <T> void showVal1(T x) {
 		System.out.println(x);
 		System.out.println(x.getClass().getName() + "\n");
-
 	}
 
 	private static <T extends Number> void showVal2(T x) {

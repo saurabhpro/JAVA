@@ -68,6 +68,7 @@
         <module>IO</module>
         <module>JsonIO</module>
         <module>RegExMatching</module>
+        <module>Streams</module>
 
     </modules>
 </project>

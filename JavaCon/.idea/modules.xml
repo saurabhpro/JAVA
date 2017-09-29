@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/Reflection/Reflection.iml" filepath="$PROJECT_DIR$/Reflection/Reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/RegExMatching/RegExMatching.iml" filepath="$PROJECT_DIR$/RegExMatching/RegExMatching.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpecialKeywords/SpecialKeywords.iml" filepath="$PROJECT_DIR$/SpecialKeywords/SpecialKeywords.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
     </modules>
   </component>
 </project>

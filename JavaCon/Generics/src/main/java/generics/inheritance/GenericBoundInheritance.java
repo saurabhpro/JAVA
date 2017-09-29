@@ -41,7 +41,7 @@ class HoldItem<T> {
 //extends should be followed by atmost one class and then as many interfaces as you like
 
 /**
- * <T extends generics.inheritance.Dimension & generics.inheritance.HasColor> main reason to use extends which is different here is that
+ * <T extends Dimension & HasColor> main reason to use extends which is different here is that
  * usually erasure removes type information when it upcast's type to Object, only methods of Object
  * since type information is lost
  * if we constrain that parameters are a subset of types we can use methods of that class
@@ -104,7 +104,7 @@ class Solid<T extends Dimension & HasColor & Weight> extends ColoredDimension<T>
 
 public class GenericBoundInheritance {
 	public static void main(String[] args) {
-		Solid<Bounded> solid = new Solid<>(new Bounded());  //generics.inheritance.Bounded is subclass of generics.inheritance.Dimension so allowed
+		Solid<Bounded> solid = new Solid<>(new Bounded());  //Bounded is subclass of generDimension so allowed
 
         /*generics.inheritance.Solid<Integer> solid2 = new generics.inheritance.Solid<>(99);
         Error : type argument java.lang.Integer is not within bounds of type-variable T, Should extend generics.inheritance.Dimension
