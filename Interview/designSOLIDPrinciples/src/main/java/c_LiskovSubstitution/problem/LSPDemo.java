@@ -1,4 +1,4 @@
-package c_LiskovSubstitution;
+package c_LiskovSubstitution.problem;
 
 /**
  * The class demonstrates the Liskov Substitution Principle (LSP)

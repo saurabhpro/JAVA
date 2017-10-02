@@ -1,4 +1,4 @@
-package c_LiskovSubstitution;
+package c_LiskovSubstitution.problem;
 
 public class Rectangle {
 	private int length;

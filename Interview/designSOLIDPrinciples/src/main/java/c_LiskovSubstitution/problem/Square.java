@@ -1,4 +1,4 @@
-package c_LiskovSubstitution;
+package c_LiskovSubstitution.problem;
 
 /**
  * Square class; Square inherits from Rectangle;
