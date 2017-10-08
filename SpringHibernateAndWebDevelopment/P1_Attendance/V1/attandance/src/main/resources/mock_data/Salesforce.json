@@ -1,0 +1,4180 @@
+{
+  "employeeSalesforceDetailsList": [
+    {
+      "name": "Shruti Gupta",
+      "empId": "1200",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Shubhangi Paliwal",
+      "empId": "1202",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 16,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 137,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 16,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 137,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Projnabrata Seth",
+      "empId": "1213",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Gurpreet Kaur",
+      "empId": "1247",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 5,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 126,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 5,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 126,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Yogesh Pant",
+      "empId": "1273",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 16,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 137,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 20,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 141,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 5.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 12,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 133,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 13,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 134,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 2.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Karan Kapoor",
+      "empId": "1280",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Milan Verma",
+      "empId": "1307",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 11,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 132,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 2.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 19,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 140,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 19,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 140,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Amandeep Singh",
+      "empId": "1322",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "COMP_TIME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 2.0
+        }
+      ]
+    },
+    {
+      "name": "Amey Kulkarni",
+      "empId": "1375",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 18,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 139,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 20,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 141,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 3.0
+        },
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 2.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 16,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 137,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 16,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 137,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 5,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 126,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 5,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 126,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "CASUAL_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Ashwini Lakshminarayan",
+      "empId": "1377",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 27,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 148,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 27,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 148,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Gaurav Gupta",
+      "empId": "1444",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "CASUAL_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 16,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 137,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 16,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 137,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Anindita Dhar",
+      "empId": "1477",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "CASUAL_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Ashish Bansal",
+      "empId": "1482",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 6,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 127,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 6,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 127,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        },
+        {
+          "leaveType": "COMP_TIME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 11,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 132,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 11,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 132,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 11,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 132,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 11,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 132,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Meeta Malhotra",
+      "empId": "1492",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 12,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 133,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 12,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 133,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 13,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 134,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 13,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 134,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 13,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 134,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 13,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 134,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Sakshi Kapila",
+      "empId": "1535",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 11,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 132,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 11,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 132,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 4,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 125,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 4,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 125,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 5,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 126,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 6,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 127,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 2.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 3,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 124,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 3,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 124,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Himanshu Pal",
+      "empId": "1574",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "CASUAL_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 18,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 139,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 18,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 139,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Purwaaj Ahuja",
+      "empId": "1609",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "COMP_TIME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 25,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 146,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 26,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 147,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 2.0
+        },
+        {
+          "leaveType": "COMP_TIME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 24,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 145,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 24,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 145,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        },
+        {
+          "leaveType": "CASUAL_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 27,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 148,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 27,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 148,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Deepti Kapoor",
+      "empId": "1711",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 16,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 137,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 20,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 141,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 5.0
+        },
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 23,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 144,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 27,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 148,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 5.0
+        }
+      ]
+    },
+    {
+      "name": "Devesh Aggarwal",
+      "empId": "1723",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 5,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 126,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 20,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 141,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 12.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 4,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 125,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 3.0
+        }
+      ]
+    },
+    {
+      "name": "Gitika Khurana",
+      "empId": "1731",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 12,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 133,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 13,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 134,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 2.0
+        }
+      ]
+    },
+    {
+      "name": "Devashish Sharma",
+      "empId": "1748",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 25,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 146,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 25,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 146,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Karishma Rastogi",
+      "empId": "1772",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 26,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 147,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 26,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 147,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 27,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 148,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 27,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 148,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 27,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 148,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 27,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 148,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Gaurav Kumar",
+      "empId": "1802",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 1,
+            "monthValue": 5,
+            "dayOfWeek": "SUNDAY",
+            "leapYear": true,
+            "dayOfYear": 122,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 6,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 127,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 8.0
+        }
+      ]
+    },
+    {
+      "name": "Anamika Das",
+      "empId": "1842",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 2.0
+        },
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 25,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 146,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 25,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 146,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Jatin Suri",
+      "empId": "2001",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 23,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 144,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 23,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 144,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "CASUAL_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 13,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 134,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 13,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 134,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Ankita Chand",
+      "empId": "2034",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "COMP_TIME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 27,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 148,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 27,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 148,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "COMP_TIME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Kawaljeet Singh",
+      "empId": "2047",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 6,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 127,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 6,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 127,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Arzoo Anjum",
+      "empId": "2053",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 24,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 145,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 24,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 145,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Prateek Chanana",
+      "empId": "2055",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 11,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 132,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 11,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 132,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 3,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 124,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 3,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 124,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Shashank Taneja",
+      "empId": "2056",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 5,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 126,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 5,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 126,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Keshav Sachdeva",
+      "empId": "2060",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 27,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 148,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 27,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 148,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Somdutt Sharma",
+      "empId": "2067",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Ankush Singla",
+      "empId": "2068",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "CASUAL_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 6,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 127,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 6,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 127,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Shruti Vats",
+      "empId": "2069",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "CASUAL_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Harleen Soni",
+      "empId": "2072",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 3,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 124,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 4,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 125,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 2.0
+        },
+        {
+          "leaveType": "CASUAL_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 5,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 126,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 5,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 126,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Karan Chaudhri",
+      "empId": "2076",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 31,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 152,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 5.0
+        }
+      ]
+    },
+    {
+      "name": "Sumit Jain",
+      "empId": "209",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 23,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 144,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 27,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 148,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 5.0
+        },
+        {
+          "leaveType": "CASUAL_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Kamal Bhardwaj",
+      "empId": "238",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 17,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 138,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 17,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 138,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "CASUAL_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 16,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 137,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 16,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 137,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 11,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 132,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 11,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 132,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Anand Singh",
+      "empId": "243",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 3,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 124,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 3,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 124,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 6,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 127,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 6,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 127,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Abhishek Maiti",
+      "empId": "244",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 25,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 146,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 25,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 146,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 3,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 124,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 5.0
+        }
+      ]
+    },
+    {
+      "name": "Taranjeet Singh",
+      "empId": "250",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 11,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 132,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 11,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 132,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        },
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 13,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 134,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 13,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 134,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Anushree Singh",
+      "empId": "252",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 4,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 125,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 4,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 125,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 12,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 133,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 12,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 133,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "CASUAL_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 4,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 125,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 4,
+            "monthValue": 5,
+            "dayOfWeek": "WEDNESDAY",
+            "leapYear": true,
+            "dayOfYear": 125,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 10,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 131,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        },
+        {
+          "leaveType": "CASUAL_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 6,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 127,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 6,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 127,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        }
+      ]
+    },
+    {
+      "name": "Neha Malik",
+      "empId": "258",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "CASUAL_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 6,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 127,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 6,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 127,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Ankur Parwal",
+      "empId": "260",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 13,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 134,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 13,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 134,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Ankit Pande",
+      "empId": "296",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        },
+        {
+          "leaveType": "CASUAL_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 30,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 151,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 16,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 137,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 16,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 137,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Akhilesh Keshap",
+      "empId": "485",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 2,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 123,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Rakesh Singh",
+      "empId": "554",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 12,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 133,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 12,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 133,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 20,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 141,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 20,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 141,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "VACATION_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 13,
+            "monthValue": 5,
+            "dayOfWeek": "FRIDAY",
+            "leapYear": true,
+            "dayOfYear": 134,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 19,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 140,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 5.0
+        }
+      ]
+    },
+    {
+      "name": "Abhishek Vijh",
+      "empId": "567",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 19,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 140,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 19,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 140,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Ashish Kataria",
+      "empId": "598",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "COMP_TIME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 3,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 124,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 3,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 124,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        },
+        {
+          "leaveType": "COMP_TIME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 26,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 147,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 26,
+            "monthValue": 5,
+            "dayOfWeek": "THURSDAY",
+            "leapYear": true,
+            "dayOfYear": 147,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 3,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 124,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 3,
+            "monthValue": 5,
+            "dayOfWeek": "TUESDAY",
+            "leapYear": true,
+            "dayOfYear": 124,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 0.5
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 23,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 144,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 23,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 144,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "WORK_FROM_HOME_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 16,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 137,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 16,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 137,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Shubhangi Singhal",
+      "empId": "988",
+      "salesForceId": null,
+      "emailId": null,
+      "attendanceOfLeave": [
+        {
+          "leaveType": "CASUAL_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 16,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 137,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 16,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 137,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        },
+        {
+          "leaveType": "SICK_IND",
+          "startDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "endDate": {
+            "year": 2016,
+            "month": "MAY",
+            "dayOfMonth": 9,
+            "monthValue": 5,
+            "dayOfWeek": "MONDAY",
+            "leapYear": true,
+            "dayOfYear": 130,
+            "chronology": {
+              "id": "ISO",
+              "calendarType": "iso8601"
+            },
+            "era": "CE"
+          },
+          "absenceTime": 1.0
+        }
+      ]
+    }
+  ]
+}
