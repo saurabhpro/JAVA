@@ -14,10 +14,16 @@ package saurabh.Interface.Java9;
 @FunctionalInterface
 interface InterfaceWithPrivateMethods {
 
+	/*
+	 * Private and Static is allowed for methods - variables can-not be private!!!
+	 */
 	private static String staticPrivate() {
 		return "static private";
 	}
 
+	/*
+	 * static private is allowed to allow methods to directly use it
+	 */
 	static void checkThis() {
 		//approach 1
 		String result = staticPrivate();
@@ -34,10 +40,17 @@ interface InterfaceWithPrivateMethods {
 		System.out.println(result);*/
 	}
 
+	/*
+	 * We can mix default + private (since default in itself is a access specifier
+	 * so we can create simpler private methods just like in classes
+	 */
 	private String instancePrivate() {
 		return "instance private";
 	}
 
+	/*
+	 * As said - can't mix private + default
+	 */
 	default void check() {
 		//approach 1
 		String result = staticPrivate();

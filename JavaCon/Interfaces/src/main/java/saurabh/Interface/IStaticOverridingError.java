@@ -8,48 +8,36 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-/**
- * Created by Saurabh on 9/1/2015.
- */
+package saurabh.Interface;
 
-class StaticPrivateOverriding {
+interface IStaticOverridingError {
 	static void show() {
 		System.out.println("Inside Parent Static Method");
 	}
-
-	private void play() {
-		System.out.println("Inside parent Private play()");
-	}
 }
 
-class ChildStaticPrivateOverride extends StaticPrivateOverriding {
-	/*  void show()
-	       instance method show() in ChildStaticPrivateOverride
-	       cannot override static method show() in StaticPrivateOverriding
-	 */
-	/* Error:(11, 10) java: show() in ChildStaticPrivateOverride cannot override show() in StaticPrivateOverriding
-	               overridden method is static */
-
-	/**
-	 * we can only re-define it using static modifier, this proves that static method cannot be overriden
-	 */
+interface IStaticOverridingTest extends IStaticOverridingError {
 	static void show() {
-		System.out.println("Inside Overriden Child");
-	}
-
-	/**
-	 * we have a play() in parent but it is private , so we can have a method names play()
-	 * in child class but it wont be overriding anything
-	 */
-	void play() {
-		System.out.println("Inside Child's own play() which isnt overriding super's play()");
+		System.out.println("Inside Child Static Method");
 	}
 }
 
-public class OverridingStaticMethods {
+interface IStaticOverridingTest2 extends IStaticOverridingError {
+	static void show() {
+		System.out.println("Inside Child2 Static Method");
+	}
+}
+
+class StaticInterfaceMethodWorks implements IStaticOverridingTest2 {
+	static void show() {
+		// possible
+	}
+
 	public static void main(String[] args) {
-		StaticPrivateOverriding sOb = new ChildStaticPrivateOverride();
-		StaticPrivateOverriding.show(); //static show of father
-	}
+		IStaticOverridingTest2.show();
 
+		IStaticOverridingTest2 overloadingTest2 = new StaticInterfaceMethodWorks();
+		// overloadingTest2.show(); since we can't do this - no problem like the polymorphic case
+	}
 }
+

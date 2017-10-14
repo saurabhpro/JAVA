@@ -8,58 +8,42 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package varargs;
+package annotations;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
-/**
- * Created by saurabhkumar on 10/09/17.
- */
-public class SafeVarargsTest {
-	public static void main(String[] args) {
-		ArrayList<Integer> a1 = new ArrayList<>();
-		a1.add(1);
-		a1.add(2);
-
-		showArgs(a1, 12);
-
-		main2();
-
-		SafeVarargsTest safeVarargsTest = new SafeVarargsTest();
-		safeVarargsTest.goodVarargsMethod(Arrays.asList("North", "South"), Arrays.asList("Up", "Down"));
-		//to see warnings - compile using
-		//javac -Xlint:unchecked varargs.SafeVarargsTest.java
-	}
-
-	@SafeVarargs
-	public static <T> void showArgs(T... array) {
+public class SafeVarArgs {
+	@SafeVarargs    // possible heap pollution warning without it
+	private static <T> void showArgs(T... array) {
 		for (T arg : array) {
-			System.out.println(arg.getClass().getName() + ":" + arg);
+			String s = arg.getClass().getName() + ":" + arg;
+			System.out.println(s);
 		}
+
+		/* OUTPUT
+		java.util.ArrayList:[1, 2]  //see no -> Generic information present
+		java.lang.Long:12
+		 */
 	}
 
-	@SafeVarargs
-	private static void call(List<String>... stringLists) {
-		String s = stringLists[0].get(0);
-		System.out.println(s);
+	public static void main(String[] args) {
+		ArrayList<Long> a1 = new ArrayList<>();
+		a1.add(1L);
+		a1.add(2L);
+		showArgs(a1, 12L);
+
+		SafeVarArgs sf = new SafeVarArgs();
+		sf.java9Thing(55, 88);
 	}
 
-	public static void main2() {
-		List<String> myList1 = new ArrayList<>();
-		List<String> myList2 = new ArrayList<>();
+	@SafeVarargs    // only usable on non-reifable type , just cange the T with Integer and you wont need it
+	private <T> void java9Thing(T... array) {
+		Arrays.stream(array).map(arg -> arg.getClass().getName() + ":" + arg).forEach(System.out::println);
 
-		myList1.add("Hi");
-		myList2.add("Hi");
-
-		call(myList1, myList2);
-	}
-
-
-	@SafeVarargs    //from java 9 non-final private methods too
-	private void goodVarargsMethod(List<String>... ls) {
-		for (List<String> los : ls)
-			System.out.println(los);
+		/* OUTPUT
+		java.lang.Integer:55
+		java.lang.Integer:88
+		 */
 	}
 }
