@@ -1,46 +1,51 @@
-# Java 8
+# Java Interfaces 
 
 
 1) Default methods can be overridden in implementing class, while static cannot.
 
-2) Static method belongs only to Interface class, so you can only invoke static method on Interface class, not on class implementing this Interface, see:
-```java
-public interface MyInterface {
-    default void defaultMethod(){
-        System.out.println("Default");
+2) If Inheriting class trys to override default method of the parent interface - it can but it cannot create static method with same name // THATS NOT ALLOWED.
+
+3) Static method belongs only to Interface class, so you can only invoke static method on Interface class, not on class implementing this Interface, see:
+    ```java
+    public interface MyInterface {
+        default void defaultMethod(){
+            System.out.println("Default");
+        }
+        static void staticMethod(){
+            System.out.println("Static");
+        }    
     }
-
-    static void staticMethod(){
-        System.out.println("Static");
-    }    
-}
-
-public class MyClass implements MyInterface {
-
-    public static void main(String[] args) {
-
-        MyClass.staticMethod(); //not valid - static method may be invoked on containing interface class only
-        MyInterface.staticMethod(); //valid
+    public class MyClass implements MyInterface {
+        public static void main(String[] args) {
+            MyClass.staticMethod(); //not valid - static method may be invoked on containing interface class only
+            MyInterface.staticMethod(); //valid
+        }
     }
-}
-```
-3) Both class and interface can have static methods with same names, and neither overrides other!
-```java
-public class MyClass implements MyInterface {
-
-    public static void main(String[] args) {
-
-        //both are valid and have different behaviour
-        MyClass.staticMethod();
-        MyInterface.staticMethod();
+    ```
+    This is similar to the child class containing static method of same name as base class. Now say we write
+    ```java
+    Parent p = new Child();
+    p.show();   // even though we would feel like childs -> static show should be called, it will call parents show
+    //Hence it is always suggested that Class name be used to call the static methods and that is more clearer.
+    ```
+4) Both class and interface can have static methods with same names, and neither overrides other!
+    ```java
+    public class MyClass implements MyInterface {
+    
+        public static void main(String[] args) {
+    
+            //both are valid and have different behaviour
+            MyClass.staticMethod();
+            MyInterface.staticMethod();
+        }
+    
+        static void staticMethod(){
+            System.out.println("another static..");
+        }
     }
+    ```
 
-    static void staticMethod(){
-        System.out.println("another static..");
-    }
-}
-```
-
+5) If parent has a static method - child can only have a same named STATIC method, he cannot create a non-static same named method.
 
 ## Why were default and static methods added to interfaces in Java 8 when we already had abstract classes?
 
@@ -89,11 +94,21 @@ What are the main reasons for such major changes, and what new benefits (if any)
 - We can expose only our intended methods to clients.
 
 
-## Why can I not have a interface inside of a inner class? Why are they inherently static?
+## Why can I not have a interface inside of a inner classes/local classes? Why are they inherently static?
+```java
+public class InsideOfInnerClass {
+	
+	public class InnerClass {
+//		public interface InterfaceInsideOfInnerClass {
+//			void show();
+//		} // It's and error "Inner class cannot have static declarations"
+		
+		// this is not allowed since - so are Interfaces always static inside of inner class ? YES (MAYBE)
+	}
+}
+```
 Think about what static means - `"not related to a particular instance"`. So, as you point out, a static field of class Foo is a field that does not belong to any Foo instance, but rather belongs to the Foo class itself.
 
 Now think about what an interface is - `it's a contract, a list of methods that classes which implement it promise to provide`. So- interface is a set of methods that is "not related to a particular class" - any class can implement it, as long as it provides those methods.
 
-So, if an interface is not related to any particular class, clearly one could not be related to an instance of a class - right?
-
-*Note: there are ways of defining interfaces within classes. But, for the purposes of wrapping your head around what an interface is (which seems to be what you're working on), I would ignore those possibilities for now as they distract from and possibly obscure the purpose of interfaces in general.
+But they were simply designed that way.

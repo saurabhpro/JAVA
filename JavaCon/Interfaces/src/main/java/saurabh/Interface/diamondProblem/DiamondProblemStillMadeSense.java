@@ -58,7 +58,7 @@ class XX implements X, Y {
      */
 
 	public void show() {
-		System.out.println("Hello saurabh.Interface.diamondProblem.X");
+		System.out.println("Hello X");
 	}
 }
 

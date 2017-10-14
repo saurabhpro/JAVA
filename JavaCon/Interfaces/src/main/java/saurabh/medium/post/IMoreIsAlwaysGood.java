@@ -8,53 +8,29 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-/**
- * Created by Saurabh on 9/2/2015.
- */
+package saurabh.medium.post;
 
-class Base {
+interface ITestDrive {
+	String MODEL_NAME = "Durant"; //implicit public + static + final
+
+	void getCustomerId(); // implicit public + abstract
 }
 
-class Child extends Base {
+interface IMoreIsAlwaysGood {
+	int MADE = 100;        // I can't be private!
+
+	static void makeThis() {
+		System.out.println("check it - I'm static - you can't override me like default, you can also make me private and you can also make methods with name same as me in inheriting interfaces and classes - cheers Mate!");
+	}
+
+	default void show() {
+		System.out.println("I'm a default method in Interface and yes I'm not abstract but you can always override me in any inheriting Interface or implementing Class!\n Also I can't be private since I'm already 'default'");
+	}
+
+	private void youCantSeeMe() {
+		System.out.println("If you don't belong in this - you can't see me");
+	}
+
+
+	void guessWhat();
 }
-
-class NewBase {
-	Base Show() {
-		System.out.println("Inside NewBase");
-		return new Child();     //upcasting on the fly
-	}
-
-	Number disp() {
-		return null;
-	}
-}
-
-class NewChild extends NewBase {
-	@Override
-	Child Show() {
-		System.out.println("Inside NewChild, Indeed Covarient types are allowed at return types");
-		return new Child();
-	}
-
-	@Override
-	Integer disp() {
-		return 5;
-	}
-
-	/*
-	  but we cant have covariant returns for simple types like int with Integer etc
-
-	  java: disp() in NewChild cannot override disp() in NewBase
-	 return type int is not compatible with java.lang.Number
-	 */
-}
-
-public class CovariantOverriding {
-	public static void main(String[] args) {
-		NewBase newBase = new NewBase();
-
-		Base base = newBase.Show();
-	}
-
-}
-
