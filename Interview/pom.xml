@@ -41,6 +41,7 @@
         <module>designSOLIDPrinciples</module>
         <module>codingInterviewQuestion</module>
         <module>javaFrameworkQ</module>
+        <module>arrayQ</module>
     </modules>
 
     <dependencies>

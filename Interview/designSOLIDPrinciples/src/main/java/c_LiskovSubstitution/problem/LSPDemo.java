@@ -33,7 +33,7 @@ public class LSPDemo {
 	 *
 	 * @param r Instance of Rectangle
 	 */
-	public void calculateArea(Rectangle r) {
+	private void calculateArea(Rectangle r) {
 		r.setBreadth(2);
 		r.setLength(3);
 		//

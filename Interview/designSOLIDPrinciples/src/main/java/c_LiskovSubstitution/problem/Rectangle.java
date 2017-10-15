@@ -1,6 +1,6 @@
 package c_LiskovSubstitution.problem;
 
-public class Rectangle {
+class Rectangle {
 	private int length;
 	private int breadth;
 

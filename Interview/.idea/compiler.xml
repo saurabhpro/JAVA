@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="arrayQ" />
         <module name="BitMagic" />
         <module name="codingInterviewQuestion" />
         <module name="Commons" />
@@ -20,6 +21,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="arrayQ" target="1.9" />
       <module name="BitMagic" target="1.9" />
       <module name="codingInterviewQuestion" target="1.9" />
       <module name="Commons" target="1.9" />
