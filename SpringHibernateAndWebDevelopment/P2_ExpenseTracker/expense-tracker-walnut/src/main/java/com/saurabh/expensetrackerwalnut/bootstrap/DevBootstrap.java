@@ -13,8 +13,8 @@ import java.util.List;
 @Component
 public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> {
 
-	private ExpenseTable expenseTable;
-	private CSVParser<WalnutRow> csvParser;
+	private final ExpenseTable expenseTable;
+	private final CSVParser<WalnutRow> csvParser;
 
 	@Autowired
 	public DevBootstrap(ExpenseTable expenseTable, CSVParser<WalnutRow> csvParser) {
@@ -23,6 +23,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
 	}
 
 
+	@SuppressWarnings("NullableProblems")
 	@Override
 	public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
 		initData();

@@ -11,8 +11,8 @@ import org.junit.platform.commons.logging.LoggerFactory;
 import java.time.LocalDate;
 import java.util.List;
 
-public class CSVParserImplTest {
-	private Logger logger = LoggerFactory.getLogger(CSVParserImplTest.class);
+class CSVParserImplTest {
+	private final Logger logger = LoggerFactory.getLogger(CSVParserImplTest.class);
 
 	private CSVParser<WalnutRow> csvParser;
 
@@ -24,7 +24,7 @@ public class CSVParserImplTest {
 	@Test
 	void parseCsv() {
 		List<WalnutRow> walnutRowList = csvParser.parseCSVBody(CSVParser.fileName);
-		//logger.info(walnutRowList::toString);
+		logger.info(walnutRowList::toString);
 	}
 
 	@Test

@@ -11,7 +11,7 @@ import java.util.concurrent.ExecutionException;
 
 @RestController
 public class HomeController {
-	private ExpenseTable expenseTable;
+	private final ExpenseTable expenseTable;
 
 	@Autowired
 	public HomeController(ExpenseTable expenseTable) {

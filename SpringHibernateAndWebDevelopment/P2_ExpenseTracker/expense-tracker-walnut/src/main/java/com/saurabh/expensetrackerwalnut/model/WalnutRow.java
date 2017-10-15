@@ -38,7 +38,7 @@ public class WalnutRow {
 
 	private String note;
 
-	public LocalDateTime getDateTime() {
+	private LocalDateTime getDateTime() {
 		return dateTime;
 	}
 
@@ -46,7 +46,7 @@ public class WalnutRow {
 		this.dateTime = dateTime;
 	}
 
-	public int getID() {
+	private int getID() {
 		return ID;
 	}
 

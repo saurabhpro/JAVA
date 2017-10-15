@@ -89,6 +89,7 @@ public class CSVParserImpl implements CSVParser<WalnutRow>, TimeUtils {
 		String line;
 		try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
 
+			//noinspection StatementWithEmptyBody
 			while (br.readLine() != null && ++lineCount <= PreFaceLines) {
 				// skip first 4 lines
 			}
