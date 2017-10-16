@@ -12,5 +12,5 @@ public interface ExpenseTable extends CrudRepository<WalnutRow, Integer> {
 	@Async
 	Future<WalnutRow> findTopByOrderByIDDesc();
 
-	long countByExpense(boolean expense);
+	long countByIsExpense(boolean expense);
 }

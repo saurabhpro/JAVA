@@ -5,8 +5,8 @@ import org.springframework.stereotype.Component;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.saurabh.expensetrackerwalnut.service.CSVParserImpl.CSV_SEPARATOR;
-import static com.saurabh.expensetrackerwalnut.service.CSVParserImpl.MISPLACED_COMMA_REPLACEMENT;
+import static com.saurabh.expensetrackerwalnut.service.CSVParser.CSV_SEPARATOR;
+import static com.saurabh.expensetrackerwalnut.service.CSVParser.MISPLACED_COMMA_REPLACEMENT;
 
 @Component
 public class CSVCustomFixer {

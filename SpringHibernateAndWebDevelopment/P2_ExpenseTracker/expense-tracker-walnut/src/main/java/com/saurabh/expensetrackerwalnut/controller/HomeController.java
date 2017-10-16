@@ -27,4 +27,9 @@ public class HomeController {
 	public WalnutRow getLastRow() throws ExecutionException, InterruptedException {
 		return this.expenseTable.findTopByOrderByIDDesc().get();
 	}
+
+	@GetMapping("/count")
+	public long getExpenseCount() {
+		return this.expenseTable.countByIsExpense(true);
+	}
 }

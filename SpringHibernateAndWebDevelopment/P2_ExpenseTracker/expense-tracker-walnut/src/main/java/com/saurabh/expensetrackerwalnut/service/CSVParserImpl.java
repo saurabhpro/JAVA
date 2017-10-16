@@ -24,15 +24,13 @@ import static com.saurabh.expensetrackerwalnut.api.ModeOfExpense.determineModeOf
 @Service
 public class CSVParserImpl implements CSVParser<WalnutRow>, TimeUtils {
 
-	public static final String CSV_SEPARATOR = ",";
-	public static final String MISPLACED_COMMA_REPLACEMENT = "-";
 	private static final Logger logger = LoggerFactory.getLogger(CSVParserImpl.class);
 	private static final int PreFaceLines = 4;
 
 	static LocalDate fromDate;
 	static LocalDate toDate;
 
-	private static WalnutRow fillWalnutObject(String line, int id) {
+	private WalnutRow fillWalnutObject(String line, int id) {
 		WalnutRow walnutRow = new WalnutRow();
 
 		int i = 0;
