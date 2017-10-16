@@ -8,34 +8,53 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package streams;
+package streams.model;
 
-import java.util.Arrays;
-import java.util.List;
-
-import static java.util.stream.Collectors.joining;
 
 /**
- * Created by saurabhkumar on 12/02/17.
+ * @author José Paumard
  */
+public class Person {
 
-interface UtilProcessors {
-	//static method inside interface
-	static int getProcessorCores() {
-		return Runtime.getRuntime().availableProcessors();
+	private String firstName;
+	private String lastName;
+	private int age;
+
+	public Person() {
 	}
-}
 
-public class PrintCommaList {
+	public Person(String firstName, String lastName, int age) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
+	}
 
-	public static void main(String[] args) {
-		List<String> nameList = Arrays.asList("Ram", "Shyam", "Sita", "Gita");
+	public String getFirstName() {
+		return firstName;
+	}
 
-		System.out.println(
-				nameList.stream()
-						.map(String::toUpperCase)
-						.collect(joining(", ")));
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
 
-		System.out.println(UtilProcessors.getProcessorCores());
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	@Override
+	public String toString() {
+		return "Person{" + "firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + '}';
 	}
 }

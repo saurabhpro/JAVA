@@ -10,8 +10,9 @@
 
 package streams;
 
+import streams.model.DataProvider;
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -20,7 +21,7 @@ import java.util.stream.Stream;
  */
 public class AddSquareForListOfNumber {
 	public static void main(String[] args) {
-		List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6);
+		List<Integer> numbers = DataProvider.numberList;
 
 		Stream<Integer> simpleNumberedStream = numbers.stream();
 		Stream<Integer> filteredNumberedStream = simpleNumberedStream.filter(n -> n % 2 == 0);

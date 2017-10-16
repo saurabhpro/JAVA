@@ -8,60 +8,29 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package streams.function;
+package streams.model;
 
+public class Department {
+	private final String name;
+	private final int strength;
 
-/**
- * @author José Paumard
- */
-public class Person {
-
-	private String firstName;
-	private String lastName;
-	@SuppressWarnings("FieldCanBeLocal")
-	private String name;
-	private int age;
-
-	public Person() {
-	}
-
-	public Person(String firstName, String lastName, int age) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.age = age;
-	}
-
-	public Person(String name, int age) {
-		this.name = name;
-		this.age = age;
-	}
-
-	public String getFirstName() {
-		return firstName;
-	}
-
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
-
-	public String getLastName() {
-		return lastName;
-	}
-
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
-	}
-
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
+	public Department(String dname, int strength) {
+		this.name = dname;
+		this.strength = strength;
 	}
 
 	@Override
 	public String toString() {
-		return "Person{" + "firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + '}';
+		return "Department{" +
+				"name='" + name + '\'' +
+				'}';
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getStrength() {
+		return strength;
 	}
 }

@@ -10,9 +10,13 @@
 
 package streams;
 
-import streams.function.Person;
 
-import java.util.*;
+import streams.model.DataProvider;
+import streams.model.Person;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -20,39 +24,32 @@ import java.util.stream.Stream;
 /**
  * Created by saurabhkumar on 24/05/17.
  */
+@SuppressWarnings("unused")
 public class BuildStream {
 	public static void main(String[] args) {
-		Person p1 = new Person("Alice", 23);
-		Person p2 = new Person("Brian", 56);
-		Person p3 = new Person("Chelsea", 46);
-		Person p4 = new Person("David", 28);
-		Person p5 = new Person("Erica", 37);
-		Person p6 = new Person("Francisco", 18);
-
-		List<Person> list = new ArrayList<>(Arrays.asList(p1, p2, p3, p4, p5, p6));
-
+		List<Person> list = DataProvider.getYoungPersonList();
 
 		Stream<Person> personStream = list.stream();
 
 		//Stream<T> interface having static methods
 		//empty Stream
-		Stream.empty();
+		Stream<?> empty = Stream.empty();       // ? = Object
 
 		//of
-		Stream.of("One");
-		Stream.of("One", "two", "three");
+		Stream<String> one = Stream.of("One");
+		Stream<String> one1 = Stream.of("One", "two", "three");
 
 		//a constant stream using Supplier
-		Stream.generate(() -> "one");
+		Stream<String> generate = Stream.generate(() -> "one");
 
 		//iterate over a growing stream
-		Stream.iterate(" + ", s -> s + " + ");
+		Stream<String> iterate = Stream.iterate(" + ", s -> s + " + ");
 
 		//random class stream
 		ThreadLocalRandom.current().ints();
 
-		//int stream on array of charecters
-		IntStream intStream = "helo".chars();
+		//int stream on array of characters
+		IntStream intStream = "hello".chars();
 
 		//stream builder
 		Stream.Builder<String> builder = Stream.builder();
@@ -65,12 +62,9 @@ public class BuildStream {
 
 
 		Map<String, Person> map = new HashMap<>();
-		map.putIfAbsent("1", p1);
-		map.putIfAbsent("2", p2);
-		map.putIfAbsent("3", p3);
-		map.putIfAbsent("4", p4);
-		map.putIfAbsent("5", p5);
-		map.putIfAbsent("6", p6);
+		int n = list.size();
+
+		IntStream.range(0, list.size()).forEach(i -> map.putIfAbsent("" + i, list.get(i)));
 
 		//Stream.of(map).filter( );
 

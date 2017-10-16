@@ -31,28 +31,24 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basics_udemy_annotation/target/classes/com/saurabh/configuration/SportConfigBasic.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basics_udemy_annotation/target/classes/com/saurabh/configuration/SportConfigMore.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basics_udemy_annotation/target/classes/com/saurabh/configuration/SwimCoach.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/resources/sample_files/Emails.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/resources/sample_files/FF Report.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/resources/sample_files/may.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/resources/static/img/cat.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v6_email_thymleaf/.mvn/wrapper/maven-wrapper.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v6_email_thymleaf/src/main/resources/static/img/linux-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/arrayQ/arrayQ.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/arrayQ/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/arrayQ/src/main/java/A_ChoclateDistributionProblem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/arrayQ/src/main/java/B_SubArrayWithGivenSumUnSorted.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/arrayQ/src/test/java/A_ChoclateDistributionProblemTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/arrayQ/src/test/java/B_SubArrayWithGivenSumUnSortedTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/Strings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/main/java/annotations/MyLifeClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/main/java/annotations/MyLifeInVersion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/main/java/annotations/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/main/java/annotations/SafeVarArgs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/main/java/saurabh/Interface/IStaticMethodWithPolymorphism.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/main/java/saurabh/Interface/IStaticOverridingError.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/main/java/saurabh/Interface/InsideOfInnerClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/main/java/saurabh/medium/post/I1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/main/java/saurabh/medium/post/IC1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/main/java/saurabh/medium/post/II1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/main/java/saurabh/medium/post/IMoreIsAlwaysGood.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Interfaces/src/main/java/saurabh/medium/post/IS1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Polymorphism/src/main/java/module-info.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_spring_boot_crud/Spring Boot + AngularJS + Spring Data + JPA CRUD App Example - WebSystique.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_spring_boot_crud/itworks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpecialKeywords/src/main/java/com/saurabh/special_classes/NumberFormatter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/CollectorGroupingBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/CollectorPartitioningBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/CollectorsJoining.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/for_numbers/CollectorSummingInt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/model/DataProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/model/Department.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/model/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/model/Person.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basics_udemy/target/classes/applicationContext.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basics_udemy/target/classes/beanScope-applicationContext.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basics_udemy/target/classes/constr - applicationContext.xml" />
@@ -64,6 +60,93 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/target/classes/app.properties" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/target/classes/app.properties" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/target/classes/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/mvnw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/mvnw.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/AttandanceApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/FileToByteArrayOutputStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/ObjectEmptyException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/exceltypematcher/ExcelFileType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/export/ExcelExportFileCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/ExcelReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/FileOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/XLSReaderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/XLSXReaderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/factory/fileimportfactory/CreateSheet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/factory/fileimportfactory/JXLSSheetAndCell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/factory/fileimportfactory/XLSSheetAndCell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/factory/fileimportfactory/XLSXSheetAndCell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/excel/read/factory/objectfillerfactory/FileObjectFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/json/JsonIO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/json/JsonReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/json/JsonWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/api/pdf/export/PdfExportFileCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/controller/HomeController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/entity/attendence/Attendance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/entity/attendence/AttendanceOfADate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/entity/attendence/AttendanceOfLeave.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/entity/employee/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/entity/records/EmployeeBiometric.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/entity/records/EmployeeSalesforce.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/entity/records/EmployeeStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/DescrepencyWalaService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/EmployeeBasicsService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/EverythingBhejoService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/WeekendPeKaamKarneWalaService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/combine_logic/CombineFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/combine_logic/CombineFileHelperUtility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/combine_logic/FinalObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/combine_logic/MarkDiscrepancy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/combine_logic/MarkDiscrepancyHelperUtility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/FileReaderModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/SheetFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/biometricdetails/AllEmployeeBiometricDetailList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/biometricdetails/BiometricFileToObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/biometricdetails/MapJasonToBiometricDetail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/empdetails/AllEmployeeDetailList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/empdetails/EmployeeDetailExcelToObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/empdetails/MapJsonToAllEmployeeDetail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/salesforce/AllEmployeeSalesforceDetailList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/salesforce/MapJasonToSalesforceDetail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/filereader/salesforce/SalesforceFileToObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/EmployeeIDMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/RevalIdComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/FileFolderWorker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/Serialize.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/StringIdToListOfIdMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/TimeManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/Version.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/constants/ProjectConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/constants/enums/AttendanceStatusType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/constants/enums/EmploymentStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/constants/enums/HolidaysList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/service/helper/utility/constants/enums/LeaveType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/view/json_generators/AllEmployeeDetailsJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/view/json_generators/OnlyDiscrepancyDetailsJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/view/json_generators/PublicHolidayWorkerJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/view/json_generators/WeekendWorkerJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/viewmodel/FinalObjectModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/viewmodel/HolidayWorkerModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/viewmodel/ListGeneratorModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/java/com/saurabh/viewmodel/WebJSONModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/resources/mock_data/Email.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/resources/mock_data/Salesforce.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/main/resources/mock_data/may.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/test/java/com/saurabh/AttandanceApplicationTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/test/java/com/saurabh/entity/attendence/AttendanceOfADateTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/test/java/com/saurabh/entity/records/EmployeeStatusTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/test/java/com/saurabh/service/combine_logic/MarkDiscrepancyHelperUtilityTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/attandance/src/test/java/com/saurabh/service/filereader/empdetails/AllEmployeeDetailListTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/java/com/saurabh/v5_mail_using_springboot/SimpleEmailController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/java/com/saurabh/v5_mail_using_springboot/SimpleEmailController2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/java/com/saurabh/v5_mail_using_springboot/SimpleEmailController3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/java/com/saurabh/v5_mail_using_springboot/SimpleEmailController4.java.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/java/com/saurabh/v5_mail_using_springboot/SimpleEmailController5.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/resources/templates/welcome.ftl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/resources/templates/welcomev.vm" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v6_email_thymleaf/.gitignore" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v6_email_thymleaf/.mvn/wrapper/maven-wrapper.properties" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v6_email_thymleaf/mvnw" />
@@ -87,6 +170,40 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v6_email_thymleaf/src/main/resources/templates/welcome.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v6_email_thymleaf/src/test/java/com/saurabh/V6EmailThymleafApplicationTests.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v6_email_thymleaf/src/test/java/com/saurabh/service/MailServiceImplTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/V9SpringBootCRUDApplication.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_spring_boot_crud/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/FileToByteArrayOutputStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/ObjectEmptyException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/excel/exceltypematcher/ExcelFileType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/excel/export/ExcelExportFileCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/excel/read/ExcelReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/excel/read/FileOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/excel/read/XLSReaderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/excel/read/XLSXReaderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/excel/read/factory/fileimportfactory/CreateSheet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/excel/read/factory/fileimportfactory/JXLSSheetAndCell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/excel/read/factory/fileimportfactory/XLSSheetAndCell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/excel/read/factory/fileimportfactory/XLSXSheetAndCell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/excel/read/factory/objectfillerfactory/FileObjectFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/helper/RevalIdComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/helper/utility/FileFolderWorker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/helper/utility/Serialize.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/helper/utility/StringIdToListOfIdMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/helper/utility/Version.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/helper/utility/constants/ProjectConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/helper/utility/constants/enums/AttendanceStatusType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/helper/utility/constants/enums/EmploymentStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/helper/utility/constants/enums/HolidaysList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/helper/utility/constants/enums/LeaveType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/json/JsonIO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/json/JsonReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/json/JsonWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/api/pdf/export/PdfExportFileCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/controller/HomeController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/model/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/repository/EmployeeBasicRecord.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/main/java/streams/PrintCommaList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/main/java/streams/function/Person.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/classes/com/saurabh/utils/Utils$1.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/.gitignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/README.md" afterPath="" />
@@ -116,11 +233,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/resources/templates/index.ftl" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/resources/templates/list.ftl" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/v9_SpringBootCRUDApplication.iml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Polymorphism/src/main/java/ClassCast.java" afterPath="$PROJECT_DIR$/Polymorphism/src/main/java/com/saurabh/overriding/ClassCast.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Polymorphism/src/main/java/CompileTimeOverloading.java" afterPath="$PROJECT_DIR$/Polymorphism/src/main/java/com/saurabh/overloading/CompileTimeOverloading.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Polymorphism/src/main/java/CovariantOverriding.java" afterPath="$PROJECT_DIR$/Polymorphism/src/main/java/com/saurabh/overriding/CovariantOverriding.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Polymorphism/src/main/java/OverloadingPitfall.java" afterPath="$PROJECT_DIR$/Polymorphism/src/main/java/com/saurabh/overloading/OverloadingPitfall.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Polymorphism/src/main/java/OverridingStaticMethods.java" afterPath="$PROJECT_DIR$/Polymorphism/src/main/java/com/saurabh/overriding/OverridingStaticMethodsError.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/classes/com/saurabh/ExcelPdfCsvFileGeneratorApplication.class" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/classes/com/saurabh/ExcelPdfCsvFileGeneratorApplication.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/classes/com/saurabh/config/WebConfig.class" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/classes/com/saurabh/config/WebConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/classes/com/saurabh/controller/ExportController.class" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/classes/com/saurabh/controller/ExportController.class" />
@@ -138,20 +250,22 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/classes/com/saurabh/viewResolver/ExcelViewResolver.class" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/classes/com/saurabh/viewResolver/ExcelViewResolver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/classes/com/saurabh/viewResolver/PdfViewResolver.class" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/classes/com/saurabh/viewResolver/PdfViewResolver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/test-classes/com/saurabh/utils/UtilsTest.class" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/test-classes/com/saurabh/utils/UtilsTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../Interview/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Interview/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/pom.xml" afterPath="$PROJECT_DIR$/../Interview/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/stringQ/pom.xml" afterPath="$PROJECT_DIR$/../Interview/stringQ/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/module-info.java" afterPath="$PROJECT_DIR$/../Interview/stringQ/src/main/java/module-info.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Interview/stringQ/stringQ.iml" afterPath="$PROJECT_DIR$/../Interview/stringQ/stringQ.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generics/src/main/java/varargs/SafeVarargsTest.java" afterPath="$PROJECT_DIR$/Generics/src/main/java/varargs/SafeVarargsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interfaces/README.md" afterPath="$PROJECT_DIR$/Interfaces/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interfaces/src/main/java/saurabh/Interface/Java9/InterfaceWithPrivateMethods.java" afterPath="$PROJECT_DIR$/Interfaces/src/main/java/saurabh/Interface/Java9/InterfaceWithPrivateMethods.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interfaces/src/main/java/saurabh/Interface/diamondProblem/DiamondProblemStillMadeSense.java" afterPath="$PROJECT_DIR$/Interfaces/src/main/java/saurabh/Interface/diamondProblem/DiamondProblemStillMadeSense.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Streams/pom.xml" afterPath="$PROJECT_DIR$/Streams/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Streams/src/main/java/streams/AddSquareForListOfNumber.java" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/AddSquareForListOfNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Streams/src/main/java/streams/BuildStream.java" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/BuildStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/A_BasicsOfSpring.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/A_BasicsOfSpring.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basics_udemy_annotation/basics_udemy_annotation.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basics_udemy_annotation/basics_udemy_annotation.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/firstSpringApp.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/firstSpringApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/firstSpringAppAnnotationXmlConfiguration.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppAnnotationXmlConfiguration/firstSpringAppAnnotationXmlConfiguration.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithJavaConfiguration/firstSpringAppWithJavaConfiguration.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithJavaConfiguration/firstSpringAppWithJavaConfiguration.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithXmlConfiguration/firstSpringAppWithXmlConfiguration.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringAppWithXmlConfiguration/firstSpringAppWithXmlConfiguration.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/popertiesInJavaSpringConfiguration.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/popertiesInJavaSpringConfiguration.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/propertiesInXMLSpringConfigApp.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/propertiesInXMLSpringConfigApp/propertiesInXMLSpringConfigApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/scopeForSpringSingletonApp.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/scopeForSpringSingletonApp/scopeForSpringSingletonApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/simple_customer_forms/simple_customer_forms.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/B_BasicSpringMVC/simple_customer_forms/simple_customer_forms.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/D_BasicsOfHibernate/D_BasicsOfHibernate.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/D_BasicsOfHibernate/D_BasicsOfHibernate.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/D_BasicsOfHibernate/c_customer-management-springmvc-hibernate/c_customer-management-springmvc-hibernate.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/D_BasicsOfHibernate/c_customer-management-springmvc-hibernate/c_customer-management-springmvc-hibernate.iml" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -231,41 +345,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InsideOfInnerClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interfaces/src/main/java/saurabh/Interface/InsideOfInnerClass.java">
+      <file leaf-file-name="AddSquareForListOfNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/AddSquareForListOfNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IStaticOverridingError.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interfaces/src/main/java/saurabh/Interface/IStaticOverridingError.java">
+      <file leaf-file-name="BuildStream.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/BuildStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SafeVarargsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generics/src/main/java/varargs/SafeVarargsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="25" column="25" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="25" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SafeVarArgs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interfaces/src/main/java/annotations/SafeVarArgs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            <state relative-caret-position="555">
+              <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -273,64 +367,74 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generics/src/main/java/generics/_8_advanced/b_intersection_types/PersonReader.java">
+      <file leaf-file-name="CollectorSummingInt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/for_numbers/CollectorSummingInt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="II1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interfaces/src/main/java/saurabh/medium/post/II1.java">
+      <file leaf-file-name="NumberFormatter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/main/java/com/saurabh/special_classes/NumberFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="20" column="89" lean-forward="false" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
+            <state relative-caret-position="465">
+              <caret line="39" column="45" lean-forward="true" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
               <folding>
-                <element signature="e#1675#1676#0" expanded="true" />
-                <element signature="e#1749#1750#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IS1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Interfaces/src/main/java/saurabh/medium/post/IS1.java">
+      <file leaf-file-name="DataProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/model/DataProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="420">
               <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2077#2078#0" expanded="true" />
+                <element signature="e#2128#2129#0" expanded="true" />
+                <element signature="e#2180#2181#0" expanded="true" />
+                <element signature="e#2227#2228#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LambdaExamples.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generics/src/main/java/generics/_8_advanced/a_type_inference/LambdaExamples.java">
+      <file leaf-file-name="CollectorPartitioningBy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/CollectorPartitioningBy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="900">
+              <caret line="75" column="41" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="75" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generics/pom.xml">
+      <file leaf-file-name="Collectors.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/Collectors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="720">
+              <caret line="101" column="13" lean-forward="false" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+              <folding>
+                <element signature="e#23804#23805#0" expanded="true" />
+                <element signature="e#23847#23848#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generics/src/main/java/generics/array/GenItem.java">
+      <file leaf-file-name="CollectorsJoining.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/CollectorsJoining.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="225">
+              <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -406,23 +510,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SpecialKeywords/src/main/java/com/saurabh/special/FinalFamily.java" />
-        <option value="$PROJECT_DIR$/SpecialKeywords/src/main/java/com/saurabh/special/PrivateConstructorSingleton.java" />
-        <option value="$PROJECT_DIR$/SpecialKeywords/src/main/java/com/saurabh/special/StaticConstructors.java" />
-        <option value="$PROJECT_DIR$/SpecialKeywords/src/main/java/com/saurabh/special/StaticFamily.java" />
-        <option value="$PROJECT_DIR$/Generics/src/main/java/generics/inheritance/GenericBoundInheritance.java" />
-        <option value="$PROJECT_DIR$/Generics/src/main/java/generics/OnlyGenericMethods.java" />
-        <option value="$PROJECT_DIR$/Generics/src/main/java/generics/GenOne.java" />
-        <option value="$PROJECT_DIR$/Generics/src/main/java/module-info.java" />
-        <option value="$PROJECT_DIR$/Generics/pom.xml" />
-        <option value="$PROJECT_DIR$/Generics/src/main/java/generics/reflection/b_reflecting_types/ReifiableExamples.java" />
-        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/function/FunctionUtil.java" />
-        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/function/Person.java" />
-        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/BuildStream.java" />
-        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/AddSquareForListOfNumber.java" />
-        <option value="$PROJECT_DIR$/Interfaces/src/main/java/saurabh/Interface/diamondProblem/DiamondProblemWithDefaultMakesLifeMoreDifficult.java" />
-        <option value="$PROJECT_DIR$/Polymorphism/src/main/java/com/saurabh/CovariantOverriding.java" />
-        <option value="$PROJECT_DIR$/Polymorphism/src/main/java/com/saurabh/InheritingStaticMethods.java" />
         <option value="$PROJECT_DIR$/Polymorphism/src/main/java/com/saurabh/InheritingStaticMethodsError.java" />
         <option value="$PROJECT_DIR$/Polymorphism/src/main/java/module-info.java" />
         <option value="$PROJECT_DIR$/Polymorphism/src/main/java/com/saurabh/Overriding/InheritingStaticMethodsError.java" />
@@ -457,6 +544,23 @@
         <option value="$PROJECT_DIR$/Generics/src/main/java/generics/_8_advanced/b_intersection_types/PersonReader.java" />
         <option value="$PROJECT_DIR$/Interfaces/src/main/java/saurabh/medium/post/II1.java" />
         <option value="$PROJECT_DIR$/Interfaces/src/main/java/saurabh/medium/post/IS1.java" />
+        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/function/Person.java" />
+        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/collector.java" />
+        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/ollector.java" />
+        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/model/Person.java" />
+        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/AddSquareForListOfNumber.java" />
+        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/PrintCommaList.java" />
+        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/PrintCommaListUsingJoining.java" />
+        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/model/DataProvider.java" />
+        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/CollectorsJoining.java" />
+        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/model/Department.java" />
+        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/model/Employee.java" />
+        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/CollectorGroupingBy.java" />
+        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/Collector.java" />
+        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/BuildStream.java" />
+        <option value="$PROJECT_DIR$/Streams/src/main/java/streams/for_numbers/CollectorSummingInt.java" />
+        <option value="$PROJECT_DIR$/SpecialKeywords/src/main/java/com/saurabh/special/NumberFormatter.java" />
+        <option value="$PROJECT_DIR$/SpecialKeywords/src/main/java/com/saurabh/special_classes/NumberFormatter.java" />
       </list>
     </option>
   </component>
@@ -570,6 +674,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -581,92 +688,25 @@
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Generics" type="462c0819:PsiDirectoryNode" />
+              <item name="SpecialKeywords" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Generics" type="462c0819:PsiDirectoryNode" />
+              <item name="SpecialKeywords" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Generics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Generics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Generics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Generics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="_8_advanced" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Generics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="_8_advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="a_type_inference" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Generics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="_8_advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="b_intersection_types" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="SpecialKeywords" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="SpecialKeywords" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -674,7 +714,7 @@
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="SpecialKeywords" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -683,108 +723,27 @@
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="SpecialKeywords" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="saurabh" type="462c0819:PsiDirectoryNode" />
-              <item name="Interface" type="462c0819:PsiDirectoryNode" />
+              <item name="special" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="SpecialKeywords" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="saurabh" type="462c0819:PsiDirectoryNode" />
-              <item name="post" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="saurabh" type="462c0819:PsiDirectoryNode" />
-              <item name="post" type="462c0819:PsiDirectoryNode" />
-              <item name="II1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="saurabh" type="462c0819:PsiDirectoryNode" />
-              <item name="post" type="462c0819:PsiDirectoryNode" />
-              <item name="IS1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Polymorphism" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Polymorphism" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Polymorphism" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Polymorphism" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Polymorphism" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="saurabh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Polymorphism" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="saurabh" type="462c0819:PsiDirectoryNode" />
-              <item name="overriding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCon" type="462c0819:PsiDirectoryNode" />
-              <item name="Polymorphism" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="saurabh" type="462c0819:PsiDirectoryNode" />
-              <item name="overriding" type="462c0819:PsiDirectoryNode" />
-              <item name="OverridingStaticMethodsError.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="special_classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -815,7 +774,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="840" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/Interfaces/src/main/java/saurabh" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/SpecialKeywords/src/main/java/com/saurabh" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -829,11 +788,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="streams.model" />
       <recent name="pluralsight" />
       <recent name="testing.junit.TDD.wrap" />
       <recent name="testing.junit.ccd" />
       <recent name="list" />
-      <recent name="MyResultSet" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.saurabh.pattern" />
@@ -886,7 +845,83 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShouldIShowYouEveryThing1">
+  <component name="RunManager" selected="Application.NumberFormatter">
+    <configuration name="Collector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="streams.Collector" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Streams" />
+      <envs />
+    </configuration>
+    <configuration name="CollectorGroupingBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="streams.CollectorGroupingBy" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Streams" />
+      <envs />
+    </configuration>
+    <configuration name="CollectorSummingInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="streams.for_numbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="streams.for_numbers.CollectorSummingInt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Streams" />
+      <envs />
+    </configuration>
+    <configuration name="CollectorsJoining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="streams.CollectorsJoining" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Streams" />
+      <envs />
+    </configuration>
     <configuration name="InterfaceDefaultMethod" type="Application" factoryName="Application" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -925,14 +960,14 @@
       <module name="Interfaces" />
       <envs />
     </configuration>
-    <configuration name="LambdaExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberFormatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="generics._8_advanced.a_type_inference.*" />
+          <option name="PATTERN" value="com.saurabh.special_classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="generics._8_advanced.a_type_inference.LambdaExamples" />
+      <option name="MAIN_CLASS_NAME" value="com.saurabh.special_classes.NumberFormatter" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -941,26 +976,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Generics" />
-      <envs />
-    </configuration>
-    <configuration name="PersonReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="generics._8_advanced.b_intersection_types.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="generics._8_advanced.b_intersection_types.PersonReader" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Generics" />
+      <module name="SpecialKeywords" />
       <envs />
     </configuration>
     <configuration name="ReportRunner" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -980,63 +996,6 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="UnitTesting" />
-      <envs />
-    </configuration>
-    <configuration name="SafeVarArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="annotations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="annotations.SafeVarArgs" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Interfaces" />
-      <envs />
-    </configuration>
-    <configuration name="ShouldIShowYouEveryThing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="saurabh.medium.post.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="saurabh.Interface.ShouldIShowYouEveryThing" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Interfaces" />
-      <envs />
-    </configuration>
-    <configuration name="ShouldIShowYouEveryThing1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="saurabh.medium.post.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="saurabh.medium.post.ShouldIShowYouEveryThing1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Interfaces" />
       <envs />
     </configuration>
     <configuration name="SimpleReportRunner" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -1455,19 +1414,19 @@
       <item index="2" class="java.lang.String" itemvalue="Application.ReportRunner" />
       <item index="3" class="java.lang.String" itemvalue="Application.SpringXmlSalesReportRunner" />
       <item index="4" class="java.lang.String" itemvalue="Application.SimpleReportRunner" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ShouldIShowYouEveryThing" />
-      <item index="6" class="java.lang.String" itemvalue="Application.ShouldIShowYouEveryThing1" />
-      <item index="7" class="java.lang.String" itemvalue="Application.SafeVarArgs" />
-      <item index="8" class="java.lang.String" itemvalue="Application.LambdaExamples" />
-      <item index="9" class="java.lang.String" itemvalue="Application.PersonReader" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Collector" />
+      <item index="6" class="java.lang.String" itemvalue="Application.CollectorsJoining" />
+      <item index="7" class="java.lang.String" itemvalue="Application.CollectorGroupingBy" />
+      <item index="8" class="java.lang.String" itemvalue="Application.CollectorSummingInt" />
+      <item index="9" class="java.lang.String" itemvalue="Application.NumberFormatter" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ShouldIShowYouEveryThing1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PersonReader" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LambdaExamples" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SafeVarArgs" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ShouldIShowYouEveryThing" />
+        <item index="0" class="java.lang.String" itemvalue="Application.NumberFormatter" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CollectorSummingInt" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CollectorGroupingBy" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Collector" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CollectorsJoining" />
       </list>
     </recent_temporary>
   </component>
@@ -1602,14 +1561,8 @@
       <workItem from="1506420930313" duration="941000" />
       <workItem from="1506578486440" duration="4000" />
       <workItem from="1506581379263" duration="3754000" />
-      <workItem from="1507728977067" duration="19995000" />
-    </task>
-    <task id="LOCAL-00006" summary="Java Commit&#10;ArrayList Completed&#10;Iterators&#10;Vector">
-      <created>1442182836522</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1442182836522</updated>
+      <workItem from="1507728977067" duration="25253000" />
+      <workItem from="1508174103453" duration="861000" />
     </task>
     <task id="LOCAL-00007" summary="Innerclass Thinking in java code updates&#10;LinkList Node to inner Node [np difference in  execution]">
       <created>1443076142854</created>
@@ -1947,7 +1900,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506361619703</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="interview propositions for interfaces">
+      <created>1507984742078</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1507984742079</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1983,7 +1943,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="529492000" />
+    <option name="totallyTimeSpent" value="535611000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -2006,16 +1966,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2896936" sideWeight="0.51573676" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28611502" sideWeight="0.48426324" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28611502" sideWeight="0.48426324" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.49713877" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2761087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32678822" sideWeight="0.49427754" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27968526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31837308" sideWeight="0.4914163" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24821173" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2031,13 +1988,16 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32678822" sideWeight="0.49427754" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34958217" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31837308" sideWeight="0.4914163" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2060,7 +2020,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="static block RIWO state and init block" />
     <MESSAGE value="diamondoperator and singleton class" />
     <MESSAGE value="Major refactoring by adding Maven to the projects" />
     <MESSAGE value="Unit Testing added" />
@@ -2085,7 +2044,8 @@
     <MESSAGE value="updated jdbc module and added regex module" />
     <MESSAGE value="cleanup" />
     <MESSAGE value="moved design patterns to common directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved design patterns to common directory" />
+    <MESSAGE value="interview propositions for interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="interview propositions for interfaces" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2101,237 +2061,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1594">
-          <caret line="162" column="13" lean-forward="false" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/AddSquareForListOfNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Polymorphism/target/classes/ClassCast.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Polymorphism/src/main/java/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Polymorphism/target/classes/ChildStaticPrivateOverride.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Polymorphism/target/classes/com/saurabh/ClassCast.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Polymorphism/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Polymorphism/src/main/java/com/saurabh/Overriding/InheritingStaticMethodsError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Polymorphism/src/main/java/com/saurabh/overriding/CovariantOverriding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Polymorphism/src/main/java/com/saurabh/overloading/CompileTimeOverloading.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Polymorphism/src/main/java/com/saurabh/overriding/ClassCast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="58" column="52" lean-forward="false" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
-          <folding>
-            <element signature="method#SunderSushilCastingWithSelfPreservationMethods#0;class#ClassCast#0" expanded="false" />
-            <element signature="method#CastingBetweenTwoUnrealatedClass#0;class#ClassCast#0" expanded="false" />
-            <element signature="method#DownCastingABaseClass#0;class#ClassCast#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Polymorphism/src/main/java/com/saurabh/overloading/OverloadingPitfall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Polymorphism/src/main/java/com/saurabh/overriding/OverridingStaticMethodsError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="48" column="43" lean-forward="true" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interfaces/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="305">
-            <caret line="109" column="39" lean-forward="false" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
-            <folding>
-              <marker date="1507793871998" expanded="true" signature="463:653" ph="{...}" />
-              <marker date="1507793871998" expanded="false" signature="501:515" ph=" { " />
-              <marker date="1507793871998" expanded="false" signature="545:555" ph=" }" />
-              <marker date="1507793871998" expanded="true" signature="590:604" ph=" { " />
-              <marker date="1507793871998" expanded="true" signature="633:643" ph=" }" />
-              <marker date="1507793871998" expanded="true" signature="702:930" ph="{...}" />
-              <marker date="1507793871998" expanded="true" signature="751:924" ph="{...}" />
-              <marker date="1507793871998" expanded="true" signature="1536:1686" ph="{...}" />
-              <marker date="1507793871998" expanded="false" signature="1726:1740" ph=" { " />
-              <marker date="1507793871998" expanded="false" signature="1779:1789" ph=" }" />
-              <marker date="1507793871998" expanded="true" signature="4664:4911" ph="{...}" />
-              <marker date="1507793871998" expanded="true" signature="4664:4913" ph="{...}" />
-              <marker date="1507793871998" expanded="true" signature="4666:4839" ph="//..." />
-              <marker date="1507793871998" expanded="true" signature="4666:4908" ph="//..." />
-              <marker date="1507793871998" expanded="true" signature="4668:4839" ph="//..." />
-              <marker date="1507793871998" expanded="true" signature="4717:4839" ph="//..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interfaces/src/main/java/saurabh/Interface/Java9/ReportGeneratorJava9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interfaces/src/main/java/saurabh/Interface/Java8/FunctionalInterfaceAnnotations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/annotation/Documented.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/annotation/Target.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="78" column="13" lean-forward="true" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/annotation/RetentionPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/annotation/Retention.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/FunctionalInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/annotation/ElementType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="72" column="12" lean-forward="false" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interfaces/src/main/java/saurabh/Interface/Java9/InterfaceWithPrivateMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding>
-            <element signature="e#2925#2926#0" expanded="false" />
-            <element signature="e#2975#2976#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Interfaces/src/main/java/saurabh/medium/post/I1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="e#1532#1533#0" expanded="false" />
-            <element signature="e#1606#1607#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2339,11 +2072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#1955#0" expanded="false" />
-            <element signature="e#1856#1857#0" expanded="false" />
-            <element signature="e#1931#1932#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2351,7 +2079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2360,7 +2087,6 @@
         <state split_layout="SECOND">
           <first_editor relative-caret-position="0">
             <caret line="0" column="113" lean-forward="true" selection-start-line="0" selection-start-column="113" selection-end-line="0" selection-end-column="113" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -2370,7 +2096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2378,7 +2103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2386,7 +2110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2394,9 +2117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="68" column="10" lean-forward="false" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="10" />
-          <folding>
-            <element signature="class#DiamondProblemWithDefaultMakesLifeMoreDifficult#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2404,7 +2124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2412,7 +2131,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="85" column="13" lean-forward="false" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2420,7 +2138,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2428,7 +2145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2436,7 +2152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2444,7 +2159,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="88" column="3" lean-forward="true" selection-start-line="88" selection-start-column="3" selection-end-line="88" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2452,7 +2166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="58" column="19" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2460,7 +2173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2468,7 +2180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2476,23 +2187,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generics/src/main/java/generics/_8_advanced/a_type_inference/LambdaExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13725">
-          <caret line="959" column="13" lean-forward="false" selection-start-line="959" selection-start-column="13" selection-end-line="959" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2516,7 +2210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="25" column="25" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="25" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2524,16 +2217,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generics/src/main/java/generics/_8_advanced/b_intersection_types/PersonReader.java">
+    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/Java9Stream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="-215">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generics/src/main/java/generics/_8_advanced/a_type_inference/LambdaExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generics/src/main/java/generics/_8_advanced/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interfaces/src/main/java/saurabh/medium/post/IS1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/StreamIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2542,18 +2263,202 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="20" column="89" lean-forward="false" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generics/src/main/java/generics/_8_advanced/b_intersection_types/PersonReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="201" column="6" lean-forward="true" selection-start-line="201" selection-start-column="6" selection-end-line="201" selection-end-column="6" />
           <folding>
-            <element signature="e#1675#1676#0" expanded="true" />
-            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="docComment;class#Stream#0" expanded="false" />
+            <element signature="docComment;method#filter#0;class#Stream#0" expanded="false" />
+            <element signature="docComment;method#map#0;class#Stream#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Interfaces/src/main/java/saurabh/medium/post/IS1.java">
+    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/model/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/IntConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1735">
+          <caret line="426" column="9" lean-forward="false" selection-start-line="426" selection-start-column="9" selection-end-line="426" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1013">
+          <caret line="2670" column="21" lean-forward="false" selection-start-line="2670" selection-start-column="21" selection-end-line="2670" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/AddSquareForListOfNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/model/DataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2077#2078#0" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
+            <element signature="e#2180#2181#0" expanded="true" />
+            <element signature="e#2227#2228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/util/EnumSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="81" column="22" lean-forward="false" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="101" column="13" lean-forward="false" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+          <folding>
+            <element signature="e#23804#23805#0" expanded="true" />
+            <element signature="e#23847#23848#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/CollectorsJoining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-838">
+          <caret line="1262" column="14" lean-forward="false" selection-start-line="1262" selection-start-column="14" selection-end-line="1262" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/CollectorGroupingBy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="40" column="47" lean-forward="false" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/CollectorPartitioningBy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="75" column="41" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="75" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/BuildStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java9Updates/src/main/java/pluralsight/whatsnew/demo04/langandlib/language/TryWithResources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Streams/src/main/java/streams/for_numbers/CollectorSummingInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/main/java/com/saurabh/special/ByteExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/main/java/com/saurabh/special/Java_Method_main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib/src.zip!/java.base/java/math/RoundingMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1111">
+          <caret line="107" column="51" lean-forward="false" selection-start-line="107" selection-start-column="51" selection-end-line="107" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/main/java/com/saurabh/special_classes/NumberFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="39" column="45" lean-forward="true" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
