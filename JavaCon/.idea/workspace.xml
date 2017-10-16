@@ -40,15 +40,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v6_email_thymleaf/src/main/resources/static/img/linux-icon.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_spring_boot_crud/Spring Boot + AngularJS + Spring Data + JPA CRUD App Example - WebSystique.pdf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_spring_boot_crud/itworks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SpecialKeywords/src/main/java/com/saurabh/special_classes/NumberFormatter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/CollectorGroupingBy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/CollectorPartitioningBy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/CollectorsJoining.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/for_numbers/CollectorSummingInt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/model/DataProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/model/Department.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/model/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/model/Person.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basics_udemy/target/classes/applicationContext.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basics_udemy/target/classes/beanScope-applicationContext.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basics_udemy/target/classes/constr - applicationContext.xml" />
@@ -202,8 +193,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/controller/HomeController.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/model/Employee.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/P1_Attendance/V2/v2-attendance/src/main/java/com/saurabh/v2attendance/repository/EmployeeBasicRecord.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/main/java/streams/PrintCommaList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/main/java/streams/function/Person.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/classes/com/saurabh/utils/Utils$1.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/.gitignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/README.md" afterPath="" />
@@ -251,9 +240,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/classes/com/saurabh/viewResolver/PdfViewResolver.class" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/classes/com/saurabh/viewResolver/PdfViewResolver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/test-classes/com/saurabh/utils/UtilsTest.class" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v3_excel_pdf_csv_download/target/test-classes/com/saurabh/utils/UtilsTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Streams/pom.xml" afterPath="$PROJECT_DIR$/Streams/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Streams/src/main/java/streams/AddSquareForListOfNumber.java" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/AddSquareForListOfNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Streams/src/main/java/streams/BuildStream.java" afterPath="$PROJECT_DIR$/Streams/src/main/java/streams/BuildStream.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/A_BasicsOfSpring.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/A_BasicsOfSpring.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basics_udemy_annotation/basics_udemy_annotation.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/basics_udemy_annotation/basics_udemy_annotation.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/firstSpringApp.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/firstSpringApp/firstSpringApp.iml" />
@@ -380,8 +366,8 @@
       <file leaf-file-name="NumberFormatter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/main/java/com/saurabh/special_classes/NumberFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="39" column="45" lean-forward="true" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+            <state relative-caret-position="240">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1562,14 +1548,7 @@
       <workItem from="1506578486440" duration="4000" />
       <workItem from="1506581379263" duration="3754000" />
       <workItem from="1507728977067" duration="25253000" />
-      <workItem from="1508174103453" duration="861000" />
-    </task>
-    <task id="LOCAL-00007" summary="Innerclass Thinking in java code updates&#10;LinkList Node to inner Node [np difference in  execution]">
-      <created>1443076142854</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1443076142854</updated>
+      <workItem from="1508174103453" duration="928000" />
     </task>
     <task id="LOCAL-00008" summary="Link list modification">
       <created>1443260882998</created>
@@ -1907,7 +1886,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507984742079</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="streams are awesome">
+      <created>1508175013283</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1508175013284</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1943,7 +1929,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="535611000" />
+    <option name="totallyTimeSpent" value="535678000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1966,7 +1952,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2896936" sideWeight="0.51573676" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28611502" sideWeight="0.48426324" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28611502" sideWeight="0.48426324" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.49713877" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" x="3" y="262" width="1360" height="203" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2020,7 +2006,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="diamondoperator and singleton class" />
     <MESSAGE value="Major refactoring by adding Maven to the projects" />
     <MESSAGE value="Unit Testing added" />
     <MESSAGE value="java utilFunctions added, lambda and method reference" />
@@ -2045,7 +2030,8 @@
     <MESSAGE value="cleanup" />
     <MESSAGE value="moved design patterns to common directory" />
     <MESSAGE value="interview propositions for interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="interview propositions for interfaces" />
+    <MESSAGE value="streams are awesome" />
+    <option name="LAST_COMMIT_MESSAGE" value="streams are awesome" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2289,6 +2275,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2365,6 +2352,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2372,6 +2360,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2454,8 +2443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpecialKeywords/src/main/java/com/saurabh/special_classes/NumberFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="39" column="45" lean-forward="true" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+        <state relative-caret-position="240">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
