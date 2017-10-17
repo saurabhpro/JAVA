@@ -1,0 +1,34 @@
+package com.saurabh.v2attendance.api.helper.utility.constants.enums;
+
+import java.time.LocalDate;
+import java.time.Month;
+
+/**
+ * Created by kumars on 2/16/2016.
+ *
+ * @author Saurabh
+ * @version 1.0
+ * @apiNote Java Enums Are Inherently Serializable
+ */
+
+
+public enum HolidaysList {
+	NEW_YEAR_DAY(LocalDate.of(2016, Month.JANUARY, 1)), REPUBLIC_DAY(LocalDate.of(2016, Month.JANUARY, 26)), HOLI(
+			LocalDate.of(2016, Month.MARCH, 24)), GOOD_FRIDAY(LocalDate.of(2016, Month.MARCH, 25)), INDEPENDENCE_DAY(
+			LocalDate.of(2016, Month.AUGUST, 15)), RAKSHABANDHAN(
+			LocalDate.of(2016, Month.AUGUST, 18)), TEACHERS_DAY(
+			LocalDate.of(2016, Month.SEPTEMBER, 5)), VIJAY_DASHMI(
+			LocalDate.of(2016, Month.OCTOBER, 11)), DAY_AFTER_DIWALI(
+			LocalDate.of(2016, Month.OCTOBER, 31)), DAY_AFTER_CHRISTMAS(
+			LocalDate.of(2016, Month.DECEMBER, 26));
+
+	private LocalDate date;
+
+	HolidaysList(LocalDate of) {
+		this.date = of;
+	}
+
+	public LocalDate getDate() {
+		return date;
+	}
+}
