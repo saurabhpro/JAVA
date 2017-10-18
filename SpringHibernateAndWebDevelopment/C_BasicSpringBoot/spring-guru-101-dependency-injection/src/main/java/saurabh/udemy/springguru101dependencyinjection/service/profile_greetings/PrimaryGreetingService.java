@@ -1,6 +1,5 @@
 package saurabh.udemy.springguru101dependencyinjection.service.profile_greetings;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import saurabh.udemy.springguru101dependencyinjection.repository.GreetingRepository;
 import saurabh.udemy.springguru101dependencyinjection.service.GreetingService;
 
@@ -10,9 +9,9 @@ import saurabh.udemy.springguru101dependencyinjection.service.GreetingService;
 //// spring.profiles.active= //no beans means default, wrong will give error
 public class PrimaryGreetingService implements GreetingService {
 
-	private GreetingRepository greetingRepository;
+	private final GreetingRepository greetingRepository;
 
-	@Autowired
+	// @Autowired auto wire should be done in @Service/@Repositior/@Component/ @Controller classes
 	public PrimaryGreetingService(GreetingRepository greetingRepository) {
 		this.greetingRepository = greetingRepository;
 	}

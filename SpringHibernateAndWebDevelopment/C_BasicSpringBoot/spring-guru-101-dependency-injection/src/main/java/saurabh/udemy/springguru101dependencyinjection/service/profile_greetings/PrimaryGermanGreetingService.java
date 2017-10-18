@@ -1,6 +1,5 @@
 package saurabh.udemy.springguru101dependencyinjection.service.profile_greetings;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import saurabh.udemy.springguru101dependencyinjection.repository.GreetingRepository;
 import saurabh.udemy.springguru101dependencyinjection.service.GreetingService;
 
@@ -8,9 +7,9 @@ import saurabh.udemy.springguru101dependencyinjection.service.GreetingService;
 //@Primary
 //@Profile("de")
 public class PrimaryGermanGreetingService implements GreetingService {
-	private GreetingRepository greetingRepository;
+	private final GreetingRepository greetingRepository;
 
-	@Autowired
+	//@Autowired
 	public PrimaryGermanGreetingService(GreetingRepository greetingRepository) {
 		this.greetingRepository = greetingRepository;
 	}

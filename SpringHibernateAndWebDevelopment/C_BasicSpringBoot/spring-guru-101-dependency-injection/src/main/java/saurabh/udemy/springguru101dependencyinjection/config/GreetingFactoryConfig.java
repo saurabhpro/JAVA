@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
 import saurabh.udemy.springguru101dependencyinjection.repository.GreetingRepository;
 import saurabh.udemy.springguru101dependencyinjection.service.GreetingService;
-import saurabh.udemy.springguru101dependencyinjection.service.GreetingServiceFactory;
+import saurabh.udemy.springguru101dependencyinjection.service.profile_greetings.GreetingServiceFactory;
 
 @Configuration
 public class GreetingFactoryConfig {

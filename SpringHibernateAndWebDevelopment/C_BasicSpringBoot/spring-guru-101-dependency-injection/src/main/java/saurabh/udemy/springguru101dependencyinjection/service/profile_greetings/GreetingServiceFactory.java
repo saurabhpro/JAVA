@@ -1,13 +1,11 @@
-package saurabh.udemy.springguru101dependencyinjection.service;
+package saurabh.udemy.springguru101dependencyinjection.service.profile_greetings;
 
 import saurabh.udemy.springguru101dependencyinjection.repository.GreetingRepository;
-import saurabh.udemy.springguru101dependencyinjection.service.profile_greetings.PrimaryGermanGreetingService;
-import saurabh.udemy.springguru101dependencyinjection.service.profile_greetings.PrimaryGreetingService;
-import saurabh.udemy.springguru101dependencyinjection.service.profile_greetings.PrimarySpanishGreetingService;
+import saurabh.udemy.springguru101dependencyinjection.service.GreetingService;
 
 public class GreetingServiceFactory {
 
-	private GreetingRepository greetingRepository;
+	private final GreetingRepository greetingRepository;
 
 	public GreetingServiceFactory(GreetingRepository greetingRepository) {
 		this.greetingRepository = greetingRepository;

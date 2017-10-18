@@ -6,7 +6,7 @@ import saurabh.udemy.springguru101dependencyinjection.service.GreetingService;
 @Controller
 public class MyController {
 
-	private GreetingService greetingService;
+	private final GreetingService greetingService;
 
 	public MyController(GreetingService greetingService) {
 		this.greetingService = greetingService;

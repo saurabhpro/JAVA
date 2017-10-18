@@ -11,7 +11,7 @@ public class ConstructorInjectedController {
 
 	@Autowired
 		// Optional - But do use it
-	ConstructorInjectedController(@Qualifier("constructorGreetingService") GreetingService greetingService) {
+	ConstructorInjectedController(@Qualifier("constructorGreetingServiceImpl") GreetingService greetingService) {
 		this.greetingService = greetingService;
 	}
 

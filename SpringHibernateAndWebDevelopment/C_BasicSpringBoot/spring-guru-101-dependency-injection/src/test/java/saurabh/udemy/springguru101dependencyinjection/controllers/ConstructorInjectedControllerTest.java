@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.Description;
-import saurabh.udemy.springguru101dependencyinjection.service.GreetingServiceImpl;
+import saurabh.udemy.springguru101dependencyinjection.service.PropGreetingServiceImpl;
 
 
 class ConstructorInjectedControllerTest {
@@ -12,14 +12,14 @@ class ConstructorInjectedControllerTest {
 
 	@BeforeEach
 	void setUp() {
-		this.constructorInjectedController = new ConstructorInjectedController(new GreetingServiceImpl());
+		this.constructorInjectedController = new ConstructorInjectedController(new PropGreetingServiceImpl());
 	}
 
 	@Test
 	@Description("Test It")
 		//Does Nothing
 	void sayHello() {
-		Assertions.assertEquals(GreetingServiceImpl.HELLO, this.constructorInjectedController.sayHello());
+		Assertions.assertEquals(PropGreetingServiceImpl.HELLO, this.constructorInjectedController.sayHello());
 	}
 
 }
