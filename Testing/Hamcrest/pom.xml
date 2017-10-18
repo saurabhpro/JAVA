@@ -17,6 +17,7 @@
             <scope>test</scope>
         </dependency>
 
+        <!--for legacy learning reasons keeping it-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

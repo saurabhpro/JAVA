@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @DisplayName("A stack")
 class TestingAStackDemo {
 
-	Stack<Object> stack;
+	private Stack<Object> stack;
 
 	@Test
 	@DisplayName("is instantiated with new Stack()")

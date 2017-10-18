@@ -1,11 +1,11 @@
 package com.saurabh.junit5dynamictests;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.runner.RunWith;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @RunWith(JUnitPlatform.class)
 class TranslatorEngineJunit4StaticTest {
@@ -31,5 +31,4 @@ class TranslatorEngineJunit4StaticTest {
 	void testTranslateNo() {
 		assertEquals("Non", translatorEngine.translate("No"));
 	}
-
 }

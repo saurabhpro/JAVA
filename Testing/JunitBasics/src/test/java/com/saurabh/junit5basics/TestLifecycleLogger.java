@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 interface TestLifecycleLogger {
 
-	static final Logger LOG = Logger.getLogger(TestLifecycleLogger.class.getName());
+	Logger LOG = Logger.getLogger(TestLifecycleLogger.class.getName());
 
 	@BeforeAll
 	default void beforeAllTests() {

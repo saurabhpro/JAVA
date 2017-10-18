@@ -1,3 +1,4 @@
+import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 
@@ -6,31 +7,30 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 
-public class BasicHamcrestMatcherTest {
+class BasicHamcrestMatcherTest {
+
 	@Test
 	void basicHamcrestMatcherExamplesTest() {
 		//List
 		List<Integer> scores = Arrays.asList(99, 100, 101, 105);
-		assertThat(scores, hasSize(4));
-		assertThat(scores, hasItems(100, 101));
-		assertThat(scores, everyItem(greaterThan(90)));
-		assertThat(scores, everyItem(lessThan(200)));
+		MatcherAssert.assertThat(scores, Matchers.hasSize(4));
+		MatcherAssert.assertThat(scores, Matchers.hasItems(100, 101));
+		MatcherAssert.assertThat(scores, Matchers.everyItem(Matchers.greaterThan(90)));
+		MatcherAssert.assertThat(scores, Matchers.everyItem(Matchers.lessThan(200)));
 
 		// String
-		assertThat("", isEmptyString());
-		assertThat(null, isEmptyOrNullString());
+		MatcherAssert.assertThat("", Matchers.isEmptyString());
+		MatcherAssert.assertThat(null, Matchers.isEmptyOrNullString());
 
 		// Array
 		Integer[] marks = {1, 2, 3};
 
-		assertThat(marks, arrayWithSize(3));
-		assertNotEquals(marks, arrayContaining(1, 2), "All items of array not compared");    //order must be same
-		assertThat(marks, arrayContainingInAnyOrder(2, 3, 1));
+		MatcherAssert.assertThat(marks, Matchers.arrayWithSize(3));
+		assertNotEquals(marks, Matchers.arrayContaining(1, 2), "All items of array not compared");    //order must be same
+		MatcherAssert.assertThat(marks, Matchers.arrayContainingInAnyOrder(2, 3, 1));
 	}
 
 
@@ -49,7 +49,7 @@ public class BasicHamcrestMatcherTest {
 	void mapShouldContainValue() {
 		Map<String, Integer> values = getValues();
 
-		assertThat(values, Matchers.hasKey("B"));
+		MatcherAssert.assertThat(values, Matchers.hasKey("B"));
 	}
 
 	private List<Integer> getNumbers() {
@@ -60,6 +60,6 @@ public class BasicHamcrestMatcherTest {
 	void listOrderingIsIrrelevant() {
 		List<Integer> numbers = getNumbers();
 
-		assertThat(numbers, Matchers.hasItem(5));
+		MatcherAssert.assertThat(numbers, Matchers.hasItem(5));
 	}
 }

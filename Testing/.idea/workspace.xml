@@ -1,7 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ba31442-62af-4fef-b7a5-9df37d3a3dea" name="Default" comment="" />
+    <list default="true" id="6ba31442-62af-4fef-b7a5-9df37d3a3dea" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/readme/jhipster-jdl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/Collections/src/main/java/map/SortingInMaps.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/Collections/src/main/java/map/hashmap/api/MyLinkedHashMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/Collections/src/test/java/utils/MapTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../JavaCon/Collections/src/test/java/utils/SortingInMapsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/src/main/java/spring/guru/MainApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/src/main/java/spring/guru/config/PropertyConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/src/main/java/spring/guru/model/FakeDataSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/src/main/resources/second.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/target/classes/app.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/mvnw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/mvnw.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/readme/jhipster-jdl.jh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/src/main/java/udemy/saurabh/springguru104springmvcrecipies/SpringGuru104SpringMvcRecipiesApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/src/main/java/udemy/saurabh/springguru104springmvcrecipies/controllers/HomeController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/src/main/resources/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/src/test/java/udemy/saurabh/springguru104springmvcrecipies/SpringGuru104SpringMvcRecipiesApplicationTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Hamcrest/src/test/java/HamcrestMapWithJunit5.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/java/com/saurabh/v5_mail_using_springboot/SimpleEmailController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/java/com/saurabh/v5_mail_using_springboot/SimpleEmailController2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/java/com/saurabh/v5_mail_using_springboot/SimpleEmailController3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/java/com/saurabh/v5_mail_using_springboot/SimpleEmailController4.java.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/java/com/saurabh/v5_mail_using_springboot/SimpleEmailController5.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/resources/static/img/cat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/resources/templates/welcome.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/resources/templates/welcomev.vm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/Spring Boot + AngularJS + Spring Data + JPA CRUD App Example - WebSystique.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/itworks.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/java/com/websystique/springboot/V9SpringBootCRUDApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/java/com/websystique/springboot/configuration/JpaConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/java/com/websystique/springboot/controller/AppController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/java/com/websystique/springboot/controller/RestApiController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/java/com/websystique/springboot/model/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/java/com/websystique/springboot/repositories/UserRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/java/com/websystique/springboot/service/UserService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/java/com/websystique/springboot/service/UserServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/java/com/websystique/springboot/util/CustomErrorType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/resources/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/resources/static/css/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/resources/static/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/resources/static/js/app/UserController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/resources/static/js/app/UserService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/resources/static/js/app/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/resources/static/js/lib/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/resources/static/js/lib/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/resources/static/js/lib/localforage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/resources/static/js/lib/ngStorage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/resources/templates/error.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/resources/templates/index.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/src/main/resources/templates/list.ftl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v9_SpringBootCRUDApplication/v9_SpringBootCRUDApplication.iml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/src/main/java/AppConfig.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/src/main/java/com/saurabh/config/AppConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/src/main/java/SampleApp.java" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/src/main/java/com/saurabh/SampleApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaCon/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/Collections/Collections.iml" afterPath="$PROJECT_DIR$/../JavaCon/Collections/Collections.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/Collections/pom.xml" afterPath="$PROJECT_DIR$/../JavaCon/Collections/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaCon/Collections/src/main/java/map/hashmap/ConcurrentHashMapClass.java" afterPath="$PROJECT_DIR$/../JavaCon/Collections/src/main/java/map/hashmap/ConcurrentHashMapClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/pom.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/popertiesInJavaSpringConfiguration.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/popertiesInJavaSpringConfiguration.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hamcrest/pom.xml" afterPath="$PROJECT_DIR$/Hamcrest/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java" afterPath="$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/pom.xml" afterPath="$PROJECT_DIR$/JunitBasics/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestLifecycleLogger.java" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestLifecycleLogger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestingAStackDemo.java" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestingAStackDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/TranslatorEngineJunit4StaticTest.java" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/TranslatorEngineJunit4StaticTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Hamcrest/target/" />
@@ -30,52 +109,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JunitBasics/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="332">
-                <caret line="325" column="2" lean-forward="false" selection-start-line="325" selection-start-column="4" selection-end-line="325" selection-end-column="20" />
-                <folding>
-                  <marker date="1505748146000" expanded="true" signature="7453:7481" ph="@{...}" />
-                  <marker date="1505748146000" expanded="true" signature="7510:7520" ph=" { " />
-                  <marker date="1505748146000" expanded="true" signature="7537:7543" ph=" }" />
-                  <marker date="1505748146000" expanded="true" signature="7721:8000" ph="..." />
-                  <marker date="1505748146000" expanded="true" signature="7820:7990" ph="..." />
-                  <marker date="1505748146000" expanded="true" signature="7857:7957" ph="..." />
-                  <marker date="1505748146000" expanded="true" signature="8243:8560" ph="{...}" />
-                  <marker date="1505748146000" expanded="true" signature="8289:8554" ph="{...}" />
-                  <marker date="1505748146000" expanded="true" signature="9433:9444" ph=" { " />
-                  <marker date="1505748146000" expanded="true" signature="9476:9482" ph=" }" />
-                  <marker date="1505748146000" expanded="true" signature="9591:9693" ph="{...}" />
-                  <marker date="1505748146000" expanded="true" signature="9930:10535" ph="/.../" />
-                  <marker date="1505748146000" expanded="true" signature="12000:12134" ph="..." />
-                  <marker date="1505748146000" expanded="true" signature="12111:12134" ph="..." />
-                  <marker date="1505748146000" expanded="true" signature="15183:15275" ph="{...}" />
-                  <marker date="1505748146000" expanded="true" signature="16067:16184" ph="@{...}" />
-                  <marker date="1505748146000" expanded="true" signature="16939:17742" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DynamicTestsDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/DynamicTestsDemo.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hamcrest/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            <state relative-caret-position="265">
+              <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TranslatorEngineJunit5DynamicTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/TranslatorEngineJunit5DynamicTest.java">
+      <file leaf-file-name="BasicHamcrestMatcherTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+            <state relative-caret-position="-13">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,21 +131,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TranslatorEngineJunit4StaticTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/TranslatorEngineJunit4StaticTest.java">
+      <file leaf-file-name="HamcrestMapWithJunit5.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/HamcrestMapWithJunit5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="143">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#687#688#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JunitBasics/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <marker date="1508337564870" expanded="true" signature="636:667" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestLifecycleLogger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestLifecycleLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestInterfaceDynamicTestsDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestInterfaceDynamicTestsDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StandardTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/StandardTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CafeBeanHamcrestJunit4Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestJunit4Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,16 +240,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/stringconcat/TestAssertions.java" />
-        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/TestJunit.java" />
-        <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/TestRunner.java" />
-        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/basic/TestRunner.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/junit5basics/StandardTests.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit4legacy/stringconcat/TestAssertions.java" />
         <option value="$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestTest.java" />
-        <option value="$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestJunit4Test.java" />
-        <option value="$PROJECT_DIR$/Hamcrest/pom.xml" />
         <option value="$PROJECT_DIR$/ManualStubTesting/pom.xml" />
         <option value="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java" />
         <option value="$PROJECT_DIR$/Mockito/pom.xml" />
@@ -170,15 +256,10 @@
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/junit5basics/Person.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/Person.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/junit5basics/Person.java" />
-        <option value="$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java" />
         <option value="$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestJunit5Test.java" />
-        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/AssertionsDemo.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/DisabledTestsDemo.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestReporterDemo.java" />
-        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestingAStackDemo.java" />
-        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestLifecycleLogger.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestInterfaceDynamicTestsDemo.java" />
-        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/StandardTests.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/RepeatedTestsDemo.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/ParameterizedTestWithJUnit.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/DynamicTestsDemo.java" />
@@ -188,15 +269,28 @@
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/student/StudentTest.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/junit5dynamictests/TranslatorEngine.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/kk.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/JunitBasics/pom.xml" />
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/IncrementTest.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/RepeatedIncrementTest.java" />
         <option value="$PROJECT_DIR$/JunitBasics/README.md" />
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/DynamicTestsMore.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/DynamicTestsDemo.java" />
-        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/TranslatorEngineJunit4StaticTest.java" />
         <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/TranslatorEngineJunit5DynamicTestk.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/junit5basics/Details.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/junit5basics/Theme.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/ConsoleDetailsTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/HamcrestWithJunit5.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestLifecycleLogger.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/TranslatorEngineJunit4StaticTest.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/AssertionsDemo.java" />
+        <option value="$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestJunit4Test.java" />
+        <option value="$PROJECT_DIR$/Hamcrest/pom.xml" />
+        <option value="$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java" />
+        <option value="$PROJECT_DIR$/Hamcrest/src/test/java/HamcrestWithJunit5.java" />
+        <option value="$PROJECT_DIR$/Hamcrest/src/test/java/HamcrestMapWithJunit5.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/pom.xml" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestingAStackDemo.java" />
+        <option value="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/StandardTests.java" />
       </list>
     </option>
   </component>
@@ -229,10 +323,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="806" />
+    <option name="height" value="811" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -252,7 +346,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,47 +357,55 @@
             <path>
               <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
               <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
+              <item name="Hamcrest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
               <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
+              <item name="Hamcrest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
               <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
+              <item name="Hamcrest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="Hamcrest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="Hamcrest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
               <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
+              <item name="Hamcrest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="saurabh" type="462c0819:PsiDirectoryNode" />
+              <item name="ccd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
               <item name="Testing" type="462c0819:PsiDirectoryNode" />
               <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="saurabh" type="462c0819:PsiDirectoryNode" />
-              <item name="junit5dynamictests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
@@ -342,30 +444,15 @@
             <path>
               <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
               <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="saurabh" type="462c0819:PsiDirectoryNode" />
-              <item name="junit5dynamictests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="JunitBasics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="saurabh" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
+              <item name="ManualStubTesting" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,6 +474,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.saurabh.junit5basics" />
       <recent name="junit5basics" />
       <recent name="" />
     </key>
@@ -398,9 +486,9 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.saurabh.junit5dynamictests" />
       <recent name="com.saurabh" />
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ManualStubTesting/src/main/java" />
@@ -408,6 +496,7 @@
       <recent name="$PROJECT_DIR$/PluralSight" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.saurabh.junit5basics" />
       <recent name="pluralsight.testing.ccd" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -429,11 +518,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TranslatorEngineJunit4StaticTest">
-    <configuration name="RepeatedIncrementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RepeatedTestsDemo.customDisplayNameWithLongPattern">
+    <configuration name="RepeatedTestsDemo.customDisplayNameWithLongPattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.saurabh.junit5dynamictests.*" />
+          <option name="PATTERN" value="com.saurabh.junit5basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -441,9 +530,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.saurabh.junit5basics" />
-      <option name="MAIN_CLASS_NAME" value="com.saurabh.junit5basics.RepeatedIncrementTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.saurabh.junit5basics.RepeatedTestsDemo" />
+      <option name="METHOD_NAME" value="customDisplayNameWithLongPattern(org.junit.jupiter.api.TestInfo)" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -455,20 +544,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TranslationEngineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RepeatedTestsDemo.repeatedTestInGerman" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.saurabh.junit5dynamictests.*" />
+          <option name="PATTERN" value="com.saurabh.junit5basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="JunitBasics" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.saurabh.junit5dynamictests" />
-      <option name="MAIN_CLASS_NAME" value="com.saurabh.junit5dynamictests.TranslationEngineTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.saurabh.junit5basics" />
+      <option name="MAIN_CLASS_NAME" value="com.saurabh.junit5basics.RepeatedTestsDemo" />
+      <option name="METHOD_NAME" value="repeatedTestInGerman" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -480,20 +569,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TranslatorEngineJunit4StaticTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RepeatedTestsDemo.repeatedTestWithRepetitionInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.saurabh.junit5dynamictests.*" />
+          <option name="PATTERN" value="com.saurabh.junit5basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="JunitBasics" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.saurabh.junit5dynamictests" />
-      <option name="MAIN_CLASS_NAME" value="com.saurabh.junit5dynamictests.TranslatorEngineJunit4StaticTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.saurabh.junit5basics" />
+      <option name="MAIN_CLASS_NAME" value="com.saurabh.junit5basics.RepeatedTestsDemo" />
+      <option name="METHOD_NAME" value="repeatedTestWithRepetitionInfo(org.junit.jupiter.api.RepetitionInfo)" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -505,20 +594,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TranslatorEngineJunit5DynamicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StandardTests.succeedingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.saurabh.junit5dynamictests.*" />
+          <option name="PATTERN" value="com.saurabh.junit5basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="JunitBasics" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.saurabh.junit5dynamictests" />
-      <option name="MAIN_CLASS_NAME" value="com.saurabh.junit5dynamictests.TranslatorEngineJunit5DynamicTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.saurabh.junit5basics" />
+      <option name="MAIN_CLASS_NAME" value="com.saurabh.junit5basics.StandardTests" />
+      <option name="METHOD_NAME" value="succeedingTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -530,18 +619,18 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TranslatorEngineJunit5DynamicTestk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestingAStackDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.saurabh.junit5dynamictests.*" />
+          <option name="PATTERN" value="com.saurabh.junit5basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="JunitBasics" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.saurabh.junit5dynamictests" />
-      <option name="MAIN_CLASS_NAME" value="com.saurabh.junit5dynamictests.TranslatorEngineJunit5DynamicTestk" />
+      <option name="PACKAGE_NAME" value="com.saurabh.junit5basics" />
+      <option name="MAIN_CLASS_NAME" value="com.saurabh.junit5basics.TestingAStackDemo" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -912,19 +1001,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.RepeatedIncrementTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TranslatorEngineJunit5DynamicTestk" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TranslatorEngineJunit5DynamicTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TranslationEngineTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TranslatorEngineJunit4StaticTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestingAStackDemo" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StandardTests.succeedingTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RepeatedTestsDemo.repeatedTestWithRepetitionInfo" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RepeatedTestsDemo.repeatedTestInGerman" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RepeatedTestsDemo.customDisplayNameWithLongPattern" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TranslatorEngineJunit4StaticTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TranslationEngineTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TranslatorEngineJunit5DynamicTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TranslatorEngineJunit5DynamicTestk" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RepeatedIncrementTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RepeatedTestsDemo.customDisplayNameWithLongPattern" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RepeatedTestsDemo.repeatedTestInGerman" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RepeatedTestsDemo.repeatedTestWithRepetitionInfo" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StandardTests.succeedingTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestingAStackDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -950,6 +1039,9 @@
       <workItem from="1505611249404" duration="10000" />
       <workItem from="1505611301812" duration="5117000" />
       <workItem from="1505743381328" duration="4839000" />
+      <workItem from="1508308788013" duration="444000" />
+      <workItem from="1508335964747" duration="74000" />
+      <workItem from="1508336149167" duration="1635000" />
     </task>
     <task id="LOCAL-00001" summary="Testing in Java">
       <created>1504350686526</created>
@@ -1018,42 +1110,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RepeatedIncrementTest - 2017.09.18 at 20h 45m 06s.xml">
-      <configuration name="RepeatedIncrementTest" configurationId="JUnit" />
+    <history-entry file="AssertionsDemo_standardAssertions - 2017.10.18 at 19h 55m 37s.xml">
+      <configuration name="AssertionsDemo.standardAssertions" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedIncrementTest - 2017.09.18 at 20h 45m 24s.xml">
-      <configuration name="RepeatedIncrementTest" configurationId="JUnit" />
+    <history-entry file="AssertionsDemo_standardAssertions - 2017.10.18 at 19h 55m 54s.xml">
+      <configuration name="AssertionsDemo.standardAssertions" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedIncrementTest - 2017.09.18 at 20h 45m 36s.xml">
-      <configuration name="RepeatedIncrementTest" configurationId="JUnit" />
+    <history-entry file="RepeatedTestsDemo_customDisplayNameWithLongPattern - 2017.10.18 at 20h 12m 39s.xml">
+      <configuration name="RepeatedTestsDemo.customDisplayNameWithLongPattern" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedIncrementTest - 2017.09.18 at 20h 47m 56s.xml">
-      <configuration name="RepeatedIncrementTest" configurationId="JUnit" />
+    <history-entry file="RepeatedTestsDemo_repeatedTestInGerman - 2017.10.18 at 20h 12m 22s.xml">
+      <configuration name="RepeatedTestsDemo.repeatedTestInGerman" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepeatedIncrementTest - 2017.09.18 at 20h 48m 12s.xml">
-      <configuration name="RepeatedIncrementTest" configurationId="JUnit" />
+    <history-entry file="RepeatedTestsDemo_repeatedTestWithRepetitionInfo - 2017.10.18 at 20h 11m 12s.xml">
+      <configuration name="RepeatedTestsDemo.repeatedTestWithRepetitionInfo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TranslatorEngineJunit4StaticTest - 2017.09.18 at 21h 13m 43s.xml">
-      <configuration name="TranslatorEngineJunit4StaticTest" configurationId="JUnit" />
+    <history-entry file="RepeatedTestsDemo_repeatedTestWithRepetitionInfo - 2017.10.18 at 20h 11m 52s.xml">
+      <configuration name="RepeatedTestsDemo.repeatedTestWithRepetitionInfo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TranslatorEngineJunit4StaticTest - 2017.09.18 at 21h 14m 09s.xml">
-      <configuration name="TranslatorEngineJunit4StaticTest" configurationId="JUnit" />
+    <history-entry file="StandardTests_succeedingTest - 2017.10.18 at 20h 10m 33s.xml">
+      <configuration name="StandardTests.succeedingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TranslatorEngineJunit4StaticTest - 2017.09.18 at 21h 14m 42s.xml">
-      <configuration name="TranslatorEngineJunit4StaticTest" configurationId="JUnit" />
+    <history-entry file="TestInterfaceDynamicTestsDemo - 2017.10.18 at 20h 09m 32s.xml">
+      <configuration name="TestInterfaceDynamicTestsDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TranslatorEngineJunit5DynamicTest - 2017.09.18 at 21h 09m 50s.xml">
-      <configuration name="TranslatorEngineJunit5DynamicTest" configurationId="JUnit" />
+    <history-entry file="TestingAStackDemo - 2017.10.18 at 20h 09m 58s.xml">
+      <configuration name="TestingAStackDemo" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TranslatorEngineJunit5DynamicTestk - 2017.09.18 at 21h 09m 03s.xml">
       <configuration name="TranslatorEngineJunit5DynamicTestk" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38530000" />
+    <option name="totallyTimeSpent" value="40683000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="814" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="811" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1064,21 +1156,21 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33053222" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960895" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28183118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2811159" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991655" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1118,112 +1210,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ManualStubTesting/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithHandWrittenStubTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoStubTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestDrivenDevelopment/src/test/java/pluralsight/testing/TDD/wrap/WordWrapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/target/surefire-reports/com.saurabh.junit4legacy.stringconcat.TestAssertions.txt" />
-    <entry file="file://$PROJECT_DIR$/JunitBasics/target/surefire-reports/TEST-com.saurabh.junit4legacy.basic.TestJunit.xml" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="1248" column="0" lean-forward="false" selection-start-line="1248" selection-start-column="0" selection-end-line="1248" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/junit5basics/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PluralSight/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PluralSight/src/test/java/pluralsight/testing/csvsalesreport/manualDI/SalesAnalysisServiceWithMockitoMockTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
           <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestJunit4Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1368">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestJunit5Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="119" column="15" lean-forward="true" selection-start-line="119" selection-start-column="15" selection-end-line="119" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestingAStackDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/DisabledTestsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1244,36 +1234,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestInterfaceDynamicTestsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/StandardTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestLifecycleLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestReporterDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1288,7 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1296,14 +1255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mockito/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1326,7 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1334,15 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit4legacy/stringconcat/TestAssertions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1357,7 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1365,7 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1382,7 +1321,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1392,7 +1330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1400,7 +1337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1580">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1416,25 +1352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="92" column="55" lean-forward="false" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="32" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-          <folding>
-            <marker date="1505747188000" expanded="true" signature="636:667" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1446,30 +1363,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/RepeatedTestsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="38" column="62" lean-forward="true" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/AssertionsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1754">
-          <caret line="126" column="8" lean-forward="false" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/RepeatedIncrementTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="58" lean-forward="true" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="false" />
+            <element signature="e#525#526#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1477,7 +1378,7 @@
     <entry file="file://$PROJECT_DIR$/JunitBasics/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="332">
+          <first_editor relative-caret-position="4875">
             <caret line="325" column="2" lean-forward="false" selection-start-line="325" selection-start-column="4" selection-end-line="325" selection-end-column="20" />
             <folding>
               <marker date="1505748146000" expanded="true" signature="7453:7481" ph="@{...}" />
@@ -1503,14 +1404,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/DynamicTestsMore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/DynamicTestsMore.java" />
     <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/DynamicTestsDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1519,31 +1413,209 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0-sources.jar!/org/junit/jupiter/api/TestReporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/junit5basics/Details.java" />
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/junit5basics/Theme.java" />
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/TranslatorEngineJunit5DynamicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/ConsoleDetailsTests.java" />
+    <entry file="file://$PROJECT_DIR$/ManualStubTesting/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit4legacy/stringconcat/TestAssertions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/TranslatorEngineJunit4StaticTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
             <element signature="e#687#688#0" expanded="true" />
             <element signature="e#747#748#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5dynamictests/TranslatorEngineJunit5DynamicTest.java">
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/junit5basics/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        <state relative-caret-position="105">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mockito/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/DisabledTestsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0-sources.jar!/org/junit/jupiter/api/Assertions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="139" column="23" lean-forward="false" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+          <folding>
+            <element signature="e#4681#4682#0" expanded="false" />
+            <element signature="e#4729#4730#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/AssertionsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestJunit5Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hamcrest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/pluralsight/testing/ccd/CafeBeanHamcrestJunit4Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/HamcrestMapWithJunit5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hamcrest/src/test/java/BasicHamcrestMatcherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1508337564870" expanded="true" signature="636:667" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestLifecycleLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestingAStackDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/TestInterfaceDynamicTestsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0-sources.jar!/org/junit/jupiter/api/RepetitionInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/RepeatedTestsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/StandardTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
