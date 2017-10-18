@@ -63,7 +63,7 @@ public class ConcurrentHashMapClass {
          */
 		for (String key : map.keySet()) {
 			if (key.equals("3"))
-				map.put(key + "new", "new3");
+				map.put(key + "new", "new3");   // java.util.ConcurrentModificationException
 
 		}
 		System.out.println("HashMap after iterator : " + map);

@@ -1,0 +1,50 @@
+entity Recipie {
+	description String,
+	prepTime Integer,
+    coookTime Integer,
+    servingSize Integer,
+    source String,
+    url String,
+    directions String,
+    difficulty Difficulty,
+    image Byte[]
+}
+
+entity Category {
+	categoryName String
+}
+
+entity Ingredient {
+	description String,
+	amount Double
+}
+
+entity UnitOfMeasure {
+	uom String
+}
+
+entity Notes {
+	notes String
+}
+
+enum Difficulty {
+	EASY, MODERATE, HARD
+}
+
+relationship OneToOne {
+	 Ingredient to UnitOfMeasure
+}
+
+relationship ManyToMany {
+	Recipie to Category
+}
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+	Recipie to Ingredient
+}
+
+// defining multiple oneToOne relationships
+relationship OneToOne {
+	Recipie to Notes
+}

@@ -25,7 +25,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/src/main/resources/application.properties" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/src/main/resources/templates/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/spring-guru-104-spring-mvc-recipies/src/test/java/udemy/saurabh/springguru104springmvcrecipies/SpringGuru104SpringMvcRecipiesApplicationTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/AssumptionsDemo.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/java/com/saurabh/v5_mail_using_springboot/SimpleEmailController.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/java/com/saurabh/v5_mail_using_springboot/SimpleEmailController2.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v5_mail_using_springboot/src/main/java/com/saurabh/v5_mail_using_springboot/SimpleEmailController3.java" afterPath="" />
@@ -72,10 +71,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/pom.xml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/popertiesInJavaSpringConfiguration.iml" afterPath="$PROJECT_DIR$/../SpringHibernateAndWebDevelopment/A_BasicsOfSpring/popertiesInJavaSpringConfiguration/popertiesInJavaSpringConfiguration.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/junit5dynamictests/TranslatorEngine.java" afterPath="$PROJECT_DIR$/JunitBasics/src/main/java/com/saurabh/junit5dynamictests/TranslatorEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java" afterPath="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoBusinessImplStubTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoServiceStub.java" afterPath="$PROJECT_DIR$/ManualStubTesting/src/test/java/TodoServiceStub.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PluralSight/src/main/resources/example-sales.csv" afterPath="$PROJECT_DIR$/PluralSight/src/main/resources/example-sales.csv" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -167,7 +162,7 @@
         <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/AssumptionsDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1061,7 +1056,7 @@
       <workItem from="1505743381328" duration="4839000" />
       <workItem from="1508308788013" duration="444000" />
       <workItem from="1508335964747" duration="74000" />
-      <workItem from="1508336149167" duration="1983000" />
+      <workItem from="1508336149167" duration="2056000" />
     </task>
     <task id="LOCAL-00001" summary="Testing in Java">
       <created>1504350686526</created>
@@ -1133,7 +1128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508337850322</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="upgraded tp junit 5 jupiter&#10;updated surefire-plugin to include both junit4/junit5">
+      <created>1508338218191</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1508338218191</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1169,7 +1171,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41031000" />
+    <option name="totallyTimeSpent" value="41104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="811" extended-state="0" />
@@ -1183,7 +1185,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33053222" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960895" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1643,7 +1645,7 @@
     <entry file="file://$PROJECT_DIR$/JunitBasics/src/test/java/com/saurabh/junit5basics/AssumptionsDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
