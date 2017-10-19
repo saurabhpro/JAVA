@@ -96,10 +96,10 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
 		tacosRecipe.setPrepTime(20);
 		tacosRecipe.setDifficulty(Difficulty.MODERATE);
 
-		tacosRecipe.setDirections(RecipeDescriptions.TacosPreparationDirections);
+		tacosRecipe.setDirections(RecipeDescriptions.TacosPreparationDirections.replaceAll("\\n", " <br/> "));
 
 		Notes tacoNotes = new Notes();
-		tacoNotes.setRecipeNotes(RecipeNotes.TacoMakingNotes);
+		tacoNotes.setRecipeNotes(RecipeNotes.TacoMakingNotes.replaceAll("\\n", " <br/> "));
 
 		//tacoNotes.setRecipe(tacosRecipe);
 		tacosRecipe.setNotes(tacoNotes);
