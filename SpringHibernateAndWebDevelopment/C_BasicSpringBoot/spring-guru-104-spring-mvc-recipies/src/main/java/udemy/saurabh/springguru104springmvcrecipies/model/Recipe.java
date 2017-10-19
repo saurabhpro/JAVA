@@ -1,6 +1,8 @@
 package udemy.saurabh.springguru104springmvcrecipies.model;
 
 import javax.persistence.*;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -15,6 +17,8 @@ public class Recipe {
 	private Integer servings;
 	private String source;
 	private String url;
+
+	@Lob
 	private String directions;
 
 	/*
@@ -32,13 +36,13 @@ public class Recipe {
 	@JoinTable(name = "recipe_category",
 			joinColumns = @JoinColumn(name = "op"),
 			inverseJoinColumns = @JoinColumn(name = "category_id"))
-	private Set<Category> categories;
+	private Set<Category> categories = new HashSet<>();
 
 	/*
 	 * The Cascade.All means any operation like Delete, Fetch etc will also be applied to other type in question
 	 */
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "recipe")
-	private Set<Ingredient> ingredients;
+	private Set<Ingredient> ingredients = new HashSet<>();
 
 	/*
 	 * To store large amount of data in DB
@@ -154,5 +158,24 @@ public class Recipe {
 
 	public void setNotes(Notes notes) {
 		this.notes = notes;
+	}
+
+	@Override
+	public String toString() {
+		return "Recipe{" +
+				"id=" + id +
+				", description='" + description + '\'' +
+				", prepTime=" + prepTime +
+				", cookTime=" + cookTime +
+				", servings=" + servings +
+				", source='" + source + '\'' +
+				", url='" + url + '\'' +
+				", directions='" + directions + '\'' +
+				", difficulty=" + difficulty +
+				", categories=" + categories +
+				", ingredients=" + ingredients +
+				", image=" + Arrays.toString(image) +
+				", notes=" + notes +
+				'}';
 	}
 }

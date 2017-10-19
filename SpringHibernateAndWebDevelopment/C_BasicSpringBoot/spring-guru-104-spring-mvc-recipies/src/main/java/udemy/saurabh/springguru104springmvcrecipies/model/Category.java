@@ -38,4 +38,12 @@ public class Category {
 		this.description = description;
 	}
 
+	@Override
+	public String toString() {
+		return "Category{" +
+				"id=" + id +
+				", description='" + description + '\'' +
+				", recipe=" + recipe +
+				'}';
+	}
 }

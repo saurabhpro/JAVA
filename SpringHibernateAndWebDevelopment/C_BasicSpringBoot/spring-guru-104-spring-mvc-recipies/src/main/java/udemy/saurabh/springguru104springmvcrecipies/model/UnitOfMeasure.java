@@ -8,7 +8,16 @@ public class UnitOfMeasure {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	private String unitOfMeasure;
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	private String description;
+
 	@OneToOne
 	private Ingredient ingredient;
 
@@ -20,14 +29,6 @@ public class UnitOfMeasure {
 		this.id = id;
 	}
 
-	public String getUnitOfMeasure() {
-		return unitOfMeasure;
-	}
-
-	public void setUnitOfMeasure(String unitOfMeasure) {
-		this.unitOfMeasure = unitOfMeasure;
-	}
-
 	public Ingredient getIngredient() {
 		return ingredient;
 	}
@@ -36,4 +37,12 @@ public class UnitOfMeasure {
 		this.ingredient = ingredient;
 	}
 
+	@Override
+	public String toString() {
+		return "UnitOfMeasure{" +
+				"id=" + id +
+				", description='" + description + '\'' +
+				", ingredient=" + ingredient +
+				'}';
+	}
 }
