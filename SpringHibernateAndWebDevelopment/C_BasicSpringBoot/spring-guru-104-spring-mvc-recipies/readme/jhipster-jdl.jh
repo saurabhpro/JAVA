@@ -1,4 +1,4 @@
-entity Recipie {
+entity Recipe {
 	description String,
 	prepTime Integer,
     coookTime Integer,
@@ -32,19 +32,22 @@ enum Difficulty {
 }
 
 relationship OneToOne {
-	 Ingredient to UnitOfMeasure
+	 Ingredient{unitOfMeasure} to UnitOfMeasure
 }
 
 relationship ManyToMany {
-	Recipie to Category
+	Recipe{recipe(category)} to Category,
+    Category{recipe} to Recipe
 }
 
-// defining multiple OneToMany relationships with comments
 relationship OneToMany {
-	Recipie to Ingredient
+	Recipe{ingredient} to Ingredient
 }
 
-// defining multiple oneToOne relationships
 relationship OneToOne {
-	Recipie to Notes
+	Recipe{notes} to Notes
+}
+
+relationship ManyToOne {
+	Ingredient{ingredient} to Recipe
 }

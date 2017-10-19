@@ -1,8 +1,14 @@
 package udemy.saurabh.springguru104springmvcrecipies.model;
 
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.Set;
 
+@Data
+@EqualsAndHashCode(exclude = {"recipe"})
 @Entity
 public class Category {
 	@Id
@@ -12,38 +18,6 @@ public class Category {
 	private String description;
 
 	@ManyToMany(mappedBy = "categories")
-	private Set<Recipe> recipe;
+	private Set<Recipe> recipe = new HashSet<>();
 
-	public Set<Recipe> getRecipe() {
-		return recipe;
-	}
-
-	public void setRecipe(Set<Recipe> recipe) {
-		this.recipe = recipe;
-	}
-
-	public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-	public String getDescription() {
-		return description;
-	}
-
-	public void setDescription(String description) {
-		this.description = description;
-	}
-
-	@Override
-	public String toString() {
-		return "Category{" +
-				"id=" + id +
-				", description='" + description + '\'' +
-				", recipe=" + recipe +
-				'}';
-	}
 }
