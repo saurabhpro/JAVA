@@ -6,6 +6,7 @@ import udemy.saurabh.springguru104springmvcrecipies.model.Recipe;
 import udemy.saurabh.springguru104springmvcrecipies.repositories.IRecipeRepository;
 
 import java.util.HashSet;
+import java.util.Optional;
 import java.util.Set;
 
 @Slf4j
@@ -27,5 +28,12 @@ public class RecipeServiceImpl implements IRecipeService {
 		recipeRepository.findAll().iterator().forEachRemaining(recipeSet::add);
 
 		return recipeSet;
+	}
+
+	@Override
+	public Recipe findById(Long id) {
+		Optional<Recipe> recipeOptional = recipeRepository.findById(id);
+
+		return recipeOptional.orElse(null);
 	}
 }

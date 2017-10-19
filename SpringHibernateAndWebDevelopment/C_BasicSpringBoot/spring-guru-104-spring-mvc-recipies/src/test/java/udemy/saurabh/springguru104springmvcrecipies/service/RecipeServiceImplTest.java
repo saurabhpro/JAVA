@@ -9,6 +9,7 @@ import udemy.saurabh.springguru104springmvcrecipies.model.Recipe;
 import udemy.saurabh.springguru104springmvcrecipies.repositories.IRecipeRepository;
 
 import java.util.HashSet;
+import java.util.Optional;
 import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -48,8 +49,26 @@ class RecipeServiceImplTest {
 		when(recipeService.getRecipes()).thenReturn(recipesData);       // got sample data back
 		Set<Recipe> recipes = recipeService.getRecipes();
 
-		//then
+		// then
 		assertEquals(recipes.size(), 1);
 		verify(recipeRepository, times(1)).findAll();
+	}
+
+	@Test
+	void getRecipeByIdTest() throws Exception {
+
+		// given
+		Recipe recipe = new Recipe();
+		recipe.setId(1L);
+		Optional<Recipe> recipeOptional = Optional.of(recipe);
+
+		// when
+		when(recipeRepository.findById(anyLong())).thenReturn(recipeOptional);
+		Recipe recipeReturned = recipeService.findById(1L);
+
+		// then
+		Assertions.assertNotNull(recipeReturned, "Null recipe returned");
+		verify(recipeRepository, times(1)).findById(anyLong());
+		verify(recipeRepository, never()).findAll();
 	}
 }
