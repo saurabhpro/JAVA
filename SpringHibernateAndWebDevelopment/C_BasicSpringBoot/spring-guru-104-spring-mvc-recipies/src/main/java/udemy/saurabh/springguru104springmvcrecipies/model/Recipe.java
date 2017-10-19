@@ -158,6 +158,17 @@ public class Recipe {
 
 	public void setNotes(Notes notes) {
 		this.notes = notes;
+		notes.setRecipe(this);
+	}
+
+	/**
+	 * add <code>ingredient</code> to the set of ingredients
+	 *
+	 * @param ingredient to be added
+	 */
+	public void addIngredient(Ingredient ingredient) {
+		ingredient.setRecipe(this);
+		this.ingredients.add(ingredient);
 	}
 
 	@Override
