@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 import udemy.saurabh.springguru104springmvcrecipies.model.*;
 import udemy.saurabh.springguru104springmvcrecipies.repositories.ICategoryRepository;
 import udemy.saurabh.springguru104springmvcrecipies.repositories.IRecipeRepository;
@@ -28,29 +29,33 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
 		this.unitOfMeasureRepository = unitOfMeasureRepository;
 	}
 
+	@Transactional
 	@Override
 	public void onApplicationEvent(ContextRefreshedEvent event) {
 		recipeRepository.saveAll(getRecipes());
+
+		log.info("Loading Bootstrap Data");
 	}
 
 	private List<Recipe> getRecipes() {
 
 		List<Recipe> recipes = new ArrayList<>(2);
 
+		RecipeBasePreparer rawItemPreparer = new RecipeBasePreparer();
+
 		//Yummy Guac
-		Recipe guacRecipe = getGuacamoleRecipe();
+		Recipe guacRecipe = getGuacamoleRecipe(rawItemPreparer);
 		recipes.add(guacRecipe);
 
 		//Yummy Tacos
-		Recipe tacosRecipe = getChickenTacoRecipe();
+		Recipe tacosRecipe = getChickenTacoRecipe(rawItemPreparer);
 		recipes.add(tacosRecipe);
 
 		return recipes;
 	}
 
-	private Recipe getGuacamoleRecipe() {
+	private Recipe getGuacamoleRecipe(RecipeBasePreparer rb) {
 		Recipe guacRecipe = new Recipe();
-		RecipeBasePreparer rb = new RecipeBasePreparer();
 
 		guacRecipe.setDescription("Perfect Guacamole");
 		guacRecipe.setPrepTime(10);
@@ -97,9 +102,8 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
 		return guacRecipe;
 	}
 
-	private Recipe getChickenTacoRecipe() {
+	private Recipe getChickenTacoRecipe(RecipeBasePreparer rb) {
 		Recipe tacosRecipe = new Recipe();
-		RecipeBasePreparer rb = new RecipeBasePreparer();
 
 		tacosRecipe.setDescription("Spicy Grilled Chicken Taco");
 		tacosRecipe.setCookTime(9);
