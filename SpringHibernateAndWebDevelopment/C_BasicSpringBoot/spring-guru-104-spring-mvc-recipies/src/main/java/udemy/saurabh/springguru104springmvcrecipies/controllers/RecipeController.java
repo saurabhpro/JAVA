@@ -2,10 +2,7 @@ package udemy.saurabh.springguru104springmvcrecipies.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 import udemy.saurabh.springguru104springmvcrecipies.model.commands.RecipeCommand;
 import udemy.saurabh.springguru104springmvcrecipies.service.IRecipeService;
 
@@ -35,12 +32,13 @@ public class RecipeController {
 
 	@RequestMapping("/{id}/update")
 	public String updateRecipe(@PathVariable String id, Model model) {
-		model.addAttribute("recipe", recipeService.findById(Long.valueOf(id)));
+		model.addAttribute("recipe", recipeService.findCommandById(Long.valueOf(id)));
+
 		return "recipe/recipeform";
 	}
 
 	@PostMapping
-	@RequestMapping("/")
+	@GetMapping("/")
 	public String saveOrUpdate(@ModelAttribute RecipeCommand command) {
 		RecipeCommand savedCommand = recipeService.saveRecipeCommand(command);
 
