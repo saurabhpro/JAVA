@@ -1,6 +1,7 @@
 package udemy.saurabh.springguru104springmvcrecipies.controllers;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,6 +13,7 @@ public class HomeController {
 
 	private IRecipeService recipeService;
 
+	@Autowired
 	public HomeController(IRecipeService recipeService) {
 		this.recipeService = recipeService;
 	}
