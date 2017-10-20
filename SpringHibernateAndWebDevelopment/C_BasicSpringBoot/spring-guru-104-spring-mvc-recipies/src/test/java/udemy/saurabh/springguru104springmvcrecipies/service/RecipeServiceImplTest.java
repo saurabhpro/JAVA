@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import udemy.saurabh.springguru104springmvcrecipies.model.Recipe;
+import udemy.saurabh.springguru104springmvcrecipies.model.converters.RecipeCommandToRecipe;
+import udemy.saurabh.springguru104springmvcrecipies.model.converters.RecipeToRecipeCommand;
 import udemy.saurabh.springguru104springmvcrecipies.repositories.IRecipeRepository;
 
 import java.util.HashSet;
@@ -21,11 +23,17 @@ class RecipeServiceImplTest {
 	@Mock
 	private IRecipeRepository recipeRepository;
 
+	@Mock
+	private RecipeToRecipeCommand recipeToRecipeCommand;
+
+	@Mock
+	private RecipeCommandToRecipe recipeCommandToRecipe;
+
 
 	@BeforeEach
 	void setUp() {
 		MockitoAnnotations.initMocks(this);
-		recipeService = new RecipeServiceImpl(recipeRepository);
+		recipeService = new RecipeServiceImpl(recipeRepository, recipeCommandToRecipe, recipeToRecipeCommand);
 	}
 
 	@Test

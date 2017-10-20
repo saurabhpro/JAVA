@@ -1,8 +1,13 @@
 package udemy.saurabh.springguru104springmvcrecipies.service;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import udemy.saurabh.springguru104springmvcrecipies.model.Recipe;
+import udemy.saurabh.springguru104springmvcrecipies.model.commands.RecipeCommand;
+import udemy.saurabh.springguru104springmvcrecipies.model.converters.RecipeCommandToRecipe;
+import udemy.saurabh.springguru104springmvcrecipies.model.converters.RecipeToRecipeCommand;
 import udemy.saurabh.springguru104springmvcrecipies.repositories.IRecipeRepository;
 
 import java.util.HashSet;
@@ -15,9 +20,16 @@ public class RecipeServiceImpl implements IRecipeService {
 
 	private final IRecipeRepository recipeRepository;
 
-	public RecipeServiceImpl(IRecipeRepository recipeRepository) {
+	private final RecipeCommandToRecipe recipeCommandToRecipe;
+	private final RecipeToRecipeCommand recipeToRecipeCommand;
+
+	@Autowired
+	public RecipeServiceImpl(IRecipeRepository recipeRepository, RecipeCommandToRecipe recipeCommandToRecipe, RecipeToRecipeCommand recipeToRecipeCommand) {
 		this.recipeRepository = recipeRepository;
+		this.recipeCommandToRecipe = recipeCommandToRecipe;
+		this.recipeToRecipeCommand = recipeToRecipeCommand;
 	}
+
 
 	@Override
 	public Set<Recipe> getRecipes() {
@@ -35,5 +47,17 @@ public class RecipeServiceImpl implements IRecipeService {
 		Optional<Recipe> recipeOptional = recipeRepository.findById(id);
 
 		return recipeOptional.orElse(null);
+	}
+
+	@Override
+	@Transactional
+	public RecipeCommand saveRecipeCommand(RecipeCommand command) {
+		Recipe detachedRecipe = recipeCommandToRecipe.convert(command);
+
+		Recipe savedRecipe = recipeRepository.save(detachedRecipe);
+
+		log.debug("Saved RecipeId:" + savedRecipe.getId());
+
+		return recipeToRecipeCommand.convert(savedRecipe);
 	}
 }

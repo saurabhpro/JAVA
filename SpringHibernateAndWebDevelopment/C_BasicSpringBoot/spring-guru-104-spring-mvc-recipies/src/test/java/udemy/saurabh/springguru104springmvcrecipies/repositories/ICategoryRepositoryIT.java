@@ -12,7 +12,7 @@ import udemy.saurabh.springguru104springmvcrecipies.model.Category;
 import java.util.Optional;
 
 @ExtendWith(SpringExtension.class)
-@DataJpaTest
+@DataJpaTest    //need in java 9  --add-modules=java.xml.bind
 public class ICategoryRepositoryIT {
 
 	@Autowired
