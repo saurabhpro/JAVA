@@ -25,10 +25,12 @@ public class WalnutRow {
 	@Column(precision = 8, scale = 2)
 	private float amount;
 
+	@Enumerated(value = EnumType.STRING)
 	private Mode modeOfExpense;
 
 	private boolean isExpense;
 
+	// default is EnumType.Ordinal
 	private Category category;
 
 	@Column
@@ -46,7 +48,7 @@ public class WalnutRow {
 		this.dateTime = dateTime;
 	}
 
-	private int getID() {
+	public int getID() {
 		return ID;
 	}
 

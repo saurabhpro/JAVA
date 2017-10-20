@@ -82,10 +82,12 @@ public class CSVParserImpl implements CSVParser<WalnutRow>, TimeUtils {
 	public List<WalnutRow> parseCSVBody(String filePath) {
 		int lineCount = 0;
 
-		List<WalnutRow> walnutRowList = new ArrayList<>();
+		List<WalnutRow> walnutRowList = null;
 
 		String line;
 		try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+
+			walnutRowList = new ArrayList<>();
 
 			//noinspection StatementWithEmptyBody
 			while (br.readLine() != null && ++lineCount <= PreFaceLines) {

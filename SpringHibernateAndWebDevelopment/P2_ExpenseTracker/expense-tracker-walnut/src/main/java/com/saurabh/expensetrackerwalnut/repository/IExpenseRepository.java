@@ -8,9 +8,11 @@ import org.springframework.stereotype.Repository;
 import java.util.concurrent.Future;
 
 @Repository
-public interface ExpenseTable extends CrudRepository<WalnutRow, Integer> {
+public interface IExpenseRepository extends CrudRepository<WalnutRow, Integer> {
 	@Async
 	Future<WalnutRow> findTopByOrderByIDDesc();
 
 	long countByIsExpense(boolean expense);
+
+	//	these here will work on there own as well but the convention is to call them from service classes
 }

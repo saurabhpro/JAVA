@@ -32,6 +32,17 @@ class CSVCustomFixerTest {
 
 	@Test
 	void fixTagsArrayFromCSV() {
-		Assertions.assertEquals("", CSVCustomFixer.fixTagsArrayFromCSV(""));
+		String expected = "20-02-16,12:00 PM,DEADPOOL,125,CASH Spends,Yes,ENTERTAINMENT,#Friends- #Office,";
+		String actual = "20-02-16,12:00 PM,DEADPOOL,125,CASH Spends,Yes,ENTERTAINMENT,\"#Friends, #Office\",";
+
+		Assertions.assertEquals(expected, CSVCustomFixer.fixTagsArrayFromCSV(actual));
+	}
+
+	@Test
+	void fixEverythingFromCSVLine() {
+		String expected = "24-03-16,02:27 AM,BATMAN V SUPERMAN,1342.4,CitiBank debit 6302,Yes,ENTERTAINMENT,#Online- #Friends- #Office,";
+		String actual = "24-03-16,02:27 AM,BATMAN V SUPERMAN,1342.4,CitiBank debit 6302,Yes,ENTERTAINMENT,\"#Online, #Friends, #Office\",";
+
+		Assertions.assertEquals(expected, CSVCustomFixer.fixInputFromCSV(actual));
 	}
 }
