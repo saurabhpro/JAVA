@@ -41,8 +41,7 @@ public class RecipeController {
 		return "recipe/recipeform";
 	}
 
-	@PostMapping
-	@RequestMapping("/")
+	@PostMapping("/")
 	public String saveOrUpdate(@ModelAttribute RecipeCommand command) {
 		RecipeCommand savedCommand = recipeService.saveRecipeCommand(command);
 

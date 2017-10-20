@@ -6,7 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import udemy.saurabh.springguru104springmvcrecipies.model.commands.IngredientCommand;
 import udemy.saurabh.springguru104springmvcrecipies.model.commands.RecipeCommand;
 import udemy.saurabh.springguru104springmvcrecipies.model.commands.UnitOfMeasureCommand;
@@ -55,7 +55,7 @@ public class IngredientController {
 		return "recipe/ingredient/ingredientform";
 	}
 
-	@RequestMapping("recipe/{recipeId}/ingredient")
+	@PostMapping("recipe/{recipeId}/ingredient")
 	public String saveOrUpdate(@ModelAttribute IngredientCommand command) {
 		IngredientCommand savedCommand = ingredientService.saveIngredientCommand(command);
 
@@ -85,7 +85,7 @@ public class IngredientController {
 		return "recipe/ingredient/ingredientform";
 	}
 
-	@RequestMapping("recipe/{recipeId}/ingredient/{id}/delete")
+	@GetMapping("recipe/{recipeId}/ingredient/{id}/delete")
 	public String deleteRecipeIngredient(@PathVariable String recipeId,
 	                                     @PathVariable String id,
 	                                     Model model) {
