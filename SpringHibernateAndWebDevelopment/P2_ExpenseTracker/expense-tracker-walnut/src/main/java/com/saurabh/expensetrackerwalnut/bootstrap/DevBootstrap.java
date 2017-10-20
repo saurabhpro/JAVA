@@ -1,7 +1,7 @@
 package com.saurabh.expensetrackerwalnut.bootstrap;
 
 import com.saurabh.expensetrackerwalnut.model.WalnutRow;
-import com.saurabh.expensetrackerwalnut.repository.ExpenseTable;
+import com.saurabh.expensetrackerwalnut.repository.IExpenseRepository;
 import com.saurabh.expensetrackerwalnut.service.CSVParser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
@@ -13,17 +13,16 @@ import java.util.List;
 @Component
 public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> {
 
-	private final ExpenseTable expenseTable;
+	private final IExpenseRepository IExpenseRepository;
 	private final CSVParser<WalnutRow> csvParser;
 
 	@Autowired
-	public DevBootstrap(ExpenseTable expenseTable, CSVParser<WalnutRow> csvParser) {
-		this.expenseTable = expenseTable;
+	public DevBootstrap(IExpenseRepository IExpenseRepository, CSVParser<WalnutRow> csvParser) {
+		this.IExpenseRepository = IExpenseRepository;
 		this.csvParser = csvParser;
 	}
 
 
-	@SuppressWarnings("NullableProblems")
 	@Override
 	public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
 		initData();
@@ -33,7 +32,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
 		//this.csvParser.parseCSVBody(CSVParser.fileName).forEach((row)-> this.expenseTable.save(row));
 		List<WalnutRow> walnutRowList = this.csvParser.parseCSVBody(CSVParser.fileName);
 
-		this.expenseTable.saveAll(walnutRowList);
+		this.IExpenseRepository.saveAll(walnutRowList);
 	}
 
 }

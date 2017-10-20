@@ -25,6 +25,8 @@ class CSVParserImplTest {
 	void parseCsv() {
 		List<WalnutRow> walnutRowList = csvParser.parseCSVBody(CSVParser.fileName);
 		logger.info(walnutRowList::toString);
+
+		Assertions.assertNotNull(walnutRowList, "Do you see that csv file read failed!");
 	}
 
 	@Test
