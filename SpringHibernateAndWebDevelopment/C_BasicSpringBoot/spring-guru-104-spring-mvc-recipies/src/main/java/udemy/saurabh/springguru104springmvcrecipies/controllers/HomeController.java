@@ -16,8 +16,8 @@ public class HomeController {
 		this.recipeService = recipeService;
 	}
 
-	@GetMapping({"","/","index"})
-	String getMo (Model model){
+	@GetMapping({"", "/", "index"})
+	String getMo(Model model) {
 		model.addAttribute("recipes", this.recipeService.getRecipes());
 		return "index";
 	}
