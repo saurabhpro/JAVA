@@ -4,10 +4,7 @@ import org.apache.tomcat.util.http.fileupload.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import udemy.saurabh.springguru104springmvcrecipies.model.commands.RecipeCommand;
 import udemy.saurabh.springguru104springmvcrecipies.service.IImageService;
@@ -19,6 +16,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 @Controller
+@RequestMapping("/recipe")
 public class ImageController {
 
 	private final IImageService imageService;
@@ -30,14 +28,14 @@ public class ImageController {
 		this.recipeService = recipeService;
 	}
 
-	@GetMapping("recipe/{id}/image")
+	@GetMapping("/{id}/image")
 	public String showUploadForm(@PathVariable Long id, Model model) {
 		model.addAttribute("recipe", recipeService.findCommandById(id));
 
 		return "recipe/imageuploadform";
 	}
 
-	@PostMapping("recipe/{id}/image")
+	@PostMapping("/{id}/image")
 	public String handleImagePost(@PathVariable Long id, @RequestParam("imagefile") MultipartFile file) {
 
 		imageService.saveImageFile(id, file);
@@ -45,7 +43,7 @@ public class ImageController {
 		return "redirect:/recipe/" + id + "/show";
 	}
 
-	@GetMapping("recipe/{id}/recipeimage")
+	@GetMapping("/{id}/recipeimage")
 	public void renderImageFromDB(@PathVariable Long id, HttpServletResponse response) throws IOException {
 		RecipeCommand recipeCommand = recipeService.findCommandById(id);
 

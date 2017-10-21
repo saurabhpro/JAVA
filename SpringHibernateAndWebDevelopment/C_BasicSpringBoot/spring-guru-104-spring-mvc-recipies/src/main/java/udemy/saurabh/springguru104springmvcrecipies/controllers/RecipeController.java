@@ -58,7 +58,7 @@ public class RecipeController {
 //		return "redirect:/recipe/" + savedCommand.getId() + "/show";
 //	}
 
-	@PostMapping("/")
+	@PostMapping({"", "/"})
 	public String saveOrUpdate(@Valid @ModelAttribute("recipe") RecipeCommand command,
 	                           BindingResult bindingResult) {
 
