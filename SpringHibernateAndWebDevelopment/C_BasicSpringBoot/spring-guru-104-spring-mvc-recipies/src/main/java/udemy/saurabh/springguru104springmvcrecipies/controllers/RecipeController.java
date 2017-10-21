@@ -2,10 +2,13 @@ package udemy.saurabh.springguru104springmvcrecipies.controllers;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 import udemy.saurabh.springguru104springmvcrecipies.model.commands.RecipeCommand;
+import udemy.saurabh.springguru104springmvcrecipies.model.exceptions.NotFoundException;
 import udemy.saurabh.springguru104springmvcrecipies.service.IRecipeService;
 
 @Slf4j
@@ -58,6 +61,21 @@ public class RecipeController {
 		recipeService.deleteById(id);
 
 		return "redirect:/";    // to home controller
+	}
+
+	@ResponseStatus(HttpStatus.NOT_FOUND)   // since as we are handling the exception status code gets overridden as 200
+	@ExceptionHandler(NotFoundException.class)
+	public ModelAndView handleNotFound(Exception exception) {
+
+		log.error("Handling not found exception");
+		log.error(exception.getMessage());
+
+		ModelAndView modelAndView = new ModelAndView();
+
+		modelAndView.setViewName("404error");
+		modelAndView.addObject("exception", exception);
+
+		return modelAndView;
 	}
 }
 

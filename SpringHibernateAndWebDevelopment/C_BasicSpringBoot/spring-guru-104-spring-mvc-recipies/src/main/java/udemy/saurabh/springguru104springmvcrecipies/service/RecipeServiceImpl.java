@@ -8,6 +8,7 @@ import udemy.saurabh.springguru104springmvcrecipies.model.Recipe;
 import udemy.saurabh.springguru104springmvcrecipies.model.commands.RecipeCommand;
 import udemy.saurabh.springguru104springmvcrecipies.model.converters.RecipeCommandToRecipe;
 import udemy.saurabh.springguru104springmvcrecipies.model.converters.RecipeToRecipeCommand;
+import udemy.saurabh.springguru104springmvcrecipies.model.exceptions.NotFoundException;
 import udemy.saurabh.springguru104springmvcrecipies.repositories.IRecipeRepository;
 
 import java.util.HashSet;
@@ -45,7 +46,7 @@ public class RecipeServiceImpl implements IRecipeService {
 	public Recipe findById(Long id) {
 		Optional<Recipe> recipeOptional = recipeRepository.findById(id);
 
-		return recipeOptional.orElse(null);
+		return recipeOptional.orElseThrow(() -> new NotFoundException("Recipe Not Found for ID : " + id));
 	}
 
 	@Override

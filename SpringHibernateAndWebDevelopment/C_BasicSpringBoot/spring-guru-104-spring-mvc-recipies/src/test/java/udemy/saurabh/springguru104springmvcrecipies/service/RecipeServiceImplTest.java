@@ -9,14 +9,14 @@ import udemy.saurabh.springguru104springmvcrecipies.model.Recipe;
 import udemy.saurabh.springguru104springmvcrecipies.model.commands.RecipeCommand;
 import udemy.saurabh.springguru104springmvcrecipies.model.converters.RecipeCommandToRecipe;
 import udemy.saurabh.springguru104springmvcrecipies.model.converters.RecipeToRecipeCommand;
+import udemy.saurabh.springguru104springmvcrecipies.model.exceptions.NotFoundException;
 import udemy.saurabh.springguru104springmvcrecipies.repositories.IRecipeRepository;
 
 import java.util.HashSet;
 import java.util.Optional;
 import java.util.Set;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 class RecipeServiceImplTest {
@@ -117,6 +117,18 @@ class RecipeServiceImplTest {
 
 		//then
 		verify(recipeRepository, times(1)).deleteById(anyLong());
+	}
+
+	@Test
+	void getRecipeByIdTestNotFound() throws Exception {
+
+		Optional<Recipe> recipeOptional = Optional.empty();
+
+		when(recipeRepository.findById(anyLong())).thenReturn(recipeOptional);
+
+		assertThrows(NotFoundException.class, () -> recipeService.findById(1L));
+
+		//should go boom
 	}
 
 }
