@@ -13,25 +13,25 @@ import udemy.saurabh.springguru104springmvcrecipies.repositories.IRecipeReposito
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.Mockito.*;
 
-public class ImageServiceImplTest {
+class ImageServiceImplTest {
 
 	@Mock
+	private
 	IRecipeRepository recipeRepository;
 
-	IImageService imageService;
+	private IImageService imageService;
 
 	@BeforeEach
-	public void setUp() throws Exception {
+	void setUp() throws Exception {
 		MockitoAnnotations.initMocks(this);
 
 		imageService = new ImageServiceImpl(recipeRepository);
 	}
 
 	@Test
-	public void saveImageFile() throws Exception {
+	void saveImageFile() throws Exception {
 		//given
 		Long id = 1L;
 		MultipartFile multipartFile = new MockMultipartFile("imagefile", "testing.txt", "text/plain",

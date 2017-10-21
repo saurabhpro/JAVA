@@ -10,6 +10,7 @@ import udemy.saurabh.springguru104springmvcrecipies.model.commands.CategoryComma
 
 /**
  * Created by jt on 6/21/17.
+ * A converter converts a source object of type {@code S} to a target of type {@code T}.
  */
 @Component
 public class CategoryCommandToCategory implements Converter<CategoryCommand, Category> {
@@ -23,8 +24,10 @@ public class CategoryCommandToCategory implements Converter<CategoryCommand, Cat
 		}
 
 		final Category category = new Category();
+
 		category.setId(source.getId());
 		category.setDescription(source.getDescription());
+
 		return category;
 	}
 }

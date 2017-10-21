@@ -136,16 +136,16 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
 	private class RecipeBasePreparer {
 
 		//get optionals or throw error if not found
-		UnitOfMeasure eachUom;
-		UnitOfMeasure tableSpoonUom;
-		UnitOfMeasure teaspoonUom;
-		UnitOfMeasure dashUom;
-		UnitOfMeasure pintUom;
-		UnitOfMeasure cupsUom;
+		final UnitOfMeasure eachUom;
+		final UnitOfMeasure tableSpoonUom;
+		final UnitOfMeasure teaspoonUom;
+		final UnitOfMeasure dashUom;
+		final UnitOfMeasure pintUom;
+		final UnitOfMeasure cupsUom;
 
 		//get Categories
-		Category americanCategory;
-		Category mexicanCategory;
+		final Category americanCategory;
+		final Category mexicanCategory;
 
 		RecipeBasePreparer() {
 			this.eachUom = getUomObjectByName("Each");

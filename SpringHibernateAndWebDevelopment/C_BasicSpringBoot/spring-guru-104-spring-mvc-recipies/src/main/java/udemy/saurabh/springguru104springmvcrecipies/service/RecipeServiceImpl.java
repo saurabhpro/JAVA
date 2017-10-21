@@ -36,7 +36,7 @@ public class RecipeServiceImpl implements IRecipeService {
 
 		Set<Recipe> recipeSet = new HashSet<>();
 
-		recipeRepository.findAll().spliterator().forEachRemaining(recipeSet::add);
+		recipeRepository.findAll().forEach(recipeSet::add);
 
 		return recipeSet;
 	}
@@ -53,6 +53,7 @@ public class RecipeServiceImpl implements IRecipeService {
 	public RecipeCommand saveRecipeCommand(RecipeCommand command) {
 		Recipe detachedRecipe = recipeCommandToRecipe.convert(command);
 
+		assert detachedRecipe != null;
 		Recipe savedRecipe = recipeRepository.save(detachedRecipe);
 
 		log.debug("Saved RecipeId:" + savedRecipe.getId());

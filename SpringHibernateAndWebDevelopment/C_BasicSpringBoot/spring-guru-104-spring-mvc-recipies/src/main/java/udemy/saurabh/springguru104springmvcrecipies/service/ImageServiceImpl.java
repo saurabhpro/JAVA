@@ -27,15 +27,10 @@ public class ImageServiceImpl implements IImageService {
 		Recipe recipe = recipeRepository.findById(recipeId).orElseThrow(RuntimeException::new);
 
 		try {
-			Byte[] byteObjects = new Byte[file.getBytes().length];
-
-			int i = 0;
-
-			for (byte b : file.getBytes()) {
-				byteObjects[i++] = b;
-			}
+			Byte[] byteObjects = getBytesArray(file);
 
 			recipe.setImage(byteObjects);
+
 		} catch (IOException e) {
 			//todo handle better
 			log.error("Error occurred", e);
@@ -44,5 +39,17 @@ public class ImageServiceImpl implements IImageService {
 		}
 
 		recipeRepository.save(recipe);
+	}
+
+	private static Byte[] getBytesArray(MultipartFile file) throws IOException {
+		Byte[] byteObjects = new Byte[file.getBytes().length];
+
+		int i = 0;
+
+		for (byte b : file.getBytes()) {
+			byteObjects[i++] = b;
+		}
+
+		return byteObjects;
 	}
 }

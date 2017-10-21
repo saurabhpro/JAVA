@@ -28,15 +28,13 @@ class ImageControllerTest {
 	private
 	IRecipeService recipeService;
 
-	private ImageController controller;
-
 	private MockMvc mockMvc;
 
 	@BeforeEach
 	void setUp() throws Exception {
 		MockitoAnnotations.initMocks(this);
 
-		controller = new ImageController(imageService, recipeService);
+		ImageController controller = new ImageController(imageService, recipeService);
 		mockMvc = MockMvcBuilders.standaloneSetup(controller).build();
 	}
 

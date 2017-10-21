@@ -17,7 +17,6 @@ import udemy.saurabh.springguru104springmvcrecipies.repositories.IUnitOfMeasureR
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.Mockito.*;
 
 class IngredientServiceImplTest {

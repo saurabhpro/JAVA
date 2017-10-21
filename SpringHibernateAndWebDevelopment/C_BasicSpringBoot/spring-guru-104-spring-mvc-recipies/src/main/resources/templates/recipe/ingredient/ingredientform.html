@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head>
     <meta charset="UTF-8"/>
     <title>Edit Ingredient</title>
@@ -34,18 +34,18 @@
 
                             <div class="row">
                                 <div class="col-md-3 form-group">
-                                    <label>Description:</label>
-                                    <input type="text" class="form-control" th:field="*{description}"/>
+                                    <label for="description">Description:</label>
+                                    <input type="text" class="form-control" th:field="*{description}" id="description"/>
                                 </div>
 
                                 <div class="col-md-3 form-group">
-                                    <label>Amount:</label>
-                                    <input type="number" class="form-control" th:field="*{amount}"/>
+                                    <label for="amount">Amount:</label>
+                                    <input type="number" class="form-control" th:field="*{amount}" id="amount"/>
                                 </div>
 
                                 <div class="col-md-3 form-group">
-                                    <label>Unit Of Measure:</label>
-                                    <select class="form-control" name="unitOfMeasure.id">
+                                    <label for="uom">Unit Of Measure:</label>
+                                    <select class="form-control" name="unitOfMeasure.id" id="uom">
                                         <option th:each="uomEach : ${uomList}"
                                                 th:value="${uomEach.id}"
                                                 th:selected="${uomEach.id.equals(ingredient.unitOfMeasure.id)}"

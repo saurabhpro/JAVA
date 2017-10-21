@@ -20,8 +20,7 @@ class UnitOfMeasureServiceImplTest {
 	private IUnitOfMeasureService service;
 
 	@Mock
-	private
-	IUnitOfMeasureRepository unitOfMeasureRepository;
+	private IUnitOfMeasureRepository unitOfMeasureRepository;
 
 	@BeforeEach
 	void setUp() throws Exception {
