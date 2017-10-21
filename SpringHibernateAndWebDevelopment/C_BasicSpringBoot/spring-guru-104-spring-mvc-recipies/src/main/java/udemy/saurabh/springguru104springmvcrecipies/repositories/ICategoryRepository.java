@@ -9,5 +9,6 @@ import java.util.Optional;
 @Repository
 public interface ICategoryRepository extends CrudRepository<Category, Long> {
 
+	// see the magic
 	Optional<Category> findTopOneByDescription(String description);
 }

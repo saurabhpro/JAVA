@@ -7,14 +7,13 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 
 @Data
-@EqualsAndHashCode(exclude = {"recipe"})
+@EqualsAndHashCode(exclude = {"recipe"})    // exclude recipe property from hashcode creation
 @Entity
 public class Ingredient {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private
-	Long id;
+	private Long id;
 
 	private String description;
 
@@ -34,5 +33,4 @@ public class Ingredient {
 		this.amount = amount;
 		this.unitOfMeasure = unitOfMeasure;
 	}
-
 }

@@ -12,7 +12,7 @@ import udemy.saurabh.springguru104springmvcrecipies.service.IRecipeService;
 @Controller
 @RequestMapping("/recipe")
 public class RecipeController {
-	private IRecipeService recipeService;
+	private final IRecipeService recipeService;
 
 	@Autowired
 	public RecipeController(IRecipeService recipeService) {
@@ -20,9 +20,11 @@ public class RecipeController {
 	}
 
 	@GetMapping("/{id}/show")
-	public String showById(@PathVariable String id, Model model) {
+	public String showById(@PathVariable Long id, Model model) {
 
-		model.addAttribute("recipe", recipeService.findById(Long.valueOf(id)));
+		log.info("@PathVariable Type is Recipe id or Long id instead of String id & it works");
+
+		model.addAttribute("recipe", recipeService.findById(id));
 
 		return "recipe/show";
 	}
@@ -35,8 +37,8 @@ public class RecipeController {
 	}
 
 	@GetMapping("/{id}/update")
-	public String updateRecipe(@PathVariable String id, Model model) {
-		model.addAttribute("recipe", recipeService.findCommandById(Long.valueOf(id)));
+	public String updateRecipe(@PathVariable Long id, Model model) {
+		model.addAttribute("recipe", recipeService.findCommandById(id));
 
 		return "recipe/recipeform";
 	}
@@ -49,11 +51,25 @@ public class RecipeController {
 	}
 
 	@GetMapping("/{id}/delete")
-	public String deleteById(@PathVariable String id) {
+	public String deleteById(@PathVariable Long id) {
 
 		log.debug("Deleting id: " + id);
 
-		recipeService.deleteById(Long.valueOf(id));
-		return "redirect:/";
+		recipeService.deleteById(id);
+
+		return "redirect:/";    // to home controller
 	}
 }
+
+/*
+@PathVariable Type valueName(from URI)
+
+here the Type can be anything you need, given thats what you need
+for our id - we could gave used
+
+@PathVariable Recipe id or
+@PathVariable Long id or
+@PathVariable String id
+
+by using @Long id - no boxing was required
+ */

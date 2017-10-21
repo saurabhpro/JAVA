@@ -1,10 +1,12 @@
 package udemy.saurabh.springguru104springmvcrecipies.model;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.*;
 
-@Data
+@Getter
+@Setter
 @Entity
 public class UnitOfMeasure {
 	@Id
@@ -15,5 +17,4 @@ public class UnitOfMeasure {
 
 	@OneToOne
 	private Ingredient ingredient;
-
 }

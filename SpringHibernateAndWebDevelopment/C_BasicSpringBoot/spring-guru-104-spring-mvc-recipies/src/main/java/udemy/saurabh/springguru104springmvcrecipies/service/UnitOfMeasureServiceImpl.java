@@ -1,5 +1,6 @@
 package udemy.saurabh.springguru104springmvcrecipies.service;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import udemy.saurabh.springguru104springmvcrecipies.model.commands.UnitOfMeasureCommand;
 import udemy.saurabh.springguru104springmvcrecipies.model.converters.UnitOfMeasureToUnitOfMeasureCommand;
@@ -15,6 +16,7 @@ public class UnitOfMeasureServiceImpl implements IUnitOfMeasureService {
 	private final IUnitOfMeasureRepository unitOfMeasureRepository;
 	private final UnitOfMeasureToUnitOfMeasureCommand unitOfMeasureToUnitOfMeasureCommand;
 
+	@Autowired
 	public UnitOfMeasureServiceImpl(IUnitOfMeasureRepository unitOfMeasureRepository, UnitOfMeasureToUnitOfMeasureCommand unitOfMeasureToUnitOfMeasureCommand) {
 		this.unitOfMeasureRepository = unitOfMeasureRepository;
 		this.unitOfMeasureToUnitOfMeasureCommand = unitOfMeasureToUnitOfMeasureCommand;
@@ -28,3 +30,9 @@ public class UnitOfMeasureServiceImpl implements IUnitOfMeasureService {
 				.collect(Collectors.toSet());
 	}
 }
+
+/*
+	StreamSupport converts Iterable & Spliterator(new version of iterators) into a Stream.
+
+	StreamSupport.stream(greeter.spliterator(), false); is a stream with parallelism set to false
+*/

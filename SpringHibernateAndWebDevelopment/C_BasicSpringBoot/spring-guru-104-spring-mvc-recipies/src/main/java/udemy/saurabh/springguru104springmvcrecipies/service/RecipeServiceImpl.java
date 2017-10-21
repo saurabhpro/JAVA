@@ -30,14 +30,13 @@ public class RecipeServiceImpl implements IRecipeService {
 		this.recipeToRecipeCommand = recipeToRecipeCommand;
 	}
 
-
 	@Override
 	public Set<Recipe> getRecipes() {
 		log.info("I'm using slf4j");
 
 		Set<Recipe> recipeSet = new HashSet<>();
 
-		recipeRepository.findAll().iterator().forEachRemaining(recipeSet::add);
+		recipeRepository.findAll().spliterator().forEachRemaining(recipeSet::add);
 
 		return recipeSet;
 	}

@@ -11,7 +11,7 @@ import udemy.saurabh.springguru104springmvcrecipies.service.IRecipeService;
 @Controller
 public class HomeController {
 
-	private IRecipeService recipeService;
+	private final IRecipeService recipeService;
 
 	@Autowired
 	public HomeController(IRecipeService recipeService) {
