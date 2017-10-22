@@ -5,8 +5,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import udemy.saurabh.springguru201restfulfruits.model.Category;
 import udemy.saurabh.springguru201restfulfruits.model.Customer;
+import udemy.saurabh.springguru201restfulfruits.model.Vendor;
 import udemy.saurabh.springguru201restfulfruits.repository.ICategoryRepository;
 import udemy.saurabh.springguru201restfulfruits.repository.ICustomerRepository;
+import udemy.saurabh.springguru201restfulfruits.repository.IVendorRepository;
 
 @Slf4j
 @Component
@@ -14,10 +16,12 @@ public class Bootstrap implements CommandLineRunner {
 
 	private final ICategoryRepository categoryRepository;
 	private final ICustomerRepository customerRepository;
+	private final IVendorRepository vendorRepository;
 
-	public Bootstrap(ICategoryRepository categoryRepository, ICustomerRepository customerRepository) {
+	public Bootstrap(ICategoryRepository categoryRepository, ICustomerRepository customerRepository, IVendorRepository vendorRepository) {
 		this.categoryRepository = categoryRepository;
 		this.customerRepository = customerRepository;
+		this.vendorRepository = vendorRepository;
 	}
 
 	@Override
@@ -26,6 +30,7 @@ public class Bootstrap implements CommandLineRunner {
 
 		loadCustomersInRepository();
 
+		loadVendorsInRepository();
 	}
 
 	private void loadCategoriesOfFruitsInRepository() {
@@ -50,7 +55,7 @@ public class Bootstrap implements CommandLineRunner {
 		categoryRepository.save(exotic);
 		categoryRepository.save(nuts);
 
-		log.debug("Data Loaded = " + categoryRepository.count());
+		log.debug("Category Data Loaded = " + categoryRepository.count());
 	}
 
 	private void loadCustomersInRepository() {
@@ -98,6 +103,36 @@ public class Bootstrap implements CommandLineRunner {
 		customerRepository.save(freddy);
 
 
-		log.debug("Data Loaded = " + customerRepository.count());
+		log.debug("Customer Data Loaded = " + customerRepository.count());
+	}
+
+	private void loadVendorsInRepository() {
+		Vendor v1 = new Vendor();
+		v1.setName("Western Tasty Fruits Ltd.");
+
+		Vendor v2 = new Vendor();
+		v2.setName("Exotic Fruits Company");
+
+		Vendor v3 = new Vendor();
+		v3.setName("Home Fruits");
+
+		Vendor v4 = new Vendor();
+		v4.setName("Fun Fresh Fruits Ltd.");
+
+		Vendor v5 = new Vendor();
+		v5.setName("Nuts for Nuts Company");
+
+		Vendor v6 = new Vendor();
+		v6.setName("Boom Town Ltd");
+
+		vendorRepository.save(v1);
+		vendorRepository.save(v2);
+		vendorRepository.save(v3);
+		vendorRepository.save(v4);
+		vendorRepository.save(v5);
+		vendorRepository.save(v6);
+
+
+		log.debug("Vendor Data Loaded = " + vendorRepository.count());
 	}
 }

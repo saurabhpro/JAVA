@@ -90,7 +90,7 @@ public class CustomerServiceTest {
 	}
 
 	@Test
-	public void saveCustomerPutByDTO() throws Exception {
+	public void updateCustomerByPutCustomerDTO() throws Exception {
 
 		//given
 		CustomerDTO customerDTO = new CustomerDTO();
@@ -104,7 +104,7 @@ public class CustomerServiceTest {
 		when(customerRepository.save(any(Customer.class))).thenReturn(savedCustomer);
 
 		//when
-		CustomerDTO savedDto = customerService.saveCustomerByDTO(ID, customerDTO);
+		CustomerDTO savedDto = customerService.updateCustomerByPutCustomerDTO(ID, customerDTO);
 
 		//then
 		assertEquals(customerDTO.getFirstName(), savedDto.getFirstName());

@@ -12,6 +12,7 @@ import udemy.saurabh.springguru201restfulfruits.bootstrap.Bootstrap;
 import udemy.saurabh.springguru201restfulfruits.model.Customer;
 import udemy.saurabh.springguru201restfulfruits.repository.ICategoryRepository;
 import udemy.saurabh.springguru201restfulfruits.repository.ICustomerRepository;
+import udemy.saurabh.springguru201restfulfruits.repository.IVendorRepository;
 
 import java.util.List;
 
@@ -29,6 +30,9 @@ public class CustomerServiceImplIT {
 	@Autowired
 	ICategoryRepository categoryRepository;
 
+	@Autowired
+	IVendorRepository vendorRepository;
+
 	private ICustomerService customerService;
 
 	@Before
@@ -37,7 +41,7 @@ public class CustomerServiceImplIT {
 		System.out.println(customerRepository.findAll().size());
 
 		//setup data for testing
-		Bootstrap bootstrap = new Bootstrap(categoryRepository, customerRepository);
+		Bootstrap bootstrap = new Bootstrap(categoryRepository, customerRepository, vendorRepository);
 		bootstrap.run(); //load data
 
 		customerService = new CustomerServiceImpl(ICustomerMapper.INSTANCE, customerRepository);

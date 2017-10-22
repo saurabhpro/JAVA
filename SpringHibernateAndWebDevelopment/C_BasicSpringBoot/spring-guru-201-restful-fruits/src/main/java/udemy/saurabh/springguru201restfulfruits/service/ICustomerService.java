@@ -13,7 +13,7 @@ public interface ICustomerService {
 
 	CustomerDTO createNewCustomer(CustomerDTO newCustomerDTO);
 
-	CustomerDTO saveCustomerByDTO(Long id, CustomerDTO customer);
+	CustomerDTO updateCustomerByPutCustomerDTO(Long id, CustomerDTO customer);
 
 	CustomerDTO patchCustomer(Long id, CustomerDTO customerDTO);
 

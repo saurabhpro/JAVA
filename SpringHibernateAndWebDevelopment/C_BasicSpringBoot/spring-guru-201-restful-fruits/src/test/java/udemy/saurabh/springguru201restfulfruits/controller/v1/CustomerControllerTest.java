@@ -122,7 +122,7 @@ public class CustomerControllerTest {
 		returnDTO.setLastName(customer.getLastName());
 		returnDTO.setCustomerUrl(API_V1_CUSTOMERS + "/1");
 
-		when(customerService.saveCustomerByDTO(anyLong(), ArgumentMatchers.any(CustomerDTO.class))).thenReturn(returnDTO);
+		when(customerService.updateCustomerByPutCustomerDTO(anyLong(), ArgumentMatchers.any(CustomerDTO.class))).thenReturn(returnDTO);
 
 		//when/then
 		mockMvc.perform(put(API_V1_CUSTOMERS + "/1")

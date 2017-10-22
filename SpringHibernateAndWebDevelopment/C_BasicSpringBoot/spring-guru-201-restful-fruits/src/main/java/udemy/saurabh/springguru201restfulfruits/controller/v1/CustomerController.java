@@ -44,7 +44,7 @@ public class CustomerController {
 
 	@PutMapping("/{id}") // by default sends HttpStatus.OK
 	public CustomerDTO updateCustomerById(@RequestBody CustomerDTO customerDTO, @PathVariable Long id) {
-		return customerService.saveCustomerByDTO(id, customerDTO);
+		return customerService.updateCustomerByPutCustomerDTO(id, customerDTO);
 	}
 
 	@PatchMapping({"/{id}"})

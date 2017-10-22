@@ -57,7 +57,7 @@ public class CustomerServiceImpl implements ICustomerService {
 	}
 
 	@Override
-	public CustomerDTO saveCustomerByDTO(Long id, CustomerDTO customerDTO) {
+	public CustomerDTO updateCustomerByPutCustomerDTO(Long id, CustomerDTO customerDTO) {
 		Customer customer = customerMapper.customerDTOToCustomer(customerDTO);
 		customer.setId(id);
 
