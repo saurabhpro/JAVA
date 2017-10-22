@@ -1,19 +1,18 @@
 package udemy.saurabh.springguru201restfulfruits.service;
 
-import udemy.saurabh.springguru201restfulfruits.api.v1.model.VendorsDTO;
-
-import java.util.List;
+import udemy.saurabh.springguru201restfulfruits.api.v1.model.VendorDTO;
+import udemy.saurabh.springguru201restfulfruits.api.v1.model.VendorListDTO;
 
 public interface IVendorService {
-	List<VendorsDTO> getAllVendors();
+	VendorListDTO getAllVendors();
 
-	VendorsDTO getVendorById(Long id);
+	VendorDTO getVendorById(Long id);
 
-	VendorsDTO createNewVendor(VendorsDTO newVendorsDTO);
+	VendorDTO createNewVendor(VendorDTO newVendorDTO);
 
-	VendorsDTO updateVendorByPutVendorDTO(Long id, VendorsDTO vendorsDTO);
+	VendorDTO updateVendorByPutVendorDTO(Long id, VendorDTO vendorDTO);
 
 	void deleteVendor(Long id);
 
-	VendorsDTO patchVendor(Long id, VendorsDTO customerDTO);
+	VendorDTO patchVendor(Long id, VendorDTO customerDTO);
 }

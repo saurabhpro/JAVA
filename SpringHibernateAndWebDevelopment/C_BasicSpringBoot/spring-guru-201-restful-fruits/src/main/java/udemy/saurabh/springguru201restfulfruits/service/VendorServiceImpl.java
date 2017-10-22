@@ -3,7 +3,8 @@ package udemy.saurabh.springguru201restfulfruits.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import udemy.saurabh.springguru201restfulfruits.api.v1.mapper.IVendorMapper;
-import udemy.saurabh.springguru201restfulfruits.api.v1.model.VendorsDTO;
+import udemy.saurabh.springguru201restfulfruits.api.v1.model.VendorDTO;
+import udemy.saurabh.springguru201restfulfruits.api.v1.model.VendorListDTO;
 import udemy.saurabh.springguru201restfulfruits.model.Vendor;
 import udemy.saurabh.springguru201restfulfruits.model.exceptions.ResourceNotFoundException;
 import udemy.saurabh.springguru201restfulfruits.repository.IVendorRepository;
@@ -14,8 +15,8 @@ import java.util.stream.Collectors;
 @Service
 public class VendorServiceImpl implements IVendorService {
 
-	private IVendorMapper vendorMapper;
-	private IVendorRepository vendorRepository;
+	private final IVendorMapper vendorMapper;
+	private final IVendorRepository vendorRepository;
 
 	@Autowired
 	public VendorServiceImpl(IVendorMapper vendorMapper, IVendorRepository vendorRepository) {
@@ -23,40 +24,42 @@ public class VendorServiceImpl implements IVendorService {
 		this.vendorRepository = vendorRepository;
 	}
 
-	String getCustomerURL(Long id) {
+	private String getCustomerURL(Long id) {
 		return "api/v1/vendors/" + id;
 	}
 
 	@Override
-	public List<VendorsDTO> getAllVendors() {
-		return vendorRepository.findAll().stream()
+	public VendorListDTO getAllVendors() {
+		List<VendorDTO> list = vendorRepository.findAll().stream()
 				.map(vendor -> {
-					VendorsDTO vendorsDTO = vendorMapper.vendorToVendorDTO(vendor);
-					vendorsDTO.setVendorUrl(getCustomerURL(vendor.getId()));
-					return vendorsDTO;
+					VendorDTO vendorDTO = vendorMapper.vendorToVendorDTO(vendor);
+					vendorDTO.setVendorUrl(getCustomerURL(vendor.getId()));
+					return vendorDTO;
 				}).collect(Collectors.toList());
+
+		return new VendorListDTO(list);
 	}
 
 	@Override
-	public VendorsDTO getVendorById(Long id) {
+	public VendorDTO getVendorById(Long id) {
 		return vendorRepository.findById(id)
 				.map(vendor -> {
-					VendorsDTO vendorsDTO = vendorMapper.vendorToVendorDTO(vendor);
-					vendorsDTO.setVendorUrl(getCustomerURL(id));
-					return vendorsDTO;
+					VendorDTO vendorDTO = vendorMapper.vendorToVendorDTO(vendor);
+					vendorDTO.setVendorUrl(getCustomerURL(id));
+					return vendorDTO;
 				}).orElseThrow(ResourceNotFoundException::new);
 	}
 
 	@Override
-	public VendorsDTO createNewVendor(VendorsDTO newVendorsDTO) {
-		Vendor vendor = vendorMapper.vendorDtoToVendor(newVendorsDTO);
+	public VendorDTO createNewVendor(VendorDTO newVendorDTO) {
+		Vendor vendor = vendorMapper.vendorDtoToVendor(newVendorDTO);
 
 		return saveAndReturnVendorsDTO(vendor);
 	}
 
-	private VendorsDTO saveAndReturnVendorsDTO(Vendor vendor) {
+	private VendorDTO saveAndReturnVendorsDTO(Vendor vendor) {
 		Vendor savedVendor = vendorRepository.save(vendor);
-		VendorsDTO retrievedVendorDto = vendorMapper.vendorToVendorDTO(savedVendor);
+		VendorDTO retrievedVendorDto = vendorMapper.vendorToVendorDTO(savedVendor);
 
 		retrievedVendorDto.setVendorUrl("api/v1/vendors/" + savedVendor.getId());
 
@@ -64,8 +67,8 @@ public class VendorServiceImpl implements IVendorService {
 	}
 
 	@Override
-	public VendorsDTO updateVendorByPutVendorDTO(Long id, VendorsDTO vendorsDTO) {
-		Vendor vendor = vendorMapper.vendorDtoToVendor(vendorsDTO);
+	public VendorDTO updateVendorByPutVendorDTO(Long id, VendorDTO vendorDTO) {
+		Vendor vendor = vendorMapper.vendorDtoToVendor(vendorDTO);
 		vendor.setId(id);
 
 		return saveAndReturnVendorsDTO(vendor);
@@ -81,8 +84,17 @@ public class VendorServiceImpl implements IVendorService {
 	}
 
 	@Override
-	public VendorsDTO patchVendor(Long id, VendorsDTO customerDTO) {
+	public VendorDTO patchVendor(Long id, VendorDTO vendorDTO) {
+		return vendorRepository.findById(id)
+				.map(vendor -> {
+					//todo if more properties, add more if statements
 
-		return null;
+					if (vendorDTO.getName() != null) {
+						vendor.setName(vendorDTO.getName());
+					}
+
+					return saveAndReturnVendorsDTO(vendor);
+				}).orElseThrow(ResourceNotFoundException::new);
 	}
+
 }

@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import udemy.saurabh.springguru201restfulfruits.api.v1.model.VendorsDTO;
-import udemy.saurabh.springguru201restfulfruits.api.v1.model.VendorsListDTO;
+import udemy.saurabh.springguru201restfulfruits.api.v1.model.VendorDTO;
+import udemy.saurabh.springguru201restfulfruits.api.v1.model.VendorListDTO;
 import udemy.saurabh.springguru201restfulfruits.service.IVendorService;
 
 import static udemy.saurabh.springguru201restfulfruits.controller.v1.VendorController.BASE_URL;
@@ -15,7 +15,7 @@ import static udemy.saurabh.springguru201restfulfruits.controller.v1.VendorContr
 public class VendorController {
 	static final String BASE_URL = "/api/v1/vendors";
 
-	private IVendorService vendorService;
+	private final IVendorService vendorService;
 
 	@Autowired
 	public VendorController(IVendorService vendorService) {
@@ -23,28 +23,28 @@ public class VendorController {
 	}
 
 	@GetMapping
-	VendorsListDTO getAllCustomers() {
-		return new VendorsListDTO(vendorService.getAllVendors());
+	VendorListDTO getAllCustomers() {
+		return vendorService.getAllVendors();
 	}
 
 	@GetMapping("/{id}") // by default sends HttpStatus.OK
-	public VendorsDTO getCustomerById(@PathVariable Long id) {
+	public VendorDTO getCustomerById(@PathVariable Long id) {
 		return vendorService.getVendorById(id);
 	}
 
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
-	public VendorsDTO createNewCustomer(@RequestBody VendorsDTO customerDTO) {
+	public VendorDTO createNewCustomer(@RequestBody VendorDTO customerDTO) {
 		return vendorService.createNewVendor(customerDTO);
 	}
 
 	@PutMapping("/{id}") // by default sends HttpStatus.OK
-	public VendorsDTO updateCustomerById(@RequestBody VendorsDTO customerDTO, @PathVariable Long id) {
+	public VendorDTO updateCustomerById(@RequestBody VendorDTO customerDTO, @PathVariable Long id) {
 		return vendorService.updateVendorByPutVendorDTO(id, customerDTO);
 	}
 
 	@PatchMapping({"/{id}"})
-	public VendorsDTO patchCustomer(@PathVariable Long id, @RequestBody VendorsDTO customerDTO) {
+	public VendorDTO patchCustomer(@PathVariable Long id, @RequestBody VendorDTO customerDTO) {
 		return vendorService.patchVendor(id, customerDTO);
 	}
 

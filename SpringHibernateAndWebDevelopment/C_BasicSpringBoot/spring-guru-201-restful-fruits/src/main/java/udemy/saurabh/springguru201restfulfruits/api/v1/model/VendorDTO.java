@@ -1,18 +1,14 @@
 package udemy.saurabh.springguru201restfulfruits.api.v1.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
 import lombok.Data;
-
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import lombok.NoArgsConstructor;
 
 @Data
-public class VendorsDTO {
-
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	Long id;
+@AllArgsConstructor
+@NoArgsConstructor
+public class VendorDTO {
 
 	private String name;
 
