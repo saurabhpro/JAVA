@@ -12,6 +12,7 @@ import udemy.saurabh.springguru201restfulfruits.repository.ICustomerRepository;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
@@ -58,7 +59,7 @@ public class CustomerServiceTest {
 		customer1.setFirstName(FIRST_NAME);
 		customer1.setLastName("Weston");
 
-		when(customerRepository.getOne(anyLong())).thenReturn(customer1);
+		when(customerRepository.findById(anyLong())).thenReturn(Optional.of(customer1));
 
 		//when
 		CustomerDTO customerDTO = customerService.getCustomerById(1L);

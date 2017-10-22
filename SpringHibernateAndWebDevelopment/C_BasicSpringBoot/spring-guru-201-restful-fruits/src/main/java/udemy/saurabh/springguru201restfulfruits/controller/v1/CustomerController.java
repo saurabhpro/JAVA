@@ -12,7 +12,7 @@ import udemy.saurabh.springguru201restfulfruits.service.ICustomerService;
 @RequestMapping(CustomerController.BASE_URL)
 public class CustomerController {
 
-	public static final String BASE_URL = "/api/v1/customer";
+	public static final String BASE_URL = "/api/v1/customers";
 
 	private final ICustomerService customerService;
 
@@ -31,9 +31,15 @@ public class CustomerController {
 		return customerService.getCustomerById(id);
 	}
 
+//	@PostMapping
+//	public ResponseEntity<CustomerDTO> createNewCustomer(@RequestBody CustomerDTO customerDTO) {
+//		return new ResponseEntity<>(customerService.createNewCustomer(customerDTO), HttpStatus.CREATED);
+//	}
+
 	@PostMapping
-	public ResponseEntity<CustomerDTO> createNewCustomer(@RequestBody CustomerDTO customerDTO) {
-		return new ResponseEntity<>(customerService.createNewCustomer(customerDTO), HttpStatus.CREATED);
+	@ResponseStatus(HttpStatus.CREATED)
+	public CustomerDTO createNewCustomer(@RequestBody CustomerDTO customerDTO) {
+		return customerService.createNewCustomer(customerDTO);
 	}
 
 	@PutMapping("/{id}") // by default sends HttpStatus.OK

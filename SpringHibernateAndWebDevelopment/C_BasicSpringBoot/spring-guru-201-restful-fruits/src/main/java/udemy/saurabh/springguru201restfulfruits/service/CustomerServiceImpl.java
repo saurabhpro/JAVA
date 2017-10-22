@@ -1,11 +1,13 @@
 package udemy.saurabh.springguru201restfulfruits.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 import udemy.saurabh.springguru201restfulfruits.api.v1.mapper.ICustomerMapper;
 import udemy.saurabh.springguru201restfulfruits.api.v1.model.CustomerDTO;
 import udemy.saurabh.springguru201restfulfruits.controller.v1.CustomerController;
 import udemy.saurabh.springguru201restfulfruits.model.Customer;
+import udemy.saurabh.springguru201restfulfruits.model.exceptions.ResourceNotFoundException;
 import udemy.saurabh.springguru201restfulfruits.repository.ICustomerRepository;
 
 import java.util.List;
@@ -37,11 +39,14 @@ public class CustomerServiceImpl implements ICustomerService {
 
 	@Override
 	public CustomerDTO getCustomerById(long id) {
-		CustomerDTO customerDTO = customerMapper.customerToCustomerDTO(customerRepository.getOne(id));
-
-		customerDTO.setCustomerUrl(getCustomerURL(id));
-
-		return customerDTO;
+		return customerRepository.findById(id)
+				.map(customerMapper::customerToCustomerDTO)
+				.map(customerDTO -> {
+					//set API URL
+					customerDTO.setCustomerUrl(getCustomerURL(id));
+					return customerDTO;
+				})
+				.orElseThrow(ResourceNotFoundException::new);
 	}
 
 	@Override
@@ -86,12 +91,16 @@ public class CustomerServiceImpl implements ICustomerService {
 							return returnDto;
 						}
 				)
-				.orElseThrow(RuntimeException::new); //todo implement better exception handling;
+				.orElseThrow(ResourceNotFoundException::new);
 	}
 
 	@Override
 	public void deleteCustomer(Long id) {
-		customerRepository.deleteById(id);
+		try {
+			customerRepository.deleteById(id);
+		} catch (EmptyResultDataAccessException exception) {
+			throw new ResourceNotFoundException();
+		}
 	}
 
 
