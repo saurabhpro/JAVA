@@ -21,6 +21,4 @@ public class Customer {
 
 	@NotNull
 	private String lastName;
-
-	private String url;
 }
