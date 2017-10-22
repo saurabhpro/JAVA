@@ -14,4 +14,6 @@ public interface IVendorService {
 	VendorsDTO updateVendorByPutVendorDTO(Long id, VendorsDTO vendorsDTO);
 
 	void deleteVendor(Long id);
+
+	VendorsDTO patchVendor(Long id, VendorsDTO customerDTO);
 }

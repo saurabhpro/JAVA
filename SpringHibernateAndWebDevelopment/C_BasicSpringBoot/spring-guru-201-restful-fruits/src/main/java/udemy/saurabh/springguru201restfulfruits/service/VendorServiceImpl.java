@@ -57,6 +57,7 @@ public class VendorServiceImpl implements IVendorService {
 	private VendorsDTO saveAndReturnVendorsDTO(Vendor vendor) {
 		Vendor savedVendor = vendorRepository.save(vendor);
 		VendorsDTO retrievedVendorDto = vendorMapper.vendorToVendorDTO(savedVendor);
+
 		retrievedVendorDto.setVendorUrl("api/v1/vendors/" + savedVendor.getId());
 
 		return retrievedVendorDto;
@@ -77,5 +78,11 @@ public class VendorServiceImpl implements IVendorService {
 		} catch (Exception ex) {
 			throw new ResourceNotFoundException();
 		}
+	}
+
+	@Override
+	public VendorsDTO patchVendor(Long id, VendorsDTO customerDTO) {
+
+		return null;
 	}
 }
