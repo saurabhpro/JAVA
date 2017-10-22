@@ -8,9 +8,9 @@ import static org.junit.Assert.assertEquals;
 
 public class CustomerMapperTest {
 
-	public static final String FIRSTNAME = "Jimmy";
-	public static final String LASTNAME = "Fallon";
-	ICustomerMapper customerMapper = ICustomerMapper.INSTANCE;
+	private static final String FIRSTNAME = "Jimmy";
+	private static final String LASTNAME = "Fallon";
+	private final ICustomerMapper customerMapper = ICustomerMapper.INSTANCE;
 
 	@Test
 	public void customerToCustomerDTO() throws Exception {

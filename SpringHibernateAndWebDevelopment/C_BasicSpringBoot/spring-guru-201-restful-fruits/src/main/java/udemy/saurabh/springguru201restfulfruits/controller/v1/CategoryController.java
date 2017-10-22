@@ -12,8 +12,10 @@ import udemy.saurabh.springguru201restfulfruits.api.v1.model.CategoryListDTO;
 import udemy.saurabh.springguru201restfulfruits.service.ICategoryService;
 
 @Controller
-@RequestMapping("/api/v1/categories")
+@RequestMapping(CategoryController.BASE_URL)
 public class CategoryController {
+
+	public static final String BASE_URL = "/api/v1/categories";
 
 	private final ICategoryService categoryService;
 

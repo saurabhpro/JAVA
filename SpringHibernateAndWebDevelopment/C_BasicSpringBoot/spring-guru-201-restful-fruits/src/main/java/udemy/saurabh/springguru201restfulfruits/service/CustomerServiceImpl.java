@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import udemy.saurabh.springguru201restfulfruits.api.v1.mapper.ICustomerMapper;
 import udemy.saurabh.springguru201restfulfruits.api.v1.model.CustomerDTO;
+import udemy.saurabh.springguru201restfulfruits.controller.v1.CustomerController;
 import udemy.saurabh.springguru201restfulfruits.model.Customer;
 import udemy.saurabh.springguru201restfulfruits.repository.ICustomerRepository;
 
@@ -12,9 +13,9 @@ import java.util.stream.Collectors;
 
 @Service
 public class CustomerServiceImpl implements ICustomerService {
-	private ICustomerMapper customerMapper;
+	private final ICustomerMapper customerMapper;
 
-	private ICustomerRepository customerRepository;
+	private final ICustomerRepository customerRepository;
 
 	@Autowired
 	public CustomerServiceImpl(ICustomerMapper customerMapper, ICustomerRepository customerRepository) {
@@ -28,7 +29,7 @@ public class CustomerServiceImpl implements ICustomerService {
 				.stream()
 				.map(customer -> {
 					CustomerDTO customerDTO = customerMapper.customerToCustomerDTO(customer);
-					customerDTO.setCustomerUrl("/api/v1/customer/" + customer.getId());
+					customerDTO.setCustomerUrl(getCustomerURL(customer.getId()));
 					return customerDTO;
 				})
 				.collect(Collectors.toList());
@@ -38,7 +39,7 @@ public class CustomerServiceImpl implements ICustomerService {
 	public CustomerDTO getCustomerById(long id) {
 		CustomerDTO customerDTO = customerMapper.customerToCustomerDTO(customerRepository.getOne(id));
 
-		customerDTO.setCustomerUrl("/api/v1/customer/" + id);
+		customerDTO.setCustomerUrl(getCustomerURL(id));
 
 		return customerDTO;
 	}
@@ -62,8 +63,39 @@ public class CustomerServiceImpl implements ICustomerService {
 		Customer savedCustomer = customerRepository.save(customer);
 
 		CustomerDTO retrievedCustomerDTO = customerMapper.customerToCustomerDTO(savedCustomer);
-		retrievedCustomerDTO.setCustomerUrl("/api/v1/customer/" + savedCustomer.getId());
+		retrievedCustomerDTO.setCustomerUrl(getCustomerURL(savedCustomer.getId()));
 
 		return retrievedCustomerDTO;
+	}
+
+	@Override
+	public CustomerDTO patchCustomer(Long id, CustomerDTO customerDTO) {
+		return customerRepository
+				.findById(id)
+				.map(customer -> {
+							if (customerDTO.getFirstName() != null) {
+								customer.setFirstName(customerDTO.getFirstName());
+							}
+
+							if (customerDTO.getLastName() != null) {
+								customer.setLastName(customerDTO.getLastName());
+							}
+
+							CustomerDTO returnDto = customerMapper.customerToCustomerDTO(customerRepository.save(customer));
+							returnDto.setCustomerUrl(getCustomerURL(id));
+							return returnDto;
+						}
+				)
+				.orElseThrow(RuntimeException::new); //todo implement better exception handling;
+	}
+
+	@Override
+	public void deleteCustomer(Long id) {
+		customerRepository.deleteById(id);
+	}
+
+
+	String getCustomerURL(Long id) {
+		return CustomerController.BASE_URL + "/" + id;
 	}
 }

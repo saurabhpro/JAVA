@@ -23,6 +23,7 @@ public class CategoryServiceImpl implements ICategoryService {
 	@Override
 	public List<CategoryDTO> getAllCategories() {
 
+		//noinspection Convert2MethodRef
 		return categoryRepository.findAll()
 				.stream()
 				.map(category -> categoryMapper.categoryToCategoryDTO(category))

@@ -9,10 +9,12 @@ import udemy.saurabh.springguru201restfulfruits.api.v1.model.CustomerListDTO;
 import udemy.saurabh.springguru201restfulfruits.service.ICustomerService;
 
 @RestController
-@RequestMapping("/api/v1/customers")
+@RequestMapping(CustomerController.BASE_URL)
 public class CustomerController {
 
-	private ICustomerService customerService;
+	public static final String BASE_URL = "/api/v1/customer";
+
+	private final ICustomerService customerService;
 
 	@Autowired
 	public CustomerController(ICustomerService customerService) {
@@ -37,5 +39,17 @@ public class CustomerController {
 	@PutMapping("/{id}") // by default sends HttpStatus.OK
 	public CustomerDTO updateCustomerById(@RequestBody CustomerDTO customerDTO, @PathVariable Long id) {
 		return customerService.saveCustomerByDTO(id, customerDTO);
+	}
+
+	@PatchMapping({"/{id}"})
+	public CustomerDTO patchCustomer(@PathVariable Long id, @RequestBody CustomerDTO customerDTO) {
+		return customerService.patchCustomer(id, customerDTO);
+	}
+
+	@DeleteMapping({"/{id}"})
+	public ResponseEntity<Void> deleteCustomer(@PathVariable Long id) {
+		customerService.deleteCustomer(id);
+
+		return new ResponseEntity<>(HttpStatus.OK); // just for knowledge of whats happening
 	}
 }
