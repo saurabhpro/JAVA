@@ -1,6 +1,9 @@
 package com.saurabh.junit5basics;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
+import java.time.Duration;
 
 import static java.time.Duration.ofMillis;
 import static java.time.Duration.ofMinutes;
@@ -139,6 +142,52 @@ class AssertionsDemo {
 
 		// perform these assertions in all environments
 		assertEquals("a string", "a string");
+	}
+
+	@Test
+	void testInMacEnvironment() {
+		boolean assumedResult = "mac os x".equals(System.getProperty("os.name").toLowerCase());
+
+		assumeTrue(assumedResult);  // breaks here if its assumedResult = false
+		// then write your assertions
+
+		//OR
+
+		// you can also do both things at once
+		assumingThat(assumedResult, () -> {
+			// perform these assertions only on the Mac OS
+			assertEquals(2, 2);
+		});
+	}
+
+
+	@Test
+	void arrayTest() {
+
+		Integer a = null;
+		Assertions.assertNotNull(a /*returned_obj_to_check*/);    //and assertNull(...)
+
+		Boolean b = true;
+		Assertions.assertTrue(b /*should_be_true*/);  //and assertFalse(...)
+
+		Integer c = a;
+		Assertions.assertSame(a /*reference_1_of_obj*/, c /*refrence_2_of_obj*/);   //and assertNotSame(...)
+
+		Assertions.assertThrows(NumberFormatException.class /*Expected_Exception.class*/, () -> {
+		} /*method_execution_that_should_throwException*/);
+
+		Assertions.assertTimeout(Duration.ofMillis(100) /*duration_to_wait in millis)*/, () -> {
+		} /*method_execution_that_should_be_over_by_the_said_duration*/);
+
+		Assertions.assertTimeoutPreemptively(Duration.ofMillis(100) /*duration_to_wait in millis)*/, () -> {
+		} /*method_execution_that_should_be_over_by_the_said_duration*/);
+		//execution of the method will be preemptively aborted if the timeout is exceeded
+
+
+		int[] d = {1, 3, 4};
+		int[] e = {4, 5, 6};
+		Assertions.assertArrayEquals(d, e); // fails
+		//simple right - it matches content in order, so even {3, 1, 4} will fail
 	}
 
 }
