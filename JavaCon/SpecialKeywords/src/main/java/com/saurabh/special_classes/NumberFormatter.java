@@ -17,16 +17,16 @@ import java.util.Locale;
 public class NumberFormatter {
 	public static void main(String[] args) {
 
-		System.out.println("\n/**********roundingAndPrecision**********/");
+		System.out.println("\n**********roundingAndPrecision**********");
 		roundingAndPrecision();
 
-		System.out.println("\n/***********currencyFormatted*********/");
+		System.out.println("\n***********currencyFormatted*********");
 		currencyFormatted();
 
-		System.out.println("\n/**********commaFixer**********/");
+		System.out.println("\n**********commaFixer**********");
 		commaFixer();
 
-		System.out.println("\n/***********groupingDesigner*********/");
+		System.out.println("\n***********groupingDesigner*********");
 		groupingDesigner();
 
 	}
@@ -42,12 +42,23 @@ public class NumberFormatter {
 		nf1.setGroupingUsed(false);
 
 		System.out.println(nf1.format(val3));
+
+		/*
+		***********groupingDesigner*********
+		23 500 390 800 380
+		23500390800380
+		 */
 	}
 
 	private static void commaFixer() {
 		double n = 1240.35;
 		NumberFormat nf3 = NumberFormat.getInstance(new Locale("de", "AU"));    // de = german , AU = Austria
 		System.out.println(nf3.format(n));
+
+		/*
+		**********commaFixer**********
+		1.240,35
+		 */
 	}
 
 	private static void currencyFormatted() {
@@ -55,6 +66,11 @@ public class NumberFormatter {
 
 		NumberFormat cf1 = NumberFormat.getCurrencyInstance(new Locale("en", "IN"));
 		System.out.println(cf1.format(val));
+
+		/*
+		***********currencyFormatted*********
+		Rs. 23,500.00
+		 */
 	}
 
 	private static void roundingAndPrecision() {
@@ -70,5 +86,11 @@ public class NumberFormatter {
 
 		System.out.println(nf.format(val1));
 		System.out.println(nf.format(val2));
+
+		/*
+		**********roundingAndPrecision**********
+		4.5678
+		2.30
+		 */
 	}
 }

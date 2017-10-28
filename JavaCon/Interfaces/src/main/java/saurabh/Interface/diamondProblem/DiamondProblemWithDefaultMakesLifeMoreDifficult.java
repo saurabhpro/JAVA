@@ -10,6 +10,16 @@
 
 package saurabh.Interface.diamondProblem;
 
+/**
+ * This presents something of a dilemma because it’s not immediately obvious whether ApplicationFacade should inherit
+ * the default implementation of deactivate() from the ApplicationManager class, and becomes even more complex
+ * if ResourceController also defines its deactivate() method to have a default method. In that scenario we will
+ * have defined a class that inherits from two different interfaces, each with its own implementation of deactivate().
+ * <p>
+ * Java 8 addresses this by requiring you to provide an implementation for the ambiguous method in the relevant class,
+ * in this case ApplicationFacade. In fact, if you try to compile the foregoing code you’ll receive a message
+ * like the one shown next.
+ */
 @SuppressWarnings("SameReturnValue")
 @FunctionalInterface
 interface DiamondProblemWithDefaultMakesLifeMoreDifficult {
