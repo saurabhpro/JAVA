@@ -18,6 +18,9 @@ import java.util.stream.Collectors;
 
 public class BookFlatMap {
 
+	/*
+	The flatmap() method is a special kind of map() which allows to flatten nested structures or avoid ending up with them.
+	 */
 	public static void main(String[] args) {
 
 		Student obj1 = new Student();
