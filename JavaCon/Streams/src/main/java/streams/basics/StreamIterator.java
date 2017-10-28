@@ -8,35 +8,24 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package streams.model;
+package streams.basics;
 
-public class Employee {
-	private final Department department;
-	private final Person person;
-	private final int salary;
+import java.util.stream.Stream;
 
-	public Employee(Person p1, Department Dept, int salary) {
-		this.department = Dept;
-		this.person = p1;
-		this.salary = salary;
-	}
+/**
+ * Created by Saurabh on 2/28/2016.
+ */
+public class StreamIterator {
+	public static void main(String[] args) {
+		//create infinite stream, which dont need to be terminated
+		Stream.iterate(1L, n -> n * 5)
+				.skip(2) //skips first 2 numbers
+				.limit(10)
+				.forEach(System.out::println);
 
-	public Department getDepartment() {
-		return department;
-	}
-
-	public Person getPerson() {
-		return person;
-	}
-
-	@Override
-	public String toString() {
-		return "Employee{" +
-				"person=" + person +
-				'}';
-	}
-
-	public int getSalary() {
-		return salary;
+//		List grades = gradeScores.parallelStream()
+//				.filter((Grade grade) -> grade.getScore() > 40)
+//				.filter((Grade grade) -> grade.getSubject() == Subject.SCIENCE)
+//				.collect(Collectors.toList());
 	}
 }

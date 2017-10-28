@@ -8,35 +8,28 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package streams.model;
+package streams.maps;
 
-public class Employee {
-	private final Department department;
-	private final Person person;
-	private final int salary;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.stream.Collectors;
 
-	public Employee(Person p1, Department Dept, int salary) {
-		this.department = Dept;
-		this.person = p1;
-		this.salary = salary;
-	}
+public class StreamMapFiltering {
 
-	public Department getDepartment() {
-		return department;
-	}
+	public static void main(String[] args) {
 
-	public Person getPerson() {
-		return person;
-	}
+		Map<Integer, String> HOSTING = new HashMap<>();
+		HOSTING.put(1, "linode.com");
+		HOSTING.put(2, "heroku.com");
+		HOSTING.put(3, "digitalocean.com");
+		HOSTING.put(4, "aws.amazon.com");
 
-	@Override
-	public String toString() {
-		return "Employee{" +
-				"person=" + person +
-				'}';
-	}
+		//Map -> Stream -> Filter -> Map
+		Map<Integer, String> collect = HOSTING.entrySet().stream()
+				.filter(map -> map.getKey() == 2)
+				.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 
-	public int getSalary() {
-		return salary;
+		System.out.println(collect); //output : {2=heroku.com}
+
 	}
 }

@@ -8,35 +8,27 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package streams.model;
+package streams.iterables;
 
-public class Employee {
-	private final Department department;
-	private final Person person;
-	private final int salary;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Spliterator;
 
-	public Employee(Person p1, Department Dept, int salary) {
-		this.department = Dept;
-		this.person = p1;
-		this.salary = salary;
-	}
+public class J8_D_SpliteratorTrySplitExample {
+	public static void main(String[] args) {
+		List<String> list = Arrays.asList("Apple", "Banana", "Orange");
 
-	public Department getDepartment() {
-		return department;
-	}
+		Spliterator<String> s = list.spliterator();
+		Spliterator<String> s1 = s.trySplit();
 
-	public Person getPerson() {
-		return person;
-	}
-
-	@Override
-	public String toString() {
-		return "Employee{" +
-				"person=" + person +
-				'}';
-	}
-
-	public int getSalary() {
-		return salary;
+		s.forEachRemaining(System.out::println);
+		System.out.println("-- traversing the other half of the spliterator --- ");
+		s1.forEachRemaining(System.out::println);
 	}
 }
+/*
+Banana
+Orange
+-- traversing the other half of the spliterator ---
+Apple
+ */

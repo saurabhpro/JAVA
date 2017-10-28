@@ -8,35 +8,43 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package streams.model;
+package streams.maps;
 
-public class Employee {
-	private final Department department;
-	private final Person person;
-	private final int salary;
+import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
-	public Employee(Person p1, Department Dept, int salary) {
-		this.department = Dept;
-		this.person = p1;
-		this.salary = salary;
-	}
+public class StreamCollectCounting {
 
-	public Department getDepartment() {
-		return department;
-	}
+	public static void main(String[] args) {
 
-	public Person getPerson() {
-		return person;
-	}
+		//3 apple, 2 banana, others 1
+		List<String> items = Arrays.asList(
+				"apple", "apple", "banana", "papaya",
+				"apple", "orange", "banana", "papaya");
 
-	@Override
-	public String toString() {
-		return "Employee{" +
-				"person=" + person +
-				'}';
-	}
+		Map<String, Long> result = items.stream()
+				.collect(
+						Collectors.groupingBy(
+								Function.identity(), Collectors.counting()
+						)
+				);
 
-	public int getSalary() {
-		return salary;
+		System.out.println(result);
+
+
+		Map<String, Long> finalMap = new LinkedHashMap<>();
+
+		//Sort a map in descending order and add to finalMap
+		result.entrySet().stream()
+				.sorted(Map.Entry.<String, Long>comparingByValue().reversed())
+				.forEachOrdered(e -> finalMap.put(e.getKey(), e.getValue()));
+
+		System.out.println(finalMap);
+
+
 	}
 }

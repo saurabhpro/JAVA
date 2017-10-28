@@ -8,35 +8,38 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package streams.model;
+package streams.maps.flatmap.pojo;
 
-public class Employee {
-	private final Department department;
-	private final Person person;
-	private final int salary;
+import java.util.HashSet;
+import java.util.Set;
 
-	public Employee(Person p1, Department Dept, int salary) {
-		this.department = Dept;
-		this.person = p1;
-		this.salary = salary;
+public class Student {
+
+	private String name;
+	private Set<String> book;
+
+	public void addBook(String book) {
+		if (this.book == null) {
+			this.book = new HashSet<>();
+		}
+		this.book.add(book);
 	}
 
-	public Department getDepartment() {
-		return department;
+	public Set<String> getBook() {
+		return book;
 	}
 
-	public Person getPerson() {
-		return person;
+	public void setBook(Set<String> book) {
+		this.book = book;
 	}
 
-	@Override
-	public String toString() {
-		return "Employee{" +
-				"person=" + person +
-				'}';
+	public String getName() {
+		return name;
 	}
 
-	public int getSalary() {
-		return salary;
+	public void setName(String name) {
+		this.name = name;
 	}
+	//getters and setters
+
 }

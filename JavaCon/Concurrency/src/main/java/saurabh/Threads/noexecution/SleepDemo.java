@@ -8,35 +8,34 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package streams.model;
+package saurabh.Threads.noexecution;
 
-public class Employee {
-	private final Department department;
-	private final Person person;
-	private final int salary;
+// Java program to illustrate sleep() method in Java
 
-	public Employee(Person p1, Department Dept, int salary) {
-		this.department = Dept;
-		this.person = p1;
-		this.salary = salary;
+public class SleepDemo implements Runnable {
+	Thread t;
+
+	public static void main(String[] args) throws Exception {
+		Thread t = new Thread(new SleepDemo());
+
+		// call run() function
+		t.start();
+
+		Thread t2 = new Thread(new SleepDemo());
+
+		// call run() function
+		t2.start();
 	}
 
-	public Department getDepartment() {
-		return department;
-	}
-
-	public Person getPerson() {
-		return person;
-	}
-
-	@Override
-	public String toString() {
-		return "Employee{" +
-				"person=" + person +
-				'}';
-	}
-
-	public int getSalary() {
-		return salary;
+	public void run() {
+		for (int i = 0; i < 4; i++) {
+			System.out.println(Thread.currentThread().getName() + "  " + i);
+			try {
+				// thread to sleep for 1000 milliseconds
+				Thread.sleep(1000);
+			} catch (Exception e) {
+				System.err.println(e.getMessage());
+			}
+		}
 	}
 }

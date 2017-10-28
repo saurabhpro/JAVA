@@ -15,24 +15,24 @@ import java.util.List;
 
 public class DataProvider {
 
-	public static List<Integer> numberList = Arrays.asList(1, 2, 3, 4, 5, 6);
+	public static final List<Integer> numberList = Arrays.asList(1, 2, 3, 4, 5, 6);
 
 
-	public static Person p1 = new Person("Alice", "", 23);
-	public static Person p2 = new Person("Brian", "", 56);
-	public static Person p3 = new Person("Chelsea", "", 46);
-	public static Person p4 = new Person("David", "", 28);
-	public static Person p5 = new Person("Erica", "", 37);
-	public static Person p6 = new Person("Francisco", "", 18);
+	private static final Person p1 = new Person("Alice", "", 23);
+	private static final Person p2 = new Person("Brian", "", 56);
+	private static final Person p3 = new Person("Chelsea", "", 46);
+	private static final Person p4 = new Person("David", "", 28);
+	private static final Person p5 = new Person("Erica", "", 37);
+	private static final Person p6 = new Person("Francisco", "", 18);
 
-	public static Department d1 = new Department("IT", 8);
-	public static Department d2 = new Department("Tech", 2);
+	private static final Department d1 = new Department("IT", 8);
+	private static final Department d2 = new Department("Tech", 2);
 
-	public static Employee e1 = new Employee(p1, d1, 2_800_000);
-	public static Employee e2 = new Employee(p2, d1, 1_800_000);
-	public static Employee e3 = new Employee(p3, d1, 1_850_000);
-	public static Employee e4 = new Employee(p5, d2, 7_800_000);
-	public static Employee e5 = new Employee(p5, d2, 7_800_001);
+	private static final Employee e1 = new Employee(p1, d1, 2_800_000);
+	private static final Employee e2 = new Employee(p2, d1, 1_800_000);
+	private static final Employee e3 = new Employee(p3, d1, 1_850_000);
+	private static final Employee e4 = new Employee(p5, d2, 7_800_000);
+	private static final Employee e5 = new Employee(p5, d2, 7_800_001);
 
 
 	public static List<Person> getYoungPersonList() {

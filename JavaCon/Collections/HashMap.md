@@ -1,3 +1,7 @@
+there is the concept of a container, defined in the Map interface, holding a group of key-value object pairs, which allow the use of a key to find a value – in this way an object (value) can be found using another object (key) that has been mapped to it.
+A problem with using the containers of the Collections Framework in some form of parallel programming is that these containers are not thread-safe. Wrappers are provided for adding automatic synchronization (thread safety) but the drawback is that this introduces thread contention, where two or more threads are trying to access the same resource simultaneously and therefore cause the runtime to either suspend their execution or execute them more slowly.
+
+
 ## Map.Entry <K, V>
 1.	HashMap class has one nested interface with name `Entry` (`Node` from JDK 1.8) which implements one interface called `Map.Entry` interface 
 

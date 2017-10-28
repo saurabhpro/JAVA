@@ -8,35 +8,29 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package streams.model;
+package queues.e_delayedQueues;
 
-public class Employee {
-	private final Department department;
-	private final Person person;
-	private final int salary;
+import org.junit.jupiter.api.Test;
 
-	public Employee(Person p1, Department Dept, int salary) {
-		this.department = Dept;
-		this.person = p1;
-		this.salary = salary;
-	}
+import java.util.concurrent.DelayQueue;
 
-	public Department getDepartment() {
-		return department;
-	}
+class DelayedReminderTest {
 
-	public Person getPerson() {
-		return person;
-	}
+	@Test
+	void test() {
+		DelayQueue<DelayedReminder> queue = new DelayQueue<>();
 
-	@Override
-	public String toString() {
-		return "Employee{" +
-				"person=" + person +
-				'}';
-	}
+		DelayedReminder reminder = new DelayedReminder("Wake me up in 60 seconds", 60);
+		queue.add(reminder);
 
-	public int getSalary() {
-		return salary;
+		reminder = new DelayedReminder("Wake me up in 30 seconds", 30);
+		queue.add(reminder);
+
+		queue.forEach(System.out::println);
+
+		/*output
+		DelayedReminder{reminderText='Wake me up in 30 seconds', delayInSeconds=30}
+		DelayedReminder{reminderText='Wake me up in 60 seconds', delayInSeconds=60}
+		 */
 	}
 }

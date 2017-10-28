@@ -130,6 +130,8 @@ Code for it is as follows -
 
 ```
 
+equals() - no attempt is made to compare the state of the two objects, but they’re considered “equal” if and only if the two objects are actually the same object instance.
+
 trimToSize() to trim to say existing 5 elements when default size is set to 10
 
 

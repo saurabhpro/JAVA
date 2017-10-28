@@ -35,5 +35,7 @@ public class CopyOnWriteArrayListMy {
 			System.out.println("Exception : " + e);
 
 		}
+
+		System.out.println("Final ArrayList: " + arrayList);
 	}
 }

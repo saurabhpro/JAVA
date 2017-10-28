@@ -8,35 +8,18 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package streams.model;
+package streams.iterables;
 
-public class Employee {
-	private final Department department;
-	private final Person person;
-	private final int salary;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
 
-	public Employee(Person p1, Department Dept, int salary) {
-		this.department = Dept;
-		this.person = p1;
-		this.salary = salary;
-	}
+public class A_IteratorExample {
 
-	public Department getDepartment() {
-		return department;
-	}
-
-	public Person getPerson() {
-		return person;
-	}
-
-	@Override
-	public String toString() {
-		return "Employee{" +
-				"person=" + person +
-				'}';
-	}
-
-	public int getSalary() {
-		return salary;
+	public static void main(String[] args) {
+		List<String> list = Arrays.asList("Apple", "Banana", "Orange");
+		//noinspection ForLoopReplaceableByForEach
+		for (Iterator<String> i = list.iterator(); i.hasNext(); )
+			System.out.println(i.next());
 	}
 }

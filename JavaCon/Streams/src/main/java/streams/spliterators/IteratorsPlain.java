@@ -8,29 +8,44 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package list.synchronizedlist.problem;
+package streams.spliterators;
+
+import streams.model.Person;
 
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
-class ArrayListThread2 implements Runnable {
-	private final ArrayList<String> al;
+public class IteratorsPlain {
+	public static void main(String[] args) {
+		List<Person> people = new ArrayList<>();
 
-	ArrayListThread2(ArrayList<String> al) {
-		this.al = al;
-	}
+		// Add some people using Person objects
+		people.add(new Person("Jane", "Doe", "Ireland"));
+		people.add(new Person("Joe", "Doe", "England"));
+		people.add(new Person("John", "Doe", "Scotland"));
+		people.add(new Person("Julie", "Doe", "Wales"));
+		people.add(new Person("Jerry", "Doe", "France"));
+		people.add(new Person("Jim", "Doe", "Italy"));
 
-	@Override
-	public void run() {
-		try {
-			for (int i = 0; i < 5; i++)
-				al.add("First");
-			al.add("Second");
-			al.add("Third");
+		// simple iterator example
+		Iterator<Person> peopleIterator = people.iterator();
 
-			System.out.println("T2 " + al);
-			Thread.sleep(100);
-		} catch (Exception e) {
-			System.out.println("Exception : " + e);
+		//noinspection WhileLoopReplaceableByForEach
+		while (peopleIterator.hasNext()) {
+			Person person = peopleIterator.next();
+			System.out.println("Hello " + person.getFirstName() +
+					" " + person.getLastName() +
+					" from " + person.getCountry());
 		}
 	}
 }
+
+/*
+Hello Jane Doe from Ireland
+Hello Joe Doe from England
+Hello John Doe from Scotland
+Hello Julie Doe from Wales
+Hello Jerry Doe from France
+Hello Jim Doe from Italy
+*/

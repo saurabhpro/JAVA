@@ -25,7 +25,9 @@ class Thread2 implements Runnable {
 			al.add("First");
 			al.add("Second");
 			al.add("Third");
-			Thread.sleep(1000);
+
+			System.out.println("T2 " + al);
+			Thread.sleep(100);
 		} catch (Exception e) {
 			System.out.println("Exception : " + e);
 		}

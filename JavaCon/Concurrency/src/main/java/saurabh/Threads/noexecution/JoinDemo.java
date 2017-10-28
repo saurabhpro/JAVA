@@ -8,35 +8,34 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package streams.model;
+package saurabh.Threads.noexecution;
+// Java program to illustrate join() method in Java
 
-public class Employee {
-	private final Department department;
-	private final Person person;
-	private final int salary;
+public class JoinDemo implements Runnable {
+	public static void main(String args[]) throws Exception {
+		Thread t = new Thread(new JoinDemo());
+		t.start();
 
-	public Employee(Person p1, Department Dept, int salary) {
-		this.department = Dept;
-		this.person = p1;
-		this.salary = salary;
+		// Waits for 1000ms this thread to die.
+		t.join(1000);
+
+		System.out.println("\nJoining after 1000" +
+				" mili seconds: \n");
+		System.out.println("Current thread: " +
+				t.getName());
+
+
+		// Checks if this thread is alive
+		System.out.println("Is alive? " + t.isAlive());
 	}
 
-	public Department getDepartment() {
-		return department;
-	}
+	public void run() {
+		Thread t = Thread.currentThread();
+		System.out.println("Current thread: "
+				+ t.getName());
 
-	public Person getPerson() {
-		return person;
-	}
-
-	@Override
-	public String toString() {
-		return "Employee{" +
-				"person=" + person +
-				'}';
-	}
-
-	public int getSalary() {
-		return salary;
+		// checks if current thread is alive
+		System.out.println("Is Alive? "
+				+ t.isAlive());
 	}
 }

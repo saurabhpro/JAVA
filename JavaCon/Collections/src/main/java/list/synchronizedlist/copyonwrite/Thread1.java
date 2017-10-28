@@ -31,7 +31,7 @@ class Thread1 implements Runnable {
 			try {
 				System.out.println("Name: " + anAl);
 
-				Thread.sleep(2000);
+				Thread.sleep(200);
 			} catch (Exception e) {
 				{
 					System.out.println("Explain Ready = " + e);

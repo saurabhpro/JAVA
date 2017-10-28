@@ -8,35 +8,27 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package streams.model;
+package streams.maps.flatmap;
 
-public class Employee {
-	private final Department department;
-	private final Person person;
-	private final int salary;
+import java.util.Arrays;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
-	public Employee(Person p1, Department Dept, int salary) {
-		this.department = Dept;
-		this.person = p1;
-		this.salary = salary;
+public class StreamFlatMapToInt {
+
+	public static void main(String[] args) {
+
+		int[] intArray = {1, 2, 3, 4, 5, 6};
+
+		//1. Stream<int[]>
+		Stream<int[]> streamArray = Stream.of(intArray);
+
+		//2. Stream<int[]> -> flatMap -> IntStream
+		@SuppressWarnings("Convert2MethodRef") IntStream intStream = streamArray.flatMapToInt(x -> Arrays.stream(x));
+
+		//noinspection Convert2MethodRef
+		intStream.forEach(x -> System.out.println(x));
+
 	}
 
-	public Department getDepartment() {
-		return department;
-	}
-
-	public Person getPerson() {
-		return person;
-	}
-
-	@Override
-	public String toString() {
-		return "Employee{" +
-				"person=" + person +
-				'}';
-	}
-
-	public int getSalary() {
-		return salary;
-	}
 }

@@ -8,35 +8,39 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package streams.model;
+package set;
 
-public class Employee {
-	private final Department department;
-	private final Person person;
-	private final int salary;
+import org.junit.jupiter.api.Test;
 
-	public Employee(Person p1, Department Dept, int salary) {
-		this.department = Dept;
-		this.person = p1;
-		this.salary = salary;
+import java.util.Collection;
+import java.util.HashSet;
+
+
+class SetOpsTest {
+
+	@Test
+	void test() {
+		Collection<Student> collection = new HashSet<>();
+		Student s1 = new Student(12345, "John", "Smith");
+		Student s2 = new Student(67890, "Jane", "Smith");
+		Student s3 = new Student(13579, "Adam", "Smith");
+		Student s4 = new Student(67890, "Thee", "DD");
+		// if we only have equals () with ID - this will be added in set
+		// but if student has hashCode() as well with id - you won't see in in SET
+		/*
+		public boolean containsKey(Object key) {
+            return getNode(hash(key), key) != null;
+        }
+		 */
+		collection.add(s1);
+		collection.add(s1);
+		collection.add(s2);
+		collection.add(s3);
+		collection.add(s4);
+		for (Student student : collection) {
+			System.out.println(student.getFname());
+		}
 	}
 
-	public Department getDepartment() {
-		return department;
-	}
 
-	public Person getPerson() {
-		return person;
-	}
-
-	@Override
-	public String toString() {
-		return "Employee{" +
-				"person=" + person +
-				'}';
-	}
-
-	public int getSalary() {
-		return salary;
-	}
 }

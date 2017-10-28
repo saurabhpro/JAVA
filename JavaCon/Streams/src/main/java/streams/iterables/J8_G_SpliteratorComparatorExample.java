@@ -8,35 +8,36 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package streams.model;
+package streams.iterables;
 
-public class Employee {
-	private final Department department;
-	private final Person person;
-	private final int salary;
+import java.util.Comparator;
+import java.util.SortedSet;
+import java.util.Spliterator;
+import java.util.TreeSet;
 
-	public Employee(Person p1, Department Dept, int salary) {
-		this.department = Dept;
-		this.person = p1;
-		this.salary = salary;
+public class J8_G_SpliteratorComparatorExample {
+	public static void main(String[] args) {
+		SortedSet<Test> set = new TreeSet<>(Comparator.comparing(o -> o.str));
+
+		set.add(new Test("two"));
+		set.add(new Test("one"));
+
+		Spliterator<Test> s = set.spliterator();
+
+		System.out.println(s.getComparator());
+		System.out.println(set);
 	}
 
-	public Department getDepartment() {
-		return department;
-	}
+	private static class Test {
+		private final String str;
 
-	public Person getPerson() {
-		return person;
-	}
+		private Test(String str) {
+			this.str = str;
+		}
 
-	@Override
-	public String toString() {
-		return "Employee{" +
-				"person=" + person +
-				'}';
-	}
-
-	public int getSalary() {
-		return salary;
+		@Override
+		public String toString() {
+			return "Test{str='" + str + "'}";
+		}
 	}
 }

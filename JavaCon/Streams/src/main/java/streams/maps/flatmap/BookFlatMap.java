@@ -8,35 +8,44 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package streams.model;
+package streams.maps.flatmap;
 
-public class Employee {
-	private final Department department;
-	private final Person person;
-	private final int salary;
+import streams.maps.flatmap.pojo.Student;
 
-	public Employee(Person p1, Department Dept, int salary) {
-		this.department = Dept;
-		this.person = p1;
-		this.salary = salary;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class BookFlatMap {
+
+	public static void main(String[] args) {
+
+		Student obj1 = new Student();
+		obj1.setName("mkyong");
+		obj1.addBook("Java 8 in Action");
+		obj1.addBook("Spring Boot in Action");
+		obj1.addBook("Effective Java (2nd Edition)");
+
+		Student obj2 = new Student();
+		obj2.setName("zilap");
+		obj2.addBook("Learning Python, 5th Edition");
+		obj2.addBook("Effective Java (2nd Edition)");
+		obj2.addBook("Effective Javascript");
+
+		List<Student> list = new ArrayList<>();
+		list.add(obj1);
+		list.add(obj2);
+
+		//stream to collect both students unique book names
+		@SuppressWarnings("Convert2MethodRef") List<String> bookNames = list.stream()
+				.map(x -> x.getBook())      //Stream<Set<String>>
+				.flatMap(x -> x.stream())   //Stream<String>
+				.distinct()
+				.sorted()
+				.collect(Collectors.toList());
+
+		//noinspection Convert2MethodRef
+		bookNames.forEach(x -> System.out.println(x));
 	}
 
-	public Department getDepartment() {
-		return department;
-	}
-
-	public Person getPerson() {
-		return person;
-	}
-
-	@Override
-	public String toString() {
-		return "Employee{" +
-				"person=" + person +
-				'}';
-	}
-
-	public int getSalary() {
-		return salary;
-	}
 }

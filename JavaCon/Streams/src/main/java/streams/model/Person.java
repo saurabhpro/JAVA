@@ -20,6 +20,14 @@ public class Person {
 	private String lastName;
 	private int age;
 
+	private String country;
+
+	public Person(String firstName, String lastName, String country) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.country = country;
+	}
+
 	public Person() {
 	}
 
@@ -27,6 +35,14 @@ public class Person {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.age = age;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
 	}
 
 	public String getFirstName() {

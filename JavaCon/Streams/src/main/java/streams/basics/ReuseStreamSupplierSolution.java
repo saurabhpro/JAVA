@@ -8,35 +8,26 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package streams.model;
+package streams.basics;
 
-public class Employee {
-	private final Department department;
-	private final Person person;
-	private final int salary;
+import java.util.function.Supplier;
+import java.util.stream.Stream;
 
-	public Employee(Person p1, Department Dept, int salary) {
-		this.department = Dept;
-		this.person = p1;
-		this.salary = salary;
+public class ReuseStreamSupplierSolution {
+
+	public static void main(String[] args) {
+
+		String[] array = {"a", "b", "c", "d", "e"};
+
+		Supplier<Stream<String>> streamSupplier = () -> Stream.of(array);
+
+		//get new stream
+		//noinspection Convert2MethodRef
+		streamSupplier.get().forEach(x -> System.out.println(x));
+
+		//get another new stream
+		@SuppressWarnings("Convert2MethodRef") long count = streamSupplier.get().filter(x -> "b".equals(x)).count();
+		System.out.println(count);
 	}
 
-	public Department getDepartment() {
-		return department;
-	}
-
-	public Person getPerson() {
-		return person;
-	}
-
-	@Override
-	public String toString() {
-		return "Employee{" +
-				"person=" + person +
-				'}';
-	}
-
-	public int getSalary() {
-		return salary;
-	}
 }
