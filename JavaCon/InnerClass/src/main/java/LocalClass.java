@@ -25,7 +25,7 @@
  * <li>The new operator</li>
  * <li>The name of an interface to implement or a class to extend. In this example,
  * the anonymous class is implementing the interface HelloWorld.</li>
- * <li>Parentheses that contain the arguments to a constructor, just like a normal class instance creation expression.
+ * <li>Parentheses that contain the arguments to a constructor, just like a normal class instance a_creation expression.
  * Note: When you implement an interface, there is no constructor, so you use an empty pair of parentheses, as in this example.</li>
  * <li>A body, which is a class declaration body. More specifically, in the body, method declarations are allowed but statements are not.</li>
  * <li> Because an anonymous class definition is an expression, it must be part of a statement.</li>

@@ -11,19 +11,21 @@
 package exceptions.logging;//: exceptions/exceptions.logging.LoggingExceptions.java
 // An exception that reports through a Logger.
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java.util.logging.Logger;
 
 class LoggingException extends Exception {
-	private static final Logger logger = Logger.getLogger(LoggingException.class.getName());
+	private static final Logger logger = LoggerFactory.getLogger(LoggingException.class.getName());
 
 	LoggingException() {
 		System.out.println(logger.getName());
 
 		StringWriter trace = new StringWriter();
 		printStackTrace(new PrintWriter(trace));
-		logger.severe(trace.toString());
+		logger.trace(trace.toString());
 	}
 }
 

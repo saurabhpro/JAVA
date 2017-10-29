@@ -26,6 +26,7 @@ class A {
 		synchronized (key2) {
 			System.out.println("[" + Thread.currentThread().getName() + "] I am in b()");
 			c();
+
 		}
 	}
 

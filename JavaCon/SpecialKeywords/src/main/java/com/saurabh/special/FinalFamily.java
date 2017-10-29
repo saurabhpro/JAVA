@@ -36,7 +36,7 @@ class FinalData {
 		//tmp = new Temp(); INVALID as temp is final
 	}
 
-	//a final variable initialized at creation is constant and un-changeable
+	//a final variable initialized at a_creation is constant and un-changeable
 	private final int x = 7;
 	//A static final variable that is not initialized at the time of declaration.
 	// It can be initialized only in static block.
@@ -67,7 +67,7 @@ class FinalData {
 	}
 
 
-	/*why only constructor - because it is the only method that runs atleast once at object creation
+	/*why only constructor - because it is the only method that runs atleast once at object a_creation
 	constructor ensures blank final variable is given some value
 	 */
 	FinalData() {

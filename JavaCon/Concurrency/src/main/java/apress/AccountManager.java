@@ -40,9 +40,7 @@ public class AccountManager {
 		} catch (Exception ignored) {
 		}
 
-		System.out.println("Total balance after transfers: " +
-				formatter.format(savings.getBalance() +
-						checking.getBalance()));
+		System.out.println("Total balance after transfers: " + formatter.format(savings.getBalance() + checking.getBalance()));
 	}
 
 	public static void main(String[] args) {
@@ -70,9 +68,11 @@ public class AccountManager {
 			double transferAmount;
 			for (int i = 0; i < transferCount; i++) {
 				balance = fromAccount.getBalance();
-				transferAmount = (int) (balance * Math.random());
+				transferAmount = balance * Math.random();
+
 				balance -= transferAmount;
 				fromAccount.setBalance(balance);
+
 				balance = toAccount.getBalance();
 				balance += transferAmount;
 				toAccount.setBalance(balance);

@@ -22,7 +22,7 @@ public class CompletableFutureEx {
 				() -> {
 					try {
 						// Simulate long running task
-						Thread.sleep(5000);
+						Thread.sleep(5000, 50);
 					} catch (InterruptedException ignored) {
 					}
 					return 10;
@@ -37,7 +37,7 @@ public class CompletableFutureEx {
 	}
 
 	public CompletableFuture countEvents() {
-		CompletableFuture result = new CompletableFuture<>();
+		CompletableFuture<Integer> result = new CompletableFuture<>();
 		AtomicInteger count = new AtomicInteger();
 		Observable.just("1", "2", "3", "err", "4")
 				.subscribe(ev -> {

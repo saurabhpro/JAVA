@@ -16,28 +16,28 @@ package com.saurabh.special;
   Java � private constructor example
   OOPS CONCEPT
   The use of private constructor is to serve singleton classes. A singleton class is one which limits the
-  number of objects creation to one. Using private constructor we can ensure that no more than one object
+  number of objects a_creation to one. Using private constructor we can ensure that no more than one object
   can be created at a time. We will see in the below example how to use private constructor for limiting
   the number of objects for a singleton class.
   <p>
   Java � private constructor example
   OOPS CONCEPT
   The use of private constructor is to serve singleton classes. A singleton class is one which limits the
-  number of objects creation to one. Using private constructor we can ensure that no more than one object
+  number of objects a_creation to one. Using private constructor we can ensure that no more than one object
   can be created at a time. We will see in the below example how to use private constructor for limiting
   the number of objects for a singleton class.
   <p>
   Java � private constructor example
   OOPS CONCEPT
   The use of private constructor is to serve singleton classes. A singleton class is one which limits the
-  number of objects creation to one. Using private constructor we can ensure that no more than one object
+  number of objects a_creation to one. Using private constructor we can ensure that no more than one object
   can be created at a time. We will see in the below example how to use private constructor for limiting
   the number of objects for a singleton class.
   <p>
   Java � private constructor example
   OOPS CONCEPT
   The use of private constructor is to serve singleton classes. A singleton class is one which limits the
-  number of objects creation to one. Using private constructor we can ensure that no more than one object
+  number of objects a_creation to one. Using private constructor we can ensure that no more than one object
   can be created at a time. We will see in the below example how to use private constructor for limiting
   the number of objects for a singleton class.
  */
@@ -45,7 +45,7 @@ package com.saurabh.special;
   Java � private constructor example
  OOPS CONCEPT
  The use of private constructor is to serve singleton classes. A singleton class is one which limits the
- number of objects creation to one. Using private constructor we can ensure that no more than one object
+ number of objects a_creation to one. Using private constructor we can ensure that no more than one object
  can be created at a time. We will see in the below example how to use private constructor for limiting
  the number of objects for a singleton class.
  */
@@ -96,7 +96,7 @@ public class PrivateConstructorSingleton {
 	public static void main(String args[]) {
 		//Object cannot be created directly due to private constructor
 		//This way it is forced to create object via our method where
-		//we have logic for only one object creation
+		//we have logic for only one object a_creation
 
 		//Singleton myobject = new Singleton();       private constructor so not allowed
 

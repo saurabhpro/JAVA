@@ -37,6 +37,7 @@ public class Worker extends Thread {
 		worker.quit();
 	}
 
+	@Override
 	public void run() {
 		while (!quittingTime) {
 			working();
@@ -58,6 +59,7 @@ public class Worker extends Thread {
 			quittingTime = true;
 			System.out.println("Calling join");
 			join();
+
 			System.out.println("Back from join");
 		}
 	}

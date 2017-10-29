@@ -46,7 +46,7 @@ public class StaticConstructors {
 				"for example static method cannot be inherited in the sub class because they belong to the class in which they have been declared.\n" +
 				"Refer static keyword.\n\n" +
 				"Lets back to constructors, " +
-				"Since each constructor is being called by its subclass during creation of the object of its subclass,\n" +
+				"Since each constructor is being called by its subclass during a_creation of the object of its subclass,\n" +
 				"so if you mark constructor as static the subclass will not be able to access the constructor of its parent class\n " +
 				"thus object of child class couldn't be created.\n" +
 				"because it is marked static and thus belong to the class only.\n" +

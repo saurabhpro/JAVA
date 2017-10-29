@@ -1,5 +1,5 @@
 /*
- * Copyright 2017 Saurabh Kumar
+ * Copyright 2017 Saurabh Kumar 29/10/17 1:14 PM
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
  *
@@ -8,44 +8,45 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package saurabh.Threads.Creation.ThreadFactory;
+package pluralsight.rxjava.observable.c_filtering;
+
+import pluralsight.rxjava.observable.util.ThreadUtils;
+import pluralsight.rxjava.observable.util.TimeTicker;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Saurabh on 10/21/2015. one thing more to notice about Daemon threads is that they dont get to execute
- * their finally blocks [which as we know executes SURELY for User thread exceptions]
- */
-
-public class DaemonDontRunFinally implements Runnable {
+public class F_TimeBasedExampleSample {
 
 	public static void main(String[] args) {
-		new DaemonDontRunFinally().runThread();
-	}
 
-	@Override
-	public void run() {
+		// TimeTicker is a class that generates an event every
+		// 10 milliseonds.  The event is a Long that represents
+		// the current value of System.currentTimeMillis()
+		TimeTicker ticker = new TimeTicker(10);
+		ticker.start();
+
+
 		try {
-			System.out.println("starting a daemon");
-			TimeUnit.MILLISECONDS.sleep(100);
+			// First, we get the observable event stream from the
+			// ticker.
+			ticker.toObservable()
+					// Next, we tell the observable to give us samples
+					// every one second.
+					.sample(1, TimeUnit.SECONDS)
+					.subscribe((t) -> {
+						// Every second, we will emit the current value
+						// of System.currentTimeMillis()
+						System.out.println("Tick: " + t);
+					});
 
-		} catch (InterruptedException e) {
-			System.out.println("sleep() interrupted");
+			// We do this for 10 seconds...
+			ThreadUtils.sleep(10000);
 		} finally {
-			System.out.println("finally should run always??");
+			// ...and then stop the ticker...which will also call
+			// onCompleted() on all observers.
+			ticker.stop();
 		}
-	}
+		System.exit(0);
 
-	private void runThread() {
-		Thread t = new Thread(new DaemonDontRunFinally());
-		t.setDaemon(true);
-		/*
-		 * if we comment the above line we will see that finally always runs
-		 * but for daemon thread they don't (WHY?)
-		 *
-		 * because Daemon thread are not reliable, they are terminated even alive once main() exits,
-		 * so the compiler privileges of graceful exit is not given to them.
-		 */
-		t.start();
 	}
 }

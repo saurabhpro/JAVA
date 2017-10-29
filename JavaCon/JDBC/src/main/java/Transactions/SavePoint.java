@@ -49,7 +49,7 @@ public class SavePoint {
 			conn.rollback(savepoint);
 			/*
 			 * rolls back work to the specified savepoint.
-			 * now everything from here till the savepoint creation line will be ignored and the rest can be
+			 * now everything from here till the savepoint a_creation line will be ignored and the rest can be
 			 * updated using commit()
 			 *
 			 * this violates the A property in ACID but can be useful when we want to change some and ignore some

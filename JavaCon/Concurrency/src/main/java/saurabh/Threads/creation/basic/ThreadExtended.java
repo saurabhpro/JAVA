@@ -1,5 +1,5 @@
 /*
- * Copyright 2017 Saurabh Kumar
+ * Copyright 2017 Saurabh Kumar 29/10/17 7:58 AM
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
  *
@@ -8,22 +8,35 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package saurabh.Threads.Creation;
-
-/**
+/*
  * Created by Saurabh on 10/21/2015.
  */
+package saurabh.Threads.creation.basic;
 
-class MyThread implements Runnable {
+public class ThreadExtended extends Thread {
+	private static int threadCount = 0;
+	private int countDown = 3;
+
+	private ThreadExtended() {
+		//     super(Integer.toString(++threadCount));
+		start();
+	}
+
+	public static void main(String[] args) {
+		for (int i = 0; i < 5; i++)
+			new ThreadExtended();
+	}
+
 	@Override
 	public void run() {
-		System.out.println("Inside Run");
+		while (true) {
+			System.out.println(this);
+			if (countDown-- == 0) return;
+		}
 	}
-}
 
-public class SeparateRunnable {
-	public static void main(String[] args) {
-		Thread t = new Thread(new MyThread());
-		t.start();
+	@Override
+	public String toString() {
+		return getName() + "(" + countDown + ")";
 	}
 }

@@ -71,6 +71,7 @@
         <module>JsonIO</module>
         <module>RegExMatching</module>
         <module>Streams</module>
+        <module>ReactiveJava</module>
 
     </modules>
 </project>

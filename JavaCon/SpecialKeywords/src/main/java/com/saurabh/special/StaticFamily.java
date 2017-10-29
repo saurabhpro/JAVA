@@ -84,11 +84,11 @@ public class StaticFamily {
 		 */
 
 		static final int i = 10;
-		static int j = 20;
+		static int j;
 
 		static {
 			//System.out.println(j);    //illegal forward reference as at this stage j is in RIWO
-			//j=j+20;   //again forward reference so error
+			j = j + 20;   //again forward reference so error
 			j = 330;  //is allowed as it is assignment - but still in RIWO state
 
 
@@ -121,6 +121,54 @@ public class StaticFamily {
 			return 6;
 		}
 	}
+}
 
+/**
+ * When a java class is getting executed there are few steps which JVM performs few steps sequentially.
+ * <p>
+ * Identify the static members from top to bottom.
+ * Executes static variables assignments and static blocks from top to bottom.
+ * Executes the main method.
+ * <p>
+ * During these phases there is one such state called RIWO(Read Indirectly Write Only) for a static variable.
+ * <p>
+ * During RIWO a variable cannot be accessed directly with its reference. Instead we need to use an indirect
+ * way to call certain variables.
+ */
+class Riwo2 {
 
+	static int i = 10;
+	static int j = 20;
+
+	static {
+		m1();
+		System.out.println("block1\n");
+	}
+
+	static {
+		System.out.println("end of code\n");
+	}
+
+	public static void main(String... args) {
+		m1();
+		System.out.println("block main\n");
+	}
+
+	public static void m1() {
+		System.out.println("block m1");
+		System.out.println("j= " + j);
+	}
+}
+
+class Riwo3 {
+	static int i = 10;
+
+	static {
+		//System.out.println(i);  // illegal forward reference
+		System.out.println("block1");
+	}
+
+	public static void main(String... args) {
+		System.out.println("main block");
+	}
 }

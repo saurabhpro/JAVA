@@ -8,7 +8,7 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package saurabh.Threads.Creation;
+package saurabh.Threads.creation;
 
 /**
  * Created by Saurabh on 10/21/2015.
@@ -43,41 +43,21 @@ class ThreadInnerClasses {
 	 */
 	static class InnerNamelessThread {
 		final Thread t;
-		private int countDown = 5;
 
 		InnerNamelessThread() {
 			/*
-			 * inside anonymous thread class
+			 * inside anonymous thread class,
+			 * we can't use lambda here since the target type is a class, but expected interface
 			 */
 			t = new Thread() {
 				@Override
 				public void run() {
-					System.out.println("Inside Anonymous Inner Class Threads Run " + this);
+					System.out.println("Inside Anonymous Inner Class Threads run() => " + this);
 				}
 			};
 
 			t.start();
 		}
-	}
-
-	/**
-	 * class a anonymous Runnable Implementation
-	 */
-
-	static class InnerNamelessRunnable {
-		final Thread t;
-
-		InnerNamelessRunnable() {
-			t = new Thread(new Runnable() {
-				@Override
-				public void run() {
-					System.out.println("Inside Anonymous Runnable's Run " + this);
-				}
-			});
-
-			t.start();
-		}
-
 	}
 
 	/**
@@ -95,7 +75,33 @@ class ThreadInnerClasses {
 		public void run() {
 			System.out.println("Inside Named Inner Class implementing Runnable " + this);
 		}
+
+		@Override
+		public String toString() {
+			return "InnerNamedRunnable{" + t.getName() + "," + t.getPriority() + '}';
+		}
 	}
+
+	/**
+	 * class a anonymous Runnable Implementation
+	 */
+
+	static class InnerNamelessRunnable {
+		final Thread t;
+
+		InnerNamelessRunnable() {
+			t = new Thread(/*lambda runnable*/() -> System.out.println("Inside Anonymous Runnable's run() => " + this));
+
+			t.start();
+		}
+
+		@Override
+		public String toString() {
+			return "InnerNamelessRunnable{" + t.getName() + "," + t.getPriority() + '}';
+		}
+	}
+
+
 
 	/**
 	 * running thread from separate method [local inner class thread]
@@ -105,13 +111,12 @@ class ThreadInnerClasses {
 		Thread t;
 
 		public void task() {
-			if (t == null)
-				t = new Thread() {
-					@Override
-					public void run() {
-						System.out.println("Inside local inner run () " + this);
-					}
-				};
+			t = new Thread() {
+				@Override
+				public void run() {
+					System.out.println("Inside local inner run () " + this);
+				}
+			};
 
 			t.start();
 		}
@@ -121,7 +126,7 @@ class ThreadInnerClasses {
 
 public class InnerThreadVariations {
 	public static void main(String[] args) {
-		//  new ThreadInnerClasses.InnerNamedThread();
+		//new ThreadInnerClasses.InnerNamedThread();
 		new ThreadInnerClasses.InnerNamelessThread();
 		new ThreadInnerClasses.InnerNamedRunnable();
 		new ThreadInnerClasses.InnerNamelessRunnable();

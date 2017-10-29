@@ -40,7 +40,7 @@ public class Serialization {
 
 			FileInputStream fin = new FileInputStream("myfile");
 			ObjectInputStream oin = new ObjectInputStream(fin);
-			ArrayList al2 = (ArrayList) oin.readObject();        //ClassNotFoundException
+			ArrayList<String> al2 = (ArrayList<String>) oin.readObject();        //ClassNotFoundException
 
 			fin.close();
 			oin.close();        //not in try-with resources
@@ -51,7 +51,7 @@ public class Serialization {
                 System.out.println(z);
             }
              */
-			for (String z : (Iterable<String>) al2) {
+			for (String z : al2) {
 				System.out.println(z);
 			}
 		} catch (IOException | ClassNotFoundException e) {
