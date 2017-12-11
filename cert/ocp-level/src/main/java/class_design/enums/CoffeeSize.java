@@ -14,6 +14,7 @@ public enum CoffeeSize {
 	//private final int value;    // Error:(10, 36) java: value has private access in random.CoffeeSize
 	final int value;
 
+	// implicitly private
 	CoffeeSize(int size) {
 		this.value = size;
 	}
