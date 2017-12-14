@@ -11,3 +11,20 @@ package class_design.functionInterface;
 //		return 0;
 //	}
 //} no abstract method
+
+@FunctionalInterface
+interface Test {
+	abstract public void Show();
+
+	abstract public String toString();
+}
+
+class K implements Test {
+
+	@Override
+	public void Show() {
+
+	}
+
+	//wonder why i dont need to add implementation for toString :P
+}
