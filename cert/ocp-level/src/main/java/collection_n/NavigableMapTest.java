@@ -2,6 +2,7 @@ package collection_n;
 
 import java.util.NavigableMap;
 import java.util.TreeMap;
+import java.util.TreeSet;
 
 /**
  * It has many methods that make Map navigation easy.
@@ -10,6 +11,14 @@ import java.util.TreeMap;
  */
 public class NavigableMapTest {
 	public static void main(String[] args) {
+
+		TreeSet<String> tree = new TreeSet<>();
+		tree.add("one");
+		tree.add("One");
+		tree.add("ONE");
+		System.out.println(tree.ceiling("On"));
+
+
 		NavigableMap<Integer, String> examScores = new TreeMap<>();
 		examScores.put(90, "Sophia");
 		examScores.put(20, "Isabella");
