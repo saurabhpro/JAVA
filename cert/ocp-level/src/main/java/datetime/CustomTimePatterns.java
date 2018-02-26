@@ -16,7 +16,7 @@ class CustomTimePatterns {
 				/* H is hour in day (0-23),
 				/* a is am/pm
 				/* s is seconds, S is milliseconds */
-				/* K is hour in am/pm(0-11) */
+				/* K is hour in am/pm (0-11) */
 		};
 
 		LocalTime now = LocalTime.now();

@@ -15,6 +15,7 @@ public class FlightTravel {
 		ZonedDateTime departure = ZonedDateTime.of(
 				LocalDateTime.of(2016, Month.JANUARY, 1, 6, 0),
 				ZoneId.of("Asia/Singapore"));
+
 		System.out.println("Departure: " + dateTimeFormatter.format(departure));
 
 		// Arrival on the same day in 10 hours in "Auckland"

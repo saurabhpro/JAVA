@@ -7,14 +7,14 @@ public class CustomDatePatterns {
 	public static void main(String[] args) {
 		// patterns from simple to complex ones
 		String[] dateTimeFormats = {
-				"dd-MM-yyyy", /* d is day (in month), M is month, y is year */
-				"d '('E')' MMM, YYYY", /*E is name of the day like Sat, Sun (in week), Y is year*/
-				"w'th week of' YYYY", /* w is the week of the year */
-				"EEEE, dd'th' MMMM, YYYY", /*EEEE is day name in the week like Saturday, Sunday etc*/
-				"D '(Day in year)' Y",  /* D is day in year */
-				"W '(Week in Month)' M",/* W is week in that month */
-				"w '(Week in year)' yyy"/* w is week in that year */
-				/*m is minute */
+				"dd-MM-yyyy",                   /* d is day (in month), M is month, y is year */
+				"d '('E')' MMM, YYYY",          /* E is name of the day like Sat, Sun (in week), Y is year*/
+				"w'th week of' YYYY",           /* w is the week of the year */
+				"EEEE, dd'th' MMMM, YYYY",      /* EEEE is day name in the week like Saturday, Sunday etc*/
+				"D '(Day in year)' Y",          /* D is day in year */
+				"W '(Week in Month)' M",        /* W is week in that month */
+				"w '(Week in year)' yyy"        /* w is week in that year */
+				/* m is minute */
 		};
 
 

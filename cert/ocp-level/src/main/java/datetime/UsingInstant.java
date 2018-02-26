@@ -27,6 +27,16 @@ public class UsingInstant {
 
 		Duration between = Duration.between(now, comingMidnight);
 		System.out.println(between);
+
+		// Without a time zone, Java doesn’t know what moment in time to use for the Instant.
+		LocalDate date = LocalDate.now();
+		LocalTime time = LocalTime.now();
+		LocalDateTime dateTime = LocalDateTime.now();
+		ZoneId zoneId = ZoneId.systemDefault();
+		ZonedDateTime zonedDateTime = ZonedDateTime.of(dateTime, zoneId);
+		long epochSeconds = 0;
+		//Instant instant =   dateTime.toInstant;
+
 	}
 }
 
