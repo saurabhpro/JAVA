@@ -29,6 +29,7 @@ class ObjectStreamExample {
 
 		try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(FilePaths.BASE_RELATIVE_PATH + "object.data"))) {
 			Object obj = ois.readObject();
+
 			// first check if obj is of type Map
 			if (obj != null && obj instanceof Map) {
 				Map<?, ?> presidents = (Map<?, ?>) obj;

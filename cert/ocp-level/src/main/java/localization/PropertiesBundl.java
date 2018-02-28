@@ -1,4 +1,4 @@
-package sybex.ch05;
+package localization;
 
 import java.text.MessageFormat;
 import java.util.Locale;

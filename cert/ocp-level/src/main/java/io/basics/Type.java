@@ -1,10 +1,10 @@
 package io.basics;
 
-import io.FilePaths;
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+
+import static io.FilePaths.BASE_RELATIVE_PATH;
 
 // implements a simplified version of "type" command provided in Windows given
 // a text file name(s) as argument, it prints the content of the text file(s) on console
@@ -13,15 +13,15 @@ class Type {
 	public static void main(String[] files) {
 
 		if (files.length == 0) {
-			System.err.println("pass the name of the file(s) as argument");
-			System.exit(-1);
+			files = new String[]{"log.txt"};
+			// System.err.println("pass the name of the file(s) as argument");
+			// System.exit(-1);
 		}
-
 		// process each file passed as argument
 		for (String file : files) {
 
 			// try opening the file with FileReader
-			try (FileReader inputFile = new FileReader(FilePaths.BASE_RELATIVE_PATH + file)) {
+			try (FileReader inputFile = new FileReader(BASE_RELATIVE_PATH + file)) {
 
 				int ch;
 

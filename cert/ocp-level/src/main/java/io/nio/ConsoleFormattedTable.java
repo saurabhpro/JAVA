@@ -1,10 +1,10 @@
-package io.basics;
+package io.nio;
 
 import java.io.Console;
 
-class FormattedTable {
+class ConsoleFormattedTable {
 	public static void main(String[] str) {
-		FormattedTable formattedTable = new FormattedTable();
+		ConsoleFormattedTable formattedTable = new ConsoleFormattedTable();
 		Console console = System.console();
 
 		// console is null for ide's - use cmd to run it

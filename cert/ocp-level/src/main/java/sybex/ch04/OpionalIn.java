@@ -2,7 +2,7 @@ package sybex.ch04;
 
 import java.util.Optional;
 
-public class option {
+public class OpionalIn {
 	public static void main(String[] args) throws Throwable {
 
 		String value = null;

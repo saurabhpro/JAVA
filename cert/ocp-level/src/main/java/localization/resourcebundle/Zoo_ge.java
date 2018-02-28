@@ -1,4 +1,4 @@
-package sybex.ch05.resourcebundle;
+package localization.resourcebundle;
 
 import java.util.ListResourceBundle;
 

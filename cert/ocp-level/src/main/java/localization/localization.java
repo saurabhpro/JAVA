@@ -1,4 +1,4 @@
-package sybex.ch05;
+package localization;
 
 import java.util.Arrays;
 import java.util.Locale;
@@ -44,7 +44,7 @@ public class localization {
 		 */
 
 		ResourceBundle rb = ResourceBundle.getBundle("Zoo", locale);
-		System.out.println(rb.getString("hello"));
+		System.out.println(rb.getBaseBundleName() + " " + rb.getString("hello"));
 		System.out.println(rb.getString("open"));
 	}
 }
