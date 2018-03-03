@@ -18,6 +18,7 @@ class RawTest2 {
 		List<String> strList2 = new LinkedList<>();
 		strList2.add("First");
 		strList2.add("Second");
+
 		List list2 = strList2;
 		list2.add(10); // #2: compiles fine, results in runtime exception
 		// strList2.add(10);   // is obviously an error

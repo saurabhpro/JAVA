@@ -1,6 +1,6 @@
 package class_design.anonymous;
 
-import class_design.Shape;
+import class_design.inner.Shape;
 
 class StatusReporter {
 

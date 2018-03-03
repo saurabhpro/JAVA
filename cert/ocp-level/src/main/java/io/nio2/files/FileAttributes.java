@@ -1,4 +1,4 @@
-package io.nio;
+package io.nio2.files;
 
 import io.FilePaths;
 
@@ -7,6 +7,7 @@ import java.nio.file.Files;
 import java.nio.file.LinkOption;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.attribute.FileTime;
 
 class FileAttributes {
 	public static void main(String[] args) {
@@ -29,6 +30,16 @@ class FileAttributes {
 			System.out.println("isDirectory: " + object);
 		} catch (IOException e) {
 			e.printStackTrace();
+		}
+
+		try {
+			System.out.println(Files.getLastModifiedTime(path).toMillis());
+
+			Files.setLastModifiedTime(path, FileTime.fromMillis(System.currentTimeMillis()));
+
+			System.out.println(Files.getLastModifiedTime(path).toMillis());
+		} catch (IOException e) {
+			// Handle file I/O exception...
 		}
 	}
 }

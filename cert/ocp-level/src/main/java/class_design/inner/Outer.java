@@ -1,4 +1,4 @@
-package class_design;
+package class_design.inner;
 
 interface Outer2 {        // an outer interface has a static nested class
 	static class Inner {

@@ -14,6 +14,7 @@ class FindFiles {
 		BiPredicate<Path, BasicFileAttributes> predicate =
 				(path, attrs) -> attrs.isRegularFile() && path.toString().endsWith("class");
 
+
 		// in find only 4th arg , FileVisitOption.FOLLOW_LINKS is optional
 		try (Stream<Path> entries = Files.find(Paths.get("."), 6, predicate)) {
 			entries.limit(100).forEach(System.out::println);

@@ -1,17 +1,18 @@
-package class_design;
+package class_design.inner;
 
-abstract public class Shape {
+public class Shape {
 
 	private static int staticVar = 66;
-	private static int instanceVar = 68;
+	private int instanceVar = 68;
 
 	// outsider class method accessing inner class private variable
 	void showRedColorStrength() {
-		System.out.println("White color has red values:" + new Color().m_red);
+		System.out.println("White color has red values:" + new Color().m_red + " " + Color.i);
 	}
 
 	public static class Color {
 		private int m_red, m_green, m_blue;
+		private static int i = 9;   //allowed
 
 		public Color() {
 			// call the other overloaded Color constructor by passing default values
@@ -24,7 +25,12 @@ abstract public class Shape {
 			m_blue = blue;
 
 			System.out.println(staticVar);  // invalid to use this.staticVar or super.staticVar since both are after instance
+			// System.out.println(instanceVar);
 			// cannot use outside instanceVar since class is static
+
+			// usable like
+			System.out.println(new Shape().instanceVar);
+
 		}
 
 		public String toString() {
@@ -37,18 +43,23 @@ abstract public class Shape {
 		// inner class can be extended here
 
 		InnerOnly() {
-			System.out.println(instanceVar);    // also not possible to user this. or super. but class is non-static so access possible
+			System.out.println(instanceVar);    // also not possible to user this. or super.
+			// but class is non-static so access possible
 		}
 	}
 
 	// other Shape members elided (omitted)
 
-	public class InnerExended extends Shape.InnerOnly {
-		// Non-Static inner can be extened here since that's in the scope
+	public class InnerExtended extends Shape.InnerOnly {
+		// Non-Static inner can be extended here since that's in the scope
 
 		// cannot create static this in inner class
 		// static int in = 9;
 		// static void show(){}
+	}
+
+	class ExtendingStaticInnerClass extends Shape.Color {
+		// static inner class extended here
 	}
 }
 
@@ -67,5 +78,7 @@ class TestColor {
 		System.out.println("White color has values:" + white);
 
 		//System.out.println("White color has red values:" + white.red); // red is private here since different class
+
+		new Shape().showRedColorStrength(); //White color has red values:0 9
 	}
 }

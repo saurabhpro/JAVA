@@ -4,8 +4,11 @@ import io.FilePaths;
 
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 // implements a simplified version of "type" command provided in Windows;
@@ -29,5 +32,30 @@ class Type {
 		// process each file passed as argument
 		Arrays.stream(files)
 				.forEach(Type::processFile);
+
+
+		Path path = Paths.get("../../");
+		try {
+			final Stream<String> lines = Files.lines(path);
+			lines.forEach(System.out::println);
+
+			System.out.println(
+					Files.lines(path)
+							.filter(s -> s.startsWith("WARN "))
+							.map(s -> s.substring(5))
+							.collect(Collectors.toList())
+			);
+
+		} catch (IOException e) {
+			// Handle file I/O exception...
+		}
+
+		try {
+			final List<String> lines = Files.readAllLines(path);
+			lines.forEach(System.out::println);
+
+		} catch (IOException e) {
+			// Handle file I/O exception...
+		}
 	}
 }

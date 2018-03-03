@@ -1,4 +1,4 @@
-package io.nio;
+package io.nio2.files;
 
 import io.FilePaths;
 
@@ -8,7 +8,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 // class to figure out whether a file/directory exists on the given path
-class PathExists {
+public class FileOnPathExists {
 	public static void main(String[] args) {
 		Path path = Paths.get(FilePaths.BASE_RELATIVE_PATH + args[0]);
 

@@ -1,4 +1,4 @@
-package io.nio;
+package io.nio2.AttributeViews;
 
 import io.FilePaths;
 
@@ -9,9 +9,9 @@ import java.nio.file.Paths;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.nio.file.attribute.PosixFileAttributes;
 
-class FileAttributes2 {
+public class PosixFileAttributesSample {
 	public static void main(String[] args) {
-		Path path = Paths.get(FilePaths.BASE_RELATIVE_PATH + args[0]);
+		Path path1 = Paths.get(FilePaths.BASE_RELATIVE_PATH + args[0]);
 		try {
 
 			// the BasicFileAttributes interface defines the basic attributes supported by all common platforms.
@@ -19,7 +19,9 @@ class FileAttributes2 {
 			// by DosFileAttributes and PosixFileAttributes.
 			// BasicFileAttributes fileAttributes = Files.readAttributes(path, BasicFileAttributes.class); // works
 			// BasicFileAttributes fileAttributes = Files.readAttributes(path, DosFileAttributes.class); // throws UnsupportedOperationException
-			BasicFileAttributes fileAttributes = Files.readAttributes(path, PosixFileAttributes.class);
+
+			BasicFileAttributes fileAttributes = Files.readAttributes(path1, PosixFileAttributes.class);
+
 
 			System.out.println("File size: " + fileAttributes.size() + " bytes");
 			System.out.println("isDirectory: " + fileAttributes.isDirectory());

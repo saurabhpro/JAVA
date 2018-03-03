@@ -8,6 +8,7 @@ public class CannotDoWithNonReifiable<T> {
 	// non-static type variable T cannot be referenced from a static context
 
 	private static T num ;  //T is bound to this which is not available until class generation
+	private static<T> T num ;   // not allowed
 
 	// omits the formal parameter type, and therefore it does not compile.
 	private static T getValue(){
@@ -35,7 +36,7 @@ public class CannotDoWithNonReifiable<T> {
 		// array of objects however is
 		CannotDoWithNonReifiable<Integer>[] ct2 = new CannotDoWithNonReifiable[4];
 
-		CannotDoWithNonReifiable.<Integer>ship(87);
+		CannotDoWithNonReifiable.<Integer>ship(87); // not required to pass formal type but recommended
 	}
 
 	public static <T> T ship(T t) {

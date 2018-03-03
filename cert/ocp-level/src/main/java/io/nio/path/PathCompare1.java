@@ -1,4 +1,4 @@
-package io.nio;
+package io.nio.path;
 
 import io.FilePaths;
 

@@ -8,6 +8,7 @@ import java.util.List;
 
 public class WildcardBounds {
 
+	// makes room for any type extending number - mind it they are now treated as number and not that type
 	public static long total(List<? extends Number> list) {
 		long count = 0;
 		for (Number number : list)
@@ -40,22 +41,8 @@ public class WildcardBounds {
 
 		// incompatible types: java.util.List<capture#1 of ?> cannot be converted to java.util.List<? extends java.lang.Number>
 		// System.out.println(total(l));
-
-		Integer[] numbers = {42};
-		Object[] objects = numbers;
-		objects[0] = "forty two"; // throws ArrayStoreException
-
-		List<? extends Bird> birds = new ArrayList<Bird>();
-		// From Java’s point of view, both scenarios are equally possible so neither is allowed.
-		// birds.add(new Sparrow()); // DOES NOT COMPILE
-		// birds.add(new Bird()); // DOES NOT COMPILE
 	}
 
-	static class Sparrow extends Bird {
-	}
-
-	static class Bird {
-	}
 }
 
 class A {
@@ -76,6 +63,6 @@ class C extends B {
 
 	<X> void method5(List<? super B> list) {
 		//<A super B> // DOES NOT COMPILE
-		// it tries to mix a method-speci c type parameter with a wildcard. A wildcard must have a ? in it.
+		// it tries to mix a method-specific type parameter with a wildcard. A wildcard must have a ? in it.
 	}
 }
