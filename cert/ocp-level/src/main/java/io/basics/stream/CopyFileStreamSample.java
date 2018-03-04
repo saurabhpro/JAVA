@@ -1,10 +1,10 @@
-package io.basics;
+package io.basics.stream;
 
 import io.FilePaths;
 
 import java.io.*;
 
-public class CopyFileSample {
+public class CopyFileStreamSample {
 
 	/*
 	private static void copy(File source, File destination) throws IOException {

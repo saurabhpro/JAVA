@@ -1,2 +1,1 @@
 Test output to System.out again
-Hello World

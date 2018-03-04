@@ -29,5 +29,7 @@ public class PathInfo1 {
 		for (Path element : testFilePath) {
 			System.out.println("\t path element: " + element);
 		}
+
+		System.out.println();
 	}
 }

@@ -1,5 +1,7 @@
 package io.nio2;
 
+import io.FilePaths;
+
 import java.io.IOException;
 import java.nio.file.FileVisitOption;
 import java.nio.file.Files;
@@ -16,8 +18,17 @@ class ListFiles {
 		}
 
 		System.out.println("\nStreams");
-		Files.list(Paths.get("."))
+		final Stream<Path> list = Files.list(Paths.get("."));
+		list
 				.map(path -> path.toAbsolutePath())
+				.forEach(System.out::println);
+
+
+		System.out.println("\nNew");
+		Path path = Paths.get(FilePaths.BASE_RELATIVE_PATH + "../../");
+		Files.list(path)
+				.filter(p -> !Files.isDirectory(p))
+				.map(p -> p.toAbsolutePath())
 				.forEach(System.out::println);
 
 

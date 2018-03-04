@@ -10,11 +10,13 @@ public class localization {
 		Locale current = Locale.getDefault();
 		System.out.println(current);
 
-		Locale forEnglish = Locale.forLanguageTag("EN");
+		Locale forEnglish = Locale.forLanguageTag("en");
 		System.out.println(forEnglish);
 
 		Locale[] all = Locale.getAvailableLocales();
-		Arrays.stream(all).forEach(System.out::println);
+		Arrays.stream(all)
+				.limit(5)
+				.forEach(System.out::println);
 
 		/* INVALID
 		US      // can have a language without a country, but not the reverse
@@ -28,10 +30,21 @@ public class localization {
 				.setRegion("US")
 				.build();
 
-		System.out.println(Locale.getDefault()); // en_IN
+
+		Locale l2 = new Locale.Builder()
+				.setLanguage("RETre")   // no checks here
+				.setRegion("dr")    // IllformedLocaleException is thrown if this ir > 2 characters (will be toUpperCased'd)
+				.build();
+
+		System.out.println("This is legal but useless: " + l2);
+		/*
+		 * So basically what we have seen is - be cautious
+		 */
+
+		System.out.println("\ndefault locale: " + Locale.getDefault()); // en_IN
 		Locale locale = new Locale("fr");
 		Locale.setDefault(locale); // change the default
-		System.out.println(Locale.getDefault()); // fr
+		System.out.println("changed locale: " + Locale.getDefault()); // fr
 
 		/* RESOURCE BUNDLE
 		Zoo_en.properties
@@ -43,6 +56,7 @@ public class localization {
 				open=Le zoo est ouvert
 		 */
 
+		System.out.println("\nResourceBundle");
 		ResourceBundle rb = ResourceBundle.getBundle("Zoo", locale);
 		System.out.println(rb.getBaseBundleName() + " " + rb.getString("hello"));
 		System.out.println(rb.getString("open"));

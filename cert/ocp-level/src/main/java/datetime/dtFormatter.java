@@ -9,19 +9,23 @@ import java.util.Locale;
 
 public class dtFormatter {
 	public static void main(String[] args) {
-		LocalDate date = LocalDate.of(2020, Month.JANUARY, 20);
+		LocalDate date = LocalDate.of(2018, Month.JANUARY, 20);
 		LocalTime time = LocalTime.of(11, 12, 34);
 		LocalDateTime dateTime = LocalDateTime.of(date, time);
+
 		System.out.println(date.format(DateTimeFormatter.ISO_LOCAL_DATE));
 		System.out.println(time.format(DateTimeFormatter.ISO_LOCAL_TIME));
-		System.out.println(dateTime.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME));
+		System.out.println(dateTime.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME)); //2018-01-20T11:12:34
 
-		DateTimeFormatter shortDateTime = DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT);
-		System.out.println(dateTime.format(shortDateTime));
-		System.out.println(date.format(shortDateTime));
-		// System.out.println(time.format(shortDateTime));
+		System.out.println("\nShort Date :");
+		DateTimeFormatter shortDate = DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT);
+		//shortDate = DateTimeFormatter.ofPattern("dd-MMMM-yyyy"); // ok
 
-		date = LocalDate.of(2020, Month.JANUARY, 20);
+		System.out.println(dateTime.format(shortDate));
+		System.out.println(date.format(shortDate)); //20/1/18
+		// System.out.println(time.format(shortDate));
+
+		date = LocalDate.of(2018, Month.JANUARY, 20);
 		time = LocalTime.of(11, 12, 34);
 		dateTime = LocalDateTime.of(date, time);
 
@@ -33,14 +37,16 @@ public class dtFormatter {
 
 		System.out.println(shortF.format(dateTime));
 		System.out.println(mediumF.format(dateTime));
-		// System.out.println(fullF.format(dateTime)); // exception
+		// System.out.println(dateTime.format(mediumF));    // ok
+		// System.out.println(longF.format(dateTime));      // DateTimeException exception
+		// System.out.println(fullF.format(dateTime));      // exception
 
 		System.out.println("\nZoned");
 		ZonedDateTime zonedDateTime = ZonedDateTime.of(date, time, ZoneId.systemDefault());
-		System.out.println(shortF.format(zonedDateTime));   // same as localdatetime
-		System.out.println(mediumF.format(zonedDateTime));   // same as localdatetime
-		System.out.println(longF.format(zonedDateTime));
-		System.out.println(fullF.format(zonedDateTime));
+		System.out.println(shortF.format(zonedDateTime));   // 20/1/18 11:12 AM - same as localdatetime
+		System.out.println(mediumF.format(zonedDateTime));  // 20 Jan, 2018 11:12:34 AM - same as localdatetime
+		System.out.println(longF.format(zonedDateTime));    // 20 January, 2018 11:12:34 AM IST
+		System.out.println(fullF.format(zonedDateTime));    // Saturday, 20 January, 2018 11:12:34 AM IST
 
 		System.out.println("\nLocalizedTime:");
 		shortF = DateTimeFormatter.ofLocalizedTime(FormatStyle.SHORT);
@@ -49,8 +55,8 @@ public class dtFormatter {
 		fullF = DateTimeFormatter.ofLocalizedTime(FormatStyle.FULL);
 		System.out.println(shortF.format(time));
 		System.out.println(mediumF.format(time));
-		// System.out.println(longF.format(time));
-		//System.out.println(fullF.format(time));
+		// System.out.println(longF.format(time));  // exception
+		//System.out.println(fullF.format(time));   // exception
 
 		System.out.println("\nLocalizedDate:");
 		shortF = DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT);
@@ -83,11 +89,16 @@ public class dtFormatter {
 		// y represents the year. yy outputs a two-digit year and yyy or yyyy outputs a four-digit year.
 
 
-		String d1 = "2016–08–28T05:00 GMT-04:00";
-		System.out.println(ZonedDateTime.parse(d1, DateTimeFormatter.ofLocalizedDateTime(FormatStyle.FULL)));
-		String d2 = "2016–08–28T09:00 GMT-06:00";
-		System.out.println(ZonedDateTime.parse(d2, DateTimeFormatter.ISO_LOCAL_DATE_TIME));
+		System.out.println(zonedDateTime.format(DateTimeFormatter.ISO_ZONED_DATE_TIME));
+		String zd1 = "2018-01-20T11:12:34+05:30[Asia/Kolkata]";
+		System.out.println(ZonedDateTime.parse(zd1, DateTimeFormatter.ISO_ZONED_DATE_TIME));
 
+				/*
+		String d1 = "2016–08–28T05:00 GMT-04:00";
+		System.out.println(ZonedDateTime.parse(d1, DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM)));
+		String d2 = "2016–08–28T09:00 GMT-06:00";
+		System.out.println(ZonedDateTime.parse(d2, DateTimeFormatter.ISO_ZONED_DATE_TIME));
+                                                      */
 
 	}
 }

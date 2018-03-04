@@ -1,4 +1,6 @@
-package io.basics;
+package io.basics.stream;
+
+import io.basics.ZebraMarkReset;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -53,6 +55,8 @@ class Animal2 extends Animal implements Serializable {
 	private static char type = 'C';
 	private transient String name;
 	private transient int age = 10;
+	private List<ZebraMarkReset> friends = new ArrayList<>();   // will be empty & not null
+
 
 	{
 		this.age = 14;
@@ -84,7 +88,7 @@ class Animal2 extends Animal implements Serializable {
 	}
 
 	public String toString() {
-		return "Animal [name=" + name + ", age=" + age + ", type=" + type + "]";
+		return "Animal2 [name=" + name + ", age=" + age + ", type=" + type + " List: " + friends + "]";
 	}
 }
 
@@ -95,7 +99,7 @@ class Animal2 extends Animal implements Serializable {
  * are all ignored when the object is deserialized,
  * as no class constructor or default initializations are used
  */
-public class ObjectStreamSample {
+public class ObjectStreamSerialSample {
 
 	private static List<Animal> getAnimals(File dataFile) throws IOException, ClassNotFoundException {
 		List<Animal> animals = new ArrayList<>();
@@ -131,5 +135,6 @@ public class ObjectStreamSample {
 		createAnimalsFile(animals, dataFile);
 
 		System.out.println(getAnimals(dataFile));
+		//[Animal2 [name=null, age=0, type=P List: []], Animal2 [name=null, age=0, type=P List: []]]
 	}
 }

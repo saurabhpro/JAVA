@@ -20,5 +20,12 @@ public class BasicFileAttributeViewSample {
 
 		FileTime lastModifiedTime = FileTime.fromMillis(data.lastModifiedTime().toMillis() + 10_000);
 		view.setTimes(lastModifiedTime, null, null);    // only update method in BasicFileAttributeView class
+
+		//Path path = Paths.get("sloth.schedule");
+		BasicFileAttributes attributes = Files.readAttributes(path, BasicFileAttributes.class);
+		if (attributes.size() > 0 && attributes.creationTime().toMillis() > 0) {
+			//attributes.setTimes(null, null, null);
+		}
+
 	}
 }

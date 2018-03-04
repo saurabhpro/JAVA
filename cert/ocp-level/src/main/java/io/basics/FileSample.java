@@ -16,5 +16,11 @@ public class FileSample {
 		// type 2 constructor
 		File parent = new File("/home/smith");
 		File child = new File(parent, "data/zoo.txt");
+
+		final File file1 = new File("c:/book/java");    // java fixes the path to correct slash
+		System.out.println(file1.getAbsolutePath());
+
+		final File file2 = new File("\\book\\java");    // java fixes the path to correct slash
+		System.out.println(file2.getAbsolutePath());    // /Users/saurabhkumar/GitHub/JAVA/cert/ocp-level/\book\java
 	}
 }

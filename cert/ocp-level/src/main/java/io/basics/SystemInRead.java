@@ -1,8 +1,10 @@
 package io.basics;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 
-class Read {
+public class SystemInRead {
 	public static void main(String[] args) {
 		System.out.print("Type a character: ");
 		int val = 0;
@@ -16,6 +18,13 @@ class Read {
 			System.exit(-1);
 		}
 		System.out.println("You typed: " + val);
+	}
+
+	private void echo() throws IOException {
+		try (FileReader fileReader = new FileReader("zoo-data.txt");
+		     BufferedReader bufferedReader = new BufferedReader(fileReader)) {
+			System.out.println(bufferedReader.readLine());
+		}
 	}
 }
 

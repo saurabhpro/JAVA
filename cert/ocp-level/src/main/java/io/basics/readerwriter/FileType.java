@@ -1,4 +1,4 @@
-package io.basics;
+package io.basics.readerwriter;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -8,7 +8,7 @@ import static io.FilePaths.BASE_RELATIVE_PATH;
 
 // implements a simplified version of "type" command provided in Windows given
 // a text file name(s) as argument, it prints the content of the text file(s) on console
-class Type {
+public class FileType {
 
 	public static void main(String[] files) {
 

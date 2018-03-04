@@ -19,9 +19,12 @@ public class PropertiesBundl {
 		Set<String> keys = resourceBundle.keySet();
 
 		keys.stream()
-				.map(k -> k + " " + resourceBundle.getString(k))
+				.map(k -> k + "\t: " + resourceBundle.getString(k))
 				.forEach(System.out::println);
 
+		/*
+		 * Properties is a really old class that extends Hashtable<Object, Object>
+		 */
 		// transform resource bundle to Properties
 		Properties properties = new Properties();
 		keys.stream()
@@ -31,10 +34,8 @@ public class PropertiesBundl {
 		System.out.println(properties.getProperty("notReallyAProperty", "123"));
 
 		// parameterized resource
-		String format = resourceBundle.getString("byName");
+		String format = resourceBundle.getString("byName"); // hi, {0}
 		String formatted = MessageFormat.format(format, "Saurabh");
 		System.out.print(formatted);
-
-
 	}
 }

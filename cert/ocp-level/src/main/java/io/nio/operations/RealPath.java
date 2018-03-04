@@ -21,6 +21,7 @@ public class RealPath {
 
 
 		System.out.println(Paths.get(".").toAbsolutePath());
+		// System.out.println(Paths.get(".").normalize().toAbsolutePath());
 		//however the toAbsolutePath() returns /Users/saurabhkumar/GitHub/JAVA/cert/ocp-level/.
 	}
 }

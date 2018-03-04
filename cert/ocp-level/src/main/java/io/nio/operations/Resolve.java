@@ -16,7 +16,7 @@ public class Resolve {
 
 
 		final Path path11 = Paths.get("/turkey/food");
-		final Path path21 = Paths.get("/tiger/cage");
+		final Path path21 = Paths.get("/tiger/cage");   // path 2 is absolute to it is the answer
 		System.out.println(path11.resolve(path21));
 
 		/*
@@ -25,5 +25,9 @@ public class Resolve {
 		 */
 
 
+		Path path10 = Paths.get("/pets/../cat.txt");
+		Path path12 = Paths.get("./dog.txt");
+		System.out.println(path10.resolve(path12));
+		System.out.println(path12.resolve(path10));
 	}
 }

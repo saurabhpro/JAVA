@@ -8,7 +8,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 // To illustrate important methods such as normalize(), toAbsolutePath(), and toRealPath()
-class PathInfo2 {
+public class PathInfo {
 
 	public static void main(String[] args) throws IOException {
 

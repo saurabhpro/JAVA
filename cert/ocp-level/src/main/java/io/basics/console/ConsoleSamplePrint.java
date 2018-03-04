@@ -1,4 +1,4 @@
-package io.nio;
+package io.basics.console;
 
 import java.io.BufferedReader;
 import java.io.Console;

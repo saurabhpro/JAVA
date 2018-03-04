@@ -1,10 +1,10 @@
-package io.basics;
+package io.basics.console;
 
 import java.io.Console;
 import java.io.IOException;
 import java.util.Arrays;
 
-public class PasswordCompareSample {
+public class ConsolePasswordCompareSample {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		Console console = System.console();
 

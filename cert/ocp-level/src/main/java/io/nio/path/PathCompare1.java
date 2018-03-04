@@ -22,7 +22,9 @@ class PathCompare1 {
 		System.out.println("path2.equals(path1.toAbsolutePath()) is " + path2.equals(path1.toAbsolutePath()));
 
 		/*
-		even if two Path objects point to the same file/directory, it is not guaranteed that the equals() method will return true.
+		even if two Path objects point to the same file/directory,
+		it is not guaranteed that the equals() method will return true.
+
 		You need to make sure both are absolute and normalized paths for an equality comparison to succeed for paths.
 		 */
 	}

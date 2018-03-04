@@ -1,5 +1,7 @@
 package io.nio2.files;
 
+import io.FilePaths;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -8,6 +10,7 @@ import java.nio.file.StandardCopyOption;
 
 public class FileMove {
 	public static void main(String[] args) {
+		args = new String[]{FilePaths.BASE_RELATIVE_PATH, FilePaths.BASE_RELATIVE_PATH};
 		if (args.length != 2) {
 			System.out.println("usage: FileMove <source-path> <destination-path>");
 			System.exit(-1);
@@ -25,6 +28,14 @@ public class FileMove {
 			System.out.println("Source file moved successfully");
 		} catch (IOException e) {
 			e.printStackTrace();
+		}
+
+
+		try {
+			Files.move(Paths.get(FilePaths.BASE_RELATIVE_PATH + "/zoo"), Paths.get(FilePaths.BASE_RELATIVE_PATH + "/zoo-new"));
+			Files.move(Paths.get(FilePaths.BASE_RELATIVE_PATH + "log.txt"), Paths.get(FilePaths.BASE_RELATIVE_PATH + "zoo-new/log.txt"));
+		} catch (IOException e) {
+// Handle file I/O exception...
 		}
 	}
 }

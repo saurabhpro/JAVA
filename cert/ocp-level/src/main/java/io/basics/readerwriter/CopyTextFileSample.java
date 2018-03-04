@@ -1,4 +1,4 @@
-package io.basics;
+package io.basics.readerwriter;
 
 import io.FilePaths;
 

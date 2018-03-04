@@ -23,7 +23,8 @@ public class FormatNumbers {
 		in = NumberFormat.getCurrencyInstance(Locale.CHINA);
 		System.out.println(in.format(price));
 
-		NumberFormat nf = NumberFormat.getInstance();
+		// Parsing
+		NumberFormat nf = NumberFormat.getInstance();   // default
 		String one = "456abc";
 		String two = "-2.5165x10";
 		String three = "x85.3";
