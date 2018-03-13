@@ -16,6 +16,7 @@ public class BasicFileAttributeViewSample {
 
 		BasicFileAttributeView view = Files.getFileAttributeView(path, BasicFileAttributeView.class);
 
+		// this is for read only access
 		BasicFileAttributes data = view.readAttributes();
 
 		FileTime lastModifiedTime = FileTime.fromMillis(data.lastModifiedTime().toMillis() + 10_000);

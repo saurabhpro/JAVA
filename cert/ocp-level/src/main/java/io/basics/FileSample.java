@@ -1,6 +1,11 @@
 package io.basics;
 
+import io.FilePaths;
+
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
 
 public class FileSample {
 	public static void main(String[] args) {
@@ -22,5 +27,17 @@ public class FileSample {
 
 		final File file2 = new File("\\book\\java");    // java fixes the path to correct slash
 		System.out.println(file2.getAbsolutePath());    // /Users/saurabhkumar/GitHub/JAVA/cert/ocp-level/\book\java
+
+
+		File cake = new File("cake.txt");
+		Writer pie;
+		try {
+			pie = new FileWriter(FilePaths.BASE_RELATIVE_PATH + "pie.txt");
+			pie.write(65);
+			pie.flush();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		final boolean mkdirs = new File(FilePaths.BASE_RELATIVE_PATH + "fudge.txt").mkdirs();
 	}
 }

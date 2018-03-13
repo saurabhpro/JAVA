@@ -34,7 +34,7 @@ class SomeLocalInnerClass {
 			// Since you cannot declare a local variable static, you also cannot declare a local class static.
 
 			// also, cannot have static things here as well
-			//static int anInt = 8;
+			// static int anInt = 8;
 		}
 
 		final class Local2 {

@@ -18,6 +18,13 @@
             <artifactId>testng</artifactId>
             <version>6.11</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.derby/derby -->
+        <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derby</artifactId>
+            <version>10.14.1.0</version>
+        </dependency>
+
     </dependencies>
 
     <properties>
@@ -38,4 +45,6 @@
             </plugin>
         </plugins>
     </build>
+
+
 </project>

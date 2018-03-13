@@ -30,7 +30,7 @@ public class CopyFileStreamSample {
 			int lengthRead;
 
 			while ((lengthRead = in.read(buffer)) > 0) {
-				out.write(buffer, 0, lengthRead);
+				out.write(buffer, 0, lengthRead);   // only write jitna data read kiya tha else all 1024 is put
 				out.flush();
 			}
 		}

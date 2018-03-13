@@ -26,9 +26,21 @@ public class StringMap {
 		StringBuilder b = new StringBuilder();
 		b.append(12345).append('-');
 
+		System.out.println(b);
+		b.reverse();
+		System.out.println(b);
+
 		b = new StringBuilder(4);
 		System.out.println(b.capacity());
 
+		b = new StringBuilder("abcd");
+		System.out.println(b + "" + b.capacity());
+
+		b.delete(0, 4);
+		System.out.println(b + "" + b.capacity());
+
+		b.trimToSize();
+		System.out.println(b + "" + b.capacity());
 
 	}
 }

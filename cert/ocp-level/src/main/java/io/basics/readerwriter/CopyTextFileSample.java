@@ -15,6 +15,10 @@ public class CopyTextFileSample {
 		try (BufferedReader reader = new BufferedReader(new FileReader(source))) {
 			String s;
 
+			// final Stream<String> lines = reader.lines(); // awesome
+			System.out.println("lines()");
+			// lines.forEach(System.out::println);
+
 			while ((s = reader.readLine()) != null) {
 				data.add(s);
 			}
@@ -40,6 +44,7 @@ public class CopyTextFileSample {
 		if (source.exists()) {
 			List<String> data = readFile(source);
 
+			System.out.println("\ndata()");
 			data.forEach(System.out::println);
 
 			writeFile(data, destination);

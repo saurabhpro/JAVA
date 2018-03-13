@@ -7,7 +7,6 @@ import java.nio.file.Files;
 import java.nio.file.LinkOption;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.attribute.BasicFileAttributes;
 
 // class to figure out whether a file/directory exists on the given path
 public class FileOnPathExists {
@@ -46,35 +45,5 @@ public class FileOnPathExists {
 			}
 		}
 
-		final Path path2 = Paths.get(FilePaths.BASE_ABSOLUTE_PATH).resolve("../").normalize();
-		System.out.println(path2);
-		boolean myBoolean;
-		try {
-			myBoolean = Files.find(
-					path,
-					4,
-					(Path p, BasicFileAttributes a) -> a.isDirectory() && !path2.equals(p)
-			) // w1
-					.findFirst()
-					.isPresent();
-			System.out.println(myBoolean ? "No Sub-directory" : "Has Sub-directory");
-
-
-			myBoolean = Files.walk(path, 4)
-					.filter((Path p) -> !path2.equals(p)) // w1
-					.findFirst()
-					.isPresent();
-			System.out.println(myBoolean ? "No Sub-directory" : "Has Sub-directory");
-
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
-		try {
-			if (Files.isSameFile(path, Paths.get("/zoo/turkey"))) // x1 NoSuchFileException since /zoo/turkey doesn't exist
-				Files.createDirectory(path.resolve("info")); // x2
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
 	}
 }

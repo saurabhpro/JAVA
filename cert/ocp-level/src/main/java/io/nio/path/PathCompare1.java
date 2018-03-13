@@ -2,6 +2,8 @@ package io.nio.path;
 
 import io.FilePaths;
 
+import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
@@ -27,5 +29,24 @@ class PathCompare1 {
 
 		You need to make sure both are absolute and normalized paths for an equality comparison to succeed for paths.
 		 */
+
+
+		Path t1 = Paths.get("/sky/.././stars.exe");
+		Path t2 = Paths.get("/stars.exe");
+		Path t3 = t1.resolve(t2);
+		boolean b1 = t1.equals(t2);
+		boolean b2 = t1.normalize().equals(t2);
+		boolean b3 = false;
+		boolean b4 = false;
+
+		try {
+			b3 = Files.isSameFile(t1.normalize(), t2);
+			System.out.println(t2 + " M " + t3);
+			b4 = Files.isSameFile(t2, t3);
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		System.out.print(b1 + "," + b2 + "," + b3 + "," + b4);
 	}
 }

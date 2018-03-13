@@ -1,10 +1,7 @@
 package localization;
 
 import java.text.MessageFormat;
-import java.util.Locale;
-import java.util.Properties;
-import java.util.ResourceBundle;
-import java.util.Set;
+import java.util.*;
 
 public class PropertiesBundl {
 	public static void main(String[] args) {
@@ -37,5 +34,23 @@ public class PropertiesBundl {
 		String format = resourceBundle.getString("byName"); // hi, {0}
 		String formatted = MessageFormat.format(format, "Saurabh");
 		System.out.print(formatted);
+
+
+		/*
+		 * The Properties class is a Map.
+		 * While a Properties object is a Hashtable, this is not an interface.”
+		 */
+		Map<String, String> map = new TreeMap<>();
+		map.put("tool", "hammer");
+		map.put("problem", "nail");
+
+		Properties props = new Properties();
+		map.forEach(props::put);
+
+		String t = (String) props.get("tool");
+		Object n = props.get("nail");
+
+		System.out.println(t + " " + n);
+
 	}
 }

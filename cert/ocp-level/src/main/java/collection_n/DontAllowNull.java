@@ -41,5 +41,19 @@ public class DontAllowNull {
 			System.out.println("Deque don't allow null as null is reserved for special use by peek when empty : " + d.peek());
 		}
 
+		Hashtable<String, Integer> hashtable = new Hashtable<>();
+		try {
+			hashtable.put("key", null);
+			hashtable.put(null, 34);
+		} catch (NullPointerException ignored) {
+			System.out.println("Hashtable don't allow null key - null value is also not allowed : " + hashtable);
+		}
+
+
+	}
+
+	@Override
+	public int hashCode() {
+		return super.hashCode();
 	}
 }

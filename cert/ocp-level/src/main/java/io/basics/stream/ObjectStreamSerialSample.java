@@ -1,6 +1,6 @@
 package io.basics.stream;
 
-import io.basics.ZebraMarkReset;
+import io.basics.stream.markrest.ZebraMarkReset;
 
 import java.io.*;
 import java.util.ArrayList;

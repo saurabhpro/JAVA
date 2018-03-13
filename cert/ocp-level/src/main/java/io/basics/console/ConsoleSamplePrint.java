@@ -17,7 +17,7 @@ public class ConsoleSamplePrint {
 			String name = console.readLine("Please enter your name: ");
 
 			Integer age;
-			console.writer().print("What is your age? ");
+			console.printf("What is your age? ");
 			console.flush();
 
 			BufferedReader reader = new BufferedReader(console.reader());

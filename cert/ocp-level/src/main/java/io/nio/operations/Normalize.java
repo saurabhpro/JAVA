@@ -9,6 +9,8 @@ public class Normalize {
 		Path path4 = Paths.get("/user/home");
 
 		Path relativePath = path3.relativize(path4);
+		System.out.println(relativePath);
+
 		System.out.println(path3.resolve(relativePath));
 
 		// resolve this redundancy by applying the normalize()

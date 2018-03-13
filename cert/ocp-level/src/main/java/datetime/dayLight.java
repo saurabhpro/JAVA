@@ -52,6 +52,20 @@ public class dayLight {
 		ques2();
 
 		ques3();
+
+		instant();
+	}
+
+	private static void instant() {
+		LocalDate date = LocalDate.of(2018, 5, 25);
+		LocalTime time = LocalTime.of(11, 55, 0);
+		LocalDateTime dateTime = LocalDateTime.of(date, time);
+
+		ZoneId zone = ZoneId.of("US/Eastern");
+		ZonedDateTime zonedDateTime = ZonedDateTime.of(date, time, zone);
+		Instant instant = zonedDateTime.toInstant(); // 2015–05–25T15:55:00Z
+		System.out.println(zonedDateTime); // 2015–05–25T11:55–04:00[US/Eastern]
+		System.out.println(instant); // 2015–05–25T15:55:00Z
 	}
 
 	private static void ques3() {
@@ -66,6 +80,10 @@ public class dayLight {
 		System.out.println(s);
 		System.out.println(d);
 		System.out.println(p);
+		System.out.println("period: " + Period.of(0, 12, 0));   //P12M
+		System.out.println("duration 24h: " + Duration.ofDays(1));                  //PT24H
+		Duration everyNano = Duration.ofNanos(1);
+		System.out.println(everyNano);
 	}
 
 	private static void ques2() {

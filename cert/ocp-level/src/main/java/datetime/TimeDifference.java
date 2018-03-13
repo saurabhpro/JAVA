@@ -77,5 +77,51 @@ public class TimeDifference {
 		Instant later = Instant.now();
 		Duration duration = Duration.between(now, later);
 		System.out.println(duration.toNanos());
+
+
+		timediff();
+	}
+
+	private static void timediff() {
+		LocalDate waffleDay = LocalDate.of(2017, Month.MARCH, 25);
+		Period period = Period.of(1, 6, 3);
+		LocalDate later = waffleDay.plus(period);
+		later.plusDays(1);
+		LocalDate thisOne = LocalDate.of(2018, Month.SEPTEMBER, 28);
+		LocalDate thatOne = LocalDate.of(2018, Month.SEPTEMBER, 29);
+
+		System.out.println(later.isBefore(thisOne) + " "
+				+ later.isBefore(thatOne));
+
+
+		LocalDate localDate = LocalDate.of(2017, 3, 12);
+		LocalTime localTime = LocalTime.of(13, 0);
+
+		System.out.println(localDate.until(localDate, ChronoUnit.DAYS));
+		System.out.println(localDate.withDayOfMonth(22));
+
+		ZoneId zone = ZoneId.of("America/New_York");
+		ZonedDateTime z = ZonedDateTime.of(localDate, localTime, zone);
+		Duration duration = Duration.ofHours(3);
+		ZonedDateTime later2 = z.plus(duration);
+		System.out.println(later2.getHour());
+
+		LocalDate xmas = LocalDate.of(2017, 12, 25);
+		LocalDate blackFriday = LocalDate.of(2017, 11, 24);
+		long shoppingDaysLeft = blackFriday.until(xmas, ChronoUnit.DAYS);
+		final long between = ChronoUnit.DAYS.between(blackFriday, xmas);
+
+		System.out.println(shoppingDaysLeft + " " + between);
+
+
+		// the
+		localDate = LocalDate.of(2017, 3, 12);
+		localTime = LocalTime.of(1, 0);
+		z = ZonedDateTime.of(localDate, localTime, zone);
+
+		System.out.println("before       : " + z);
+
+		System.out.println("after 2 hours: " + z.plusHours(2));
+
 	}
 }

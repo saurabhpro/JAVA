@@ -2,7 +2,6 @@ package localization;
 
 import java.util.Arrays;
 import java.util.Locale;
-import java.util.ResourceBundle;
 
 public class localization {
 	public static void main(String[] args) {
@@ -17,6 +16,7 @@ public class localization {
 		Arrays.stream(all)
 				.limit(5)
 				.forEach(System.out::println);
+
 
 		/* INVALID
 		US      // can have a language without a country, but not the reverse
@@ -46,19 +46,12 @@ public class localization {
 		Locale.setDefault(locale); // change the default
 		System.out.println("changed locale: " + Locale.getDefault()); // fr
 
-		/* RESOURCE BUNDLE
-		Zoo_en.properties
-				hello=Hello
-				open=The zoo is open.
 
-		Zoo_fr.properties
-				hello=Bonjour
-				open=Le zoo est ouvert
-		 */
-
-		System.out.println("\nResourceBundle");
-		ResourceBundle rb = ResourceBundle.getBundle("Zoo", locale);
-		System.out.println(rb.getBaseBundleName() + " " + rb.getString("hello"));
-		System.out.println(rb.getString("open"));
+		Locale.setDefault(Locale.KOREAN);
+		System.out.println(Locale.getDefault());
+		Locale.setDefault(new Locale("en", "AU"));
+		System.out.println(Locale.getDefault());
+		Locale.setDefault(new Locale("EN"));
+		System.out.println(Locale.getDefault());
 	}
 }

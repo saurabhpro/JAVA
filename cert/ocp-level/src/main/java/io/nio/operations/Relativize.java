@@ -5,6 +5,8 @@ import java.nio.file.Paths;
 
 /**
  * basically jis path se relativize call ho rha hai -> wo argument wale path tak kasie phochega
+ * conditions:
+ * 1. either both absolute or both relative , mix will result in RuntimeException
  */
 public class Relativize {
 
@@ -48,6 +50,13 @@ public class Relativize {
 		Path path4 = Paths.get("/sanctuary/raven");
 		System.out.println(path3.relativize(path4));
 		System.out.println(path4.relativize(path3));
+
+
+		Path x = Paths.get("/.", "song", "..", "/note");
+		Path y = Paths.get("/dance/move.txt");
+		x.normalize();
+		System.out.println(x.resolve(y));
+		System.out.println(y.relativize(x));
 	}
 
 }

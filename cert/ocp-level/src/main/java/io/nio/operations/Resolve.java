@@ -31,3 +31,43 @@ public class Resolve {
 		System.out.println(path12.resolve(path10));
 	}
 }
+
+class Surgeon {
+	public static void main(String... tools) {
+		final Surgeon al = new Surgeon();
+		Path original = Paths.get("/tissue/heart/chambers.txt");
+		Path repaired = al.rebuild(original);
+		System.out.println(original);
+		System.out.println(repaired);
+		System.out.print(original.equals(repaired));
+	}
+
+	private Path rebuild(Path p) {
+		Path v = null;
+		for (int i = 0; i < p.getNameCount(); i++)
+			if (v == null) v = p.getName(i);
+			else v = v.resolve(p.getName(i));
+		return v;
+	}
+}
+
+class Sun {
+	public static void main(String... emerald) {
+		Sun s = new Sun();
+		s.printInfo();
+	}
+
+	private void printInfo() {
+		Path halleysComet = Paths.get("stars/./rocks/../m1.meteor").normalize();
+		System.out.println(halleysComet);
+		Path lexellsComet = Paths.get("./stars/../solar/");
+
+		lexellsComet = lexellsComet.subpath(0, 2)
+				.resolve("m1.meteor")
+				.normalize();
+		System.out.println(lexellsComet);
+
+		System.out.print(halleysComet.equals(lexellsComet)
+				? "Same!" : "Different!");
+	}
+}

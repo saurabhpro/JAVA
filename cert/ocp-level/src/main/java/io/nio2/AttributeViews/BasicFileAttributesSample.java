@@ -8,6 +8,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.attribute.BasicFileAttributes;
 
+/**
+ * XXXFileAttributes provide read only access
+ * .readAttributes (path, _fill_with_any_of_the_three.class)
+ */
 public class BasicFileAttributesSample {
 	public static void main(String[] args) throws IOException {
 		Path path = Paths.get(FilePaths.BASE_RELATIVE_PATH + "log.txt");

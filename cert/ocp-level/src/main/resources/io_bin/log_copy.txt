@@ -1,1 +1,2 @@
 Test output to System.out again
+WARN this is a test

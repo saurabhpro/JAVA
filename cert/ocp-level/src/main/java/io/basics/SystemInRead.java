@@ -21,8 +21,8 @@ public class SystemInRead {
 	}
 
 	private void echo() throws IOException {
-		try (FileReader fileReader = new FileReader("zoo-data.txt");
-		     BufferedReader bufferedReader = new BufferedReader(fileReader)) {
+		FileReader fileReader = new FileReader("zoo-data.txt");
+		try (BufferedReader bufferedReader = new BufferedReader(fileReader)) {
 			System.out.println(bufferedReader.readLine());
 		}
 	}

@@ -48,7 +48,8 @@ public class WeighAnimalTask extends RecursiveTask<Double> {
 			RecursiveTask<Double> otherTask = new WeighAnimalTask(weights, start, middle);
 			otherTask.fork();
 
-			return new WeighAnimalTask(weights, middle, end).compute() + otherTask.join();
+			return new WeighAnimalTask(weights, middle, end).compute()
+					+ otherTask.join();
 			/*
 			the invokeAll() method doesn’t return a value, we instead issue a fork() and join() command to retrieve
 			the recursive data. The fork() method instructs the fork/join framework to complete the task in

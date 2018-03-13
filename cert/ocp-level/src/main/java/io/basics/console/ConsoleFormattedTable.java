@@ -24,7 +24,7 @@ class ConsoleFormattedTable {
 	}
 
 	void printHeader(Console console) {
-		console.printf("%-15s \t %s \t %s \t %s \n", "Player", "Matches", "Goals",
+		console.format("%-15s \t %s \t %s \t %s \n", "Player", "Matches", "Goals",
 				"Goals per match");
 	}
 

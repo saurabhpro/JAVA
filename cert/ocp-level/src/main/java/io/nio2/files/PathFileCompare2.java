@@ -18,12 +18,21 @@ public class PathFileCompare2 {
 		System.out.println("Files.isSameFile(path1, path2) is: " + Files.isSameFile(path1, path2));
 
 		one();
+
+
+		try {
+			if (Files.isSameFile(path1, Paths.get("/zoo/turkey"))) // x1 NoSuchFileException since /zoo/turkey doesn't exist
+				Files.createDirectory(path1.resolve("info")); // x2
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 	private static void one() throws IOException {
 		Path path1 = Paths.get("/lizard/./").resolve(Paths.get("walking.txt"));
 		Path path2 = new File("/lizard/././actions/../walking.txt").toPath();
 
+		System.out.println(path1 + "\n" + path2);
 		System.out.print(Files.isSameFile(path1, path2));
 		System.out.print(" " + path1.equals(path2));
 		System.out.print(" " + path1.normalize().equals(path2.normalize()));

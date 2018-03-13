@@ -14,5 +14,9 @@ class Capybara extends Rodent {
 		// not ok
 		Rodent rodent = new Rodent();
 		Capybara capybara = (Capybara) rodent; // Throws ClassCastException at runtime
+
+		// ok
+		Capybara capybara2 = new Capybara();
+		Rodent rodent2 = (Rodent) capybara2;
 	}
 }
