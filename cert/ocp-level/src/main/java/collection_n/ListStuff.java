@@ -51,6 +51,22 @@ public class ListStuff {
 		list.stream().forEach(s -> System.out.println(s));
 
 		filter();
+
+		TestThis testThis = new TestThis();
+		list.forEach((c) -> testThis.show());
+		list.forEach(TestThis::show);   // consumer needs one argument
+
+	}
+
+	static class TestThis {
+		public final static void show(String s) {
+
+		}
+
+		// this cannot be used
+		public final void show() {
+			System.out.println("Anything");
+		}
 	}
 
 	private static void filter() {

@@ -4,6 +4,26 @@ import java.io.Serializable;
 import java.util.Collection;
 
 public class Transport {
+	public void convert() {
+		Building b = new Building();
+		House h = new House();
+		Building bh = new House();
+		Building p = b;
+		// House q = (Building) h;
+		Building r = bh;
+		House s = (House) bh;
+
+		House p1 = (House) b;
+		House q1 = h;
+		House r1 = (House) bh;
+
+		// House c = (House) new Condo();
+
+	}
+
+	interface Vehicle {
+	}
+
 	public static void main(String[] args) {
 		Bus bus = new Bus();
 		Van[] vans = new Van[0];
@@ -26,24 +46,10 @@ public class Transport {
 		System.out.println(bus instanceof Serializable);
 	}
 
-	public void convert() {
-		Building b = new Building();
-		House h = new House();
-		Building bh = new House();
-		Building p = (House) b;
-		// House q = (Building) h;
-		Building r = (Building) bh;
-		House s = (House) bh;
-
-		House p1 = (House) b;
-		House q1 = (House) h;
-		House r1 = (House) bh;
-
-		// House c = (House) new Condo();
-
+	class No1 extends No0 {
 	}
 
-	static interface Vehicle {
+	abstract class No0 {
 	}
 
 	static class Bus implements Vehicle {

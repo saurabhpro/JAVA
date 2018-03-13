@@ -42,5 +42,12 @@ public class StringMap {
 		b.trimToSize();
 		System.out.println(b + "" + b.capacity());
 
+		final String s1 = null;
+		System.out.println(s1);
+
+		Integer integer = null;
+		int i = integer;
+		System.out.println(i);
+
 	}
 }

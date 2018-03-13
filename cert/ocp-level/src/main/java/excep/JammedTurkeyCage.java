@@ -3,6 +3,7 @@ package excep;
 public class JammedTurkeyCage implements AutoCloseable {
 
 	public static void main(String[] args) throws InterruptedException {
+
 		try (JammedTurkeyCage t = new JammedTurkeyCage()) {
 			throw new IllegalStateException("turkeys ran off");
 		} catch (IllegalStateException e) {

@@ -52,9 +52,10 @@ public class Relativize {
 		System.out.println(path4.relativize(path3));
 
 
-		Path x = Paths.get("/.", "song", "..", "/note");
+		Path x = Paths.get(".", "song", "..", "/note");
 		Path y = Paths.get("/dance/move.txt");
 		x.normalize();
+		System.out.println(x);
 		System.out.println(x.resolve(y));
 		System.out.println(y.relativize(x));
 	}
