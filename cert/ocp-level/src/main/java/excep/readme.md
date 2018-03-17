@@ -1,2 +1,0 @@
-- Checking an argument passed from elsewhere in the program is an appropriate use of an assertion.
-- Java 7 and later “translates” Exception in a catch block to the correct one. for both single and multicatch stuff
