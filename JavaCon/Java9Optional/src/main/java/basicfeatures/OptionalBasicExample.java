@@ -27,9 +27,14 @@ public class OptionalBasicExample {
 		System.out.println("ofNullable on Non-Empty Optional: " + Optional.ofNullable(answer1));
 		System.out.println("ofNullable on Empty Optional: " + Optional.ofNullable(answer2));
 
+	}
+
+	public static void optionalOfNullArgument() {
+		String answer2 = null;
+
 		// java.lang.NullPointerException
 		System.out.println("ofNullable on Non-Empty Optional: " + Optional.of(answer2));
-
+		// so use Optional.ofNullable() whenever you can
 	}
 
 }

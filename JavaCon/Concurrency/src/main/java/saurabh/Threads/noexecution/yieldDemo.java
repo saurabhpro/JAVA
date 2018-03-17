@@ -16,17 +16,16 @@ package saurabh.Threads.noexecution;
  * if any other threads or processes need to be run, they should run. Otherwise,
  * the current thread will continue to run.
  */
-// MyThread extending Thread
-class MyThread extends Thread {
-	public void run() {
-		for (int i = 0; i < 5; i++)
-			System.out.println("A" + Thread.currentThread().getName()
-					+ " in control");
-	}
-}
-
-// Driver Class
 public class yieldDemo {
+
+	// MyThread extending Thread
+	static class MyThread extends Thread {
+		public void run() {
+			for (int i = 0; i < 5; i++)
+				System.out.println("A" + Thread.currentThread().getName() + " in control");
+		}
+	}
+
 	public static void main(String[] args) {
 		MyThread t = new MyThread();
 		t.start();

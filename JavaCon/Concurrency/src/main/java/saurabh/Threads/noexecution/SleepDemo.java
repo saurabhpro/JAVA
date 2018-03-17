@@ -13,9 +13,8 @@ package saurabh.Threads.noexecution;
 // Java program to illustrate sleep() method in Java
 
 public class SleepDemo implements Runnable {
-	Thread t;
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) {
 		Thread t = new Thread(new SleepDemo());
 
 		// call run() function
@@ -39,3 +38,14 @@ public class SleepDemo implements Runnable {
 		}
 	}
 }
+
+/*
+Thread-1  0
+Thread-0  0
+Thread-1  1
+Thread-0  1
+Thread-0  2
+Thread-1  2
+Thread-0  3
+Thread-1  3
+ */

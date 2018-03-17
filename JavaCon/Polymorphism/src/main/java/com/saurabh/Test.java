@@ -1,5 +1,5 @@
 /*
- * Copyright 2017 Saurabh Kumar
+ * Copyright 2017 Saurabh Kumar 29/10/17 11:21 PM
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
  *
@@ -8,56 +8,26 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-/**
- * Created by Saurabh on 8/17/2015.
- */
+package com.saurabh;
 
+class Test {
+	int a = 1;
+	int b = 2;
 
-@SuppressWarnings("ALL")
-public class InitializationsPosition {
-
-	class X {
-	}
-
-	/*instance initialization*/
-	private final int y;
-	X xOb1 = new X();
-
-	private X xOb2;                        //by default null
-
-	/* At the place of initialization*/
-	private int x = 9;
-
-	/*Inside constructor*/
-	private int z;
-	private String first, second;   //by default null as object
-
-	/*Lazy Inialization => in functions where we want to use them*/
-	private int value;              //by default 0  [already]
-
-	{
-		y = 10;
-	}
-
-	private InitializationsPosition(int tmp) {
-		z = tmp;
-	}
-
-	//main method
 	public static void main(String[] args) {
-		InitializationsPosition iOb = new InitializationsPosition(88);
-		System.out.println(iOb);    //implicitly calls toString()
+		Test obj1 = new Test();
+		Test obj2 = obj1.func(obj1);
+
+		System.out.println("obj1.a = " + obj1.a + "  obj1.b = " + obj1.b);
+		System.out.println("obj2.a = " + obj2.a + "  obj1.b = " + obj2.b);
+
 	}
 
-	public String toString() {
-		System.out.println(xOb2);
-
-		if (xOb2 == null) xOb2 = new X();
-		if (first == null) first = "Hello";
-		if (second == null) second = "World";
-		if (value == 0) value = 99;
-
-		return xOb2 + " " + first + " " + second + " " + value;
+	Test func(Test obj) {
+		Test obj3 = new Test();
+		obj3 = obj;
+		obj3.a = obj.a++ + ++obj.b;
+		obj.b = obj.b;
+		return obj3;
 	}
-
 }

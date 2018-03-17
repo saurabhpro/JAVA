@@ -25,7 +25,7 @@ package exceptions;//: exceptions/NeverCaught.java
  * printStackTrace( ) is called for that exception as the program exits.
  */
 public class RuntimeNeverCaught {
-	private static void f() {
+	private static void f() throws IllegalArgumentException, IndexOutOfBoundsException {
 		throw new RuntimeException("From f()");
 	}
 

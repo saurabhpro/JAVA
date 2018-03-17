@@ -15,7 +15,7 @@ package saurabh.Threads.noexecution;
 
 import java.util.Scanner;
 
-public class threadexample {
+public class ProducerConsumerThreadExample {
 	public static void main(String[] args) throws InterruptedException {
 		final PC pc = new PC();
 
@@ -79,8 +79,7 @@ public class threadexample {
 				s.nextLine();
 				System.out.println("Return key pressed");
 
-				// notifies the produce thread that it
-				// can wake up.
+				// notifies the produce thread that it can wake up.
 				notify();
 
 				// Sleep

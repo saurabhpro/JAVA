@@ -67,7 +67,7 @@ public class SuperClassUpcasted extends You {
 
 		System.out.println(super.x);
 
-        /*iff there was no 'x' in this class then its base class 'x' could be
+        /*if there was no 'x' in this class then its base class 'x' could be
         accessed by just using SOP(x) and also by using SOP(super.x)*/
 
         /* why super.super.x isn't allowed?
