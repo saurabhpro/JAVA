@@ -4,8 +4,8 @@ import knightdemo.model.Knight;
 
 /**
  * @author saurabh
- *         <p>
- *         Knight that has observer abilities
+ * <p>
+ * Knight that has observer abilities
  */
 public interface KnightObserver extends Knight {
 

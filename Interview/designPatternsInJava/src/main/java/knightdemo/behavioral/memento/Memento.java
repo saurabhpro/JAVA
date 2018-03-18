@@ -4,8 +4,8 @@ import knightdemo.model.KnightWeapon;
 
 /**
  * @author saurabh
- *         <p>
- *         Memento class used to remember the weapon state
+ * <p>
+ * Memento class used to remember the weapon state
  */
 public class Memento {
 

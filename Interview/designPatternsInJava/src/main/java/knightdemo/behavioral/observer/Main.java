@@ -2,8 +2,8 @@ package knightdemo.behavioral.observer;
 
 /**
  * @author saurabh
- *         <p>
- *         Observer pattern test.
+ * <p>
+ * Observer pattern test.
  */
 public class Main {
 

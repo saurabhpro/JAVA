@@ -10,31 +10,31 @@ import java.util.Stack;
  */
 
 public class ListReversePrinting {
-    Stack<Integer> stack = new Stack<>();       //primitives not allowed in <>
+	Stack<Integer> stack = new Stack<>();       //primitives not allowed in <>
 
-    static void printReverse(List list){
-        if(list.isEmpty())  return;
-        else
-        {
-            Object temp = list.remove(0);
-            printReverse(list);
-            System.out.println(temp);
-        }
+	static void printReverse(List list) {
+		if (list.isEmpty()) return;
+		else {
+			Object temp = list.remove(0);
+			printReverse(list);
+			System.out.println(temp);
+		}
 
-    }
-    public static void main(String[] args) {
+	}
 
-        List<Integer> list = new ArrayList<>() ;
+	public static void main(String[] args) {
 
-        list.add(5);
-        list.add(2);
-        list.add(3);
-        list.add(4);
-        list.add(6);
-        list.add(1);
-        list.add(7);
+		List<Integer> list = new ArrayList<>();
 
-        //printReverse(list, list.size()-1);
-        printReverse(list);
-    }
+		list.add(5);
+		list.add(2);
+		list.add(3);
+		list.add(4);
+		list.add(6);
+		list.add(1);
+		list.add(7);
+
+		//printReverse(list, list.size()-1);
+		printReverse(list);
+	}
 }

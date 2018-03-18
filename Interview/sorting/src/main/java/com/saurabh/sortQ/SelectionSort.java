@@ -11,7 +11,7 @@ public class SelectionSort implements Sort {
 			for (int j = i; j < array.length; j++) {
 				int minCandidate = array[j];
 
-					if (minCandidate < min) {
+				if (minCandidate < min) {
 					min = minCandidate;
 					minIndex = j;
 				}

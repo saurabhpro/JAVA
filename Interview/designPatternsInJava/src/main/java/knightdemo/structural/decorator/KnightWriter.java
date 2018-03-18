@@ -5,8 +5,8 @@ import knightdemo.model.KnightWeapon;
 
 /**
  * @author saurabh
- *         <p>
- *         Knight Writer decorator, decorates by writing a knight story of life.
+ * <p>
+ * Knight Writer decorator, decorates by writing a knight story of life.
  */
 public class KnightWriter implements Knight {
 

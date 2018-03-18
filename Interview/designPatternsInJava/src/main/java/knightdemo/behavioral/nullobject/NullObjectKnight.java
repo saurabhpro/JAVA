@@ -5,11 +5,11 @@ import knightdemo.model.KnightWeapon;
 
 /**
  * @author saurabh
- *         <p>
- *         NullObject pattern demonstration. THis is how to create a knight good
- *         for nothing :), a knight that does not do anything. This is
- *         especially use full when we do not want to have null attributes, we
- *         can just pass a nullObject.
+ * <p>
+ * NullObject pattern demonstration. THis is how to create a knight good
+ * for nothing :), a knight that does not do anything. This is
+ * especially use full when we do not want to have null attributes, we
+ * can just pass a nullObject.
  */
 public class NullObjectKnight implements Knight {
 

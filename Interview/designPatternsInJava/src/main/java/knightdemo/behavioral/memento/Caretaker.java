@@ -5,8 +5,8 @@ import java.util.List;
 
 /**
  * @author saurabh
- *         <p>
- *         Caretaker holds mementos and allows user to save and reach for it when it is required
+ * <p>
+ * Caretaker holds mementos and allows user to save and reach for it when it is required
  */
 public class Caretaker {
 

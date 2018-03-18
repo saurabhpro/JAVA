@@ -2,8 +2,8 @@ package knightdemo.behavioral.visitor;
 
 /**
  * @author saurabh
- *         <p>
- *         Demonstration of visitor pattern.
+ * <p>
+ * Demonstration of visitor pattern.
  */
 public class Main {
 

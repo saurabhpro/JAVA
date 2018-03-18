@@ -4,10 +4,10 @@ import knightdemo.model.KnightWeapon;
 
 /**
  * @author saurabh
- *         <p>
- *         Main class that demonstrates memento pattern. At first we create a
- *         holy memento knight and create a memento. After chaning the weapon to
- *         the knight we can use previously created memento.
+ * <p>
+ * Main class that demonstrates memento pattern. At first we create a
+ * holy memento knight and create a memento. After chaning the weapon to
+ * the knight we can use previously created memento.
  */
 public class Main {
 

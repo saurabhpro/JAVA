@@ -4,8 +4,8 @@ import knightdemo.model.HolyKnight;
 
 /**
  * @author saurabh
- *         <p>
- *         Implementation of HolyKnight with MediatorKnight quest abilities
+ * <p>
+ * Implementation of HolyKnight with MediatorKnight quest abilities
  */
 public class MediatorHolyKnight extends HolyKnight implements MediatorKnight {
 

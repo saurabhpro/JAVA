@@ -12,10 +12,10 @@ package pluralsight.c_behavioral.i_strategy.creditcard;
 
 class CreditCard {
 
+	private final ValidationStrategy strategy;
 	private String number;
 	private String date;
 	private String cvv;
-	private final ValidationStrategy strategy;
 
 	public CreditCard(ValidationStrategy strategy) {
 		this.strategy = strategy;

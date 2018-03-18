@@ -2,10 +2,10 @@ package knightdemo.creational.singleton;
 
 /**
  * @author saurabh
- *         <p>
- *         Singleton pattern test.
- *         <p>
- *         Calling singleton method twice increasing count by two.
+ * <p>
+ * Singleton pattern test.
+ * <p>
+ * Calling singleton method twice increasing count by two.
  */
 public class Main {
 

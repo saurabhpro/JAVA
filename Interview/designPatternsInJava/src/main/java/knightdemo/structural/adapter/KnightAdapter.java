@@ -5,12 +5,13 @@ import knightdemo.model.KnightWeapon;
 
 /**
  * @author saurabh
- *         <p>
- *         Knight adapter adapts the OldKnight and allows developers to use this class as it is knight
+ * <p>
+ * Knight adapter adapts the OldKnight and allows developers to use this class as it is knight
  */
 public class KnightAdapter implements Knight, Cloneable {
 
-	private OldKnight oldKnight = null;
+	// approach 2 - through composition
+	private final OldKnight oldKnight;
 
 	public KnightAdapter() {
 		oldKnight = new OldKnight();

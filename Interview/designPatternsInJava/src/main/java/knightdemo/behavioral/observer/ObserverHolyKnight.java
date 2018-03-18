@@ -7,8 +7,8 @@ import java.util.List;
 
 /**
  * @author saurabh
- *         <p>
- *         Implementation of observer knight, it calls all observers when armor is reduced
+ * <p>
+ * Implementation of observer knight, it calls all observers when armor is reduced
  */
 public class ObserverHolyKnight extends HolyKnight implements KnightObserver {
 

@@ -1,6 +1,5 @@
 package com.saurabh.stringQ;
 
-import com.saurabh.stringQ.RemoveDuplicates;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;

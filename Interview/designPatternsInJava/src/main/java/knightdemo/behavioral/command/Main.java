@@ -5,9 +5,9 @@ import knightdemo.model.Knight;
 
 /**
  * @author saurabh
- *         <p>
- *         Main class for testing command pattern. Creating a knight and command
- *         that will teleport it self to London ( if one existed at that time).
+ * <p>
+ * Main class for testing command pattern. Creating a knight and command
+ * that will teleport it self to London ( if one existed at that time).
  */
 public class Main {
 

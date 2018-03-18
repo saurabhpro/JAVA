@@ -4,8 +4,8 @@ import knightdemo.model.KnightWeapon;
 
 /**
  * @author saurabh
- *         <p>
- *         Demonstration of private class data pattern where using PrivateHolyKnight class we are unable to use all of the knight potential
+ * <p>
+ * Demonstration of private class data pattern where using PrivateHolyKnight class we are unable to use all of the knight potential
  */
 public class Main {
 

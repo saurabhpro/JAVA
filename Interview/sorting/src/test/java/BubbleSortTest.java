@@ -10,7 +10,7 @@ public class BubbleSortTest {
 	public void testSort() throws Exception {
 		BubbleSort algorithm = new BubbleSort();
 
-		int[] sortedAlgo = algorithm.sort(new int[] { 8, 1, 3, 4, 6 });
+		int[] sortedAlgo = algorithm.sort(new int[]{8, 1, 3, 4, 6});
 		int[] expectd = new int[]{8, 6, 4, 3, 1};
 		//Assert.assertThat(sortedAlgo, is(arrayContaining(expectd)));
 

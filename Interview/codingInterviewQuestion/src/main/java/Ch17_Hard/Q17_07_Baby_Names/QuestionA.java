@@ -35,7 +35,7 @@ public class QuestionA {
 				Set<String> otherNames = smaller.getNames();
 				int frequency = smaller.getFrequency();
 				bigger.copyNamesWithFrequency(otherNames, frequency);
-			    
+
 			    /* Update mapping */
 				for (String name : otherNames) {
 					groups.put(name, bigger);

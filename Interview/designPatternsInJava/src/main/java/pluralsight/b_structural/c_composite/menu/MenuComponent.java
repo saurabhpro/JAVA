@@ -15,9 +15,9 @@ import java.util.List;
 
 public abstract class MenuComponent {
 
+	final List<MenuComponent> menuComponents = new ArrayList<>();
 	String name;
 	String url;
-	final List<MenuComponent> menuComponents = new ArrayList<>();
 
 	public MenuComponent add(MenuComponent menuComponent) {
 		throw new UnsupportedOperationException("Feature not implemented at this level");

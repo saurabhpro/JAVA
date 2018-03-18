@@ -8,8 +8,8 @@ import knightdemo.model.Knight;
  * right knight is the ultimate goal
  *
  * @author saurabh
- *         <p>
- *         Chain of responsibility
+ * <p>
+ * Chain of responsibility
  */
 public class DragonSlayerRepresentitive extends AbstractDragonSlayerRepresentative {
 

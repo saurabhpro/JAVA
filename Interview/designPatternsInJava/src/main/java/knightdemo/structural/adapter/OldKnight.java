@@ -2,8 +2,8 @@ package knightdemo.structural.adapter;
 
 /**
  * @author saurabh
- *         <p>
- *         Old knight that does not implement Knight interface there fore it can not be used correctly
+ * <p>
+ * Old knight that does not implement Knight interface there fore it can not be used correctly
  */
 public class OldKnight {
 

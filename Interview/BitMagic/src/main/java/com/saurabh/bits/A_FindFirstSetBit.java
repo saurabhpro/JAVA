@@ -1,8 +1,8 @@
 package com.saurabh.bits;
 
-import java.util.Scanner;
-
 import com.saurabh.commons.MathUtils;
+
+import java.util.Scanner;
 
 /**
  * Given an integer an N, write a program to print the position of first set bit found from right side

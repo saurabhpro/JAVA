@@ -8,23 +8,17 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package pluralsight.b_structural.f_flyweight;
+package pluralsight.b_structural.f_flyweight.demo;
 
-import java.util.HashMap;
-import java.util.Map;
+//Instances of Item will be the Flyweights
+class Item {
+	private final String name;
 
-//Catalog acts as a factory and cache for Item flyweight objects
-class Catalog {
-	private final Map<String, Item> items = new HashMap<>();
-
-	//factory method
-	public Item lookup(String itemName) {
-		if (!items.containsKey(itemName))
-			items.put(itemName, new Item(itemName));
-		return items.get(itemName);
+	public Item(String name) {
+		this.name = name;
 	}
 
-	public int totalItemsMade() {
-		return items.size();
+	public String toString() {
+		return name;
 	}
 }

@@ -8,29 +8,20 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package pluralsight.b_structural.f_flyweight;
+package pluralsight.b_structural.f_flyweight.demo;
 
-public class FlyweightInventoryDemo {
 
-	public static void main(String[] args) {
-		InventorySystem ims = new InventorySystem();
+//Instances of Order will be the Flyweights
+class Order {
+	private final int orderNumber;
+	private final Item item;
 
-		ims.takeOrder("Roomba", 221);
-		ims.takeOrder("Bose Headphones", 361);
-		ims.takeOrder("Samsung TV", 432);
-		ims.takeOrder("Samsung TV", 323);
-		ims.takeOrder("Roomba", 563);
-		ims.takeOrder("Bose Headphones", 321);
-		ims.takeOrder("Roomba", 234);
-		ims.takeOrder("Samsung TV", 54);
-		ims.takeOrder("Roomba", 34);
-		ims.takeOrder("Bose Headphones", 365);
-		ims.takeOrder("Samsung TV", 332);
-		ims.takeOrder("Roomba", 456);
+	Order(int orderNumber, Item item) {
+		this.orderNumber = orderNumber;
+		this.item = item;
+	}
 
-		ims.process();
-
-		System.out.println(ims.report());
-
+	void processOrder() {
+		System.out.println("Ordering " + item + " for parts number " + orderNumber);
 	}
 }

@@ -8,8 +8,8 @@ import java.util.List;
 
 /**
  * @author saurabh
- *         <p>
- *         Class that holds the list of knights and allows calculations and actions on all of the knights
+ * <p>
+ * Class that holds the list of knights and allows calculations and actions on all of the knights
  */
 public class KnightArmy implements Knight, Cloneable {
 

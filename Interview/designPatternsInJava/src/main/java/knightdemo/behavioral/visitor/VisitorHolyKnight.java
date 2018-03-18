@@ -4,8 +4,8 @@ import knightdemo.model.HolyKnight;
 
 /**
  * @author saurabh
- *         <p>
- *         Implementation of visitor knight
+ * <p>
+ * Implementation of visitor knight
  */
 public class VisitorHolyKnight extends HolyKnight implements VisitorKnight {
 

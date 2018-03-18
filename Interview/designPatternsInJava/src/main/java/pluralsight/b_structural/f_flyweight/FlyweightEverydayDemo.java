@@ -14,9 +14,9 @@ public class FlyweightEverydayDemo {
 
 	public static void main(String args[]) throws Exception {
 
-		Integer firstInt = 5;
+		Integer firstInt = Integer.valueOf(5);
 
-		Integer secondInt = 5;
+		Integer secondInt = Integer.valueOf(5);
 
 		//noinspection UnnecessaryBoxing
 		Integer thirdInt = Integer.valueOf(10);

@@ -9,56 +9,56 @@ import java.util.Stack;
 import java.util.StringTokenizer;
 
 class GetAllSubsetByStack {
-    static int TARGET_SUM;
+	static int TARGET_SUM;
 	private Stack<Integer> stack = new Stack<>();
 	private int sumInStack = 0;
 
-    public static void main(String s[]) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String input = br.readLine();
-        TARGET_SUM = Integer.parseInt(br.readLine());
-        StringTokenizer strToken = new StringTokenizer(input);
-        int count = strToken.countTokens();
+	public static void main(String s[]) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String input = br.readLine();
+		TARGET_SUM = Integer.parseInt(br.readLine());
+		StringTokenizer strToken = new StringTokenizer(input);
+		int count = strToken.countTokens();
 
-        int[] DATA = new int[count];
+		int[] DATA = new int[count];
 
-        for (int x = 0; x < count; x++) {
-            DATA[x] = Integer.parseInt((String) strToken.nextElement());
-        }
+		for (int x = 0; x < count; x++) {
+			DATA[x] = Integer.parseInt((String) strToken.nextElement());
+		}
 
-        for (int i = 0; i < DATA.length; i++)
-            for (int j = i + 1; j < DATA.length; j++)
-                if (DATA[i] == DATA[j])
-                    DATA[j] = Integer.MAX_VALUE;
+		for (int i = 0; i < DATA.length; i++)
+			for (int j = i + 1; j < DATA.length; j++)
+				if (DATA[i] == DATA[j])
+					DATA[j] = Integer.MAX_VALUE;
 
-        GetAllSubsetByStack get = new GetAllSubsetByStack();
-        get.populateSubset(DATA, 0, DATA.length);
-    }
+		GetAllSubsetByStack get = new GetAllSubsetByStack();
+		get.populateSubset(DATA, 0, DATA.length);
+	}
 
-    public void populateSubset(int[] data, int fromIndex, int endIndex) {
+	public void populateSubset(int[] data, int fromIndex, int endIndex) {
 
-        if (sumInStack == TARGET_SUM)
-            print(stack);
-      //  Arrays.sort(new int[]{5,9,6,6});
+		if (sumInStack == TARGET_SUM)
+			print(stack);
+		//  Arrays.sort(new int[]{5,9,6,6});
 
-        for (int currentIndex = fromIndex; currentIndex < endIndex; currentIndex++) {
+		for (int currentIndex = fromIndex; currentIndex < endIndex; currentIndex++) {
 
-            if (sumInStack + data[currentIndex] <= TARGET_SUM) {
-                stack.push(data[currentIndex]);
-                sumInStack += data[currentIndex];
-                populateSubset(data, currentIndex + 1, endIndex);
-	            sumInStack -= stack.pop();
-            }
-        }
-    }
+			if (sumInStack + data[currentIndex] <= TARGET_SUM) {
+				stack.push(data[currentIndex]);
+				sumInStack += data[currentIndex];
+				populateSubset(data, currentIndex + 1, endIndex);
+				sumInStack -= stack.pop();
+			}
+		}
+	}
 
-    private void print(Stack<Integer> stack) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("[");
-        for (Integer i : stack)
-            sb.append(i).append(",");
-        sb.deleteCharAt(sb.length() - 1);
-        sb.append("]");
-        System.out.println(sb.toString());
-    }
+	private void print(Stack<Integer> stack) {
+		StringBuilder sb = new StringBuilder();
+		sb.append("[");
+		for (Integer i : stack)
+			sb.append(i).append(",");
+		sb.deleteCharAt(sb.length() - 1);
+		sb.append("]");
+		System.out.println(sb.toString());
+	}
 }

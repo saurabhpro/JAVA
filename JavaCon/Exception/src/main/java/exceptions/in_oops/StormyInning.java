@@ -1,11 +1,5 @@
 /*
- * Copyright 2017 Saurabh Kumar
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ * Copyright (c) 2018 Saurabh Kumar
  */
 
 package exceptions.in_oops;//: exceptions/exceptions.in_oops.StormyInning.java
@@ -29,10 +23,10 @@ class Strike extends BaseballException {
 }
 
 abstract class Inning {
-	Inning() throws BaseballException {
+	Inning() {
 	}
 
-	public void event() throws BaseballException {
+	public void event() {
 		// Doesn't actually have to throw anything
 	}
 
@@ -55,7 +49,7 @@ public class StormyInning extends Inning implements Storm {
 	// OK to add new exceptions for constructors, but you
 	// must deal with the base constructor exceptions:
 
-	private StormyInning() throws RainedOut, BaseballException {
+	private StormyInning() throws BaseballException {
 	}
 
 	public StormyInning(String s) throws BaseballException {
@@ -97,7 +91,7 @@ public class StormyInning extends Inning implements Storm {
 //! public void event() throws exceptions.in_oops.RainedOut {}
 	// If the method doesn't already exist in the
 	// base class, the exception is OK:
-	public void rainHard() throws RainedOut {
+	public void rainHard() {
 	}
 
 	// You can choose to not throw any exceptions,
@@ -106,7 +100,7 @@ public class StormyInning extends Inning implements Storm {
 	}
 
 	// Overridden methods can throw inherited exceptions:
-	protected void atBat() throws PopFoul {
+	protected void atBat() {
 	}
 
 

@@ -7,9 +7,9 @@ import java.util.Map;
 
 /**
  * @author saurabh
- *         <p>
- *         Central point where Knight can send a quest to other knight, all
- *         knights have reference to this central point ( mediator)
+ * <p>
+ * Central point where Knight can send a quest to other knight, all
+ * knights have reference to this central point ( mediator)
  */
 public class MedevilPostOffice {
 

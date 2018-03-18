@@ -4,8 +4,8 @@ import knightdemo.model.Knight;
 
 /**
  * @author saurabh
- *         <p>
- *         Implementation of command , allowing knight to teleport to destination
+ * <p>
+ * Implementation of command , allowing knight to teleport to destination
  */
 public class TeleportKnightCommand implements Command {
 

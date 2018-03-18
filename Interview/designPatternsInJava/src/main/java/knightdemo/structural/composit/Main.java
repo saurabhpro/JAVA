@@ -7,7 +7,7 @@ import knightdemo.model.MajesticKnight;
 
 /**
  * @author saurabh Testing the composit pattern by creating an kings army with
- *         one legion of
+ * one legion of
  */
 public class Main {
 

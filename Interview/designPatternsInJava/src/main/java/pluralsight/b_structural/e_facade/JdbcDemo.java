@@ -34,7 +34,7 @@ public class JdbcDemo {
 
 			sta = conn.createStatement();
 			count = sta.executeUpdate("INSERT INTO Address (ID, StreetName, City) "
-					+ "values (1, '1234 Some street', 'Layton')");
+					+ "VALUES (1, '1234 Some street', 'Layton')");
 			System.out.println(count + " record(s) created.");
 			sta.close();
 

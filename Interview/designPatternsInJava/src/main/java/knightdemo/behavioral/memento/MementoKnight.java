@@ -4,8 +4,8 @@ import knightdemo.model.Knight;
 
 /**
  * @author saurabh
- *         <p>
- *         Knight with extra ability to create a memento and receive one
+ * <p>
+ * Knight with extra ability to create a memento and receive one
  */
 public interface MementoKnight extends Knight {
 

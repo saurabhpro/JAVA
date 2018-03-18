@@ -8,18 +8,57 @@
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package pluralsight.b_structural.f_flyweight;
+package pluralsight.a_creational.b_builder.myLunchBuilder;
 
-class Order {
-	private final int orderNumber;
-	private final Item item;
-
-	Order(int orderNumber, Item item) {
-		this.orderNumber = orderNumber;
-		this.item = item;
+@SuppressWarnings("ALL")
+public class LunchOrderBuilder {
+	public String getBread() {
+		return bread;
 	}
 
-	void processOrder() {
-		System.out.println("Ordering " + item + " for parts number " + orderNumber);
+	public String getCondiments() {
+		return condiments;
 	}
+
+	public String getDressing() {
+		return dressing;
+	}
+
+	public String getMeat() {
+		return meat;
+	}
+
+	private String bread;
+	private String condiments;
+	private String dressing;
+	private String meat;
+
+	public LunchOrderBuilder() {
+	}
+
+//	LunchOrder build() {
+//		return new LunchOrder(this);
+//	}
+
+	LunchOrderBuilder addBread(String bread) {
+		this.bread = bread;
+		return this;        //so that can be chained
+	}
+
+	LunchOrderBuilder addCondiments(String condiments) {
+		this.condiments = condiments;
+		return this;
+	}
+
+	LunchOrderBuilder addDressing(String dressing) {
+		this.dressing = dressing;
+		return this;
+	}
+
+	LunchOrderBuilder addMeat(String meat) {
+		this.meat = meat;
+		return this;
+	}
+
 }
+
