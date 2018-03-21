@@ -60,11 +60,15 @@ public class CleanupIdiom {
 					// ...
 				} finally {
 					nc5.dispose();
+					throw new ConstructionException();
+
 				}
 			} catch (ConstructionException e) { // nc5 constructor
 				System.out.println(e.toString());
+				throw new ConstructionException();
 			} finally {
 				nc4.dispose();
+
 			}
 		} catch (ConstructionException e) { // nc4 constructor
 			System.out.println("message : " + e.getMessage());

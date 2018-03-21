@@ -30,7 +30,7 @@ abstract class Inning {
 		// Doesn't actually have to throw anything
 	}
 
-	protected abstract void atBat() throws Strike, Foul;
+	protected abstract void atBat() throws Strike, Foul, RainedOut;
 
 	public void walk() {
 	} // Throws no checked exceptions
@@ -49,10 +49,10 @@ public class StormyInning extends Inning implements Storm {
 	// OK to add new exceptions for constructors, but you
 	// must deal with the base constructor exceptions:
 
-	private StormyInning() throws BaseballException {
+	private StormyInning() {
 	}
 
-	public StormyInning(String s) throws BaseballException {
+	public StormyInning(String s) {
 	}
 
 	public static void main(String[] args) {
@@ -100,7 +100,9 @@ public class StormyInning extends Inning implements Storm {
 	}
 
 	// Overridden methods can throw inherited exceptions:
-	protected void atBat() {
+	protected void atBat() throws RainedOut {
+		throw new RainedOut();
+
 	}
 
 

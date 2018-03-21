@@ -46,6 +46,7 @@
     <modules>
         <module>SpecialKeywords</module>
         <module>JavaKathy</module>
+        <module>ClassDesign</module>
         <module>Array</module>
         <module>Interfaces</module>
         <module>Inheritance</module>
