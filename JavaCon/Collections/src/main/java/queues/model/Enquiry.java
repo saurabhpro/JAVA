@@ -21,6 +21,7 @@ public class Enquiry {
 		return category;
 	}
 
+	@Override
 	public String toString() {
 		return "Enquiry{" +
 				"customer='" + customer + '\'' +

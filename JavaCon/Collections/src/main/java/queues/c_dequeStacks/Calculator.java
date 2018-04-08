@@ -4,12 +4,17 @@
 
 package queues.c_dequeStacks;
 
+
 import java.util.ArrayDeque;
 import java.util.Collections;
 import java.util.Deque;
 
 import static java.lang.Integer.parseInt;
 
+/**
+ * pop - internally calls removeFirst()
+ * push - internally call addFirst()
+ */
 class Calculator {
 
     /*

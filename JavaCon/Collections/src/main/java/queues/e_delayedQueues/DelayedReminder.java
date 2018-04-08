@@ -28,10 +28,12 @@ public class DelayedReminder implements Delayed {
 		return reminderText;
 	}
 
+	@Override
 	public long getDelay(TimeUnit timeUnit) {
 		return TimeUnit.SECONDS.convert(delayInSeconds, timeUnit);
 	}
 
+	@Override
 	public int compareTo(Delayed delayed) {
 		return (int) (delayInSeconds - delayed.getDelay(TimeUnit.SECONDS));
 	}

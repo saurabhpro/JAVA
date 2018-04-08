@@ -16,6 +16,7 @@ import static java.util.Comparator.comparing;
 
 public class PriorityHelpDeskJava8 {
 
+	// private static final Comparator<Enquiry> BY_CATEGORY = (o1, o2) -> o1.getCategory().compareTo(o2.getCategory());
 	private static final Comparator<Enquiry> BY_CATEGORY = comparing(Enquiry::getCategory);
 
 	private final Queue<Enquiry> enquiries = new PriorityQueue<>(BY_CATEGORY);

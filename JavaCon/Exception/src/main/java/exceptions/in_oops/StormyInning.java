@@ -30,7 +30,7 @@ abstract class Inning {
 		// Doesn't actually have to throw anything
 	}
 
-	protected abstract void atBat() throws Strike, Foul, RainedOut;
+	protected abstract void atBat() throws RainedOut, BaseballException;
 
 	public void walk() {
 	} // Throws no checked exceptions
