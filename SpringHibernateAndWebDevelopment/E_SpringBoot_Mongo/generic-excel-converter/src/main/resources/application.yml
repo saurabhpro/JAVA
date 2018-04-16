@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  name: saurabhk
+  dbName: notes
+
+
+
+spring:
+  data:
+    mongodb:
+      uri: localhost:27017
