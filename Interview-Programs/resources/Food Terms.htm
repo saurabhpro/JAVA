@@ -1,0 +1,1413 @@
+<!-- saved from url=(0047)http://www.artima.com/suiterunner/privateP.html -->
+<html class="">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Testing Private Methods with JUnit and SuiteRunner</title>
+    <meta name="description" content="This tutorial discusses whether to test private methods
+and suggests several approaches.">
+    <meta name="keywords"
+          content="xml, reporter, test, unit test, testing, tests, conformance testing, private, methods, Java">
+    <meta name="author" content="Bill Venners">
+    <link rel="stylesheet" type="text/css"
+          href="../../../../Dropbox%20(Personal)/ELearning/TechnicalDocs/Food%20Terms_files/artimapf.css">
+    <link rel="shortcut icon" href="http://www.artima.com/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="chrome-extension://dgmanlpmmkibanfdgjocnabmcaclkmod/page.css"
+          class="page-styles">
+    <style type="text/css">.dg {
+        /** Clear list styles */
+        /* Auto-place container */
+        /* Auto-placed GUI's */
+        /* Line items that don't contain folders. */
+        /** Folder names */
+        /** Hides closed items */
+        /** Controller row */
+        /** Name-half (left) */
+        /** Controller-half (right) */
+        /** Controller placement */
+        /** Shorter number boxes when slider is present. */
+        /** Ensure the entire boolean and function row shows a hand */
+    }
+
+    .dg ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        clear: both;
+    }
+
+    .dg.ac {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 0;
+        z-index: 0;
+    }
+
+    .dg:not(.ac) .main {
+        /** Exclude mains in ac so that we don't hide close button */
+        overflow: hidden;
+    }
+
+    .dg.main {
+        -webkit-transition: opacity 0.1s linear;
+        -o-transition: opacity 0.1s linear;
+        -moz-transition: opacity 0.1s linear;
+        transition: opacity 0.1s linear;
+    }
+
+    .dg.main.taller-than-window {
+        overflow-y: auto;
+    }
+
+    .dg.main.taller-than-window .close-button {
+        opacity: 1;
+        /* TODO, these are style notes */
+        margin-top: -1px;
+        border-top: 1px solid #2c2c2c;
+    }
+
+    .dg.main ul.closed .close-button {
+        opacity: 1 !important;
+    }
+
+    .dg.main:hover .close-button,
+    .dg.main .close-button.drag {
+        opacity: 1;
+    }
+
+    .dg.main .close-button {
+        /*opacity: 0;*/
+        -webkit-transition: opacity 0.1s linear;
+        -o-transition: opacity 0.1s linear;
+        -moz-transition: opacity 0.1s linear;
+        transition: opacity 0.1s linear;
+        border: 0;
+        position: absolute;
+        line-height: 19px;
+        height: 20px;
+        /* TODO, these are style notes */
+        cursor: pointer;
+        text-align: center;
+        background-color: #000;
+    }
+
+    .dg.main .close-button:hover {
+        background-color: #111;
+    }
+
+    .dg.a {
+        float: right;
+        margin-right: 15px;
+        overflow-x: hidden;
+    }
+
+    .dg.a.has-save > ul {
+        margin-top: 27px;
+    }
+
+    .dg.a.has-save > ul.closed {
+        margin-top: 0;
+    }
+
+    .dg.a .save-row {
+        position: fixed;
+        top: 0;
+        z-index: 1002;
+    }
+
+    .dg li {
+        -webkit-transition: height 0.1s ease-out;
+        -o-transition: height 0.1s ease-out;
+        -moz-transition: height 0.1s ease-out;
+        transition: height 0.1s ease-out;
+    }
+
+    .dg li:not(.folder) {
+        cursor: auto;
+        height: 27px;
+        line-height: 27px;
+        overflow: hidden;
+        padding: 0 4px 0 5px;
+    }
+
+    .dg li.folder {
+        padding: 0;
+        border-left: 4px solid rgba(0, 0, 0, 0);
+    }
+
+    .dg li.title {
+        cursor: pointer;
+        margin-left: -4px;
+    }
+
+    .dg .closed li:not(.title),
+    .dg .closed ul li,
+    .dg .closed ul li > * {
+        height: 0;
+        overflow: hidden;
+        border: 0;
+    }
+
+    .dg .cr {
+        clear: both;
+        padding-left: 3px;
+        height: 27px;
+    }
+
+    .dg .property-name {
+        cursor: default;
+        float: left;
+        clear: left;
+        width: 40%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .dg .c {
+        float: left;
+        width: 60%;
+    }
+
+    .dg .c input[type=text] {
+        border: 0;
+        margin-top: 4px;
+        padding: 3px;
+        width: 100%;
+        float: right;
+    }
+
+    .dg .has-slider input[type=text] {
+        width: 30%;
+        /*display: none;*/
+        margin-left: 0;
+    }
+
+    .dg .slider {
+        float: left;
+        width: 66%;
+        margin-left: -5px;
+        margin-right: 0;
+        height: 19px;
+        margin-top: 4px;
+    }
+
+    .dg .slider-fg {
+        height: 100%;
+    }
+
+    .dg .c input[type=checkbox] {
+        margin-top: 9px;
+    }
+
+    .dg .c select {
+        margin-top: 5px;
+    }
+
+    .dg .cr.function,
+    .dg .cr.function .property-name,
+    .dg .cr.function *,
+    .dg .cr.boolean,
+    .dg .cr.boolean * {
+        cursor: pointer;
+    }
+
+    .dg .selector {
+        display: none;
+        position: absolute;
+        margin-left: -9px;
+        margin-top: 23px;
+        z-index: 10;
+    }
+
+    .dg .c:hover .selector,
+    .dg .selector.drag {
+        display: block;
+    }
+
+    .dg li.save-row {
+        padding: 0;
+    }
+
+    .dg li.save-row .button {
+        display: inline-block;
+        padding: 0px 6px;
+    }
+
+    .dg.dialogue {
+        background-color: #222;
+        width: 460px;
+        padding: 15px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    /* TODO Separate style and structure */
+    #dg-new-constructor {
+        padding: 10px;
+        color: #222;
+        font-family: Monaco, monospace;
+        font-size: 10px;
+        border: 0;
+        resize: none;
+        box-shadow: inset 1px 1px 1px #888;
+        word-wrap: break-word;
+        margin: 12px 0;
+        display: block;
+        width: 440px;
+        overflow-y: scroll;
+        height: 100px;
+        position: relative;
+    }
+
+    #dg-local-explain {
+        display: none;
+        font-size: 11px;
+        line-height: 17px;
+        border-radius: 3px;
+        background-color: #333;
+        padding: 8px;
+        margin-top: 10px;
+    }
+
+    #dg-local-explain code {
+        font-size: 10px;
+    }
+
+    #dat-gui-save-locally {
+        display: none;
+    }
+
+    /** Main type */
+    .dg {
+        color: #eee;
+        font: 11px 'Lucida Grande', sans-serif;
+        text-shadow: 0 -1px 0 #111;
+        /** Auto place */
+        /* Controller row, <li> */
+        /** Controllers */
+    }
+
+    .dg.main {
+        /** Scrollbar */
+    }
+
+    .dg.main::-webkit-scrollbar {
+        width: 5px;
+        background: #1a1a1a;
+    }
+
+    .dg.main::-webkit-scrollbar-corner {
+        height: 0;
+        display: none;
+    }
+
+    .dg.main::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background: #676767;
+    }
+
+    .dg li:not(.folder) {
+        background: #1a1a1a;
+        border-bottom: 1px solid #2c2c2c;
+    }
+
+    .dg li.save-row {
+        line-height: 25px;
+        background: #dad5cb;
+        border: 0;
+    }
+
+    .dg li.save-row select {
+        margin-left: 5px;
+        width: 108px;
+    }
+
+    .dg li.save-row .button {
+        margin-left: 5px;
+        margin-top: 1px;
+        border-radius: 2px;
+        font-size: 9px;
+        line-height: 7px;
+        padding: 4px 4px 5px 4px;
+        background: #c5bdad;
+        color: #fff;
+        text-shadow: 0 1px 0 #b0a58f;
+        box-shadow: 0 -1px 0 #b0a58f;
+        cursor: pointer;
+    }
+
+    .dg li.save-row .button.gears {
+        background: #c5bdad url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAANCAYAAAB/9ZQ7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQJJREFUeNpiYKAU/P//PwGIC/ApCABiBSAW+I8AClAcgKxQ4T9hoMAEUrxx2QSGN6+egDX+/vWT4e7N82AMYoPAx/evwWoYoSYbACX2s7KxCxzcsezDh3evFoDEBYTEEqycggWAzA9AuUSQQgeYPa9fPv6/YWm/Acx5IPb7ty/fw+QZblw67vDs8R0YHyQhgObx+yAJkBqmG5dPPDh1aPOGR/eugW0G4vlIoTIfyFcA+QekhhHJhPdQxbiAIguMBTQZrPD7108M6roWYDFQiIAAv6Aow/1bFwXgis+f2LUAynwoIaNcz8XNx3Dl7MEJUDGQpx9gtQ8YCueB+D26OECAAQDadt7e46D42QAAAABJRU5ErkJggg==) 2px 1px no-repeat;
+        height: 7px;
+        width: 8px;
+    }
+
+    .dg li.save-row .button:hover {
+        background-color: #bab19e;
+        box-shadow: 0 -1px 0 #b0a58f;
+    }
+
+    .dg li.folder {
+        border-bottom: 0;
+    }
+
+    .dg li.title {
+        padding-left: 16px;
+        background: black url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlI+hKgFxoCgAOw==) 6px 10px no-repeat;
+        cursor: pointer;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .dg .closed li.title {
+        background-image: url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlGIWqMCbWAEAOw==);
+    }
+
+    .dg .cr.boolean {
+        border-left: 3px solid #806787;
+    }
+
+    .dg .cr.function {
+        border-left: 3px solid #e61d5f;
+    }
+
+    .dg .cr.number {
+        border-left: 3px solid #2fa1d6;
+    }
+
+    .dg .cr.number input[type=text] {
+        color: #2fa1d6;
+    }
+
+    .dg .cr.string {
+        border-left: 3px solid #1ed36f;
+    }
+
+    .dg .cr.string input[type=text] {
+        color: #1ed36f;
+    }
+
+    .dg .cr.function:hover, .dg .cr.boolean:hover {
+        background: #111;
+    }
+
+    .dg .c input[type=text] {
+        background: #303030;
+        outline: none;
+    }
+
+    .dg .c input[type=text]:hover {
+        background: #3c3c3c;
+    }
+
+    .dg .c input[type=text]:focus {
+        background: #494949;
+        color: #fff;
+    }
+
+    .dg .c .slider {
+        background: #303030;
+        cursor: ew-resize;
+    }
+
+    .dg .c .slider-fg {
+        background: #2fa1d6;
+    }
+
+    .dg .c .slider:hover {
+        background: #3c3c3c;
+    }
+
+    .dg .c .slider:hover .slider-fg {
+        background: #44abda;
+    }
+    </style>
+</head>
+<body>
+<table width="100%" bgcolor="#FFFFFF" style="margin-top: 5px">
+    <tbody>
+    <tr>
+        <td align="center">
+            <div id="topbanner" style="height: 90px">
+                <noscript>&lt;a href='https://www.artima.com/zcr/adclick.php?n=a86d37e9' target='_top'&gt;&lt;img
+                    src='https://www.artima.com/zcr/adview.php?what=zone:1&amp;amp;n=a86d37e9' border='0' alt='' /&gt;&lt;/a&gt;
+                </noscript>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table width="100%" cellspacing="0">
+    <tbody>
+    <tr>
+        <td align="left" valign="bottom">
+            <a href="http://www.artima.com/index.jsp"><img
+                    src="../../../../Dropbox%20(Personal)/ELearning/TechnicalDocs/Food%20Terms_files/a7.gif"
+                    alt="The Artima Developer Community" border="0" width="550" height="43"></a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table width="100%" bgcolor="#333333">
+    <tbody>
+    <tr>
+        <td align="center">
+            <div class="ml">
+                <a href="http://www.artima.com/articles" class="hl">Articles</a>&nbsp;|
+                <a href="http://www.artima.com/news/index.jsp" class="hl">News</a>&nbsp;|
+                <a href="http://www.artima.com/weblogs/index.jsp" class="hl">Weblogs</a>&nbsp;|
+                <a href="http://www.artima.com/buzz/index.jsp" class="hl">Buzz</a>&nbsp;|
+                <a href="http://www.artima.com/shop/catalog" class="hl">Books</a>&nbsp;|
+                <a href="http://www.artima.com/forums/index.jsp" class="hl">Forums</a>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table width="100%" bgcolor="#CCCC99">
+    <tbody>
+    <tr>
+        <td align="center">
+            <div class="sc">
+                <a href="http://www.artima.com/suiterunner/index.html">Artima SuiteRunner</a>&nbsp;|
+                <a href="http://www.artima.com/suiterunner/why.html">Why</a>&nbsp;|
+                <a href="http://www.artima.com/suiterunner/start.html">Getting Started</a>&nbsp;|
+                <a href="http://www.artima.com/suiterunner/tutorial.html">Tutorial</a>&nbsp;|
+                <a href="http://www.artima.com/forums/forum.jsp?forum=61">Get Help</a>&nbsp;|
+                <a href="http://www.artima.com/forums/flat.jsp?forum=226&amp;thread=51132">Discuss</a>&nbsp;|
+                Print&nbsp;|
+                <a href="mailto:?subject=Testing%20Private%20Methods%20with%20JUnit%20and%20SuiteRunner&amp;body=%20%0ATesting%20Private%20Methods%20with%20JUnit%20and%20SuiteRunner%20%0Aby%20Bill%20Venners%20%0A%0Ahttps://www.artima.com/suiterunner/privateP.html">Email</a>&nbsp;|
+                <a href="http://www.artima.com/suiterunner/private.html">Screen Friendly Version</a>&nbsp;|
+                Previous&nbsp;|
+                Next
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table width="100%" bgcolor="#EEEEEE">
+    <tbody>
+    <tr>
+        <td align="center">
+            <div class="sc">
+                <span style="color: #555555">Sponsored Link</span> <span style="color: #888888">•</span>
+                <script language="JavaScript" type="text/javascript" src="https://www.artima.com/zcr/adx.js"></script>
+                <script language="JavaScript" type="text/javascript">
+                    <!--
+                    if (!document.phpAds_used) document.phpAds_used = ',';
+                    phpAds_random = new String(Math.random());
+                    phpAds_random = phpAds_random.substring(2, 11);
+
+                    document.write("<" + "script language='JavaScript' type='text/javascript' src='");
+                    document.write("https://www.artima.com/zcr/adjs.php?n=" + phpAds_random);
+                    document.write("&amp;what=zone:9&amp;target=_top");
+                    document.write("&amp;exclude=" + document.phpAds_used);
+                    if (document.referrer)
+                        document.write("&amp;referer=" + escape(document.referrer));
+                    document.write("'><" + "/script>");
+                    //-->
+                </script>
+                <script language="JavaScript" type="text/javascript"
+                        src="https://www.artima.com/zcr/adjs.php?n=371374241&amp;what=zone:9&amp;target=_top&amp;exclude=,"></script>
+                <noscript>&lt;a href='https://www.artima.com/zcr/adclick.php?n=a799ecf6' target='_top'&gt;&lt;img
+                    src='https://www.artima.com/zcr/adview.php?what=zone:9&amp;amp;n=a0587811' border='0' alt=''&gt;&lt;/a&gt;
+                </noscript>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<div class="vegies">
+    <div class="tc">
+        <span class="ts">Testing Private Methods with JUnit and SuiteRunner</span><br>
+        <span class="as">by Bill Venners</span><br>
+        <span class="pd">May 24, 2004</span><br>
+    </div>
+    <blockquote>
+        <strong>Summary</strong><br>
+        This article compares four different approaches to testing
+        private methods in Java classes.
+    </blockquote>
+
+    <p>
+        <font size="+2"><b>M</b></font>y very first use of JUnit was to build a conformance test kit for the
+        ServiceUI API [<a href="http://www.artima.com/suiterunner/private3.html#r1">1</a>]. The purpose of a conformance
+        test kit is to help ensure
+        that alternate implementations of the same API are compatible with the API's
+        specification. Because an API specification defines only the public
+        interface of the API, not the API's implementation, a conformance test
+        exercises only the public interface. In other words, a
+        conformance test is a "black box" test. It treats the API under test as a
+        black box, whose external interface can be seen, but whose internal
+        implementation cannot. A conformance test of a Java API, therefore,
+        need only access the public members of the packages and classes under test.
+        There is no need to access package-level, protected, or private members.
+
+    </p>
+    <p>
+        When I later applied JUnit to the task of writing actual <em>unit</em> tests,
+        as opposed to conformance tests, I found myself wanting to write white box
+        tests—tests that employ knowledge of the internal implementation of
+        the packages and classes under test. Whereas I only wanted to test public
+        methods in my conformance tests, I wanted to write unit tests for package
+        access and occasionally private methods as well as public methods.
+
+    </p>
+    <p>
+        Daniel Steinberg [<a href="http://www.artima.com/suiterunner/private3.html#r2">2</a>] showed me the common JUnit
+        technique
+        of using parallel source code
+        trees, which allowed me to place test classes in the same package as the
+        classes under test, but keep them in a different directory. This provided a clean
+        separation of test and production code. By placing both
+        source trees in the CLASSPATH, my test classes could access package-level
+        methods and classes in the package under test. This still left me, however,
+        with the problem of testing private methods.
+
+    </p>
+    <p>
+        When I asked Daniel about testing private methods, he gently suggested that
+        I test the private methods indirectly by testing the package-access and public
+        methods that call the private ones. This answer did not quite satisfy me,
+        because on occasion I really did feel the urge to directly test a private
+        method. My initial solution was to just make such private methods package
+        access, which allowed me to test them directly with JUnit from the test
+        classes in the same package in the parallel source tree. This worked fine, but
+        made me feel a bit dirty somehow. Although in general I discovered that
+        thinking about how to design interfaces so they could be easily unit tested
+        helped me design better interfaces, in this case I felt I was making the design
+        slightly worse to make it testable.
+
+    </p>
+    <p>
+        When I later ended up participating in the creation of what Frank Sommers,
+        Matt Gerrans, and I eventually
+        released as Artima SuiteRunner [<a href="http://www.artima.com/suiterunner/private3.html#r3">3</a>], I vowed
+        that I would make the testing of
+        private methods easier in SuiteRunner than it is in JUnit. But after
+        investigating the various approaches to testing private methods, I decided not
+        to do anything special in SuiteRunner to support testing private methods. So
+        whether you are using JUnit or SuiteRunner, you have the same four basic
+        approaches to testing private methods:
+
+    </p>
+    <ul>
+        <li>Don't test private methods.
+        </li>
+        <li>Give the methods package access.
+        </li>
+        <li>Use a nested test class.
+        </li>
+        <li>Use reflection.
+        </li>
+    </ul>
+
+    In this article, I will discuss these four approaches to testing private methods
+    in Java. I will look at the advantages and disadvantages of each and attempt
+    to shed some light on when it makes sense to use each approach.
+
+
+    <h1>Approach 1: Don't Test Private Methods</h1>
+
+    <p>
+        As I mentioned in the introduction, I first heard the advice to suppress my
+        occasional urges to test private methods from Daniel Steinberg. But Daniel is
+        not only source of this advice that I have encountered. It seems to be a
+        common attitude in the Java community. For example, the JUnit FAQ [<a
+            href="http://www.artima.com/suiterunner/private3.html#r4">4</a>]
+        states:
+
+    </p>
+    <blockquote>
+        Testing private methods may be an indication that those methods should be
+        moved into another class to promote reusability.
+    </blockquote>
+
+    <p>
+        Charles Miller expressed a similar point of view in his weblog [<a
+            href="http://www.artima.com/suiterunner/private3.html#r5">5</a>]:
+
+    </p>
+    <blockquote>
+        If you have a thorough suite of tests for a class's exposed (non-private)
+        interface, those tests should, by their nature, verify that any private method
+        within the class also works. If this isn't the case, or if you have a private
+        method so complex that it needs to be tested out of the context of its public
+        callers, I would consider that a code-smell.
+    </blockquote>
+
+    <p>And Dave Thomas and Andy Hunt, in their book <em>Pragmatic Unit
+        Testing</em> [<a href="http://www.artima.com/suiterunner/private3.html#r6">6</a>], write:
+
+    </p>
+    <blockquote>
+        In general, you don't want to break any encapsulation for the sake of testing
+        (or as Mom used to say, "don't expose your privates!"). Most of the time, you
+        should be able to test a class by exercising its public methods. If there is
+        significant functionality that is hidden behind private or protected access, that
+        might be a warning sign that there's another class in there struggling to get
+        out.
+    </blockquote>
+
+    <p>
+        I believe all this advice. Most of the time, private methods can be most
+        effectively tested via approach 1, indirectly by testing the package-level,
+        protected, and public methods that call them. But inevitably, some people in
+        some situations will feel that directly testing a private method is the right
+        thing to do.
+
+    </p>
+    <p>
+        In my case, I tend to create many private utility methods. These utility
+        methods often do nothing with instance data, they just operate on the passed
+        parameters and return a result. I create such methods to make the calling
+        method easier to understand. It is a way to manage the complexity of the
+        implementation of the class. Now, if I extract the private method out of a
+        method that already works and has good unit test coverage, then those
+        existing unit tests will likely suffice. I needn't write more unit tests just for
+        the private method. But if I want to write the private method before its
+        calling method, and I want to write the unit tests before writing the private
+        method, I'm back to wanting to directly test the private method. In the case
+        of private utility methods, I don't feel my urge to directly test the methods is,
+        as the JUnit FAQ put it, "an indication that those methods should be moved
+        into another class to promote reusability." These methods are really only
+        needed in the class in which they reside, and in fact are often only called by
+        one other method.
+
+    </p>
+    <p>
+        Another reason I sometimes feel the urge to test private methods
+        directly is that I tend to think of unit testing as helping me achieve a robust
+        system by building that system out of robust parts. Each part is a "unit" for
+        which I can write "unit tests." The unit tests help me ensure each unit is
+        functioning correctly, which in turn helps me build a system that functions
+        correctly as a whole. The primary unit I think in terms of when programming
+        in Java is the class. I build systems out of classes, and unit tests give me
+        confidence that my classes are robust. But to some extent I also feel the
+        same way about the private methods out of which I compose package-access,
+        protected, and public methods. These private methods are units that can be
+        tested individually. Such unit tests give me confidence that the private
+        methods are working correctly, which helps me build package-access,
+        protected, and public methods that are robust.
+
+    </p>
+    <h1>Approach 2: Give the Methods Package Access</h1>
+
+    <p>
+        As I mentioned in the introduction, giving methods package access was my first
+        approach to testing private methods with JUnit. This approach actually works
+        just fine, but it does come with a slight cost. When I see a private access
+        specifier on a method, it tells me something I like to know—that this
+        is part of the implementation of the class. I know I can ignore the method if
+        I am just trying to use the class from another class in the package. I could
+        figure this out about a package-access method by looking more closely at
+        the name, documentation, and code
+        of the method, but the word private communicates this far more efficiently.
+        Moreover, the main problem I have with this approach is philosophical.
+        Although I don't mind "breaking encapsulation for the sake of testing," as
+        Dave and Andy would put it, I just don't feel good about breaking
+        encapsulation in a way that changes the package-level API. In other words, although I
+        am quite enthusiastic to test non-public methods of classes, i.e., to create
+        "white-box" unit tests, I'd rather the API of the classes under test, including
+        the package-level API, not be changed to facilitate those tests.
+
+    </p>
+    <h1>Approach 3: Use a Nested Test Class</h1>
+
+    <p>
+        A third approach to testing private methods is to nest a static test class
+        inside the production class being tested. Given that a nested class has access
+        to the private members of its enclosing class, it would be able to invoke the
+        private methods directly. The static class itself could be package access,
+        allowing it to be loaded as part of the white box test.
+
+    </p>
+    <p>
+        The downside to this approach is that if you don't want the nested test class
+        being accessible in your deployment JAR file, you have to do a bit of extra
+        work to extract it. Also, some people may not like having test code mixed in
+        the same file as production code, though others may prefer that approach.
+
+    </p>
+    <h1>Approach 4: Use Reflection</h1>
+
+    <p>
+        The fourth approach to testing private methods was suggested to me by
+        Vladimir R. Bossicard, who wrote JUnit Addons [<a
+            href="http://www.artima.com/suiterunner/private3.html#r7">7</a>]. One day over lunch, Vladimir enlightened
+        me that
+        the <code>java.lang.reflect</code> API included methods that allowed client
+        code to circumvent access protection mechanism of the Java virtual machine.
+        He also told me that his JUnit Addons project included a class,
+        <code>junitx.util.PrivateAccessor</code> [<a href="http://www.artima.com/suiterunner/private3.html#r8">8</a>],
+        to assist in using the reflection
+        API for just this purpose: to write unit tests that manipulate private members
+        of the classes under test. The JUnit FAQ points to a similar class, called
+        <code>PrivilegedAccessor</code> [<a href="http://www.artima.com/suiterunner/private3.html#r9">9</a>], written by
+        Charlie Hubbard and Prashant
+        Dhotke.
+
+    </p>
+    <p>
+        One advantage of using the reflection approach to testing private methods
+        is that it provides a clean
+        separation of test code and production code. The tests need not be nested
+        inside the class under test, as in approach 3. Rather, they can be placed
+        alongside the other tests that exercise the package-level and public methods
+        of the class. In addition, you need not alter the API of the class under test.
+        Unlike approach 2, private methods can remain private. Unlike approach 3, you
+        need not add any extra nested class at package access level. The main
+        disadvantage of this approach is that the test code is far more verbose
+        because it uses the reflection API. In addition, refactoring IDEs such
+        as Eclipse and IntelliJ usually aren't as adept at changing the names of
+        methods where they are referred to as <code>String</code>s passed to the methods of the
+        reflection API. So if you change the name of the private method with your
+        refactoring IDE, you may still have to make some changes by hand in the
+        test code.
+
+
+    </p>
+    <h1>An Example</h1>
+
+    To give one example of a private method that, in my opinion, merits direct unit
+    testing, I extracted some functionality out of the <code>main</code> method
+    of class <code>org.suiterunner.Runner</code>. <code>Runner.main</code> parses
+    command line arguments and runs a suite of tests, optionally firing up the GUI.
+    The method I extracted, <code>parseArgsIntoLists</code>, does part of the
+    work of parsing of the command line arguments to the SuiteRunner application. Now, to test the public
+    method that calls this private method, I would need to test
+    <code>main</code>. Main, of course, is the entire application, which makes the
+    method rather difficult to test. In fact, I have no existing test for
+    <code>main</code>.
+
+    <p>
+        At this point, you may be wondering, if I were writing tests first in the style
+        of test-driven development [<a href="http://www.artima.com/suiterunner/private3.html#r10">10</a>], how did I
+        ever end up writing parsing code
+        that had no unit tests? The main reason is that my test infection has come in
+        stages. I did actually catch a unit test flu long before I had heard of JUnit
+        or read <em>Test Infected</em> [<a href="http://www.artima.com/suiterunner/private3.html#r11">11</a>]. Back when
+        I was building Windows
+        applications in C++, for example, I would write a bit of code to test a newly
+        implemented method, then execute that code and watch it execute by
+        stepping through the method under test with the debugger. This kind of unit
+        testing did help me achieve robustness, but the tests themselves didn't check
+        for the proper behavior. I checked for the proper behavior myself by observing via the debugger. The tests
+        weren't automated, and therefore I didn't save them so they could be run
+        again later. When I read <em>Test Infected</em>, I immediately saw the
+        value of automating the tests and keeping them around as a kind of regression
+        test after refactoring, but for a long time it didn't make sense to me to write
+        the tests first. I wanted to write the tests after I implemented the
+        functionality, because that was when I had run the tests with the debugger.
+        A secondary reason I didn't write tests first while developing much of
+        SuiteRunner is that I wanted to write SuiteRunner's tests with SuiteRunner
+        itself, in an effort to eat my own dog food. Until SuiteRunner's basic API
+        settled, I didn't have the testing toolkit I wanted to use to write the tests.
+
+    </p>
+    <p>
+        Since that time, however, the testing virus has taken a stronger hold on me, and I do now
+        prefer to write unit tests first most of the time. I prefer to write tests first not so much
+        because I find I end up with cleaner designs, which is usually promoted as the
+        main benefit of test-driven development. Rather, I prefer to write tests first because
+        I find that often if I dive into the code under pressure, with the intent that
+        I'll write the test later, the test doesn't actually ever get written.
+        SuiteRunner itself has very few unit tests at this point for that very reason.
+        Here's the <code>parseArgsIntoLists</code> method:
+
+    </p>
+    <pre>    <font color="#000099">private</font> <font color="#000099">static</font> <font color="#000099">void</font> parseArgsIntoLists(String[] args, List runpathList,
+            List reportersList, List suitesList) {
+
+        <font color="#000099">if</font> (args == <font color="#009900">null</font> || runpathList == <font
+                color="#009900">null</font>
+                || reportersList == <font color="#009900">null</font> || suitesList == <font color="#009900">null</font>) {
+
+            <font color="#000099">throw</font> <font color="#000099">new</font> NullPointerException();
+        }
+
+        <font color="#000099">for</font> (<font color="#000099">int</font> i = <font color="#009900">0</font>; i &lt; args.length; i++) {
+
+            <font color="#000099">if</font> (args[i].startsWith(<font color="#009900">"-p"</font>)) {
+
+                runpathList.add(args[i]);
+                runpathList.add(args[i + <font color="#009900">1</font>]);
+                ++i;
+            }
+            <font color="#000099">else</font> <font color="#000099">if</font> (args[i].startsWith(<font color="#009900">"-g"</font>)) {
+
+                reportersList.add(args[i]);
+            }
+            <font color="#000099">else</font> <font color="#000099">if</font> (args[i].startsWith(<font color="#009900">"-o"</font>)) {
+
+                reportersList.add(args[i]);
+            }
+            <font color="#000099">else</font> <font color="#000099">if</font> (args[i].startsWith(<font color="#009900">"-e"</font>)) {
+
+                reportersList.add(args[i]);
+            }
+            <font color="#000099">else</font> <font color="#000099">if</font> (args[i].startsWith(<font color="#009900">"-f"</font>)) {
+
+                reportersList.add(args[i]);
+                reportersList.add(args[i + <font color="#009900">1</font>]);
+                ++i;
+            }
+            <font color="#000099">else</font> <font color="#000099">if</font> (args[i].startsWith(<font color="#009900">"-r"</font>)) {
+
+                reportersList.add(args[i]);
+                reportersList.add(args[i + <font color="#009900">1</font>]);
+                ++i;
+            }
+            <font color="#000099">else</font> <font color="#000099">if</font> (args[i].startsWith(<font color="#009900">"-s"</font>)) {
+
+                suitesList.add(args[i]);
+                <font color="#000099">do</font>  {
+                    ++i;
+                    suitesList.add(args[i]);
+                } <font color="#000099">while</font> (i + <font color="#009900">1</font> &lt; args.length);
+            }
+            <font color="#000099">else</font> {
+                <font color="#000099">throw</font> <font color="#000099">new</font> IllegalArgumentException(<font
+                color="#009900">"Unrecognized argument: "</font>
+                        + args[i]);
+            }
+        }
+    }
+</pre>
+
+    <p>
+        The command line for SuiteRunner contains three types of information used by
+        SuiteRunner to run tests: runpath, reporters, and suites. The <code>parseArgsIntoLists</code>
+        method merely goes through the arguments passed as an array of <code>String</code>s,
+        and places each argument into one of the lists, <code>runpathList</code>,
+        <code>reportersList</code>, and <code>suitesList</code>.
+
+    </p>
+    <p>
+        Before I write a test for this private method, I would ask whether my urge
+        to write this unit test represents a code smell, as Charles Miller put it in his weblog? Does it
+        indicate that <code>parseArgsIntoLists</code> should be moved into another
+        class to promote reusability, as the JUnit FAQ suggests? Would Dave and Andy
+        say its a warning sign that there's another class in there struggling to get
+        out? Well, maybe. I could concievably create an <code>ArgumentsParser</code> class that only holds a
+        few static methods that perform the parsing work. Both the
+        <code>ArgumentsParser</code> class and the methods it contains could be
+        package access, which would make them easy to test. But that just doesn't
+        feel right to me. These methods are only called by <code>Runner.main</code>.
+        They clearly feel like private methods to me. The only reason I would be
+        moving them to an <code>ArgumentsParser</code> class is to be able to test
+        them. I would in fact be using approach number 2: make the private methods
+        package access.
+
+    </p>
+    <p>
+        Instead, for this example I decided to take approach number 4, and use reflection. I looked at
+        both Vladimir Bossicard's <code>junitx.utils.PrivateAccessor</code> and
+        Charlie Hubbard and Prashant Dhotke's <code>PrivilegedAccessor</code>, but
+        decided that neither of them helped me quite the way I wanted.
+        For one thing, these classes both have the ability to test fields to make sure
+        they are set correctly. As yet I have never felt any urge to directly access
+        private fields from unit tests. I just want to be able to test private utility
+        methods. The main problem I had with these two classes, however, is how they
+        dealt with the exceptions that may be thrown when trying to invoke the private
+        method via reflection. Each class has one or more methods whose job it is
+        invoke a method with reflection. <code>PrivilegedAccessor</code>'s two <code>invokeMethod</code>
+        methods passes any exception back to its caller, including three checked exceptions declared in
+        the throws clause: <code>NoSuchMethodException</code>, <code>IllegalAccessException</code>,
+        and <code>InvocationTargetException</code>. By contrast, <code>PrivateAccessor</code>'s two
+        <code>invoke</code> methods catch <code>InvocationTargetException</code>, and extract and throw the
+        target exception, the actual exception thrown by the invoked method. It then catches any other exception, and
+        throws <code>NoSuchMethodException</code>. I didn't like that the caller of <code>PrivilegedAccessor.invokeMethod</code>
+        would always need to handle the three checked exceptions, because I figured the general way to handle any
+        exception would be to let the test fail. I was also concerned that the <code>PrivateAccessor.invoke</code>
+        was throwing away potentially useful stack trace information in its exception handling policy. What I really
+        wanted was a method that attempted
+        to invoke a private method with reflection, which wrapped any thrown exception besides <code>InvocationTargetException</code>
+        in
+        an unchecked <code>TestFailedException</code>. Most of the time this exception would cause the test to fail. In
+        tests that
+        were expecting an exception to be thrown, the exception contained in <code>InvocationTargetException</code>
+        could be extracted and tested for correctness.
+
+    </p>
+    <p>
+        Therefore, I wrote <code>invokeStaticMethod</code>. The <code>setAccessible(true)</code> call is what enables
+        the private method to be invoked from outside the
+        class. An corresponding <code>invokeStaticMethod</code> implementation for use with JUnit would throw <code>AssertionFailedError</code>
+        rather than
+        <code>TestFailedException</code>. Here's the code:
+
+    </p>
+    <pre>    <font color="#000099">private</font> <font color="#000099">static</font> <font color="#000099">void</font> invokeStaticMethod(Class targetClass,
+            String methodName, Class[] argClasses, Object[] argObjects)
+            <font color="#000099">throws</font> InvocationTargetException {
+
+        <font color="#000099">try</font> {
+            Method method = targetClass.getDeclaredMethod(methodName,
+                    argClasses);
+            method.setAccessible(<font color="#009900">true</font>);
+            method.invoke(<font color="#009900">null</font>, argObjects);
+        }
+        <font color="#000099">catch</font> (NoSuchMethodException e) {
+            <em><font color="#333333">// Should happen only rarely, because most times the</font></em>
+            <em><font color="#333333">// specified method should exist. If it does happen, just let</font></em>
+            <em><font color="#333333">// the test fail so the programmer can fix the problem.</font></em>
+            <font color="#000099">throw</font> <font color="#000099">new</font> TestFailedException(e);
+        }
+        <font color="#000099">catch</font> (SecurityException e) {
+            <em><font color="#333333">// Should happen only rarely, because the setAccessible(true)</font></em>
+            <em><font color="#333333">// should be allowed in when running unit tests. If it does</font></em>
+            <em><font color="#333333">// happen, just let the test fail so the programmer can fix</font></em>
+            <em><font color="#333333">// the problem.</font></em>
+            <font color="#000099">throw</font> <font color="#000099">new</font> TestFailedException(e);
+        }
+        <font color="#000099">catch</font> (IllegalAccessException e) {
+            <em><font color="#333333">// Should never happen, because setting accessible flag to</font></em>
+            <em><font color="#333333">// true. If setting accessible fails, should throw a security</font></em>
+            <em><font color="#333333">// exception at that point and never get to the invoke. But</font></em>
+            <em><font color="#333333">// just in case, wrap it in a TestFailedException and let a</font></em>
+            <em><font color="#333333">// human figure it out.</font></em>
+            <font color="#000099">throw</font> <font color="#000099">new</font> TestFailedException(e);
+        }
+        <font color="#000099">catch</font> (IllegalArgumentException e) {
+            <em><font color="#333333">// Should happen only rarely, because usually the right</font></em>
+            <em><font color="#333333">// number and types of arguments will be passed. If it does</font></em>
+            <em><font color="#333333">// happen, just let the test fail so the programmer can fix</font></em>
+            <em><font color="#333333">// the problem.</font></em>
+            <font color="#000099">throw</font> <font color="#000099">new</font> TestFailedException(e);
+        }
+    }
+</pre>
+
+    <p>
+        Next, I created a convenience method that invokes the particular private method I wanted to test:
+
+    </p>
+    <pre>    <font color="#000099">private</font> <font color="#000099">static</font> <font color="#000099">void</font> invokeParseArgsIntoLists(String[] args,
+            List runpathList, List reportersList, List suitesList)
+            <font color="#000099">throws</font> InvocationTargetException {
+
+        <em><font color="#333333">// Purposely pass null values to the method, to make sure it throws</font></em>
+        <em><font color="#333333">// NullPointerException</font></em>
+
+        Class[] argClasses = {String[].<font color="#000099">class</font>, List.<font color="#000099">class</font>, List.<font
+                color="#000099">class</font>, List.<font color="#000099">class</font> };
+        Object[] argObjects = {args, runpathList, reportersList, suitesList };
+
+        invokeStaticMethod(Runner.<font color="#000099">class</font>, <font color="#009900">"parseArgsIntoLists"</font>, argClasses, argObjects);
+    }
+
+</pre>
+
+    <p>
+        At last, I could write tests against the private method without too much excess clutter, like this:
+
+    </p>
+    <pre>    <font color="#000099">public</font> <font color="#000099">void</font> testParseArgsIntoLists() <font
+            color="#000099">throws</font> InvocationTargetException {
+
+        String[] args = <font color="#000099">new</font> String[<font color="#009900">0</font>];
+        List runpathList = <font color="#000099">new</font> ArrayList();
+        List reportersList = <font color="#000099">new</font> ArrayList();
+        List suitesList = <font color="#000099">new</font> ArrayList();
+
+        <font color="#000099">try</font> {
+            invokeParseArgsIntoLists(<font color="#009900">null</font>, runpathList, reportersList, suitesList);
+            fail();
+        }
+        <font color="#000099">catch</font> (InvocationTargetException e) {
+
+            <em><font color="#333333">// throw the InvocationTargetException unless the target</font></em>
+            <em><font color="#333333">// exception is NullPointerException, which is expected</font></em>
+            Throwable targetException = e.getTargetException();
+            <font color="#000099">if</font> (!(targetException <font color="#000099">instanceof</font> NullPointerException)) {
+                <font color="#000099">throw</font> e;
+            }
+        }
+
+        <font color="#000099">try</font> {
+            invokeParseArgsIntoLists(args, <font color="#009900">null</font>, reportersList, suitesList);
+            fail();
+        }
+        <font color="#000099">catch</font> (InvocationTargetException e) {
+
+            <em><font color="#333333">// throw the InvocationTargetException unless the target</font></em>
+            <em><font color="#333333">// exception is NullPointerException, which is expected</font></em>
+            Throwable targetException = e.getTargetException();
+            <font color="#000099">if</font> (!(targetException <font color="#000099">instanceof</font> NullPointerException)) {
+                <font color="#000099">throw</font> e;
+            }
+        }
+
+        <font color="#000099">try</font> {
+            invokeParseArgsIntoLists(args, runpathList, <font color="#009900">null</font>, suitesList);
+            fail();
+        }
+        <font color="#000099">catch</font> (InvocationTargetException e) {
+
+            <em><font color="#333333">// throw the InvocationTargetException unless the target</font></em>
+            <em><font color="#333333">// exception is NullPointerException, which is expected</font></em>
+            Throwable targetException = e.getTargetException();
+            <font color="#000099">if</font> (!(targetException <font color="#000099">instanceof</font> NullPointerException)) {
+                <font color="#000099">throw</font> e;
+            }
+        }
+
+        <font color="#000099">try</font> {
+            invokeParseArgsIntoLists(args, runpathList, reportersList, <font color="#009900">null</font>);
+            fail();
+        }
+        <font color="#000099">catch</font> (InvocationTargetException e) {
+
+            <em><font color="#333333">// throw the InvocationTargetException unless the target</font></em>
+            <em><font color="#333333">// exception is NullPointerException, which is expected</font></em>
+            Throwable targetException = e.getTargetException();
+            <font color="#000099">if</font> (!(targetException <font color="#000099">instanceof</font> NullPointerException)) {
+                <font color="#000099">throw</font> e;
+            }
+        }
+
+        args = <font color="#000099">new</font> String[<font color="#009900">7</font>];
+        args[<font color="#009900">0</font>] = <font color="#009900">"-p"</font>;
+        args[<font color="#009900">1</font>] = <font color="#009900">"\"mydir\""</font>;
+        args[<font color="#009900">2</font>] = <font color="#009900">"-g"</font>;
+        args[<font color="#009900">3</font>] = <font color="#009900">"-f"</font>;
+        args[<font color="#009900">4</font>] = <font color="#009900">"test.out"</font>;
+        args[<font color="#009900">5</font>] = <font color="#009900">"-s"</font>;
+        args[<font color="#009900">6</font>] = <font color="#009900">"MySuite"</font>;
+        runpathList.clear();
+        reportersList.clear();
+        suitesList.clear();
+
+        invokeParseArgsIntoLists(args, runpathList, reportersList,
+                suitesList);
+
+        verify(runpathList.size() == <font color="#009900">2</font>);
+        verify(runpathList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">0</font>]));
+        verify(runpathList.get(<font color="#009900">1</font>).equals(args[<font color="#009900">1</font>]));
+
+        verify(reportersList.size() == <font color="#009900">3</font>);
+        verify(reportersList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">2</font>]));
+        verify(reportersList.get(<font color="#009900">1</font>).equals(args[<font color="#009900">3</font>]));
+        verify(reportersList.get(<font color="#009900">2</font>).equals(args[<font color="#009900">4</font>]));
+
+        verify(suitesList.size() == <font color="#009900">2</font>);
+        verify(suitesList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">5</font>]));
+        verify(suitesList.get(<font color="#009900">1</font>).equals(args[<font color="#009900">6</font>]));
+
+        args = <font color="#000099">new</font> String[<font color="#009900">9</font>];
+        args[<font color="#009900">0</font>] = <font color="#009900">"-p"</font>;
+        args[<font color="#009900">1</font>] = <font color="#009900">"\"mydir\""</font>;
+        args[<font color="#009900">2</font>] = <font color="#009900">"-e"</font>;
+        args[<font color="#009900">3</font>] = <font color="#009900">"-o"</font>;
+        args[<font color="#009900">4</font>] = <font color="#009900">"-r"</font>;
+        args[<font color="#009900">5</font>] = <font color="#009900">"MyCustomReporter"</font>;
+        args[<font color="#009900">6</font>] = <font color="#009900">"-s"</font>;
+        args[<font color="#009900">7</font>] = <font color="#009900">"MySuite"</font>;
+        args[<font color="#009900">8</font>] = <font color="#009900">"MyOtherSuite"</font>;
+        runpathList.clear();
+        reportersList.clear();
+        suitesList.clear();
+
+        invokeParseArgsIntoLists(args, runpathList, reportersList,
+                suitesList);
+
+        verify(runpathList.size() == <font color="#009900">2</font>);
+        verify(runpathList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">0</font>]));
+        verify(runpathList.get(<font color="#009900">1</font>).equals(args[<font color="#009900">1</font>]));
+
+        verify(reportersList.size() == <font color="#009900">4</font>);
+        verify(reportersList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">2</font>]));
+        verify(reportersList.get(<font color="#009900">1</font>).equals(args[<font color="#009900">3</font>]));
+        verify(reportersList.get(<font color="#009900">2</font>).equals(args[<font color="#009900">4</font>]));
+        verify(reportersList.get(<font color="#009900">3</font>).equals(args[<font color="#009900">5</font>]));
+
+        verify(suitesList.size() == <font color="#009900">3</font>);
+        verify(suitesList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">6</font>]));
+        verify(suitesList.get(<font color="#009900">1</font>).equals(args[<font color="#009900">7</font>]));
+        verify(suitesList.get(<font color="#009900">2</font>).equals(args[<font color="#009900">8</font>]));
+
+        args = <font color="#000099">new</font> String[<font color="#009900">10</font>];
+        args[<font color="#009900">0</font>] = <font color="#009900">"-p"</font>;
+        args[<font color="#009900">1</font>] = <font color="#009900">"\"serviceuitest-1.1beta4.jar myjini http:<em>//myhost:9998/myfile.jar\""</em></font><em>;</em>
+        args[<font color="#009900">2</font>] = <font color="#009900">"-g"</font>;
+        args[<font color="#009900">3</font>] = <font color="#009900">"-s"</font>;
+        args[<font color="#009900">4</font>] = <font color="#009900">"MySuite"</font>;
+        args[<font color="#009900">5</font>] = <font color="#009900">"MySecondSuite"</font>;
+        args[<font color="#009900">6</font>] = <font color="#009900">"MyThirdSuite"</font>;
+        args[<font color="#009900">7</font>] = <font color="#009900">"MyFourthSuite"</font>;
+        args[<font color="#009900">8</font>] = <font color="#009900">"MyFifthSuite"</font>;
+        args[<font color="#009900">9</font>] = <font color="#009900">"MySixthSuite"</font>;
+        runpathList.clear();
+        reportersList.clear();
+        suitesList.clear();
+
+        invokeParseArgsIntoLists(args, runpathList, reportersList,
+                suitesList);
+
+        verify(runpathList.size() == <font color="#009900">2</font>);
+        verify(runpathList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">0</font>]));
+        verify(runpathList.get(<font color="#009900">1</font>).equals(args[<font color="#009900">1</font>]));
+
+        verify(reportersList.size() == <font color="#009900">1</font>);
+        verify(reportersList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">2</font>]));
+
+        verify(suitesList.size() == <font color="#009900">7</font>);
+        verify(suitesList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">3</font>]));
+        verify(suitesList.get(<font color="#009900">1</font>).equals(args[<font color="#009900">4</font>]));
+        verify(suitesList.get(<font color="#009900">2</font>).equals(args[<font color="#009900">5</font>]));
+        verify(suitesList.get(<font color="#009900">3</font>).equals(args[<font color="#009900">6</font>]));
+        verify(suitesList.get(<font color="#009900">4</font>).equals(args[<font color="#009900">7</font>]));
+        verify(suitesList.get(<font color="#009900">5</font>).equals(args[<font color="#009900">8</font>]));
+        verify(suitesList.get(<font color="#009900">6</font>).equals(args[<font color="#009900">9</font>]));
+    }
+</pre>
+
+    <h1>Conclusion</h1>
+
+    <p>
+        Approach 1, testing private methods indirectly by testing the package-level, protected, and public methods
+        that call them, will often be the best approach. In cases where you really do want to test private
+        methods directly, using reflection to test private methods, although rather cumbersome, does provide the
+        cleanest
+        separation of test code from production code, and the least impact on production code. However, if you don't
+        mind making those particular private methods you want to test package access, you could use approach 2. Or
+        if you don't mind placing a nested test class inside your production class under test, approach 3 would
+        at least let you keep the private methods private.
+
+    </p>
+    <p>
+        There isn't a perfect answer. But if you adopt approach 4, you will ultimately end up with a handful of methods
+        like <code>invokeStaticMethod</code> that you can reuse. Once you write a
+        convenience method, like <code>invokeParseArgsIntoLists</code>, for a private method, you can write tests
+        against the private method without much difficulty.
+
+        <img align="top" src="../../../../Dropbox%20(Personal)/ELearning/TechnicalDocs/Food%20Terms_files/ik.gif"
+             width="15" height="15">
+    </p>
+    <h1>Talk Back!</h1>
+    <p>
+        Do you ever test private methods? If so, what is your preferred apprach?
+        Discuss this article in the Articles Forum topic,
+        <a href="http://www.artima.com/forums/flat.jsp?forum=226&amp;thread=51132">Testing Private Methods with JUnit
+            and SuiteRunner</a>.
+
+    </p>
+    <h1>About the Author</h1>
+    <p>
+        <a href="http://www.artima.com/consulting.html">Bill Venners</a> is President of
+        Artima Software, Inc. and Editor-In-Chief of Artima.com. He is the author of <a
+            href="http://www.artima.com/insidejvm/blurb.html"><em>Inside the Java Virtual Machine</em></a>
+        (Computing McGraw-Hill), a programmer-oriented survey of the Java platform's
+        architecture and internals. His popular columns in <em>JavaWorld</em> magazine
+        covered <a href="http://www.artima.com/underthehood/index.html">Java internals</a>, <a
+            href="http://www.artima.com/designtechniques">object-oriented design</a>, and <a
+            href="http://www.artima.com/jini/jiniology/index.html">Jini</a>. Bill has been active in the <a
+            href="http://www.jini.org/">Jini Community</a> since its inception. He led the Jini
+        Community's <a href="http://www.artima.com/jini/serviceui/index.html">ServiceUI</a> project, whose
+        ServiceUI API became the de facto standard for associating user interfaces to Jini
+        services. Bill also serves as an elected member of the Jini Community's initial
+        Technical Oversight Committee (TOC), and in this role helped to define the
+        governance process for the community.<br>
+
+        <a name="resources">
+        </a></p>
+    <h1><a name="resources">Resources</a></h1><a name="resources">
+</a>
+
+    <p><a name="r1">1.</a> The ServiceUI API defines a standard way to attach user interfaces to Jini services:<br>
+        <a href="http://www.artima.com/jini/serviceui/index.html">http://www.artima.com/jini/serviceui/index.html</a>
+
+    </p>
+    <p><a name="r2">2.</a> Daniel Steinberg is currently the Editor-In-Chief of Java.NET:<br>
+        <a href="http://www.java.net/">http://www.java.net/</a>
+
+    </p>
+    <p><a name="r3">3.</a> Artima SuiteRunner is a free open source testing toolkit and JUnit runner:<br>
+        <a href="http://www.artima.com/suiterunner/index.html">http://www.artima.com/suiterunner/index.html</a>
+
+    </p>
+    <p><a name="r4">4.</a>JUnit FAQ question about testing private methods: <br>
+        <a href="http://junit.sourceforge.net/doc/faq/faq.htm#tests_10">http://junit.sourceforge.net/doc/faq/faq.htm#tests_10</a>
+
+    </p>
+    <p><a name="r5">5.</a> <em>Testing Private Methods (Don't Do It)</em>, a weblog post by Charles Miller: <br>
+        <a href="http://fishbowl.pastiche.org/2003/03/28/testing_private_methods_dont_do_it">http://fishbowl.pastiche.org/2003/03/28/testing_private_methods_dont_do_it</a>
+
+    </p>
+    <p><a name="r6">6.</a> Andy Hunt and Dave Thomas are the authors of <em>Pragmatic Unit Testing</em>, which is
+        available at <a
+                href="http://pragmaticprogrammer.com/shopsite_sc/shopping_cart/ref.cgi?storeid=*18696125832f623bf37fa06b11fe&amp;name=ARTIMA0012">The
+            Pragmatic Store</a>.
+
+    </p>
+    <p><a name="r7">7.</a> JUnit Addons is a collection of helper classes for JUnit created by Vladimar R.
+        Bossicard:<br>
+        <a href="http://sourceforge.net/projects/junit-addons">http://sourceforge.net/projects/junit-addons</a>
+
+    </p>
+    <p><a name="r8">8.</a> <code>PrivateAccessor</code> is the class from JUnit Addons that facilates testing private
+        members:<br>
+        <a href="http://junit-addons.sourceforge.net/junitx/util/PrivateAccessor.html">http://junit-addons.sourceforge.net/junitx/util/PrivateAccessor.html</a>
+
+    </p>
+    <p><a name="r9">9.</a>PrivilegedAccessor class, which you can use to access private members: <br>
+        <a href="http://groups.yahoo.com/group/junit/files/src/PrivilegedAccessor.java">http://groups.yahoo.com/group/junit/files/src/PrivilegedAccessor.java</a>
+
+    </p>
+    <p><a name="r10">10.</a> <em>Test Driven Development by Example</em>, by Kent Beck, describes the test-first
+        technique:<br>
+        <a href="http://www.amazon.com/exec/obidos/ASIN/0321146530/billvennersA/">http://www.amazon.com/exec/obidos/ASIN/0321146530/</a>
+
+    </p>
+    <p><a name="r11">11.</a> <em>Test Infected</em>, by Kent Beck and Erich Gamma, introduced JUnit to the world:<br>
+        <a href="http://junit.sourceforge.net/doc/testinfected/testing.htm">http://junit.sourceforge.net/doc/testinfected/testing.htm</a>
+
+    </p>
+    <p><em>Unit Testing Private Methods</em>, a weblog post about nUnit by Ted Graham: <br>
+        <a href="http://weblogs.asp.net/tgraham/archive/2003/12/31/46984.aspx">http://weblogs.asp.net/tgraham/archive/2003/12/31/46984.aspx</a>
+
+    </p>
+    <p><em>Subverting Java's Access Protection for Unit Testing</em>, an O'Reilly OnJava.com article by Ross Burton:
+        <br>
+        <a href="http://www.onjava.com/pub/a/onjava/2003/11/12/reflection.html">http://www.onjava.com/pub/a/onjava/2003/11/12/reflection.html</a>
+
+    </p>
+    <p>Class <code>RunnerSuite</code>, from which the code snippets in this article were taken, appears in its entirety
+        here: <br>
+        <a href="http://www.artima.com/suiterunner/privateExample.html">http://www.artima.com/suiterunner/privateExample.html</a>
+
+    </p>
+    <p>Why We Refactored JUnit<br>
+        <a href="http://www.artima.com/suiterunner/why.html">http://www.artima.com/suiterunner/why.html</a>
+
+    </p>
+    <p>Artima SuiteRunner Tutorial,
+        Building Conformance and Unit Tests with Artima SuiteRunner: <br><a
+                href="http://www.artima.com/suiterunner/tutorial.html">http://www.artima.com/suiterunner/tutorial.html</a>
+
+    </p>
+    <p>Getting Started with Artima SuiteRunner,
+        How to Run the Simple Example Included in the Distribution: <br><a
+                href="http://www.artima.com/suiterunner/start.html">http://www.artima.com/suiterunner/start.html</a>
+
+    </p>
+    <p>Runnning JUnit Tests with Artima SuiteRunner,
+        how to use Artima SuiteRunner as a JUnit runner to run your existing JUnit test suites: <br><a
+                href="http://www.artima.com/suiterunner/junit.html">http://www.artima.com/suiterunner/junit.html</a>
+
+    </p>
+    <p>Artima SuiteRunner home page: <br><a href="http://www.artima.com/suiterunner/index.html">http://www.artima.com/suiterunner/index.html</a>
+
+    </p>
+    <p>Artima SuiteRunner download page (You must log onto Artima.com to download the release):
+        <br><a href="http://www.artima.com/suiterunner/download.jsp">http://www.artima.com/suiterunner/download.jsp</a>
+
+    </p>
+    <p>The SuiteRunner Forum:
+        <br><a href="http://www.artima.com/forums/forum.jsp?forum=61">http://www.artima.com/forums/forum.jsp?forum=61</a>
+
+    </p>
+    <p>
+    </p>
+    <center>
+        <div class="sc">
+            <a href="http://www.artima.com/suiterunner/index.html">Artima SuiteRunner</a>&nbsp;|
+            <a href="http://www.artima.com/suiterunner/why.html">Why</a>&nbsp;|
+            <a href="http://www.artima.com/suiterunner/start.html">Getting Started</a>&nbsp;|
+            <a href="http://www.artima.com/suiterunner/tutorial.html">Tutorial</a>&nbsp;|
+            <a href="http://www.artima.com/forums/forum.jsp?forum=61">Get Help</a>&nbsp;|
+            <a href="http://www.artima.com/forums/flat.jsp?forum=226&amp;thread=51132">Discuss</a>&nbsp;|
+            Print&nbsp;|
+            <a href="mailto:?subject=Testing%20Private%20Methods%20with%20JUnit%20and%20SuiteRunner&amp;body=%20%0ATesting%20Private%20Methods%20with%20JUnit%20and%20SuiteRunner%20%0Aby%20Bill%20Venners%20%0A%0Ahttps://www.artima.com/suiterunner/privateP.html">Email</a>&nbsp;|
+            <a href="http://www.artima.com/suiterunner/private.html">Screen Friendly Version</a>&nbsp;|
+            Previous&nbsp;|
+            Next
+        </div>
+    </center>
+</div>
+<hr width="100%">
+<table width="50%" align="center">
+    <tbody>
+    <tr>
+        <td>
+            <div class="horizontaltextadbox">
+                <div class="adheadline">Sponsored Links</div>
+                <div id="sponsoredlinks">
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<hr width="100%">
+<div class="sp">
+    <div style="text-align: center">
+        <a href="https://www.artima.com/copyright.html">Copyright</a> © 1996-2017 Artima, Inc. All Rights Reserved. - <a
+            href="https://www.artima.com/privacy.html">Privacy Policy</a> - <a
+            href="https://www.artima.com/termsofuse.html">Terms of Use</a> - <a
+            href="https://www.artima.com/advertising.html">Advertise with Us</a>
+    </div>
+</div>
+<br>
+<script language="JavaScript" type="text/javascript">
+    <!--
+    function initBannerVarForZone(zone) {
+        initBannerVarForZoneWithScript(zone, 'adjs_modified');
+    }
+
+    function initBannerVarForZoneWithScript(zone, phpScript) {
+
+        if (!document.phpAds_used) document.phpAds_used = ',';
+        phpAds_random = new String(Math.random());
+        phpAds_random = phpAds_random.substring(2, 11);
+
+        var nextScriptSrc = 'https://www.artima.com/zcr/' + phpScript + '.php?n=' +
+            phpAds_random +
+            '&amp;what=zone:' + zone + '&amp;target=_top&amp;block=1&amp;blockcampaign=1' +
+            '&amp;exclude=' + document.phpAds_used;
+
+        document.write("<script language='JavaScript' type='text/javascript' src='");
+        document.write(nextScriptSrc);
+        document.write("'><\/script>");
+
+    }
+
+    function replaceDiv(divID) {
+        document.getElementById(divID).innerHTML = phpadsbanner;
+    }
+
+    -->
+</script>
+<script language="JavaScript" type="text/javascript">
+    <!--
+    initBannerVarForZone(1);
+    -->
+</script>
+<script language="JavaScript" type="text/javascript"
+        src="https://www.artima.com/zcr/adjs_modified.php?n=932169931&amp;what=zone:1&amp;target=_top&amp;block=1&amp;blockcampaign=1&amp;exclude=,"></script>
+
+<script language="JavaScript" type="text/javascript">
+    <!--
+    replaceDiv('topbanner');
+    -->
+</script>
+<script language="JavaScript" type="text/javascript">
+    <!--
+    initBannerVarForZoneWithScript(4, 'textman');
+    -->
+</script>
+<script language="JavaScript" type="text/javascript"
+        src="https://www.artima.com/zcr/textman.php?n=573724875&amp;what=zone:4&amp;target=_top&amp;block=1&amp;blockcampaign=1&amp;exclude=,"></script>
+
+<script language="JavaScript" type="text/javascript">
+    <!--
+    replaceDiv('sponsoredlinks');
+    -->
+</script>
+
+
+</body>
+</html>
