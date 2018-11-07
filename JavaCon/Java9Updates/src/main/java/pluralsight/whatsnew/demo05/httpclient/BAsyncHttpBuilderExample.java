@@ -27,12 +27,15 @@ public class BAsyncHttpBuilderExample {
 
 		HttpRequest request = HttpRequest.newBuilder(URI.create("https://www.google.com"))
 				.header("User-Agent", "Java")
-				.timeout(Duration.ofMillis(500))
+				.timeout(Duration.ofMillis(1000))
 				.GET()
 				.build();
 
 		CompletableFuture<HttpResponse<String>> response =
 				client.sendAsync(request, HttpResponse.BodyHandlers.ofString());
+
+		//waiting is necessary else the response body doesn't get fully fetched when printing
+		waitUntilTimeout();
 
 		response.thenAccept(r -> {
 			System.out.println("Version: " + r.version());
@@ -40,5 +43,13 @@ public class BAsyncHttpBuilderExample {
 		});
 
 		response.join();
+	}
+
+	private static void waitUntilTimeout() {
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 }
