@@ -34,7 +34,7 @@ public class D_SubscribeOnThreadExample {
 			// ...and wrap it in an Observable
 			Observable<Integer> observable = Observable.fromIterable(emitList);
 
-			// dot chain call on the observable list to...
+			// do chain call on the observable list to...
 			// Just do the simplest thing for the sake of example.
 			observable
 					// make sure that the subscriber driver code executes on a new thread...
@@ -46,8 +46,10 @@ public class D_SubscribeOnThreadExample {
 								System.out.println(i);
 								System.out.println("onNext thread exit: " + ThreadUtils.currentThreadName());
 							},
+
 							// onError function
 							Throwable::printStackTrace,
+
 							// onComplete
 							() -> {
 								System.out.println("onCompleted()");

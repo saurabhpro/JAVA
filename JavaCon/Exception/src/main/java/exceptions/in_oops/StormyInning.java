@@ -59,13 +59,14 @@ public class StormyInning extends Inning implements Storm {
 		try {
 			StormyInning si = new StormyInning();
 			si.atBat();
-		} catch (PopFoul e) {
-			System.out.println("Pop foul");
-		} catch (RainedOut e) {
+		} //catch (PopFoul e) {
+		//	System.out.println("Pop foul");
+		//}
+		catch (RainedOut e) {
 			System.out.println("Rained out");
-		} catch (BaseballException e) {
-			System.out.println("Generic baseball exception");
-		}
+		} //catch (BaseballException e) {
+			//System.out.println("Generic baseball exception");
+		//}
 		// exceptions.in_oops.Strike not thrown in derived version.
 		try {
 			// What happens if you upcast?

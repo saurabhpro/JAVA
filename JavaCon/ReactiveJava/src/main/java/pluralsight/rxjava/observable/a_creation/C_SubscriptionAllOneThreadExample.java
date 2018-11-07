@@ -30,19 +30,19 @@ public class C_SubscriptionAllOneThreadExample {
 		observable
 				.subscribe(
 						// onNext function
-						(i) -> {
+						i -> {
 							// Println the name of the current thread on entry and exit so that we
 							// can see a few interesting pieces of information...
-							System.out.println("onNext thread entr: " + ThreadUtils.currentThreadName());
+							System.out.println("\nonNext thread entr: " + ThreadUtils.currentThreadName());
 							System.out.println(i);
 							System.out.println("onNext thread exit: " + ThreadUtils.currentThreadName());
 						},
+
 						// onError function
 						Throwable::printStackTrace,
+
 						// onCompleted function
-						() -> {
-							System.out.println("onCompleted()");
-						}
+						() -> System.out.println("\nonCompleted()")
 				);
 
 		System.exit(0);

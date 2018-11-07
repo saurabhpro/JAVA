@@ -4,11 +4,10 @@
 
 package pluralsight.whatsnew.demo05.httpclient;
 
-import jdk.incubator.http.HttpClient;
-import jdk.incubator.http.HttpRequest;
-import jdk.incubator.http.HttpResponse;
-
 import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 
 
 public class ASimpleHttpClientExample {
@@ -22,7 +21,7 @@ public class ASimpleHttpClientExample {
 						.build();
 
 		HttpResponse<String> response =
-				client.send(request, HttpResponse.BodyHandler.asString());
+				client.send(request, HttpResponse.BodyHandlers.ofString());
 
 		if (response.statusCode() == 200)
 			System.out.println(response.headers().map());

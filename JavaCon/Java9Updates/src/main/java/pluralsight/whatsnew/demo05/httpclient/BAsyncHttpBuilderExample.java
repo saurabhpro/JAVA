@@ -6,11 +6,11 @@ package pluralsight.whatsnew.demo05.httpclient;
 
 //add --add-modules jdk.incubator.httpclient to java compiler preference
 
-import jdk.incubator.http.HttpClient;
-import jdk.incubator.http.HttpRequest;
-import jdk.incubator.http.HttpResponse;
 
 import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 import java.time.Duration;
 import java.util.concurrent.CompletableFuture;
 
@@ -32,7 +32,7 @@ public class BAsyncHttpBuilderExample {
 				.build();
 
 		CompletableFuture<HttpResponse<String>> response =
-				client.sendAsync(request, HttpResponse.BodyHandler.asString());
+				client.sendAsync(request, HttpResponse.BodyHandlers.ofString());
 
 		response.thenAccept(r -> {
 			System.out.println("Version: " + r.version());

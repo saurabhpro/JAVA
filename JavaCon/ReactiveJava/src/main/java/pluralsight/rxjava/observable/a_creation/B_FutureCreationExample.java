@@ -27,8 +27,10 @@ public class B_FutureCreationExample {
 		observableFutureList = Observable.fromFuture(future);
 
 		// Schedule this future to run on the computation scheduler
-		// computation schdueler is guarenteed to have 1 thread per core
-		Schedulers.computation().scheduleDirect(future);   // Call the FutureTask's run method (argument can be future::run)
+		// computation scheduler is guaranteed to have 1 thread per core
+		Schedulers
+				.computation()
+				.scheduleDirect(future);   // Call the FutureTask's run method (argument can be future::run)
 
 		// Subscribe to the list...when the list is ready through the
 		// future, iterate and print each element.
