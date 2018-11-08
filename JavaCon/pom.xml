@@ -67,6 +67,7 @@
         <module>RegExMatching</module>
         <module>Streams</module>
         <module>ReactiveJava</module>
+        <module>Java11Updates</module>
 
     </modules>
 </project>
