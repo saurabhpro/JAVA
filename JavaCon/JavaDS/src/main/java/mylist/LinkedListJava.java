@@ -2,10 +2,7 @@
  * Copyright (c) 2018 Saurabh Kumar
  */
 
-import mylist.Delete;
-import mylist.Display;
-import mylist.Insert;
-import mylist.Node;
+package mylist;
 
 /**
  * Created by Saurabh on 8/26/2015.

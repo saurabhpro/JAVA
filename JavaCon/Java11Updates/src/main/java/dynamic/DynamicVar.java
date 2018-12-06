@@ -5,6 +5,7 @@
 package dynamic;
 
 import java.util.ArrayList;
+import java.util.function.Function;
 
 public class DynamicVar {
 
@@ -16,5 +17,7 @@ public class DynamicVar {
 		var stream = test.stream();
 
 		stream.forEach(System.out::println);
+
+		Function<String, String> stringFunction = (var x) -> x + "yes";
 	}
 }

@@ -12,7 +12,7 @@ public class Trie {
 	static final int ALPHABET_SIZE = 26;
 	static TrieNode root;
 
-    // If not present, inserts key into trie
+	// If not present, inserts key into trie
 	// If the key is prefix of trie node,
 	// just marks leaf node
 	static void insert(String key) {
