@@ -1,5 +1,7 @@
 package Basics;
 
+import org.junit.jupiter.api.RepeatedTest;
+
 class StringInterningTest {
 
     @RepeatedTest(10)
