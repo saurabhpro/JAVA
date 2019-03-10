@@ -1,8 +1,8 @@
 /*
- * Copyright (c) 2018 Saurabh Kumar
+ * Copyright (c) 2019 Saurabh Kumar
  */
 
-package saurabh.Threads;
+package basics;
 
 /**
  * Created by Saurabh on 9/16/2015.

@@ -1,11 +1,11 @@
 /*
- * Copyright (c) 2018 Saurabh Kumar
+ * Copyright (c) 2019 Saurabh Kumar
  */
 
 /*
  * Created by Saurabh on 10/21/2015.
  */
-package saurabh.Threads.creation.basic;
+package basics.creation.basic;
 
 public class ThreadExtended extends Thread {
 	private static int threadCount = 0;

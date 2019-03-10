@@ -1,8 +1,8 @@
 /*
- * Copyright (c) 2018 Saurabh Kumar
+ * Copyright (c) 2019 Saurabh Kumar
  */
 
-package saurabh.Threads.noexecution;
+package basics.noexecution;
 // Java program to illustrate join() method in Java
 
 public class JoinDemo implements Runnable {

@@ -1,8 +1,8 @@
 /*
- * Copyright (c) 2018 Saurabh Kumar
+ * Copyright (c) 2019 Saurabh Kumar
  */
 
-package saurabh.Threads.noexecution;
+package basics.noexecution;
 
 // Java program to demonstrate inter-thread communication
 // (wait(), join() and notify()) in Java

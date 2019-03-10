@@ -1,8 +1,8 @@
 /*
- * Copyright (c) 2018 Saurabh Kumar
+ * Copyright (c) 2019 Saurabh Kumar
  */
 
-package saurabh.Threads.synchronization;
+package basics.synchronization;
 
 import java.util.ArrayList;
 import java.util.List;
