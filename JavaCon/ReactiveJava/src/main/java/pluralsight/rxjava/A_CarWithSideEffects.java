@@ -31,18 +31,18 @@ public class A_CarWithSideEffects {
 			// Create thread 1
 			Thread t1 = new Thread(() -> {
 
-				out.printf("Thread 1 started...\n");
+				out.print("Thread 1 started...\n");
 
 				if (c.hasFuel(10)) {
 
-					out.printf("Thread 1 - Car has the fuel to move 10 units!\n");
+					out.print("Thread 1 - Car has the fuel to move 10 units!\n");
 
 					// We have the fuel...move!  But first, exagerage the possible problem
 					safeSleep(2000);
 
 					c.move(10);
 
-					out.printf("Thread 1 - I move the 10 units car!\n");
+					out.printf("Thread 1 - I move the %d units car!\n", 10);
 				}
 
 			}, "Thread #1");
@@ -50,16 +50,16 @@ public class A_CarWithSideEffects {
 			// Create thread 2
 			Thread t2 = new Thread(() -> {
 
-				out.printf("Thread 2 started...\n");
+				out.print("Thread 2 started...\n");
 
 				if (c.hasFuel(5)) {
 
-					out.printf("Thread 2 - Car has the fuel to move 5 units!\n");
+					out.print("Thread 2 - Car has the fuel to move 5 units!\n");
 
 					// We have the fuel...move quickly
 					c.move(5);
 
-					out.printf("Thread 2 - I moved the car 5 units!\n");
+					out.printf("Thread 2 - I moved the car %d units!\n", 5);
 				}
 
 			}, "Thread #2");

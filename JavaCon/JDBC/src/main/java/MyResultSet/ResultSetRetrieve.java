@@ -41,9 +41,9 @@ public class ResultSetRetrieve {
 				System.out.println("Inside ResultSet");
 				System.out.println(rs.getString(2) + " " + rs.getString(3));
 
-				/**
-				 * The ResultSet.next() method moves to the next row in the ResultSet, if there are anymore rows.
-				 * If there are anymore rows, it returns true. If there were no more rows, it will return false.
+				/*
+				  The ResultSet.next() method moves to the next row in the ResultSet, if there are anymore rows.
+				  If there are anymore rows, it returns true. If there were no more rows, it will return false.
 
 				 You need to call next() at least one time before you can read any data. Before the first next()
 				 call the ResultSet is positioned before the first row.

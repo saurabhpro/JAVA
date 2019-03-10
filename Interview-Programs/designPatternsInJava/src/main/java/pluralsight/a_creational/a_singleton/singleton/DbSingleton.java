@@ -21,11 +21,11 @@ class DbSingleton {
     private Connection conn = null;
 
     private DbSingleton() {
-        try {
+      /*  try {
             DriverManager.registerDriver(new org.apache.derby.jdbc.EmbeddedDriver());
         } catch (SQLException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 
     static DbSingleton getInstance() {
@@ -47,7 +47,7 @@ class DbSingleton {
             synchronized (DbSingleton.class) {
                 if (conn == null) {
                     try {
-                        String dbUrl = "jdbc:derby:memory:codejava/webdb;create=true";
+	                     String dbUrl = "jdbc:derby:memory:codejava/webdb;create=true";
 
                         conn = DriverManager.getConnection(dbUrl);
                     } catch (SQLException e) {

@@ -4,6 +4,8 @@
 
 package list.arraylist.model;
 
+import java.util.Objects;
+
 /**
  * Created by Saurabh on 9/6/2015.
  */
@@ -16,17 +18,21 @@ public class Emp {
 		name = st;
 	}
 
+	@Override
+	public boolean equals(Object o) {
+
+		System.out.println("Inside Overridden Equals");
+
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		Emp emp = (Emp) o;
+		return id == emp.id &&
+				Objects.equals(name, emp.name);
+	}
 
 	@Override
-	public boolean equals(Object ob) {
-		System.out.println("Inside Overridden Equals");
-		Emp e1 = (Emp) ob;
-	   /*
-	    if(this.id==e1.id) return true;
-        else            return false;
-        SIMPLIFIED INTO BELOW CODE */
-
-		return this.id == e1.id && this.name.equals(e1.name);
+	public int hashCode() {
+		return Objects.hash(id, name);
 	}
 }
 

@@ -22,6 +22,7 @@ public class ListSetFactory {
 
 		Set.of("first", "second");
 
+		//noinspection ConfusingArgumentToVarargsMethod
 		Set.of(null); // NullPointerException, same happens for List.of
 
 		Set.of("a", "a"); // IllegalArgumentException: sets must consist of unique elements

@@ -23,20 +23,20 @@ class ListOperationsTest {
 
 		List<String> unmodifiable = Collections.unmodifiableList(modifiable);
 
-		assertTrue(modifiable.size() == unmodifiable.size(), "should have the same size");
+		assertEquals(modifiable.size(), unmodifiable.size(), "should have the same size");
 
 		modifiable.add("2");
 
-		assertTrue(modifiable.size() == unmodifiable.size(), "should still have the same size");
+		assertEquals(modifiable.size(), unmodifiable.size(), "should still have the same size");
 
 		try {
 			unmodifiable.add("3");
-			assertTrue(false, "should not succeed");
+			fail("should not succeed");
 		} catch (UnsupportedOperationException ex) {
 			assertTrue(true, "should throw exception");
 		}
 
-		assertTrue(modifiable.size() == unmodifiable.size(), "should still have the same size");
+		assertEquals(modifiable.size(), unmodifiable.size(), "should still have the same size");
 	}
 
 	@Test
@@ -44,9 +44,11 @@ class ListOperationsTest {
 		List<String> modifiable = new ArrayList<>();
 		modifiable.add("1");
 
-		List<String> immutable = Collections.unmodifiableList(new ArrayList<String>(modifiable));
+		//List<String> immutable = Collections.unmodifiableList(new ArrayList<String>(modifiable));
+		//java11
+		List<String> immutable = List.copyOf(modifiable);
 
-		assertTrue(modifiable.size() == immutable.size(), "should have the same size");
+		assertEquals(modifiable.size(), immutable.size(), "should have the same size");
 
 		modifiable.add("2");
 
@@ -54,7 +56,7 @@ class ListOperationsTest {
 
 		try {
 			immutable.add("3");
-			assertTrue(false, "should not succeed");
+			fail("should not succeed");
 		} catch (UnsupportedOperationException ex) {
 			assertTrue(true, "should throw exception");
 		}
@@ -111,7 +113,7 @@ class ListOperationsTest {
 		//immutableList
 
 
-		List<String> immutableList = Collections.unmodifiableList(new ArrayList<>(modifiableList));
+		List<String> immutableList = List.copyOf(modifiableList);
 
 		modifiableList.add("c");
 

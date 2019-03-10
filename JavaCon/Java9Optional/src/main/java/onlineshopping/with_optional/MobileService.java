@@ -10,6 +10,7 @@ import java.util.Optional;
 
 public class MobileService {
 
+	@SuppressWarnings("OptionalUsedAsFieldOrParameterType")
 	public Integer getMobileScreenWidth(Optional<Mobile> mobile) {
 
 		return mobile.flatMap(Mobile::getDisplayFeatures)

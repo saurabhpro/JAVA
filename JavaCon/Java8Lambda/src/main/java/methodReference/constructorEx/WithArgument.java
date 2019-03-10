@@ -15,6 +15,7 @@ public class WithArgument {
 	public static void main(String[] args) {
 
 		// Using an anonymous class
+		//noinspection Convert2Lambda,Anonymous2MethodRef
 		Function<String, Integer> f =
 				new Function<>() {
 					public Integer apply(String s) {
@@ -35,6 +36,7 @@ public class WithArgument {
 
 
 		// Using a anonymous class
+		@SuppressWarnings("Anonymous2MethodRef")
 		BiFunction<String, String, Locale> f4 = new BiFunction<>() {
 			public Locale apply(String lang, String country) {
 				return new Locale(lang, country);

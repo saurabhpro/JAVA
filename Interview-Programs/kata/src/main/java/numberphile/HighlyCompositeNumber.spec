@@ -8,9 +8,10 @@ Every heading in this file denotes a scenario. Every bulleted point denotes a st
 Scenario Heading
 ----------------
 Program should verify if a number is higly composite number
+* Say "Hellp" to "Gauge"
 
 ## Successful
-The number should be formed by prime factorization of consequitive prime numbers (raised to some power).
+* The number should be formed by prime factorization of consequitive prime numbers (raised to some power).
 
 AND
 The number should have the last prime number either with power 1 or if number is equal to 4 or 6 last power can be 2

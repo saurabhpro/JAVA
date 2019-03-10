@@ -6,6 +6,7 @@ package onlineshopping.with_optional;
 
 import java.util.Optional;
 
+@SuppressWarnings("OptionalUsedAsFieldOrParameterType")
 public class Mobile {
 
 	private long id;

@@ -17,7 +17,7 @@ class Shipment {
 		List<Shipment> l = new ArrayList<>();
 
 		// Using an anonymous class
-		//noinspection Convert2Lambda
+		//noinspection Convert2Lambda,Anonymous2MethodRef
 		ship.calculateOnShipments(l, new Function<>() {
 			public Double apply(Shipment s) { // The object
 				return s.calculateWeight(); // The method

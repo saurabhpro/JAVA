@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.EnumMap;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 class PizzaTest {
@@ -25,7 +25,7 @@ class PizzaTest {
 		List<Pizza> undeliveredPzs = Pizza.getAllUndeliveredPizzas(pzList);
 
 		// then
-		assertTrue(undeliveredPzs.size() == 3);
+		assertEquals(3, undeliveredPzs.size());
 	}
 
 
@@ -35,9 +35,9 @@ class PizzaTest {
 
 		EnumMap<Pizza.PizzaStatusEnum, List<Pizza>> map = Pizza.groupPizzaByStatus(pzList);
 
-		assertTrue(map.get(Pizza.PizzaStatusEnum.DELIVERED).size() == 1);
-		assertTrue(map.get(Pizza.PizzaStatusEnum.ORDERED).size() == 2);
-		assertTrue(map.get(Pizza.PizzaStatusEnum.READY).size() == 1);
+		assertEquals(1, map.get(Pizza.PizzaStatusEnum.DELIVERED).size());
+		assertEquals(2, map.get(Pizza.PizzaStatusEnum.ORDERED).size());
+		assertEquals(1, map.get(Pizza.PizzaStatusEnum.READY).size());
 	}
 
 	@NotNull

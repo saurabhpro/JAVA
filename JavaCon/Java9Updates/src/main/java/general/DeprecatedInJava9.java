@@ -4,6 +4,7 @@
 
 package general;
 
+@SuppressWarnings("DeprecatedIsStillUsed")
 class DeprecatedInJava9 {
 
 	public static void main(String[] args) {

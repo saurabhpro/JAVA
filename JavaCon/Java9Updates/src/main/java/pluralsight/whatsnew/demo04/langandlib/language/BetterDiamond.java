@@ -9,8 +9,9 @@ import java.util.ArrayList;
 public class BetterDiamond {
 
 	public static void main(String... args) {
-		ArrayList<String> list1 = new ArrayList<String>();
+		ArrayList<String> list1 = new ArrayList<>();
 		ArrayList<String> list2 = new ArrayList<>();
+
 		ArrayList<String> list3 = new ArrayList<>() {
 			@Override
 			public boolean add(String s) {

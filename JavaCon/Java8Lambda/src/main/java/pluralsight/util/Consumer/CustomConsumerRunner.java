@@ -10,6 +10,7 @@ package pluralsight.util.Consumer;
 public class CustomConsumerRunner {
 	public static void main(String[] args) {
 
+		@SuppressWarnings("Anonymous2MethodRef")
 		Consumer<Integer> consumer = new Consumer<>() {
 			@Override
 			public void accept(Integer integer) {

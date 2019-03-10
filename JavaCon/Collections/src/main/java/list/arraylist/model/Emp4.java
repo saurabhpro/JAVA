@@ -4,6 +4,8 @@
 
 package list.arraylist.model;
 
+import java.util.Objects;
+
 public class Emp4 {
 	public final int id;
 
@@ -12,9 +14,20 @@ public class Emp4 {
 	}
 
 	@Override
-	public boolean equals(Object ob) {
+	public boolean equals(Object o) {
+
 		System.out.println("Inside Equals of main.java.list.arraylist.deadlock.Emp4");
-		Emp4 e = (Emp4) ob;
-		return this.id == e.id;
+
+		if (this == o) return true;
+
+		if (o == null || getClass() != o.getClass()) return false;
+
+		Emp4 emp4 = (Emp4) o;
+		return id == emp4.id;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(id);
 	}
 }

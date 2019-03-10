@@ -74,6 +74,6 @@ public class JoinRowSetDemo {
 	}
 }
 
-/**
- * select p_fname, p_dob, person.accno, income from person,bank where person.accno=bank.accno;
+/*
+  select p_fname, p_dob, person.accno, income from person,bank where person.accno=bank.accno;
  */

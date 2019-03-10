@@ -4,6 +4,7 @@
 
 package general;
 
+@SuppressWarnings("deprecation")
 class FinalizeOfObjectDeprecated {
 
 	@Override

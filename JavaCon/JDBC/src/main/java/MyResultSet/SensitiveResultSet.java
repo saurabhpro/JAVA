@@ -41,9 +41,7 @@ public class SensitiveResultSet {
 			MyThread t1 = new MyThread(st, st1);
 			t1.start();
 
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		} catch (SQLException e) {
+		} catch (ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
 		}
 	}

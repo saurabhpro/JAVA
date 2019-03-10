@@ -1,5 +1,9 @@
 package numberphile;
 
+import java.math.BigInteger;
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * https://www.youtube.com/watch?v=2JM2oImb9Qg
  * A Study of how highly composite number (Anti-Prime) numbers are found (Ramanujan)
@@ -11,4 +15,42 @@ package numberphile;
  * 3.
  */
 public class HighlyCompositeNumber {
+    public boolean isHighlyComposite(int i) {
+
+        Map<Long, Integer> primeFactors = getPrimeFactors(i);
+
+        // consequtive
+
+	    return false;
+     }
+
+    private Map<Long, Integer> getPrimeFactors(int i) {
+        Map<Long, Integer> primeFactors  = new HashMap<>();
+        long prime = 2;
+        int tmp;
+        while (i > 0) {
+            tmp = 0;
+            while(i % prime == 0){
+                tmp++;
+                i /= prime;
+
+                primeFactors.put(prime, tmp);
+            }
+
+            prime = BigInteger.valueOf(prime).nextProbablePrime().longValue();
+
+        }
+return primeFactors;
+    }
+
+    private int getNextPrime(int prime) {
+        for(int i = prime; i < prime * 2; i++){
+
+        }
+        return 0;
+    }
+
+    private boolean isPrime(int j) {
+return false;
+    }
 }

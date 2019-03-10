@@ -40,11 +40,7 @@ public class DataGenerator {
 				"Omega"
 		};
 
-		ArrayList<String> returnList = new ArrayList<>();
-
-		returnList.addAll(Arrays.asList(greekLetters));
-
-		return returnList;
+		return Arrays.asList(greekLetters);
 	}
 
 	public static List<String> generateScrambledAndDuppedGreekAlphabet() {
