@@ -14,7 +14,7 @@ import java.util.logging.Logger;
  */
 public class MultiThreadedBankDemo {
 
-	private static final Logger logger = Logger.getLogger(MultiThreadedBankDemo.class.toString());
+	private static final Logger logger = Logger.getLogger(MultiThreadedBankDemo.class.getSimpleName());
 	private static final int MAX_PASSWORD = 9999;
 
 	public static void main(String[] args) {
