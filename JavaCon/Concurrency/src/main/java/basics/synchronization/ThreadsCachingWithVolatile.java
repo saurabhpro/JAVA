@@ -27,7 +27,7 @@ public class ThreadsCachingWithVolatile {
 		@Override
 		public void run() {
 
-			// runs in separate thread than Main -
+			// runs in separate thread than ImageRecolorUsingThreads -
 			// hence the running variable might be cached for it
 			while (running) {
 				System.out.println("Running in " + Processor.currentThread());

@@ -12,7 +12,7 @@ public class JoinDemo implements Runnable {
 		System.out.println(Thread.currentThread() + " started " + t.getName());
 		t.start();
 
-		// Main thread waits at most this much milliseconds for this thread to die
+		// ImageRecolorUsingThreads thread waits at most this much milliseconds for this thread to die
 		// Waits for 1000ms this thread to die.
 		t.join(1000);
 
@@ -23,7 +23,7 @@ public class JoinDemo implements Runnable {
 		// Checks if this thread is alive
 		System.out.println("Is alive? " + t.isAlive());
 
-		// Main thread exits but child will end soon
+		// ImageRecolorUsingThreads thread exits but child will end soon
 	}
 
 	@Override
