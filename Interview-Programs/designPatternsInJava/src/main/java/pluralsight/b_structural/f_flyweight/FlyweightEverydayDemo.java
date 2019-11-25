@@ -10,15 +10,22 @@
 
 package pluralsight.b_structural.f_flyweight;
 
+@SuppressWarnings("UnnecessaryBoxing")
 public class FlyweightEverydayDemo {
 
-    public static void main(String args[]) throws Exception {
+    public static void main(String[] args) {
 
+        /*
+         so the valueOf searches IntegerCache class for an existing object with same number (until 128)
+         which is the size of cache array
+
+         hence it acts as a flyweight - saves object creation by reusing
+         */
         Integer firstInt = Integer.valueOf(5);
 
         Integer secondInt = Integer.valueOf(5);
 
-        //noinspection UnnecessaryBoxing
+
         Integer thirdInt = Integer.valueOf(10);
 
         System.out.println(System.identityHashCode(firstInt));

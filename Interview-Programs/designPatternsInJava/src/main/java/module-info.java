@@ -1,5 +1,6 @@
 module designPatternsInJava {
     requires java.sql;
-    //requires derby;
     requires java.desktop;
+
+    // requires org.apache.derby.engine;
 }

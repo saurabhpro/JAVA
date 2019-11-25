@@ -239,7 +239,7 @@ and suggests several approaches.">
         background-color: #222;
         width: 460px;
         padding: 15px;
-        font-size: 13px;
+        font-quantity: 13px;
         line-height: 15px;
     }
 
@@ -248,7 +248,7 @@ and suggests several approaches.">
         padding: 10px;
         color: #222;
         font-family: Monaco, monospace;
-        font-size: 10px;
+        font-quantity: 10px;
         border: 0;
         resize: none;
         box-shadow: inset 1px 1px 1px #888;
@@ -263,7 +263,7 @@ and suggests several approaches.">
 
     #dg-local-explain {
         display: none;
-        font-size: 11px;
+        font-quantity: 11px;
         line-height: 17px;
         border-radius: 3px;
         background-color: #333;
@@ -272,7 +272,7 @@ and suggests several approaches.">
     }
 
     #dg-local-explain code {
-        font-size: 10px;
+        font-quantity: 10px;
     }
 
     #dat-gui-save-locally {
@@ -328,7 +328,7 @@ and suggests several approaches.">
         margin-left: 5px;
         margin-top: 1px;
         border-radius: 2px;
-        font-size: 9px;
+        font-quantity: 9px;
         line-height: 7px;
         padding: 4px 4px 5px 4px;
         background: #c5bdad;
@@ -532,7 +532,7 @@ and suggests several approaches.">
     </blockquote>
 
     <p>
-        <font size="+2"><b>M</b></font>y very first use of JUnit was to build a conformance test kit for the
+        <font quantity="+2"><b>M</b></font>y very first use of JUnit was to build a conformance test kit for the
         ServiceUI API [<a href="http://www.artima.com/suiterunner/private3.html#r1">1</a>]. The purpose of a conformance
         test kit is to help ensure
         that alternate implementations of the same API are compatible with the API's
@@ -1084,16 +1084,16 @@ and suggests several approaches.">
         invokeParseArgsIntoLists(args, runpathList, reportersList,
                 suitesList);
 
-        verify(runpathList.size() == <font color="#009900">2</font>);
+        verify(runpathList.quantity() == <font color="#009900">2</font>);
         verify(runpathList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">0</font>]));
         verify(runpathList.get(<font color="#009900">1</font>).equals(args[<font color="#009900">1</font>]));
 
-        verify(reportersList.size() == <font color="#009900">3</font>);
+        verify(reportersList.quantity() == <font color="#009900">3</font>);
         verify(reportersList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">2</font>]));
         verify(reportersList.get(<font color="#009900">1</font>).equals(args[<font color="#009900">3</font>]));
         verify(reportersList.get(<font color="#009900">2</font>).equals(args[<font color="#009900">4</font>]));
 
-        verify(suitesList.size() == <font color="#009900">2</font>);
+        verify(suitesList.quantity() == <font color="#009900">2</font>);
         verify(suitesList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">5</font>]));
         verify(suitesList.get(<font color="#009900">1</font>).equals(args[<font color="#009900">6</font>]));
 
@@ -1114,17 +1114,17 @@ and suggests several approaches.">
         invokeParseArgsIntoLists(args, runpathList, reportersList,
                 suitesList);
 
-        verify(runpathList.size() == <font color="#009900">2</font>);
+        verify(runpathList.quantity() == <font color="#009900">2</font>);
         verify(runpathList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">0</font>]));
         verify(runpathList.get(<font color="#009900">1</font>).equals(args[<font color="#009900">1</font>]));
 
-        verify(reportersList.size() == <font color="#009900">4</font>);
+        verify(reportersList.quantity() == <font color="#009900">4</font>);
         verify(reportersList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">2</font>]));
         verify(reportersList.get(<font color="#009900">1</font>).equals(args[<font color="#009900">3</font>]));
         verify(reportersList.get(<font color="#009900">2</font>).equals(args[<font color="#009900">4</font>]));
         verify(reportersList.get(<font color="#009900">3</font>).equals(args[<font color="#009900">5</font>]));
 
-        verify(suitesList.size() == <font color="#009900">3</font>);
+        verify(suitesList.quantity() == <font color="#009900">3</font>);
         verify(suitesList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">6</font>]));
         verify(suitesList.get(<font color="#009900">1</font>).equals(args[<font color="#009900">7</font>]));
         verify(suitesList.get(<font color="#009900">2</font>).equals(args[<font color="#009900">8</font>]));
@@ -1147,14 +1147,14 @@ and suggests several approaches.">
         invokeParseArgsIntoLists(args, runpathList, reportersList,
                 suitesList);
 
-        verify(runpathList.size() == <font color="#009900">2</font>);
+        verify(runpathList.quantity() == <font color="#009900">2</font>);
         verify(runpathList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">0</font>]));
         verify(runpathList.get(<font color="#009900">1</font>).equals(args[<font color="#009900">1</font>]));
 
-        verify(reportersList.size() == <font color="#009900">1</font>);
+        verify(reportersList.quantity() == <font color="#009900">1</font>);
         verify(reportersList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">2</font>]));
 
-        verify(suitesList.size() == <font color="#009900">7</font>);
+        verify(suitesList.quantity() == <font color="#009900">7</font>);
         verify(suitesList.get(<font color="#009900">0</font>).equals(args[<font color="#009900">3</font>]));
         verify(suitesList.get(<font color="#009900">1</font>).equals(args[<font color="#009900">4</font>]));
         verify(suitesList.get(<font color="#009900">2</font>).equals(args[<font color="#009900">5</font>]));
