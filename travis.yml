@@ -1,0 +1,23 @@
+matrix:
+  include:
+    - language: java
+      before_install:
+        - cd JavaCon
+      jdk:
+        - openjdk14
+      os:
+        - linux
+        - osx
+        -
+    - language: java
+        before_install:
+          - cd Testing
+        jdk:
+          - openjdk14
+        os:
+          - linux
+          - osx
+
+notifications:
+  email:
+    - saurabhk1511@gmail.com
