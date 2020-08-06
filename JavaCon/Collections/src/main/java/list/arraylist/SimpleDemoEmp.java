@@ -54,7 +54,7 @@ public class SimpleDemoEmp {
 
 	private void ownClassRemoveWithEquals() {
 		/*
-		 * if you want to perform any operation on any class object in ArrayList then that class (Say main.java.list.arraylist.deadlock.Emp)
+		 * if you want to perform any operation on any class object in ArrayList then that class (Say java.list.arraylist.deadlock.Emp)
 		 * must override the equal(Object) method of the object class.
 		 */
 
@@ -63,8 +63,8 @@ public class SimpleDemoEmp {
 		System.out.println("Before Removing Element");
 		while (i.hasNext()) {
 			Emp z = i.next();
-			//next returns Object, as we already fixed type to <main.java.list.arraylist.deadlock.Emp> in Iterator we dont need to downcast it
-			//else   main.java.list.arraylist.deadlock.Emp z = (main.java.list.arraylist.deadlock.Emp)i.next();
+			//next returns Object, as we already fixed type to <java.list.arraylist.deadlock.Emp> in Iterator we dont need to downcast it
+			//else   java.list.arraylist.deadlock.Emp z = (java.list.arraylist.deadlock.Emp)i.next();
 			System.out.println(z.id + " " + z.name);
 		}
 

@@ -10,16 +10,16 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class RepeatedIncrementTest {
 
-	private static Logger logger = LoggerFactory.getLogger(RepeatedIncrementTest.class);
+    private static Logger logger = LoggerFactory.getLogger(RepeatedIncrementTest.class);
 
-	@BeforeEach
-	void increment() {
-		logger.info(() -> "Before Each Test");
-	}
+    @BeforeEach
+    void increment() {
+        logger.info(() -> "Before Each Test");
+    }
 
-	@RepeatedTest(value = 3, name = RepeatedTest.SHORT_DISPLAY_NAME)
-	void test(RepetitionInfo info) {
-		assertTrue(1 == 1);
-		logger.info(() -> "Repetition #" + info.getCurrentRepetition());
-	}
+    @RepeatedTest(value = 3, name = RepeatedTest.SHORT_DISPLAY_NAME)
+    void test(RepetitionInfo info) {
+        assertTrue(1 == 1);
+        logger.info(() -> "Repetition #" + info.getCurrentRepetition());
+    }
 }

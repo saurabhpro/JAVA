@@ -1,7 +1,0 @@
-
-        From Hibernate v3.6 the annotations classes have been merged into core. You have specified a dependency on a very old annotations jar which doesn't compile with Hibernate core 5.0.1.
-
-        Just remove the dependency on hibernate-commons-annotations and this should be resolved.
-
-
-

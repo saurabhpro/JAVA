@@ -1,9 +1,0 @@
-# IntelliJ
-out/
-
-
-.settings
-.idea
-
-*.classpath
-*.project

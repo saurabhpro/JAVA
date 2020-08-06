@@ -6,12 +6,12 @@ import org.junit.jupiter.api.Test;
 @Disabled
 class DisabledTestsDemo {
 
-	@Disabled
-	@Test
-	void testWillBeSkipped() {
-	}
+    @Disabled
+    @Test
+    void testWillBeSkipped() {
+    }
 
-	@Test
-	void testWillBeExecuted() {
-	}
+    @Test
+    void testWillBeExecuted() {
+    }
 }

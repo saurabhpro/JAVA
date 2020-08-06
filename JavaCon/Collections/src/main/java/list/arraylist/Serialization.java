@@ -64,7 +64,7 @@ public class Serialization {
 		     ObjectOutputStream oos = new ObjectOutputStream(fos))  //IOException (General)
 		{
 	        /*
-	        If main.java.list.arraylist.deadlock.Emp2 does not implement Serualization = NotSerializableException (subclass of IOException) occurs
+	        If java.list.arraylist.deadlock.Emp2 does not implement Serualization = NotSerializableException (subclass of IOException) occurs
             */
 			oos.writeObject(al);
 	        /*
@@ -82,9 +82,9 @@ public class Serialization {
 			fin.close();
 			oin.close();        //not in try-with resources
 	        /*
-	        Iterator<main.java.list.arraylist.deadlock.Emp2> i = al2.iterator();
+	        Iterator<java.list.arraylist.deadlock.Emp2> i = al2.iterator();
             while (i.hasNext()) {
-                main.java.list.arraylist.deadlock.Emp2 z = i.next();
+                java.list.arraylist.deadlock.Emp2 z = i.next();
                 System.out.println(z.x);
             }
              */

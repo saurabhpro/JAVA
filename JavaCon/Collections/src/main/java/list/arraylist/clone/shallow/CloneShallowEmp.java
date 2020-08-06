@@ -38,7 +38,7 @@ public class CloneShallowEmp {
 		EmpClone e1 = al.get(0);
 		EmpClone e2 = copy.get(0);
 
-		// copy.set(0,(main.java.list.arraylist.clone.shallow.EmpClone)al.get(0));
+		// copy.set(0,(java.list.arraylist.clone.shallow.EmpClone)al.get(0));
 
 		if (e1 == e2) System.out.println("Shallow");
 		if (al != copy) System.out.println("Clone");

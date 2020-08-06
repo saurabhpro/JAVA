@@ -10,25 +10,25 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @RunWith(JUnitPlatform.class)
 class TranslatorEngineJunit4StaticTest {
 
-	private TranslatorEngine translatorEngine;
+    private TranslatorEngine translatorEngine;
 
-	@BeforeEach
-	void setUp() {
-		translatorEngine = new TranslatorEngine();
-	}
+    @BeforeEach
+    void setUp() {
+        translatorEngine = new TranslatorEngine();
+    }
 
-	@Test
-	void testTranslateHello() {
-		assertEquals("Bonjour", translatorEngine.translate("Hello"));
-	}
+    @Test
+    void testTranslateHello() {
+        assertEquals("Bonjour", translatorEngine.translate("Hello"));
+    }
 
-	@Test
-	void testTranslateYes() {
-		assertEquals("Oui", translatorEngine.translate("Yes"));
-	}
+    @Test
+    void testTranslateYes() {
+        assertEquals("Oui", translatorEngine.translate("Yes"));
+    }
 
-	@Test
-	void testTranslateNo() {
-		assertEquals("Non", translatorEngine.translate("No"));
-	}
+    @Test
+    void testTranslateNo() {
+        assertEquals("Non", translatorEngine.translate("No"));
+    }
 }

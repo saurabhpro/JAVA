@@ -32,7 +32,7 @@ class Empl implements Comparable<Empl> {
     /*not implemented comaparable till now*/
 	//compile time error ayega if we run the program without below code
 
-    /*public int compareTo(Object o) {  return 0;  } //Cant;t be used as we havew used type bounding with main.java.list.arraylist.Empl */
+    /*public int compareTo(Object o) {  return 0;  } //Cant;t be used as we havew used type bounding with java.list.arraylist.Empl */
 
 
 	/**

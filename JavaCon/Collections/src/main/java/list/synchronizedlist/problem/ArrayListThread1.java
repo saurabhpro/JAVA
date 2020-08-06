@@ -10,7 +10,7 @@ import java.util.Iterator;
 /**
  * Created by Saurabh on 9/13/2015.
  * java.util.ConcurrentModificationException
- * When main.java.list.synchronizedlist.Thread1 comes back, it will throw  this Exception
+ * When java.list.synchronizedlist.Thread1 comes back, it will throw  this Exception
  */
 @SuppressWarnings("unchecked")
 class ArrayListThread1 implements Runnable {

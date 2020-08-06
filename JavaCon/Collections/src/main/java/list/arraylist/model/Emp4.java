@@ -16,7 +16,7 @@ public class Emp4 {
 	@Override
 	public boolean equals(Object o) {
 
-		System.out.println("Inside Equals of main.java.list.arraylist.deadlock.Emp4");
+		System.out.println("Inside Equals of java.list.arraylist.deadlock.Emp4");
 
 		if (this == o) return true;
 
