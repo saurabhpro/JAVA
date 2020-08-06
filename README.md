@@ -1,1 +1,1 @@
-https://docs.spring.io/spring/docs/current/spring-framework-reference/html/index.html
+## Single source of truth for all thing Java
