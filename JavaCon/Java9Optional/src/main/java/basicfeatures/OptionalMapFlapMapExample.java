@@ -16,10 +16,10 @@ public class OptionalMapFlapMapExample {
 		System.out.println("Non-Empty Optional:: " + nonEmptyGender.map(String::toUpperCase));
 		System.out.println("Empty Optional    :: " + emptyGender.map(String::toUpperCase));
 
-		Optional<Optional<String>> nonEmptyOtionalGender = Optional.of(Optional.of("male"));
-		System.out.println("Optional value   :: " + nonEmptyOtionalGender);
-		System.out.println("Optional.map     :: " + nonEmptyOtionalGender.map(gender -> gender.map(String::toUpperCase)));
-		System.out.println("Optional.flatMap :: " + nonEmptyOtionalGender.flatMap(gender -> gender.map(String::toUpperCase)));
+		Optional<Optional<String>> nonEmptyOptionalGender = Optional.of(Optional.of("male"));
+		System.out.println("Optional value   :: " + nonEmptyOptionalGender);
+		System.out.println("Optional.map     :: " + nonEmptyOptionalGender.map(gender -> gender.map(String::toUpperCase)));
+		System.out.println("Optional.flatMap :: " + nonEmptyOptionalGender.flatMap(gender -> gender.map(String::toUpperCase)));
 
 	}
 

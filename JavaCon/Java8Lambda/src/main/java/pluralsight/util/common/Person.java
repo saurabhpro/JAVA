@@ -5,15 +5,11 @@
 package pluralsight.util.common;
 
 
-/**
- * @author José Paumard
- */
+
 public class Person {
 
 	private String firstName;
 	private String lastName;
-	@SuppressWarnings("FieldCanBeLocal")
-	private String name;
 	private int age;
 
 	public Person() {
@@ -26,7 +22,7 @@ public class Person {
 	}
 
 	public Person(String name, int age) {
-		this.name = name;
+		this.firstName = name;
 		this.age = age;
 	}
 
@@ -56,6 +52,10 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return "Person{" + "firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + '}';
+		return "Person{" +
+				"firstName='" + firstName + '\'' +
+				", lastName='" + lastName + '\'' +
+				", age=" + age +
+				'}';
 	}
 }

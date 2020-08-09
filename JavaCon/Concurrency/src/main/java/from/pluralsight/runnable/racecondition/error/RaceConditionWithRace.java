@@ -12,7 +12,6 @@ class RaceConditionWithRace {
 		LongWrapperWithRaceProblem longWrapperWithRaceProblem = new LongWrapperWithRaceProblem(0L);
 
 		Runnable r = () -> {
-
 			for (int i = 0; i < 1_000; i++) {
 				longWrapperWithRaceProblem.incrementValue();
 			}

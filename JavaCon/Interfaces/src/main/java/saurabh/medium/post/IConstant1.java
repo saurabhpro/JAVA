@@ -26,7 +26,7 @@ class Tester implements IConstant1, IConstant2 {
 		//System.out.println(Tester.Hello);       // This is error
 		/*
 		Error:(24, 42) java: reference to Hello is ambiguous
-	    both variable Hello in saurabh.medium.post.IConstant1 and variable Hello in saurabh.medium.post.IConstant2 match
+	    both variable Hello in IConstant1 and variable Hello in IConstant2 match
 		 */
 
 		// but

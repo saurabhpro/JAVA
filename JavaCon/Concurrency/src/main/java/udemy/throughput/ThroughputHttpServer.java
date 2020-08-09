@@ -20,80 +20,80 @@ import java.util.concurrent.Executors;
  * Optimizing for Throughput Part 2 - HTTP server + Jmeter
  */
 public class ThroughputHttpServer {
-	private static final String INPUT_FILE = "./Concurrency/src/main/resources/war_and_peace.txt";
-	private static final int NUMBER_OF_THREADS = 8;
+    private static final String INPUT_FILE = "./Concurrency/src/main/resources/war_and_peace.txt";
+    private static final int NUMBER_OF_THREADS = 8;
 
-	public static void main(String[] args) throws IOException {
-		String text = new String(Files.readAllBytes(Paths.get(INPUT_FILE)));
-		startServer(text);
-	}
+    public static void main(String[] args) throws IOException {
+        String text = new String(Files.readAllBytes(Paths.get(INPUT_FILE)));
+        startServer(text);
+    }
 
-	public static void startServer(String text) throws IOException {
+    public static void startServer(String text) throws IOException {
 
-		// assign a http port and queue size (its 0 because we are using multiple threads to not have any queueing)
-		HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0 /*size of queue for http server object*/);
+        // assign a http port and queue size (its 0 because we are using multiple threads to not have any queueing)
+        HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0 /*size of queue for http server object*/);
 
-		// assign a handler object to a http route
-		server.createContext("/search", new WordCountHandler(text));
+        // assign a handler object to a http route
+        server.createContext("/search", new WordCountHandler(text));
 
-		// create a fixed thread pool executor
-		Executor executor = Executors.newFixedThreadPool(NUMBER_OF_THREADS);
+        // create a fixed thread pool executor
+        Executor executor = Executors.newFixedThreadPool(NUMBER_OF_THREADS);
 
-		// assign it to http server
-		server.setExecutor(executor);
-		server.start();
-	}
+        // assign it to http server
+        server.setExecutor(executor);
+        server.start();
+    }
 
-	/**
-	 * For seraching and
-	 */
-	private static class WordCountHandler implements HttpHandler {
-		private final String text;
+    /**
+     * For seraching and
+     */
+    private static class WordCountHandler implements HttpHandler {
+        private final String text;
 
-		public WordCountHandler(String text) {
-			this.text = text;
-		}
+        public WordCountHandler(String text) {
+            this.text = text;
+        }
 
-		@Override
-		public void handle(HttpExchange httpExchange) throws IOException {
-			String query = httpExchange.getRequestURI().getQuery();
+        @Override
+        public void handle(HttpExchange httpExchange) throws IOException {
+            String query = httpExchange.getRequestURI().getQuery();
 
-			String[] keyValue = query.split("=");
-			String action = keyValue[0];
-			String word = keyValue[1];
+            String[] keyValue = query.split("=");
+            String action = keyValue[0];
+            String word = keyValue[1];
 
-			if (!action.equals("word")) {
-				httpExchange.sendResponseHeaders(400, 0);
-				return;
-			}
+            if (!action.equals("word")) {
+                httpExchange.sendResponseHeaders(400, 0);
+                return;
+            }
 
-			long count = countWord(word);
+            long count = countWord(word);
 
-			byte[] response = Long.toString(count).getBytes();
-			httpExchange.sendResponseHeaders(200, response.length);
+            byte[] response = Long.toString(count).getBytes();
+            httpExchange.sendResponseHeaders(200, response.length);
 
-			try (OutputStream outputStream = httpExchange.getResponseBody()) {
-				outputStream.write(response);
+            try (OutputStream outputStream = httpExchange.getResponseBody()) {
+                outputStream.write(response);
 
-				// redundant as AutoClosable
-				// outputStream.close();
-			}
-		}
+                // redundant as AutoClosable
+                // outputStream.close();
+            }
+        }
 
-		private long countWord(String word) {
-			long count = 0;
-			int index = 0;
+        private long countWord(String word) {
+            long count = 0;
+            int index = 0;
 
-			while (index >= 0) {
-				index = text.indexOf(word, index);
+            while (index >= 0) {
+                index = text.indexOf(word, index);
 
-				if (index >= 0) {
-					count++;
-					index++;
-				}
-			}
+                if (index >= 0) {
+                    count++;
+                    index++;
+                }
+            }
 
-			return count;
-		}
-	}
+            return count;
+        }
+    }
 }

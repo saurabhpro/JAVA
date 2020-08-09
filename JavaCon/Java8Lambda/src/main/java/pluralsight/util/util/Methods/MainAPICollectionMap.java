@@ -12,7 +12,7 @@ import java.util.*;
 /**
  * @author José Paumard
  */
-public class MainAPICollectionMap {
+public class  MainAPICollectionMap {
 
 	public static void main(String[] args) {
 
