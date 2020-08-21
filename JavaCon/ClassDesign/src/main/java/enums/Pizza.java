@@ -4,11 +4,14 @@
 
 package enums;
 
+import lombok.Data;
+
 import java.util.EnumMap;
 import java.util.EnumSet;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Data
 public class Pizza {
 
 	private static EnumSet<PizzaStatusEnum> deliveredPizzaStatuses = EnumSet.of(PizzaStatusEnum.DELIVERED);
@@ -30,14 +33,6 @@ public class Pizza {
 								Collectors.toList()
 						)
 				);
-	}
-
-	public PizzaStatusEnum getStatus() {
-		return status;
-	}
-
-	public void setStatus(PizzaStatusEnum status) {
-		this.status = status;
 	}
 
 	public boolean isDeliverable() {
