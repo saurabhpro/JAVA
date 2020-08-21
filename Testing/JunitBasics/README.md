@@ -336,11 +336,11 @@ public void testParameterized(String email) {
 
 ## Dynamic Tests
 
-In addition to the standard static tests, defined with the @Test annotations, JUnit 5 introduces the possibility of defining tests at runtime. These dynamic tests can be generated using a factory method annotated with @TestFactory.
+In addition to the standard static tests, defined with the @Test annotations, JUnit 5 introduces the possibility of defining tests at runtime. These var tests can be generated using a factory method annotated with @TestFactory.
 
 Simply put, this test factory must return a Stream, Collection, Iterable or Iterator of DynamicTest.
 
-Note that dynamic tests do not support lifecycle callbacks. Therefore, methods annotated with @BeforeEach or @AfterEach will not be executed.
+Note that var tests do not support lifecycle callbacks. Therefore, methods annotated with @BeforeEach or @AfterEach will not be executed.
 
 Let’s see a simple example of a test factory method returning a Collection with a DynamicTest object:
 ```java
@@ -349,7 +349,7 @@ Collection<DynamicTest> dynamicTestCollection() {
     return Arrays.asList(DynamicTest.dynamicTest("Dynamic Test", () -> assertTrue(1==1)));
 }
 ```
-For a more dynamic method, you can create an iterator that provides inputs, a display name generator, and a test executor – then use these in a DynamicTest.stream() method:
+For a more var method, you can create an iterator that provides inputs, a display name generator, and a test executor – then use these in a DynamicTest.stream() method:
 ```java
 @TestFactory
 Stream<DynamicTest> dynamicUserTestCollection() {

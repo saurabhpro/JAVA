@@ -1,6 +1,6 @@
 1.	ArrayList is not `synchronized`
 
-2.	ArrayList supports dynamic array which can grow as needed.
+2.	ArrayList supports var array which can grow as needed.
  
 3.	Size of ArrayList can be dynamically increased or decreased.
 
