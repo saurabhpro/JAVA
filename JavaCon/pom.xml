@@ -15,8 +15,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.target>14</maven.compiler.target>
-        <maven.compiler.source>14</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
+        <maven.compiler.source>15</maven.compiler.source>
     </properties>
 
     <dependencies>
@@ -35,8 +35,11 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>14</source>
-                    <target>14</target>
+                    <source>15</source>
+                    <target>15</target>
+                    <compilerArgs>
+                        --enable-preview
+                    </compilerArgs>
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
@@ -68,6 +71,7 @@
         <module>Streams</module>
         <module>ReactiveJava</module>
         <module>Java11Updates</module>
-
+        <module>Java14Updates</module>
+        <module>Java15Updates</module>
     </modules>
 </project>

@@ -2,7 +2,7 @@
  * Copyright (c) 2018 Saurabh Kumar
  */
 
-package dynamic;
+package var;
 
 import java.util.ArrayList;
 import java.util.function.Function;
