@@ -12,7 +12,6 @@
     }
   ],
   "extends": [
-    "schedule:earlyMondays",
     "config:base"
   ],
   "ignoreDeps": []
