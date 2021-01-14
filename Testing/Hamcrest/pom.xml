@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <artifactId>Hamcrest</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.hamcrest</groupId>
@@ -17,16 +18,10 @@
             <scope>test</scope>
         </dependency>
 
-        <!--for legacy learning reasons keeping it-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.1</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <artifactId>Hamcrest</artifactId>
-
-
 </project>
