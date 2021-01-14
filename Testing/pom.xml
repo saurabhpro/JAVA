@@ -12,7 +12,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>14</java.version>
-        <junit.version.intellij.supports>5.0.0</junit.version.intellij.supports>
+        <junit.version.intellij.supports>5.7.0</junit.version.intellij.supports>
     </properties>
 
 
@@ -35,19 +35,19 @@
                     <dependency>
                         <groupId>org.junit.platform</groupId>
                         <artifactId>junit-platform-surefire-provider</artifactId>
-                        <version>1.3.0</version>
+                        <version>1.3.2</version>
                     </dependency>
 
                     <dependency>
                         <groupId>org.junit.jupiter</groupId>
                         <artifactId>junit-jupiter-engine</artifactId>
-                        <version>5.6.2</version>
+                        <version>5.7.0</version>
                     </dependency>
 
                     <dependency>
                         <groupId>org.junit.vintage</groupId>
                         <artifactId>junit-vintage-engine</artifactId>
-                        <version>4.12.0</version>
+                        <version>5.7.0</version>
                     </dependency>
 
                 </dependencies>
