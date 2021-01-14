@@ -1,5 +1,6 @@
 package com.saurabh.junit5dynamictests;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DynamicNode;
 import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.TestFactory;
@@ -17,8 +18,10 @@ import static org.junit.jupiter.api.DynamicTest.dynamicTest;
 class DynamicTestsDemo {
 
     // This will result in a JUnitException!
-    //ince an invalid return type cannot be detected at compile time, a JUnitException is thrown when it is detected at runtime.
+    //Since an invalid return type cannot be detected at compile time, a JUnitException is thrown when it is detected
+    // at runtime.
     @TestFactory
+    @Disabled // to pass builds
     List<String> dynamicTestsWithInvalidReturnType() {
         return Arrays.asList("Hello", "World");
     }

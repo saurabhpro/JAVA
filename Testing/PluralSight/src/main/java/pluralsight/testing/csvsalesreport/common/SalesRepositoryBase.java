@@ -1,6 +1,7 @@
 package pluralsight.testing.csvsalesreport.common;
 
 import com.opencsv.CSVReader;
+import com.opencsv.exceptions.CsvValidationException;
 import pluralsight.testing.csvsalesreport.common.model.Sale;
 
 import java.io.FileReader;
@@ -35,7 +36,7 @@ public interface SalesRepositoryBase {
 
 					sales.add(new Sale(product, store, number, pricePerItem));
 				}
-			} catch (IOException e) {
+			} catch (IOException | CsvValidationException e) {
 				e.printStackTrace(error);
 				return null;
 			}

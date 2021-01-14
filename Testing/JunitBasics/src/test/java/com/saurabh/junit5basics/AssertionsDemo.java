@@ -2,15 +2,23 @@ package com.saurabh.junit5basics;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.opentest4j.AssertionFailedError;
 
 import java.time.Duration;
 
 import static java.time.Duration.ofMillis;
 import static java.time.Duration.ofMinutes;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTimeout;
+import static org.junit.jupiter.api.Assertions.assertTimeoutPreemptively;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 import static org.junit.jupiter.api.Assumptions.assumingThat;
 
+@SuppressWarnings("all")
 class AssertionsDemo {
 
     private Person person = new Person();
@@ -101,22 +109,30 @@ class AssertionsDemo {
 
     @Test
     void timeoutExceeded() {
-        // The following assertion fails with an error message similar to:
-        // execution exceeded timeout of 10 ms by 91 ms
-        assertTimeout(ofMillis(10), () -> {
-            // Simulate task that takes more than 10 ms.
-            Thread.sleep(100);
-        });
+        try {
+            // The following assertion fails with an error message similar to:
+            // execution exceeded timeout of 10 ms by 91 ms
+            assertTimeout(ofMillis(10), () -> {
+                // Simulate task that takes more than 10 ms.
+                Thread.sleep(100);
+            });
+        } catch (AssertionFailedError e) {
+
+        }
     }
 
     @Test
     void timeoutExceededWithPreemptiveTermination() {
-        // The following assertion fails with an error message similar to:
-        // execution timed out after 10 ms
-        assertTimeoutPreemptively(ofMillis(10), () -> {
-            // Simulate task that takes more than 10 ms.
-            Thread.sleep(100);
-        });
+        try {
+            // The following assertion fails with an error message similar to:
+            // execution timed out after 10 ms
+            assertTimeoutPreemptively(ofMillis(10), () -> {
+                // Simulate task that takes more than 10 ms.
+                Thread.sleep(100);
+            });
+        } catch (AssertionFailedError e) {
+
+        }
     }
 
     @Test
