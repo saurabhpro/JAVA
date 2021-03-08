@@ -12,7 +12,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>14</java.version>
-        <junit.version.intellij.supports>5.7.0</junit.version.intellij.supports>
+        <junit.version.intellij.supports>5.7.1</junit.version.intellij.supports>
     </properties>
 
     <dependencies>
@@ -26,7 +26,7 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>3.7.0</version>
+            <version>3.8.0</version>
         </dependency>
 
 
