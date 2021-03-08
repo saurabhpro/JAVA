@@ -15,6 +15,7 @@ public class LoggingAdvice {
 
     private static final Logger LOG = LoggerFactory.getLogger(LoggingAdvice.class);
 
+    // any return type * - * any package. * any class. * any method(..)any argument
     @Pointcut(value = "execution(* com.saurabh.aop.*.*.*(..) )")
     public void myPointcut() {
     }
