@@ -53,3 +53,6 @@ Temporary Items
 *-sktest/
 SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v2_fileUploading/gs-uploading-files
 *.class
+
+*.gradle
+*.mvn
