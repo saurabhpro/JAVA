@@ -8,17 +8,6 @@ public class GoodWithSynchronized {
 
     private int counter = 0;
 
-    synchronized void read(int version) {
-        System.out.println("Thread 1." + version + ": " + counter);
-    }
-
-    void write(int version) {
-        synchronized (this) {
-            counter++;
-            System.out.println("Thread 2." + version + ": " + counter);
-        }
-    }
-
     public static void main(String[] args) {
         action();
     }
@@ -47,5 +36,16 @@ public class GoodWithSynchronized {
             Thread 2.2: 5
             Thread 1.1: 5
          */
+    }
+
+    synchronized void read(int version) {
+        System.out.println("Thread 1." + version + ": " + counter);
+    }
+
+    void write(int version) {
+        synchronized (this) {
+            counter++;
+            System.out.println("Thread 2." + version + ": " + counter);
+        }
     }
 }

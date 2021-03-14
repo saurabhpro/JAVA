@@ -19,14 +19,18 @@ import java.util.Date;
  */
 public class ThreadLocalDemo {
 
+    public static void main(String[] args) {
+        UserService.getFormattedBirthDate();
+    }
+
     // Use ThreadLocal for thread-safety, memory efficiency and for per-thread context storage.
     // or AtomicReference
     private static class ThreadSafeDateFormatter {
-        private ThreadSafeDateFormatter() {
-        }
-
         public static final ThreadLocal<SimpleDateFormat> threadSafeFormatter =
                 ThreadLocal.withInitial(() -> new SimpleDateFormat("dd-MM-yyyy"));
+
+        private ThreadSafeDateFormatter() {
+        }
     }
 
     private static class UserService {
@@ -38,9 +42,5 @@ public class ThreadLocalDemo {
             SimpleDateFormat formatter = ThreadSafeDateFormatter.threadSafeFormatter.get();
             System.out.println(formatter.format(Date.from(date)));
         }
-    }
-
-    public static void main(String[] args) {
-        UserService.getFormattedBirthDate();
     }
 }

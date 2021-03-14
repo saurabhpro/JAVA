@@ -8,15 +8,6 @@ public class BadPractice {
 
     private int counter = 0;
 
-    void read(int version) {
-        System.out.println("Thread 1." + version + ": " + counter);
-    }
-
-    void write(int version) {
-        System.out.println("Thread 2." + version + ": " + counter);
-        counter++;
-    }
-
     public static void main(String[] args) {
         action();
     }
@@ -45,5 +36,14 @@ public class BadPractice {
             Thread 2.5: 4
             Thread 1.5: 4
          */
+    }
+
+    void read(int version) {
+        System.out.println("Thread 1." + version + ": " + counter);
+    }
+
+    void write(int version) {
+        System.out.println("Thread 2." + version + ": " + counter);
+        counter++;
     }
 }
