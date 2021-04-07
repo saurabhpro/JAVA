@@ -8,17 +8,20 @@
         <version>2.4.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.saurabh</groupId>
     <artifactId>moustache-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>moustache-demo</name>
     <description>Demo project for Spring Boot</description>
+
     <properties>
-        <java.version>11</java.version>
+        <java.version>16</java.version>
         <mustache.compiler.api.version>0.9.7</mustache.compiler.api.version>
         <datafactory.version>0.8</datafactory.version>
         <webjars.bootstrap.version>4.6.0-1</webjars.bootstrap.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

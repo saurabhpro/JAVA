@@ -1,8 +1,0 @@
-main/QuartzExample.java
- main.QuartzExample
-job/SimpleJob.java
- job.SimpleJob
-job/JobA.java
- job.JobA
-job/JobB.java
- job.JobB
