@@ -15,8 +15,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.target>15</maven.compiler.target>
-        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
+        <maven.compiler.source>16</maven.compiler.source>
 
         <!-- testing -->
         <junit-jupiter.version>5.7.1</junit-jupiter.version>
@@ -68,6 +68,7 @@
                     <source>${maven.compiler.source}</source>
                     <target>${maven.compiler.target}</target>
                     <encoding>UTF-8</encoding>
+<!--                    <compilerArgs>&#45;&#45;enable-preview</compilerArgs>-->
                 </configuration>
             </plugin>
         </plugins>
@@ -99,6 +100,6 @@
         <module>ReactiveJava</module>
         <module>Java11Updates</module>
         <module>Java14Updates</module>
-        <module>Java15Updates</module>
+        <module>Java16Updates</module>
     </modules>
 </project>
