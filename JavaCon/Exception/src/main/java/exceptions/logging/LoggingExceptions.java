@@ -12,30 +12,32 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 
 class LoggingException extends Exception {
-	private static final Logger logger = LoggerFactory.getLogger(LoggingException.class.getName());
+    private static final Logger LOG = LoggerFactory.getLogger(LoggingException.class);
 
-	LoggingException() {
-		System.out.println(logger.getName());
+    LoggingException() {
+        LOG.info(LOG.getName());
 
-		StringWriter trace = new StringWriter();
-		printStackTrace(new PrintWriter(trace));
-		logger.trace(trace.toString());
-	}
+        StringWriter trace = new StringWriter();
+        printStackTrace(new PrintWriter(trace));
+        LOG.trace(trace.toString());
+    }
 }
 
 public class LoggingExceptions {
-	public static void main(String[] args) {
-		try {
-			throw new LoggingException();
-		} catch (LoggingException e) {
-			System.err.println("Caught " + e);
-		}
-		try {
-			throw new LoggingException();
-		} catch (LoggingException e) {
-			System.err.println("Caught " + e);
-		}
-	}
+    private static final Logger LOG = LoggerFactory.getLogger(LoggingExceptions.class);
+
+    public static void main(String[] args) {
+        try {
+            throw new LoggingException();
+        } catch (LoggingException e) {
+            LOG.error("Caught ", e.fillInStackTrace());
+        }
+        try {
+            throw new LoggingException();
+        } catch (LoggingException e) {
+            LOG.error("Caught ", e.fillInStackTrace());
+        }
+    }
 } /* Output: (85% match)
 Aug 30, 2005 4:02:31 PM exceptions.logging.LoggingException <init>
 SEVERE: exceptions.logging.LoggingException

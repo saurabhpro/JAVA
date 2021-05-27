@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Testing</artifactId>
+        <groupId>com.saurabh</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>MutationPITesting</artifactId>
+
+    <!--    <dependencies>-->
+    <!--        <dependency>-->
+    <!--            <groupId>org.pitest</groupId>-->
+    <!--            <artifactId>pitest-maven</artifactId>-->
+    <!--            <version>1.6.4</version>-->
+    <!--            <type>maven-plugin</type>-->
+    <!--        </dependency>-->
+    <!--    </dependencies>-->
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>16</source>
+                    <target>16</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.pitest</groupId>
+                <artifactId>pitest-maven</artifactId>
+                <version>1.6.4</version>
+                <!--                <configuration>-->
+                <!--                    <targetClasses>-->
+                <!--                        <param>com.saurabh.*</param>-->
+                <!--                    </targetClasses>-->
+                <!--                    <targetTests>-->
+                <!--                        <param>com.saurabh.test.*</param>-->
+                <!--                    </targetTests>-->
+                <!--                </configuration>-->
+
+                <executions>
+                    <execution>
+                        <id>pitest</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>mutationCoverage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+
+                <dependencies>
+                    <dependency>
+                        <groupId>org.pitest</groupId>
+                        <artifactId>pitest-junit5-plugin</artifactId>
+                        <version>0.14</version>
+                    </dependency>
+                </dependencies>
+                <configuration>
+                    <timestampedReports>false</timestampedReports>
+                    <mutationThreshold>90</mutationThreshold>
+                    <coverageThreshold>80</coverageThreshold>
+                </configuration>
+            </plugin>
+        </plugins>
+
+    </build>
+
+</project>
