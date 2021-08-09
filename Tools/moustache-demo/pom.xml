@@ -19,7 +19,7 @@
         <java.version>16</java.version>
         <mustache.compiler.api.version>0.9.10</mustache.compiler.api.version>
         <datafactory.version>0.8</datafactory.version>
-        <webjars.bootstrap.version>5.0.2</webjars.bootstrap.version>
+        <webjars.bootstrap.version>5.1.0</webjars.bootstrap.version>
     </properties>
 
     <dependencies>
