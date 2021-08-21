@@ -34,17 +34,24 @@ package com.saurabh.special;
  */
 public class StaticConstructors {
 
-	public static void main(String[] args) {
-		System.out.println("A constructor can not be static in Java." + "\nIt's actually pretty simple to understand \n" +
-				"- Everything that is marked static belongs to the class only, \n" +
-				"for example static method cannot be inherited in the sub class because they belong to the class in which they have been declared.\n" +
-				"Refer static keyword.\n\n" +
-				"Lets back to constructors, " +
-				"Since each constructor is being called by its subclass during a_creation of the object of its subclass,\n" +
-				"so if you mark constructor as static the subclass will not be able to access the constructor of its parent class\n " +
-				"thus object of child class couldn't be created.\n" +
-				"because it is marked static and thus belong to the class only.\n" +
-				"This will violate the whole purpose of inheritance concept and that is reason why a constructor cannot be static.\n\n" +
-				"Static Constructor Alternative - Static Blocks in java");
-	}
+    public static void main(String[] args) {
+        final String x = """
+                		A constructor can not be static in Java.
+                		It's actually pretty simple to understand
+                		- Everything that is marked static belongs to the class only,
+                		for example static method cannot be inherited in the sub class because they belong to the class in which they have been declared.
+                		Refer static keyword.
+                		
+                		Lets back to constructors,
+                		Since each constructor is being called by its subclass during a_creation of the object of its subclass,
+                		so if you mark constructor as static the subclass will not be able to access the constructor of its parent class
+                		thus object of child class couldn't be created.
+                		because it is marked static and thus belong to the class only.
+                		This will violate the whole purpose of inheritance concept and that is reason why a constructor cannot be static.
+                		
+                		Static Constructor Alternative - Static Blocks in java")
+                        """;
+
+        System.out.println(x);
+    }
 }

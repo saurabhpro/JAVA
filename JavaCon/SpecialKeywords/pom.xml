@@ -16,7 +16,6 @@
     <artifactId>SpecialKeywords</artifactId>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/io.reactivex.rxjava2/rxjava -->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
