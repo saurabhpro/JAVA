@@ -4,34 +4,34 @@
 
 package pluralsight.rxjava.observable.c_filtering;
 
-import io.reactivex.Observable;
+import io.reactivex.rxjava3.core.Observable;
 import pluralsight.rxjava.observable.util.DataGenerator;
 
 public class E_PositionalExampleDistinct {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		Observable.fromIterable(DataGenerator.generateScrambledAndDuppedGreekAlphabet())
-				.count()
-				.subscribe((letter) -> {
-					System.out.println(letter);
-				})
-				.dispose();
+        Observable.fromIterable(DataGenerator.generateScrambledAndDuppedGreekAlphabet())
+                .count()
+                .subscribe((letter) -> {
+                    System.out.println(letter);
+                })
+                .dispose();
 
-		System.out.println("------------------------------------------------------------");
+        System.out.println("------------------------------------------------------------");
 
-		// Emit each string value only once, even if it appears in the
-		// original list multiple times.
-		Observable.fromIterable(DataGenerator.generateScrambledAndDuppedGreekAlphabet())
-				.distinct()
-				.count()
-				.subscribe((letter) -> {
-					System.out.println(letter);
-				})
-				.dispose();
+        // Emit each string value only once, even if it appears in the
+        // original list multiple times.
+        Observable.fromIterable(DataGenerator.generateScrambledAndDuppedGreekAlphabet())
+                .distinct()
+                .count()
+                .subscribe((letter) -> {
+                    System.out.println(letter);
+                })
+                .dispose();
 
-		System.out.println("------------------------------------------------------------");
+        System.out.println("------------------------------------------------------------");
 
-		//System.exit(0);
-	}
+        //System.exit(0);
+    }
 }

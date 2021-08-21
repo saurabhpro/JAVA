@@ -1,3 +1,3 @@
 module ReactiveJava {
-	requires io.reactivex.rxjava2;
+    requires io.reactivex.rxjava3;
 }
