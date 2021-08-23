@@ -1,4 +1,4 @@
-package rx3;
+package rx3.basics;
 
 import io.reactivex.rxjava3.core.Observable;
 import org.slf4j.Logger;

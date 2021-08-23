@@ -1,4 +1,4 @@
-package rx3;
+package rx3.basics;
 
 import io.reactivex.rxjava3.annotations.NonNull;
 import io.reactivex.rxjava3.core.Observable;
