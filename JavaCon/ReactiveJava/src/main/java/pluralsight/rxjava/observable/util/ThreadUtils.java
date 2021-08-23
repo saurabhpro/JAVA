@@ -9,7 +9,7 @@ public class ThreadUtils {
     public static void sleep(long ms) {
         try {
             Thread.sleep(ms);
-        } catch (InterruptedException ex) {
+        } catch (InterruptedException ignored) {
             // suppress
         }
     }
@@ -18,7 +18,7 @@ public class ThreadUtils {
         try {
             // Assumes that the monitor is already "synchronized"
             monitor.wait();
-        } catch (InterruptedException ex) {
+        } catch (InterruptedException ignored) {
             // suppress
         }
     }

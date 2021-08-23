@@ -11,6 +11,8 @@ import java.util.List;
 
 public class DataGenerator {
 
+    public static String LINE = "-----------------------------";
+
     public static List<String> generateGreekAlphabet() {
 
         String[] greekLetters = {
