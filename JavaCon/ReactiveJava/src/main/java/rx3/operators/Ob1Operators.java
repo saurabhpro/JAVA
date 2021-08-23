@@ -15,8 +15,8 @@ import static pluralsight.rxjava.observable.util.ThreadUtils.sleep;
  * and also with each other by chaining multiple operators
  */
 
-public class Ob5Operators {
-    public static final Logger LOG = LoggerFactory.getLogger(Ob5Operators.class);
+public class Ob1Operators {
+    public static final Logger LOG = LoggerFactory.getLogger(Ob1Operators.class);
 
     public static void main(String[] args) {
         mapAndFilter();
