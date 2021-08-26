@@ -25,9 +25,9 @@ public class CustomerIntegrationTests {
     private final CustomerDao customerDao;
 
     // docker run -e MYSQL_USERNAME=... MYSQL_PASSWORD=... mysql:8.0.26
-//    @Container
+//    @Container // if you don't want this start the containers manually which will actually manage reuse
     private static final MySQLContainer<?> mySQLContainer = new MySQLContainer<>("mysql:8.0.26")
-           // .withExposedPorts(3306)    // keep trying to get this port and only then run the tests
+            // .withExposedPorts(3306)    // keep trying to get this port and only then run the tests
 //            .withUsername("root")
 //            .withPassword("password")
             .withReuse(true);   // if the container is started just reuse
@@ -57,25 +57,29 @@ public class CustomerIntegrationTests {
 
     @BeforeAll
     public static void setup() {
-        mySQLContainer.start(); // only then we can use reuse
+        mySQLContainer.start(); // only then we can use reuse, we removed @Testcontainers and @Containers for this
     }
 
     @Test
     void when_using_a_clean_db_this_should_be_empty() throws IOException, InterruptedException {
 
+        moreActionsOnContainers();
+
+        List<Customer> customers = customerDao.findAll();
+        assertThat(customers).hasSize(2);
+    }
+
+    private void moreActionsOnContainers() throws IOException, InterruptedException {
         // additional methods you want to use
         mySQLContainer.copyFileToContainer(MountableFile.forClasspathResource("application.properties"),
                 "/tmp/app.properties");
 
-        final org.testcontainers.containers.Container.ExecResult ls = mySQLContainer.execInContainer("ls", "-la");
+        final var ls = mySQLContainer.execInContainer("ls", "-la");
         LOGGER.info(ls.getStdout());
 
         mySQLContainer.withLogConsumer(new Slf4jLogConsumer(LOGGER));
 
-        final Integer mappedPort = mySQLContainer.getMappedPort(3306);
+        final int mappedPort = mySQLContainer.getMappedPort(3306);
         LOGGER.info("My current assigned post = {}", mappedPort);
-
-        List<Customer> customers = customerDao.findAll();
-        assertThat(customers).hasSize(2);
     }
 }

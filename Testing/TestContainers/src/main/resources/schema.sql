@@ -9,3 +9,5 @@ insert into customers (first_name, last_name)
 values ('trisha', 'gee');
 insert into customers (first_name, last_name)
 values ('marco', 'behler');
+insert into customers (first_name, last_name)
+values ('saurabh', 'kumar');

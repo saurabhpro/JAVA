@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 public class HomepageController {
 
-    private static final Logger logger = LoggerFactory.getLogger(HomepageController.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(HomepageController.class);
 
     private final CustomerDao customerDao;
 
@@ -23,7 +23,7 @@ public class HomepageController {
     @GetMapping("/customers")
     public List<Customer> customers() {
         List<Customer> customers = customerDao.findAll();
-        customers.forEach(c -> logger.info("Found a customer: {}", c));
+        customers.forEach(c -> LOGGER.info("Found a customer: {}", c));
         return customers;
     }
 }
