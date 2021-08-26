@@ -25,3 +25,5 @@ jobs:
       run: mvn -B package --file JavaCon/pom.xml
     - name: Build with Maven Testing
       run: mvn -B package --file Testing/pom.xml
+    - name: Test Containers
+      run: mvn -B package --file Testing/TestContainers/pom.xml
