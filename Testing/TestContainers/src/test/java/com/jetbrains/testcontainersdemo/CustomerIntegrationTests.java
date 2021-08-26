@@ -66,7 +66,7 @@ public class CustomerIntegrationTests {
         moreActionsOnContainers();
 
         List<Customer> customers = customerDao.findAll();
-        assertThat(customers).hasSize(2);
+        assertThat(customers).hasSize(3);
     }
 
     private void moreActionsOnContainers() throws IOException, InterruptedException {
