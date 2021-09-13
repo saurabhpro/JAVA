@@ -19,14 +19,14 @@
         <maven.compiler.source>16</maven.compiler.source>
 
         <!-- testing -->
-        <junit-jupiter.version>5.7.2</junit-jupiter.version>
+        <junit-jupiter.version>5.8.0</junit-jupiter.version>
         <testng.version>7.4.0</testng.version>
         <hemcrest.version>2.2</hemcrest.version>
         <assertj.version>3.20.2</assertj.version>
         <avaitility.version>1.7.0</avaitility.version>
 
         <!-- logging -->
-        <logback.version>1.2.5</logback.version>
+        <logback.version>1.2.6</logback.version>
         <slf4j-api.version>1.7.32</slf4j-api.version>
 
         <lombok.version>1.18.20</lombok.version>
