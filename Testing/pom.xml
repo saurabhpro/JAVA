@@ -12,7 +12,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>16</java.version>
-        <junit.version.intellij.supports>5.8.0</junit.version.intellij.supports>
+        <junit.version.intellij.supports>5.8.1</junit.version.intellij.supports>
     </properties>
 
     <dependencies>
