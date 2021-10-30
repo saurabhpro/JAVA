@@ -32,7 +32,7 @@ public class B_FirstClassCitizenVariableIllustration {
         // then invoked.
         // ---------------------------------------------------------------------
         B_FirstClassCitizenVariableIllustration instance = new B_FirstClassCitizenVariableIllustration();
-        concatFunction = (a, b) -> instance.concatStrings2(a, b);
+        concatFunction = instance::concatStrings2;
         System.out.println(concatFunction.apply("Hello ", "World 3"));
     }
 

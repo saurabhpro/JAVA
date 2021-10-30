@@ -16,12 +16,13 @@ import static pluralsight.rxjava.observable.util.DataGenerator.LINE;
  * <p>
  */
 
-public class Ob2SpecialObservablesP2 {
-    private static final Logger LOG = LoggerFactory.getLogger(Ob2SpecialObservablesP2.class);
+public class Ob2SpecialObservablesMaybe {
+    private static final Logger LOG = LoggerFactory.getLogger(Ob2SpecialObservablesMaybe.class);
 
     public static void main(String[] args) {
         createSingle();
         createMaybe();
+        createMaybe2();
         createCompletable();
     }
 
@@ -62,6 +63,25 @@ public class Ob2SpecialObservablesP2 {
                 LOG.info("Done");
             }
         });
+    }
+
+    private static void createMaybe2() {
+        LOG.info(LINE);
+
+        // has emission
+        Maybe<Integer> source = Maybe.just(100);
+        source.subscribe(s -> System.out.println("Process 1: " + s),
+                e -> System.out.println("Error captured: " + e),
+                () -> System.out.println("Process 1 done!"));
+        // message Process 1 done! does not come up because there is no ambiguity: the Maybe
+        // observable cannot emit more than one item, so it is completed implicitly.
+
+        //no emission
+
+        Maybe<Integer> empty = Maybe.empty();
+        empty.subscribe(s -> System.out.println("Process 2: " + s),
+                e -> System.out.println("Error captured: " + e),
+                () -> System.out.println("Process 2 done!"));
     }
 
     /**

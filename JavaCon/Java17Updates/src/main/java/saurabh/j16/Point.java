@@ -1,4 +1,4 @@
-package saurabh;
+package saurabh.j16;
 
 record PointRecord(int latitude, int longitude) {
 }

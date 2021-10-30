@@ -13,8 +13,8 @@ import static pluralsight.rxjava.observable.util.ThreadUtils.sleep;
  * We've created Observable using two factory methods i.e., Observable.empty() and Observable.never()
  */
 
-public class Ob2SpecialObservables {
-    private static final Logger LOG = LoggerFactory.getLogger(Ob2SpecialObservables.class);
+public class Ob2SpecialObservablesDefer {
+    private static final Logger LOG = LoggerFactory.getLogger(Ob2SpecialObservablesDefer.class);
     private static int count = 2;
 
     public static void main(String[] args) {

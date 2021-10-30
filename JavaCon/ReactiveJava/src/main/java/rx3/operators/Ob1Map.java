@@ -2,7 +2,7 @@ package rx3.operators;
 
 import io.reactivex.rxjava3.core.Observable;
 
-public class Ob5Map {
+public class Ob1Map {
 
     public static void main(String[] args) {
         exMap();
