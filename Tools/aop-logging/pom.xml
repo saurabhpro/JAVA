@@ -14,7 +14,7 @@
     <name>aop</name>
     <description>A logging AOP example</description>
     <properties>
-        <java.version>16</java.version>
+        <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>

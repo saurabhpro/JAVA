@@ -27,13 +27,7 @@
         </dependency>
 
         <!-- https://stackoverflow.com/questions/38993446/cannot-create-launcher-without-at-least-one-testengine
-        -consider-adding-an-engin -->
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>${junit.version.intellij.supports}</version>
-            <scope>test</scope>
-        </dependency>
+        -consider-adding-an-engine -->
 
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
         <dependency>
