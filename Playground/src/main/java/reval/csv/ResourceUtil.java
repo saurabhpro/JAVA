@@ -25,7 +25,7 @@ public class ResourceUtil {
         return pathFiles;
     }
 
-    static Path getResourceFile(String fileName) {
+   public static Path getResourceFile(String fileName) {
 
         List<Path> resourceFolderFiles = getResourceFolderFiles();
 

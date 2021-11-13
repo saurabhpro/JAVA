@@ -1,0 +1,28 @@
+[
+  {
+    "bladeId": 1001,
+    "locales": [
+      { "localeId": "de-DE", "languageCountry" : "German", "localeName": "Deutsch", "sortOrder": 1 },
+      { "localeId": "es-ES", "languageCountry" : "Spanish", "localeName": "Español", "sortOrder": 2 },
+      { "localeId": "fr-CA", "languageCountry" : "French (Canadian)", "localeName": "Français (Canada)", "sortOrder": 3 },
+      { "localeId": "fr-FR", "languageCountry" : "French", "localeName": "Français", "sortOrder": 4 },
+      { "localeId": "pt-BR", "languageCountry" : "Portuguese (Brazil)", "localeName": "Português (Brasil)", "sortOrder": 5 },
+      { "localeId": "pt-PT", "languageCountry" : "Portuguese (European)", "localeName": "Português (europeu)", "sortOrder": 6 },
+      { "localeId": "zh-CN", "languageCountry" : "Chinese (China)", "localeName": "中文（简体", "sortOrder": 7 },
+      { "localeId": "zh-CHT", "languageCountry" : "Chinese (Traditional)", "localeName": "中文（繁體", "sortOrder": 8 },
+      { "localeId": "ja-JP", "languageCountry" : "Japanese", "localeName": "日本語", "sortOrder": 9 },
+      { "localeId": "en-US", "languageCountry" : "English", "localeName": "English", "sortOrder": 10 }
+    ]
+  },
+  {
+    "bladeId": 2,
+    "locales": [
+      { "localeId": "de-DE", "languageCountry" : "German", "localeName": "Deutsch", "sortOrder": 1 },
+      { "localeId": "es-ES", "languageCountry" : "Spanish", "localeName": "Español" },
+      { "localeId": "fr-CA", "languageCountry" : "French (Canadian)", "localeName": "Français (Canada)", "sortOrder": 3 },
+      { "localeId": "fr-FR", "languageCountry" : "French", "localeName": "Français"},
+      { "localeId": "pt-BR", "languageCountry" : "Portuguese (Brazil)", "localeName": "Português (Brasil)"},
+      { "localeId": "pt-PT", "languageCountry" : "Portuguese (European)", "localeName": "Português (europeu)", "sortOrder": 5 }
+    ]
+  }
+]
