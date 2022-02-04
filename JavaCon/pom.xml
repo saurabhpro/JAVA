@@ -27,7 +27,7 @@
 
         <!-- logging -->
         <logback.version>1.2.10</logback.version>
-        <slf4j-api.version>1.7.32</slf4j-api.version>
+        <slf4j-api.version>1.7.33</slf4j-api.version>
 
         <lombok.version>1.18.22</lombok.version>
         <commons-io.version>2.11.0</commons-io.version>
