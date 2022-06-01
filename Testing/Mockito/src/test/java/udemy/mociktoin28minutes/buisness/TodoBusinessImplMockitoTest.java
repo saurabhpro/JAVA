@@ -2,8 +2,13 @@ package udemy.mociktoin28minutes.buisness;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.*;
-import org.mockito.runners.MockitoJUnitRunner;
+import org.mockito.ArgumentCaptor;
+import org.mockito.BDDMockito;
+import org.mockito.Captor;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.junit.MockitoJUnitRunner;
 import udemy.mociktoin28minutes.data.api.TodoService;
 
 import java.util.Arrays;
@@ -30,7 +35,7 @@ public class TodoBusinessImplMockitoTest {
 	private ArgumentCaptor<String> stringArgumentCaptor;
 	//ArgumentCaptor<String> argumentCaptor = ArgumentCaptor.forClass(String.class);
 
-	private List<String> allTodoTasks = Arrays.asList("Learn Spring MVC", "Learn Spring", "Learn to Dance");
+	private final List<String> allTodoTasks = Arrays.asList("Learn Spring MVC", "Learn Spring", "Learn to Dance");
 
 	@Test
 	public void usingMockito() {

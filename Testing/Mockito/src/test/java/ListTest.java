@@ -2,7 +2,6 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.mockito.BDDMockito;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.exceptions.misusing.InvalidUseOfMatchersException;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
@@ -11,9 +10,11 @@ import java.util.Collections;
 import java.util.List;
 
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.*;
-import static org.mockito.Matchers.anyInt;
-import static org.mockito.Matchers.eq;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertThat;
+import static org.mockito.ArgumentMatchers.anyInt;
+import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.when;
 
 /**
@@ -74,14 +75,14 @@ public class ListTest {
 
 	@Test(expected = RuntimeException.class)
 	public void letsMockListGetToThrowException() {
-		when(list.get(Mockito.anyInt())).thenThrow(new RuntimeException("Something went wrong"));
+		when(list.get(anyInt())).thenThrow(new RuntimeException("Something went wrong"));
 		list.get(0);
 	}
 
 	@Test
 	public void letsMockListGetWithAny() {
 		//Argument Matcher
-		when(list.get(Mockito.anyInt())).thenReturn("in28Minutes");
+		when(list.get(anyInt())).thenReturn("in28Minutes");
 
 		//THEN
 		assertEquals("in28Minutes", list.get(0));
@@ -110,7 +111,7 @@ public class ListTest {
 	@Test
 	public void bddAliases_UsingGivenWillReturn() {
 		//given
-		BDDMockito.given(list.get(Mockito.anyInt())).willReturn("in28Minutes");
+		BDDMockito.given(list.get(anyInt())).willReturn("in28Minutes");
 
 		//THEN
 		assertThat("in28Minutes", is(list.get(0)));
