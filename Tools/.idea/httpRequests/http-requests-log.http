@@ -1,0 +1,21 @@
+GET http://localhost:8080/products
+
+<> 2021-03-08T233528.200.json
+
+###
+
+POST http://localhost:8080/products
+Content-Type: application/json
+
+[
+  {
+    "name": "New Book",
+    "price": 599.0
+  },
+  {
+    "name": "new laptop",
+    "price": 178000.0
+  }
+]
+
+<> 2021-03-08T233521.200.json

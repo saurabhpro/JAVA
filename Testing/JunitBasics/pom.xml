@@ -38,6 +38,9 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- https://stackoverflow.com/questions/38993446/cannot-create-launcher-without-at-least-one-testengine
+        -consider-adding-an-engine -->
+
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
         <dependency>
             <groupId>org.apache.commons</groupId>

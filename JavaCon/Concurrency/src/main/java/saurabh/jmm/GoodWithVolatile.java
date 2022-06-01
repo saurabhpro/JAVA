@@ -8,16 +8,6 @@ public class GoodWithVolatile {
 
     private volatile int counter = 0;
 
-    void read(int version) {
-        System.out.println("Thread 1." + version + ": " + counter);
-    }
-
-    void write(int version) {
-        counter++;
-
-        System.out.println("Thread 2." + version + ": " + counter);
-    }
-
     public static void main(String[] args) {
         action();
     }
@@ -45,5 +35,15 @@ public class GoodWithVolatile {
             Thread 1.5: 5
             Thread 2.5: 5
          */
+    }
+
+    void read(int version) {
+        System.out.println("Thread 1." + version + ": " + counter);
+    }
+
+    void write(int version) {
+        counter++;
+
+        System.out.println("Thread 2." + version + ": " + counter);
     }
 }

@@ -24,7 +24,6 @@ public class LostMessage {
 			// Using 'return' inside the finally block
 			// will silence any thrown exception.
 			//works even in java 9 - intellij thinks its unnecessary
-			//noinspection UnnecessaryReturnStatement
 			return;
 		}
 	}

@@ -1,0 +1,19 @@
+{
+  "groupName": "Renovate Dependency Scan",
+  "separateMajorMinor": false,
+  "groupSlug": "all",
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "*"
+      ],
+      "groupName": "Renovate Dependency Scan",
+      "groupSlug": "all"
+    }
+  ],
+  "extends": [
+    "config:base",
+    "schedule:earlyMondays"
+  ],
+  "ignoreDeps": []
+}

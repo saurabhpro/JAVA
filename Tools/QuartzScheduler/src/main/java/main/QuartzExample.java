@@ -62,7 +62,6 @@ public class QuartzExample {
             TimeUnit.SECONDS.sleep(60);
 
             scheduler.shutdown();
-
         } catch (SchedulerException e) {
             e.printStackTrace();
         }

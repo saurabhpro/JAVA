@@ -8,87 +8,88 @@ import static java.lang.System.out;
 
 public class A_CarWithSideEffects {
 
-	private int remainingFuel;
+    private int remainingFuel;
 
-	public A_CarWithSideEffects(int startingFuel) {
-		this.remainingFuel = startingFuel;
-	}
+    public A_CarWithSideEffects(int startingFuel) {
+        this.remainingFuel = startingFuel;
+    }
 
-	private static void safeSleep(int milliseconds) {
-		try {
-			out.printf("%1s - Something stole your thread!  Your are going to sleep!\n", Thread.currentThread().getName());
+    private static void safeSleep(int milliseconds) {
+        try {
+            out.printf("%1s - Something stole your thread!  Your are going to sleep!%n",
+                    Thread.currentThread().getName());
 
-			Thread.sleep(milliseconds);
-		} catch (InterruptedException ignored) {
-		}
-	}
+            Thread.sleep(milliseconds);
+        } catch (InterruptedException ignored) {
+        }
+    }
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		try {
-			A_CarWithSideEffects c = new A_CarWithSideEffects(10);
+        try {
+            A_CarWithSideEffects c = new A_CarWithSideEffects(10);
 
-			// Create thread 1
-			Thread t1 = new Thread(() -> {
+            // Create thread 1
+            Thread t1 = new Thread(() -> {
 
-				out.print("Thread 1 started...\n");
+                out.print("Thread 1 started...\n");
 
-				if (c.hasFuel(10)) {
+                if (c.hasFuel(10)) {
 
-					out.print("Thread 1 - Car has the fuel to move 10 units!\n");
+                    out.print("Thread 1 - Car has the fuel to move 10 units!%n");
 
-					// We have the fuel...move!  But first, exagerage the possible problem
-					safeSleep(2000);
+                    // We have the fuel...move!  But first, exagerage the possible problem
+                    safeSleep(2000);
 
-					c.move(10);
+                    c.move(10);
 
-					out.printf("Thread 1 - I move the %d units car!\n", 10);
-				}
+                    out.printf("Thread 1 - I move the %d units car!%n", 10);
+                }
 
-			}, "Thread #1");
+            }, "Thread #1");
 
-			// Create thread 2
-			Thread t2 = new Thread(() -> {
+            // Create thread 2
+            Thread t2 = new Thread(() -> {
 
-				out.print("Thread 2 started...\n");
+                out.print("Thread 2 started...\n");
 
-				if (c.hasFuel(5)) {
+                if (c.hasFuel(5)) {
 
-					out.print("Thread 2 - Car has the fuel to move 5 units!\n");
+                    out.print("Thread 2 - Car has the fuel to move 5 units!\n");
 
-					// We have the fuel...move quickly
-					c.move(5);
+                    // We have the fuel...move quickly
+                    c.move(5);
 
-					out.printf("Thread 2 - I moved the car %d units!\n", 5);
-				}
+                    out.printf("Thread 2 - I moved the car %d units!%n", 5);
+                }
 
-			}, "Thread #2");
+            }, "Thread #2");
 
-			// Start both threads...give thread 1 a chance to go first
-			t1.start();
-			Thread.sleep(100);
-			t2.start();
+            // Start both threads...give thread 1 a chance to go first
+            t1.start();
+            Thread.sleep(100);
+            t2.start();
 
-			// Assuming we get here...join the threads before stopping
-			t1.join();
-			t2.join();
-		} catch (InterruptedException ignored) {
-		}
+            // Assuming we get here...join the threads before stopping
+            t1.join();
+            t2.join();
+        } catch (InterruptedException ignored) {
+        }
 
-		System.exit(0);
-	}
+        System.exit(0);
+    }
 
-	public synchronized boolean hasFuel(int distance) {
-		return distance <= remainingFuel;
-	}
+    public synchronized boolean hasFuel(int distance) {
+        return distance <= remainingFuel;
+    }
 
-	public synchronized void move(int distance) {
+    public synchronized void move(int distance) {
 
-		if (distance > remainingFuel) {
-			throw new IllegalStateException(String.format("The car doesn't have the fuel to move %1s units.", distance));
-		}
-		remainingFuel -= distance;
-	}
+        if (distance > remainingFuel) {
+            throw new IllegalStateException(String.format("The car doesn't have the fuel to move %1s units.", distance));
+        }
+        remainingFuel -= distance;
+    }
 }
 
 

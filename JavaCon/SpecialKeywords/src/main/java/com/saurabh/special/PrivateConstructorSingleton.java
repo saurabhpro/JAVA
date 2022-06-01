@@ -87,7 +87,7 @@ class Singleton {  //Static Class Reference
  */
 public class PrivateConstructorSingleton {
 
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		//Object cannot be created directly due to private constructor
 		//This way it is forced to create object via our method where
 		//we have logic for only one object a_creation

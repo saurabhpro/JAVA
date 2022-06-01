@@ -4,77 +4,85 @@
 
 package java9;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Java9Optional {
 
-	public static void main(String[] args) {
+    private static final Logger LOG = LoggerFactory.getLogger(Java9Optional.class);
 
-		System.out.println("--- stream() ---");
-		// throw java.util.NoSuchElementException
-		// List<String> strings = getStreamOptional().map(Optional::get).collect(Collectors.toList());
+    public static void main(String[] args) {
 
-		List<String> strings = getStreamOptional()
-				.filter(Optional::isPresent)
-				.map(Optional::get)
-				.collect(Collectors.toList());
+        LOG.info("--- stream() ---");
+        try {
+            final var collect = getStreamOptional().map(Optional::get).collect(Collectors.toList());
+            LOG.info(collect.toString());
+        } catch (NoSuchElementException e) {
+            LOG.error("calling collect on empty optional throws", e.fillInStackTrace());
+        }
 
-		System.out.println(strings);
+        List<Optional<String>> strings = getStreamOptional()
+                .filter(Optional::isPresent)
+                .collect(Collectors.toList());
 
-		List<String> newStrings = getStreamOptional()
-				.flatMap(Optional::stream)
-				.collect(Collectors.toList());
+        LOG.info("map {}", strings);
 
-		System.out.println(newStrings);
+        List<String> newStrings = getStreamOptional()
+                .flatMap(Optional::stream)
+                .collect(Collectors.toList());
 
-		System.out.println("\n--- ifPresent()/isPresent()/orElse() ---");
-		Optional<Integer> result1 = Optional.of(42);
-		result1.ifPresent(x -> System.out.println("Result = " + x));
+        LOG.info("flatMap {}", newStrings);
 
-		Optional<Integer> result2 = Optional.empty();
-		result2.ifPresent(x -> System.out.println("Result = " + x));
+        LOG.info("--- ifPresent()/isPresent()/orElse() ---");
+        Optional<Integer> result1 = Optional.of(42);
+        result1.ifPresent(x -> LOG.info("Result = {}", x));
 
-		//noinspection ConstantConditions
-		if (result2.isPresent())
-			System.out.println("Result = " + result2.get());
-		else
-			System.out.println("return " + result2.orElse(-1) + ": Result not found.");
+        Optional<Integer> result2 = Optional.empty();
+        result2.ifPresent(x -> LOG.info("Result = {}", x));
 
-		System.out.println("\n--- ifPresentOrElse() ---");
-		Optional<Integer> result3 = getOptionalEmpty();
-		result3.ifPresentOrElse(x -> System.out.println("Result = " + x),
-				() -> System.out.println("return " + result2.orElse(-1) + ": Result not found."));
+        //noinspection ConstantConditions
+        if (result2.isPresent())
+            LOG.info("Result = {}", result2.get());
+        else
+            LOG.info("return {}: Result not found.", result2.orElse(-1));
 
-		System.out.println("\n--- or() ---");
-		//noinspection Convert2MethodRef
-		Optional<Integer> result = getOptionalEmpty()
-				.or(() -> getAnotherOptionalEmpty())
-				.or(() -> getOptionalNormal())
-				.or(() -> getAnotherOptionalNormal());
-		System.out.println(result);
-	}
+        LOG.info("--- If PresentOrElse (Consumer, Runnable) ---");
+        Optional<Integer> result3 = getOptionalEmpty();
+        result3.ifPresentOrElse(x -> LOG.info("Result = {}", x),
+                () -> LOG.info("return {}: Result not found.", result2.orElse(-1)));
 
-	private static Optional<Integer> getOptionalNormal() {
-		return Optional.of(42);
-	}
+        LOG.info("--- or() ---");
+        //noinspection Convert2MethodRef
+        Optional<Integer> result = getOptionalEmpty()
+                .or(() -> getAnotherOptionalEmpty())
+                .or(() -> getOptionalNormal())
+                .or(() -> getAnotherOptionalNormal());
+        LOG.info("{}", result);
+    }
 
-	private static Optional<Integer> getAnotherOptionalNormal() {
-		return Optional.of(99);
-	}
+    private static Optional<Integer> getOptionalNormal() {
+        return Optional.of(42);
+    }
 
-	private static Optional<Integer> getOptionalEmpty() {
-		return Optional.empty();
-	}
+    private static Optional<Integer> getAnotherOptionalNormal() {
+        return Optional.of(99);
+    }
 
-	private static Optional<Integer> getAnotherOptionalEmpty() {
-		return Optional.empty();
-	}
+    private static Optional<Integer> getOptionalEmpty() {
+        return Optional.empty();
+    }
 
-	private static Stream<Optional<String>> getStreamOptional() {
+    private static Optional<Integer> getAnotherOptionalEmpty() {
+        return Optional.empty();
+    }
 
-		return Stream.of(Optional.empty(), Optional.of("one"), Optional.of("two"), Optional.of("three"));
-	}
+    private static Stream<Optional<String>> getStreamOptional() {
+        return Stream.of(Optional.empty(), Optional.of("one"), Optional.of("two"), Optional.of("three"));
+    }
 }

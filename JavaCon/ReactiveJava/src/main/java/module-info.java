@@ -1,3 +1,6 @@
 module ReactiveJava {
-	requires io.reactivex.rxjava2;
+    requires org.slf4j;
+    requires io.reactivex.rxjava3;
+    requires org.jetbrains.annotations;
+
 }

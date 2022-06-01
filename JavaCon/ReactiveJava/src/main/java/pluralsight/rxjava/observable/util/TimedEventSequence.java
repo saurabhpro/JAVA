@@ -4,116 +4,117 @@
 
 package pluralsight.rxjava.observable.util;
 
-import io.reactivex.Observable;
-import io.reactivex.subjects.PublishSubject;
+
+import io.reactivex.rxjava3.core.Observable;
+import io.reactivex.rxjava3.subjects.PublishSubject;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class TimedEventSequence<T> {
 
-	private final PublishSubject<T> subject;
-	private final ArrayList<T> eventData;
-	private final long intervalMs;
+    private final PublishSubject<T> subject;
+    private final ArrayList<T> eventData;
+    private final long intervalMs;
 
-	private int offset;
-	private long lastTick;
-	private Thread tickThread;
-	private volatile boolean paused = false;
+    private int offset;
+    private long lastTick;
+    private Thread tickThread;
+    private volatile boolean paused = false;
 
-	public TimedEventSequence(List<T> eventData, long intervalMs) {
-		this.eventData = new ArrayList<T>(eventData);
-		this.intervalMs = intervalMs;
-		this.offset = 0;
-		this.subject = PublishSubject.create();
-		this.tickThread = null;
-	}
+    public TimedEventSequence(List<T> eventData, long intervalMs) {
+        this.eventData = new ArrayList<T>(eventData);
+        this.intervalMs = intervalMs;
+        this.offset = 0;
+        this.subject = PublishSubject.create();
+        this.tickThread = null;
+    }
 
-	public synchronized void start() {
+    public synchronized void start() {
 
-		if (tickThread != null) {
-			return; // No active thread.
-		}
+        if (tickThread != null) {
+            return; // No active thread.
+        }
 
-		lastTick = System.currentTimeMillis();
+        lastTick = System.currentTimeMillis();
 
-		paused = false;
+        paused = false;
 
-		tickThread = new Thread(() -> {
+        tickThread = new Thread(() -> {
 
-			try {
-				while (!Thread.interrupted()) {
-					Thread.sleep(5);
+            try {
+                while (!Thread.interrupted()) {
+                    Thread.sleep(5);
 
-					// If we are paused then don't send the ticks.
-					if (paused) {
-						continue;
-					}
+                    // If we are paused then don't send the ticks.
+                    if (paused) {
+                        continue;
+                    }
 
-					// Get the current time
-					long currentTime = System.currentTimeMillis();
-					if (currentTime - lastTick > intervalMs) {
-						lastTick = currentTime;
-						subject.onNext(nextEvent());
-					}
-				}
-			} catch (InterruptedException e) {
-				// suppress
-			} catch (Throwable t) {
-				// Notify all subscribers that there has been an error.
-				subject.onError(t);
-			}
+                    // Get the current time
+                    long currentTime = System.currentTimeMillis();
+                    if (currentTime - lastTick > intervalMs) {
+                        lastTick = currentTime;
+                        subject.onNext(nextEvent());
+                    }
+                }
+            } catch (InterruptedException e) {
+                // suppress
+            } catch (Throwable t) {
+                // Notify all subscribers that there has been an error.
+                subject.onError(t);
+            }
 
-			// Make sure all subscribers are told that the list is complete
-			subject.onComplete();
+            // Make sure all subscribers are told that the list is complete
+            subject.onComplete();
 
-		}, "TimedEventSequence Thread");
-		tickThread.start();
-	}
+        }, "TimedEventSequence Thread");
+        tickThread.start();
+    }
 
-	public synchronized void stop() {
-		if (tickThread == null) {
-			return; // The ticker thread isn't running.
-		}
+    public synchronized void stop() {
+        if (tickThread == null) {
+            return; // The ticker thread isn't running.
+        }
 
-		tickThread.interrupt();
-		try {
-			tickThread.join();
-		} catch (InterruptedException ex) {
-			// suppress
-		}
-		tickThread = null;
-	}
+        tickThread.interrupt();
+        try {
+            tickThread.join();
+        } catch (InterruptedException ex) {
+            // suppress
+        }
+        tickThread = null;
+    }
 
-	public void pause() {
-		paused = true;
-	}
+    public void pause() {
+        paused = true;
+    }
 
-	public void unpause() {
-		paused = false;
-	}
+    public void unpause() {
+        paused = false;
+    }
 
-	private synchronized T nextEvent() {
+    private synchronized T nextEvent() {
 
-		if (eventData == null) {
-			return null;
-		}
+        if (eventData == null) {
+            return null;
+        }
 
-		int size = eventData.size();
-		if (size == 0) {
-			return null;
-		}
+        int size = eventData.size();
+        if (size == 0) {
+            return null;
+        }
 
-		if (offset >= eventData.size()) {
-			offset = 0;
-		}
+        if (offset >= eventData.size()) {
+            offset = 0;
+        }
 
-		return eventData.get(offset++);
+        return eventData.get(offset++);
 
-	}
+    }
 
-	public Observable<T> toObservable() {
-		return subject;
-	}
+    public Observable<T> toObservable() {
+        return subject;
+    }
 
 }

@@ -18,7 +18,7 @@ public class LoggingExceptionsWrongOne {
 	private static void logException(Exception e) {
 		StringWriter trace = new StringWriter();
 		e.printStackTrace(new PrintWriter(trace));
-		logger.trace(trace.toString());
+		logger.debug(trace.toString());
 	}
 
 	public static void main(String[] args) {

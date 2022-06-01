@@ -11,104 +11,106 @@ import java.util.List;
 
 public class DataGenerator {
 
-	public static List<String> generateGreekAlphabet() {
+    public static String LINE = "-----------------------------";
 
-		String[] greekLetters = {
-				"Alpha",
-				"Beta",
-				"Gamma",
-				"Delta",
-				"Epsilon",
-				"Zeta",
-				"Eta",
-				"Theta",
-				"Iota",
-				"Kappa",
-				"Lambda",
-				"Mu",
-				"Nu",
-				"Xi",
-				"Omicron",
-				"Pi",
-				"Rho",
-				"Sigma",
-				"Tau",
-				"Upsilon",
-				"Phi",
-				"Chi",
-				"Psi",
-				"Omega"
-		};
+    public static List<String> generateGreekAlphabet() {
 
-		return Arrays.asList(greekLetters);
-	}
+        String[] greekLetters = {
+                "Alpha",
+                "Beta",
+                "Gamma",
+                "Delta",
+                "Epsilon",
+                "Zeta",
+                "Eta",
+                "Theta",
+                "Iota",
+                "Kappa",
+                "Lambda",
+                "Mu",
+                "Nu",
+                "Xi",
+                "Omicron",
+                "Pi",
+                "Rho",
+                "Sigma",
+                "Tau",
+                "Upsilon",
+                "Phi",
+                "Chi",
+                "Psi",
+                "Omega"
+        };
 
-	public static List<String> generateScrambledAndDuppedGreekAlphabet() {
+        return Arrays.asList(greekLetters);
+    }
 
-		ArrayList<String> returnList = new ArrayList<>();
+    public static List<String> generateScrambledAndDuppedGreekAlphabet() {
 
-		returnList.addAll(generateGreekAlphabet());
-		returnList.addAll(generateGreekAlphabet());
-		returnList.addAll(generateGreekAlphabet());
+        ArrayList<String> returnList = new ArrayList<>();
 
-		// shuffling the result
-		Collections.shuffle(returnList);
+        returnList.addAll(generateGreekAlphabet());
+        returnList.addAll(generateGreekAlphabet());
+        returnList.addAll(generateGreekAlphabet());
 
-		return returnList;
-	}
+        // shuffling the result
+        Collections.shuffle(returnList);
 
-	public static List<Integer> generateBigIntegerList() {
+        return returnList;
+    }
 
-		ArrayList<Integer> returnList = new ArrayList<>();
-		for (int i = 0; i < 200; i++) {
-			returnList.add(i);
-		}
+    public static List<Integer> generateBigIntegerList() {
 
-		return returnList;
-	}
+        ArrayList<Integer> returnList = new ArrayList<>();
+        for (int i = 0; i < 200; i++) {
+            returnList.add(i);
+        }
 
-	public static void emitFibonacciList(List<Integer> emitList) {
+        return returnList;
+    }
 
-		emitList.add(1);
-		emitList.add(2);
-		emitList.add(3);
-		emitList.add(5);
-		emitList.add(8);
-		emitList.add(13);
-		emitList.add(21);
-		emitList.add(34);
-	}
+    public static void emitFibonacciList(List<Integer> emitList) {
 
-	public static List<Integer> generateFibonacciList() {
+        emitList.add(1);
+        emitList.add(2);
+        emitList.add(3);
+        emitList.add(5);
+        emitList.add(8);
+        emitList.add(13);
+        emitList.add(21);
+        emitList.add(34);
+    }
 
-		ArrayList<Integer> returnList = new ArrayList<>();
-		returnList.add(1);
-		returnList.add(2);
-		returnList.add(3);
-		returnList.add(5);
-		returnList.add(8);
-		returnList.add(13);
-		returnList.add(21);
-		returnList.add(34);
+    public static List<Integer> generateFibonacciList() {
 
-		return returnList;
-	}
+        ArrayList<Integer> returnList = new ArrayList<>();
+        returnList.add(1);
+        returnList.add(2);
+        returnList.add(3);
+        returnList.add(5);
+        returnList.add(8);
+        returnList.add(13);
+        returnList.add(21);
+        returnList.add(34);
 
-	public static Integer[] generateFibonacciArray() {
+        return returnList;
+    }
 
-		return new Integer[]{
-				1, 2, 3, 5, 8, 13, 21, 34
-		};
-	}
+    public static Integer[] generateFibonacciArray() {
 
-	public static List<String> generateEnglishAlphabet() {
+        return new Integer[]{
+                1, 2, 3, 5, 8, 13, 21, 34
+        };
+    }
 
-		ArrayList<String> returnList = new ArrayList<>();
-		for (char ch = 'A'; ch <= 'Z'; ch++) {
-			returnList.add(new String(new char[]{ch}));
-		}
+    public static List<String> generateEnglishAlphabet() {
 
-		return returnList;
-	}
+        ArrayList<String> returnList = new ArrayList<>();
+        for (char ch = 'A'; ch <= 'Z'; ch++) {
+            returnList.add(String.valueOf(ch));
+        }
+
+        return returnList;
+    }
 
 }

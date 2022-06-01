@@ -13,7 +13,7 @@ class A {
 }
 
 class B {
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		A a = new A();
 		System.out.println(a.x + " " + a.y);    // HOW!!!
 	}

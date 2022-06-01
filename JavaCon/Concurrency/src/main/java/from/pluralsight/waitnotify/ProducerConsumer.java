@@ -34,7 +34,7 @@ public class ProducerConsumer {
             System.out.println("Done producing");
         };
         Runnable consumeTask = () -> {
-            IntStream.range(0, 45).forEach(i -> consumer.consume());
+            IntStream.range(0, 100).forEach(i -> consumer.consume());
             System.out.println("Done consuming");
         };
 

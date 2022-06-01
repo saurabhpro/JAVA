@@ -33,17 +33,6 @@
         </plugins>
     </build>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>${junit.version.intellij.supports}</version>
-            <scope>test</scope>
-        </dependency>
-
-    </dependencies>
-
-
     <modules>
         <module>ManualStubTesting</module>
         <module>Hamcrest</module>
@@ -51,6 +40,7 @@
         <module>PluralSight</module>
         <module>JunitBasics</module>
         <module>TestDrivenDevelopment</module>
+        <module>MutationPITesting</module>
     </modules>
 
 
