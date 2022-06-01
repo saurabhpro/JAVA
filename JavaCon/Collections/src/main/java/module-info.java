@@ -1,3 +1,3 @@
 module Collections {
-    requires org.jetbrains.annotations;
+	requires org.jetbrains.annotations;
 }

@@ -9,19 +9,24 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Hamcrest</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-library</artifactId>
-            <version>2.2</version>
+            <version>${hemcrest.version}</version>
             <scope>test</scope>
         </dependency>
 
+        <!--for legacy learning reasons keeping it-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.13.2</version>
+            <version>${junit.version.legacy}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <artifactId>Hamcrest</artifactId>
+
+
 </project>

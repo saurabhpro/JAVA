@@ -1,4 +1,4 @@
-package saurabh.j14;
+package saurabh;
 
 public class SwitchExpressions_JEP354 {
 

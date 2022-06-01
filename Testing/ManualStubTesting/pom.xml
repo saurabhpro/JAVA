@@ -14,8 +14,9 @@
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-library</artifactId>
-            <version>2.2</version>
+            <version>${hemcrest.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 </project>

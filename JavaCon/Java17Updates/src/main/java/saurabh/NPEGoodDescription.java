@@ -1,4 +1,4 @@
-package saurabh.j14;
+package saurabh;
 
 /**
  * Java 11 added the Descriptive NPE to array access NPE's
@@ -17,13 +17,13 @@ public class NPEGoodDescription {
         /*
         >= Java 14
         Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "x" is null
-	        at saurabh.j14.NPEGoodDescription.np(NPEGoodDescription.java:8)
-	        at saurabh.j14.NPEGoodDescription.main(NPEGoodDescription.java:11)
+	        at saurabh.NPEGoodDescription.np(NPEGoodDescription.java:8)
+	        at saurabh.NPEGoodDescription.main(NPEGoodDescription.java:11)
 
 	     < Java 14
 	     Exception in thread "main" java.lang.NullPointerException
-	        at saurabh.j14.NPEGoodDescription.np(MyClass.java:14)
-	        at saurabh.j14.NPEGoodDescription.main(MyClass.java:9)
+	        at saurabh.NPEGoodDescription.np(MyClass.java:14)
+	        at saurabh.NPEGoodDescription.main(MyClass.java:9)
          */
 
         int[] a = new int[2];
@@ -31,7 +31,7 @@ public class NPEGoodDescription {
         /*
          >= Java 11
         Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 2
-	        at saurabh.j14.NPEGoodDescription.main(NPEGoodDescription.java:19)
+	        at saurabh.NPEGoodDescription.main(NPEGoodDescription.java:19)
 
 	     < Java 11
 	    Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
