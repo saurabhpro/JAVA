@@ -15,8 +15,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.target>15</maven.compiler.target>
-        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <lombok.version>1.18.24</lombok.version>
+        <junit.version>5.8.2</junit.version>
     </properties>
 
     <dependencies>
@@ -24,7 +26,7 @@
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
-            <version>15.0</version>
+            <version>23.0.0</version>
         </dependency>
     </dependencies>
 
@@ -33,13 +35,13 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
+                <version>3.10.1</version>
                 <configuration>
-                    <source>15</source>
-                    <target>15</target>
-                    <compilerArgs>
-                        --enable-preview
-                    </compilerArgs>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+<!--                    <compilerArgs>-->
+<!--                        &#45;&#45;enable-preview-->
+<!--                    </compilerArgs>-->
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
@@ -71,7 +73,6 @@
         <module>Streams</module>
         <module>ReactiveJava</module>
         <module>Java11Updates</module>
-        <module>Java14Updates</module>
-        <module>Java15Updates</module>
+        <module>Java17Updates</module>
     </modules>
 </project>
