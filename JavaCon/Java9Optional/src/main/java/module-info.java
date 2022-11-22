@@ -1,5 +1,5 @@
 module Java9Optional {
-    requires logback.core;
-    requires logback.classic;
+    requires ch.qos.logback.core;
+    requires ch.qos.logback.classic;
     requires org.slf4j;
 }
