@@ -11,5 +11,8 @@ public class TextBlocks {
                 """;
 
         System.out.println(html);
+
+        final var formatted = "%s is not same as %s".formatted("❤️", "🫦");
+        System.out.println(formatted);
     }
 }

@@ -4,8 +4,8 @@ public class SwitchExpressions_JEP354 {
 
     public static void main(String[] args) {
 
-        System.out.println(getValueViaYield("a"));
-        System.out.println(getValueViaYield("c"));
+        System.out.println(getValueBefore14("a"));
+        System.out.println(getValueMultipleLabels("c"));
         System.out.println(getValueViaArrow("e"));
         System.out.println(getValueViaYield("z"));
 
