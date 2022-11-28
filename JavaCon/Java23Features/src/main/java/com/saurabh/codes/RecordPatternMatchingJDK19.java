@@ -1,7 +1,7 @@
-package saurabh.java;
+package com.saurabh.codes;
 
-import static saurabh.java.RecordPatternMatchingJDK19.Color.GREEN;
-import static saurabh.java.RecordPatternMatchingJDK19.Color.RED;
+import static com.saurabh.codes.RecordPatternMatchingJDK19.Color.GREEN;
+import static com.saurabh.codes.RecordPatternMatchingJDK19.Color.RED;
 
 public class RecordPatternMatchingJDK19 {
 

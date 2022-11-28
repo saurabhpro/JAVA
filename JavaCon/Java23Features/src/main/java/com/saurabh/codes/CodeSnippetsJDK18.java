@@ -1,4 +1,4 @@
-package saurabh.java;
+package com.saurabh.codes;
 
 public class CodeSnippetsJDK18 {
 
@@ -6,7 +6,7 @@ public class CodeSnippetsJDK18 {
      * The following code shows how to use {@code Optional.isPresent}:
      * {@snippet :
      * if (v.isPresent()) {
-     * System.out.println("v: " + v.get());
+     *     System.out.println("v: " + v.get());
      * }
      *}
      * <p>

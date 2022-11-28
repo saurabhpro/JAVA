@@ -127,6 +127,6 @@
         <module>ReactiveJava</module>
         <module>Java11Updates</module>
         <module>Java17Updates</module>
-        <module>Java23Updates</module>
+        <module>Java23Features</module>
     </modules>
 </project>

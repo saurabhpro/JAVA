@@ -1,4 +1,4 @@
-package saurabh.java;
+package com.saurabh.codes;
 
 public class PatternMatchingForSwitchJDK19 {
 
