@@ -29,14 +29,21 @@ public class RecordPatternMatchingJDK19 {
     }
 
     static void printUpperLeftColoredPoint(Rectangle r) {
-        if (r instanceof Rectangle(ColoredPoint ul,ColoredPoint lr)) {
+        if (r instanceof Rectangle(ColoredPoint ul, ColoredPoint lr)) {
             System.out.println(ul.c() + " " + lr.c());
         }
     }
 
     // what!!!!
     static void printColorOfUpperLeftPoint(Rectangle r) {
-        if (r instanceof Rectangle(ColoredPoint(Point p,Color c),ColoredPoint lr)) {
+        if (r instanceof Rectangle(ColoredPoint(Point p, Color c), ColoredPoint lr)) {
+            System.out.println(c);
+        }
+    }
+
+    // jdk 20 wow
+    static void printUpperLeftColors(Rectangle[] r) {
+        for (Rectangle(ColoredPoint(Point p, Color c), ColoredPoint lr) : r) {
             System.out.println(c);
         }
     }
