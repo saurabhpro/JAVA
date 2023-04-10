@@ -21,7 +21,7 @@ public record User(String username, String emailAddress,
 
     public String toJSON() {
 
-        return "    { 'username' : \"" + username + "\", "
+        return "    { 'userName' : \"" + username + "\", "
                 + " 'emailAddress' : \"" + emailAddress + "\","
                 + " 'securityStatus' : \"" + securityStatus.toString() + "\"},";
     }

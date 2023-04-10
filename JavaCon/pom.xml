@@ -31,7 +31,10 @@
 
         <lombok.version>1.18.26</lombok.version>
         <commons-io.version>2.11.0</commons-io.version>
+
+        <!-- reactive -->
         <rxjava.version>3.1.6</rxjava.version>
+        <projectreactor.version>2022.0.5</projectreactor.version>
     </properties>
 
     <dependencies>
@@ -92,9 +95,9 @@
                 <configuration>
                     <source>${maven.compiler.source}</source>
                     <target>${maven.compiler.target}</target>
-<!--                    <compilerArgs>-->
-<!--                        &#45;&#45;enable-preview-->
-<!--                    </compilerArgs>-->
+                    <!--                    <compilerArgs>-->
+                    <!--                        &#45;&#45;enable-preview-->
+                    <!--                    </compilerArgs>-->
                     <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
             </plugin>
