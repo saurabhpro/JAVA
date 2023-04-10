@@ -15,6 +15,7 @@ In the JDBC example you could use the `fromIterable` factory method. But how do 
 the call to block the rest of the pipeline?
 
 ## Practice
+
 The `subscribeOn` method allow to isolate a sequence from the start on a provided `Scheduler`.
 For example, the `Schedulers.boundedElastic()` will create a pool of threads that grows on demand,
 releasing threads that haven't been used in a while automatically. In order to avoid too many
@@ -24,7 +25,9 @@ to the number of threads it can create and reuse (unlike the now deprecated `ela
 Use that trick to slowly read all users from the blocking `repository` in the first exercise.
 Note that you will need to wrap the call to the repository inside a `Flux.defer` lambda.
 
-@[Slow publisher]({"stubs": ["/../src/rxcore/pivotal/pivotal/literx/Part11BlockingToReactive.java", "/../src/rxcore/pivotal/literx/repository/ReactiveRepository.java"], "command": "io.pivotal.literx.Part11BlockingToReactiveTest#slowPublisherFastSubscriber", "layout":"aside"})
+@[Slow publisher]({"
+stubs": ["/../src/rxcore/pivotal/pivotal/literx/Part11BlockingToReactive.java", "/../src/rxcore/pivotal/literx/repository/ReactiveRepository.java"], "
+command": "io.pivotal.literx.Part11BlockingToReactiveTest#slowPublisherFastSubscriber", "layout":"aside"})
 
 For slow subscribers (eg. saving to a database), you can isolate a smaller section of the
 sequence with the `publishOn` operator. Unlike `subscribeOn`, it only affects the part of
@@ -35,5 +38,6 @@ use the trick above to isolate that save into its own execution context. You can
 more explicit that you're only interested in knowing if the save succeeded or failed by
 chaining the `then()` operator at the end, which returns a `Mono<Void>`.
 
-@[Slow subscriber]({"stubs": ["/../src/rxcore/pivotal/literx/Part11BlockingToReactive.java"], "command": "io.pivotal.literx.Part11BlockingToReactiveTest#fastPublisherSlowSubscriber", "layout":"aside"})
+@[Slow subscriber]({"stubs": ["/../src/rxcore/pivotal/literx/Part11BlockingToReactive.java"], "command": "
+io.pivotal.literx.Part11BlockingToReactiveTest#fastPublisherSlowSubscriber", "layout":"aside"})
 

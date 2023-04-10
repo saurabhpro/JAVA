@@ -1,20 +1,24 @@
 # Transform
 
 ## Description
+
 Reactor ships with several operators that can be used to transform data.
 
-## Practice 
+## Practice
 
 In the first place, we will capitalize a `String`. Since this is a simple 1-1 transformation
 with no expected latency, we can use the `map` operator with a lambda transforming a `T`
 into a `U`.
 
-@[Capitalize data on Mono]({"stubs": ["../src/rxcore/pivotal/literx/Part04Transform.java", "../src/rxcore/pivotal/literx/domain/User.java"], "command": "io.pivotal.literx.Part04TransformTest#transformMono", "layout":"aside"})
+@[Capitalize data on Mono]({"
+stubs": ["../src/rxcore/pivotal/literx/Part04Transform.java", "../src/rxcore/pivotal/literx/domain/User.java"], "
+command": "io.pivotal.literx.Part04TransformTest#transformMono", "layout":"aside"})
 
 We can use exactly the same code on a `Flux`, applying the mapping to each element as it
 becomes available.
 
-@[Capitalize data on Flux]({"stubs": ["../src/rxcore/pivotal/literx/Part04Transform.java"], "command": "io.pivotal.literx.Part04TransformTest#transformFlux", "layout":"aside"})
+@[Capitalize data on Flux]({"stubs": ["../src/rxcore/pivotal/literx/Part04Transform.java"], "command": "
+io.pivotal.literx.Part04TransformTest#transformFlux", "layout":"aside"})
 
 Now imagine that we have to call a webservice to capitalize our String. This new call can
 have latency so we cannot use the synchronous `map` anymore. Instead, we want to represent
@@ -32,5 +36,6 @@ interleave in the resulting `Flux`.
 <img class="marble" src="https://raw.githubusercontent.com/reactor/projectreactor.io/master/src/main/static/assets/img/marble/flatmap.png" alt="">
 
 
-@[Async transformation]({"stubs": ["../src/rxcore/pivotal/literx/Part04Transform.java"], "command": "io.pivotal.literx.Part04TransformTest#asyncTransformFlux", "layout":"aside"})
+@[Async transformation]({"stubs": ["../src/rxcore/pivotal/literx/Part04Transform.java"], "command": "
+io.pivotal.literx.Part04TransformTest#asyncTransformFlux", "layout":"aside"})
 
