@@ -34,7 +34,7 @@
 
         <!-- reactive -->
         <rxjava.version>3.1.6</rxjava.version>
-        <projectreactor.version>2022.0.6</projectreactor.version>
+        <projectreactor.version>2022.0.7</projectreactor.version>
     </properties>
 
     <dependencies>
