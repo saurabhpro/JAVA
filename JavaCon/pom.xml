@@ -130,6 +130,6 @@
         <module>ReactiveX</module>
         <module>Java11Updates</module>
         <module>Java17Updates</module>
-        <module>Java23Features</module>
+        <module>Java21Features</module>
     </modules>
 </project>
