@@ -8,34 +8,38 @@ import java.io.*;
  * Created by Saurabh on 9/14/2015.
  */
 public class SimpleReadAndWrite {
-	private static void write() throws IOException {
-		FileWriter fileWriter = new FileWriter("MyFile.txt");
-		PrintWriter printWriter = new PrintWriter(fileWriter);
 
-		printWriter.println("Hello There");
-		printWriter.println("Folks");
-		fileWriter.close();
-	}
+    private static void write() throws IOException {
+        final var fileWriter = new FileWriter("MyFile.txt");
+        final var printWriter = new PrintWriter(fileWriter);
 
-	private static void read() {
-		try (FileReader fileReader = new FileReader("MyFile.txt")) {
-			BufferedReader bufferedReader = new BufferedReader(fileReader);
-			String data;
-			while ((data = bufferedReader.readLine()) != null)
-				System.out.println(data);
+        printWriter.println("Hello There");
+        printWriter.println("Folks");
+        printWriter.flush();
+        printWriter.close();
+        fileWriter.close();
+    }
 
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
+    private static void read() {
+        try (final var fileReader = new FileReader("MyFile.txt")) {
+            final var bufferedReader = new BufferedReader(fileReader);
+            String data;
+            while ((data = bufferedReader.readLine()) != null) {
+                System.out.println(data);
+            }
 
-	public static void main(String[] args) {
-		try {
-			write();
-			read();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
-	}
+    public static void main(String[] args) {
+        try {
+            write();
+            read();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
 }

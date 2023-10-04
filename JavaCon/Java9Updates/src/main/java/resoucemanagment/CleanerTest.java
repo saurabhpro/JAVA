@@ -13,11 +13,11 @@ public class CleanerTest {
         System.out.println("TutorialsPoint");
         Cleaner cleaner = Cleaner.create();
         if (true) {
-            CleanerTest myObject = new CleanerTest();
+            var myObject = new CleanerTest();
             cleaner.register(myObject, new State());    // register cleaner
         }
         for (int i = 1; i <= 10000; i++) {
-            String[] largeObject = new String[1000];
+            var largeObject = new String[1000];
             try {
                 Thread.sleep(1);
             } catch (InterruptedException e) {

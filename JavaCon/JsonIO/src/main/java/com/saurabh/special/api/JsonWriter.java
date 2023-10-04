@@ -5,6 +5,8 @@
 package com.saurabh.special.api;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,18 +16,20 @@ import java.io.IOException;
  */
 public class JsonWriter {
 
-	public static <T> void writeUsingJackson(String filePath, T object) {
-		//Create a new ObjectMapper, for mapping data to POJO
-		ObjectMapper mapper = new ObjectMapper();
+    private static final Logger LOG = LoggerFactory.getLogger(JsonWriter.class);
 
-		//Set prettyprint option
-		mapper.writerWithDefaultPrettyPrinter();
+    public static <T> void writeUsingJackson(String filePath, T object) {
+        //Create a new ObjectMapper, for mapping data to POJO
+        ObjectMapper mapper = new ObjectMapper();
 
-		//Write the studentDetails data into StudentDetails.json
-		try {
-			mapper.writeValue(new File(filePath), object);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
+        //Set prettyprint option
+        mapper.writerWithDefaultPrettyPrinter();
+
+        //Write the studentDetails data into StudentDetails.json
+        try {
+            mapper.writeValue(new File(filePath), object);
+        } catch (IOException e) {
+            LOG.error(e.getMessage());
+        }
+    }
 }

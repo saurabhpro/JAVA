@@ -16,17 +16,4 @@ public class MoustacheDemoApplication {
         SpringApplication.run(MoustacheDemoApplication.class, args);
     }
 
-
-    @Bean
-    public Mustache.Compiler mustacheCompiler(Mustache.TemplateLoader templateLoader, Environment environment) {
-
-        MustacheEnvironmentCollector collector = new MustacheEnvironmentCollector();
-        collector.setEnvironment(environment);
-
-        return Mustache.compiler()
-                .defaultValue("Some Default Value")
-                .withLoader(templateLoader)
-                .withCollector(collector);
-
-    }
 }

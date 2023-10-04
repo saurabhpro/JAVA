@@ -4,7 +4,7 @@ import com.saurabh.aop.models.Product;
 import com.saurabh.aop.repositories.ProductRepository;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
