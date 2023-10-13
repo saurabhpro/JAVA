@@ -15,8 +15,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.target>20</maven.compiler.target>
-        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
 
         <!-- testing -->
         <junit-jupiter.version>5.10.0</junit-jupiter.version>
@@ -127,9 +127,9 @@
         <module>JsonIO</module>
         <module>RegExMatching</module>
         <module>Streams</module>
-        <module>ReactiveJava</module>
+        <module>ReactiveX</module>
         <module>Java11Updates</module>
         <module>Java17Updates</module>
-        <module>Java23Features</module>
+        <module>Java21Features</module>
     </modules>
 </project>

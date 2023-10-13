@@ -7,7 +7,6 @@ package com.saurabh.special.service;
 import com.saurabh.special.api.JsonWriter;
 import com.saurabh.special.model.StudentDetails;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -15,27 +14,24 @@ import java.util.List;
  */
 public class StudentDetailsToJson implements JsonMapper {
 
-	@Override
-	public void map(String fileName) {
-		//Create a new StudentDetails object
-		StudentDetails studentDetails = new StudentDetails();
+    @Override
+    public void map(String fileName) {
+        //Create a new StudentDetails object
+        var studentDetails = new StudentDetails.Builder();
 
-		//set value to its properties
-		studentDetails.setName("Saurabh");
-		studentDetails.setId(1);
-		studentDetails.setDepartment("Science");
+        //set value to its properties
+        studentDetails.setName("Saurabh")
+                .setId(1)
+                .setDepartment("Science");
 
-		List<String> favoriteSports = new ArrayList<>();
-		favoriteSports.add("Cricket");
-		favoriteSports.add("Tennis");
-		favoriteSports.add("Football");
+        var favoriteSports = List.of("Cricket", "Tennis", "Football");
 
-		studentDetails.setFavoriteSports(favoriteSports);
+        studentDetails.setFavoriteSports(favoriteSports);
 
-		//create the json file
-		JsonWriter.writeUsingJackson(fileName, studentDetails);
+        //create the json file
+        JsonWriter.writeUsingJackson(fileName, studentDetails.build());
 
-		System.out.println("JSON Write successful!!");
+        System.out.println("JSON Write successful!!");
 
-	}
+    }
 }

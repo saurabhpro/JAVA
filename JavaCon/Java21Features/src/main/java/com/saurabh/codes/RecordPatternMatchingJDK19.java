@@ -41,11 +41,11 @@ public class RecordPatternMatchingJDK19 {
         }
     }
 
-    // jdk 20 wow
+    // jdk 20+ wow
     static void printUpperLeftColors(Rectangle[] r) {
-        for (Rectangle(ColoredPoint(Point p, Color c), ColoredPoint lr) : r) {
-            System.out.println(c);
-        }
+//        for (Rectangle(ColoredPoint(Point p, Color c), ColoredPoint lr) : r) {
+//            System.out.println(c);
+//        }
     }
 
 }
