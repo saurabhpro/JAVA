@@ -14,7 +14,7 @@
         <java.version>21</java.version>
         <junit.version.legacy>4.13.2</junit.version.legacy>
         <hemcrest.version>2.2</hemcrest.version>
-        <mockito.version>5.7.0</mockito.version>
+        <mockito.version>5.8.0</mockito.version>
         <junit.version.intellij.supports>5.10.1</junit.version.intellij.supports>
     </properties>
 
@@ -31,7 +31,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.11.0</version>
+                <version>3.12.1</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
