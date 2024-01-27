@@ -22,19 +22,19 @@
         <junit-jupiter.version>5.10.1</junit-jupiter.version>
         <testng.version>7.9.0</testng.version>
         <hemcrest.version>2.2</hemcrest.version>
-        <assertj.version>3.25.1</assertj.version>
+        <assertj.version>3.25.2</assertj.version>
         <avaitility.version>1.7.0</avaitility.version>
 
         <!-- logging -->
         <logback.version>1.4.14</logback.version>
-        <slf4j-api.version>2.0.10</slf4j-api.version>
+        <slf4j-api.version>2.0.11</slf4j-api.version>
 
         <lombok.version>1.18.30</lombok.version>
         <commons-io.version>2.15.1</commons-io.version>
 
         <!-- reactive -->
         <rxjava.version>3.1.8</rxjava.version>
-        <projectreactor.version>2023.0.1</projectreactor.version>
+        <projectreactor.version>2023.0.2</projectreactor.version>
     </properties>
 
     <dependencies>
