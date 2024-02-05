@@ -19,10 +19,10 @@
         <maven.compiler.source>21</maven.compiler.source>
 
         <!-- testing -->
-        <junit-jupiter.version>5.10.1</junit-jupiter.version>
+        <junit-jupiter.version>5.10.2</junit-jupiter.version>
         <testng.version>7.9.0</testng.version>
         <hemcrest.version>2.2</hemcrest.version>
-        <assertj.version>3.25.2</assertj.version>
+        <assertj.version>3.25.3</assertj.version>
         <avaitility.version>1.7.0</avaitility.version>
 
         <!-- logging -->
