@@ -26,7 +26,7 @@
         <avaitility.version>1.7.0</avaitility.version>
 
         <!-- logging -->
-        <logback.version>1.5.2</logback.version>
+        <logback.version>1.5.3</logback.version>
         <slf4j-api.version>2.0.12</slf4j-api.version>
 
         <lombok.version>1.18.30</lombok.version>
@@ -34,7 +34,7 @@
 
         <!-- reactive -->
         <rxjava.version>3.1.8</rxjava.version>
-        <projectreactor.version>2023.0.3</projectreactor.version>
+        <projectreactor.version>2023.0.4</projectreactor.version>
     </properties>
 
     <dependencies>
