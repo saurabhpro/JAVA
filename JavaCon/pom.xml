@@ -20,21 +20,21 @@
 
         <!-- testing -->
         <junit-jupiter.version>5.10.2</junit-jupiter.version>
-        <testng.version>7.9.0</testng.version>
+        <testng.version>7.10.2</testng.version>
         <hemcrest.version>2.2</hemcrest.version>
         <assertj.version>3.25.3</assertj.version>
         <avaitility.version>1.7.0</avaitility.version>
 
         <!-- logging -->
-        <logback.version>1.5.3</logback.version>
-        <slf4j-api.version>2.0.12</slf4j-api.version>
+        <logback.version>1.5.6</logback.version>
+        <slf4j-api.version>2.0.13</slf4j-api.version>
 
-        <lombok.version>1.18.30</lombok.version>
-        <commons-io.version>2.15.1</commons-io.version>
+        <lombok.version>1.18.32</lombok.version>
+        <commons-io.version>2.16.1</commons-io.version>
 
         <!-- reactive -->
         <rxjava.version>3.1.8</rxjava.version>
-        <projectreactor.version>2023.0.4</projectreactor.version>
+        <projectreactor.version>2023.0.5</projectreactor.version>
     </properties>
 
     <dependencies>
@@ -98,7 +98,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.12.1</version>
+                <version>3.13.0</version>
                 <configuration>
                     <source>${maven.compiler.source}</source>
                     <target>${maven.compiler.target}</target>
