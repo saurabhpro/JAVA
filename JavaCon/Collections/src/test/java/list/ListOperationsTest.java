@@ -12,12 +12,14 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.fail;
 
 class ListOperationsTest {
 
 	@Test
-	public void unmodifiableTest() {
+	void unmodifiableTest() {
 		List<String> modifiable = new ArrayList<>();
 		modifiable.add("1");
 
@@ -40,7 +42,7 @@ class ListOperationsTest {
 	}
 
 	@Test
-	public void immutableTest() {
+	void immutableTest() {
 		List<String> modifiable = new ArrayList<>();
 		modifiable.add("1");
 
@@ -63,7 +65,7 @@ class ListOperationsTest {
 	}
 
 	@Test
-	public void givenUsingTheJdk_whenUnmodifiableListIsCreated_thenNotModifiable() {
+	void givenUsingTheJdk_whenUnmodifiableListIsCreated_thenNotModifiable() {
 		List<String> list = new ArrayList<>(Arrays.asList("one", "two", "three"));
 		List<String> unmodifiableList = Collections.unmodifiableList(list);
 		List<String> immutableList = List.of("Tew");
@@ -72,7 +74,7 @@ class ListOperationsTest {
 	}
 
 	@Test
-	public void testList() {
+	void testList() {
 
 		List<String> modifiableList = new ArrayList<>();
 		modifiableList.add("a");

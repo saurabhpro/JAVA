@@ -27,13 +27,14 @@ public class LinkedHashMapClass {
 		// java 21 updates
 		System.out.println("firstEntry: " + hm.firstEntry());
 		System.out.println("lastEntry: " + hm.lastEntry());
-		System.out.println("pollFirstEntry: " + hm.pollFirstEntry());
-		System.out.println("pollFirstEntry: " + hm.pollFirstEntry());
 
 		System.out.println("reversed: " + hm.reversed());
 		System.out.println("sequencedValues: " + hm.sequencedValues());
 		System.out.println("sequencedKeySet: " + hm.sequencedKeySet());
 		System.out.println("sequencedEntrySet: " + hm.sequencedEntrySet());
+
+		System.out.println("pollFirstEntry: " + hm.pollFirstEntry());
+		System.out.println("pollLastEntry: " + hm.pollLastEntry());
 	}
 }
 /*

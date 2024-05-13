@@ -4,7 +4,6 @@
 
 package map.hashmap.api;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.util.Collection;
 import java.util.Map;
@@ -60,7 +59,7 @@ public class MyLinkedHashMap implements Map{
 	}
 
 	@Override
-	public void putAll(@NotNull Map m) {
+	public void putAll(Map m) {
 
 	}
 
@@ -69,19 +68,16 @@ public class MyLinkedHashMap implements Map{
 
 	}
 
-	@NotNull
 	@Override
 	public Set keySet() {
 		return null;
 	}
 
-	@NotNull
 	@Override
 	public Collection values() {
 		return null;
 	}
 
-	@NotNull
 	@Override
 	public Set<Map.Entry> entrySet() {
 		return null;

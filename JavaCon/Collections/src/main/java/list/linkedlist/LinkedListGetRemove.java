@@ -126,6 +126,6 @@ public class LinkedListGetRemove {
 		//   getList();
 		peekList();
 
-
+		System.out.println(linkedList.reversed());
 	}
 }
