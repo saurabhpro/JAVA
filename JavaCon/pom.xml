@@ -15,8 +15,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.target>21</maven.compiler.target>
-        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.release>22</maven.compiler.release>
 
         <!-- testing -->
         <junit-jupiter.version>5.10.2</junit-jupiter.version>
@@ -100,11 +99,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
-                    <source>${maven.compiler.source}</source>
-                    <target>${maven.compiler.target}</target>
-                    <!--                    <compilerArgs>-->
-                    <!--                        &#45;&#45;enable-preview-->
-                    <!--                    </compilerArgs>-->
+                    <release>${maven.compiler.release}</release>
                     <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
             </plugin>
@@ -138,5 +133,6 @@
         <module>Java11Updates</module>
         <module>Java17Updates</module>
         <module>Java21Features</module>
+        <module>Java25Features</module>
     </modules>
 </project>
