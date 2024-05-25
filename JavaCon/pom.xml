@@ -33,7 +33,7 @@
 
         <!-- reactive -->
         <rxjava.version>3.1.8</rxjava.version>
-        <projectreactor.version>2023.0.5</projectreactor.version>
+        <projectreactor.version>2023.0.6</projectreactor.version>
     </properties>
 
     <dependencies>
