@@ -21,7 +21,7 @@
         <junit-jupiter.version>5.10.2</junit-jupiter.version>
         <testng.version>7.10.2</testng.version>
         <hemcrest.version>2.2</hemcrest.version>
-        <assertj.version>3.25.3</assertj.version>
+        <assertj.version>3.26.0</assertj.version>
         <avaitility.version>1.7.0</avaitility.version>
 
         <!-- logging -->
