@@ -15,7 +15,7 @@ public class UnnamedPatternVariable {
         try {
             throw new IllegalArgumentException("test");
         } catch (IllegalStateException _) {
-            System.out.println(STR."Got an illegal state exception for: \{car.name()}");
+//            System.out.println("Got an illegal state exception for: \{car.name()}");
         } catch (RuntimeException _) {
             System.out.println("Got a runtime exception!");
         }
