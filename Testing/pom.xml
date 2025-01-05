@@ -14,8 +14,8 @@
         <java.version>22</java.version>
         <junit.version.legacy>4.13.2</junit.version.legacy>
         <hemcrest.version>3.0</hemcrest.version>
-        <mockito.version>5.14.2</mockito.version>
-        <junit.version.intellij.supports>5.11.3</junit.version.intellij.supports>
+        <mockito.version>5.15.2</mockito.version>
+        <junit.version.intellij.supports>5.11.4</junit.version.intellij.supports>
     </properties>
 
     <dependencies>
