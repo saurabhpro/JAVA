@@ -4,15 +4,15 @@
   "groupSlug": "all",
   "packageRules": [
     {
-      "packagePatterns": [
-        "*"
-      ],
       "groupName": "Renovate Dependency Scan",
-      "groupSlug": "all"
+      "groupSlug": "all",
+      "matchPackageNames": [
+        "*"
+      ]
     }
   ],
   "extends": [
-    "config:base",
+    "config:recommended",
     "schedule:earlyMondays"
   ],
   "ignoreDeps": []
