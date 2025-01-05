@@ -16,6 +16,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>23</maven.compiler.release>
+        <maven.compiler.proc>full</maven.compiler.proc> <!-- https://dzone.com/articles/using-lombok-library-witk-jdk-23 -->
 
         <!-- testing -->
         <junit-jupiter.version>5.11.3</junit-jupiter.version>
