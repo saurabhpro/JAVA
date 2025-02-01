@@ -22,7 +22,7 @@
         <junit-jupiter.version>5.11.4</junit-jupiter.version>
         <testng.version>7.10.2</testng.version>
         <hemcrest.version>3.0</hemcrest.version>
-        <assertj.version>3.27.2</assertj.version>
+        <assertj.version>3.27.3</assertj.version>
         <avaitility.version>1.7.0</avaitility.version>
 
         <!-- logging -->
@@ -34,7 +34,7 @@
 
         <!-- reactive -->
         <rxjava.version>3.1.10</rxjava.version>
-        <projectreactor.version>2024.0.1</projectreactor.version>
+        <projectreactor.version>2024.0.2</projectreactor.version>
     </properties>
 
     <dependencies>
@@ -42,7 +42,7 @@
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
-            <version>26.0.1</version>
+            <version>26.0.2</version>
         </dependency>
 
         <dependency>
