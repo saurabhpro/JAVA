@@ -1,14 +1,17 @@
 {
-  "groupName": "Renovate Dependency Scan",
-  "separateMajorMinor": false,
-  "groupSlug": "all",
+  "separateMajorMinor": true,
+  "separateMultipleMajor": true,
   "packageRules": [
     {
-      "groupName": "Renovate Dependency Scan",
-      "groupSlug": "all",
-      "matchPackageNames": [
-        "*"
-      ]
+      "groupName": "Minor and Patch Dependencies",
+      "groupSlug": "minor-patch",
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchPackageNames": ["*"]
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "groupName": null,
+      "additionalBranchPrefix": "major-"
     }
   ],
   "extends": [
