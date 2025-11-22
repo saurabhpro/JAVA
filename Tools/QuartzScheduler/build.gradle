@@ -3,15 +3,13 @@ plugins {
 }
 
 
-sourceCompatibility = 21
-
 repositories {
     mavenCentral()
 }
 
 dependencies {
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
-    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '6.0.1'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.12.2'
 
     // https://mvnrepository.com/artifact/org.quartz-scheduler/quartz
     implementation group: 'org.quartz-scheduler', name: 'quartz', version: '2.5.1'
