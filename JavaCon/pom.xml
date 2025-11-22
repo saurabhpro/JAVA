@@ -19,22 +19,22 @@
         <maven.compiler.proc>full</maven.compiler.proc> <!-- https://dzone.com/articles/using-lombok-library-witk-jdk-23 -->
 
         <!-- testing -->
-        <junit-jupiter.version>5.12.2</junit-jupiter.version>
+        <junit-jupiter.version>6.0.1</junit-jupiter.version>
         <testng.version>7.11.0</testng.version>
         <hemcrest.version>3.0</hemcrest.version>
-        <assertj.version>3.27.3</assertj.version>
+        <assertj.version>3.27.6</assertj.version>
         <avaitility.version>1.7.0</avaitility.version>
 
         <!-- logging -->
-        <logback.version>1.5.19</logback.version>
+        <logback.version>1.5.21</logback.version>
         <slf4j-api.version>2.0.17</slf4j-api.version>
 
-        <lombok.version>1.18.38</lombok.version>
-        <commons-io.version>2.19.0</commons-io.version>
+        <lombok.version>1.18.42</lombok.version>
+        <commons-io.version>2.21.0</commons-io.version>
 
         <!-- reactive -->
-        <rxjava.version>3.1.10</rxjava.version>
-        <projectreactor.version>2024.0.6</projectreactor.version>
+        <rxjava.version>3.1.12</rxjava.version>
+        <projectreactor.version>2025.0.0</projectreactor.version>
     </properties>
 
     <dependencies>
@@ -42,7 +42,7 @@
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
-            <version>26.0.2</version>
+            <version>26.0.2-1</version>
         </dependency>
 
         <dependency>
@@ -98,7 +98,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.14.0</version>
+                <version>3.14.1</version>
                 <configuration>
                     <release>${maven.compiler.release}</release>
                     <encoding>${project.build.sourceEncoding}</encoding>
