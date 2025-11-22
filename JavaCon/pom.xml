@@ -26,7 +26,7 @@
         <avaitility.version>1.7.0</avaitility.version>
 
         <!-- logging -->
-        <logback.version>1.5.18</logback.version>
+        <logback.version>1.5.19</logback.version>
         <slf4j-api.version>2.0.17</slf4j-api.version>
 
         <lombok.version>1.18.38</lombok.version>
