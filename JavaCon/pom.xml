@@ -19,14 +19,14 @@
         <maven.compiler.proc>full</maven.compiler.proc> <!-- https://dzone.com/articles/using-lombok-library-witk-jdk-23 -->
 
         <!-- testing -->
-        <junit-jupiter.version>6.0.1</junit-jupiter.version>
+        <junit-jupiter.version>6.0.2</junit-jupiter.version>
         <testng.version>7.11.0</testng.version>
         <hemcrest.version>3.0</hemcrest.version>
         <assertj.version>3.27.6</assertj.version>
         <avaitility.version>1.7.0</avaitility.version>
 
         <!-- logging -->
-        <logback.version>1.5.23</logback.version>
+        <logback.version>1.5.24</logback.version>
         <slf4j-api.version>2.0.17</slf4j-api.version>
 
         <lombok.version>1.18.42</lombok.version>
@@ -34,7 +34,7 @@
 
         <!-- reactive -->
         <rxjava.version>3.1.12</rxjava.version>
-        <projectreactor.version>2025.0.1</projectreactor.version>
+        <projectreactor.version>2025.0.2</projectreactor.version>
     </properties>
 
     <dependencies>
