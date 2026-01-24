@@ -20,13 +20,13 @@
 
         <!-- testing -->
         <junit-jupiter.version>6.0.2</junit-jupiter.version>
-        <testng.version>7.11.0</testng.version>
+        <testng.version>7.12.0</testng.version>
         <hemcrest.version>3.0</hemcrest.version>
-        <assertj.version>3.27.6</assertj.version>
+        <assertj.version>3.27.7</assertj.version>
         <avaitility.version>1.7.0</avaitility.version>
 
         <!-- logging -->
-        <logback.version>1.5.24</logback.version>
+        <logback.version>1.5.25</logback.version>
         <slf4j-api.version>2.0.17</slf4j-api.version>
 
         <lombok.version>1.18.42</lombok.version>
