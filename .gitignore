@@ -56,3 +56,5 @@ SpringHibernateAndWebDevelopment/C_BasicSpringBoot/v2_fileUploading/gs-uploading
 
 *.gradle
 *.mvn
+
+**/build/
