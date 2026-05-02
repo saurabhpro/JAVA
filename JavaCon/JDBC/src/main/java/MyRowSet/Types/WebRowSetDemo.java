@@ -4,13 +4,12 @@
 
 package MyRowSet.Types;
 
-//import com.sun.rowset.WebRowSetImpl; - expired
-
-import oracle.jdbc.rowset.OracleWebRowSet;
-
+import javax.sql.rowset.RowSetProvider;
 import javax.sql.rowset.WebRowSet;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.sql.SQLException;
 
 /**
@@ -20,13 +19,17 @@ import java.sql.SQLException;
  * However the WebRowSet object can generate XML document representing itself. You can create thess documents to create
  * copies of the WebRowSet object which makes it easy for you to distribute the information across the web and through
  * firewalls using http
+ *
+ * <p><b>Migration note (ojdbc11 23.x):</b> {@code OracleWebRowSet} was removed with the
+ * {@code oracle.jdbc.rowset} package. Replaced with
+ * {@link RowSetProvider#newFactory()}{@code .createWebRowSet()} — JDK-bundled, vendor-neutral.
  */
 public class WebRowSetDemo {
 	public static void main(String[] args) throws SQLException, ClassNotFoundException, IOException {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
-		WebRowSet webRowSet = new OracleWebRowSet();
+		WebRowSet webRowSet = RowSetProvider.newFactory().createWebRowSet();
 
-		webRowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+		webRowSet.setUrl("jdbc:oracle:thin:@localhost:1521/FREE");
 		webRowSet.setUsername("system");
 		webRowSet.setPassword("98989");
 		webRowSet.setCommand("select * from emp");
@@ -36,8 +39,8 @@ public class WebRowSetDemo {
 			System.out.println(webRowSet.getInt(1) + "\t" + webRowSet.getString(2));
 		}
 
-		FileWriter fileWriter = new FileWriter("C:\\Users\\Saurabh\\Documents\\GitHub\\JAVA\\" +
-				"JavaCon\\JDBC\\src\\MyRowSet\\Types\\emp.xml");
+		Path outputPath = Paths.get(System.getProperty("java.io.tmpdir"), "emp.xml");
+		FileWriter fileWriter = new FileWriter(outputPath.toFile());
 		webRowSet.writeXml(fileWriter);
 	}
 }

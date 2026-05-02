@@ -4,20 +4,21 @@
 
 package MyRowSet.Types;
 
-//import com.sun.rowset.FilteredRowSetImpl; - this is gone
-
-import oracle.jdbc.rowset.OracleFilteredRowSet;
-
 import javax.sql.RowSet;
 import javax.sql.rowset.CachedRowSet;
 import javax.sql.rowset.FilteredRowSet;
 import javax.sql.rowset.Predicate;
+import javax.sql.rowset.RowSetProvider;
 import java.sql.SQLException;
 
 /**
  * Created by Saurabh on 11/29/2015. A filtered RowSet object contains only the filtered rows of the database. The
  * filter criteria is set in the RowSet object and the RowSet only get the filtered data from database to the object.
  * The filters can be created by implementing Predicate interface
+ *
+ * <p><b>Migration note (ojdbc11 23.x):</b> {@code OracleFilteredRowSet} was removed with the
+ * {@code oracle.jdbc.rowset} package. Replaced with
+ * {@link RowSetProvider#newFactory()}{@code .createFilteredRowSet()} — JDK-bundled, vendor-neutral.
  */
 
 public class FilteredRowSetDemo implements Predicate {
@@ -30,10 +31,10 @@ public class FilteredRowSetDemo implements Predicate {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
-		FilteredRowSet filteredRowSet = new OracleFilteredRowSet();
+		FilteredRowSet filteredRowSet = RowSetProvider.newFactory().createFilteredRowSet();
 		filteredRowSet.setUsername("system");
 		filteredRowSet.setPassword("98989");
-		filteredRowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+		filteredRowSet.setUrl("jdbc:oracle:thin:@localhost:1521/FREE");
 		filteredRowSet.setCommand("select * from emp");
 
 		//Filter

@@ -4,13 +4,10 @@
 
 package MyRowSet.Types;
 
-//import com.sun.rowset.JdbcRowSetImpl;
-
-import oracle.jdbc.rowset.OracleJDBCRowSet;
-
 import javax.sql.RowSetEvent;
 import javax.sql.RowSetListener;
 import javax.sql.rowset.JdbcRowSet;
+import javax.sql.rowset.RowSetProvider;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -31,6 +28,12 @@ import java.sql.SQLException;
  * By using the reference implementation constructor that takes a Connection object
  * By using the reference implementation default constructor
  * By using an instance of RowSetFactory, which is created from the class RowSetProvider
+ *
+ * <p><b>Migration note (ojdbc11 23.x):</b> {@code OracleJDBCRowSet(Connection)} was removed
+ * with the {@code oracle.jdbc.rowset} package. Switched to
+ * {@link RowSetProvider#newFactory()}{@code .createJdbcRowSet()} — the rowset now opens its
+ * own connection from the supplied URL/credentials, so the explicit {@link Connection} +
+ * {@code conn.close()} are no longer needed (helper {@link #getOracleConnection()} retained).
  */
 
 class ExampleListener implements RowSetListener {
@@ -55,16 +58,17 @@ class ExampleListener implements RowSetListener {
 
 public class JdbcRowSetDemo {
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
-		Connection conn = getOracleConnection();
-		// Statement st = conn.createStatement();
+		Class.forName("oracle.jdbc.driver.OracleDriver");
 
-		JdbcRowSet jdbcRowSet;
-		jdbcRowSet = new OracleJDBCRowSet(conn);
+		JdbcRowSet jdbcRowSet = RowSetProvider.newFactory().createJdbcRowSet();
+		jdbcRowSet.setUsername("system");
+		jdbcRowSet.setPassword("98989");
+		jdbcRowSet.setUrl("jdbc:oracle:thin:@localhost:1521/FREE");
 		/*
 	    jdbcRowSet = new JdbcRowSetImpl();
         jdbcRowSet.setUsername("system");
         jdbcRowSet.setPassword("98989");
-        jdbcRowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+        jdbcRowSet.setUrl("jdbc:oracle:thin:@localhost:1521/FREE");
         jdbcRowSet.setCommand("select * from bank");
         jdbcRowSet.execute();
         */
@@ -89,17 +93,16 @@ public class JdbcRowSetDemo {
 			System.out.print("name: " + jdbcRowSet.getString("emp_fname"));
 			System.out.println("\tSalary: " + jdbcRowSet.getInt("emp_salary"));
 		}
-		conn.close();
+		jdbcRowSet.close();
 	}
 
 	public static Connection getOracleConnection() throws ClassNotFoundException, SQLException {
 		String driver = "oracle.jdbc.driver.OracleDriver";
-		String url = "jdbc:oracle:thin:@localhost:1521:orcl";
+		String url = "jdbc:oracle:thin:@localhost:1521/FREE";
 		String password = "98989";
 		String username = "system";
 
 		Class.forName(driver);
-		Connection conn = DriverManager.getConnection(url, username, password);
-		return conn;
+		return DriverManager.getConnection(url, username, password);
 	}
 }

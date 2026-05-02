@@ -5,14 +5,10 @@
 package MyRowSet.Types;
 
 
-//import com.sun.rowset.CachedRowSetImpl;
-//import com.sun.rowset.JoinRowSetImpl;
-
-import oracle.jdbc.rowset.OracleCachedRowSet;
-import oracle.jdbc.rowset.OracleJoinRowSet;
-
 import javax.sql.rowset.CachedRowSet;
 import javax.sql.rowset.JoinRowSet;
+import javax.sql.rowset.RowSetFactory;
+import javax.sql.rowset.RowSetProvider;
 import java.sql.SQLException;
 
 /**
@@ -36,27 +32,35 @@ import java.sql.SQLException;
  * <p>
  * The match column is set by calling addRowSet() method for each RowSet object with the column index and the RowSet
  * objects witch you want to join.
+ *
+ * <p><b>Migration note (ojdbc11 23.x):</b> {@code OracleCachedRowSet} and {@code OracleJoinRowSet}
+ * were removed with the {@code oracle.jdbc.rowset} package. Replaced with a single
+ * {@link RowSetFactory} from {@link RowSetProvider#newFactory()} that produces both rowsets
+ * via {@code createCachedRowSet()} / {@code createJoinRowSet()} — vendor-neutral and
+ * survives future driver upgrades.
  */
 public class JoinRowSetDemo {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 
-		CachedRowSet emp = new OracleCachedRowSet();
+		RowSetFactory rowSetFactory = RowSetProvider.newFactory();
+
+		CachedRowSet emp = rowSetFactory.createCachedRowSet();
 		emp.setUsername("system");
 		emp.setPassword("98989");
-		emp.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+		emp.setUrl("jdbc:oracle:thin:@localhost:1521/FREE");
 		emp.setCommand("select * from person");
 		emp.execute();
 
 
-		CachedRowSet dept = new OracleCachedRowSet();
+		CachedRowSet dept = rowSetFactory.createCachedRowSet();
 		dept.setUsername("system");
 		dept.setPassword("98989");
-		dept.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+		dept.setUrl("jdbc:oracle:thin:@localhost:1521/FREE");
 		dept.setCommand("select * from bank");
 		dept.execute();
 
-		JoinRowSet joinRowSet = new OracleJoinRowSet();
+		JoinRowSet joinRowSet = rowSetFactory.createJoinRowSet();
 
         /*
         Each RowSet object added to a JoinRowSet object must have a match column,

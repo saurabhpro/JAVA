@@ -4,12 +4,17 @@
 
 package MyRowSet.Types;
 
-/*This import causes maven to fail hence excluding it*/
-
 import oracle.jdbc.driver.OracleDriver;
-import oracle.jdbc.rowset.OracleCachedRowSet;
 
-import java.io.*;
+import javax.sql.rowset.CachedRowSet;
+import javax.sql.rowset.RowSetProvider;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.sql.SQLException;
 
 /**
@@ -27,15 +32,21 @@ import java.sql.SQLException;
  * On the downside, connection has to be established every time to reflect any changes, performance may be slower than
  * jdbcrowset but on the upside it is lightweight and we can get a better efficiency when working with large amount of
  * data
+ *
+ * <p><b>Migration note (ojdbc11 23.x):</b> ojdbc11 23.x removed the {@code oracle.jdbc.rowset}
+ * package, so {@code OracleCachedRowSet} no longer exists. Replaced with the JDK-bundled
+ * {@link javax.sql.rowset.RowSetProvider#newFactory()} +
+ * {@link javax.sql.rowset.RowSetFactory#createCachedRowSet()}. Variable + return types now use
+ * the {@link CachedRowSet} interface — vendor-neutral and stable across driver upgrades.
  */
 public class CachedRowSetDemo {
-	private final static String fileName = "exceptions.try_with_resources.C:\\Users\\Saurabh\\Documents\\GitHub\\JAVA\\JavaCon\\JDBC\\src\\MyRowSet\\Types\\xyz.txt";
+	private static final Path FILE_PATH = Paths.get(System.getProperty("java.io.tmpdir"), "cached_rowset.bin");
 
 	public static void writeCatchedRowSet() throws SQLException, ClassNotFoundException, IOException {
-		OracleCachedRowSet rowSet = new OracleCachedRowSet();
+		CachedRowSet rowSet = RowSetProvider.newFactory().createCachedRowSet();
 
 		Class.forName(OracleDriver.class.getName());
-		rowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+		rowSet.setUrl("jdbc:oracle:thin:@localhost:1521/FREE");
 		rowSet.setUsername("system");
 		rowSet.setPassword("98989");
 
@@ -43,7 +54,7 @@ public class CachedRowSetDemo {
 		rowSet.setCommand(sql);
 		rowSet.execute();
 
-		FileOutputStream fos = new FileOutputStream(fileName);
+		FileOutputStream fos = new FileOutputStream(FILE_PATH.toFile());
 		ObjectOutputStream out = new ObjectOutputStream(fos);
 
 		out.writeObject(rowSet);
@@ -51,15 +62,15 @@ public class CachedRowSetDemo {
 		rowSet.close();
 	}
 
-	public static OracleCachedRowSet readOracleCatchedRowSet() throws IOException, ClassNotFoundException {
-		FileInputStream fin = new FileInputStream(fileName);
+	public static CachedRowSet readOracleCatchedRowSet() throws IOException, ClassNotFoundException {
+		FileInputStream fin = new FileInputStream(FILE_PATH.toFile());
 		ObjectInputStream in = new ObjectInputStream(fin);
 
-		OracleCachedRowSet oracleCachedRowSet = (OracleCachedRowSet) in.readObject();
+		CachedRowSet cachedRowSet = (CachedRowSet) in.readObject();
 		fin.close();
 		in.close();
 
-		return oracleCachedRowSet;
+		return cachedRowSet;
 
 	}
 
@@ -67,14 +78,14 @@ public class CachedRowSetDemo {
 		try {
 			writeCatchedRowSet();
 
-			OracleCachedRowSet oracleCachedRowSet = readOracleCatchedRowSet();
-			while (oracleCachedRowSet.next()) {
-				System.out.print("ID " + oracleCachedRowSet.getString(1));
-				System.out.print("\tName " + oracleCachedRowSet.getString(2));
-				System.out.println("\tSalary " + oracleCachedRowSet.getString(5));
+			CachedRowSet cachedRowSet = readOracleCatchedRowSet();
+			while (cachedRowSet.next()) {
+				System.out.print("ID " + cachedRowSet.getString(1));
+				System.out.print("\tName " + cachedRowSet.getString(2));
+				System.out.println("\tSalary " + cachedRowSet.getString(5));
 			}
 
-			oracleCachedRowSet.close();
+			cachedRowSet.close();
 		} catch (IOException | SQLException | ClassNotFoundException e) {
 			e.printStackTrace();
 		}
