@@ -1,6 +1,6 @@
 package com.saurabh.java;
 
-import static java.io.IO.*;
+import static java.lang.IO.*;
 import module java.base;
 
 class ModuleImport {
