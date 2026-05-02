@@ -43,7 +43,7 @@ import java.sql.SQLException;
 
 public class RowSetDemo {
 	public static void main(String[] args) {
-		String url = "jdbc:oracle:thin:@localhost:1521:orcl";
+		String url = "jdbc:oracle:thin:@localhost:1521/FREE";
 		String password = "98989";
 		String username = "system";
 

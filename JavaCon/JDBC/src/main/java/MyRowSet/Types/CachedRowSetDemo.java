@@ -13,6 +13,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.sql.SQLException;
 
 /**
@@ -38,13 +40,13 @@ import java.sql.SQLException;
  * the {@link CachedRowSet} interface — vendor-neutral and stable across driver upgrades.
  */
 public class CachedRowSetDemo {
-	private final static String fileName = "exceptions.try_with_resources.C:\\Users\\Saurabh\\Documents\\GitHub\\JAVA\\JavaCon\\JDBC\\src\\MyRowSet\\Types\\xyz.txt";
+	private static final Path FILE_PATH = Paths.get(System.getProperty("java.io.tmpdir"), "cached_rowset.bin");
 
 	public static void writeCatchedRowSet() throws SQLException, ClassNotFoundException, IOException {
 		CachedRowSet rowSet = RowSetProvider.newFactory().createCachedRowSet();
 
 		Class.forName(OracleDriver.class.getName());
-		rowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+		rowSet.setUrl("jdbc:oracle:thin:@localhost:1521/FREE");
 		rowSet.setUsername("system");
 		rowSet.setPassword("98989");
 
@@ -52,7 +54,7 @@ public class CachedRowSetDemo {
 		rowSet.setCommand(sql);
 		rowSet.execute();
 
-		FileOutputStream fos = new FileOutputStream(fileName);
+		FileOutputStream fos = new FileOutputStream(FILE_PATH.toFile());
 		ObjectOutputStream out = new ObjectOutputStream(fos);
 
 		out.writeObject(rowSet);
@@ -61,7 +63,7 @@ public class CachedRowSetDemo {
 	}
 
 	public static CachedRowSet readOracleCatchedRowSet() throws IOException, ClassNotFoundException {
-		FileInputStream fin = new FileInputStream(fileName);
+		FileInputStream fin = new FileInputStream(FILE_PATH.toFile());
 		ObjectInputStream in = new ObjectInputStream(fin);
 
 		CachedRowSet cachedRowSet = (CachedRowSet) in.readObject();

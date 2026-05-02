@@ -48,7 +48,7 @@ public class JoinRowSetDemo {
 		CachedRowSet emp = rowSetFactory.createCachedRowSet();
 		emp.setUsername("system");
 		emp.setPassword("98989");
-		emp.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+		emp.setUrl("jdbc:oracle:thin:@localhost:1521/FREE");
 		emp.setCommand("select * from person");
 		emp.execute();
 
@@ -56,7 +56,7 @@ public class JoinRowSetDemo {
 		CachedRowSet dept = rowSetFactory.createCachedRowSet();
 		dept.setUsername("system");
 		dept.setPassword("98989");
-		dept.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+		dept.setUrl("jdbc:oracle:thin:@localhost:1521/FREE");
 		dept.setCommand("select * from bank");
 		dept.execute();
 

@@ -34,7 +34,7 @@ public class FilteredRowSetDemo implements Predicate {
 		FilteredRowSet filteredRowSet = RowSetProvider.newFactory().createFilteredRowSet();
 		filteredRowSet.setUsername("system");
 		filteredRowSet.setPassword("98989");
-		filteredRowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+		filteredRowSet.setUrl("jdbc:oracle:thin:@localhost:1521/FREE");
 		filteredRowSet.setCommand("select * from emp");
 
 		//Filter

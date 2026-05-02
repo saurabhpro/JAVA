@@ -8,6 +8,8 @@ import javax.sql.rowset.RowSetProvider;
 import javax.sql.rowset.WebRowSet;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.sql.SQLException;
 
 /**
@@ -27,7 +29,7 @@ public class WebRowSetDemo {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		WebRowSet webRowSet = RowSetProvider.newFactory().createWebRowSet();
 
-		webRowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+		webRowSet.setUrl("jdbc:oracle:thin:@localhost:1521/FREE");
 		webRowSet.setUsername("system");
 		webRowSet.setPassword("98989");
 		webRowSet.setCommand("select * from emp");
@@ -37,8 +39,8 @@ public class WebRowSetDemo {
 			System.out.println(webRowSet.getInt(1) + "\t" + webRowSet.getString(2));
 		}
 
-		FileWriter fileWriter = new FileWriter("C:\\Users\\Saurabh\\Documents\\GitHub\\JAVA\\" +
-				"JavaCon\\JDBC\\src\\MyRowSet\\Types\\emp.xml");
+		Path outputPath = Paths.get(System.getProperty("java.io.tmpdir"), "emp.xml");
+		FileWriter fileWriter = new FileWriter(outputPath.toFile());
 		webRowSet.writeXml(fileWriter);
 	}
 }

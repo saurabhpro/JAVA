@@ -63,12 +63,12 @@ public class JdbcRowSetDemo {
 		JdbcRowSet jdbcRowSet = RowSetProvider.newFactory().createJdbcRowSet();
 		jdbcRowSet.setUsername("system");
 		jdbcRowSet.setPassword("98989");
-		jdbcRowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+		jdbcRowSet.setUrl("jdbc:oracle:thin:@localhost:1521/FREE");
 		/*
 	    jdbcRowSet = new JdbcRowSetImpl();
         jdbcRowSet.setUsername("system");
         jdbcRowSet.setPassword("98989");
-        jdbcRowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
+        jdbcRowSet.setUrl("jdbc:oracle:thin:@localhost:1521/FREE");
         jdbcRowSet.setCommand("select * from bank");
         jdbcRowSet.execute();
         */
@@ -98,7 +98,7 @@ public class JdbcRowSetDemo {
 
 	public static Connection getOracleConnection() throws ClassNotFoundException, SQLException {
 		String driver = "oracle.jdbc.driver.OracleDriver";
-		String url = "jdbc:oracle:thin:@localhost:1521:orcl";
+		String url = "jdbc:oracle:thin:@localhost:1521/FREE";
 		String password = "98989";
 		String username = "system";
 
