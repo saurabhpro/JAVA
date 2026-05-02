@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn test:*)",
+      "Bash(/usr/local/bin/mvn test:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
