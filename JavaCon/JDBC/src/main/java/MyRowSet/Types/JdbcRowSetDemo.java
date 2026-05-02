@@ -28,6 +28,12 @@ import java.sql.SQLException;
  * By using the reference implementation constructor that takes a Connection object
  * By using the reference implementation default constructor
  * By using an instance of RowSetFactory, which is created from the class RowSetProvider
+ *
+ * <p><b>Migration note (ojdbc11 23.x):</b> {@code OracleJDBCRowSet(Connection)} was removed
+ * with the {@code oracle.jdbc.rowset} package. Switched to
+ * {@link RowSetProvider#newFactory()}{@code .createJdbcRowSet()} — the rowset now opens its
+ * own connection from the supplied URL/credentials, so the explicit {@link Connection} +
+ * {@code conn.close()} are no longer needed (helper {@link #getOracleConnection()} retained).
  */
 
 class ExampleListener implements RowSetListener {

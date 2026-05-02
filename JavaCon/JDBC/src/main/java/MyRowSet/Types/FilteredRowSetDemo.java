@@ -15,6 +15,10 @@ import java.sql.SQLException;
  * Created by Saurabh on 11/29/2015. A filtered RowSet object contains only the filtered rows of the database. The
  * filter criteria is set in the RowSet object and the RowSet only get the filtered data from database to the object.
  * The filters can be created by implementing Predicate interface
+ *
+ * <p><b>Migration note (ojdbc11 23.x):</b> {@code OracleFilteredRowSet} was removed with the
+ * {@code oracle.jdbc.rowset} package. Replaced with
+ * {@link RowSetProvider#newFactory()}{@code .createFilteredRowSet()} — JDK-bundled, vendor-neutral.
  */
 
 public class FilteredRowSetDemo implements Predicate {

@@ -30,6 +30,12 @@ import java.sql.SQLException;
  * On the downside, connection has to be established every time to reflect any changes, performance may be slower than
  * jdbcrowset but on the upside it is lightweight and we can get a better efficiency when working with large amount of
  * data
+ *
+ * <p><b>Migration note (ojdbc11 23.x):</b> ojdbc11 23.x removed the {@code oracle.jdbc.rowset}
+ * package, so {@code OracleCachedRowSet} no longer exists. Replaced with the JDK-bundled
+ * {@link javax.sql.rowset.RowSetProvider#newFactory()} +
+ * {@link javax.sql.rowset.RowSetFactory#createCachedRowSet()}. Variable + return types now use
+ * the {@link CachedRowSet} interface — vendor-neutral and stable across driver upgrades.
  */
 public class CachedRowSetDemo {
 	private final static String fileName = "exceptions.try_with_resources.C:\\Users\\Saurabh\\Documents\\GitHub\\JAVA\\JavaCon\\JDBC\\src\\MyRowSet\\Types\\xyz.txt";

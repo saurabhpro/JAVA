@@ -17,6 +17,10 @@ import java.sql.SQLException;
  * However the WebRowSet object can generate XML document representing itself. You can create thess documents to create
  * copies of the WebRowSet object which makes it easy for you to distribute the information across the web and through
  * firewalls using http
+ *
+ * <p><b>Migration note (ojdbc11 23.x):</b> {@code OracleWebRowSet} was removed with the
+ * {@code oracle.jdbc.rowset} package. Replaced with
+ * {@link RowSetProvider#newFactory()}{@code .createWebRowSet()} — JDK-bundled, vendor-neutral.
  */
 public class WebRowSetDemo {
 	public static void main(String[] args) throws SQLException, ClassNotFoundException, IOException {
