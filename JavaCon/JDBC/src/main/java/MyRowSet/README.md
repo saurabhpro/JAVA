@@ -67,7 +67,46 @@ EXIT;
 `emp` is enough for `CachedRowSetDemo`, `WebRowSetDemo`, `JdbcRowSetDemo`,
 `FilteredRowSetDemo`. `person` + `bank` are required for `JoinRowSetDemo`.
 
-## 3. Run a demo
+## 3. Browse the DB from IntelliJ (optional, but handy)
+
+IntelliJ Ultimate / DataGrip ship a Database tool window that talks to
+the same container — useful for seeding rows, inspecting state between
+demo runs, or running ad-hoc SQL without re-opening `sqlplus`.
+
+1. **Open the tool window** — `View` → `Tool Windows` → `Database` (or
+   ⌘⇧A → "Database").
+2. **Add data source** — click `+` → `Data Source` → `Oracle`.
+3. **Connection settings** — pick the `Service` tab (not SID):
+
+   | Field    | Value                  |
+   |----------|------------------------|
+   | Host     | `localhost`            |
+   | Port     | `1521`                 |
+   | Service  | `FREE`                 |
+   | User     | `system`               |
+   | Password | `98989`                |
+   | URL type | `Service name`         |
+
+   The generated URL should read
+   `jdbc:oracle:thin:@//localhost:1521/FREE` — same coordinates the demos
+   use.
+4. **Driver** — first time, IntelliJ prompts to download the Oracle JDBC
+   driver. Click `Download driver files`. (Don't reuse the project's
+   `ojdbc11` jar; the IDE manages its own copy.)
+5. **Test Connection** → `Apply` → `OK`. If the test fails with
+   `ORA-12541`, the container isn't ready yet — wait for
+   `DATABASE IS READY TO USE` (step 1).
+6. **Run the seed SQL** — right-click the data source → `New` → `Query
+   Console`, paste the `CREATE TABLE` / `INSERT` block from step 2, then
+   ⌘⏎ to execute. Expand the source in the tree and the new tables show
+   up under `FREE` → `SYSTEM` → `Tables`.
+
+After a demo runs, refresh the table (⌘F5 on `emp`) to see updated
+rows. The Database tool window also surfaces the rowsets the demo
+serialises — open `${java.io.tmpdir}/emp.xml` directly in the editor to
+verify XML output from `WebRowSetDemo`.
+
+## 4. Run a demo
 
 From repo root:
 
@@ -90,7 +129,7 @@ Swap the main class for the demo you want:
 
 In IntelliJ: open the demo, right-click → **Run**.
 
-## 4. Output files
+## 5. Output files
 
 `CachedRowSetDemo` writes the serialised rowset to
 `${java.io.tmpdir}/cached_rowset.bin`, and `WebRowSetDemo` writes the XML
@@ -100,7 +139,7 @@ dump to `${java.io.tmpdir}/emp.xml`. Inspect with:
 ls "$(printf '%s' "$TMPDIR")cached_rowset.bin" "$(printf '%s' "$TMPDIR")emp.xml"
 ```
 
-## 5. Tear down
+## 6. Tear down
 
 ```bash
 docker stop oracle-free && docker rm oracle-free
@@ -116,6 +155,9 @@ docker stop oracle-free && docker rm oracle-free
 - **`ORA-00942: table or view does not exist`** — schema seeding step (2)
   was skipped or pointed at the wrong PDB. Verify with
   `SELECT table_name FROM user_tables;`.
+- **IntelliJ "URL is not specified"** — make sure the URL type dropdown
+  is set to `Service name`, not `SID`. SID `FREE` exists too but the
+  demos use the service URL form (`/FREE`, not `:FREE`).
 - **First container start takes minutes** — Oracle initialises the PDB on
   first boot. Subsequent restarts are fast because data lives in the
   container's volume.
