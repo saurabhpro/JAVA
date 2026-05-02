@@ -4,13 +4,10 @@
 
 package MyRowSet.Types;
 
-//import com.sun.rowset.JdbcRowSetImpl;
-
-import oracle.jdbc.rowset.OracleJDBCRowSet;
-
 import javax.sql.RowSetEvent;
 import javax.sql.RowSetListener;
 import javax.sql.rowset.JdbcRowSet;
+import javax.sql.rowset.RowSetProvider;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -55,11 +52,12 @@ class ExampleListener implements RowSetListener {
 
 public class JdbcRowSetDemo {
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
-		Connection conn = getOracleConnection();
-		// Statement st = conn.createStatement();
+		Class.forName("oracle.jdbc.driver.OracleDriver");
 
-		JdbcRowSet jdbcRowSet;
-		jdbcRowSet = new OracleJDBCRowSet(conn);
+		JdbcRowSet jdbcRowSet = RowSetProvider.newFactory().createJdbcRowSet();
+		jdbcRowSet.setUsername("system");
+		jdbcRowSet.setPassword("98989");
+		jdbcRowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
 		/*
 	    jdbcRowSet = new JdbcRowSetImpl();
         jdbcRowSet.setUsername("system");
@@ -89,7 +87,7 @@ public class JdbcRowSetDemo {
 			System.out.print("name: " + jdbcRowSet.getString("emp_fname"));
 			System.out.println("\tSalary: " + jdbcRowSet.getInt("emp_salary"));
 		}
-		conn.close();
+		jdbcRowSet.close();
 	}
 
 	public static Connection getOracleConnection() throws ClassNotFoundException, SQLException {
@@ -99,7 +97,6 @@ public class JdbcRowSetDemo {
 		String username = "system";
 
 		Class.forName(driver);
-		Connection conn = DriverManager.getConnection(url, username, password);
-		return conn;
+		return DriverManager.getConnection(url, username, password);
 	}
 }

@@ -4,12 +4,15 @@
 
 package MyRowSet.Types;
 
-/*This import causes maven to fail hence excluding it*/
-
 import oracle.jdbc.driver.OracleDriver;
-import oracle.jdbc.rowset.OracleCachedRowSet;
 
-import java.io.*;
+import javax.sql.rowset.CachedRowSet;
+import javax.sql.rowset.RowSetProvider;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.sql.SQLException;
 
 /**
@@ -32,7 +35,7 @@ public class CachedRowSetDemo {
 	private final static String fileName = "exceptions.try_with_resources.C:\\Users\\Saurabh\\Documents\\GitHub\\JAVA\\JavaCon\\JDBC\\src\\MyRowSet\\Types\\xyz.txt";
 
 	public static void writeCatchedRowSet() throws SQLException, ClassNotFoundException, IOException {
-		OracleCachedRowSet rowSet = new OracleCachedRowSet();
+		CachedRowSet rowSet = RowSetProvider.newFactory().createCachedRowSet();
 
 		Class.forName(OracleDriver.class.getName());
 		rowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
@@ -51,15 +54,15 @@ public class CachedRowSetDemo {
 		rowSet.close();
 	}
 
-	public static OracleCachedRowSet readOracleCatchedRowSet() throws IOException, ClassNotFoundException {
+	public static CachedRowSet readOracleCatchedRowSet() throws IOException, ClassNotFoundException {
 		FileInputStream fin = new FileInputStream(fileName);
 		ObjectInputStream in = new ObjectInputStream(fin);
 
-		OracleCachedRowSet oracleCachedRowSet = (OracleCachedRowSet) in.readObject();
+		CachedRowSet cachedRowSet = (CachedRowSet) in.readObject();
 		fin.close();
 		in.close();
 
-		return oracleCachedRowSet;
+		return cachedRowSet;
 
 	}
 
@@ -67,14 +70,14 @@ public class CachedRowSetDemo {
 		try {
 			writeCatchedRowSet();
 
-			OracleCachedRowSet oracleCachedRowSet = readOracleCatchedRowSet();
-			while (oracleCachedRowSet.next()) {
-				System.out.print("ID " + oracleCachedRowSet.getString(1));
-				System.out.print("\tName " + oracleCachedRowSet.getString(2));
-				System.out.println("\tSalary " + oracleCachedRowSet.getString(5));
+			CachedRowSet cachedRowSet = readOracleCatchedRowSet();
+			while (cachedRowSet.next()) {
+				System.out.print("ID " + cachedRowSet.getString(1));
+				System.out.print("\tName " + cachedRowSet.getString(2));
+				System.out.println("\tSalary " + cachedRowSet.getString(5));
 			}
 
-			oracleCachedRowSet.close();
+			cachedRowSet.close();
 		} catch (IOException | SQLException | ClassNotFoundException e) {
 			e.printStackTrace();
 		}

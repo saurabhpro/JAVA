@@ -4,14 +4,11 @@
 
 package MyRowSet.Types;
 
-//import com.sun.rowset.FilteredRowSetImpl; - this is gone
-
-import oracle.jdbc.rowset.OracleFilteredRowSet;
-
 import javax.sql.RowSet;
 import javax.sql.rowset.CachedRowSet;
 import javax.sql.rowset.FilteredRowSet;
 import javax.sql.rowset.Predicate;
+import javax.sql.rowset.RowSetProvider;
 import java.sql.SQLException;
 
 /**
@@ -30,7 +27,7 @@ public class FilteredRowSetDemo implements Predicate {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
-		FilteredRowSet filteredRowSet = new OracleFilteredRowSet();
+		FilteredRowSet filteredRowSet = RowSetProvider.newFactory().createFilteredRowSet();
 		filteredRowSet.setUsername("system");
 		filteredRowSet.setPassword("98989");
 		filteredRowSet.setUrl("jdbc:oracle:thin:@localhost:1521:orcl");
