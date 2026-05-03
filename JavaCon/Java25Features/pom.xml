@@ -11,6 +11,10 @@
 
     <artifactId>Java25Features</artifactId>
 
+    <properties>
+        <maven.compiler.release>25</maven.compiler.release>
+    </properties>
+
     <build>
         <plugins>
             <plugin>
