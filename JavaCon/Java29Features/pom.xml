@@ -17,10 +17,6 @@
       to final and the LTS ships, move the demo into the LTS module.
     -->
 
-    <properties>
-        <maven.compiler.release>26</maven.compiler.release>
-    </properties>
-
     <build>
         <plugins>
             <plugin>
