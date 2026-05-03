@@ -1,17 +1,21 @@
 {
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
+  "platformAutomerge": true,
+  "automergeStrategy": "squash",
   "packageRules": [
     {
       "groupName": "Minor and Patch Dependencies",
       "groupSlug": "minor-patch",
       "matchUpdateTypes": ["minor", "patch"],
-      "matchPackageNames": ["*"]
+      "matchPackageNames": ["*"],
+      "automerge": true
     },
     {
       "matchUpdateTypes": ["major"],
       "groupName": null,
-      "additionalBranchPrefix": "major-"
+      "additionalBranchPrefix": "major-",
+      "automerge": false
     }
   ],
   "extends": [
