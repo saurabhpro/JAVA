@@ -9,10 +9,12 @@ import org.slf4j.LoggerFactory;
  * <p>{@link ScopedValue} is the immutable, structured replacement for {@link ThreadLocal}.
  * Unlike a {@code ThreadLocal} that stays alive for the lifetime of the thread, a scoped
  * value is bound only inside a {@code where(...).run(...)} block — the binding disappears
- * when the block returns. Bindings are inherited by virtual threads spawned from a
- * {@code StructuredTaskScope}, which makes scoped values the recommended way to pass
- * per-request context (user, tenant, trace id) through a virtual-thread call tree
- * without leaking across requests.
+ * when the block returns. Bindings are inherited by child tasks forked from a
+ * {@code StructuredTaskScope} (still preview in JDK 25), which makes scoped values the
+ * recommended way to pass per-request context (user, tenant, trace id) through a
+ * virtual-thread call tree without leaking across requests. Plain
+ * {@code Thread.ofVirtual().start(...)} does <em>not</em> inherit bindings — only the
+ * structured concurrency API does.
  *
  * <p>References:
  * <ul>
