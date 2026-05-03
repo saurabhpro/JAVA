@@ -15,7 +15,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>25</maven.compiler.release>
+        <maven.compiler.release>26</maven.compiler.release>
         <maven.compiler.proc>full</maven.compiler.proc> <!-- https://dzone.com/articles/using-lombok-library-witk-jdk-23 -->
 
         <!-- testing -->
@@ -135,5 +135,6 @@
         <module>Java17Updates</module>
         <module>Java21Features</module>
         <module>Java25Features</module>
+        <module>Java29Features</module>
     </modules>
 </project>
